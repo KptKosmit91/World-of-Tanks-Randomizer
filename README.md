@@ -8,11 +8,17 @@ ________________________________________________________________________________
 CURRENT FEATURES:
 
 -Tank model randomizer
+
 -Gun sound randomizer
+
 -Shell impact sound randomizer
+
 -Crew voice prompts randomizer
+
 -Map music randomizer
+
 -Map foliage randomizer
+
 By default all the options are enabled. You can disable them in the config file.
 ________________________________________________________________________________________________________________________________________
 
