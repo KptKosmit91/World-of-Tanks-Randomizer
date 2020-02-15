@@ -17,5 +17,8 @@ for folderName, subfolders, filenames in os.walk(conf.resOut):
 
 print("Packing done!\nYou are ready to install your mod!")
 
+from shutil import rmtree
+if os.path.exists("Temp"):
+    rmtree("Temp")
 
 sleep(2)
