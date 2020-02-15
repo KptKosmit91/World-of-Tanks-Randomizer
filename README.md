@@ -1,3 +1,5 @@
+[![Image](https://i.ytimg.com/vi/VlDN37WwlM8/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDOU1TBWtiAkp5zk0aFH--nWiT9eg)]
+
 REQUIREMENTS:
 
 -Python 3.7+ is required to run this tool. Older versions might work but it was only tested on this version.
@@ -37,5 +39,3 @@ Special Thanks to:
 
 StranikS-Scan's Decompiled WoT for easy access to non-binary xml files ( github: https://github.com/StranikS-Scan/WorldOfTanks-Decompiled )
 ________________________________________________________________________________________________________________________________________
-
-[![Teaser Video](https://i.ytimg.com/vi/VlDN37WwlM8/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDOU1TBWtiAkp5zk0aFH--nWiT9eg)](https://www.youtube.com/watch?v=VlDN37WwlM8)
