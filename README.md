@@ -21,7 +21,7 @@ CURRENT FEATURES:
 
 -Map music randomizer
 
--Map foliage randomizer
+-Map foliage color randomizer
 
 By default all the options are enabled. You can disable them in the config file.
 ________________________________________________________________________________________________________________________________________
