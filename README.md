@@ -8,15 +8,10 @@ ________________________________________________________________________________
 CURRENT FEATURES:
 
 -Tank model randomizer
-
 -Gun sound randomizer
-
 -Shell impact sound randomizer
-
 -Crew voice prompts randomizer
-
 -Map music randomizer
-
 -Map foliage randomizer
 
 By default all the options are enabled. You can disable them in the config file.
@@ -41,3 +36,6 @@ ________________________________________________________________________________
 Special Thanks to:
 
 StranikS-Scan's Decompiled WoT for easy access to non-binary xml files ( github: https://github.com/StranikS-Scan/WorldOfTanks-Decompiled )
+________________________________________________________________________________________________________________________________________
+
+[![Teaser Video]](https://www.youtube.com/watch?v=VlDN37WwlM8)
