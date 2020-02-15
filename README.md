@@ -38,4 +38,4 @@ Special Thanks to:
 StranikS-Scan's Decompiled WoT for easy access to non-binary xml files ( github: https://github.com/StranikS-Scan/WorldOfTanks-Decompiled )
 ________________________________________________________________________________________________________________________________________
 
-[![Teaser Video]](https://www.youtube.com/watch?v=VlDN37WwlM8)
+[![Teaser Video](https://i.ytimg.com/vi/VlDN37WwlM8/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDOU1TBWtiAkp5zk0aFH--nWiT9eg)](https://www.youtube.com/watch?v=VlDN37WwlM8)
