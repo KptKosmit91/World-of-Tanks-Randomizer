@@ -19,7 +19,7 @@ CURRENT FEATURES:
 
 -Crew voice prompts randomizer
 
--Map music randomizer
+-Map music and name randomizer
 
 -Map foliage color randomizer
 
