@@ -1,5 +1,5 @@
-randomizerversion = "0.7"
-wotversion="1.7.1"
+randomizerversion = "0.8"
+wotversion="1.7.1.2"
 
 resOut = "Output/res/"
 
@@ -23,7 +23,12 @@ countryFolders={
     "A": "usa",
     "R": "ussr"
 }
-seed = open("Temp/seed.txt", 'r').read()
+import os
+
+if os.path.exists("Temp/seed.txt"):
+    seed = open("Temp/seed.txt", 'r').read()
+else:
+    seed = 0
 
 import xml.etree.ElementTree as ET
 
@@ -43,12 +48,15 @@ RandomizeEngineRPM = tankrandomizer.find("RandomizeEngineRPM").text.lower()
 RandomizeMusicOnMaps = tankrandomizer.find("RandomizeMusicOnMaps").text.lower()
 RandomizeCrewPrompts = tankrandomizer.find("RandomizeCrewPrompts").text.lower()
 RandomizeShellImpactSounds = tankrandomizer.find("RandomizeShellImpactSounds").text.lower()
-CustomSounds = tankrandomizer.find("CustomSounds").text.lower()
 
 RandomizeMapNames = tankrandomizer.find("RandomizeMapNames").text.lower()
 RandomizeMapNamesWithTankNames = tankrandomizer.find("RandomizeMapNamesWithTankNames").text.lower()
 
 RandomizeFoliageColor = tankrandomizer.find("RandomizeFoliageColor").text.lower()
+
+CustomSounds = tankrandomizer.find("CustomSounds").text.lower()
+UseAlternativeGunSoundsMod = tankrandomizer.find("UseAlternativeGunSoundsMod").text.lower()
+UseOldGunSoundsMod = tankrandomizer.find("UseOldGunSoundsMod").text.lower()
 
 SensitivityToImpulseMin = float(tankrandomizer.find("SensitivityToImpulseMin").text)
 SensitivityToImpulseMax = float(tankrandomizer.find("SensitivityToImpulseMax").text)
@@ -82,6 +90,26 @@ def getRandomEffects():
     l = []
     for e in effects:
         l.append(e.text)
+
+    if CustomSounds == "true":
+
+        if UseAlternativeGunSoundsMod == "true":
+            tree1 = ET.parse("Addons/AlternativeGunSounds/Config/RandomizerConfig.xml")
+            root1 = tree1.getroot()
+
+            random = root1.find("TankRandomizer")
+            effects = random.find("GunEffectList").findall("Effect")
+            for e in effects:
+                l.append(e.text)
+
+        if UseOldGunSoundsMod == "true":
+            tree1 = ET.parse("Addons/OldGunSounds/Config/RandomizerConfig.xml")
+            root1 = tree1.getroot()
+
+            random = root1.find("TankRandomizer")
+            effects = random.find("GunEffectList").findall("Effect")
+            for e in effects:
+                l.append(e.text)
 
     return l
 

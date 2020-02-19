@@ -11,9 +11,8 @@ randVoice = conf.RandomizeCrewPrompts
 randImp = conf.RandomizeShellImpactSounds
 randCustom = conf.CustomSounds
 
-if randVoice == "false" and randImp == "false" and randCustom == "false":
-    print("Voice and Shell impact sound randomization disabled, skipping.")
-    quit()
+useAGS = conf.UseAlternativeGunSoundsMod
+useOGS = conf.UseOldGunSoundsMod
 
 xmlpath = "Output/res/audioww/audio_mods.xml"
 
@@ -253,8 +252,10 @@ root = tree.getroot()
 events = root.find("events")
 bnks = root.find("loadBanks")
 
-def loadBank(bank):
+def loadBank(bank, doCopy):
     xml.insertElementEmptyNew("bank", bnks).text = bank
+    if doCopy == True:
+        copyfile('Source/res/audioww/' + bank, 'Output/res/audioww/'+bank)
 
 def addEvent(name, mod, add):
     rand = xml.getRandomListIndex(mod, random)
@@ -268,10 +269,20 @@ def addEvent(name, mod, add):
 
     mod.pop(rand)
 
+if randCustom == "true":
+
+    if useAGS:
+
+        loadBank("kk91_altGunSounds.bnk", True)
+
+    if useOGS:
+
+        loadBank("kk91_wpn_old.bnk", True)
+
 
 if randVoice == "true":
 
-    loadBank("epic_battle_voiceover.bnk")
+    loadBank("epic_battle_voiceover.bnk", False)
 
     crewVoiceEventsListCopy = deepcopy(crewVoiceEventsList)
 
@@ -296,9 +307,7 @@ if randImp == "true":
         addEvent(shellImpactSoundEventsList, shellImpactSoundEventsListCopy, 'NPC_PC')
 
 if randCustom == "true":
-    loadBank("randomizer.bnk")
-
-    copyfile('Source/res/audioww/randomizer.bnk', 'Output/res/audioww/randomizer.bnk')
+    loadBank("randomizer.bnk", True)
 
 newtree = ET.ElementTree(root)
 newtree.write(xmlpath)

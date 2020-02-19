@@ -5,7 +5,7 @@
 	special seeds:
 	666 - sets all gun effects to 150mm effects (if RandomizeGunEffectsAndSounds is true) and to strongest engine sound (if RandomizeEngineSounds is true) and shell impact sounds to 150mm HE shell impact (if RandomizeShellImpactSounds is true)
 	-->
-	<Seed>0</Seed>
+	<Seed>1</Seed>
 
 	<!--Name of the exported .wotmod file-->
 	<WotmodFilename>WoTRandomMod_v$randver_$wotver_Seed=$seed</WotmodFilename>
@@ -19,7 +19,6 @@
 		<RandomizeMusicOnMaps>true</RandomizeMusicOnMaps> <!--Randomizes music on maps-->
 		<RandomizeCrewPrompts>true</RandomizeCrewPrompts> <!--Randomizes crew voice prompts-->
 		<RandomizeShellImpactSounds>true</RandomizeShellImpactSounds> <!--Randomizes shell ricochet, penetration and critical hit sounds. It might randomize a ricochet sound with a penetration sound.-->
-		<CustomSounds>true</CustomSounds> <!--Includes additional soundbanks used for randomization, like music from some older WoT events will be used when randomizing if enabled-->
 
 		<RandomizeMapNames>true</RandomizeMapNames> <!--Randomizes map names.-->
 		<RandomizeMapNamesWithTankNames>false</RandomizeMapNamesWithTankNames> <!--Randomize map names with tank names... because why not. requires RandomizeMapNames to be true-->
@@ -27,6 +26,14 @@
 		<RandomizeFoliageColor>true</RandomizeFoliageColor> <!--Randomizes foliage color on maps.-->
 
 		<ChaosModeEnabled>false</ChaosModeEnabled> <!--Tanks will be very chaotic if you enable this... if set to true, requires RandomizeTankModels to be true -->
+
+
+		<CustomSounds>true</CustomSounds> <!--Includes additional soundbanks used for randomization, like music from some older WoT events will be used when randomizing if enabled-->
+		<!--below only work if CustomSounds is true-->
+		<UseAlternativeGunSoundsMod>true</UseAlternativeGunSoundsMod> <!-- adds sounds from my Alternative Gun Sounds ( https://wgmods.net/1660/ ) mod into the list of gun effect randomization-->
+		<UseOldGunSoundsMod>true</UseOldGunSoundsMod> <!-- adds sounds from my Old Gun Sounds ( https://wgmods.net/1887/ ) mod into the list of gun effect randomization-->
+		<!--end CustomSounds dependant settings-->
+
 
 		<!--these two settings control the min and max sensitivityToImpulse of a vehicle
 
