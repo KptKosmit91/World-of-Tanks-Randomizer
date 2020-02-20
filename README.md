@@ -11,9 +11,11 @@ ________________________________________________________________________________
 
 CURRENT FEATURES:
 
+-Config file (Config/RandomizerConfig.xml)
+
 -Tank model randomizer
 
--Gun sound randomizer
+-Gun sound randomizer (including totally new gun sounds if enabled in the config, enabled by default)
 
 -Shell impact sound randomizer
 
@@ -26,11 +28,17 @@ CURRENT FEATURES:
 By default all the options are enabled. You can disable them in the config file.
 ________________________________________________________________________________________________________________________________________
 
+INSTALLING THE TOOL:
+
+Download the tool first, by clicking "Clone or download" --> "Download as ZIP"
+Extract the ZIP anywhere you want, I don't advise putting it anywhere in your World of Tanks folder.
+Please note that this isn't a mod, this is a tool generates mods for you. More info below.
+________________________________________________________________________________________________________________________________________
+
 USAGE:
 
 Run generate.bat
-Before running it you can also set your mod seed in Config/RandomizerConfig.xml. by default it is a random seed (setting it to 0 in the config will generate a random seed on every run)
-Each seed provides different results in game!
+Before running it you can also set your mod seed in Config/RandomizerConfig.xml. by default it is a random seed (setting it to 0 in the config will generate a random seed on every run, each seed provides different results in game)
 Keep in mind, that changing the config won't alter existing .wotmod mods previously made by the program! You'll have to generate them again.
 WARNING: Don't open folders beyond Output/res when running the randomizer, otherwise it will crash!
 ________________________________________________________________________________________________________________________________________
