@@ -72,7 +72,7 @@ def isBlacklisted(tank):
 
     tanks = tankrandomizer.find("ModelRandomizerBlacklist").findall("Tank")
     for t in tanks:
-        if tank == t.text +".xml":
+        if tank.lower() == (t.text +".xml").lower():
             return True
 
     return False

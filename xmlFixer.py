@@ -56,4 +56,15 @@ def work(tank):
 tanks = getFilePaths()
 
 for t in tanks:
+    f = open(t, "r")
+    text=f.read()
+    text = text.replace("	","").replace("<xmlns:xmlref>http://bwt/xmlref</xmlns:xmlref>","")
+
+    f.close()
+
+    f = open(t, "w")
+    f.write(text)
+    f.close()
+
+for t in tanks:
     work(t)
