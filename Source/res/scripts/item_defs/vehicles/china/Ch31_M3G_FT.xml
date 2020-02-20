@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -150,7 +150,7 @@
   <chassis>
     <Chassis_Ch31_M3G_FT>
       <userString>#china_vehicles:Chassis_Ch31_M3G_FT</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>550</price>
       <armor>
@@ -1023,7 +1023,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1043,7 +1043,7 @@
     </Chassis_Ch31_M3G_FT>
     <Chassis_Ch31_M3G_FT_2>
       <userString>#china_vehicles:Chassis_Ch31_M3G_FT_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1760</price>
       <armor>
@@ -1912,7 +1912,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2037,7 +2037,7 @@
             <density>135.653 135.163</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS_2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS_2>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch31_M3G_FT/normal/lod0/Turret_01.model</undamaged>
@@ -2185,7 +2185,7 @@
             <density>139.172 134.959</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_ZiS_3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_ZiS_3>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch31_M3G_FT/normal/lod0/Turret_02.model</undamaged>
@@ -2246,7 +2246,7 @@
     </SCR_210>
     <SCR_508>shared</SCR_508>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2334,7 +2334,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

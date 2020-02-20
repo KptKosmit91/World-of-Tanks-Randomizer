@@ -1,11 +1,11 @@
 <A117_T26E5_Patriot.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40.2</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -75,8 +75,8 @@
     <hangarShadowTexture>vehicles/american/A117_T26E5_Patriot/T26E5_Patriot_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -99,7 +99,7 @@
   <chassis>
     <Chassis_A117_T26E5_Patriot>
       <userString>#usa_vehicles:Chassis_A117_T26E5_Patriot</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>16300</price>
       <armor>
@@ -395,7 +395,7 @@
             <length>0.0766625</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98989</xStart>
@@ -623,7 +623,7 @@
                 <point>-1.40233 1.28849 2.82156</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -654,7 +654,7 @@
             <length>0.0766616</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98985</xStart>
@@ -882,14 +882,14 @@
                 <point>1.67234 1.30971 2.82166</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_A117_T26E5_Patriot>
@@ -897,7 +897,7 @@
   <turrets0>
     <Turret_1_A117_T26E5_Patriot>
       <userString>#usa_vehicles:Turret_1_A117_T26E5_Patriot</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>21800</price>
       <armor>
@@ -982,8 +982,8 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -1002,7 +1002,7 @@
             <density>117.581 119.25</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T7E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T7E1>
       </guns>
       <notInShop>true</notInShop>
       <models>
@@ -1020,8 +1020,8 @@
       <physicsShape>0.877 -0.131 1.000 0.000 0.631 0.066 0.500 0.500 0.500 0.500 0.115 0.500 0.000 0.455 0.000</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -1039,7 +1039,7 @@
   <radios>
     <SCR_528A1>shared</SCR_528A1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <premiumVehicleXPFactor>0.1</premiumVehicleXPFactor>
   <crewXpFactor>1.5</crewXpFactor>
   <physics>
@@ -1089,7 +1089,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

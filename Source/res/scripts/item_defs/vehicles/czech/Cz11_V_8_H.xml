@@ -1,10 +1,10 @@
 <Cz11_V_8_H.xml>
   
   <crew>
-    <commander></commander>
+    <commander />
     <gunner>loader</gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -103,7 +103,7 @@
   <chassis>
     <Chassis_Cz11_V_8_H>
       <userString>#czech_vehicles:Chassis_Cz11_V_8_H</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <unlocks>
@@ -1237,7 +1237,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1257,7 +1257,7 @@
     </Chassis_Cz11_V_8_H>
     <Chassis_Cz11_V_8_H_2>
       <userString>#czech_vehicles:Chassis_Cz11_V_8_H_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4700</price>
       <armor>
@@ -2387,7 +2387,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2409,7 +2409,7 @@
   <turrets0>
     <Turret_1_Cz11_V_8_H>
       <userString>#czech_vehicles:Turret_1_Cz11_V_8_H</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <armor>
@@ -2506,7 +2506,7 @@
             <density>108.225 104.605</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_Skoda_A9>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_Skoda_A9>
         <_47mm_Skoda_A11>shared  <maxAmmo>88</maxAmmo>
           <unlocks>
             <turret>Turret_2_Cz11_V_8_H  <cost>1070</cost>
@@ -2572,7 +2572,7 @@
             <density>108.225 104.605</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_Skoda_A11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_Skoda_A11>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz11_V_8_H/normal/lod0/Turret_01.model</undamaged>
@@ -2656,7 +2656,7 @@
     </Turret_1_Cz11_V_8_H>
     <Turret_2_Cz11_V_8_H>
       <userString>#czech_vehicles:Turret_2_Cz11_V_8_H</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5100</price>
       <unlocks>
@@ -2759,7 +2759,7 @@
             <density>108.225 104.605</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_Skoda_A9>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_Skoda_A9>
         <_47mm_Skoda_A11>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <armor_1>60  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2828,7 +2828,7 @@
             <density>108.225 104.605</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_Skoda_A11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_Skoda_A11>
         <_47mm_Skoda_A11_vylepseny>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <vehicle>Cz09_T_24  <cost>12380</cost>
@@ -2901,7 +2901,7 @@
             <density>107.957 104.596</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_Skoda_A11_vylepseny>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_Skoda_A11_vylepseny>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz11_V_8_H/normal/lod0/Turret_02.model</undamaged>
@@ -3100,7 +3100,7 @@
     <armour>0.82362332</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

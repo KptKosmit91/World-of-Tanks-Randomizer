@@ -1,11 +1,11 @@
 <G16_PzVIB_Tiger_II.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -432,7 +432,7 @@
     <PzVIB_Standardketten>
       <userString>#germany_vehicles:PzVIB_Standardketten</userString>
       <shortUserString>#germany_vehicles:PzVIB_Standardketten_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20080</price>
       <unlocks>
@@ -799,7 +799,7 @@
             <length>0.148016</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.16653</xStart>
@@ -965,7 +965,7 @@
                 <point>-1.64903 1.26643 3.27216</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -996,7 +996,7 @@
             <length>0.137683</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.16653</xStart>
@@ -1160,14 +1160,14 @@
                 <point>1.64902 1.25099 3.27931</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1188,7 +1188,7 @@
     <PzVIB_Vetstaerktketten>
       <userString>#germany_vehicles:PzVIB_Vetstaerktketten</userString>
       <shortUserString>#germany_vehicles:PzVIB_Vetstaerktketten_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>37520</price>
       <armor>
@@ -1551,7 +1551,7 @@
             <length>0.148016</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.16653</xStart>
@@ -1717,7 +1717,7 @@
                 <point>-1.64903 1.26643 3.27216</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1748,7 +1748,7 @@
             <length>0.137683</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.16653</xStart>
@@ -1912,14 +1912,14 @@
                 <point>1.64902 1.25099 3.27931</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1942,7 +1942,7 @@
     <PzVIB_Porsche_Turm>
       <userString>#germany_vehicles:PzVIB_Porsche_Turm</userString>
       <shortUserString>#germany_vehicles:PzVIB_Porsche_Turm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28320</price>
       <unlocks>
@@ -2079,7 +2079,7 @@
             <density>103.002 109.352</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71>
         <_105mm_KwK45_L52>shared  <maxAmmo>42</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2177,7 +2177,7 @@
             <density>88.9836 107.186</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_KwK45_L52>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK45_L52>
         <_105mm_KwK46_L68>shared  <maxAmmo>42</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2271,7 +2271,7 @@
             <density>108.728 98.6166</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_KwK46_L68>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK46_L68>
       </guns>
       <models>
         <undamaged>vehicles/german/G16_PzVIB_Tiger_II/normal/lod0/Turret_01.model</undamaged>
@@ -2463,7 +2463,7 @@
     <PzVIB_Heinschel_Turm>
       <userString>#germany_vehicles:PzVIB_Heinschel_Turm</userString>
       <shortUserString>#germany_vehicles:PzVIB_Heinschel_Turm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>52370</price>
       <unlocks>
@@ -2594,7 +2594,7 @@
             <density>103.002 109.352</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71>
         <_105mm_KwK45_L52>shared  <maxAmmo>42</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2689,7 +2689,7 @@
             <density>88.9836 107.186</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_KwK45_L52>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK45_L52>
         <_105mm_KwK46_L68>shared  <maxAmmo>42</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2783,7 +2783,7 @@
             <density>108.728 98.6166</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_KwK46_L68>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK46_L68>
       </guns>
       <models>
         <undamaged>vehicles/german/G16_PzVIB_Tiger_II/normal/lod0/Turret_02.model</undamaged>
@@ -3093,7 +3093,7 @@
     <armour>0.946403743</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

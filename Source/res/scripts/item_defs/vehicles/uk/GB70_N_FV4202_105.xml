@@ -1,9 +1,9 @@
 <GB70_N_FV4202_105.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -962,7 +962,7 @@
   <chassis>
     <Chassis_GB70_N_FV4202_105>
       <userString>#gb_vehicles:Chassis_GB70_N_FV4202_105</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1747,7 +1747,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1769,7 +1769,7 @@
   <turrets0>
     <Turret_1_GB70_N_FV4202_105>
       <userString>#gb_vehicles:Turret_1_GB70_N_FV4202_105</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1906,7 +1906,7 @@
             <density>103.898 102.415</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_B_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_B_1>
       </guns>
       <models>
         <undamaged>vehicles/british/GB70_N_FV4202_105/normal/lod0/Turret_01.model</undamaged>
@@ -2276,7 +2276,7 @@
     <armour>1.082765372</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <A31_M36_Slagger.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -122,7 +122,7 @@
   <chassis>
     <Chassis_M36_Slagger_4>
       <userString>#usa_vehicles:Chassis_M36_Slagger_4</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>6400</price>
       <unlocks>
@@ -1095,7 +1095,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1115,7 +1115,7 @@
     </Chassis_M36_Slagger_4>
     <Chassis_M36_Slagger_5>
       <userString>#usa_vehicles:Chassis_M36_Slagger_5</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>22100</price>
       <armor>
@@ -2084,7 +2084,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2222,7 +2222,7 @@
             <density>97.2812 98.5835</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A2>
         <_90mm_AT_Gun_M3>shared  <maxAmmo>47</maxAmmo>
           <reloadTime>8</reloadTime>
           <shotDispersionFactors>
@@ -2307,7 +2307,7 @@
             <density>99.9518 100.565</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_AT_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_AT_Gun_M3>
       </guns>
       <models>
         <undamaged>vehicles/american/A31_M36_Slagger/normal/lod0/Turret_01.model</undamaged>
@@ -2489,7 +2489,7 @@
             <density>97.2812 98.5835</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A2>
         <_90mm_AT_Gun_M3>shared  <maxAmmo>47</maxAmmo>
           <reloadTime>8</reloadTime>
           <invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
@@ -2571,7 +2571,7 @@
             <density>99.9518 100.565</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_AT_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_AT_Gun_M3>
       </guns>
       <models>
         <undamaged>vehicles/american/A31_M36_Slagger/normal/lod0/Turret_02.model</undamaged>
@@ -2759,7 +2759,7 @@
     <armour>0.80599386</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

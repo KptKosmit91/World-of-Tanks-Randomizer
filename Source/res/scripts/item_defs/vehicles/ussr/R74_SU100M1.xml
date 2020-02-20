@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>54</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -159,7 +159,7 @@
   <chassis>
     <Chassis_SU100M1>
       <userString>#ussr_vehicles:Chassis_SU100M1</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>9000</price>
       <unlocks>
@@ -532,7 +532,7 @@
             <length>0.175198</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96236</xStart>
@@ -672,7 +672,7 @@
                 <point>-1.21938 1.07671 2.98436</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -703,7 +703,7 @@
             <length>0.175195</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96278</xStart>
@@ -843,14 +843,14 @@
                 <point>1.0892 1.0636 2.98311</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -870,7 +870,7 @@
     </Chassis_SU100M1>
     <Chassis_SU100M1_2>
       <userString>#ussr_vehicles:Chassis_SU100M1_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <armor>
@@ -1239,7 +1239,7 @@
             <length>0.175558</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9975</xStart>
@@ -1379,7 +1379,7 @@
                 <point>1.21938 1.07671 2.98436</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1410,7 +1410,7 @@
             <length>0.176384</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.93886</xStart>
@@ -1550,14 +1550,14 @@
                 <point>0.0892 1.0636 2.98311</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1692,7 +1692,7 @@
             <density>100.225 116.665</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D10S_obr_44>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D10S_obr_44>
         <_100mm_LB-1S>shared  <maxAmmo>44</maxAmmo>
           <unlocks>
             <vehicle>R58_SU-101  <cost>91000</cost>
@@ -1784,7 +1784,7 @@
             <density>110.774 102.551</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_LB-1S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_LB-1S>
       </guns>
       <models>
         <undamaged>vehicles/russian/R74_SU100M1/normal/lod0/Turret_01.model</undamaged>
@@ -1801,8 +1801,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_07</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_SU100M1>
@@ -1914,7 +1914,7 @@
     <armour>1.183443663</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <R140_M4_Loza.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>51.4</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1.8 1.8 0.32 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -125,7 +125,7 @@
   <chassis>
     <Chassis_R140_M4_Loza>
       <userString>#ussr_vehicles:Chassis_R140_M4_Loza</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1041,7 +1041,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1063,7 +1063,7 @@
   <turrets0>
     <Turret_1_R140_M4_Loza>
       <userString>#ussr_vehicles:Turret_1_R140_M4_Loza</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1173,7 +1173,7 @@
             <density>98.1839 102.684</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R140_M4_Loza/normal/lod0/Turret_01.model</undamaged>
@@ -1224,7 +1224,7 @@
   <radios>
     <N19_Marka_II>shared</N19_Marka_II>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1273,7 +1273,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

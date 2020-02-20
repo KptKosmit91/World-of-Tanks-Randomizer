@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
@@ -115,7 +115,7 @@ loader</commander>
   <chassis>
     <Chassis_F114_Projet_4_1>
       <userString>#france_vehicles:Chassis_F114_Projet_4_1</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -365,7 +365,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -411,7 +411,7 @@ loader</commander>
             <length>0.0731312</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.6727</xStart>
@@ -638,7 +638,7 @@ loader</commander>
                 <point>-1.21535 1.02574 2.7981</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -669,7 +669,7 @@ loader</commander>
             <length>0.073089</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.67637</xStart>
@@ -896,7 +896,7 @@ loader</commander>
                 <point>1.21535 1.02574 2.7981</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -905,7 +905,7 @@ loader</commander>
   <turrets0>
     <Turret_1_F114_Projet_4_1>
       <userString>#france_vehicles:Turret_1_F114_Projet_4_1</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -1027,7 +1027,7 @@ loader</commander>
             <aoTextureSize>512 512</aoTextureSize>
             <tiling>1.1 1.1 0.000000 0.000000</tiling>
           </camouflage>
-        </_105mm_D1504_4_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_D1504_4_1>
       </guns>
       <models>
         <undamaged>vehicles/french/F114_Projet_4_1/normal/lod0/Turret_01.model</undamaged>
@@ -1119,7 +1119,7 @@ loader</commander>
   <radios>
     <TRVP_13_A_1>shared</TRVP_13_A_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1168,7 +1168,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -21,7 +21,7 @@ gunner</commander>
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -575,7 +575,7 @@ gunner</commander>
   <chassis>
     <Chassis_GB100_Manticore>
       <userString>#gb_vehicles:Chassis_GB100_Manticore</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -812,7 +812,7 @@ gunner</commander>
             <length>0.0828843</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.78544</xStart>
@@ -966,7 +966,7 @@ gunner</commander>
                 <point>-1.09489 0.814544 2.56605</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -993,7 +993,7 @@ gunner</commander>
             <length>0.0829136</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.70137</xStart>
@@ -1161,14 +1161,14 @@ gunner</commander>
                 <point>0.954927 0.761292 2.56874</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1190,7 +1190,7 @@ gunner</commander>
   <turrets0>
     <Turret_1_GB100_Manticore>
       <userString>#gb_vehicles:Turret_1_GB100_Manticore</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1667,7 +1667,7 @@ gunner</commander>
             <density>104.397 106.784</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_105mm_LT_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_105mm_LT_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB100_Manticore/normal/lod0/Turret_01.model</undamaged>
@@ -1879,7 +1879,7 @@ gunner</commander>
   <radios>
     <C42_VHF>shared</C42_VHF>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1928,7 +1928,7 @@ gunner</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

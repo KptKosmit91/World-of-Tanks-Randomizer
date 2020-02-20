@@ -1,9 +1,9 @@
 <GB23_Centurion.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -485,7 +485,7 @@
   <chassis>
     <Chassis_GB23_Centurion>
       <userString>#gb_vehicles:Chassis_GB23_Centurion</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20200</price>
       <unlocks>
@@ -1474,7 +1474,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1494,7 +1494,7 @@
     </Chassis_GB23_Centurion>
     <Chassis_GB23_Centurion_2>
       <userString>#gb_vehicles:Chassis_GB23_Centurion_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33000</price>
       <armor>
@@ -2479,7 +2479,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2501,7 +2501,7 @@
   <turrets0>
     <Turret_1_GB23_Centurion>
       <userString>#gb_vehicles:Turret_1_GB23_Centurion</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <unlocks>
@@ -2621,7 +2621,7 @@
             <density>118.55 118.975</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_77mm_Gun_MkII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_77mm_Gun_MkII>
         <OQF_17pdr_Gun_Mk_VII>shared  <maxAmmo>73</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 0.380782 -20 0.444444 -20 0.555556 -20 0.619218 -20 1 -20</minPitch>
@@ -2704,7 +2704,7 @@
             <density>117.233 119.234</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII>
       </guns>
       <models>
         <undamaged>vehicles/british/GB23_Centurion/normal/lod0/Turret_01.model</undamaged>
@@ -2832,7 +2832,7 @@
     </Turret_1_GB23_Centurion>
     <Turret_2_GB23_Centurion>
       <userString>#gb_vehicles:Turret_2_GB23_Centurion</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>42000</price>
       <unlocks>
@@ -2955,7 +2955,7 @@
             <density>118.55 118.975</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_77mm_Gun_MkII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_77mm_Gun_MkII>
         <OQF_17pdr_Gun_Mk_VII>shared  <maxAmmo>73</maxAmmo>
           <pitchLimits>
             <minPitch>0 -18 0.380782 -18 0.444444 -18 0.555556 -18 0.619218 -18 1 -18</minPitch>
@@ -3040,7 +3040,7 @@
             <density>117.233 119.234</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII>
         <_20pdr_Gun_Type_A>shared  <maxAmmo>65</maxAmmo>
           <pitchLimits>
             <minPitch>0 -18 0.380782 -18 0.444444 -18 0.555556 -18 0.619218 -18 1 -18</minPitch>
@@ -3129,7 +3129,7 @@
             <density>115.516 119.612</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_A>
       </guns>
       <models>
         <undamaged>vehicles/british/GB23_Centurion/normal/lod0/Turret_02.model</undamaged>
@@ -3379,7 +3379,7 @@
     <armour>0.913171085</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

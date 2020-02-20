@@ -2,11 +2,11 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -551,7 +551,7 @@
   <chassis>
     <SU-14>
       <userString>#ussr_vehicles:SU-14</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <unlocks>
@@ -1539,7 +1539,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1559,7 +1559,7 @@
     </SU-14>
     <SU-14Bis>
       <userString>#ussr_vehicles:SU-14Bis</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>27310</price>
       <armor>
@@ -2543,7 +2543,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2690,7 +2690,7 @@
             <density>105.615 104.39</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_BR-2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_BR-2>
         <_203mm_B-4>shared  <maxAmmo>16</maxAmmo>
           <reloadTime>44</reloadTime>
           <pitchLimits>
@@ -2781,7 +2781,7 @@
             <density>104.389 104.142</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_203mm_B-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_203mm_B-4>
       </guns>
       <models>
         <undamaged>vehicles/russian/R27_SU-14/normal/lod0/Turret_01.model</undamaged>
@@ -2798,8 +2798,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_06</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </SU-14_1>
@@ -2916,7 +2916,7 @@
     <armour>1.001327139</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

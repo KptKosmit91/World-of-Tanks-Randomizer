@@ -1,11 +1,11 @@
 <G107_PzKpfwIII_AusfK.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -114,7 +114,7 @@
   <chassis>
     <Chassis_G107_PzKpfwIII_AusfK>
       <userString>#germany_vehicles:Chassis_G107_PzKpfwIII_AusfK</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -949,7 +949,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -971,7 +971,7 @@
   <turrets0>
     <Turret_1_G107_PzKpfwIII_AusfK>
       <userString>#germany_vehicles:Turret_1_G107_PzKpfwIII_AusfK</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -1083,7 +1083,7 @@
             <density>202.014 204.735</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L43A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L43A>
       </guns>
       <models>
         <undamaged>vehicles/german/G107_PzKpfwIII_AusfK/normal/lod0/Turret_01.model</undamaged>
@@ -1225,7 +1225,7 @@
     <armour>0.907696922</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,8 +2,8 @@
   
   <crew>
     <commander>gunner</commander>
-    <gunner></gunner>
-    <driver></driver>
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -268,7 +268,7 @@
   <chassis>
     <Chassis_GB80_Charioteer>
       <userString>#gb_vehicles:Chassis_GB80_Charioteer</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22000</price>
       <unlocks>
@@ -634,7 +634,7 @@
             <length>0.0932322</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.865</xStart>
@@ -831,7 +831,7 @@
                 <point>-1.18871 1.12279 2.8688</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -858,7 +858,7 @@
             <length>0.0932084</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.86577</xStart>
@@ -1055,14 +1055,14 @@
                 <point>1.31868 1.15557 2.86657</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1082,7 +1082,7 @@
     </Chassis_GB80_Charioteer>
     <Chassis_GB80_Charioteer_2>
       <userString>#gb_vehicles:Chassis_GB80_Charioteer_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32500</price>
       <armor>
@@ -1434,7 +1434,7 @@
             <length>0.0932322</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.865</xStart>
@@ -1631,7 +1631,7 @@
                 <point>-1.18871 1.12279 2.8688</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1658,7 +1658,7 @@
             <length>0.0932084</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.86577</xStart>
@@ -1855,7 +1855,7 @@
                 <point>1.31868 1.15557 2.86657</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1872,7 +1872,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1894,7 +1894,7 @@
   <turrets0>
     <Turret_1_GB80_Charioteer>
       <userString>#gb_vehicles:Turret_1_GB80_Charioteer</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>100</price>
       <notInShop>true</notInShop>
@@ -1997,7 +1997,7 @@
             <density>112.617 123.583</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_AT_Gun_Type_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_AT_Gun_Type_A>
         <_20pdr_AT_Gun_Type_B>shared  <maxAmmo>35</maxAmmo>
           <unlocks>
             <gun>_105mm_AT_Gun_L7  <cost>55000</cost>
@@ -2070,7 +2070,7 @@
             <density>113.4 119.846</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_AT_Gun_Type_B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_AT_Gun_Type_B>
         <_105mm_AT_Gun_L7>shared  <maxAmmo>30</maxAmmo>
           <unlocks>
             <vehicle>GB81_FV4004  <cost>125900</cost>
@@ -2143,7 +2143,7 @@
             <density>117.501 119.773</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_AT_Gun_L7>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_AT_Gun_L7>
       </guns>
       <models>
         <undamaged>vehicles/british/GB80_Charioteer/normal/lod0/Turret_01.model</undamaged>
@@ -2429,7 +2429,7 @@
     <armour>0.735467437</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

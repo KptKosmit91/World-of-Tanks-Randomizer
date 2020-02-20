@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>34</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>5.9 5.9 0.5 0.13</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -104,7 +104,7 @@ loader</commander>
   <chassis>
     <Chassis_Cz03_LT_vz35>
       <userString>#czech_vehicles:Chassis_Cz03_LT_vz35</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>360</price>
       <unlocks>
@@ -1082,7 +1082,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1102,7 +1102,7 @@ loader</commander>
     </Chassis_Cz03_LT_vz35>
     <Chassis_Cz03_LT_vz35_2>
       <userString>#czech_vehicles:Chassis_Cz03_LT_vz35_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>630</price>
       <armor>
@@ -2076,7 +2076,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2098,7 +2098,7 @@ loader</commander>
   <turrets0>
     <Turret_1_Cz03_LT_vz35>
       <userString>#czech_vehicles:Turret_1_Cz03_LT_vz35</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>300</price>
       <unlocks>
@@ -2204,7 +2204,7 @@ loader</commander>
             <density>174.018 178.573</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_Skoda_A3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Skoda_A3>
         <_37mm_Skoda_A8>shared  <maxAmmo>76</maxAmmo>
           <armor>
             <armor_1>25  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2269,7 +2269,7 @@ loader</commander>
             <density>179.347 179.392</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_Skoda_A8>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Skoda_A8>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz03_LT_vz35/normal/lod0/Turret_01.model</undamaged>
@@ -2354,7 +2354,7 @@ loader</commander>
     </Turret_1_Cz03_LT_vz35>
     <Turret_2_Cz03_LT_vz35>
       <userString>#czech_vehicles:Turret_2_Cz03_LT_vz35</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>680</price>
       <unlocks>
@@ -2461,7 +2461,7 @@ loader</commander>
             <density>174.018 178.573</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_Skoda_A3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Skoda_A3>
         <_37mm_Skoda_A8>shared  <maxAmmo>76</maxAmmo>
           <armor>
             <armor_1>25  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2531,7 +2531,7 @@ loader</commander>
             <density>179.347 179.392</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_Skoda_A8>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Skoda_A8>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz03_LT_vz35/normal/lod0/Turret_02.model</undamaged>
@@ -2717,7 +2717,7 @@ loader</commander>
     <armour>0.813602698</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

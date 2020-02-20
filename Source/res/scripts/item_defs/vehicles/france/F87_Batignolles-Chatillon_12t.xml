@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -316,7 +316,7 @@ loader</commander>
   <chassis>
     <Chassis_F87_Batignolles-Chatillon_12t>
       <userString>#france_vehicles:Chassis_F87_Batignolles-Chatillon_12t</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19000</price>
       <unlocks>
@@ -1190,7 +1190,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1210,7 +1210,7 @@ loader</commander>
     </Chassis_F87_Batignolles-Chatillon_12t>
     <Chassis_F87_Batignolles-Chatillon_12t_2>
       <userString>#france_vehicles:Chassis_F87_Batignolles-Chatillon_12t_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>29000</price>
       <armor>
@@ -2080,7 +2080,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2102,7 +2102,7 @@ loader</commander>
   <turrets0>
     <Turret_1_F87_Batignolles-Chatillon_12t>
       <userString>#france_vehicles:Turret_1_AMX_13_75</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2306,7 +2306,7 @@ loader</commander>
             <density>93.5292 94.6311</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_75mm_Vo_920_m_s>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_75mm_Vo_920_m_s>
         <Canon_de_75mm_Vo_1000_m_s>shared  <maxAmmo>52</maxAmmo>
           <unlocks>
             <vehicle>F75_Char_de_25t  <cost>198000</cost>
@@ -2486,7 +2486,7 @@ loader</commander>
             <density>93.5516 94.0066</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_75mm_Vo_1000_m_s>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_75mm_Vo_1000_m_s>
       </guns>
       <models>
         <undamaged>vehicles/french/F87_Batignolles-Chatillon_12t/normal/lod0/Turret_01.model</undamaged>
@@ -2614,7 +2614,7 @@ loader</commander>
     </SCR_508>
     <SCR_528>shared</SCR_528>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2702,7 +2702,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

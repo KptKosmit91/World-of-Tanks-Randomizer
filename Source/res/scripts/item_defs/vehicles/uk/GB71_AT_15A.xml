@@ -1,12 +1,12 @@
 <GB71_AT_15A.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -163,7 +163,7 @@
   <chassis>
     <Chassis_GB71_AT_15A>
       <userString>#gb_vehicles:Chassis_GB71_AT_15A</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>29240</price>
       <notInShop>true</notInShop>
@@ -636,7 +636,7 @@
             <length>0.224685</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.31679</xStart>
@@ -797,7 +797,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -919,7 +919,7 @@
             <density>111.042 113.665</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_17pdr_OQF_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_17pdr_OQF_AT>
       </guns>
       <models>
         <undamaged>vehicles/british/GB71_AT_15A/normal/lod0/Turret_01.model</undamaged>
@@ -1020,7 +1020,7 @@
     <armour>0.863891176</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

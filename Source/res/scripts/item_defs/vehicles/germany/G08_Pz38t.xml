@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -117,7 +117,7 @@
   <chassis>
     <Pz38t_Standardketten>
       <userString>#germany_vehicles:Pz38t_Standardketten</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>620</price>
       <unlocks>
@@ -836,7 +836,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -856,7 +856,7 @@
     </Pz38t_Standardketten>
     <Pz38t_Vetstaerktketten>
       <userString>#germany_vehicles:Pz38t_Vetstaerktketten</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1620</price>
       <armor>
@@ -1571,7 +1571,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1593,7 +1593,7 @@
   <turrets0>
     <LT-40_turm>
       <userString>#germany_vehicles:LT-40_turm</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1620</price>
       <unlocks>
@@ -1702,7 +1702,7 @@
             <density>195.799 195.921</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_38t_L47>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_38t_L47>
         <_20mm_Flak_38_L112>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 1 10</maxPitch>
@@ -1763,7 +1763,7 @@
             <density>198.836 192.553</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
       </guns>
       <models>
         <undamaged>vehicles/german/G08_Pz38t/normal/lod0/Turret_01.model</undamaged>
@@ -1821,14 +1821,14 @@
       </customizationSlots>
       <camouflage>
         <tiling>0.76 0.43 0.000000 0.000000</tiling>
-        <exclusionMask></exclusionMask>
+        <exclusionMask />
         <density>114.722 114.731</density>
         <aoTextureSize>512 256</aoTextureSize>
       </camouflage>
     </LT-40_turm>
     <Pz38t_Ausf_G_turm>
       <userString>#germany_vehicles:Pz38t_Ausf_G_turm</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4000</price>
       <unlocks>
@@ -1935,7 +1935,7 @@
             <density>195.799 195.921</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_38t_L47>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_38t_L47>
         <_20mm_Flak_38_L112>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 0.380783 10 0.444444 8 0.555556 8 0.619218 10 1 10</maxPitch>
@@ -1997,7 +1997,7 @@
             <density>198.836 192.553</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
         <_47mm_PaK_38t_L43>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 1 10</maxPitch>
@@ -2066,7 +2066,7 @@
             <density>196.193 197.984</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_PaK_38t_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_PaK_38t_L43>
       </guns>
       <models>
         <undamaged>vehicles/german/G08_Pz38t/normal/lod0/Turret_02.model</undamaged>
@@ -2123,7 +2123,7 @@
         </slot>
       </customizationSlots>
       <camouflage>
-        <exclusionMask></exclusionMask>
+        <exclusionMask />
         <tiling>0.805 0.415 0.000000 0.000000</tiling>
         <density>105.674 105.628</density>
         <aoTextureSize>512 256</aoTextureSize>
@@ -2255,7 +2255,7 @@
     <armour>0.726633053</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

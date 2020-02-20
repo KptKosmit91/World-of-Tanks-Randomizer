@@ -1,11 +1,11 @@
 <G55_E-75.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -106,7 +106,7 @@
   <chassis>
     <Chassis_E-75>
       <userString>#germany_vehicles:Chassis_E-75</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28000</price>
       <unlocks>
@@ -447,7 +447,7 @@
             <length>0.158774</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.1703</xStart>
@@ -605,7 +605,7 @@
                 <point>-1.50698 1.42017 3.21672</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -636,7 +636,7 @@
             <length>0.158774</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.1702</xStart>
@@ -794,14 +794,14 @@
                 <point>1.50698 1.42017 3.21672</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -821,7 +821,7 @@
     </Chassis_E-75>
     <Chassis_E-75_2>
       <userString>#germany_vehicles:Chassis_E-75_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>60150</price>
       <armor>
@@ -1158,7 +1158,7 @@
             <length>0.159667</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.2237</xStart>
@@ -1316,7 +1316,7 @@
                 <point>1.50698 1.42017 3.21672</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1347,7 +1347,7 @@
             <length>0.159636</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.22364</xStart>
@@ -1505,14 +1505,14 @@
                 <point>1.50698 1.42017 3.21672</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1534,7 +1534,7 @@
   <turrets0>
     <Turret_1_E-75>
       <userString>#germany_vehicles:Turret_1_E-75</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28000</price>
       <unlocks>
@@ -1655,7 +1655,7 @@
             <density>85.8401 80.2419</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71>
         <_105mm_KwK45_L52>shared  <maxAmmo>56</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -1740,7 +1740,7 @@
             <density>87.7032 82.607</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_KwK45_L52>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK45_L52>
         <_105mm_KwK46_L68>shared  <maxAmmo>42</maxAmmo>
           <reloadTime>10.3</reloadTime>
           <shotDispersionFactors>
@@ -1821,7 +1821,7 @@
             <density>81.5288 80.2971</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_KwK46_L68>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK46_L68>
       </guns>
       <models>
         <undamaged>vehicles/german/G55_E-75/normal/lod0/Turret_01.model</undamaged>
@@ -1905,7 +1905,7 @@
     </Turret_1_E-75>
     <Turret_2_E-75>
       <userString>#germany_vehicles:Turret_2_E-75</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>59500</price>
       <unlocks>
@@ -2025,7 +2025,7 @@
             <density>85.8401 80.2419</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71>
         <_105mm_KwK45_L52>shared  <maxAmmo>56</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2106,7 +2106,7 @@
             <density>87.7032 82.607</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_KwK45_L52>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK45_L52>
         <_105mm_KwK46_L68>shared  <maxAmmo>42</maxAmmo>
           <reloadTime>9.1</reloadTime>
           <shotDispersionFactors>
@@ -2187,7 +2187,7 @@
             <density>81.5288 80.2971</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_KwK46_L68>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK46_L68>
         <_128mm_KwK44_L55>shared  <maxAmmo>36</maxAmmo>
           <unlocks>
             <vehicle>G56_E-100  <cost>183010</cost>
@@ -2272,7 +2272,7 @@
             <density>82.6601 88.1717</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_KwK44_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_KwK44_L55>
       </guns>
       <models>
         <undamaged>vehicles/german/G55_E-75/normal/lod0/Turret_02.model</undamaged>
@@ -2472,7 +2472,7 @@
     <armour>1.039360667</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@
   <chassis>
     <Cunningham_E2>
       <userString>#usa_vehicles:Cunningham_E2</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -708,7 +708,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -798,7 +798,7 @@
             <density>120.849 120.905</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_Gun_M1916>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Gun_M1916>
         <_37mm_semiautomatic_gun_M1924>shared  <maxAmmo>100</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -873,10 +873,10 @@
             <density>120.003 119.948</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_semiautomatic_gun_M1924>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_semiautomatic_gun_M1924>
       </guns>
       <userString>#usa_vehicles:Cunningham_D2</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -969,7 +969,7 @@
     <commander>radioman
 gunner
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>41</forward>
@@ -1043,7 +1043,7 @@ loader</commander>
     <armour>0.909431257</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

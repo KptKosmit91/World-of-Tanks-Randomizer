@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>70</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1087,7 +1087,7 @@
   <chassis>
     <Chassis_G112_KanonenJagdPanzer_105>
       <userString>#germany_vehicles:Chassis_G112_KanonenJagdPanzer_105</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2275,7 +2275,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2503,7 +2503,7 @@
             <density>99.3773 97.5451</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_BK_L7>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_BK_L7>
       </guns>
       <models>
         <undamaged>vehicles/german/G112_KanonenJagdPanzer_105/normal/lod0/Turret_01.model</undamaged>
@@ -2527,8 +2527,8 @@
       <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_G112_KanonenJagdPanzer_105>
@@ -2592,7 +2592,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

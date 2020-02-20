@@ -1,12 +1,12 @@
 <R06_T-28.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
-    <radioman></radioman>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -128,7 +128,7 @@
   <chassis>
     <T-28_0>
       <userString>#ussr_vehicles:T-28_0</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2270</price>
       <unlocks>
@@ -1088,7 +1088,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1108,7 +1108,7 @@
     </T-28_0>
     <T-28_A>
       <userString>#ussr_vehicles:T-28_A</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5250</price>
       <armor>
@@ -2066,7 +2066,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2089,7 +2089,7 @@
     <T-28_cylindrical>
       <userString>#ussr_vehicles:T-28_cylindrical</userString>
       <shortUserString>#ussr_vehicles:T-28_cylindrical_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2160</price>
       <unlocks>
@@ -2203,7 +2203,7 @@
             <density>126.424 124.309</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_KT-28>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_KT-28>
         <_57mm_ZiS-8>shared  <maxAmmo>78</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2278,7 +2278,7 @@
             <density>124.859 136.283</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-8>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-8>
         <_76mm_L-10>shared  <maxAmmo>69</maxAmmo>
           <unlocks>
             <gun>_76mm_F-32  <cost>500</cost>
@@ -2355,7 +2355,7 @@
             <density>131.957 138.724</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_L-10>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_L-10>
         <_76mm_F-32>shared  <maxAmmo>69</maxAmmo>
           <armor>
             <armor_1>20  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2430,7 +2430,7 @@
             <density>127.318 131.511</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_F-32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F-32>
         <_57mm_ZiS-4>shared  <maxAmmo>78</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2501,7 +2501,7 @@
             <density>123.137 139.291</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-4>
       </guns>
       <models>
         <undamaged>vehicles/russian/R06_T-28/normal/lod0/Turret_01.model</undamaged>
@@ -2565,7 +2565,7 @@
     <T-28_conic>
       <userString>#ussr_vehicles:T-28_conic</userString>
       <shortUserString>#ussr_vehicles:T-28_conic_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4370</price>
       <armor>
@@ -2663,7 +2663,7 @@
             <density>126.424 124.309</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_KT-28>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_KT-28>
         <_57mm_ZiS-8>shared  <maxAmmo>78</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2729,7 +2729,7 @@
             <density>124.859 136.283</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-8>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-8>
         <_76mm_L-10>shared  <maxAmmo>69</maxAmmo>
           <armor>
             <armor_1>25  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2796,7 +2796,7 @@
             <density>131.957 138.724</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_L-10>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_L-10>
         <_76mm_F-32>shared  <maxAmmo>69</maxAmmo>
           <armor>
             <armor_1>25  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2865,7 +2865,7 @@
             <density>127.318 131.511</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_F-32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F-32>
         <_57mm_ZiS-4>shared  <maxAmmo>78</maxAmmo>
           <reloadTime>2.7</reloadTime>
           <pitchLimits>
@@ -2931,7 +2931,7 @@
             <density>123.137 139.291</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-4>
       </guns>
       <models>
         <undamaged>vehicles/russian/R06_T-28/normal/lod0/Turret_02.model</undamaged>
@@ -3114,7 +3114,7 @@
     <armour>0.843833809</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

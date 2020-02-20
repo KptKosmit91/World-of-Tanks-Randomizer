@@ -1,9 +1,9 @@
 <GB91_Super_Conqueror.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -930,7 +930,7 @@
   <chassis>
     <Chassis_GB91_Super_Conqueror>
       <userString>#gb_vehicles:Chassis_GB91_Super_Conqueror</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1898,7 +1898,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1920,7 +1920,7 @@
   <turrets0>
     <Turret_1_GB91_Super_Conqueror>
       <userString>#gb_vehicles:Turret_1_GB91_Super_Conqueror</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -2046,7 +2046,7 @@
             <density>99.9788 99.9317</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_L1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_L1A1>
       </guns>
       <models>
         <undamaged>vehicles/british/GB91_Super_Conqueror/normal/lod0/Turret_01.model</undamaged>
@@ -2619,7 +2619,7 @@
   <radios>
     <C45>shared</C45>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>

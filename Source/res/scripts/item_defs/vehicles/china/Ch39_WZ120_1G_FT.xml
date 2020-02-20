@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -1175,7 +1175,7 @@
   <chassis>
     <Chassis_Ch39_WZ120_1G_FT>
       <userString>#china_vehicles:Chassis_Ch39_WZ120_1G_FT</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1568,7 +1568,7 @@
             <length>0.134199</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.86217</xStart>
@@ -1729,7 +1729,7 @@
                 <point>-1.2654 1.09228 2.97552</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1756,7 +1756,7 @@
             <length>0.137405</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.85874</xStart>
@@ -1915,14 +1915,14 @@
                 <point>1.41542 1.09291 2.98102</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2128,7 +2128,7 @@
             <density>119.649 129.011</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_60_122TG_FT_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_60_122TG_FT_A>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch39_WZ120_1G_FT/normal/lod0/Turret_01.model</undamaged>
@@ -2145,8 +2145,8 @@
       <physicsShape>1.100 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_Ch39_WZ120_1G_FT>
@@ -2160,7 +2160,7 @@
   <radios>
     <_9RM>shared</_9RM>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2209,7 +2209,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

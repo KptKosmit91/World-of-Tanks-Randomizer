@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -115,7 +115,7 @@
   <chassis>
     <Chassis_Pl12_25TP_KSUST_II>
       <userString>#poland_vehicles:Chassis_Pl12_25TP_KSUST_II</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4500</price>
       <unlocks>
@@ -1027,7 +1027,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1047,7 +1047,7 @@
     </Chassis_Pl12_25TP_KSUST_II>
     <Chassis_Pl12_25TP_KSUST_II_2>
       <userString>#poland_vehicles:Chassis_Pl12_25TP_KSUST_II_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9450</price>
       <armor>
@@ -1955,7 +1955,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1977,7 +1977,7 @@
   <turrets0>
     <Turret_1_Pl12_25TP_KSUST_II>
       <userString>#poland_vehicles:Turret_1_Pl12_25TP_KSUST_II</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4600</price>
       <unlocks>
@@ -2095,7 +2095,7 @@
             <density>129.051 130.77</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_40mm_auto_Boforsa>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_auto_Boforsa>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl12_25TP_KSUST_II/normal/lod0/Turret_01.model</undamaged>
@@ -2179,7 +2179,7 @@
     </Turret_1_Pl12_25TP_KSUST_II>
     <Turret_2_Pl12_25TP_KSUST_II>
       <userString>#poland_vehicles:Turret_2_Pl12_25TP_KSUST_II</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9900</price>
       <unlocks>
@@ -2300,7 +2300,7 @@
             <density>129.051 130.77</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_40mm_auto_Boforsa>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_auto_Boforsa>
         <_75mm_wz_1897>shared  <maxAmmo>77</maxAmmo>
           <unlocks>
             <gun>_75mm_wz_36_37  <cost>4500</cost>
@@ -2386,7 +2386,7 @@
             <density>144.894 145.016</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_wz_1897>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_wz_1897>
         <_75mm_wz_36_37>shared  <maxAmmo>70</maxAmmo>
           <armor>
             <armor_1>45  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2466,7 +2466,7 @@
             <density>128.351 129.782</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_wz_36_37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_wz_36_37>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl12_25TP_KSUST_II/normal/lod0/Turret_02.model</undamaged>
@@ -2568,7 +2568,7 @@
     </N2_C>
     <RKB_C>shared</RKB_C>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2656,7 +2656,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

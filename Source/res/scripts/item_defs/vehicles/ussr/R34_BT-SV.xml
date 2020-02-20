@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
+    <radioman />
+    <driver />
+    <gunner />
   </crew>
   <speedLimits>
     <forward>62</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -131,7 +131,7 @@
   <chassis>
     <BT-SV>
       <userString>#ussr_vehicles:BT-SV</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1200</price>
       <notInShop>true</notInShop>
@@ -337,7 +337,7 @@
             <length>0.183948</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.68804</xStart>
@@ -507,7 +507,7 @@
             <length>0.183948</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.68804</xStart>
@@ -653,7 +653,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -675,7 +675,7 @@
   <turrets0>
     <BT-SV>
       <userString>#ussr_vehicles:BT-SV</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3700</price>
       <notInShop>true</notInShop>
@@ -764,7 +764,7 @@
             <density>105.899 105.729</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_45mm_20KL>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20KL>
       </guns>
       <models>
         <undamaged>vehicles/russian/R34_BT-SV/normal/lod0/Turret_01.model</undamaged>
@@ -885,7 +885,7 @@
     <armour>0.873756736</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

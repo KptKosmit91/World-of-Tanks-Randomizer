@@ -2,10 +2,10 @@
   
   <crew>
     <commander>loader</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <radioman></radioman>
+    <driver />
+    <gunner />
+    <radioman />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>22</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -126,7 +126,7 @@
   <chassis>
     <Chassis_J22_Type_95>
       <userString>#japan_vehicles:Chassis_J22_Type_95</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <unlocks>
@@ -1038,7 +1038,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1058,7 +1058,7 @@
     </Chassis_J22_Type_95>
     <Chassis_J22_Type_95_2>
       <userString>#japan_vehicles:Chassis_J22_Type_95_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4700</price>
       <armor>
@@ -1966,7 +1966,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1988,7 +1988,7 @@
   <turrets0>
     <Turret_1_J22_Type_95>
       <userString>#japan_vehicles:Turret_1_J22_Type_95</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4000</price>
       <notInShop>true</notInShop>
@@ -2088,7 +2088,7 @@
             <density>153.284 154.037</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_70mm_Gun_Type_94>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_70mm_Gun_Type_94>
         <_75mm_Gun_Type_99>shared  <maxAmmo>90</maxAmmo>
           <unlocks>
             <vehicle>J23_Mi_To  <cost>14730</cost>
@@ -2159,7 +2159,7 @@
             <density>134.788 133.782</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Type_99>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Type_99>
       </guns>
       <models>
         <undamaged>vehicles/japan/J22_Type_95/normal/lod0/Turret_01.model</undamaged>
@@ -2334,7 +2334,7 @@
     <armour>0.815169945</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

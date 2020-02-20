@@ -1,11 +1,11 @@
 <G80_Pz_IV_AusfD_bootcamp.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -77,7 +77,7 @@
     <hangarShadowTexture>vehicles/german/G80_Pz_IV_AusfD/Pz_IV_AusfD_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -112,7 +112,7 @@
   <chassis>
     <Chassis_Pz_IV_AusfD_bootcamp>
       <userString>#germany_vehicles:Chassis_Pz_IV_AusfD</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <notInShop>true</notInShop>
@@ -1092,8 +1092,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Pz_IV_AusfD_bootcamp>
@@ -1101,7 +1101,7 @@
   <turrets0>
     <Turret_1_Pz_IV_AusfD_bootcamp>
       <userString>#germany_vehicles:Turret_1_Pz_IV_AusfD</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2200</price>
       <notInShop>true</notInShop>
@@ -1167,7 +1167,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1176,7 +1176,7 @@
             <density>82.0787 81.9473</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_38_L42_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_38_L42_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/german/G80_Pz_IV_AusfD/normal/lod0/Turret_01.model</undamaged>
@@ -1193,7 +1193,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1286,7 +1286,7 @@
     <armour>0.80569684</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -130,7 +130,7 @@
   <chassis>
     <Hetzer_Ausf_A>
       <userString>#germany_vehicles:Hetzer_Ausf_A</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1950</price>
       <unlocks>
@@ -771,7 +771,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -791,7 +791,7 @@
     </Hetzer_Ausf_A>
     <Hetzer_Ausf_B>
       <userString>#germany_vehicles:Hetzer_Ausf_B</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4370</price>
       <armor>
@@ -1428,7 +1428,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1541,7 +1541,7 @@
             <density>162.473 163.755</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_StuK_40_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_StuK_40_L43>
         <_75mm_PaK_39_L48>shared  <reloadTime>3.9</reloadTime>
           <maxAmmo>40</maxAmmo>
           <pitchLimits>
@@ -1604,7 +1604,7 @@
             <density>175.041 178.121</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_PaK_39_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_PaK_39_L48>
         <_105mm_StuH42_L28>shared  <maxAmmo>20</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -1667,7 +1667,7 @@
             <density>163.361 168.677</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28>
       </guns>
       <models>
         <undamaged>vehicles/german/G09_Hetzer/normal/lod0/turret_01.model</undamaged>
@@ -1684,8 +1684,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Hetzer_0>
@@ -1820,7 +1820,7 @@
     <armour>1.049737287</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

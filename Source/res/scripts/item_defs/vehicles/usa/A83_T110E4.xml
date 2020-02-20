@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -601,7 +601,7 @@
   <chassis>
     <Chassis_T110E4>
       <userString>#usa_vehicles:Chassis_T110E4</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1594,7 +1594,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1616,7 +1616,7 @@
   <turrets0>
     <Turret_1_T110E4>
       <userString>#usa_vehicles:Turret_1_T110E4</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1740,7 +1740,7 @@
             <density>98.089 98.4804</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_155mm_AT_Gun_T7E2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_155mm_AT_Gun_T7E2>
       </guns>
       <models>
         <undamaged>vehicles/american/A83_T110E4/normal/lod0/Turret_01.model</undamaged>
@@ -2330,7 +2330,7 @@
     <armour>1.038126183</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

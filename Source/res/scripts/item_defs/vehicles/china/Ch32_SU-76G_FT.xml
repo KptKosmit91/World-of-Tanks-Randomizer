@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -158,7 +158,7 @@
   <chassis>
     <Chassis_Ch32_SU-76G_FT>
       <userString>#china_vehicles:Chassis_Ch32_SU-76G_FT</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1700</price>
       <armor>
@@ -898,7 +898,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -918,7 +918,7 @@
     </Chassis_Ch32_SU-76G_FT>
     <Chassis_Ch32_SU-76G_FT_2>
       <userString>#china_vehicles:Chassis_Ch32_SU-76G_FT_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4280</price>
       <armor>
@@ -1654,7 +1654,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1773,7 +1773,7 @@
             <density>118.915 118.958</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS_2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS_2>
         <_76mm_ZiS_3>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_85mm_56_85TG_FT  <cost>5200</cost>
@@ -1847,7 +1847,7 @@
             <density>118.766 118.797</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_ZiS_3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_ZiS_3>
         <_85mm_56_85TG_FT>shared  <maxAmmo>42</maxAmmo>
           <unlocks>
             <vehicle>Ch33_60G_FT  <cost>10300</cost>
@@ -1921,7 +1921,7 @@
             <density>118.746 119.001</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_56_85TG_FT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_56_85TG_FT>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch32_SU-76G_FT/normal/lod0/Turret_01.model</undamaged>
@@ -1982,7 +1982,7 @@
     </_9RM_shop>
     <A-220_1>shared</A-220_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2070,7 +2070,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <R33_Churchill_LL.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>28</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -118,7 +118,7 @@
   <chassis>
     <Churchll>
       <userString>#ussr_vehicles:Churchll</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>4150</price>
       <notInShop>true</notInShop>
@@ -809,7 +809,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -831,7 +831,7 @@
   <turrets0>
     <Churchll_mk_III>
       <userString>#ussr_vehicles:Churchll_mk_III</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9450</price>
       <notInShop>true</notInShop>
@@ -929,7 +929,7 @@
             <density>256.746 311.473</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_III>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_III>
       </guns>
       <models>
         <undamaged>vehicles/russian/R33_Churchill_LL/normal/lod0/Turret_01.model</undamaged>
@@ -1070,7 +1070,7 @@
     <armour>0.743615214</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <G13_VK3001H.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@
   <chassis>
     <VK3001H>
       <userString>#germany_vehicles:VK3001H</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4700</price>
       <unlocks>
@@ -779,7 +779,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -800,7 +800,7 @@
     <VK3001H_ausf_B>
       <userString>#germany_vehicles:VK3001H_ausf_B</userString>
       <shortUserString>#germany_vehicles:VK3001H_ausf_B_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10170</price>
       <armor>
@@ -1454,7 +1454,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1477,7 +1477,7 @@
     <VK3001H_Standardturm>
       <userString>#germany_vehicles:VK3001H_Standardturm</userString>
       <shortUserString>#germany_vehicles:VK3001H_Standardturm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5130</price>
       <unlocks>
@@ -1595,7 +1595,7 @@
             <density>85.4923 85.8306</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_37_L24>
         <_50mm_KwK_39_L60>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 1 10</maxPitch>
@@ -1674,7 +1674,7 @@
             <density>85.6315 86.6029</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60>
         <_75mm_KwK_40_L43>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -1754,7 +1754,7 @@
             <density>85.4765 84.8631</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L43>
       </guns>
       <models>
         <undamaged>vehicles/german/G13_VK3001H/normal/lod0/Turret_01.model</undamaged>
@@ -1829,7 +1829,7 @@
     <VK3001H_Eliteturm>
       <userString>#germany_vehicles:VK3001H_Eliteturm</userString>
       <shortUserString>#germany_vehicles:VK3001H_Eliteturm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10260</price>
       <unlocks>
@@ -1947,7 +1947,7 @@
             <density>85.4923 85.8306</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_37_L24>
         <_50mm_KwK_39_L60>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2026,7 +2026,7 @@
             <density>85.6315 86.6029</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60>
         <_75mm_KwK_40_L43>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2106,7 +2106,7 @@
             <density>85.4765 84.8631</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L43>
         <_75mm_KwK_40_L48>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2194,7 +2194,7 @@
             <density>83.1294 85.4744</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48>
         <_75mm_KwK_L70>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2274,7 +2274,7 @@
             <density>85.5462 84.2235</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
         <_75mm_KwK41_L58_conic>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2355,7 +2355,7 @@
             <density>90.697 78.1211</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK41_L58_conic>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK41_L58_conic>
         <_105mm_StuH42_L28Pz>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2434,7 +2434,7 @@
             <density>88.0104 82.5997</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28Pz>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28Pz>
       </guns>
       <models>
         <undamaged>vehicles/german/G13_VK3001H/normal/lod0/Turret_02.model</undamaged>
@@ -2628,7 +2628,7 @@
     <armour>0.914334004</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

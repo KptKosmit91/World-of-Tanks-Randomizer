@@ -1,11 +1,11 @@
 <Cz05_T34_100.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>54</forward>
@@ -106,7 +106,7 @@
   <chassis>
     <Chassis_Cz05_T34_100>
       <userString>#czech_vehicles:Chassis_Cz05_T34_100</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <unlocks>
@@ -505,7 +505,7 @@
             <length>0.172581</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97242</xStart>
@@ -642,7 +642,7 @@
                 <point>-1.37539 1.11528 2.80914</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -673,7 +673,7 @@
             <length>0.176052</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.99338</xStart>
@@ -810,14 +810,14 @@
                 <point>1.37539 1.11528 2.80914</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -837,7 +837,7 @@
     </Chassis_Cz05_T34_100>
     <Chassis_Cz05_T34_100_2>
       <userString>#czech_vehicles:Chassis_Cz05_T34_100_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19200</price>
       <armor>
@@ -1228,7 +1228,7 @@
             <length>0.172593</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97266</xStart>
@@ -1365,7 +1365,7 @@
                 <point>1.37539 1.11528 2.80914</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1396,7 +1396,7 @@
             <length>0.176052</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.99338</xStart>
@@ -1533,14 +1533,14 @@
                 <point>0.37539 1.11528 2.80914</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1562,7 +1562,7 @@
   <turrets0>
     <Turret_1_Cz05_T34_100>
       <userString>#czech_vehicles:Turret_1_Cz05_T34_100</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14000</price>
       <armor>
@@ -1687,7 +1687,7 @@
             <density>108.746 114.868</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_vz_44S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_vz_44S>
         <_100mm_vz_44S>shared  <maxAmmo>30</maxAmmo>
           <unlocks>
             <turret>Turret_2_Cz05_T34_100  <cost>7900</cost>
@@ -1781,7 +1781,7 @@
             <density>107.906 115.659</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_vz_44S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_vz_44S>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz05_T34_100/normal/lod0/Turret_01.model</undamaged>
@@ -1865,7 +1865,7 @@
     </Turret_1_Cz05_T34_100>
     <Turret_2_Cz05_T34_100>
       <userString>#czech_vehicles:Turret_2_Cz05_T34_100</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16300</price>
       <armor>
@@ -1991,7 +1991,7 @@
             <density>108.746 114.868</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_vz_44S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_vz_44S>
         <_100mm_vz_44S>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2083,7 +2083,7 @@
             <density>107.906 115.659</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_vz_44S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_vz_44S>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz05_T34_100/normal/lod0/Turret_02.model</undamaged>
@@ -2278,7 +2278,7 @@
     <armour>1.068994729</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

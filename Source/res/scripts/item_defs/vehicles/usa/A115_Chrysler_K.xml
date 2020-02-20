@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1025,7 +1025,7 @@
   <chassis>
     <Chassis_A115_Chrysler_K>
       <userString>#usa_vehicles:Chassis_A115_Chrysler_K</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1371,7 +1371,7 @@
             <length>0.0817659</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.60552</xStart>
@@ -1622,7 +1622,7 @@
                 <point>0.50934 1.2761 3.79706</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1653,7 +1653,7 @@
             <length>0.0806167</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.60976</xStart>
@@ -1904,14 +1904,14 @@
                 <point>0.50934 1.2761 3.79706</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1933,7 +1933,7 @@
   <turrets0>
     <Turret_1_A115_Chrysler_K>
       <userString>#usa_vehicles:Turret_1_A115_Chrysler_K</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2084,7 +2084,7 @@
             <density>106.198 91.2546</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1_2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1_2>
       </guns>
       <models>
         <undamaged>vehicles/american/A115_Chrysler_K/normal/lod0/Turret_01.model</undamaged>
@@ -2593,9 +2593,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -156,7 +156,7 @@
   <chassis>
     <Wespeketten_ausf_A>
       <userString>#germany_vehicles:Wespeketten_ausf_A</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <unlocks>
@@ -1128,7 +1128,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1148,7 +1148,7 @@
     </Wespeketten_ausf_A>
     <Wespeketten_ausf_B>
       <userString>#germany_vehicles:Wespeketten_ausf_B</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1860</price>
       <armor>
@@ -2116,7 +2116,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2235,7 +2235,7 @@
             <density>105.285 109.504</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_105mm_leFH16_L22>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_leFH16_L22>
         <_105mm_leFH18_L28>shared  <maxAmmo>32</maxAmmo>
           <pitchLimits>
             <minPitch>0 -42 1 -42</minPitch>
@@ -2299,7 +2299,7 @@
             <density>123.419 127.696</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_105mm_leFH18_L28>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_leFH18_L28>
       </guns>
       <models>
         <undamaged>vehicles/german/G19_Wespe/normal/lod0/Turret_01.model</undamaged>
@@ -2461,7 +2461,7 @@
     <armour>0.528511401</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

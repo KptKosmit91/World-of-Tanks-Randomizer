@@ -1,11 +1,11 @@
 <A44_M4A2E4.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>52</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -136,7 +136,7 @@
   <chassis>
     <Chassis_M4A2E4>
       <userString>#usa_vehicles:Chassis_M4A2E4</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8300</price>
       <notInShop>true</notInShop>
@@ -411,7 +411,7 @@
             <length>0.137363</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.99937</xStart>
@@ -573,7 +573,7 @@
                 <point>-1.20097 1.01039 2.97597</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -600,7 +600,7 @@
             <length>0.137366</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9993</xStart>
@@ -762,14 +762,14 @@
                 <point>1.20099 1.01938 2.97616</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -791,7 +791,7 @@
   <turrets0>
     <Turret_1_M4A2E4>
       <userString>#usa_vehicles:Turret_1_M4A2E4</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9650</price>
       <notInShop>true</notInShop>
@@ -901,7 +901,7 @@
             <density>103.652 107.034</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37A>
       </guns>
       <models>
         <undamaged>vehicles/american/A44_M4A2E4/normal/lod0/Turret_01.model</undamaged>
@@ -1023,7 +1023,7 @@
     <armour>1.030682975</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

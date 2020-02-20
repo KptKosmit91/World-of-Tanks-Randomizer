@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -119,7 +119,7 @@ loader</commander>
   <chassis>
     <Chassis_ELC_AMX>
       <userString>#france_vehicles:Chassis_ELC_AMX</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4200</price>
       <unlocks>
@@ -384,7 +384,7 @@ loader</commander>
             <length>0.129454</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.01123</xStart>
@@ -532,7 +532,7 @@ loader</commander>
                 <point>-1.14117 0.927468 2.00203</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -559,7 +559,7 @@ loader</commander>
             <length>0.129614</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.00748</xStart>
@@ -707,14 +707,14 @@ loader</commander>
                 <point>1.14126 0.898519 2.01067</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -734,7 +734,7 @@ loader</commander>
     </Chassis_ELC_AMX>
     <Chassis_ELC_AMX_2>
       <userString>#france_vehicles:Chassis_ELC_AMX_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9510</price>
       <armor>
@@ -995,7 +995,7 @@ loader</commander>
             <length>0.129454</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.01123</xStart>
@@ -1143,7 +1143,7 @@ loader</commander>
                 <point>-1.14117 0.927468 2.00203</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1170,7 +1170,7 @@ loader</commander>
             <length>0.129614</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.00748</xStart>
@@ -1318,14 +1318,14 @@ loader</commander>
                 <point>1.14126 0.898519 2.01067</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1347,7 +1347,7 @@ loader</commander>
   <turrets0>
     <Turret_1_ELC_AMX>
       <userString>#france_vehicles:Turret_1_ELC_AMX</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>4800</price>
       <notInShop>true</notInShop>
@@ -1461,7 +1461,7 @@ loader</commander>
             <density>197.589 204.434</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_SA32L>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA32L>
         <_75mm_Long_44L>shared  <maxAmmo>48</maxAmmo>
           <pitchLimits>
             <minPitch>0 -13 1 -13</minPitch>
@@ -1544,7 +1544,7 @@ loader</commander>
             <density>183.642 199.375</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Long_44L>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Long_44L>
         <_90mm_D914>shared  <maxAmmo>36</maxAmmo>
           <pitchLimits>
             <minPitch>0 -13 1 -13</minPitch>
@@ -1628,7 +1628,7 @@ loader</commander>
             <density>192.745 195.611</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_D914>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_D914>
       </guns>
       <models>
         <undamaged>vehicles/french/F62_ELC_AMX/normal/lod0/Turret_01.model</undamaged>
@@ -1804,7 +1804,7 @@ loader</commander>
     <armour>0.852514147</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

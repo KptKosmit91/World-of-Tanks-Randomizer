@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -822,7 +822,7 @@
   <chassis>
     <Chassis_R129_Object_257>
       <userString>#ussr_vehicles:Chassis_R129_Object_257</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1613,7 +1613,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1635,7 +1635,7 @@
   <turrets0>
     <Turret_1_R129_Object_257>
       <userString>#ussr_vehicles:Turret_1_R129_Object_257</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1818,7 +1818,7 @@
             <density>105.093 102.368</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122mm_BL-13-1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-13-1>
       </guns>
       <models>
         <undamaged>vehicles/russian/R129_Object_257/normal/lod0/Turret_01.model</undamaged>
@@ -2351,7 +2351,7 @@
   <radios>
     <_10RK-26>shared</_10RK-26>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2399,7 +2399,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

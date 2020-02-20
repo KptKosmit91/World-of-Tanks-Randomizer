@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -100,7 +100,7 @@
   <chassis>
     <Chassis_RenaultFT2>
       <userString>#france_vehicles:Chassis_RenaultFT2</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -753,7 +753,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -775,7 +775,7 @@
   <turrets0>
     <Turret_2_RenaultFT>
       <userString>#france_vehicles:Turret_2_RenaultFT</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -866,7 +866,7 @@
             <density>140.052 139.325</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_APX_SA18>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_APX_SA18>
         <_13.2mm_Hotchkiss_mle._1930>shared  <unlocks>
             <vehicle>F30_RenaultFT_AC  <cost>280</cost>
             </vehicle>
@@ -937,7 +937,7 @@
             <density>134.202 133.907</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_13.2mm_Hotchkiss_mle._1930>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_13.2mm_Hotchkiss_mle._1930>
       </guns>
       <models>
         <undamaged>vehicles/french/F01_RenaultFT/normal/lod0/Turret_02.model</undamaged>
@@ -1003,7 +1003,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>21</forward>
@@ -1077,7 +1077,7 @@ loader</commander>
     <armour>0.868342991</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

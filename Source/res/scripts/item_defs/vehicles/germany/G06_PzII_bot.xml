@@ -2,7 +2,7 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -73,7 +73,7 @@
     <hangarShadowTexture>vehicles/german/G06_PzII/PzII_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -109,7 +109,7 @@
     <PzII_ketten_Ausf_A_bot>
       <userString>#germany_vehicles:PzII_ketten_Ausf_A_bot</userString>
       <shortUserString>#germany_vehicles:PzII_ketten_Ausf_A_bot_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>300</price>
       <notInShop>true</notInShop>
@@ -363,8 +363,8 @@
       </trackNodes>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </PzII_ketten_Ausf_A_bot>
@@ -438,7 +438,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -447,7 +447,7 @@
             <density>113.945 117.141</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_30_bot>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_30_bot>
       </guns>
       <models>
         <undamaged>vehicles/german/G06_PzII/normal/lod0/Turret_01.model</undamaged>
@@ -464,7 +464,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -481,7 +481,7 @@
         </slot>
       </customizationSlots>
       <camouflage>
-        <exclusionMask></exclusionMask>
+        <exclusionMask />
         <tiling>1 0.49 0.000000 0.000000</tiling>
         <density>118.484 118.161</density>
         <aoTextureSize>512 256</aoTextureSize>
@@ -543,9 +543,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

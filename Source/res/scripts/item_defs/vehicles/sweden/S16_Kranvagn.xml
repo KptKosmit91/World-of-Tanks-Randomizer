@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -731,7 +731,7 @@ loader</commander>
   <chassis>
     <Chassis_S16_Kranvagn>
       <userString>#sweden_vehicles:Chassis_S16_Kranvagn</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1465,7 +1465,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1487,7 +1487,7 @@ loader</commander>
   <turrets0>
     <Turret_1_S16_Kranvagn>
       <userString>#sweden_vehicles:Turret_1_S16_Kranvagn</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1859,7 +1859,7 @@ loader</commander>
             <density>116.212 114.399</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_120mm_akan_L_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_akan_L_40>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S16_Kranvagn/normal/lod0/Turret_01.model</undamaged>
@@ -2473,7 +2473,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

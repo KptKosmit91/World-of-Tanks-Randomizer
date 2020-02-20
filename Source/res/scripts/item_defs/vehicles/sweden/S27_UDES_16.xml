@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -130,7 +130,7 @@ loader</commander>
   <chassis>
     <Chassis_S27_UDES_16>
       <userString>#sweden_vehicles:Chassis_S27_UDES_16</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <unlocks>
@@ -392,7 +392,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -412,7 +412,7 @@ loader</commander>
     </Chassis_S27_UDES_16>
     <Chassis_S27_UDES_16_2>
       <userString>#sweden_vehicles:Chassis_S27_UDES_16_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>65600</price>
       <armor>
@@ -670,7 +670,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -692,7 +692,7 @@ loader</commander>
   <turrets0>
     <Turret_1_S27_UDES_16>
       <userString>#sweden_vehicles:Turret_1_S27_UDES_16</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -812,7 +812,7 @@ loader</commander>
             <density>92.8012 94.6055</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_strvkan_L_45>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_strvkan_L_45>
         <_105mm_strvkan_L_51>shared  <maxAmmo>40</maxAmmo>
           <unlocks>
             <turret>Turret_2_S27_UDES_16  <cost>25800</cost>
@@ -896,7 +896,7 @@ loader</commander>
             <density>93.5711 94.2264</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_strvkan_L_51>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_strvkan_L_51>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S27_UDES_16/normal/lod0/Turret_02.model</undamaged>
@@ -960,7 +960,7 @@ loader</commander>
     </Turret_1_S27_UDES_16>
     <Turret_2_S27_UDES_16>
       <userString>#sweden_vehicles:Turret_2_S27_UDES_16</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>54500</price>
       <unlocks>
@@ -1082,7 +1082,7 @@ loader</commander>
             <density>92.8012 94.6055</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_strvkan_L_45>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_strvkan_L_45>
         <_105mm_strvkan_L_51>shared  <maxAmmo>40</maxAmmo>
           <armor>
             <armor_1>250</armor_1>
@@ -1162,7 +1162,7 @@ loader</commander>
             <density>93.5711 94.2264</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_strvkan_L_51>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_strvkan_L_51>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S27_UDES_16/normal/lod0/Turret_01.model</undamaged>
@@ -1249,7 +1249,7 @@ loader</commander>
     </Ra_400>
     <Ra_421>shared</Ra_421>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1357,11 +1357,11 @@ loader</commander>
         <pitchMax>7</pitchMax>
       </wheelsCorrectionAngles>
     </pitch>
-    <yawDisabled></yawDisabled>
+    <yawDisabled />
   </hull_aiming>
   <useHullZSize>True</useHullZSize>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

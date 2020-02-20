@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>47</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -155,7 +155,7 @@
   <chassis>
     <Chassis_Marder_III>
       <userString>#germany_vehicles:Chassis_Marder_III</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1950</price>
       <unlocks>
@@ -1059,7 +1059,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1079,7 +1079,7 @@
     </Chassis_Marder_III>
     <Chassis_Marder_III_2>
       <userString>#germany_vehicles:Chassis_Marder_III_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4400</price>
       <armor>
@@ -1979,7 +1979,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2097,7 +2097,7 @@
             <density>79.634 97.0664</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_PaK_36r>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_PaK_36r>
         <_75mm_PaK_40_2>shared  <maxAmmo>38</maxAmmo>
           <unlocks>
             <gun>_75mm_PaK_40_3  <cost>3600</cost>
@@ -2164,7 +2164,7 @@
             <density>99.6699 106.042</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_PaK_40_2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_PaK_40_2>
         <_75mm_PaK_40_3>shared  <maxAmmo>38</maxAmmo>
           <unlocks>
             <vehicle>G76_Pz_Sfl_IVc  <cost>12150</cost>
@@ -2226,7 +2226,7 @@
             <density>99.6699 106.042</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_PaK_40_3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_PaK_40_3>
       </guns>
       <models>
         <undamaged>vehicles/german/G39_Marder_III/normal/lod0/Turret_01.model</undamaged>
@@ -2391,7 +2391,7 @@
     <armour>0.620406336</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

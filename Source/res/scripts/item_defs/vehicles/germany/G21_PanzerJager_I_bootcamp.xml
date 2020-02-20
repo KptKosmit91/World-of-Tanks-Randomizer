@@ -3,8 +3,8 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
-    <gunner></gunner>
+    <driver />
+    <gunner />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -77,7 +77,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/german/G21_PanzerJager_I/PanzerJager_I_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -143,7 +143,7 @@ loader</commander>
   <chassis>
     <PzJgd_ketten_I_bootcamp>
       <userString>#germany_vehicles:PzJgd_ketten_I_bootcamp</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>280</price>
       <notInShop>true</notInShop>
@@ -840,8 +840,8 @@ loader</commander>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </PzJgd_ketten_I_bootcamp>
@@ -903,7 +903,7 @@ loader</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -912,7 +912,7 @@ loader</commander>
             <density>180.371 183.704</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_PaK_38t_L47_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_PaK_38t_L47_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/german/G21_PanzerJager_I/normal/lod0/Turret_01.model</undamaged>
@@ -929,7 +929,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_man_trav_01</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -999,7 +999,7 @@ loader</commander>
     <armour>0.890551251</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

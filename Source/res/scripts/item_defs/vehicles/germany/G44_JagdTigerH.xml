@@ -1,12 +1,12 @@
 <G44_JagdTigerH.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -1422,7 +1422,7 @@
   <chassis>
     <Chassis_G44_JagdTigerH>
       <userString>#germany_vehicles:JagdTigerH_ketten</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28100</price>
       <notInShop>true</notInShop>
@@ -1786,7 +1786,7 @@
             <length>0.143033</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.53026</xStart>
@@ -1962,7 +1962,7 @@
                 <point>-1.62443 1.28931 3.38513</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1993,7 +1993,7 @@
             <length>0.143262</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.52844</xStart>
@@ -2169,14 +2169,14 @@
                 <point>1.62443 1.26136 3.39109</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2300,7 +2300,7 @@
             <density>110.7 103.299</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_PaK44_L55A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_PaK44_L55A>
       </guns>
       <models>
         <undamaged>vehicles/german/G44_JagdTiger/normal/lod0/Turret_01.model</undamaged>
@@ -2317,8 +2317,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_06</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_G44_JagdTigerH>
@@ -2383,7 +2383,7 @@
     <armour>0.746031969</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

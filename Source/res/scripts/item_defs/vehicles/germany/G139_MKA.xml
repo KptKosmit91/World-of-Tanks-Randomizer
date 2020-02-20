@@ -1,10 +1,10 @@
 <G139_MKA.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
+    <commander />
+    <driver />
     <gunner>loader</gunner>
-    <radioman></radioman>
+    <radioman />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -114,7 +114,7 @@
   <chassis>
     <Chassis_G139_MKA>
       <userString>#germany_vehicles:Chassis_G139_MKA</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -383,7 +383,7 @@
             <length>0.111278</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.57997</xStart>
@@ -536,7 +536,7 @@
                 <point>-0.784662 0.794398 2.41367</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -732,7 +732,7 @@
                 <point>0.784662 0.794398 2.41367</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -753,7 +753,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_G139_MKA>
@@ -761,7 +761,7 @@
   <turrets0>
     <Turret_1_G139_MKA>
       <userString>#germany_vehicles:Turret_1_G139_MKA</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -863,7 +863,7 @@
             <density>128.567 128.443</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_45mm_Kanone>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_Kanone>
       </guns>
       <models>
         <undamaged>vehicles/german/G139_MKA/normal/lod0/Turret_01.model</undamaged>
@@ -935,7 +935,7 @@
   <radios>
     <FuG6>shared</FuG6>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -984,7 +984,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

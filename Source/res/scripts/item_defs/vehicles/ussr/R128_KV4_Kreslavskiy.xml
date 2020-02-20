@@ -1,12 +1,12 @@
 <R128_KV4_Kreslavskiy.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -812,7 +812,7 @@
   <chassis>
     <Chassis_R128_KV4_Kreslavskiy>
       <userString>#ussr_vehicles:Chassis_R128_KV4_Kreslavskiy</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1651,7 +1651,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1673,7 +1673,7 @@
   <turrets0>
     <Turret_1_R128_KV4_Kreslavskiy>
       <userString>#ussr_vehicles:Turret_1_R128_KV4_Kreslavskiy</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1794,7 +1794,7 @@
             <density>104.435 104.611</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-24_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-24_A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R128_KV4_Kreslavskiy/normal/lod0/Turret_01.model</undamaged>
@@ -2300,7 +2300,7 @@
     <armour>0.99534894</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

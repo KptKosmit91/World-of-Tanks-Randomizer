@@ -3,9 +3,9 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <driver></driver>
-    <radioman></radioman>
-    <radioman></radioman>
+    <driver />
+    <radioman />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -131,7 +131,7 @@ loader</commander>
   <chassis>
     <B2ketten>
       <userString>#germany_vehicles:B2ketten</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>1730</price>
       <notInShop>true</notInShop>
@@ -816,7 +816,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -838,7 +838,7 @@ loader</commander>
   <turrets0>
     <B2_740Fturm>
       <userString>#germany_vehicles:B2_740Fturm</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>2350</price>
       <notInShop>true</notInShop>
@@ -925,7 +925,7 @@ loader</commander>
             <density>117.255 117.074</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_47mm_SA35_L34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35_L34>
       </guns>
       <models>
         <undamaged>vehicles/german/G35_B-1bis_captured/normal/lod0/Turret_01.model</undamaged>
@@ -1045,7 +1045,7 @@ loader</commander>
     <armour>0.921395404</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

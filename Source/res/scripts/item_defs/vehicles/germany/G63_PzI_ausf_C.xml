@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>79</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -117,7 +117,7 @@ loader</commander>
   <chassis>
     <Chassis_PzI_ausf_C>
       <userString>#germany_vehicles:Chassis_PzI_ausf_C</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <unlocks>
@@ -887,7 +887,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -907,7 +907,7 @@ loader</commander>
     </Chassis_PzI_ausf_C>
     <Chassis_PzI_ausf_C_2>
       <userString>#germany_vehicles:Chassis_PzI_ausf_C_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1840</price>
       <armor>
@@ -1673,7 +1673,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1775,7 +1775,7 @@ loader</commander>
             <density>115.997 116.001</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_38_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_38_L55>
         <_20mm_Flak_38_L112>shared  <maxAmmo>260</maxAmmo>
           <unlocks>
             <turret>Turret_2_PzI_ausf_C  <cost>400</cost>
@@ -1832,7 +1832,7 @@ loader</commander>
             <density>115.995 115.972</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
       </guns>
       <models>
         <undamaged>vehicles/german/G63_PzI_ausf_C/normal/lod0/Turret_01.model</undamaged>
@@ -1984,7 +1984,7 @@ loader</commander>
             <density>115.997 116.001</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_38_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_38_L55>
         <_20mm_Flak_38_L112>shared  <maxAmmo>320</maxAmmo>
           <armor>
             <armor_1>30  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2039,7 +2039,7 @@ loader</commander>
             <density>115.995 115.972</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
         <_7.92mm_Mauser_EW_141>shared  <maxAmmo>640</maxAmmo>
           <armor>
             <armor_1>30  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2102,7 +2102,7 @@ loader</commander>
             <density>125.47 125.489</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_7.92mm_Mauser_EW_141>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_7.92mm_Mauser_EW_141>
       </guns>
       <models>
         <undamaged>vehicles/german/G63_PzI_ausf_C/normal/lod0/Turret_02.model</undamaged>
@@ -2291,7 +2291,7 @@ loader</commander>
     <armour>0.793388022</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

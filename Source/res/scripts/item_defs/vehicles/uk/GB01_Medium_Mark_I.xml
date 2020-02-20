@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -97,7 +97,7 @@
   <chassis>
     <Chassis_GB01_Medium_Mark_I_2>
       <userString>#gb_vehicles:Chassis_GB01_Medium_Mark_I_2</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -846,7 +846,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -935,7 +935,7 @@
             <density>186.544 192.338</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_3pdr_gun_Hotchkiss>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3pdr_gun_Hotchkiss>
         <QF_6_pounder_8cwt_Mk_II>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <vehicle>GB58_Cruiser_Mk_III  <cost>220</cost>
@@ -1012,9 +1012,9 @@
             <density>213.625 174.144</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_8cwt_Mk_II>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_8cwt_Mk_II>
       </guns>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -1107,11 +1107,11 @@
     </Turret_1_GB01_Medium_Mark_I>
   </turrets0>
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>24</forward>
@@ -1185,7 +1185,7 @@
     <armour>0.718350009</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -123,7 +123,7 @@ loader</commander>
   <chassis>
     <Chassis_Chi_Ni>
       <userString>#japan_vehicles:Chassis_Chi_Ni</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <unlocks>
@@ -387,7 +387,7 @@ loader</commander>
             <length>0.0891297</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.21722</xStart>
@@ -534,7 +534,7 @@ loader</commander>
                 <point>-0.960234 1.17459 0.323163</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -561,7 +561,7 @@ loader</commander>
             <length>0.0891567</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.26087</xStart>
@@ -689,14 +689,14 @@ loader</commander>
                 <point>0.960256 1.17658 0.324907</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -716,7 +716,7 @@ loader</commander>
     </Chassis_Chi_Ni>
     <Chassis_Chi_Ni_2>
       <userString>#japan_vehicles:Chassis_Chi_Ni_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>820</price>
       <armor>
@@ -976,7 +976,7 @@ loader</commander>
             <length>0.0891297</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.21722</xStart>
@@ -1123,7 +1123,7 @@ loader</commander>
                 <point>-0.960234 1.17459 0.323163</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1150,7 +1150,7 @@ loader</commander>
             <length>0.0891567</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.26087</xStart>
@@ -1278,14 +1278,14 @@ loader</commander>
                 <point>0.960256 1.17658 0.324907</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1307,7 +1307,7 @@ loader</commander>
   <turrets0>
     <Turret_1_Chi_Ni>
       <userString>#japan_vehicles:Turret_1_Chi_Ni</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>800</price>
       <notInShop>true</notInShop>
@@ -1405,7 +1405,7 @@ loader</commander>
             <density>208.571 209.538</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_13.2mm_Type93>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_13.2mm_Type93>
         <_37mm_Sogekiho>shared  <maxAmmo>80</maxAmmo>
           <unlocks>
             <gun>_57mm_Gun_Type97  <cost>140</cost>
@@ -1477,7 +1477,7 @@ loader</commander>
             <density>216.124 213.076</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_Sogekiho>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Sogekiho>
         <_57mm_Gun_Type97>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <vehicle>J07_Chi_Ha  <cost>1460</cost>
@@ -1549,7 +1549,7 @@ loader</commander>
             <density>218.956 214.554</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_Gun_Type97>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_Gun_Type97>
       </guns>
       <models>
         <undamaged>vehicles/japan/J15_Chi_Ni/normal/lod0/Turret_01.model</undamaged>
@@ -1724,7 +1724,7 @@ loader</commander>
     <armour>0.697419655</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

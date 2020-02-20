@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -112,7 +112,7 @@
   <chassis>
     <Chassis_A125_AEP_1>
       <userString>#usa_vehicles:Chassis_A125_AEP_1</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -721,7 +721,7 @@
                 <point>-1.40792 1.29313 2.32175</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
           <trackPairIdx>0</trackPairIdx>
         </left>
@@ -965,7 +965,7 @@
                 <point>-1.40792 1.29313 2.32175</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
           <trackPairIdx>1</trackPairIdx>
         </left>
@@ -1209,7 +1209,7 @@
                 <point>1.40793 1.29315 2.32172</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
           <trackPairIdx>0</trackPairIdx>
         </right>
@@ -1453,7 +1453,7 @@
                 <point>1.40793 1.29315 2.32172</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
           <trackPairIdx>1</trackPairIdx>
         </right>
@@ -1461,7 +1461,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1483,7 +1483,7 @@
   <turrets0>
     <Turret_1_A125_AEP_1>
       <userString>#usa_vehicles:Turret_1_A125_AEP_1</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -1605,7 +1605,7 @@
             <density>115.917 115.961</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_M58A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_M58A>
       </guns>
       <models>
         <undamaged>vehicles/american/A125_AEP_1/normal/lod0/Turret_01.model</undamaged>
@@ -1748,7 +1748,7 @@
     <armour>1.065747476</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

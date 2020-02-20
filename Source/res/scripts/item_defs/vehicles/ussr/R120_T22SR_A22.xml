@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -773,7 +773,7 @@
   <chassis>
     <Chassis_R120_T22SR_A22>
       <userString>#ussr_vehicles:Chassis_R120_T22SR_A22</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1166,7 +1166,7 @@
             <length>0.138198</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.17251</xStart>
@@ -1334,7 +1334,7 @@
                 <point>-1.36517 1.07261 3.25371</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1361,7 +1361,7 @@
             <length>0.1382</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.17248</xStart>
@@ -1529,14 +1529,14 @@
                 <point>1.54518 1.08717 3.25382</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1558,7 +1558,7 @@
   <turrets0>
     <Turret_1_R120_T22SR_A22>
       <userString>#ussr_vehicles:Turret_1_R120_T22SR_A22</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1710,7 +1710,7 @@
             <density>132.39 144.97</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_D54_M>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D54_M>
       </guns>
       <models>
         <undamaged>vehicles/russian/R120_T22SR_A22/normal/lod0/Turret_01.model</undamaged>
@@ -2450,7 +2450,7 @@
     <armour>1.297795959</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

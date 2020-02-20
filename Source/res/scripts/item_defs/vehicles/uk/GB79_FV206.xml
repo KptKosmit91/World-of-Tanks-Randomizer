@@ -2,11 +2,11 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>29</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -499,7 +499,7 @@
   <chassis>
     <Chassis_GB79_FV206>
       <userString>#gb_vehicles:Chassis_GB79_FV206</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <unlocks>
@@ -823,7 +823,7 @@
             <length>0.13657</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.70164</xStart>
@@ -1023,7 +1023,7 @@
                 <point>-1.50135 1.3584 3.67311</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1050,7 +1050,7 @@
             <length>0.136569</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.70166</xStart>
@@ -1248,14 +1248,14 @@
                 <point>1.50136 1.35845 3.67304</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1275,7 +1275,7 @@
     </Chassis_GB79_FV206>
     <Chassis_GB79_FV206_2>
       <userString>#gb_vehicles:Chassis_GB79_FV206_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>35000</price>
       <armor>
@@ -1595,7 +1595,7 @@
             <length>0.13657</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.70164</xStart>
@@ -1795,7 +1795,7 @@
                 <point>-1.50135 1.3584 3.67311</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1822,7 +1822,7 @@
             <length>0.136569</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.70166</xStart>
@@ -2020,14 +2020,14 @@
                 <point>1.50136 1.35845 3.67304</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2159,7 +2159,7 @@
             <density>106.574 102.589</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_5.5inch_SPG_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_5.5inch_SPG_Gun>
         <_6inch_SPG_Gun>shared  <maxAmmo>48</maxAmmo>
           <unlocks>
             <vehicle>GB30_FV3805  <cost>202000</cost>
@@ -2241,7 +2241,7 @@
             <density>103.514 100.384</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_6inch_SPG_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_6inch_SPG_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB79_FV206/normal/lod0/Turret_01.model</undamaged>
@@ -2394,7 +2394,7 @@
     <armour>0.939310604</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

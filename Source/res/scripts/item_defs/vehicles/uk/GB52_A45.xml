@@ -1,11 +1,11 @@
 <GB52_A45.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>31</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -136,7 +136,7 @@
   <chassis>
     <Chassis_GB52_A45>
       <userString>#gb_vehicles:Chassis_GB52_A45</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -635,7 +635,7 @@
             <length>0.147895</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.91856</xStart>
@@ -832,7 +832,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -854,7 +854,7 @@
   <turrets0>
     <Turret_1_GB52_A45>
       <userString>#gb_vehicles:Turret_1_GB52_A45</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -973,7 +973,7 @@
             <density>103.704 102.195</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII_A>
       </guns>
       <models>
         <undamaged>vehicles/british/GB52_A45/normal/lod0/Turret_01.model</undamaged>
@@ -1095,7 +1095,7 @@
     <armour>1.001662559</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

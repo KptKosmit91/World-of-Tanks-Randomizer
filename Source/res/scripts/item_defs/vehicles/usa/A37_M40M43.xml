@@ -1,12 +1,12 @@
 <A37_M40M43.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38.6</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -471,7 +471,7 @@
   <chassis>
     <Chassis_M40M43>
       <userString>#usa_vehicles:Chassis_M40M43</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19070</price>
       <unlocks>
@@ -824,7 +824,7 @@
             <length>0.0661479</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95264</xStart>
@@ -1082,7 +1082,7 @@
                 <point>-1.20288 1.18027 3.08778</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1113,7 +1113,7 @@
             <length>0.066148</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95263</xStart>
@@ -1371,14 +1371,14 @@
                 <point>1.2029 1.18031 3.0878</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1398,7 +1398,7 @@
     </Chassis_M40M43>
     <Chassis_M40M43_2>
       <userString>#usa_vehicles:Chassis_M40M43_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <armor>
@@ -1747,7 +1747,7 @@
             <length>0.0661479</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95264</xStart>
@@ -2005,7 +2005,7 @@
                 <point>-1.20288 1.18027 3.08778</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -2036,7 +2036,7 @@
             <length>0.066148</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95263</xStart>
@@ -2294,14 +2294,14 @@
                 <point>1.2029 1.18031 3.0878</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2462,7 +2462,7 @@
             <density>100.595 100.242</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_155mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_155mm_Gun_M1A1>
         <_203mm_Howitzer_M1>shared  <maxAmmo>16</maxAmmo>
           <reloadTime>46</reloadTime>
           <shotDispersionRadius>0.77</shotDispersionRadius>
@@ -2578,7 +2578,7 @@
             <density>96.7311 96.3841</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_203mm_Howitzer_M1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_203mm_Howitzer_M1>
       </guns>
       <models>
         <undamaged>vehicles/american/A37_M40M43/normal/lod0/Turret_01.model</undamaged>
@@ -2746,7 +2746,7 @@
     <armour>0.519241842</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

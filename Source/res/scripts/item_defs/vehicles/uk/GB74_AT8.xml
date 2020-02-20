@@ -1,12 +1,12 @@
 <GB74_AT8.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -161,7 +161,7 @@
   <chassis>
     <Chassis_GB74_AT8>
       <userString>#gb_vehicles:Chassis_GB74_AT8</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13000</price>
       <unlocks>
@@ -429,7 +429,7 @@
             <length>0.163937</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95225</xStart>
@@ -575,7 +575,7 @@
                 <point>-1.49928 1.12981 2.86753</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -602,7 +602,7 @@
             <length>0.163908</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95278</xStart>
@@ -749,14 +749,14 @@
                 <point>1.48934 1.08395 2.94793</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -776,7 +776,7 @@
     </Chassis_GB74_AT8>
     <Chassis_GB74_AT8_2>
       <userString>#gb_vehicles:Chassis_GB74_AT8_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16000</price>
       <armor>
@@ -1040,7 +1040,7 @@
             <length>0.163937</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95225</xStart>
@@ -1186,7 +1186,7 @@
                 <point>-1.49928 1.12981 2.86753</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1213,7 +1213,7 @@
             <length>0.163908</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95278</xStart>
@@ -1360,14 +1360,14 @@
                 <point>1.48934 1.08395 2.94793</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1495,7 +1495,7 @@
             <density>143.577 172.689</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V_AT>
         <_75mm_AT_Gun_Mk_V>shared  <maxAmmo>120</maxAmmo>
           <unlocks>
             <gun>OQF_77mm_AT_Gun_MkII  <cost>14500</cost>
@@ -1580,7 +1580,7 @@
             <density>173.721 154.517</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Gun_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Gun_Mk_V>
         <OQF_77mm_AT_Gun_MkII>shared  <maxAmmo>84</maxAmmo>
           <unlocks>
             <gun>_17pdr_OQF_AT_1  <cost>15000</cost>
@@ -1667,7 +1667,7 @@
             <density>137.072 192.99</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_77mm_AT_Gun_MkII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_77mm_AT_Gun_MkII>
         <_17pdr_OQF_AT_1>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <armor_1>203.2  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1748,7 +1748,7 @@
             <density>156.327 161.523</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_17pdr_OQF_AT_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_17pdr_OQF_AT_1>
       </guns>
       <models>
         <undamaged>vehicles/british/GB74_AT8/normal/lod0/Turret_01.model</undamaged>
@@ -1765,8 +1765,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_GB74_AT8_2>
@@ -1892,7 +1892,7 @@
     <armour>0.822822163</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

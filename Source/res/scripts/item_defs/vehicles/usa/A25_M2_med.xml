@@ -1,12 +1,12 @@
 <A25_M2_med.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>43</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <variants>
@@ -147,7 +147,7 @@
   <chassis>
     <T48>
       <userString>#usa_vehicles:T48</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>670</price>
       <unlocks>
@@ -434,7 +434,7 @@
             <length>0.0715763</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.62617</xStart>
@@ -653,7 +653,7 @@
                 <point>-0.930329 1.1027 2.60108</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -684,7 +684,7 @@
             <length>0.0715996</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.62378</xStart>
@@ -903,14 +903,14 @@
                 <point>0.930329 1.1027 2.60108</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -930,7 +930,7 @@
     </T48>
     <T49>
       <userString>#usa_vehicles:T49</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2100</price>
       <armor>
@@ -1213,7 +1213,7 @@
             <length>0.0715763</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.62617</xStart>
@@ -1432,7 +1432,7 @@
                 <point>-0.930329 1.1027 2.60108</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1463,7 +1463,7 @@
             <length>0.0715996</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.62378</xStart>
@@ -1682,14 +1682,14 @@
                 <point>0.930329 1.1027 2.60108</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1711,7 +1711,7 @@
   <turrets0>
     <M2M19>
       <userString>#usa_vehicles:M2M19</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>730</price>
       <unlocks>
@@ -1813,7 +1813,7 @@
             <density>107.528 108.32</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5>
         <_37mm_M-6_L53>shared  <maxAmmo>120</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -1877,7 +1877,7 @@
             <density>108.295 109</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-6_L53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-6_L53>
       </guns>
       <models>
         <undamaged>vehicles/american/A25_M2_med/normal/lod0/Turret_01.model</undamaged>
@@ -2035,7 +2035,7 @@
             <density>107.528 108.32</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5>
         <_37mm_M-6_L53>shared  <maxAmmo>120</maxAmmo>
           <pitchLimits>
             <minPitch>0 -40 1 -40</minPitch>
@@ -2099,7 +2099,7 @@
             <density>108.295 109</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-6_L53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-6_L53>
         <_75mm_Howitzer_M3>shared  <pitchLimits>
             <minPitch>0 -40 1 -40</minPitch>
             <maxPitch>0 14 0.277778 14 0.34144 20 0.65856 20 0.722222 14 1 14</maxPitch>
@@ -2162,7 +2162,7 @@
             <density>106.207 103.848</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Howitzer_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Howitzer_M3>
       </guns>
       <models>
         <undamaged>vehicles/american/A25_M2_med/normal/lod0/Turret_02.model</undamaged>
@@ -2341,7 +2341,7 @@
     <armour>0.749283604</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <Ch24_Type64.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>72.4</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@
   <chassis>
     <Chassis_Ch24_Type64>
       <userString>#china_vehicles:Chassis_Ch24_Type64</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <notInShop>true</notInShop>
@@ -870,7 +870,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1001,7 +1001,7 @@
             <density>132.884 135.101</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_Type64>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_Type64>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch24_Type64/normal/lod0/Turret_01.model</undamaged>
@@ -1143,7 +1143,7 @@
     <armour>0.768770195</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -645,7 +645,7 @@
   <chassis>
     <Chassis_A99_T92_LT>
       <userString>#usa_vehicles:Chassis_A99_T92_LT</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1527,7 +1527,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1549,7 +1549,7 @@
   <turrets0>
     <Turret_1_A99_T92_LT>
       <userString>#usa_vehicles:Turret_1_A99_T92_LT</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1718,7 +1718,7 @@
             <density>107.329 108.055</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_T185E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_T185E1>
       </guns>
       <models>
         <undamaged>vehicles/american/A99_T92_LT/normal/lod0/Turret_01.model</undamaged>
@@ -1903,7 +1903,7 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
     <collision>collision</collision>
     <damagedStateGroup>small</damagedStateGroup>

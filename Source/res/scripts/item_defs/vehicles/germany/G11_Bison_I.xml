@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -133,7 +133,7 @@
     <Sturmpanzerketten_I>
       <userString>#germany_vehicles:Sturmpanzerketten_I</userString>
       <shortUserString>#germany_vehicles:Sturmpanzerketten_I_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>560</price>
       <unlocks>
@@ -971,7 +971,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -992,7 +992,7 @@
     <Sturmpanzerketten_II>
       <userString>#germany_vehicles:Sturmpanzerketten_II</userString>
       <shortUserString>#germany_vehicles:Sturmpanzerketten_II_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1160</price>
       <armor>
@@ -1826,7 +1826,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1940,7 +1940,7 @@
             <density>110.029 108.749</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_150mm_sIG33L11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_sIG33L11>
       </guns>
       <models>
         <undamaged>vehicles/german/G11_Bison_I/normal/lod0/Turret_01.model</undamaged>
@@ -1957,8 +1957,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_02</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T_Bison>
@@ -2077,7 +2077,7 @@
     <armour>0.468375792</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

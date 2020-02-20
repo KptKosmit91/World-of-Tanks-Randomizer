@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -52,7 +52,7 @@ loader</commander>
       <maxRegenHealth>60</maxRegenHealth>
       <repairCost>1.0</repairCost>
     </ammoBayHealth>
-    <variants></variants>
+    <variants />
     <models>
       <undamaged>vehicles/russian/R43_T70/normal/lod0/Hull.model</undamaged>
       <destroyed>vehicles/russian/R43_T70/crash/lod0/Hull.model</destroyed>
@@ -81,7 +81,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/russian/R43_T70/T70_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -106,7 +106,7 @@ loader</commander>
   <chassis>
     <Chassis_T-70_bootcamp>
       <userString>#ussr_vehicles:Chassis_T-70</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <notInShop>true</notInShop>
@@ -373,7 +373,7 @@ loader</commander>
             <length>0.0890505</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.09695</xStart>
@@ -541,7 +541,7 @@ loader</commander>
                 <point>-0.899008 0.933746 2.08854</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -568,7 +568,7 @@ loader</commander>
             <length>0.090224</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.10216</xStart>
@@ -735,14 +735,14 @@ loader</commander>
                 <point>0.899 0.951148 2.0934</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_T-70_bootcamp>
@@ -750,7 +750,7 @@ loader</commander>
   <turrets0>
     <Turret_1_T-70_bootcamp>
       <userString>#ussr_vehicles:Turret_1_T-70</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>920</price>
       <notInShop>true</notInShop>
@@ -812,7 +812,7 @@ loader</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -821,7 +821,7 @@ loader</commander>
             <density>102.121 104.787</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/russian/R43_T70/normal/lod0/Turret_01.model</undamaged>
@@ -838,7 +838,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>

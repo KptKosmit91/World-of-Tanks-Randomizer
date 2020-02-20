@@ -1,9 +1,9 @@
 <Ch16_WZ_131.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_Ch16_WZ_131>
       <userString>#china_vehicles:Chassis_Ch16_WZ_131</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>9500</price>
       <unlocks>
@@ -822,7 +822,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -842,7 +842,7 @@
     </Chassis_Ch16_WZ_131>
     <Chassis_Ch16_WZ_131_2>
       <userString>#china_vehicles:Chassis_Ch16_WZ_131_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18500</price>
       <armor>
@@ -1553,7 +1553,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1575,7 +1575,7 @@
   <turrets0>
     <Turret_1_Ch16_WZ_131>
       <userString>#china_vehicles:Turret_1_Ch16_WZ_131</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>7800</price>
       <armor>
@@ -1689,7 +1689,7 @@
             <density>124.981 122.719</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_Tip_62-85T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_Tip_62-85T>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch16_WZ_131/normal/lod0/Turret_01.model</undamaged>
@@ -1773,7 +1773,7 @@
     </Turret_1_Ch16_WZ_131>
     <Turret_2_Ch16_WZ_131>
       <userString>#china_vehicles:Turret_2_Ch16_WZ_131</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>23000</price>
       <unlocks>
@@ -1888,7 +1888,7 @@
             <density>124.981 122.719</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_Tip_62-85T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_Tip_62-85T>
         <_85mm_Tip_64-85T>shared  <maxAmmo>47</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1972,7 +1972,7 @@
             <density>113.352 114.231</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_Tip_64-85T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_Tip_64-85T>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch16_WZ_131/normal/lod0/Turret_02.model</undamaged>
@@ -2162,7 +2162,7 @@
     <armour>0.851301029</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

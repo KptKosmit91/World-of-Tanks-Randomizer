@@ -1,12 +1,12 @@
 <G115_Typ_205B.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -470,7 +470,7 @@
   <chassis>
     <Chassis_G115_Typ_205B>
       <userString>#germany_vehicles:Chassis_G115_Typ_205B</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21000</price>
       <unlocks>
@@ -679,7 +679,7 @@
             <length>0.128811</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.5977</xStart>
@@ -863,7 +863,7 @@
                 <point>-1.46898 1.14945 3.65645</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -894,7 +894,7 @@
             <length>0.128833</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.59791</xStart>
@@ -1078,14 +1078,14 @@
                 <point>1.46896 1.15006 3.65574</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1105,7 +1105,7 @@
     </Chassis_G115_Typ_205B>
     <Chassis_G115_Typ_205B_2>
       <userString>#germany_vehicles:Chassis_G115_Typ_205B_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>37500</price>
       <armor>
@@ -1310,7 +1310,7 @@
             <length>0.128811</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.5977</xStart>
@@ -1494,7 +1494,7 @@
                 <point>-1.46898 1.14945 3.65645</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1525,7 +1525,7 @@
             <length>0.128833</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.59791</xStart>
@@ -1709,14 +1709,14 @@
                 <point>1.46896 1.15006 3.65574</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1738,7 +1738,7 @@
   <turrets0>
     <Turret_1_G115_Typ_205B>
       <userString>#germany_vehicles:Turret_1_G115_Typ_205B</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1866,7 +1866,7 @@
             <density>143.877 147.142</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_KwK45_L52>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK45_L52>
         <_128mm_L50A>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <vehicle>G110_Typ_205  <cost>169200</cost>
@@ -1957,7 +1957,7 @@
             <density>126.531 128.25</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_L50A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_L50A>
       </guns>
       <models>
         <undamaged>vehicles/german/G115_Typ_205_4_Jun/normal/lod0/Turret_01.model</undamaged>
@@ -2315,7 +2315,7 @@
     <armour>1.115460878</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

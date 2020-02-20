@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -232,7 +232,7 @@ loader</commander>
   <chassis>
     <Chassis_S29_UDES_14_5>
       <userString>#sweden_vehicles:Chassis_S29_UDES_14_5</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18000</price>
       <unlocks>
@@ -487,7 +487,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -507,7 +507,7 @@ loader</commander>
     </Chassis_S29_UDES_14_5>
     <Chassis_S29_UDES_14_5_2>
       <userString>#sweden_vehicles:Chassis_S29_UDES_14_5_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>34500</price>
       <armor>
@@ -758,7 +758,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -780,7 +780,7 @@ loader</commander>
   <turrets0>
     <Turret_1_S29_UDES_14_5>
       <userString>#sweden_vehicles:Turret_1_S29_UDES_14_5</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33000</price>
       <notInShop>true</notInShop>
@@ -904,7 +904,7 @@ loader</commander>
             <density>134.763 135.084</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Bofors_strvkan_L_43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Bofors_strvkan_L_43>
         <_90mm_Bofors_strvkan_L_53>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_105mm_strvkan_L_45  <cost>35000</cost>
@@ -993,7 +993,7 @@ loader</commander>
             <density>124.343 124.889</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Bofors_strvkan_L_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Bofors_strvkan_L_53>
         <_105mm_strvkan_L_45>shared  <maxAmmo>40</maxAmmo>
           <armor>
             <armor_1>20  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1081,7 +1081,7 @@ loader</commander>
             <density>121.06 125.696</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_strvkan_L_45>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_strvkan_L_45>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S29_UDES_14_5/normal/lod0/Turret_01.model</undamaged>
@@ -1246,7 +1246,7 @@ loader</commander>
     </Ra_400>
     <Ra_421>shared</Ra_421>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1355,11 +1355,11 @@ loader</commander>
       </wheelsCorrectionAngles>
       <isEnabled>True</isEnabled>
     </pitch>
-    <yawDisabled></yawDisabled>
+    <yawDisabled />
   </hull_aiming>
   <useHullZSize>True</useHullZSize>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

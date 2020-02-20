@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -132,7 +132,7 @@
   <chassis>
     <Chassis_R160_T_50_2>
       <userString>#ussr_vehicles:Chassis_R160_T_50_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <armor>
@@ -865,7 +865,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_R160_T_50_2>
@@ -873,7 +873,7 @@
   <turrets0>
     <Turret_1_R160_T_50_2>
       <userString>#ussr_vehicles:Turret_1_R160_T_50_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>9900</price>
       <armor>
@@ -991,7 +991,7 @@
             <density>99.7319 101.463</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS_4T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS_4T>
       </guns>
       <notInShop>true</notInShop>
       <models>
@@ -1071,7 +1071,7 @@
   <radios>
     <_10RKM>shared</_10RKM>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1120,7 +1120,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

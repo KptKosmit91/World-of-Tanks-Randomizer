@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>25.7</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -161,7 +161,7 @@
   <chassis>
     <Chassis_GB40_Gun_Carrier_Churchill>
       <userString>#gb_vehicles:Chassis_GB40_Gun_Carrier_Churchill</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8600</price>
       <unlocks>
@@ -887,7 +887,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -907,7 +907,7 @@
     </Chassis_GB40_Gun_Carrier_Churchill>
     <Chassis_GB40_Gun_Carrier_Churchill_2>
       <userString>#gb_vehicles:Chassis_GB40_Gun_Carrier_Churchill_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14500</price>
       <unlocks>
@@ -1633,7 +1633,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1756,7 +1756,7 @@
             <density>123.82 124.942</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_3inch_20_cwt_MkIII_AT_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3inch_20_cwt_MkIII_AT_Gun>
         <_3.7inch_QF_AA_MK_1>shared  <maxAmmo>46</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 0.011111 -15 0.013889 -12 0.986111 -12 0.988889 -15 1 -15</minPitch>
@@ -1823,7 +1823,7 @@
             <density>117.618 125.609</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_3.7inch_QF_AA_MK_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3.7inch_QF_AA_MK_1>
         <_32-pounder_AT_Gun_OQF>shared  <maxAmmo>46</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 0.011111 -15 0.013889 -12 0.986111 -12 0.988889 -15 1 -15</minPitch>
@@ -1891,7 +1891,7 @@
             <density>123.513 123.598</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_32-pounder_AT_Gun_OQF>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_32-pounder_AT_Gun_OQF>
       </guns>
       <models>
         <undamaged>vehicles/british/GB40_Gun_Carrier_Churchill/normal/lod0/Turret_01.model</undamaged>
@@ -1908,8 +1908,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_GB40_Gun_Carrier_Churchill>
@@ -2026,7 +2026,7 @@
     <armour>0.759002106</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

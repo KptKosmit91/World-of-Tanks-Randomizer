@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -936,7 +936,7 @@ loader</commander>
   <chassis>
     <Chassis_GB101_FV1066_Senlac>
       <userString>#gb_vehicles:Chassis_GB101_FV1066_Senlac</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1362,7 +1362,7 @@ loader</commander>
                 <point>-1.28313 1.02526 2.47569</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1389,7 +1389,7 @@ loader</commander>
             <length>0.124922</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.61516</xStart>
@@ -1544,7 +1544,7 @@ loader</commander>
                 <point>1.28313 1.02526 2.47569</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1565,7 +1565,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB101_FV1066_Senlac>
@@ -1573,7 +1573,7 @@ loader</commander>
   <turrets0>
     <Turret_1_GB101_FV1066_Senlac>
       <userString>#gb_vehicles:Turret_1_GB101_FV1066_Senlac</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1819,7 +1819,7 @@ loader</commander>
             <density>113.476 115.744</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_20_pounder_S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_20_pounder_S>
       </guns>
       <models>
         <undamaged>vehicles/british/GB101_FV1066_Senlac/normal/lod0/Turret_01.model</undamaged>
@@ -1929,7 +1929,7 @@ loader</commander>
   <radios>
     <N19_S>shared</N19_S>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1978,7 +1978,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <A111_T25_Pilot.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -880,7 +880,7 @@
   <chassis>
     <Chassis_A111_T25_Pilot>
       <userString>#usa_vehicles:Chassis_A111_T25_Pilot</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1666,7 +1666,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1688,7 +1688,7 @@
   <turrets0>
     <Turret_1_A111_T25_Pilot>
       <userString>#usa_vehicles:Turret_1_A111_T25_Pilot</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1859,7 +1859,7 @@
             <density>111.048 118.396</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T7>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T7>
       </guns>
       <models>
         <undamaged>vehicles/american/A111_T25_Pilot/normal/lod0/Turret_01.model</undamaged>
@@ -2444,7 +2444,7 @@
     <armour>0.976633324</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

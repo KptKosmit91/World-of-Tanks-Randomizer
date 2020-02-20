@@ -1,11 +1,11 @@
 <R07_T-34-85.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>54</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -112,7 +112,7 @@
   <chassis>
     <T-34-85>
       <userString>#ussr_vehicles:T-34-85</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>7730</price>
       <unlocks>
@@ -510,7 +510,7 @@
             <length>0.159299</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94778</xStart>
@@ -659,7 +659,7 @@
                 <point>-1.1853 1.05817 2.84757</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -690,7 +690,7 @@
             <length>0.157758</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92813</xStart>
@@ -839,14 +839,14 @@
                 <point>1.1853 1.05817 2.84757</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -866,7 +866,7 @@
     </T-34-85>
     <T-34-85Bis>
       <userString>#ussr_vehicles:T-34-85Bis</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>9500</price>
       <armor>
@@ -1236,7 +1236,7 @@
             <length>0.154892</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94008</xStart>
@@ -1385,7 +1385,7 @@
                 <point>1.1853 1.05817 2.84757</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1416,7 +1416,7 @@
             <length>0.154754</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.93694</xStart>
@@ -1565,7 +1565,7 @@
                 <point>1.1853 1.05817 2.84757</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1596,7 +1596,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1618,7 +1618,7 @@
   <turrets0>
     <T-34-85>
       <userString>#ussr_vehicles:T-34-85</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12500</price>
       <armor>
@@ -1739,7 +1739,7 @@
             <density>130.988 143.645</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_S-54>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_S-54>
         <_85mm_ZiS_S-53>shared  <maxAmmo>56</maxAmmo>
           <unlocks>
             <turret>T-34_mod_100  <cost>7220</cost>
@@ -1827,7 +1827,7 @@
             <density>133.512 140.824</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53>
         <_122mm_cannon_U-11>shared  <maxAmmo>36</maxAmmo>
           <armor>
             <armor_1>45  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1909,7 +1909,7 @@
             <density>137.508 143.858</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_cannon_U-11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_cannon_U-11>
       </guns>
       <models>
         <undamaged>vehicles/russian/R07_T-34-85/normal/lod0/Turret_01.model</undamaged>
@@ -1994,7 +1994,7 @@
     <T-34_mod_100>
       <userString>#ussr_vehicles:T-34_mod_100</userString>
       <shortUserString>#ussr_vehicles:T-34_mod_100_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>15550</price>
       <unlocks>
@@ -2113,7 +2113,7 @@
             <density>130.988 143.645</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_S-54>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_S-54>
         <_85mm_ZiS_S-53>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <armor_1>45  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2195,7 +2195,7 @@
             <density>133.512 140.824</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53>
         <_85mm_D5T-85BM>shared  <maxAmmo>48</maxAmmo>
           <armor>
             <armor_1>45  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2277,7 +2277,7 @@
             <density>135.546 138.365</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D5T-85BM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D5T-85BM>
         <_122mm_cannon_U-11>shared  <maxAmmo>36</maxAmmo>
           <armor>
             <armor_1>45  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2359,7 +2359,7 @@
             <density>137.508 143.858</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_cannon_U-11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_cannon_U-11>
       </guns>
       <models>
         <undamaged>vehicles/russian/R07_T-34-85/normal/lod0/Turret_02.model</undamaged>
@@ -2558,7 +2558,7 @@
     <armour>1.106995381</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

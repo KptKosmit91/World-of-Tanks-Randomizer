@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>24</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -125,7 +125,7 @@
   <chassis>
     <Chassis_GB07_Matilda>
       <userString>#gb_vehicles:Chassis_GB07_Matilda</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2270</price>
       <unlocks>
@@ -789,7 +789,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -809,7 +809,7 @@
     </Chassis_GB07_Matilda>
     <Chassis_GB07_Matilda_2>
       <userString>#gb_vehicles:Chassis_GB07_Matilda_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4800</price>
       <armor>
@@ -1469,7 +1469,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1491,7 +1491,7 @@
   <turrets0>
     <Turret_1_GB07_Matilda>
       <userString>#gb_vehicles:Turret_1_GB07_Matilda</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2160</price>
       <armor>
@@ -1602,7 +1602,7 @@
             <density>101.17 106.341</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
         <_76mm_Howitzer_MkI>shared  <maxAmmo>35</maxAmmo>
           <unlocks>
             <turret>Turret_2_GB07_Matilda  <cost>1200</cost>
@@ -1679,7 +1679,7 @@
             <density>102.218 98.222</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_76mm_Howitzer_MkI>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Howitzer_MkI>
         <QF_2pdr_Littlejohn>shared  <maxAmmo>92</maxAmmo>
           <unlocks>
             <vehicle>GB20_Crusader  <cost>15000</cost>
@@ -1756,7 +1756,7 @@
             <density>106.083 108.427</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </QF_2pdr_Littlejohn>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_2pdr_Littlejohn>
       </guns>
       <models>
         <undamaged>vehicles/british/GB07_Matilda/normal/lod0/Turret_01.model</undamaged>
@@ -1819,7 +1819,7 @@
     </Turret_1_GB07_Matilda>
     <Turret_2_GB07_Matilda>
       <userString>#gb_vehicles:Turret_2_GB07_Matilda</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5000</price>
       <unlocks>
@@ -1928,7 +1928,7 @@
             <density>101.17 106.341</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
         <_76mm_Howitzer_MkI>shared  <maxAmmo>35</maxAmmo>
           <armor>
             <armor_1>75  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2001,7 +2001,7 @@
             <density>102.218 98.222</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_76mm_Howitzer_MkI>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Howitzer_MkI>
         <QF_2pdr_Littlejohn>shared  <maxAmmo>92</maxAmmo>
           <armor>
             <armor_1>75  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2074,7 +2074,7 @@
             <density>106.083 108.427</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </QF_2pdr_Littlejohn>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_2pdr_Littlejohn>
       </guns>
       <models>
         <undamaged>vehicles/british/GB07_Matilda/normal/lod0/Turret_02.model</undamaged>
@@ -2252,7 +2252,7 @@
     <armour>0.957555986</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

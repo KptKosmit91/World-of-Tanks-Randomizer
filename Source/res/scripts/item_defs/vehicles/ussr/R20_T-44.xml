@@ -1,9 +1,9 @@
 <R20_T-44.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -273,7 +273,7 @@
   <chassis>
     <T-44>
       <userString>#ussr_vehicles:T-44</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16070</price>
       <unlocks>
@@ -676,7 +676,7 @@
             <length>0.171544</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.79074</xStart>
@@ -817,7 +817,7 @@
                 <point>-1.43354 1.00231 2.92216</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -848,7 +848,7 @@
             <length>0.172148</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.85069</xStart>
@@ -989,14 +989,14 @@
                 <point>1.43354 1.00231 2.92216</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1016,7 +1016,7 @@
     </T-44>
     <T-44Bis>
       <userString>#ussr_vehicles:T-44Bis</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30200</price>
       <armor>
@@ -1415,7 +1415,7 @@
             <length>0.170454</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.79182</xStart>
@@ -1556,7 +1556,7 @@
                 <point>1.43354 1.00231 2.92216</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1587,7 +1587,7 @@
             <length>0.170375</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.797</xStart>
@@ -1728,14 +1728,14 @@
                 <point>1.43354 1.00231 2.92216</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1757,7 +1757,7 @@
   <turrets0>
     <T-44>
       <userString>#ussr_vehicles:T-44</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28000</price>
       <unlocks>
@@ -1892,7 +1892,7 @@
             <density>111.318 113.386</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53>
         <_85mm_D5T-85BM>shared  <maxAmmo>58</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -1989,7 +1989,7 @@
             <density>106.274 134.32</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D5T-85BM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D5T-85BM>
       </guns>
       <models>
         <undamaged>vehicles/russian/R20_T-44/normal/lod0/Turret_01.model</undamaged>
@@ -2229,7 +2229,7 @@
     </T-44>
     <T-44-100>
       <userString>#ussr_vehicles:T-44-100</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>48000</price>
       <unlocks>
@@ -2374,7 +2374,7 @@
             <density>111.318 113.386</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53>
         <_85mm_D5T-85BM>shared  <maxAmmo>64</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2478,7 +2478,7 @@
             <density>106.274 134.32</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D5T-85BM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D5T-85BM>
         <_100mm_D10T>shared  <unlocks>
             <gun>_100mm_LB-1  <cost>19100</cost>
             </gun>
@@ -2586,7 +2586,7 @@
             <density>89.2327 94.0795</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D10T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D10T>
         <_100mm_LB-1>shared  <maxAmmo>56</maxAmmo>
           <pitchLimits>
             <minPitch>0 -23 1 -23</minPitch>
@@ -2690,7 +2690,7 @@
             <density>106.008 109.868</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_LB-1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_LB-1>
         <_122mm_D-25-44>shared  <maxAmmo>26</maxAmmo>
           <unlocks>
             <vehicle>R96_Object_430  <cost>142950</cost>
@@ -2798,7 +2798,7 @@
             <density>111.929 115.497</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_D-25-44>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D-25-44>
       </guns>
       <models>
         <undamaged>vehicles/russian/R20_T-44/normal/lod0/Turret_02.model</undamaged>
@@ -3139,7 +3139,7 @@
     <armour>1.08057228</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

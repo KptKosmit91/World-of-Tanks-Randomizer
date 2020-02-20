@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -77,8 +77,8 @@
     <hangarShadowTexture>vehicles/german/G119_Pz58_Mutz/Pz58_Mutz_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -102,7 +102,7 @@
   <chassis>
     <Chassis_G119_Pz58_Mutz>
       <userString>#germany_vehicles:Chassis_G119_Pz58_Mutz</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -775,8 +775,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_G119_Pz58_Mutz>
@@ -784,7 +784,7 @@
   <turrets0>
     <Turret_1_G119_Pz58_Mutz>
       <userString>#germany_vehicles:Turret_1_G119_Pz58_Mutz</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -879,8 +879,8 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -900,7 +900,7 @@
             <density>105.539 121.32</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_9cm_Kan>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_9cm_Kan>
       </guns>
       <models>
         <undamaged>vehicles/german/G119_Pz58_Mutz/normal/lod0/Turret_01.model</undamaged>
@@ -917,8 +917,8 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -987,7 +987,7 @@
     <armour>0.919060182</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

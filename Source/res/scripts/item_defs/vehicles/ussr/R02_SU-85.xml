@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -160,7 +160,7 @@
     <SU-85_mod_1942>
       <userString>#ussr_vehicles:SU-85_mod_1942</userString>
       <shortUserString>#ussr_vehicles:SU-85_mod_1942_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3800</price>
       <unlocks>
@@ -559,7 +559,7 @@
             <length>0.171464</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.89897</xStart>
@@ -696,7 +696,7 @@
                 <point>-1.14156 1.1308 2.78224</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -727,7 +727,7 @@
             <length>0.171464</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.89894</xStart>
@@ -864,14 +864,14 @@
                 <point>1.14156 1.1308 2.78224</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -892,7 +892,7 @@
     <SU-85_mod_1943>
       <userString>#ussr_vehicles:SU-85_mod_1943</userString>
       <shortUserString>#ussr_vehicles:SU-85_mod_1943_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8640</price>
       <armor>
@@ -1287,7 +1287,7 @@
             <length>0.174574</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91848</xStart>
@@ -1424,7 +1424,7 @@
                 <point>1.14156 1.1308 2.78224</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1455,7 +1455,7 @@
             <length>0.174575</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.83148</xStart>
@@ -1592,14 +1592,14 @@
                 <point>1.14156 1.1308 2.78224</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1725,7 +1725,7 @@
             <density>145.67 151.05</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_S-54_S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_S-54_S>
         <_85mm_D-5S>shared  <maxAmmo>48</maxAmmo>
           <unlocks>
             <gun>_85mm_D5S-85BM  <cost>15500</cost>
@@ -1808,7 +1808,7 @@
             <density>134.274 126.965</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D-5S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D-5S>
         <_122mm_cannon_M-30S>shared  <maxAmmo>32</maxAmmo>
           <armor>
             <armor_1>45  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1887,7 +1887,7 @@
             <density>128.734 127.593</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_cannon_M-30S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_cannon_M-30S>
         <_85mm_D5S-85BM>shared  <maxAmmo>38</maxAmmo>
           <armor>
             <armor_1>45  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1964,7 +1964,7 @@
             <density>128.931 129.418</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D5S-85BM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D5S-85BM>
       </guns>
       <models>
         <undamaged>vehicles/russian/R02_SU-85/normal/lod0/Turret_01.model</undamaged>
@@ -1981,8 +1981,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </SU-85_01>
@@ -2094,7 +2094,7 @@
     <armour>0.958158545</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

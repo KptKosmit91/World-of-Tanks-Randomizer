@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -922,7 +922,7 @@
   <chassis>
     <Chassis_R135_T_103>
       <userString>#ussr_vehicles:Chassis_R135_T_103</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1219,7 +1219,7 @@
             <length>0.16103</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.15186</xStart>
@@ -1419,7 +1419,7 @@
                 <point>-1.22287 1.47336 4.14125</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1446,7 +1446,7 @@
             <length>0.161023</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.152</xStart>
@@ -1646,14 +1646,14 @@
                 <point>1.22283 1.47703 4.14076</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1675,7 +1675,7 @@
   <turrets0>
     <Turret_1_R135_T_103>
       <userString>#ussr_vehicles:Turret_1_R135_T_103</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1802,7 +1802,7 @@
             <density>123.801 125.003</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_130mm_B_13>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_B_13>
       </guns>
       <models>
         <undamaged>vehicles/russian/R135_T_103/normal/lod0/Turret_01.model</undamaged>
@@ -2367,7 +2367,7 @@
   <radios>
     <_10RKM>shared</_10RKM>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2416,7 +2416,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

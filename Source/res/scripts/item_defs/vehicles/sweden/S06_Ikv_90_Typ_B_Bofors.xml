@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -153,7 +153,7 @@
   <chassis>
     <Chassis_S06_Ikv_90_Typ_B_Bofors>
       <userString>#sweden_vehicles:Chassis_S06_Ikv_90_Typ_B_Bofors</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <unlocks>
@@ -521,7 +521,7 @@
             <length>0.112352</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.41219</xStart>
@@ -686,7 +686,7 @@
                 <point>-1.17766 0.892873 2.70033</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -713,7 +713,7 @@
             <length>0.113306</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.44307</xStart>
@@ -878,14 +878,14 @@
                 <point>1.26781 0.821072 2.71291</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -905,7 +905,7 @@
     </Chassis_S06_Ikv_90_Typ_B_Bofors>
     <Chassis_S06_Ikv_90_Typ_B_Bofors_2>
       <userString>#sweden_vehicles:Chassis_S06_Ikv_90_Typ_B_Bofors_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>23300</price>
       <armor>
@@ -1269,7 +1269,7 @@
             <length>0.112352</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.41219</xStart>
@@ -1434,7 +1434,7 @@
                 <point>-1.17766 0.892873 2.70033</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1461,7 +1461,7 @@
             <length>0.113306</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.44307</xStart>
@@ -1626,14 +1626,14 @@
                 <point>1.26781 0.821072 2.71291</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1754,7 +1754,7 @@
             <density>140.878 142.985</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Bofors_L_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Bofors_L_53>
         <_90mm_kan_m_F>shared  <maxAmmo>48</maxAmmo>
           <unlocks>
             <vehicle>S21_UDES_03  <cost>104500</cost>
@@ -1825,7 +1825,7 @@
             <density>134.719 149.245</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_kan_m_F>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_kan_m_F>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/normal/lod0/Turret_01.model</undamaged>
@@ -1842,8 +1842,8 @@
       <physicsShape>1.100 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_S06_Ikv_90_Typ_B_Bofors>
@@ -1975,7 +1975,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

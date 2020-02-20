@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -109,7 +109,7 @@
   <chassis>
     <Chassis_R96_Object_430>
       <userString>#ussr_vehicles:Chassis_R96_Object_430</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>29000</price>
       <unlocks>
@@ -388,7 +388,7 @@
             <length>0.16899</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95927</xStart>
@@ -534,7 +534,7 @@
                 <point>-1.46136 1.05168 3.04013</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -565,7 +565,7 @@
             <length>0.16903</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9593</xStart>
@@ -711,14 +711,14 @@
                 <point>1.46138 1.05031 3.04003</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -738,7 +738,7 @@
     </Chassis_R96_Object_430>
     <Chassis_R96_Object_430_2>
       <userString>#ussr_vehicles:Chassis_R96_Object_430_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62000</price>
       <armor>
@@ -1013,7 +1013,7 @@
             <length>0.16899</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95927</xStart>
@@ -1159,7 +1159,7 @@
                 <point>-1.46136 1.05168 3.04013</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1190,7 +1190,7 @@
             <length>0.16903</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9593</xStart>
@@ -1336,14 +1336,14 @@
                 <point>1.46138 1.05031 3.04003</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1365,7 +1365,7 @@
   <turrets0>
     <Turret_1_R96_Object_430>
       <userString>#ussr_vehicles:Turret_1_R96_Object_430</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -1483,7 +1483,7 @@
             <density>120.922 120.596</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122mm_D_25TSU>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D_25TSU>
       </guns>
       <models>
         <undamaged>vehicles/russian/R96_Object_430/normal/lod0/Turret_01.model</undamaged>
@@ -1679,7 +1679,7 @@
     <armour>1.01837652</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

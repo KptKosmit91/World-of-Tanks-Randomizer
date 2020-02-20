@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 1 1</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -986,7 +986,7 @@
   <chassis>
     <Chassis_It08_Progetto_M40_mod_65_bob>
       <userString>#italy_vehicles:Chassis_It08_Progetto_M40_mod_65</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1285,7 +1285,7 @@
             <length>0.0882332</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.40795</xStart>
@@ -1517,7 +1517,7 @@
                 <point>-1.4197 1.12317 3.53324</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1548,7 +1548,7 @@
             <length>0.0878554</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.43194</xStart>
@@ -1780,14 +1780,14 @@
                 <point>-1.4197 1.12317 3.53324</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1809,7 +1809,7 @@
   <turrets0>
     <Turret_1_It08_Progetto_M40_mod_65_bob>
       <userString>#italy_vehicles:Turret_1_It08_Progetto_M40_mod_65</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1976,7 +1976,7 @@
             <density>143.138 145.378</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Cannone_da_105_51_M68>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_105_51_M68>
       </guns>
       <models>
         <undamaged>vehicles/italy/It08_Progetto_M40_mod_65/normal/lod0/Turret_01.model</undamaged>
@@ -2533,7 +2533,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

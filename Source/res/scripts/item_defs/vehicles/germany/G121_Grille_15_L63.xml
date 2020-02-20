@@ -1,12 +1,12 @@
 <G121_Grille_15_L63.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -28,7 +28,7 @@
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>30</armor_1>
@@ -895,7 +895,7 @@
   <chassis>
     <Chassis_G121_Grille_15_L63>
       <userString>#germany_vehicles:Chassis_G121_Grille_15_L63</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1639,7 +1639,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1771,7 +1771,7 @@
             <density>89.0192 88.7173</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_150mm_Pak_L63>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_Pak_L63>
       </guns>
       <models>
         <undamaged>vehicles/german/G121_Grille_15_L63/normal/lod0/Turret_01.model</undamaged>
@@ -1963,7 +1963,7 @@
     <armour>0.830065053</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

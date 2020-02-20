@@ -147,25 +147,52 @@ def updateTankModels(tank):
 
         for g in t.find("guns").findall("*"):
 
-            #gun effect is randomized twice (second time is in gunEffectRandomizer.py)
-            if randGunFX == "true":
-                if seed == 666:
-                    xml.insertElement("effects", "shot_superhuge", g)
-                else:
-                    rand = xml.getRandomListIndex(conf.getRandomEffects(), random)
-                    effect = conf.getRandomEffects()[rand]
+            #gun effect is randomized twice (second time is in gunEffectRandomizer.py, this is required)
 
-                    rand = xml.getRandomListIndex(conf.getRandomReloadEffects(), random)
+            isDoubleGun = g.find("RAND_IsDoubleGun").text.lower()
 
-                    xml.insertElement("effects", effect, g)
-
-            if randModels == "true":
+            if randModels == "true" and isDoubleGun == "false":
                 rand = xml.getRandomListIndex(guns, random)
                 randomModel = guns[rand]
                 xml.addElement("models", randomModel.find("models"), g)
                 xml.addElement("drivenJoints", randomModel.find("drivenJoints"), g)
 
                 guns.pop(rand)
+
+            if randGunFX == "true":
+
+                #Do stuff if tank currently being randomized is NOT a double barreled vehicle
+                if isDoubleGun == "false":
+                    if seed == 666:
+                        xml.insertElement("effects", "shot_superhuge", g)
+                    else:
+                        isDoubleGun_MODEL = randomModel.find("RAND_IsDoubleGun").text.lower()
+
+                        if isDoubleGun_MODEL == "false":
+                            efflist = conf.getRandomEffects()
+                        else:
+                            efflist = conf.getRandomDualGunEffects()
+
+                        rand = xml.getRandomListIndex(efflist, random)
+                        effect = efflist[rand]
+
+                        xml.insertElement("effects", effect, g)
+
+                #Do stuff if tank currently being randomized is a double barreled vehicle
+                else:
+                    
+                    if seed == 666:
+                        xml.insertElement("multiGunEffects", "shot_superhuge shot_superhuge", g)
+                    else:
+                        efflist = conf.getRandomDualGunEffects()
+
+                        rand = xml.getRandomListIndex(efflist, random)
+                        effect1 = efflist[rand]
+                        rand = xml.getRandomListIndex(efflist, random)
+                        effect2 = efflist[rand]
+
+                        xml.insertElement("multiGunEffects", effect1 + " " + effect2, g)
+            xml.removeAllElementsByName("RAND_IsDoubleGun", g)
 
     newtree = ET.ElementTree(root)
 

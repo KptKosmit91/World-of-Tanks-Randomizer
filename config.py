@@ -1,4 +1,4 @@
-randomizerversion = "0.8"
+randomizerversion = "0.8.1"
 wotversion="1.7.1.2"
 
 resOut = "Output/res/"
@@ -84,6 +84,23 @@ def getSpecialAttributesFor(tank):
             return t.attrib
 
     return None
+
+def getRandomDualGunEffects():
+    effects = tankrandomizer.find("DualGunEffectList").findall("Effect")
+    l = []
+    for e in effects:
+        l.append(e.text)
+
+        if UseAlternativeGunSoundsMod == "true":
+            tree1 = ET.parse("Addons/AlternativeGunSounds/Config/RandomizerConfig.xml")
+            root1 = tree1.getroot()
+
+            random = root1.find("TankRandomizer")
+            effects = random.find("DualGunEffectList").findall("Effect")
+            for e in effects:
+                l.append(e.text)
+
+    return l
 
 def getRandomEffects():
     effects = tankrandomizer.find("GunEffectList").findall("Effect")

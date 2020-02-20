@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>34</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -123,7 +123,7 @@
   <chassis>
     <Chassis_R71_IS_2B>
       <userString>#ussr_vehicles:Chassis_R71_IS_2B</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -396,7 +396,7 @@
             <length>0.142108</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.22898</xStart>
@@ -566,7 +566,7 @@
                 <point>-1.40903 1.17301 3.02378</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -593,7 +593,7 @@
             <length>0.142017</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.22898</xStart>
@@ -763,14 +763,14 @@
                 <point>1.40903 1.17301 3.02378</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -792,7 +792,7 @@
   <turrets0>
     <Turret_1_R71_IS_2B>
       <userString>#ussr_vehicles:Turret_1_R71_IS_2B</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -904,7 +904,7 @@
             <density>110.554 111.198</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_wedges_shutter_B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter_B>
       </guns>
       <models>
         <undamaged>vehicles/russian/R71_IS_2_Berlin/normal/lod0/Turret_01.model</undamaged>
@@ -1031,7 +1031,7 @@
     <armour>1.194832217</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

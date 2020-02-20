@@ -1,11 +1,11 @@
 <GB105_Black_Prince_2019.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <radioman></radioman>
-    <gunner></gunner>
-    <loader></loader>
+    <commander />
+    <driver />
+    <radioman />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <Chassis_GB105_Black_Prince_2019>
       <userString>#gb_vehicles:Chassis_GB105_Black_Prince_2019</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -846,7 +846,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -868,7 +868,7 @@
   <turrets0>
     <Turret_1_GB105_Black_Prince_2019>
       <userString>#gb_vehicles:Turret_1_GB105_Black_Prince_2019</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -992,7 +992,7 @@
             <density>119.997 126.172</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII_A>
       </guns>
       <models>
         <undamaged>vehicles/british/GB105_Black_Prince_2019/normal/lod0/Turret_01.model</undamaged>
@@ -1091,7 +1091,7 @@
   <radios>
     <British_Wireless_set_N19>shared</British_Wireless_set_N19>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1140,7 +1140,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

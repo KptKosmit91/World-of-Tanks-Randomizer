@@ -1,11 +1,11 @@
 <A22_M5_Stuart_bootcamp.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>64.4</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -74,7 +74,7 @@
     <hangarShadowTexture>vehicles/american/A22_M5_Stuart/M5_Stuart_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -119,7 +119,7 @@
   <chassis>
     <VVSS_T16E3_bootcamp>
       <userString>#usa_vehicles:VVSS_T16E3</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1500</price>
       <notInShop>true</notInShop>
@@ -375,7 +375,7 @@
             <length>0.118796</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.86986</xStart>
@@ -517,7 +517,7 @@
                 <point>-0.852448 1.03748 2.2287</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -544,7 +544,7 @@
             <length>0.118817</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.86932</xStart>
@@ -686,14 +686,14 @@
                 <point>0.872553 1.03661 2.22995</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </VVSS_T16E3_bootcamp>
@@ -701,7 +701,7 @@
   <turrets0>
     <M44_bootcamp>
       <userString>#usa_vehicles:M44</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1890</price>
       <notInShop>true</notInShop>
@@ -766,7 +766,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -775,7 +775,7 @@
             <density>191.847 192.015</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-6_L53_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-6_L53_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/american/A22_M5_Stuart/normal/lod0/Turret_01.model</undamaged>
@@ -792,7 +792,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -884,7 +884,7 @@
     <armour>0.910591167</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

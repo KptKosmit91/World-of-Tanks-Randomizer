@@ -1,12 +1,12 @@
 <G98_Waffentrager_E100_P.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -784,7 +784,7 @@
   <chassis>
     <Chassis_G98_Waffentrager_E100_P>
       <userString>#germany_vehicles:Chassis_G98_Waffentrager_E100_P</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1204,8 +1204,8 @@
             <length>0.150001</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
-            <top></top>
+            <bottom />
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_L1</wheel>
@@ -1270,8 +1270,8 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
-            <bottom></bottom>
+            <top />
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1302,8 +1302,8 @@
             <length>0.150001</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
-            <top></top>
+            <bottom />
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_R1</wheel>
@@ -1368,15 +1368,15 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
-            <bottom></bottom>
+            <top />
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1505,7 +1505,7 @@
             <density>91.9939 93.2722</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_128mm_K44_2_L61_WT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_K44_2_L61_WT>
       </guns>
       <models>
         <undamaged>vehicles/german/G98_Waffentrager_E100/normal/lod0/Turret_01.model</undamaged>
@@ -2078,7 +2078,7 @@
   <radios>
     <_10WSc_WT>shared</_10WSc_WT>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2126,7 +2126,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,9 +1,9 @@
 <G142_M48RPz.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -492,7 +492,7 @@
   <chassis>
     <Chassis_G142_M48RPz>
       <userString>#germany_vehicles:Chassis_G142_M48RPz</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -779,7 +779,7 @@
             <length>0.0824169</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19816</xStart>
@@ -993,7 +993,7 @@
                 <point>-1.66464 1.40323 3.25314</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1024,7 +1024,7 @@
             <length>0.080809</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19426</xStart>
@@ -1238,14 +1238,14 @@
                 <point>1.66464 1.40323 3.25314</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1267,7 +1267,7 @@
   <turrets0>
     <Turret_1_G142_M48RPz>
       <userString>#germany_vehicles:Turret_1_G142_M48RPz</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1414,7 +1414,7 @@
             <density>151.608 151.617</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Kanone_M41>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Kanone_M41>
       </guns>
       <models>
         <undamaged>vehicles/german/G142_M48RPz/normal/lod0/Turret_01.model</undamaged>
@@ -1870,7 +1870,7 @@
   <radios>
     <AN_GRC_8>shared</AN_GRC_8>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1919,7 +1919,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <Chassis_S15_L_60>
       <userString>#sweden_vehicles:Chassis_S15_L_60</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -858,7 +858,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -977,7 +977,7 @@
             <density>112.044 112.126</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_20mm_akan_m_Madsen_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_akan_m_Madsen_A>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S15_L_60/normal/lod0/Turret_01.model</undamaged>
@@ -1049,7 +1049,7 @@
   <radios>
     <_25_W_Sv_1_m_39_A>shared</_25_W_Sv_1_m_39_A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1097,7 +1097,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

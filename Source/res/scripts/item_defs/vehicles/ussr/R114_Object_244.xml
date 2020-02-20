@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@
   <chassis>
     <Chassis_R114_Object_244>
       <userString>#ussr_vehicles:Chassis_R114_Object_244</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -518,7 +518,7 @@
             <length>0.151845</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19616</xStart>
@@ -672,7 +672,7 @@
                 <point>-1.25902 1.0715 3.18135</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -699,7 +699,7 @@
             <length>0.152412</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19616</xStart>
@@ -853,14 +853,14 @@
                 <point>1.25902 1.0715 3.18135</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -882,7 +882,7 @@
   <turrets0>
     <Turret_1_R114_Object_244>
       <userString>#ussr_vehicles:Turret_1_R114_Object_244</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -998,7 +998,7 @@
             <density>132.754 151.764</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_D5T-85BMA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D5T-85BMA>
       </guns>
       <models>
         <undamaged>vehicles/russian/R114_Object_244/normal/lod0/Turret_01.model</undamaged>
@@ -1140,7 +1140,7 @@
     <armour>1.064504903</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

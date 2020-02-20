@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>64</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -120,7 +120,7 @@
   <chassis>
     <Chassis_Tetrarch_LL>
       <userString>#ussr_vehicles:Chassis_Tetrarch_LL</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <notInShop>true</notInShop>
@@ -355,7 +355,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -377,7 +377,7 @@
   <turrets0>
     <Turret_1_Tetrarch_LL>
       <userString>#ussr_vehicles:Turret_1_Tetrarch_LL</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>650</price>
       <notInShop>true</notInShop>
@@ -476,7 +476,7 @@
             <density>199.466 199.932</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_2pdr_QFSA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_QFSA>
       </guns>
       <models>
         <undamaged>vehicles/russian/R84_Tetrarch_LL/normal/lod0/Turret_01.model</undamaged>
@@ -587,7 +587,7 @@
     <armour>0.861916163</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

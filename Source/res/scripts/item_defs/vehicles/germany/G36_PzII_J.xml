@@ -2,7 +2,7 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -110,7 +110,7 @@
   <chassis>
     <PzII_ausf_J>
       <userString>#germany_vehicles:PzII_ausf_J</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>4510</price>
       <notInShop>true</notInShop>
@@ -395,7 +395,7 @@
             <length>0.121327</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.90503</xStart>
@@ -522,7 +522,7 @@
                 <point>-1.12225 0.960863 2.03808</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -549,7 +549,7 @@
             <length>0.121437</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.90227</xStart>
@@ -678,14 +678,14 @@
                 <point>1.33231 0.972877 1.98366</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -805,7 +805,7 @@
             <density>126.39 126.163</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_38_L55A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_38_L55A>
       </guns>
       <models>
         <undamaged>vehicles/german/G36_PzII_J/normal/lod0/Turret_01.model</undamaged>
@@ -947,7 +947,7 @@
     <armour>0.85509112</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

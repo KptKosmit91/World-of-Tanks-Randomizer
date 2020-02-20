@@ -2,11 +2,11 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -155,7 +155,7 @@
   <chassis>
     <S-51>
       <userString>#ussr_vehicles:S-51</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14600</price>
       <unlocks>
@@ -426,7 +426,7 @@
             <length>0.153813</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.28424</xStart>
@@ -617,7 +617,7 @@
             <length>0.153879</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.35986</xStart>
@@ -788,7 +788,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -808,7 +808,7 @@
     </S-51>
     <S-51bis>
       <userString>#ussr_vehicles:S-51bis</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19800</price>
       <unlocks>
@@ -1075,7 +1075,7 @@
             <length>0.153813</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.28424</xStart>
@@ -1266,7 +1266,7 @@
             <length>0.153879</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.35986</xStart>
@@ -1437,7 +1437,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1560,7 +1560,7 @@
             <density>81.7898 82.3119</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_BR-2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_BR-2>
         <_203mm_B-4>shared  <maxAmmo>12</maxAmmo>
           <reloadTime>52.3</reloadTime>
           <armor>
@@ -1634,7 +1634,7 @@
             <density>80.6889 83.6789</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_203mm_B-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_203mm_B-4>
       </guns>
       <models>
         <undamaged>vehicles/russian/R15_S-51/normal/lod0/Turret_01.model</undamaged>
@@ -1797,7 +1797,7 @@
     <armour>0.684481834</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

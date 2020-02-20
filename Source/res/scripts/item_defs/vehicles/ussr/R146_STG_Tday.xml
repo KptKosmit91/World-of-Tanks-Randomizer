@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -73,8 +73,8 @@
     <hangarShadowTexture>vehicles/russian/R146_STG_Tday/STG_Tday_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -104,7 +104,7 @@
   <chassis>
     <Chassis_R146_STG_Tday>
       <userString>#ussr_vehicles:Chassis_R146_STG_Tday</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -818,8 +818,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -835,7 +835,7 @@
   <turrets0>
     <Turret_1_R146_STG_Tday>
       <userString>#ussr_vehicles:Turret_1_R146_STG_Tday</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -919,8 +919,8 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -946,7 +946,7 @@
             <density>142.568 152.634</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_D_25TS>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D_25TS>
       </guns>
       <models>
         <undamaged>vehicles/russian/R146_STG_Tday/normal/lod0/Turret_01.model</undamaged>
@@ -963,8 +963,8 @@
       <physicsShape>1.077 -0.101 1.120 0.000 0.597 0.149 0.500 0.500 0.500 0.500 0.385 0.500 0.409 0.500 0.000</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -991,7 +991,7 @@
   <radios>
     <_10RKM>shared</_10RKM>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1040,7 +1040,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

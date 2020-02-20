@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>25</forward>
@@ -127,7 +127,7 @@ loader</commander>
   <chassis>
     <Chassis_Cz06_Kolohousenka>
       <userString>#czech_vehicles:Chassis_Cz06_Kolohousenka</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -778,7 +778,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -800,7 +800,7 @@ loader</commander>
   <turrets0>
     <Turret_1_Cz06_Kolohousenka>
       <userString>#czech_vehicles:Turret_1_Cz06_Kolohousenka</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -899,7 +899,7 @@ loader</commander>
             <density>309.052 302.073</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_Pechotni_delo_Skoda_L_27>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Pechotni_delo_Skoda_L_27>
         <_47mm_Rychlopalne_delo_Vickers_L_20>shared  <maxAmmo>80</maxAmmo>
           <unlocks>
             <vehicle>Cz03_LT_vz35  <cost>230</cost>
@@ -968,7 +968,7 @@ loader</commander>
             <density>299.428 299.661</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_Rychlopalne_delo_Vickers_L_20>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_Rychlopalne_delo_Vickers_L_20>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz06_Kolohousenka/normal/lod0/Turret_02.model</undamaged>
@@ -1090,7 +1090,7 @@ loader</commander>
     <armour>0.866094825</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

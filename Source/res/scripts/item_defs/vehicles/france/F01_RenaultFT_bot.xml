@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>21</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -72,7 +72,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/french/F01_RenaultFT/RenaultFT_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -107,7 +107,7 @@ loader</commander>
   <chassis>
     <Chassis_RenaultFT_bot>
       <userString>#france_vehicles:Chassis_RenaultFT_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -759,8 +759,8 @@ loader</commander>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_RenaultFT_bot>
@@ -768,7 +768,7 @@ loader</commander>
   <turrets0>
     <Turret_1_RenaultFT_bot>
       <userString>#france_vehicles:Turret_1_RenaultFT_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -825,7 +825,7 @@ loader</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -834,7 +834,7 @@ loader</commander>
             <density>140.052 139.325</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_APX_SA18_bot>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_APX_SA18_bot>
       </guns>
       <models>
         <undamaged>vehicles/french/F01_RenaultFT/normal/lod0/Turret_01.model</undamaged>
@@ -851,7 +851,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -939,9 +939,9 @@ loader</commander>
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

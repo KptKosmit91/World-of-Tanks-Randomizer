@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -71,7 +71,7 @@
     <hangarShadowTexture>vehicles/russian/R08_BT-2/BT-2_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -116,7 +116,7 @@
   <chassis>
     <BT-2_bootcamp>
       <userString>#ussr_vehicles:BT-2_bootcamp</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>260</price>
       <notInShop>true</notInShop>
@@ -405,8 +405,8 @@
       </groundNodes>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </BT-2_bootcamp>
@@ -414,7 +414,7 @@
   <turrets0>
     <BT-2_cylindrical_bootcamp>
       <userString>#ussr_vehicles:BT-2_cylindrical_bootcamp</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>440</price>
       <notInShop>true</notInShop>
@@ -479,7 +479,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -488,7 +488,7 @@
             <density>99.918 118.001</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_B-3_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_B-3_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/russian/R08_BT-2/normal/lod0/Turret_01.model</undamaged>
@@ -505,7 +505,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -597,7 +597,7 @@
     <armour>0.701396388</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <R108_T34_85M.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>53</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -114,7 +114,7 @@
   <chassis>
     <Chassis_R108_T34_85M>
       <userString>#ussr_vehicles:Chassis_R108_T34_85M</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>10000</price>
       <notInShop>true</notInShop>
@@ -507,7 +507,7 @@
             <length>0.155517</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.87641</xStart>
@@ -655,7 +655,7 @@
                 <point>-1.22064 1.04349 2.87318</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -686,7 +686,7 @@
             <length>0.15552</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.8765</xStart>
@@ -834,14 +834,14 @@
                 <point>1.22064 1.04349 2.87318</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -863,7 +863,7 @@
   <turrets0>
     <Turret_1_R108_T34_85M>
       <userString>#ussr_vehicles:Turret_1_R108_T34_85M</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>10000</price>
       <notInShop>true</notInShop>
@@ -980,7 +980,7 @@
             <density>110.422 130.189</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R108_T34_85M/normal/lod0/Turret_01.model</undamaged>
@@ -1123,7 +1123,7 @@
     <armour>1.175767329</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

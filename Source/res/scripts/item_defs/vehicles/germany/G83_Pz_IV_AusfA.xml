@@ -1,11 +1,11 @@
 <G83_Pz_IV_AusfA.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <Chassis_Pz_IV_AusfA>
       <userString>#germany_vehicles:Chassis_Pz_IV_AusfA</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>680</price>
       <unlocks>
@@ -856,7 +856,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -876,7 +876,7 @@
     </Chassis_Pz_IV_AusfA>
     <Chassis_Pz_IV_AusfA_2>
       <userString>#germany_vehicles:Chassis_Pz_IV_AusfA_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2150</price>
       <armor>
@@ -1604,7 +1604,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1626,7 +1626,7 @@
   <turrets0>
     <Turret_1_Pz_IV_AusfA>
       <userString>#germany_vehicles:Turret_1_Pz_IV_AusfA</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>700</price>
       <unlocks>
@@ -1728,7 +1728,7 @@
             <density>99.8818 100.053</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_38_L42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_38_L42>
         <_75mm_KwK_37_L24>shared  <maxAmmo>122</maxAmmo>
           <armor>
             <armor_1>16  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1788,7 +1788,7 @@
             <density>99.879 100.052</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_37_L24>
       </guns>
       <models>
         <undamaged>vehicles/german/G83_Pz_IV_AusfA/normal/lod0/Turret_01.model</undamaged>
@@ -1851,7 +1851,7 @@
     </Turret_1_Pz_IV_AusfA>
     <Turret_2_Pz_IV_AusfA>
       <userString>#germany_vehicles:Turret_2_Pz_IV_AusfA</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2050</price>
       <armor>
@@ -1946,7 +1946,7 @@
             <density>99.8818 100.053</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_38_L42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_38_L42>
         <_75mm_KwK_37_L24>shared  <maxAmmo>122</maxAmmo>
           <armor>
             <armor_2>14.5  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2006,7 +2006,7 @@
             <density>99.879 100.052</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_37_L24>
       </guns>
       <models>
         <undamaged>vehicles/german/G83_Pz_IV_AusfA/normal/lod0/Turret_02.model</undamaged>
@@ -2184,7 +2184,7 @@
     <armour>0.831066775</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

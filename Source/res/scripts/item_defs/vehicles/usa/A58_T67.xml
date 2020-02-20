@@ -1,11 +1,11 @@
 <A58_T67.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>61</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -104,7 +104,7 @@
   <chassis>
     <Chassis_T49>
       <userString>#usa_vehicles:Chassis_T49</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4300</price>
       <unlocks>
@@ -872,7 +872,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -892,7 +892,7 @@
     </Chassis_T49>
     <Chassis_T49_2>
       <userString>#usa_vehicles:Chassis_T49_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10200</price>
       <armor>
@@ -1640,7 +1640,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1662,7 +1662,7 @@
   <turrets0>
     <Turret_1_T49>
       <userString>#usa_vehicles:Turret_1_T49</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4000</price>
       <armor>
@@ -1777,7 +1777,7 @@
             <density>100.043 99.8782</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_57mm_Gun_M1_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_Gun_M1_L50>
       </guns>
       <models>
         <undamaged>vehicles/american/A58_T67/normal/lod0/Turret_01.model</undamaged>
@@ -1978,7 +1978,7 @@
             <density>100.043 99.8782</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_57mm_Gun_M1_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_Gun_M1_L50>
         <_75mm_AT_Gun_M7_L50>shared  <maxAmmo>45</maxAmmo>
           <unlocks>
             <gun>_76mm_AT_Gun_M1A1  <cost>4600</cost>
@@ -2067,7 +2067,7 @@
             <density>99.2816 98.3153</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Gun_M7_L50>
         <_76mm_AT_Gun_M1A1>shared  <maxAmmo>45</maxAmmo>
           <armor>
             <armor_1>25.4  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2150,7 +2150,7 @@
             <density>99.313 98.8006</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A58_T67/normal/lod0/Turret_02.model</undamaged>
@@ -2345,7 +2345,7 @@
     <armour>0.590817144</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

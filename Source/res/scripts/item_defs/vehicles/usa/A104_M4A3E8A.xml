@@ -1,11 +1,11 @@
 <A104_M4A3E8A.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>41.8</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1.8 1.8 0.32 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_A104_M4A3E8A>
       <userString>#usa_vehicles:Chassis_A104_M4A3E8A</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>10000</price>
       <notInShop>true</notInShop>
@@ -1137,7 +1137,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1159,7 +1159,7 @@
   <turrets0>
     <Turret_1_A104_M4A3E8A>
       <userString>#usa_vehicles:Turret_1_A104_M4A3E8A</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>10000</price>
       <notInShop>true</notInShop>
@@ -1272,7 +1272,7 @@
             <density>103.371 98.5772</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2A>
       </guns>
       <models>
         <undamaged>vehicles/american/A104_M4A3E8A/normal/lod0/Turret_01.model</undamaged>
@@ -1373,7 +1373,7 @@
     <armour>0.983901358</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

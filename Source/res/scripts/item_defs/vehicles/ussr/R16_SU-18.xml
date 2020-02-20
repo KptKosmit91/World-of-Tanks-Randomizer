@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>22</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -155,7 +155,7 @@ loader</commander>
   <chassis>
     <SU-18>
       <userString>#ussr_vehicles:SU-18</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>270</price>
       <unlocks>
@@ -794,7 +794,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -814,7 +814,7 @@ loader</commander>
     </SU-18>
     <SU-18Bis>
       <userString>#ussr_vehicles:SU-18Bis</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>540</price>
       <armor>
@@ -1449,7 +1449,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1555,7 +1555,7 @@ loader</commander>
             <density>102.794 102.392</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_76mm_cannon_mod_1927>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_cannon_mod_1927>
       </guns>
       <models>
         <undamaged>vehicles/russian/R16_SU-18/normal/lod0/Turret_01.model</undamaged>
@@ -1572,8 +1572,8 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_man_trav_01</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -1692,7 +1692,7 @@ loader</commander>
     <armour>0.995123557</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>44</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -734,7 +734,7 @@
   <chassis>
     <Chassis_R112_T54_45_FL>
       <userString>#ussr_vehicles:Chassis_R112_T54_45</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1130,7 +1130,7 @@
             <length>0.155734</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.7558</xStart>
@@ -1278,7 +1278,7 @@
                 <point>-1.10499 1.07443 2.99999</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1309,7 +1309,7 @@
             <length>0.155861</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.7558</xStart>
@@ -1457,14 +1457,14 @@
                 <point>1.10499 1.07443 2.99999</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1486,7 +1486,7 @@
   <turrets0>
     <Turret_1_R112_T54_45_FL>
       <userString>#ussr_vehicles:Turret_1_R112_T54_45</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1622,7 +1622,7 @@
             <density>106.795 110.653</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D10TK>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D10TK>
       </guns>
       <models>
         <undamaged>vehicles/russian/R112_T54_45/normal/lod0/Turret_01.model</undamaged>
@@ -2219,7 +2219,7 @@
     <armour>1.035802048</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,10 +1,10 @@
 <Ch08_Type97_Chi_Ha.xml>
   
   <crew>
-    <commander></commander>
+    <commander />
     <gunner>loader</gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -119,7 +119,7 @@
   <chassis>
     <Chassis_Ch08_Type97_Chi_Ha>
       <userString>#china_vehicles:Chassis_Ch08_Type97_Chi_Ha</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>1270</price>
       <unlocks>
@@ -841,7 +841,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -861,7 +861,7 @@
     </Chassis_Ch08_Type97_Chi_Ha>
     <Chassis_Ch08_Type97_Chi_Ha_2>
       <userString>#china_vehicles:Chassis_Ch08_Type97_Chi_Ha_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1850</price>
       <armor>
@@ -1579,7 +1579,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1601,7 +1601,7 @@
   <turrets0>
     <Turret_1_Ch08_Type97_Chi_Ha>
       <userString>#china_vehicles:Turret_1_Ch08_Type97_Chi_Ha</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>840</price>
       <unlocks>
@@ -1713,7 +1713,7 @@
             <density>153.37 154.61</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_57mm_Gun_Type_97>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_Gun_Type_97>
         <_45mm_20K>shared  <maxAmmo>120</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1784,7 +1784,7 @@
             <density>157.978 149.315</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch08_Type97_Chi_Ha/normal/lod0/Turret_01.model</undamaged>
@@ -1858,7 +1858,7 @@
     </Turret_1_Ch08_Type97_Chi_Ha>
     <Turret_2_Ch08_Type97_Chi_Ha>
       <userString>#china_vehicles:Turret_2_Ch08_Type97_Chi_Ha</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <unlocks>
@@ -1962,7 +1962,7 @@
             <density>153.37 154.61</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_57mm_Gun_Type_97>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_Gun_Type_97>
         <_45mm_20K>shared  <maxAmmo>120</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2029,7 +2029,7 @@
             <density>157.978 149.315</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_47mm_Gun_Type_1>shared  <maxAmmo>104</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2091,7 +2091,7 @@
             <density>159.014 145.899</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_Gun_Type_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_Gun_Type_1>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch08_Type97_Chi_Ha/normal/lod0/Turret_02.model</undamaged>
@@ -2285,7 +2285,7 @@
     <armour>0.752276412</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

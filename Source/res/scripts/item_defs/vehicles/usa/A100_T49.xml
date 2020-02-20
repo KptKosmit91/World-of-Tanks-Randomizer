@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -114,7 +114,7 @@
   <chassis>
     <Chassis_A100_T49>
       <userString>#usa_vehicles:Chassis_A100_T49</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32600</price>
       <unlocks>
@@ -398,7 +398,7 @@
             <length>0.120481</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.70017</xStart>
@@ -810,7 +810,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -830,7 +830,7 @@
     </Chassis_A100_T49>
     <Chassis_A100_T49_2>
       <userString>#usa_vehicles:Chassis_A100_T49_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>63400</price>
       <armor>
@@ -1108,7 +1108,7 @@
             <length>0.120481</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.70017</xStart>
@@ -1520,7 +1520,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1542,7 +1542,7 @@
   <turrets0>
     <Turret_1_A100_T49>
       <userString>#usa_vehicles:Turret_1_A100_T49</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <unlocks>
@@ -1661,7 +1661,7 @@
             <density>100.273 101.632</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T132E3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T132E3>
       </guns>
       <models>
         <undamaged>vehicles/american/A100_T49/normal/lod0/Turret_01.model</undamaged>
@@ -1752,7 +1752,7 @@
     </Turret_1_A100_T49>
     <Turret_2_A100_T49>
       <userString>#usa_vehicles:Turret_2_A100_T49</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>64000</price>
       <unlocks>
@@ -1872,7 +1872,7 @@
             <density>100.273 101.632</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T132E3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T132E3>
         <_152mm_Gun_Launcher_M81>shared  <maxAmmo>22</maxAmmo>
           <unlocks>
             <vehicle>A116_XM551  <cost>229000</cost>
@@ -1963,7 +1963,7 @@
             <density>96.5083 99.982</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_Gun_Launcher_M81>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_Gun_Launcher_M81>
       </guns>
       <models>
         <undamaged>vehicles/american/A100_T49/normal/lod0/Turret_02.model</undamaged>
@@ -2160,7 +2160,7 @@
     <armour>0.68528985</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

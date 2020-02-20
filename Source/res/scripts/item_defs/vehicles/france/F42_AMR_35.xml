@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
@@ -133,7 +133,7 @@ loader</commander>
   <chassis>
     <Chassis_F42_AMR_35>
       <userString>#france_vehicles:Chassis_F42_AMR_35</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -450,8 +450,8 @@ loader</commander>
             <length>0.0515015</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
-            <top></top>
+            <bottom />
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_L5</wheel>
@@ -512,8 +512,8 @@ loader</commander>
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
-            <bottom></bottom>
+            <top />
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -540,8 +540,8 @@ loader</commander>
             <length>0.0515029</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
-            <top></top>
+            <bottom />
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_R5</wheel>
@@ -602,15 +602,15 @@ loader</commander>
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
-            <bottom></bottom>
+            <top />
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -632,7 +632,7 @@ loader</commander>
   <turrets0>
     <Turret_1_F42_AMR_35>
       <userString>#france_vehicles:Turret_1_F42_AMR_35</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -715,7 +715,7 @@ loader</commander>
             <aoTextureSize>256 128</aoTextureSize>
             <tiling>0.3 0.15 0.000000 0.000000</tiling>
           </camouflage>
-        </_25mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_SA35>
       </guns>
       <models>
         <undamaged>vehicles/french/F42_AMR_35/normal/lod0/Turret_01.model</undamaged>
@@ -838,7 +838,7 @@ loader</commander>
     <armour>0.861356293</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

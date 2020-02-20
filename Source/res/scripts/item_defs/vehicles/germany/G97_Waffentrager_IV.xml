@@ -1,12 +1,12 @@
 <G97_Waffentrager_IV.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -24,12 +24,12 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>80</armor_1>
@@ -125,7 +125,7 @@
   <chassis>
     <Chassis_Waffentrager_IV>
       <userString>#germany_vehicles:Chassis_Waffentrager_IV</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <unlocks>
@@ -630,7 +630,7 @@
             <length>0.117287</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.10984</xStart>
@@ -826,7 +826,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -846,7 +846,7 @@
     </Chassis_Waffentrager_IV>
     <Chassis_Waffentrager_IV_2>
       <userString>#germany_vehicles:Chassis_Waffentrager_IV_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>61000</price>
       <armor>
@@ -1347,7 +1347,7 @@
             <length>0.117287</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.10984</xStart>
@@ -1543,7 +1543,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1706,7 +1706,7 @@
             <density>76.0154 72.6885</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_K44_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_K44_L55>
         <_128mm_K44_2_L61>shared  <maxAmmo>40</maxAmmo>
           <reloadTime>11.6</reloadTime>
           <unlocks>
@@ -1820,7 +1820,7 @@
             <density>67.3975 72.6713</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_K44_2_L61>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_K44_2_L61>
       </guns>
       <models>
         <undamaged>vehicles/german/G97_Waffentrager_IV/normal/lod0/Turret_01.model</undamaged>
@@ -2034,7 +2034,7 @@
             <density>67.298 67.0868</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_150mm_Rohr_L29_5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_Rohr_L29_5>
         <_150mm_Rohr_L38>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <gun>25</gun>
@@ -2155,7 +2155,7 @@
             <density>67.7295 67.789</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_150mm_Rohr_L38>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_Rohr_L38>
       </guns>
       <models>
         <undamaged>vehicles/german/G97_Waffentrager_IV/normal/lod0/Turret_02.model</undamaged>
@@ -2348,7 +2348,7 @@
     <armour>0.739980136</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

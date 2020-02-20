@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>28</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -117,7 +117,7 @@ loader</commander>
   <chassis>
     <Chassis_D1_2>
       <userString>#france_vehicles:Chassis_D1_2</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>340</price>
       <unlocks>
@@ -792,7 +792,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -812,7 +812,7 @@ loader</commander>
     </Chassis_D1_2>
     <Chassis_D1_2_2>
       <userString>#france_vehicles:Chassis_D1_2_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>620</price>
       <armor>
@@ -1483,7 +1483,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1505,7 +1505,7 @@ loader</commander>
   <turrets0>
     <Turret_1_D1_2>
       <userString>#france_vehicles:Turret_1_D1_2</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>120</price>
       <armor>
@@ -1598,7 +1598,7 @@ loader</commander>
             <density>118.077 120.02</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_13.2mm_Hotchkiss_mle._1930>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_13.2mm_Hotchkiss_mle._1930>
         <_25mm_Canon_Raccourci_Mle.1934>shared  <maxAmmo>200</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.1</turretRotation>
@@ -1656,7 +1656,7 @@ loader</commander>
             <density>120.151 120.158</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_25mm_Canon_Raccourci_Mle.1934>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_Canon_Raccourci_Mle.1934>
       </guns>
       <models>
         <undamaged>vehicles/french/F02_D1/normal/lod0/Turret_01.model</undamaged>
@@ -1709,7 +1709,7 @@ loader</commander>
     </Turret_1_D1_2>
     <Turret_2_D1_2>
       <userString>#france_vehicles:Turret_2_D1_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>830</price>
       <unlocks>
@@ -1807,7 +1807,7 @@ loader</commander>
             <density>118.077 120.02</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_13.2mm_Hotchkiss_mle._1930>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_13.2mm_Hotchkiss_mle._1930>
         <_25mm_Canon_Raccourci_Mle.1934>shared  <maxAmmo>200</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.08</turretRotation>
@@ -1865,7 +1865,7 @@ loader</commander>
             <density>120.151 120.158</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_25mm_Canon_Raccourci_Mle.1934>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_Canon_Raccourci_Mle.1934>
         <_47mm_SA34>shared  <maxAmmo>112</maxAmmo>
           <unlocks>
             <vehicle>F03_D2  <cost>1175</cost>
@@ -1929,7 +1929,7 @@ loader</commander>
             <density>119.235 118.891</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34>
       </guns>
       <models>
         <undamaged>vehicles/french/F02_D1/normal/lod0/Turret_02.model</undamaged>
@@ -2088,7 +2088,7 @@ loader</commander>
     <armour>0.927545675</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

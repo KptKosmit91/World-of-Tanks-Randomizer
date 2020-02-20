@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -44,7 +44,7 @@
       <maxRegenHealth>60</maxRegenHealth>
       <repairCost>1.0</repairCost>
     </ammoBayHealth>
-    <variants></variants>
+    <variants />
     <models>
       <undamaged>vehicles/russian/R03_BT-7/normal/lod0/Hull.model</undamaged>
       <destroyed>vehicles/russian/R03_BT-7/crash/lod0/Hull.model</destroyed>
@@ -76,7 +76,7 @@
     <hangarShadowTexture>vehicles/russian/R03_BT-7/BT-7_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -100,7 +100,7 @@
   <chassis>
     <BT-5_bootcamp>
       <userString>#ussr_vehicles:BT-5</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <notInShop>true</notInShop>
@@ -464,7 +464,7 @@
             <length>0.166992</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.7699</xStart>
@@ -602,7 +602,7 @@
                 <point>-1.01629 1.01685 2.68529</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -633,7 +633,7 @@
             <length>0.166981</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.77018</xStart>
@@ -771,14 +771,14 @@
                 <point>0.84636 1.04421 2.68451</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </BT-5_bootcamp>
@@ -787,7 +787,7 @@
     <BT-5_cylindrical_bootcamp>
       <userString>#ussr_vehicles:BT-5_cylindrical</userString>
       <shortUserString>#ussr_vehicles:BT-5_cylindrical_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>750</price>
       <notInShop>true</notInShop>
@@ -853,7 +853,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -862,7 +862,7 @@
             <density>139.126 137.816</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/russian/R03_BT-7/normal/lod0/Turret_01.model</undamaged>
@@ -879,7 +879,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -991,7 +991,7 @@
     <armour>0.823759907</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

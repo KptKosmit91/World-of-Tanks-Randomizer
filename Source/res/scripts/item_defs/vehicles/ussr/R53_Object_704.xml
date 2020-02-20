@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>37</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -159,7 +159,7 @@
   <chassis>
     <Chassis_Object_704>
       <userString>#ussr_vehicles:Chassis_Object_704</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28150</price>
       <unlocks>
@@ -443,7 +443,7 @@
             <length>0.149015</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.16781</xStart>
@@ -646,7 +646,7 @@
             <length>0.148612</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.17607</xStart>
@@ -830,7 +830,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -850,7 +850,7 @@
     </Chassis_Object_704>
     <Chassis_Object_704_2>
       <userString>#ussr_vehicles:Chassis_Object_704_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62000</price>
       <armor>
@@ -1130,7 +1130,7 @@
             <length>0.149015</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.16781</xStart>
@@ -1333,7 +1333,7 @@
             <length>0.148612</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.17607</xStart>
@@ -1517,7 +1517,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1640,7 +1640,7 @@
             <density>121.825 126.491</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_ML-20CM_obr1944>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_ML-20CM_obr1944>
         <_152mm_D_4S>shared  <maxAmmo>30</maxAmmo>
           <reloadTime>17.4</reloadTime>
           <shotDispersionRadius>0.4</shotDispersionRadius>
@@ -1721,7 +1721,7 @@
             <density>84.2703 90.0655</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_D_4S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_D_4S>
         <_152mm_BL-10>shared  <maxAmmo>30</maxAmmo>
           <reloadTime>17.1</reloadTime>
           <shotDispersionRadius>0.39</shotDispersionRadius>
@@ -1802,7 +1802,7 @@
             <density>94.8416 106.755</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_BL-10>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_BL-10>
       </guns>
       <models>
         <undamaged>vehicles/russian/R53_Object_704/normal/lod0/Turret_01.model</undamaged>
@@ -1819,8 +1819,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_06</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_Object_704>
@@ -1937,7 +1937,7 @@
     <armour>1.324076548</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

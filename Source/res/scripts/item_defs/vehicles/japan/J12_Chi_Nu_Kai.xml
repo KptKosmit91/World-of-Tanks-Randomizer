@@ -1,11 +1,11 @@
 <J12_Chi_Nu_Kai.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38.8</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -114,7 +114,7 @@
   <chassis>
     <Chassis_Chi_Nu_Kai>
       <userString>#japan_vehicles:Chassis_Chi_Nu_Kai</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -405,7 +405,7 @@
             <length>0.117917</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.84536</xStart>
@@ -577,7 +577,7 @@
                 <point>-1.09741 1.28509 2.63778</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -604,7 +604,7 @@
             <length>0.117917</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.84536</xStart>
@@ -776,14 +776,14 @@
                 <point>1.09744 1.28518 2.63779</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -805,7 +805,7 @@
   <turrets0>
     <Turret_1_Chi_Nu_Kai>
       <userString>#japan_vehicles:Turret_1_Chi_Nu_Kai</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -916,7 +916,7 @@
             <density>100.514 107.259</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Type5_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Type5_1>
       </guns>
       <models>
         <undamaged>vehicles/japan/J12_Chi_Nu_Kai/normal/lod0/Turret_01.model</undamaged>
@@ -1058,7 +1058,7 @@
     <armour>0.821215475</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

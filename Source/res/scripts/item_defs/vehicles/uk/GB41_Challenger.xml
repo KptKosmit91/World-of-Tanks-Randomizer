@@ -1,10 +1,10 @@
 <GB41_Challenger.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <loader />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -115,7 +115,7 @@
   <chassis>
     <Chassis_GB41_Challenger>
       <userString>#gb_vehicles:Chassis_GB41_Challenger</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <unlocks>
@@ -545,7 +545,7 @@
             <length>0.0838433</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3305</xStart>
@@ -781,7 +781,7 @@
                 <point>-1.2417 1.06065 3.41885</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -808,7 +808,7 @@
             <length>0.0838298</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.33098</xStart>
@@ -1044,14 +1044,14 @@
                 <point>1.15171 1.02652 3.41729</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1071,7 +1071,7 @@
     </Chassis_GB41_Challenger>
     <Chassis_GB41_Challenger_2>
       <userString>#gb_vehicles:Chassis_GB41_Challenger_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21000</price>
       <armor>
@@ -1497,7 +1497,7 @@
             <length>0.0838433</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3305</xStart>
@@ -1733,7 +1733,7 @@
                 <point>-1.2417 1.06065 3.41885</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1760,7 +1760,7 @@
             <length>0.0838298</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.33098</xStart>
@@ -1996,14 +1996,14 @@
                 <point>1.15171 1.02652 3.41729</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2025,7 +2025,7 @@
   <turrets0>
     <Turret_1_GB41_Challenger>
       <userString>#gb_vehicles:Turret_1_GB41_Challenger</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17500</price>
       <armor>
@@ -2137,7 +2137,7 @@
             <density>106.444 124.013</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_17pdr_OQF_AT_Mk_II>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_17pdr_OQF_AT_Mk_II>
         <_17pdr_OQF_AT_1>shared  <maxAmmo>51</maxAmmo>
           <unlocks>
             <turret>Turret_2_GB41_Challenger  <cost>11200</cost>
@@ -2212,7 +2212,7 @@
             <density>106.425 124.136</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_17pdr_OQF_AT_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_17pdr_OQF_AT_1>
       </guns>
       <models>
         <undamaged>vehicles/british/GB41_Challenger/normal/lod0/Turret_01.model</undamaged>
@@ -2295,7 +2295,7 @@
     </Turret_1_GB41_Challenger>
     <Turret_2_GB41_Challenger>
       <userString>#gb_vehicles:Turret_2_GB41_Challenger</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21000</price>
       <unlocks>
@@ -2409,7 +2409,7 @@
             <density>106.444 124.013</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_17pdr_OQF_AT_Mk_II>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_17pdr_OQF_AT_Mk_II>
         <_17pdr_OQF_AT_1>shared  <maxAmmo>55</maxAmmo>
           <armor>
             <gun>30</gun>
@@ -2480,7 +2480,7 @@
             <density>106.425 124.136</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_17pdr_OQF_AT_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_17pdr_OQF_AT_1>
         <_32_pounder_AT_Gun_OQF_Mk_II>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <gun>40</gun>
@@ -2552,7 +2552,7 @@
             <density>112.673 112.72</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_32_pounder_AT_Gun_OQF_Mk_II>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_32_pounder_AT_Gun_OQF_Mk_II>
       </guns>
       <models>
         <undamaged>vehicles/british/GB41_Challenger/normal/lod0/Turret_02.model</undamaged>
@@ -2746,7 +2746,7 @@
     <armour>0.64427038</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

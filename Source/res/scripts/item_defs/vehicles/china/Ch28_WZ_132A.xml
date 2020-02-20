@@ -1,9 +1,9 @@
 <Ch28_WZ_132A.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -106,7 +106,7 @@
   <chassis>
     <Chassis_Ch28_WZ_132A>
       <userString>#china_vehicles:Chassis_Ch28_WZ_132A</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <unlocks>
@@ -1228,7 +1228,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1248,7 +1248,7 @@
     </Chassis_Ch28_WZ_132A>
     <Chassis_Ch28_WZ_132A_2>
       <userString>#china_vehicles:Chassis_Ch28_WZ_132A_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>61500</price>
       <armor>
@@ -2366,7 +2366,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2388,7 +2388,7 @@
   <turrets0>
     <Turret_1_Ch28_WZ_132A>
       <userString>#china_vehicles:Turret_1_Ch28_WZ_132A</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>55000</price>
       <notInShop>true</notInShop>
@@ -2498,7 +2498,7 @@
             <density>154.234 170.995</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_60-100TA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_60-100TA>
         <_100mm_62-100TA>shared  <maxAmmo>40</maxAmmo>
           <unlocks>
             <vehicle>Ch29_Type_62C_prot  <cost>244000</cost>
@@ -2576,7 +2576,7 @@
             <density>149.987 156.6</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_62-100TA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_62-100TA>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch28_WZ_132A/normal/lod0/Turret_01.model</undamaged>
@@ -2678,7 +2678,7 @@
     </A-220_1>
     <A-220B>shared</A-220B>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2766,7 +2766,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

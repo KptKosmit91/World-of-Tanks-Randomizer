@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>52.6</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -109,7 +109,7 @@
   <chassis>
     <Chassis_T44_122>
       <userString>#ussr_vehicles:Chassis_T44_122</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -525,7 +525,7 @@
             <length>0.174649</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.06116</xStart>
@@ -865,7 +865,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -887,7 +887,7 @@
   <turrets0>
     <Turret_1_T44_122>
       <userString>#ussr_vehicles:Turret_1_T44_122</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -992,7 +992,7 @@
             <density>110.919 113.465</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122mm_D-25-44_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D-25-44_1>
       </guns>
       <models>
         <undamaged>vehicles/russian/R99_T44_122/normal/lod0/Turret_01.model</undamaged>
@@ -1134,7 +1134,7 @@
     <armour>1.013868911</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

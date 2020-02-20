@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -148,7 +148,7 @@
   <chassis>
     <SU-100_mod_1944>
       <userString>#ussr_vehicles:SU-100_mod_1944</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9100</price>
       <unlocks>
@@ -549,7 +549,7 @@
             <length>0.150659</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98577</xStart>
@@ -699,7 +699,7 @@
                 <point>-1.36346 1.06155 2.79709</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -730,7 +730,7 @@
             <length>0.146575</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.89999</xStart>
@@ -880,14 +880,14 @@
                 <point>1.36346 1.06155 2.79709</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -907,7 +907,7 @@
     </SU-100_mod_1944>
     <SU-100_mod_1945>
       <userString>#ussr_vehicles:SU-100_mod_1945</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16830</price>
       <armor>
@@ -1280,7 +1280,7 @@
             <length>0.153514</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.02027</xStart>
@@ -1430,7 +1430,7 @@
                 <point>1.36346 1.06155 2.79709</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1461,7 +1461,7 @@
             <length>0.15378</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.93291</xStart>
@@ -1611,7 +1611,7 @@
                 <point>0.36346 1.06155 2.79709</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1642,7 +1642,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1773,7 +1773,7 @@
             <density>88.3651 107.811</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D-5S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D-5S>
         <_85mm_D5S-85BM>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 6 1 6</maxPitch>
@@ -1854,7 +1854,7 @@
             <density>94.5125 107.509</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D5S-85BM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D5S-85BM>
         <_100mm_D10S>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 6 1 6</maxPitch>
@@ -1934,7 +1934,7 @@
             <density>95.5349 107.786</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D10S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D10S>
         <_122-mm_D-25S_with_a_piston_shutter>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 6 1 6</maxPitch>
@@ -2015,7 +2015,7 @@
             <density>102.194 102.33</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25S_with_a_piston_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25S_with_a_piston_shutter>
       </guns>
       <models>
         <undamaged>vehicles/russian/R17_SU-100/normal/lod0/Turret_01.model</undamaged>
@@ -2032,8 +2032,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </SU-100>
@@ -2150,7 +2150,7 @@
     <armour>1.010345325</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

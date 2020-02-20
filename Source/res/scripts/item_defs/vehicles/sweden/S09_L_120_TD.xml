@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -44,7 +44,7 @@
     </ammoBayHealth>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <models>
       <undamaged>vehicles/sweden/S09_L_120_TD/normal/lod0/Hull.model</undamaged>
@@ -139,7 +139,7 @@
   <chassis>
     <Chassis_S09_L_120_TD>
       <userString>#sweden_vehicles:Chassis_S09_L_120_TD</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>290</price>
       <unlocks>
@@ -1024,7 +1024,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1044,7 +1044,7 @@
     </Chassis_S09_L_120_TD>
     <Chassis_S09_L_120_TD_2>
       <userString>#sweden_vehicles:Chassis_S09_L_120_TD_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>580</price>
       <armor>
@@ -1925,7 +1925,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2087,7 +2087,7 @@
             <density>121.918 119.407</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_pvlvkan_m_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_pvlvkan_m_40>
         <_37mm_pvkan_m_38>shared  <maxAmmo>100</maxAmmo>
           <unlocks>
             <vehicle>S20_Ikv_72  <cost>1180</cost>
@@ -2192,7 +2192,7 @@
             <density>118.898 118.616</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_pvkan_m_38>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_pvkan_m_38>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S09_L_120_TD/normal/lod0/Turret_01.model</undamaged>
@@ -2351,7 +2351,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

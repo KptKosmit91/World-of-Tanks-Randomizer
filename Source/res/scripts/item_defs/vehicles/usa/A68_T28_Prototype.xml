@@ -1,11 +1,11 @@
 <A68_T28_Prototype.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>28</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -308,7 +308,7 @@
   <chassis>
     <Chassis_T28_Prototype>
       <userString>#usa_vehicles:Chassis_T28_Prototype</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16000</price>
       <unlocks>
@@ -1333,7 +1333,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1353,7 +1353,7 @@
     </Chassis_T28_Prototype>
     <Chassis_T28_Prototype_2>
       <userString>#usa_vehicles:Chassis_T28_Prototype_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>35000</price>
       <unlocks>
@@ -2378,7 +2378,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2400,7 +2400,7 @@
   <turrets0>
     <Turret_1_T28_Prototype>
       <userString>#usa_vehicles:Turret_1_T28_Prototype</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <notInShop>true</notInShop>
@@ -2534,7 +2534,7 @@
             <density>99.0207 102.097</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_AT_Gun_T15E2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_AT_Gun_T15E2>
         <_105mm_AT_Gun_T5E1>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_120mm_AT_Gun_T53  <cost>51000</cost>
@@ -2630,7 +2630,7 @@
             <density>102.124 103.102</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_AT_Gun_T5E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_AT_Gun_T5E1>
         <_120mm_AT_Gun_T53>shared  <maxAmmo>40</maxAmmo>
           <unlocks>
             <vehicle>A14_T30  <cost>145000</cost>
@@ -2731,7 +2731,7 @@
             <density>92.3381 101.196</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_AT_Gun_T53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_AT_Gun_T53>
       </guns>
       <models>
         <undamaged>vehicles/american/A68_T28_Prototype/normal/lod0/Turret_01.model</undamaged>
@@ -3079,7 +3079,7 @@
     <armour>1.022737389</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <GB35_Sentinel_AC_IV.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60.4</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@
   <chassis>
     <Chassis_GB35_Sentinel_AC_IV>
       <userString>#gb_vehicles:Chassis_GB35_Sentinel_AC_IV</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -397,7 +397,7 @@
             <length>0.0834001</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.11181</xStart>
@@ -617,7 +617,7 @@
                 <point>-1.26287 1.11352 2.81979</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -648,7 +648,7 @@
             <length>0.0833445</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.11365</xStart>
@@ -868,14 +868,14 @@
                 <point>1.26288 1.11917 2.81434</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -897,7 +897,7 @@
   <turrets0>
     <Turret_1_GB35_Sentinel_AC_IV>
       <userString>#gb_vehicles:Turret_1_GB35_Sentinel_AC_IV</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1012,7 +1012,7 @@
             <density>153.629 147.78</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII_A>
       </guns>
       <models>
         <undamaged>vehicles/british/GB35_Sentinel_AC_IV/normal/lod0/Turret_01.model</undamaged>
@@ -1145,7 +1145,7 @@
     <armour>0.786914</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

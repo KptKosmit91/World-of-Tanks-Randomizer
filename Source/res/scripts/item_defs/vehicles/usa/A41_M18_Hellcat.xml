@@ -1,11 +1,11 @@
 <A41_M18_Hellcat.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>72</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -115,7 +115,7 @@
   <chassis>
     <Chassis_M18_Hellcat>
       <userString>#usa_vehicles:Chassis_M18_Hellcat</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8600</price>
       <unlocks>
@@ -402,7 +402,7 @@
             <length>0.123557</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.49004</xStart>
@@ -588,7 +588,7 @@
             <length>0.12356</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.48996</xStart>
@@ -754,7 +754,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -774,7 +774,7 @@
     </Chassis_M18_Hellcat>
     <Chassis_M18_Hellcat_2>
       <userString>#usa_vehicles:Chassis_M18_Hellcat_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17000</price>
       <armor>
@@ -1057,7 +1057,7 @@
             <length>0.123557</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.49004</xStart>
@@ -1243,7 +1243,7 @@
             <length>0.12356</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.48996</xStart>
@@ -1409,7 +1409,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1545,7 +1545,7 @@
             <density>137.914 144.838</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Gun_M7_L50>
         <_76mm_AT_Gun_M1A1>shared  <maxAmmo>45</maxAmmo>
           <unlocks>
             <gun>_76mm_AT_Gun_M1A2  <cost>5800</cost>
@@ -1630,7 +1630,7 @@
             <density>110.771 144.837</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A1>
         <_76mm_AT_Gun_M1A2>shared  <maxAmmo>45</maxAmmo>
           <unlocks>
             <turret>Turret_2_M18_Hellcat  <cost>4600</cost>
@@ -1715,7 +1715,7 @@
             <density>122.275 142.951</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A2>
       </guns>
       <models>
         <undamaged>vehicles/american/A41_M18_Hellcat/normal/lod0/Turret_01.model</undamaged>
@@ -1901,7 +1901,7 @@
             <density>137.914 144.838</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Gun_M7_L50>
         <_76mm_AT_Gun_M1A1>shared  <maxAmmo>45</maxAmmo>
           <armor>
             <armor_1>76.2  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1988,7 +1988,7 @@
             <density>110.771 144.837</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A1>
         <_76mm_AT_Gun_M1A2>shared  <maxAmmo>45</maxAmmo>
           <armor>
             <armor_1>76.2  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2075,7 +2075,7 @@
             <density>122.275 142.951</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A2>
         <_90mm_AT_Gun_M3>shared  <maxAmmo>30</maxAmmo>
           <unlocks>
             <vehicle>A72_T25_2  <cost>42350</cost>
@@ -2167,7 +2167,7 @@
             <density>119.12 133.948</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_AT_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_AT_Gun_M3>
       </guns>
       <models>
         <undamaged>vehicles/american/A41_M18_Hellcat/normal/lod0/Turret_02.model</undamaged>
@@ -2356,7 +2356,7 @@
     <armour>0.654565359</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

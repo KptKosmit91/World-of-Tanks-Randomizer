@@ -1,12 +1,12 @@
 <J24_Mi_To_130_tons.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>29.4</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -136,7 +136,7 @@
   <chassis>
     <Chassis_J24_Mi_To_130_tons>
       <userString>#japan_vehicles:Chassis_J24_Mi_To_130_tons</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10000</price>
       <unlocks>
@@ -894,7 +894,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -914,7 +914,7 @@
     </Chassis_J24_Mi_To_130_tons>
     <Chassis_J24_Mi_To_130_tons_2>
       <userString>#japan_vehicles:Chassis_J24_Mi_To_130_tons_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>19800</price>
       <armor>
@@ -1668,7 +1668,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1690,7 +1690,7 @@
   <turrets0>
     <Turret_1_J24_Mi_To_130_tons>
       <userString>#japan_vehicles:Turret_1_J24_Mi_To_130_tons</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1807,7 +1807,7 @@
             <density>94.1907 99.139</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_Cannon_Type92>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Cannon_Type92>
         <_150mm_Howitzer_Type96>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <vehicle>J28_O_I_100  <cost>56320</cost>
@@ -1893,7 +1893,7 @@
             <density>98.2381 100.338</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_150mm_Howitzer_Type96>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_Howitzer_Type96>
       </guns>
       <models>
         <undamaged>vehicles/japan/J24_Mi_To_130_tons/normal/lod0/Turret_01.model</undamaged>
@@ -2068,7 +2068,7 @@
     <armour>1.022502039</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

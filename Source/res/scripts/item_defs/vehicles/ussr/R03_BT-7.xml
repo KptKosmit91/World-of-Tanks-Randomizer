@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -122,7 +122,7 @@
   <chassis>
     <BT-5>
       <userString>#ussr_vehicles:BT-5</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <unlocks>
@@ -489,7 +489,7 @@
             <length>0.166992</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.7699</xStart>
@@ -627,7 +627,7 @@
                 <point>-1.01629 1.01685 2.68529</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -658,7 +658,7 @@
             <length>0.166981</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.77018</xStart>
@@ -796,14 +796,14 @@
                 <point>0.84636 1.04421 2.68451</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -823,7 +823,7 @@
     </BT-5>
     <BT-7>
       <userString>#ussr_vehicles:BT-7</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1700</price>
       <armor>
@@ -1186,7 +1186,7 @@
             <length>0.166992</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.7699</xStart>
@@ -1324,7 +1324,7 @@
                 <point>-1.01629 1.01685 2.68529</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1355,7 +1355,7 @@
             <length>0.166981</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.77018</xStart>
@@ -1493,14 +1493,14 @@
                 <point>0.84636 1.04421 2.68451</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1523,7 +1523,7 @@
     <BT-5_cylindrical>
       <userString>#ussr_vehicles:BT-5_cylindrical</userString>
       <shortUserString>#ussr_vehicles:BT-5_cylindrical_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>750</price>
       <unlocks>
@@ -1628,7 +1628,7 @@
             <density>139.126 137.816</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_23mm_VJA>shared  <maxAmmo>300</maxAmmo>
           <reloadTime>4.6</reloadTime>
           <clip>
@@ -1703,7 +1703,7 @@
             <density>148.419 148.417</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_23mm_VJA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_23mm_VJA>
       </guns>
       <models>
         <undamaged>vehicles/russian/R03_BT-7/normal/lod0/Turret_01.model</undamaged>
@@ -1788,7 +1788,7 @@
     <BT-7_conic>
       <userString>#ussr_vehicles:BT-7_conic</userString>
       <shortUserString>#ussr_vehicles:BT-7_conic_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1730</price>
       <unlocks>
@@ -1889,7 +1889,7 @@
             <density>139.126 137.816</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_23mm_VJA>shared  <maxAmmo>300</maxAmmo>
           <reloadTime>4.3</reloadTime>
           <clip>
@@ -1964,7 +1964,7 @@
             <density>148.419 148.417</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_23mm_VJA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_23mm_VJA>
         <_37mm_ZiS-19>shared  <maxAmmo>84</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.08</turretRotation>
@@ -2031,7 +2031,7 @@
             <density>161.267 161.139</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_ZiS-19>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_ZiS-19>
       </guns>
       <models>
         <undamaged>vehicles/russian/R03_BT-7/normal/lod0/Turret_02.model</undamaged>
@@ -2234,7 +2234,7 @@
     <armour>0.823759907</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

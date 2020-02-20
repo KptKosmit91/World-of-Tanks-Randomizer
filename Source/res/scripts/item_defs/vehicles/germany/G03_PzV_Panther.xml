@@ -1,11 +1,11 @@
 <G03_PzV_Panther.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@
     <Pz-V_Standardketten>
       <userString>#germany_vehicles:Pz-V_Standardketten</userString>
       <shortUserString>#germany_vehicles:Pz-V_Standardketten_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <unlocks>
@@ -447,7 +447,7 @@
             <length>0.150998</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97221</xStart>
@@ -606,7 +606,7 @@
                 <point>-1.57995 1.40288 3.21872</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -633,7 +633,7 @@
             <length>0.150998</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97221</xStart>
@@ -791,14 +791,14 @@
                 <point>1.57993 1.45855 3.14322</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -819,7 +819,7 @@
     <Pz-V_Vetstaerktketten>
       <userString>#germany_vehicles:Pz-V_Vetstaerktketten</userString>
       <shortUserString>#germany_vehicles:Pz-V_Vetstaerktketten_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18200</price>
       <armor>
@@ -1149,7 +1149,7 @@
             <length>0.150998</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97221</xStart>
@@ -1308,7 +1308,7 @@
                 <point>-1.57995 1.40288 3.21872</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1335,7 +1335,7 @@
             <length>0.150998</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97221</xStart>
@@ -1493,14 +1493,14 @@
                 <point>1.57993 1.45855 3.14322</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1523,7 +1523,7 @@
     <Pz-V_Standardturm>
       <userString>#germany_vehicles:Pz-V_Standardturm</userString>
       <shortUserString>#germany_vehicles:Pz-V_Standardturm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13500</price>
       <armor>
@@ -1641,7 +1641,7 @@
             <density>90.3356 89.159</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
         <_105mm_StuH42_L28Pz>shared  <maxAmmo>42</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.16</turretRotation>
@@ -1721,7 +1721,7 @@
             <density>89.2772 89.395</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28Pz>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28Pz>
         <_75mm_KwK45_L100>shared  <unlocks>
             <vehicle>G64_Panther_II  <cost>88500</cost>
             </vehicle>
@@ -1807,7 +1807,7 @@
             <density>89.6498 89.3051</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK45_L100>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK45_L100>
       </guns>
       <models>
         <undamaged>vehicles/german/G03_PzV_Panther/normal/lod0/Turret_01.model</undamaged>
@@ -1892,7 +1892,7 @@
     <Pz-V_Shmallturm>
       <userString>#germany_vehicles:Pz-V_Shmallturm</userString>
       <shortUserString>#germany_vehicles:Pz-V_Shmallturm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22300</price>
       <armor>
@@ -2007,7 +2007,7 @@
             <density>90.3356 89.159</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
         <_105mm_StuH42_L28Pz>shared  <maxAmmo>42</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.16</turretRotation>
@@ -2089,7 +2089,7 @@
             <density>89.2772 89.395</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28Pz>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28Pz>
         <_75mm_KwK45_L100>shared  <maxAmmo>80</maxAmmo>
           <reloadTime>4</reloadTime>
           <shotDispersionRadius>0.32</shotDispersionRadius>
@@ -2173,7 +2173,7 @@
             <density>89.6498 89.3051</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK45_L100>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK45_L100>
       </guns>
       <models>
         <undamaged>vehicles/german/G03_PzV_Panther/normal/lod0/Turret_02.model</undamaged>
@@ -2372,7 +2372,7 @@
     <armour>0.963500662</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

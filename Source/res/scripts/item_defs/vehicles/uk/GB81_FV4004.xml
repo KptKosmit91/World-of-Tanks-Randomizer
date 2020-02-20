@@ -1,9 +1,9 @@
 <GB81_FV4004.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -131,7 +131,7 @@
   <chassis>
     <Chassis_GB81_FV4004>
       <userString>#gb_vehicles:Chassis_GB81_FV4004</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31500</price>
       <unlocks>
@@ -1210,7 +1210,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1230,7 +1230,7 @@
     </Chassis_GB81_FV4004>
     <Chassis_GB81_FV4004_2>
       <userString>#gb_vehicles:Chassis_GB81_FV4004_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>61800</price>
       <armor>
@@ -2304,7 +2304,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2326,7 +2326,7 @@
   <turrets0>
     <Turret_1_GB81_FV4004>
       <userString>#gb_vehicles:Turret_1_GB81_FV4004</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>100</price>
       <notInShop>true</notInShop>
@@ -2448,7 +2448,7 @@
             <density>97.1797 100.79</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_120mm_AT_Gun_L1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_AT_Gun_L1A1>
         <_5_5inch_AT_Gun>shared  <maxAmmo>30</maxAmmo>
           <unlocks>
             <vehicle>GB83_FV4005  <cost>195000</cost>
@@ -2537,7 +2537,7 @@
             <density>99.4311 99.162</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_5_5inch_AT_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_5_5inch_AT_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB81_FV4004/normal/lod0/Turret_01.model</undamaged>
@@ -2723,7 +2723,7 @@
     <armour>0.985981654</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

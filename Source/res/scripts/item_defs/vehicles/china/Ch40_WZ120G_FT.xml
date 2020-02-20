@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>47</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -155,7 +155,7 @@
   <chassis>
     <Chassis_Ch40_WZ120G_FT>
       <userString>#china_vehicles:Chassis_Ch40_WZ120G_FT</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -984,7 +984,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1108,7 +1108,7 @@
             <density>103.468 105.719</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_130mm_59_130JG_FT_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_59_130JG_FT_A>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch40_WZ120G_FT/normal/lod0/Turret_01.model</undamaged>
@@ -1125,8 +1125,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_06</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_Ch40_WZ120G_FT>
@@ -1140,7 +1140,7 @@
   <radios>
     <_9RM>shared</_9RM>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1189,7 +1189,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

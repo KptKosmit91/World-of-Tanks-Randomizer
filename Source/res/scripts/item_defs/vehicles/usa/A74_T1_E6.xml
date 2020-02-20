@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 radioman</commander>
-    <driver></driver>
-    <loader></loader>
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48.3</forward>
@@ -23,7 +23,7 @@ radioman</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -128,7 +128,7 @@ radioman</commander>
   <chassis>
     <Chassis_T1_E6>
       <userString>#usa_vehicles:Chassis_T1_E6</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>240</price>
       <notInShop>true</notInShop>
@@ -1075,7 +1075,7 @@ radioman</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1097,7 +1097,7 @@ radioman</commander>
   <turrets0>
     <Turret_1_T1_E6>
       <userString>#usa_vehicles:Turret_1_T1_E6</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>120</price>
       <notInShop>true</notInShop>
@@ -1196,7 +1196,7 @@ radioman</commander>
             <density>117.52 117.638</density>
             <aoTextureSize>128 128</aoTextureSize>
           </camouflage>
-        </_37mm_semiautomatic_gun_M1924A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_semiautomatic_gun_M1924A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A74_T1_E6/normal/lod0/Turret_01.model</undamaged>
@@ -1317,7 +1317,7 @@ radioman</commander>
     <armour>0.73595879</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

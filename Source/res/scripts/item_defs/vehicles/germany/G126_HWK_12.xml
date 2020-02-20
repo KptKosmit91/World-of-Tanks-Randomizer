@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -433,7 +433,7 @@ loader</commander>
   <chassis>
     <Chassis_G126_HWK_12>
       <userString>#germany_vehicles:Chassis_G126_HWK_12</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16500</price>
       <unlocks>
@@ -1309,7 +1309,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1329,7 +1329,7 @@ loader</commander>
     </Chassis_G126_HWK_12>
     <Chassis_G126_HWK_12_2>
       <userString>#germany_vehicles:Chassis_G126_HWK_12_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <armor>
@@ -2214,7 +2214,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2236,7 +2236,7 @@ loader</commander>
   <turrets0>
     <Turret_1_G126_HWK_12>
       <userString>#germany_vehicles:Turret_1_G126_HWK_12</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19500</price>
       <armor>
@@ -2365,7 +2365,7 @@ loader</commander>
             <density>116.187 119.952</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Mecar_N>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Mecar_N>
       </guns>
       <models>
         <undamaged>vehicles/german/G126_HWK_12/normal/lod0/Turret_01.model</undamaged>
@@ -2592,7 +2592,7 @@ loader</commander>
     </Turret_1_G126_HWK_12>
     <Turret_2_G126_HWK_12>
       <userString>#germany_vehicles:Turret_2_G126_HWK_12</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31200</price>
       <unlocks>
@@ -2774,7 +2774,7 @@ loader</commander>
             <density>116.187 119.952</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Mecar_N>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Mecar_N>
       </guns>
       <models>
         <undamaged>vehicles/german/G126_HWK_12/normal/lod0/Turret_02.model</undamaged>
@@ -2993,7 +2993,7 @@ loader</commander>
     </AN-GRC-4>
     <AN-GRC-7>shared</AN-GRC-7>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <crewXpFactor>1.0</crewXpFactor>
   <physics>
     <detailed>
@@ -3082,7 +3082,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,9 +1,9 @@
 <R109_T54S.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@
   <chassis>
     <Chassis_R109_T54S>
       <userString>#ussr_vehicles:Chassis_R109_T54S</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <unlocks>
@@ -504,7 +504,7 @@
             <length>0.131361</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91205</xStart>
@@ -667,7 +667,7 @@
                 <point>-1.22894 1.1001 2.93352</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -694,7 +694,7 @@
             <length>0.131422</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91064</xStart>
@@ -856,14 +856,14 @@
                 <point>1.46894 1.14744 2.87195</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -883,7 +883,7 @@
     </Chassis_R109_T54S>
     <Chassis_R109_T54S_2>
       <userString>#ussr_vehicles:Chassis_R109_T54S_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62100</price>
       <armor>
@@ -1275,7 +1275,7 @@
             <length>0.131361</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91205</xStart>
@@ -1438,7 +1438,7 @@
                 <point>-1.22894 1.1001 2.93352</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1465,7 +1465,7 @@
             <length>0.131422</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91064</xStart>
@@ -1627,14 +1627,14 @@
                 <point>1.46894 1.14744 2.87195</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1656,7 +1656,7 @@
   <turrets0>
     <Turret_2_R109_T54S>
       <userString>#ussr_vehicles:Turret_2_R109_T54S</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>55000</price>
       <notInShop>true</notInShop>
@@ -1785,7 +1785,7 @@
             <density>131.1 131.991</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D10TM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D10TM>
         <_100mm_D10T_obr_45M>shared  <maxAmmo>40</maxAmmo>
           <armor>
             <armor_1>180  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1873,7 +1873,7 @@
             <density>131.1 131.991</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D10T_obr_45M>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D10T_obr_45M>
       </guns>
       <models>
         <undamaged>vehicles/russian/R109_T54S/normal/lod0/Turret_01.model</undamaged>
@@ -2067,7 +2067,7 @@
     <armour>1.007627808</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

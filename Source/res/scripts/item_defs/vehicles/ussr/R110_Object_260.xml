@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -934,7 +934,7 @@
   <chassis>
     <Chassis_R110_Object_260>
       <userString>#ussr_vehicles:Chassis_R110_Object_260</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <notInShop>true</notInShop>
       <price>82500</price>
@@ -1404,7 +1404,7 @@
             <length>0.156197</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.48167</xStart>
@@ -1602,7 +1602,7 @@
             <length>0.156191</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.48178</xStart>
@@ -1780,7 +1780,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1802,7 +1802,7 @@
   <turrets0>
     <Turret_1_R110_Object_260>
       <userString>#ussr_vehicles:Turret_1_R110_Object_260</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <notInShop>true</notInShop>
       <price>66000</price>
@@ -1950,7 +1950,7 @@
             <density>108.258 132.608</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122mm_BL-13-1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-13-1>
       </guns>
       <models>
         <undamaged>vehicles/russian/R110_Object_260/normal/lod0/Turret_01.model</undamaged>
@@ -2534,7 +2534,7 @@
     <armour>1.028444665</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

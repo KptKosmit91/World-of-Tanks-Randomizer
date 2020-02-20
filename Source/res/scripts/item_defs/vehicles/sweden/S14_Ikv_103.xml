@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -153,7 +153,7 @@
   <chassis>
     <Chassis_S14_Ikv_103>
       <userString>#sweden_vehicles:Chassis_S14_Ikv_103</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4000</price>
       <unlocks>
@@ -902,7 +902,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -922,7 +922,7 @@
     </Chassis_S14_Ikv_103>
     <Chassis_S14_Ikv_103_2>
       <userString>#sweden_vehicles:Chassis_S14_Ikv_103_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10150</price>
       <armor>
@@ -1667,7 +1667,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1789,7 +1789,7 @@
             <density>241.609 232.565</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_kan_ikv_102>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_kan_ikv_102>
         <_105mm_kan_ikv_103>shared  <maxAmmo>24</maxAmmo>
           <unlocks>
             <vehicle>S08_Ikv_65_Alt_2  <cost>30620</cost>
@@ -1862,7 +1862,7 @@
             <density>241.609 232.565</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_kan_ikv_103>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_kan_ikv_103>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S14_Ikv_103/normal/lod0/Turret_01.model</undamaged>
@@ -1879,8 +1879,8 @@
       <physicsShape>1.061 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_S14_Ikv_103>
@@ -2007,7 +2007,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

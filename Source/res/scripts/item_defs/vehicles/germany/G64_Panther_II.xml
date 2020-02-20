@@ -1,11 +1,11 @@
 <G64_Panther_II.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -49,7 +49,7 @@
       <maxRegenHealth>135</maxRegenHealth>
       <repairCost>1.0</repairCost>
     </ammoBayHealth>
-    <variants></variants>
+    <variants />
     <models>
       <undamaged>vehicles/german/G64_Panther_II/normal/lod0/Hull.model</undamaged>
       <destroyed>vehicles/german/G64_Panther_II/crash/lod0/Hull.model</destroyed>
@@ -292,7 +292,7 @@
     <Chassis_Panther_II>
       <userString>#germany_vehicles:Chassis_Panther_II</userString>
       <shortUserString>#germany_vehicles:Chassis_Panther_II_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17400</price>
       <unlocks>
@@ -774,7 +774,7 @@
             <length>0.149156</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.02034</xStart>
@@ -931,7 +931,7 @@
                 <point>-1.4487 1.36903 3.02464</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -962,7 +962,7 @@
             <length>0.149194</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.02145</xStart>
@@ -1119,14 +1119,14 @@
                 <point>1.4487 1.36903 3.02464</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1147,7 +1147,7 @@
     <Chassis_Panther_II_2>
       <userString>#germany_vehicles:Chassis_Panther_II_2</userString>
       <shortUserString>#germany_vehicles:Chassis_Panther_II_2_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30350</price>
       <armor>
@@ -1625,7 +1625,7 @@
             <length>0.149156</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.02034</xStart>
@@ -1782,7 +1782,7 @@
                 <point>1.4487 1.36903 3.02464</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1813,7 +1813,7 @@
             <length>0.149194</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.02145</xStart>
@@ -1970,14 +1970,14 @@
                 <point>1.4487 1.36903 3.02464</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2000,7 +2000,7 @@
     <Turret_1_Panther_II>
       <userString>#germany_vehicles:Turret_1_Panther_II</userString>
       <shortUserString>#germany_vehicles:Turret_1_Panther_II_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22100</price>
       <armor>
@@ -2142,7 +2142,7 @@
             <density>105.783 110.7</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
         <_75mm_KwK45_L100>shared  <maxAmmo>80</maxAmmo>
           <reloadTime>4.4</reloadTime>
           <shotDispersionRadius>0.32</shotDispersionRadius>
@@ -2244,7 +2244,7 @@
             <density>85.1214 102.595</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK45_L100>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK45_L100>
         <_105mm_StuH42_L28Pz>shared  <maxAmmo>42</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.14</turretRotation>
@@ -2345,7 +2345,7 @@
             <density>95.8976 91.9221</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28Pz>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28Pz>
       </guns>
       <models>
         <undamaged>vehicles/german/G64_Panther_II/normal/lod0/Turret_01.model</undamaged>
@@ -2514,7 +2514,7 @@
     </Turret_1_Panther_II>
     <Turret_2_Panther_II>
       <userString>#germany_vehicles:Turret_2_Panther_II</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28550</price>
       <unlocks>
@@ -2643,7 +2643,7 @@
             <density>105.783 110.7</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
         <_75mm_KwK45_L100>shared  <maxAmmo>80</maxAmmo>
           <reloadTime>4.2</reloadTime>
           <shotDispersionRadius>0.32</shotDispersionRadius>
@@ -2734,7 +2734,7 @@
             <density>85.1214 102.595</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK45_L100>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK45_L100>
         <_105mm_StuH42_L28Pz>shared  <maxAmmo>42</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.1</turretRotation>
@@ -2825,7 +2825,7 @@
             <density>95.8976 91.9221</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28Pz>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28Pz>
         <_88mm_KwK_43_L71>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_88mm_KwK_L100  <cost>43500</cost>
@@ -2921,7 +2921,7 @@
             <density>129.476 101.926</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71>
         <_88mm_KwK_L100>shared  <maxAmmo>60</maxAmmo>
           <shotDispersionRadius>0.3</shotDispersionRadius>
           <reloadTime>8</reloadTime>
@@ -3011,7 +3011,7 @@
             <density>83.5948 84.5528</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_L100>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_L100>
       </guns>
       <models>
         <undamaged>vehicles/german/G64_Panther_II/normal/lod0/Turret_02.model</undamaged>
@@ -3330,7 +3330,7 @@
     <armour>1.02451236</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

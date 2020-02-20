@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -57,8 +57,8 @@
     <hangarShadowTexture>vehicles/german/G119_Panzer58_BF/Panzer58_BF_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -82,7 +82,7 @@
   <chassis>
     <Chassis_G119_Panzer58_BF>
       <userString>#germany_vehicles:Chassis_G119_Panzer58_BF</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -755,8 +755,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_G119_Panzer58_BF>
@@ -820,8 +820,8 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -841,10 +841,10 @@
             <density>105.415 121.258</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_9cm_Kan>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_9cm_Kan>
       </guns>
       <userString>#germany_vehicles:Turret_1_G119_Panzer58_BF</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -897,8 +897,8 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -953,9 +953,9 @@
   </turrets0>
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -1030,7 +1030,7 @@
     <armour>0.919060182</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

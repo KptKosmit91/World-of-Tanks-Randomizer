@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -144,7 +144,7 @@
   <chassis>
     <SU-5>
       <userString>#ussr_vehicles:SU-5</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <unlocks>
@@ -1104,7 +1104,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1124,7 +1124,7 @@
     </SU-5>
     <SU-5bis>
       <userString>#ussr_vehicles:SU-5bis</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4750</price>
       <armor>
@@ -2080,7 +2080,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2201,7 +2201,7 @@
             <density>82.746 83.0138</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_cannon_mod_1905_30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_cannon_mod_1905_30>
         <_76mm_cannon_mod_1905_40>shared  <maxAmmo>48</maxAmmo>
           <reloadTime>6</reloadTime>
           <unlocks>
@@ -2270,7 +2270,7 @@
             <density>81.8864 87.6573</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_cannon_mod_1905_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_cannon_mod_1905_40>
         <_122mm_cannon_mod_1930>shared  <maxAmmo>18</maxAmmo>
           <reloadTime>15.5</reloadTime>
           <unlocks>
@@ -2342,7 +2342,7 @@
             <density>98.2411 100.771</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_cannon_mod_1930>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_cannon_mod_1930>
         <_152mm_mortar_NM_mod1931>shared  <maxAmmo>12</maxAmmo>
           <armor>
             <armor_1>15</armor_1>
@@ -2407,7 +2407,7 @@
             <density>87.4239 90.3168</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_mortar_NM_mod1931>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_mortar_NM_mod1931>
       </guns>
       <models>
         <undamaged>vehicles/russian/R14_SU-5/normal/lod0/Turret_01.model</undamaged>
@@ -2425,7 +2425,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2575,7 +2575,7 @@
     <armour>0.803567176</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@ loader</commander>
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -700,7 +700,7 @@ loader</commander>
   <chassis>
     <Chassis_R132_VNII_100LT>
       <userString>#ussr_vehicles:Chassis_R132_VNII_100LT</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1684,7 +1684,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1706,7 +1706,7 @@ loader</commander>
   <turrets0>
     <Turret_1_R132_VNII_100LT>
       <userString>#ussr_vehicles:Turret_1_R132_VNII_100LT</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1903,7 +1903,7 @@ loader</commander>
             <density>114.364 114.667</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_100mm_T_100>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_T_100>
       </guns>
       <models>
         <undamaged>vehicles/russian/R132_VNII_100LT/normal/lod0/Turret_01.model</undamaged>
@@ -2378,7 +2378,7 @@ loader</commander>
   <radios>
     <R123>shared</R123>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <crewXpFactor>1.0</crewXpFactor>
   <physics>
     <detailed>
@@ -2428,7 +2428,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

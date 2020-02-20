@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_It12_Prototipo_Standard_B>
       <userString>#italy_vehicles:Chassis_It12_Prototipo_Standard_B</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <unlocks>
@@ -1216,7 +1216,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1236,7 +1236,7 @@
     </Chassis_It12_Prototipo_Standard_B>
     <Chassis_It12_Prototipo_Standard_B_2>
       <userString>#italy_vehicles:Chassis_It12_Prototipo_Standard_B_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62700</price>
       <armor>
@@ -2341,7 +2341,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2363,7 +2363,7 @@
   <turrets0>
     <Turret_1_It12_Prototipo_Standard_B>
       <userString>#italy_vehicles:Turret_1_It12_Prototipo_Standard_B</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30500</price>
       <armor>
@@ -2488,7 +2488,7 @@
             <density>140.171 138.91</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_Rh>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_Rh>
         <Cannone_da_105_Rh_V1>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <turret>Turret_2_It12_Prototipo_Standard_B  <cost>24800</cost>
@@ -2586,7 +2586,7 @@
             <density>139.239 138.079</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Cannone_da_105_Rh_V1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_105_Rh_V1>
       </guns>
       <models>
         <undamaged>vehicles/italy/It12_Prototipo_Standard_B/normal/lod0/Turret_01.model</undamaged>
@@ -2669,7 +2669,7 @@
     </Turret_1_It12_Prototipo_Standard_B>
     <Turret_2_It12_Prototipo_Standard_B>
       <userString>#italy_vehicles:Turret_2_It12_Prototipo_Standard_B</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>58800</price>
       <unlocks>
@@ -2797,7 +2797,7 @@
             <density>140.171 138.91</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_Rh>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_Rh>
         <Cannone_da_105_Rh_V1>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2892,7 +2892,7 @@
             <density>139.239 138.079</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Cannone_da_105_Rh_V1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_105_Rh_V1>
       </guns>
       <invisibilityFactor>1.014</invisibilityFactor>
       <models>
@@ -3091,7 +3091,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -972,7 +972,7 @@
   <chassis>
     <Chassis_R155_Object_277>
       <userString>#ussr_vehicles:Chassis_R155_Object_277</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1255,7 +1255,7 @@
             <length>0.151202</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.53899</xStart>
@@ -1472,7 +1472,7 @@
             <length>0.15127</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.53764</xStart>
@@ -1669,7 +1669,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1691,7 +1691,7 @@
   <turrets0>
     <Turret_1_R155_Object_277>
       <userString>#ussr_vehicles:Turret_1_R155_Object_277</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1827,7 +1827,7 @@
             <density>97.9486 104.033</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_130mm_M_65>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_M_65>
       </guns>
       <models>
         <undamaged>vehicles/russian/R155_Object_277/normal/lod0/Turret_01.model</undamaged>
@@ -2335,7 +2335,7 @@
   <radios>
     <R113M>shared</R113M>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2384,7 +2384,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

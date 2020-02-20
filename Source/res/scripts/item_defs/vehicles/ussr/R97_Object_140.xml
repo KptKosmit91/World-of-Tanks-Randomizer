@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -627,7 +627,7 @@
   <chassis>
     <Chassis_Object_140>
       <userString>#ussr_vehicles:Chassis_Object_140</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>31700</price>
       <notInShop>true</notInShop>
@@ -881,7 +881,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -923,7 +923,7 @@
             <length>0.13841</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94707</xStart>
@@ -1087,7 +1087,7 @@
                 <point>-1.50104 1.00795 3.21218</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1114,7 +1114,7 @@
             <length>0.137287</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97177</xStart>
@@ -1278,7 +1278,7 @@
                 <point>1.50104 1.00795 3.21218</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1287,7 +1287,7 @@
   <turrets0>
     <Turret_1_Object_140>
       <userString>#ussr_vehicles:Turret_1_Object_140</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>52000</price>
       <notInShop>true</notInShop>
@@ -1438,7 +1438,7 @@
             <density>145.46 142.249</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D54_TS>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D54_TS>
       </guns>
       <models>
         <undamaged>vehicles/russian/R97_Object_140/normal/lod0/Turret_01.model</undamaged>
@@ -2054,7 +2054,7 @@
     <armour>1.031583167</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

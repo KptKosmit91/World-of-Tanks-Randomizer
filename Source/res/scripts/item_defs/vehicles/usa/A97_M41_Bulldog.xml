@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>68</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -214,7 +214,7 @@
   <chassis>
     <Chassis_M41_Bulldog>
       <userString>#usa_vehicles:Chassis_M41_Bulldog</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21000</price>
       <unlocks>
@@ -906,7 +906,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -926,7 +926,7 @@
     </Chassis_M41_Bulldog>
     <Chassis_M41_Bulldog_2>
       <userString>#usa_vehicles:Chassis_M41_Bulldog_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33500</price>
       <armor>
@@ -1614,7 +1614,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1636,7 +1636,7 @@
   <turrets0>
     <Turret_1_M41_Bulldog>
       <userString>#usa_vehicles:Turret_1_M41_Bulldog</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21750</price>
       <armor>
@@ -1766,7 +1766,7 @@
             <density>87.4905 87.03</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M32>
       </guns>
       <models>
         <undamaged>vehicles/american/A97_M41_Bulldog/normal/lod0/Turret_01.model</undamaged>
@@ -1944,7 +1944,7 @@
     </Turret_1_M41_Bulldog>
     <Turret_2_M41_Bulldog>
       <userString>#usa_vehicles:Turret_2_M41_Bulldog</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>34050</price>
       <unlocks>
@@ -2074,7 +2074,7 @@
             <density>87.4905 87.03</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M32>
         <_76mm_Gun_M32_late>shared  <maxAmmo>65</maxAmmo>
           <armor>
             <armor_1>31.8  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2164,7 +2164,7 @@
             <density>88.8983 85.3732</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M32_late>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M32_late>
       </guns>
       <models>
         <undamaged>vehicles/american/A97_M41_Bulldog/normal/lod0/Turret_02.model</undamaged>
@@ -2452,7 +2452,7 @@
     <armour>0.817789876</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

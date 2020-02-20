@@ -1,11 +1,11 @@
 <A72_T25_2.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -112,7 +112,7 @@
   <chassis>
     <Chassis_T25_2>
       <userString>#usa_vehicles:Chassis_T25_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19200</price>
       <unlocks>
@@ -1225,7 +1225,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1245,7 +1245,7 @@
     </Chassis_T25_2>
     <Chassis_T25_2_2>
       <userString>#usa_vehicles:Chassis_T25_2_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32720</price>
       <armor>
@@ -2354,7 +2354,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2492,7 +2492,7 @@
             <density>111.92 108.513</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_AT_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_AT_Gun_M3>
       </guns>
       <models>
         <undamaged>vehicles/american/A72_T25_2/normal/lod0/Turret_01.model</undamaged>
@@ -2690,7 +2690,7 @@
             <density>111.92 108.513</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_AT_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_AT_Gun_M3>
         <_90mm_AT_Gun_T15E2>shared  <maxAmmo>47</maxAmmo>
           <unlocks>
             <vehicle>A68_T28_Prototype  <cost>102000</cost>
@@ -2776,7 +2776,7 @@
             <density>90.2861 107.783</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_AT_Gun_T15E2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_AT_Gun_T15E2>
       </guns>
       <models>
         <undamaged>vehicles/american/A72_T25_2/normal/lod0/Turret_02.model</undamaged>
@@ -2966,7 +2966,7 @@
     <armour>0.922430041</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

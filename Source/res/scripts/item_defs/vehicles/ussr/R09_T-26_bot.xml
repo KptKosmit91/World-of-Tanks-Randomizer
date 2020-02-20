@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -70,7 +70,7 @@
     <hangarShadowTexture>vehicles/russian/R09_T-26/T-26_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -114,7 +114,7 @@
   <chassis>
     <T-26_bot>
       <userString>#ussr_vehicles:T-26_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>340</price>
       <notInShop>true</notInShop>
@@ -1060,8 +1060,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T-26_bot>
@@ -1070,7 +1070,7 @@
     <T-26_cylindrical_bot>
       <userString>#ussr_vehicles:T-26_cylindrical_bot</userString>
       <shortUserString>#ussr_vehicles:T-26_cylindrical_bot_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>670</price>
       <notInShop>true</notInShop>
@@ -1127,7 +1127,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1136,7 +1136,7 @@
             <density>199.349 201.326</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_B-3_bot>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_B-3_bot>
       </guns>
       <models>
         <undamaged>vehicles/russian/R09_T-26/normal/lod0/Turret_01.model</undamaged>
@@ -1153,7 +1153,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1242,9 +1242,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

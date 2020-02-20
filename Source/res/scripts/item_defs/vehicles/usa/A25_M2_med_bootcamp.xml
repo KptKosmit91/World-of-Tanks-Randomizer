@@ -1,12 +1,12 @@
 <A25_M2_med_bootcamp.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>43</forward>
@@ -24,10 +24,10 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
-    <variants></variants>
+    <variants />
     <armor>
       <armor_1>25.4</armor_1>
       <armor_2>32</armor_2>
@@ -80,7 +80,7 @@
     <hangarShadowTexture>vehicles/american/A25_M2_med/M2_med_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -125,7 +125,7 @@
   <chassis>
     <T48_bootcamp>
       <userString>#usa_vehicles:T48</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>670</price>
       <notInShop>true</notInShop>
@@ -409,7 +409,7 @@
             <length>0.0715763</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.62617</xStart>
@@ -628,7 +628,7 @@
                 <point>-0.930329 1.1027 2.60108</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -659,7 +659,7 @@
             <length>0.0715996</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.62378</xStart>
@@ -878,14 +878,14 @@
                 <point>0.930329 1.1027 2.60108</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T48_bootcamp>
@@ -893,7 +893,7 @@
   <turrets0>
     <M2M19_bootcamp>
       <userString>#usa_vehicles:M2M19</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>730</price>
       <notInShop>true</notInShop>
@@ -956,7 +956,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -965,7 +965,7 @@
             <density>107.528 108.32</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-5_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/american/A25_M2_med/normal/lod0/Turret_01.model</undamaged>
@@ -982,7 +982,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1064,7 +1064,7 @@
     <armour>0.749283604</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

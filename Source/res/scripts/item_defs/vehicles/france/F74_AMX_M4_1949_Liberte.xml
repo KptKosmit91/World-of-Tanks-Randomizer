@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -65,8 +65,8 @@
     </customizationSlots>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <camouflage>
@@ -77,7 +77,7 @@
   <chassis>
     <Chassis_F74_AMX_M4_1949_Liberte>
       <userString>#france_vehicles:Chassis_F74_AMX_M4_1949_Liberte</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -434,7 +434,7 @@
             <length>0.154982</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.43796</xStart>
@@ -603,7 +603,7 @@
                 <point>-1.54793 1.15444 3.61373</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -630,7 +630,7 @@
             <length>0.155215</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.43341</xStart>
@@ -799,14 +799,14 @@
                 <point>1.56793 1.24144 3.62887</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_F74_AMX_M4_1949_Liberte>
@@ -869,8 +869,8 @@
           </customizationSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <camouflage>
@@ -878,10 +878,10 @@
             <density>108.547 114.289</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_SA_47_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_SA_47_A>
       </guns>
       <userString>#france_vehicles:Turret_1_F74_AMX_M4_1949_Liberte</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -932,8 +932,8 @@
       <physicsShape>0.901 -0.253 1.106 0.000 0.765 -0.048 0.717 0.672 0.403 0.500 0.355 0.500 0.092 0.788 0.000</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -944,11 +944,11 @@
     </Turret_1_F74_AMX_M4_1949_Liberte>
   </turrets0>
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -1023,7 +1023,7 @@
     <armour>1.002279008</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,11 +23,11 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
-    <variants></variants>
+    <variants />
     <armor>
       <armor_1>275</armor_1>
       <armor_2>275</armor_2>
@@ -143,7 +143,7 @@
   <chassis>
     <Chassis_R172_Object_752>
       <userString>#ussr_vehicles:Chassis_R172_Object_752</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -572,7 +572,7 @@
             <length>0.147589</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.27656</xStart>
@@ -728,7 +728,7 @@
                 <point>-1.56623 1.06574 2.84427</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -755,7 +755,7 @@
             <length>0.147589</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.27656</xStart>
@@ -911,14 +911,14 @@
                 <point>1.56623 1.06574 2.84427</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -940,7 +940,7 @@
   <turrets0>
     <Turret_1_R172_Object_752>
       <userString>#ussr_vehicles:Turret_1_R172_Object_752</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -1102,7 +1102,7 @@
             <aoTextureSize>512 512</aoTextureSize>
             <tiling>0.49 0.49 -0.09 0.000000</tiling>
           </camouflage>
-        </_122mm_M62>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_M62>
       </guns>
       <models>
         <undamaged>vehicles/russian/R172_Object_752/normal/lod0/Turret_01.model</undamaged>
@@ -1225,7 +1225,7 @@
     <armour>1.09988962</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

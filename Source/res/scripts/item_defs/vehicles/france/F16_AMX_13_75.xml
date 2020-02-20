@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>61</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@ loader</commander>
   <chassis>
     <Chassis_AMX_13_75_2>
       <userString>#france_vehicles:Chassis_AMX_13_75_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>7350</price>
       <unlocks>
@@ -835,7 +835,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -855,7 +855,7 @@ loader</commander>
     </Chassis_AMX_13_75_2>
     <Chassis_AMX_13_75_3>
       <userString>#france_vehicles:Chassis_AMX_13_75_3</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19540</price>
       <armor>
@@ -1578,7 +1578,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1600,7 +1600,7 @@ loader</commander>
   <turrets0>
     <Turret_1_AMX_13_75>
       <userString>#france_vehicles:Turret_1_AMX_13_75</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>10300</price>
       <notInShop>true</notInShop>
@@ -1719,7 +1719,7 @@ loader</commander>
             <density>85.8054 85.7785</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_SA49_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA49_L48>
         <_75mm_SA50>shared  <maxAmmo>36</maxAmmo>
           <pitchLimits>
             <minPitch>0 -9 0.255783 -9 0.319444 -6 0.680556 -6 0.744218 -9 1 -9</minPitch>
@@ -1804,7 +1804,7 @@ loader</commander>
             <density>85.8497 85.0831</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_SA50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA50>
       </guns>
       <models>
         <undamaged>vehicles/french/F16_AMX_13_75/normal/lod0/Turret_01.model</undamaged>
@@ -1977,7 +1977,7 @@ loader</commander>
     <armour>0.988708203</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

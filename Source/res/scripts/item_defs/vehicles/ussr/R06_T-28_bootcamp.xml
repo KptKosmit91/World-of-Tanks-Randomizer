@@ -1,12 +1,12 @@
 <R06_T-28_bootcamp.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
-    <radioman></radioman>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -71,7 +71,7 @@
     <hangarShadowTexture>vehicles/russian/R06_T-28/T-28_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -116,7 +116,7 @@
   <chassis>
     <T-28_0_bootcamp>
       <userString>#ussr_vehicles:T-28_0</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2270</price>
       <notInShop>true</notInShop>
@@ -1073,8 +1073,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T-28_0_bootcamp>
@@ -1083,7 +1083,7 @@
     <T-28_cylindrical_bootcamp>
       <userString>#ussr_vehicles:T-28_cylindrical</userString>
       <shortUserString>#ussr_vehicles:T-28_cylindrical_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2160</price>
       <notInShop>true</notInShop>
@@ -1157,7 +1157,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1165,7 +1165,7 @@
             <density>126.424 124.309</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_KT-28_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_KT-28_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/russian/R06_T-28/normal/lod0/Turret_01.model</undamaged>
@@ -1182,7 +1182,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1275,7 +1275,7 @@
     <armour>0.843833809</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

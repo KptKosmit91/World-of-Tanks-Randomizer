@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>70</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -123,7 +123,7 @@
   <chassis>
     <Chassis_G103_RU_251>
       <userString>#germany_vehicles:Chassis_G103_RU_251</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33000</price>
       <unlocks>
@@ -1099,7 +1099,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1119,7 +1119,7 @@
     </Chassis_G103_RU_251>
     <Chassis_G103_RU_251_2>
       <userString>#germany_vehicles:Chassis_G103_RU_251_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>61500</price>
       <armor>
@@ -2091,7 +2091,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2113,7 +2113,7 @@
   <turrets0>
     <Turret_1_G103_RU_251>
       <userString>#germany_vehicles:Turret_1_G103_RU_251</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>55000</price>
       <notInShop>true</notInShop>
@@ -2233,7 +2233,7 @@
             <density>145.322 146.93</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Rheinmetall_90_L40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Rheinmetall_90_L40>
       </guns>
       <models>
         <undamaged>vehicles/german/G103_RU_251/normal/lod0/Turret_01.model</undamaged>
@@ -2416,7 +2416,7 @@
     <armour>0.850071649</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

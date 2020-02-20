@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -894,7 +894,7 @@
   <chassis>
     <Chassis_Pl15_60TP_Lewandowskiego>
       <userString>#poland_vehicles:Chassis_Pl15_60TP_Lewandowskiego</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1620,7 +1620,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1642,7 +1642,7 @@
   <turrets0>
     <Turret_1_Pl15_60TP_Lewandowskiego>
       <userString>#poland_vehicles:Turret_1_Pl15_60TP_Lewandowskiego</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1820,7 +1820,7 @@
             <density>106.14 101.175</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_J_2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_J_2>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl15_60TP_Lewandowskiego/normal/lod0/Turret_01.model</undamaged>
@@ -2249,7 +2249,7 @@
   <radios>
     <R_113>shared</R_113>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2298,7 +2298,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

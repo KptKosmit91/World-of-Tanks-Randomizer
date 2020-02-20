@@ -1,11 +1,11 @@
 <G28_PzIII_IV.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -129,7 +129,7 @@
   <chassis>
     <PzIII-IV>
       <userString>#germany_vehicles:PzIII-IV</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4430</price>
       <unlocks>
@@ -397,7 +397,7 @@
             <length>0.116887</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91786</xStart>
@@ -581,7 +581,7 @@
                 <point>-1.3203 1.18095 2.75119</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -608,7 +608,7 @@
             <length>0.116879</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91807</xStart>
@@ -792,14 +792,14 @@
                 <point>1.29033 1.20025 2.75059</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -819,7 +819,7 @@
     </PzIII-IV>
     <PzIII-IV_ausf_B>
       <userString>#germany_vehicles:PzIII-IV_ausf_B</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8310</price>
       <armor>
@@ -1083,7 +1083,7 @@
             <length>0.116887</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91786</xStart>
@@ -1267,7 +1267,7 @@
                 <point>-1.3203 1.18095 2.75119</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1294,7 +1294,7 @@
             <length>0.116879</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91807</xStart>
@@ -1478,14 +1478,14 @@
                 <point>1.29033 1.20025 2.75059</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1508,7 +1508,7 @@
     <PzIV_ausf_F>
       <userString>#germany_vehicles:PzIV_ausf_F</userString>
       <shortUserString>#germany_vehicles:PzIV_ausf_F_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5370</price>
       <unlocks>
@@ -1618,7 +1618,7 @@
             <density>148.16 144.901</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L43>
         <_75mm_KwK_40_L48>shared  <unlocks>
             <vehicle>G87_VK3002DB_V1  <cost>26800</cost>
             </vehicle>
@@ -1693,7 +1693,7 @@
             <density>153.9 145.276</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48>
       </guns>
       <models>
         <undamaged>vehicles/german/G28_PzIII_IV/normal/lod0/Turret_01.model</undamaged>
@@ -1758,7 +1758,7 @@
     <PzIV_ausf_H>
       <userString>#germany_vehicles:PzIV_ausf_H</userString>
       <shortUserString>#germany_vehicles:PzIV_ausf_H_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>11330</price>
       <armor>
@@ -1867,7 +1867,7 @@
             <density>148.16 144.901</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L43>
         <_75mm_KwK_40_L48>shared  <shotDispersionFactors>
             <turretRotation>0.14</turretRotation>
             <afterShot>4.0</afterShot>
@@ -1943,7 +1943,7 @@
             <density>153.9 145.276</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48>
       </guns>
       <models>
         <undamaged>vehicles/german/G28_PzIII_IV/normal/lod0/Turret_02.model</undamaged>
@@ -2127,7 +2127,7 @@
     <armour>0.879873179</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

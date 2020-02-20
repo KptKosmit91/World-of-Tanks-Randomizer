@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1064,7 +1064,7 @@
   <chassis>
     <Chassis_GB84_Chieftain_Mk6>
       <userString>#gb_vehicles:Chassis_GB84_Chieftain_Mk6</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1317,7 +1317,7 @@
             <length>0.156553</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.48444</xStart>
@@ -1483,7 +1483,7 @@
                 <point>-1.3961 1.2084 3.63873</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1510,7 +1510,7 @@
             <length>0.156609</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.48336</xStart>
@@ -1676,14 +1676,14 @@
                 <point>1.50611 1.12548 3.64234</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1771,10 +1771,10 @@
             <density>196.689 198.611</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_L11A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_L11A1>
       </guns>
       <userString>#gb_vehicles:Turret_1_GB84_Chieftain_Mk6</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -2224,9 +2224,9 @@
     </Turret_1_GB84_Chieftain_Mk6>
   </turrets0>
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>

@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -1298,7 +1298,7 @@
   <chassis>
     <Chassis_Object_261>
       <userString>#ussr_vehicles:Chassis_Object_261</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>36000</price>
       <notInShop>true</notInShop>
@@ -1770,7 +1770,7 @@
             <length>0.15423</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.66453</xStart>
@@ -1970,7 +1970,7 @@
             <length>0.15423</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.66454</xStart>
@@ -2150,7 +2150,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2479,7 +2479,7 @@
             <density>122.563 124.139</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_180mm_B-1-P>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_180mm_B-1-P>
       </guns>
       <models>
         <undamaged>vehicles/russian/R52_Object_261/normal/lod0/Turret_01.model</undamaged>
@@ -2504,7 +2504,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2580,7 +2580,7 @@
     <armour>0.788923638</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

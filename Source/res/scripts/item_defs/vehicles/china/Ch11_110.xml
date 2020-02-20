@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -252,7 +252,7 @@
   <chassis>
     <Chassis_Ch11_110>
       <userString>#china_vehicles:Chassis_Ch11_110</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17780</price>
       <unlocks>
@@ -524,7 +524,7 @@
             <length>0.152171</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.17895</xStart>
@@ -730,7 +730,7 @@
             <length>0.150416</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.21404</xStart>
@@ -927,7 +927,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -947,7 +947,7 @@
     </Chassis_Ch11_110>
     <Chassis_Ch11_110_2>
       <userString>#china_vehicles:Chassis_Ch11_110_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>35000</price>
       <armor>
@@ -1215,7 +1215,7 @@
             <length>0.152171</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.17895</xStart>
@@ -1421,7 +1421,7 @@
             <length>0.150416</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.21404</xStart>
@@ -1618,7 +1618,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1640,7 +1640,7 @@
   <turrets0>
     <Turret_1_Ch11_110>
       <userString>#china_vehicles:Turret_1_Ch11_110</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>12000</price>
       <armor>
@@ -1778,7 +1778,7 @@
             <density>102.031 99.9484</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_37-122JT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_37-122JT>
         <_122-mm_D25-T>shared  <maxAmmo>35</maxAmmo>
           <pitchLimits>
             <minPitch>0 -12 1 -12</minPitch>
@@ -1884,7 +1884,7 @@
             <density>98.7443 102.039</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D25-T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D25-T>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch11_110/normal/lod0/Turret_01.model</undamaged>
@@ -2137,7 +2137,7 @@
     </Turret_1_Ch11_110>
     <Turret_2_Ch11_110>
       <userString>#china_vehicles:Turret_2_Ch11_110</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33200</price>
       <unlocks>
@@ -2294,7 +2294,7 @@
             <density>102.031 99.9484</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_37-122JT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_37-122JT>
         <_122-mm_D25-T>shared  <maxAmmo>35</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2414,7 +2414,7 @@
             <density>98.7443 102.039</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D25-T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D25-T>
         <_100mm_62-100T>shared  <maxAmmo>40</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2534,7 +2534,7 @@
             <density>97.1153 97.648</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_62-100T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_62-100T>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch11_110/normal/lod0/Turret_02.model</undamaged>
@@ -2867,7 +2867,7 @@
     <armour>1.18895793</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

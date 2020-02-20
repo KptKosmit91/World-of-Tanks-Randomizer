@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@ loader</commander>
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1064,7 +1064,7 @@ loader</commander>
   <chassis>
     <Chassis_G125_Spz_57_Rh>
       <userString>#germany_vehicles:Chassis_G125_Spz_57_Rh</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1991,7 +1991,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2013,7 +2013,7 @@ loader</commander>
   <turrets0>
     <Turret_1_G125_Spz_57_Rh>
       <userString>#germany_vehicles:Turret_1_G125_Spz_57_Rh</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -2240,7 +2240,7 @@ loader</commander>
             <density>111.702 112.542</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Kanone>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Kanone>
       </guns>
       <models>
         <undamaged>vehicles/german/G125_Spz_57_Rh/normal/lod0/Turret_01.model</undamaged>
@@ -2480,7 +2480,7 @@ loader</commander>
   <radios>
     <SEM25_1>shared</SEM25_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <crewXpFactor>1.0</crewXpFactor>
   <physics>
     <detailed>
@@ -2530,7 +2530,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -156,7 +156,7 @@
   <chassis>
     <Chassis_Ch35_T-34-2G_FT>
       <userString>#china_vehicles:Chassis_Ch35_T-34-2G_FT</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14500</price>
       <armor>
@@ -907,7 +907,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -927,7 +927,7 @@
     </Chassis_Ch35_T-34-2G_FT>
     <Chassis_Ch35_T-34-2G_FT_2>
       <userString>#china_vehicles:Chassis_Ch35_T-34-2G_FT_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18800</price>
       <armor>
@@ -1674,7 +1674,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1801,7 +1801,7 @@
             <density>145.666 150.618</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_59_100TG_FT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_59_100TG_FT>
         <_100mm_60_100TG_FT>shared  <maxAmmo>40</maxAmmo>
           <unlocks>
             <gun>_122mm_D25_TG_FT  <cost>27200</cost>
@@ -1884,7 +1884,7 @@
             <density>141.605 146.401</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_60_100TG_FT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_60_100TG_FT>
         <_122mm_D25_TG_FT>shared  <maxAmmo>30</maxAmmo>
           <unlocks>
             <vehicle>Ch36_WZ111_1G_FT  <cost>76400</cost>
@@ -1967,7 +1967,7 @@
             <density>121.633 122.943</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_D25_TG_FT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D25_TG_FT>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch35_T-34-2G_FT/normal/lod0/Turret_01.model</undamaged>
@@ -1984,8 +1984,8 @@
       <physicsShape>1.100 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_Ch35_T-34-2G_FT>
@@ -2009,7 +2009,7 @@
     </_9RM_shop>
     <A-220_1>shared</A-220_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2097,7 +2097,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

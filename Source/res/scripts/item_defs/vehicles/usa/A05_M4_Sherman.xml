@@ -1,11 +1,11 @@
 <A05_M4_Sherman.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -133,7 +133,7 @@
   <chassis>
     <T41>
       <userString>#usa_vehicles:T41</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4450</price>
       <unlocks>
@@ -1145,7 +1145,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1165,7 +1165,7 @@
     </T41>
     <T42>
       <userString>#usa_vehicles:T42</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8300</price>
       <armor>
@@ -2173,7 +2173,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2195,7 +2195,7 @@
   <turrets0>
     <D51066>
       <userString>#usa_vehicles:D51066</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4800</price>
       <armor>
@@ -2303,7 +2303,7 @@
             <density>144.536 130.78</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37>
         <_105mm_SPH_M4_L23>shared  <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
             <maxPitch>0 12 1 12</maxPitch>
@@ -2377,7 +2377,7 @@
             <density>121.331 119.863</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_SPH_M4_L23>
       </guns>
       <models>
         <undamaged>vehicles/american/A05_M4_Sherman/normal/lod0/Turret_01.model</undamaged>
@@ -2441,7 +2441,7 @@
     </D51066>
     <D51072>
       <userString>#usa_vehicles:D51072</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>11500</price>
       <unlocks>
@@ -2553,7 +2553,7 @@
             <density>144.536 130.78</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37>
         <_105mm_SPH_M4_L23>shared  <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
             <maxPitch>0 12 1 12</maxPitch>
@@ -2627,7 +2627,7 @@
             <density>121.331 119.863</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_SPH_M4_L23>
         <_76mm_Gun_M1A1>shared  <maxAmmo>90</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2711,7 +2711,7 @@
             <density>110.308 123.631</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A05_M4_Sherman/normal/lod0/Turret_02.model</undamaged>
@@ -2890,7 +2890,7 @@
     <armour>0.99230542</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

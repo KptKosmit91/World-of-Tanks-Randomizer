@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 1 1</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -355,7 +355,7 @@
   <chassis>
     <Chassis_It14_P44_Pantera>
       <userString>#italy_vehicles:Chassis_It14_P44_Pantera</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17400</price>
       <unlocks>
@@ -614,7 +614,7 @@
             <length>0.141711</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.43203</xStart>
@@ -780,7 +780,7 @@
                 <point>-1.5024 1.25301 3.01962</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -811,7 +811,7 @@
             <length>0.141712</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.43204</xStart>
@@ -977,14 +977,14 @@
                 <point>1.28177 1.24862 3.01959</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1004,7 +1004,7 @@
     </Chassis_It14_P44_Pantera>
     <Chassis_It14_P44_Pantera_2>
       <userString>#italy_vehicles:Chassis_It14_P44_Pantera_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>34200</price>
       <armor>
@@ -1259,7 +1259,7 @@
             <length>0.141711</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.43203</xStart>
@@ -1425,7 +1425,7 @@
                 <point>-1.5024 1.25301 3.01962</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1456,7 +1456,7 @@
             <length>0.141712</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.43204</xStart>
@@ -1622,14 +1622,14 @@
                 <point>1.28177 1.24862 3.01959</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1651,7 +1651,7 @@
   <turrets0>
     <Turret_1_It14_P44_Pantera>
       <userString>#italy_vehicles:Turret_1_It14_P44_Pantera</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22000</price>
       <armor>
@@ -1768,7 +1768,7 @@
             <density>121.932 110.653</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_53>
         <Cannone_da_90_74>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <turret>Turret_2_It14_P44_Pantera  <cost>16700</cost>
@@ -1855,7 +1855,7 @@
             <density>115.215 113.531</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_74>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_74>
       </guns>
       <models>
         <undamaged>vehicles/italy/It14_P44_Pantera/normal/lod0/Turret_01.model</undamaged>
@@ -2055,7 +2055,7 @@
     </Turret_1_It14_P44_Pantera>
     <Turret_2_It14_P44_Pantera>
       <userString>#italy_vehicles:Turret_2_It14_P44_Pantera</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31400</price>
       <unlocks>
@@ -2173,7 +2173,7 @@
             <density>121.932 110.653</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_53>
         <Cannone_da_90_74>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <gun>35</gun>
@@ -2256,7 +2256,7 @@
             <density>115.215 113.531</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_74>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_74>
       </guns>
       <models>
         <undamaged>vehicles/italy/It14_P44_Pantera/normal/lod0/Turret_02.model</undamaged>
@@ -2484,7 +2484,7 @@
     </R_F_3_M_2>
     <R_F_4_M>shared</R_F_4_M>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2576,7 +2576,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

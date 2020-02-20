@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>24</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -151,7 +151,7 @@
   <chassis>
     <Chassis_GB28_Bishop>
       <userString>#gb_vehicles:Chassis_GB28_Bishop</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4500</price>
       <unlocks>
@@ -1163,7 +1163,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1183,7 +1183,7 @@
     </Chassis_GB28_Bishop>
     <Chassis_GB28_Bishop_2>
       <userString>#gb_vehicles:Chassis_GB28_Bishop_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8800</price>
       <armor>
@@ -2191,7 +2191,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2313,7 +2313,7 @@
             <density>128.609 125.573</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </OQF_25pdr_Gun_Mk_II>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_25pdr_Gun_Mk_II>
         <_4.5inch_SPG_Howitzer>shared  <maxAmmo>32</maxAmmo>
           <armor>
             <gun>20</gun>
@@ -2388,7 +2388,7 @@
             <density>132.079 121.893</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_4.5inch_SPG_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_4.5inch_SPG_Howitzer>
       </guns>
       <models>
         <undamaged>vehicles/british/GB28_Bishop/normal/lod0/Turret_01.model</undamaged>
@@ -2405,8 +2405,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_GB28_Bishop>
@@ -2543,7 +2543,7 @@
     <armour>0.553997091</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

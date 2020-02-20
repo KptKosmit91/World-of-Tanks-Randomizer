@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -817,7 +817,7 @@
   <chassis>
     <Chassis_ST_B1>
       <userString>#japan_vehicles:Chassis_ST_B1</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1043,7 +1043,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1273,7 +1273,7 @@
             <length>0.0874445</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.16662</xStart>
@@ -1494,7 +1494,7 @@
                 <point>-1.42502 1.16782 3.27</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1525,7 +1525,7 @@
             <length>0.0873696</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.16497</xStart>
@@ -1746,7 +1746,7 @@
                 <point>1.15503 1.16347 3.27514</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1755,7 +1755,7 @@
   <turrets0>
     <Turret_1_ST_B1>
       <userString>#japan_vehicles:Turret_1_ST_B1</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1793,7 +1793,7 @@
       </surveyingDeviceHealth>
       <guns>
         <_105mm_Rifled_Gun>shared  <maxAmmo>50</maxAmmo>
-          <unlocks></unlocks>
+          <unlocks />
           <armor>
             <armor_1>300  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_1>
@@ -1916,7 +1916,7 @@
             <density>128.15 128.221</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Rifled_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Rifled_Gun>
       </guns>
       <models>
         <undamaged>vehicles/japan/J16_ST_B1/normal/lod0/Turret_01.model</undamaged>
@@ -2424,7 +2424,7 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <siege_mode>
     <switchOnTime>0</switchOnTime>
     <switchOffTime>0</switchOffTime>
@@ -2447,11 +2447,11 @@
       </wheelsCorrectionAngles>
       <isEnabled>True</isEnabled>
     </pitch>
-    <yawDisabled></yawDisabled>
+    <yawDisabled />
   </hull_aiming>
   <useHullZSize>True</useHullZSize>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

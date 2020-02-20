@@ -3,7 +3,7 @@
   <crew>
     <commander>loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
     <radioman>loader</radioman>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -364,7 +364,7 @@
   <chassis>
     <Chassis_AMX_50_100>
       <userString>#france_vehicles:Chassis_AMX_50_100</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16450</price>
       <unlocks>
@@ -680,7 +680,7 @@
             <length>0.156048</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.34777</xStart>
@@ -862,7 +862,7 @@
                 <point>-1.28723 1.2474 3.20624</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -889,7 +889,7 @@
             <length>0.155609</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.35633</xStart>
@@ -1072,14 +1072,14 @@
                 <point>1.53285 1.08945 3.25706</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1099,7 +1099,7 @@
     </Chassis_AMX_50_100>
     <Chassis_AMX_50_100_2>
       <userString>#france_vehicles:Chassis_AMX_50_100_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>37250</price>
       <armor>
@@ -1411,7 +1411,7 @@
             <length>0.156048</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.34777</xStart>
@@ -1593,7 +1593,7 @@
                 <point>-1.28723 1.2474 3.20624</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1620,7 +1620,7 @@
             <length>0.155609</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.35633</xStart>
@@ -1803,14 +1803,14 @@
                 <point>1.53285 1.08945 3.25706</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1832,7 +1832,7 @@
   <turrets0>
     <Turret_1_AMX_50_100>
       <userString>#france_vehicles:Turret_1_AMX_50_100</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>25000</price>
       <notInShop>true</notInShop>
@@ -2020,7 +2020,7 @@
             <density>97.0011 97.4498</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_90mm_F3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_F3>
         <_90mm_canon_DCA_45>shared  <maxAmmo>72</maxAmmo>
           <pitchLimits>
             <minPitch>0 -13 1 -13</minPitch>
@@ -2170,7 +2170,7 @@
             <density>100.326 96.9782</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_45>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_45>
         <_100mm_SA_47>shared  <maxAmmo>60</maxAmmo>
           <pitchLimits>
             <minPitch>0 -13 1 -13</minPitch>
@@ -2314,7 +2314,7 @@
             <density>102.405 98.071</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_100mm_SA_47>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_SA_47>
       </guns>
       <models>
         <undamaged>vehicles/french/F08_AMX_50_100/normal/lod0/Turret_01.model</undamaged>
@@ -2519,7 +2519,7 @@
     <armour>1.34250162</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

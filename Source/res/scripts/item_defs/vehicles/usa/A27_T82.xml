@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -134,7 +134,7 @@
   <chassis>
     <Chassis_A27_T82>
       <userString>#usa_vehicles:Chassis_A27_T82</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1900</price>
       <unlocks>
@@ -995,7 +995,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1015,7 +1015,7 @@
     </Chassis_A27_T82>
     <Chassis_A27_T82_2>
       <userString>#usa_vehicles:Chassis_A27_T82_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3850</price>
       <armor>
@@ -1872,7 +1872,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1964,7 +1964,7 @@
             <density>129.611 133.668</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Howitzer_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Howitzer_M3>
       </guns>
       <ceilless>true</ceilless>
       <userString>#usa_vehicles:Turret_1_A27_T82</userString>
@@ -2097,7 +2097,7 @@
             <density>128.931 150.496</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Howitzer_M4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Howitzer_M4>
       </guns>
       <ceilless>true</ceilless>
       <userString>#usa_vehicles:Turret_2_A27_T82</userString>
@@ -2166,9 +2166,9 @@
   <crew>
     <commander>gunner
 radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>64</forward>
@@ -2295,7 +2295,7 @@ radioman</commander>
     <armour>0.362075336</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <GB10_Black_Prince.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <radioman></radioman>
-    <gunner></gunner>
-    <loader></loader>
+    <commander />
+    <driver />
+    <radioman />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -116,7 +116,7 @@
   <chassis>
     <Chassis_GB10_Black_Prince>
       <userString>#gb_vehicles:Chassis_GB10_Black_Prince</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13000</price>
       <unlocks>
@@ -972,7 +972,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -992,7 +992,7 @@
     </Chassis_GB10_Black_Prince>
     <Chassis_GB10_Black_Prince_2>
       <userString>#gb_vehicles:Chassis_GB10_Black_Prince_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18000</price>
       <armor>
@@ -1844,7 +1844,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1866,7 +1866,7 @@
   <turrets0>
     <Turret_2_GB10_Black_Prince>
       <userString>#gb_vehicles:Turret_2_GB10_Black_Prince</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>26300</price>
       <notInShop>true</notInShop>
@@ -1984,7 +1984,7 @@
             <density>100.083 100.787</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </OQF_77mm_Gun_MkII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_77mm_Gun_MkII>
         <OQF_17pdr_Gun_Mk_VII>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2066,7 +2066,7 @@
             <density>96.5616 101.173</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII>
       </guns>
       <models>
         <undamaged>vehicles/british/GB10_Black_Prince/normal/lod0/Turret_01.model</undamaged>
@@ -2261,7 +2261,7 @@
     <armour>0.832039245</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

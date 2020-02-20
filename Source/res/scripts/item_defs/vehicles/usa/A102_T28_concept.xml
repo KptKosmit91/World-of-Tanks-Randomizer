@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>29</forward>
@@ -24,12 +24,12 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>203.2</armor_1>
@@ -161,7 +161,7 @@
   <chassis>
     <Chassis_A102_T28_concept>
       <userString>#usa_vehicles:Chassis_A102_T28_concept</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16000</price>
       <notInShop>true</notInShop>
@@ -443,7 +443,7 @@
             <length>0.072445</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.37286</xStart>
@@ -719,7 +719,7 @@
                 <point>-1.44124 1.19926 3.82617</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -750,7 +750,7 @@
             <length>0.0724445</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.37287</xStart>
@@ -1026,14 +1026,14 @@
                 <point>1.44125 1.21788 3.82615</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1167,7 +1167,7 @@
             <density>133.443 169.96</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_AT_Gun_T5A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_AT_Gun_T5A>
       </guns>
       <models>
         <undamaged>vehicles/american/A102_T28_concept/normal/lod0/Turret_01.model</undamaged>
@@ -1268,7 +1268,7 @@
     <armour>0.959036248</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

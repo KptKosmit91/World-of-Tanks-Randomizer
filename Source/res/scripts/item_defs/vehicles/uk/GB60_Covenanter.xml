@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -111,7 +111,7 @@
   <chassis>
     <Chassis_GB60_Covenanter>
       <userString>#gb_vehicles:Chassis_GB60_Covenanter</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1500</price>
       <unlocks>
@@ -951,7 +951,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -971,7 +971,7 @@
     </Chassis_GB60_Covenanter>
     <Chassis_GB60_Covenanter_2>
       <userString>#gb_vehicles:Chassis_GB60_Covenanter_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4200</price>
       <armor>
@@ -1807,7 +1807,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1829,7 +1829,7 @@
   <turrets0>
     <Turret_1_GB60_Covenanter>
       <userString>#gb_vehicles:Turret_1_GB60_Covenanter</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1890</price>
       <unlocks>
@@ -1931,7 +1931,7 @@
             <density>124.055 124.71</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
         <_40mm_Pom_Pom>shared  <maxAmmo>200</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2002,7 +2002,7 @@
             <density>125.653 126.263</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_40mm_Pom_Pom>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_Pom_Pom>
         <_76mm_Howitzer_MkI>shared  <maxAmmo>74</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2065,7 +2065,7 @@
             <density>124.139 124.018</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Howitzer_MkI>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Howitzer_MkI>
       </guns>
       <models>
         <undamaged>vehicles/british/GB60_Covenanter/normal/lod0/Turret_01.model</undamaged>
@@ -2139,7 +2139,7 @@
     </Turret_1_GB60_Covenanter>
     <Turret_2_GB60_Covenanter>
       <userString>#gb_vehicles:Turret_2_GB60_Covenanter</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5500</price>
       <unlocks>
@@ -2239,7 +2239,7 @@
             <density>124.055 124.71</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
         <_40mm_Pom_Pom>shared  <maxAmmo>200</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2310,7 +2310,7 @@
             <density>125.653 126.263</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_40mm_Pom_Pom>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_Pom_Pom>
         <_76mm_Howitzer_MkI>shared  <maxAmmo>74</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2373,7 +2373,7 @@
             <density>124.139 124.018</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Howitzer_MkI>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Howitzer_MkI>
         <_40mm_Bofors_MkI>shared  <maxAmmo>120</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2444,7 +2444,7 @@
             <density>124.218 123.693</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_40mm_Bofors_MkI>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_Bofors_MkI>
       </guns>
       <models>
         <undamaged>vehicles/british/GB60_Covenanter/normal/lod0/Turret_02.model</undamaged>
@@ -2633,7 +2633,7 @@
     <armour>0.732798328</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

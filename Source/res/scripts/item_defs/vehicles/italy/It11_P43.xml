@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -129,7 +129,7 @@
   <chassis>
     <Chassis_It11_P43>
       <userString>#italy_vehicles:Chassis_It11_P43</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4500</price>
       <unlocks>
@@ -396,7 +396,7 @@
             <length>0.138173</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94521</xStart>
@@ -570,7 +570,7 @@
                 <point>-1.07613 1.14419 2.99625</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -597,7 +597,7 @@
             <length>0.138173</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94521</xStart>
@@ -771,14 +771,14 @@
                 <point>1.31704 1.1242 2.99627</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -798,7 +798,7 @@
     </Chassis_It11_P43>
     <Chassis_It11_P43_2>
       <userString>#italy_vehicles:Chassis_It11_P43_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9500</price>
       <armor>
@@ -1088,7 +1088,7 @@
             <length>0.138173</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94521</xStart>
@@ -1262,7 +1262,7 @@
                 <point>-1.07613 1.14419 2.99625</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1289,7 +1289,7 @@
             <length>0.138173</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94521</xStart>
@@ -1463,14 +1463,14 @@
                 <point>1.31704 1.1242 2.99627</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1492,7 +1492,7 @@
   <turrets0>
     <Turret_1_It11_P43>
       <userString>#italy_vehicles:Turret_1_It11_P43</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4800</price>
       <armor>
@@ -1597,7 +1597,7 @@
             <density>166.793 168.823</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_34>
         <Cannone_da_75_46>shared  <maxAmmo>63</maxAmmo>
           <unlocks>
             <turret>Turret_2_It11_P43  <cost>2450</cost>
@@ -1675,7 +1675,7 @@
             <density>185.794 187.541</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_46>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_46>
       </guns>
       <models>
         <undamaged>vehicles/italy/It11_P43/normal/lod0/Turret_01.model</undamaged>
@@ -1739,7 +1739,7 @@
     </Turret_1_It11_P43>
     <Turret_2_It11_P43>
       <userString>#italy_vehicles:Turret_2_It11_P43</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10150</price>
       <unlocks>
@@ -1845,7 +1845,7 @@
             <density>166.793 168.823</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_34>
         <Cannone_da_75_46>shared  <maxAmmo>63</maxAmmo>
           <armor>
             <gun>20</gun>
@@ -1920,7 +1920,7 @@
             <density>185.794 187.541</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_46>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_46>
         <Cannone_da_75_50_Skoda>shared  <maxAmmo>63</maxAmmo>
           <unlocks>
             <vehicle>It10_P43_bis  <cost>25510</cost>
@@ -1998,7 +1998,7 @@
             <density>171.587 180.255</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_50_Skoda>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_50_Skoda>
       </guns>
       <invisibilityFactor>0.976</invisibilityFactor>
       <models>
@@ -2086,7 +2086,7 @@
     </R_F_2_C_A>
     <R_F_3_M_2>shared</R_F_3_M_2>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2178,7 +2178,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

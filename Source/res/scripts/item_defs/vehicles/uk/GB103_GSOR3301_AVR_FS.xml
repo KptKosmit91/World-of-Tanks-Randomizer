@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -142,7 +142,7 @@ loader</commander>
   <chassis>
     <Chassis_GB103_GSOR3301_AVR_MK1>
       <userString>#gb_vehicles:Chassis_GB103_GSOR3301_AVR_MK1</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30500</price>
       <unlocks>
@@ -964,7 +964,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -984,7 +984,7 @@ loader</commander>
     </Chassis_GB103_GSOR3301_AVR_MK1>
     <Chassis_GB103_GSOR3301_AVR_MK2>
       <userString>#gb_vehicles:Chassis_GB103_GSOR3301_AVR_MK2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>59500</price>
       <armor>
@@ -1802,7 +1802,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1824,7 +1824,7 @@ loader</commander>
   <turrets0>
     <Turret_1_GB103_GSOR3301_AVR_FS>
       <userString>#gb_vehicles:Turret_1_GB103_GSOR3301_AVR_FS</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -1945,7 +1945,7 @@ loader</commander>
             <density>136.233 139.493</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_HV_L40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_HV_L40>
         <_90mm_Cockerill>shared  <maxAmmo>25</maxAmmo>
           <pitchLimits>
             <minPitch>0 -35 1 -35</minPitch>
@@ -2026,7 +2026,7 @@ loader</commander>
             <density>137.573 138.741</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Cockerill>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Cockerill>
       </guns>
       <models>
         <undamaged>vehicles/british/GB103_GSOR3301_AVR_FS/normal/lod0/Turret_01.model</undamaged>
@@ -2100,7 +2100,7 @@ loader</commander>
       </unlocks>
     </C42_VHF>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2188,7 +2188,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

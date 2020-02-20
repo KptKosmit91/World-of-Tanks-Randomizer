@@ -1,9 +1,9 @@
 <Ch22_113P.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -918,7 +918,7 @@
   <chassis>
     <Chassis_Ch22_113P>
       <userString>#china_vehicles:Chassis_Ch22_113P</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1347,7 +1347,7 @@
             <length>0.15604</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.6407</xStart>
@@ -1512,7 +1512,7 @@
                 <point>-1.47276 1.09309 3.38117</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1539,7 +1539,7 @@
             <length>0.156103</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.63946</xStart>
@@ -1704,14 +1704,14 @@
                 <point>1.49278 0.993779 3.38523</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1733,7 +1733,7 @@
   <turrets0>
     <Turret_1_Ch22_113P>
       <userString>#china_vehicles:Turret_1_Ch22_113P</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1863,7 +1863,7 @@
             <density>101.268 101.796</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122-mm_60-122TP>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_60-122TP>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch22_113/normal/lod0/Turret_01.model</undamaged>
@@ -2407,7 +2407,7 @@
     <armour>1.250992035</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

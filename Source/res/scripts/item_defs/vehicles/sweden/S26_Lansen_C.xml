@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -859,7 +859,7 @@
   <chassis>
     <Chassis_S26_Lansen_C>
       <userString>#sweden_vehicles:Chassis_S26_Lansen_C</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1135,7 +1135,7 @@
             <length>0.0964614</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.74407</xStart>
@@ -1322,7 +1322,7 @@
                 <point>-1.1014 0.961084 2.72074</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1349,7 +1349,7 @@
             <length>0.0965006</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.74407</xStart>
@@ -1536,14 +1536,14 @@
                 <point>1.1014 0.961084 2.72074</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1565,7 +1565,7 @@
   <turrets0>
     <Turret_1_S26_Lansen_C>
       <userString>#sweden_vehicles:Turret_1_S26_Lansen_C</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1703,7 +1703,7 @@
             <density>99.7508 99.7833</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_lvkan_L_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_lvkan_L_53>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S26_Lansen_C/normal/lod0/Turret_01.model</undamaged>
@@ -2348,7 +2348,7 @@
   <radios>
     <Ra_400_P>shared</Ra_400_P>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2397,7 +2397,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

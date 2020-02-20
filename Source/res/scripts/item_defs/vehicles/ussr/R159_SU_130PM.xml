@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -45,7 +45,7 @@
     </ammoBayHealth>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <models>
       <undamaged>vehicles/russian/R159_SU_130PM/normal/lod0/Hull.model</undamaged>
@@ -927,7 +927,7 @@
   <chassis>
     <Chassis_R159_SU_130PM>
       <userString>#ussr_vehicles:Chassis_R159_SU_130PM</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1200,7 +1200,7 @@
             <length>0.105522</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.0027</xStart>
@@ -1389,7 +1389,7 @@
                 <point>-1.32258 0.928206 3.01208</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1621,14 +1621,14 @@
                 <point>1.32258 0.928206 3.01208</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1801,7 +1801,7 @@
             <density>107.529 110.971</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_130mm_M_65S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_M_65S>
       </guns>
       <models>
         <undamaged>vehicles/russian/R159_SU_130PM/normal/lod0/Turret_01.model</undamaged>
@@ -2152,7 +2152,7 @@
   <radios>
     <R113M>shared</R113M>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2201,7 +2201,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

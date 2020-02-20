@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>32</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 1 1</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -106,7 +106,7 @@
   <chassis>
     <Chassis_It06_M14_41>
       <userString>#italy_vehicles:Chassis_It06_M14_41</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>320</price>
       <unlocks>
@@ -794,7 +794,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -814,7 +814,7 @@
     </Chassis_It06_M14_41>
     <Chassis_It06_M14_41_2>
       <userString>#italy_vehicles:Chassis_It06_M14_41_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>610</price>
       <armor>
@@ -1498,7 +1498,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1520,7 +1520,7 @@
   <turrets0>
     <Turret_1_It06_M14_41>
       <userString>#italy_vehicles:Turret_1_It06_M14_41</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>580</price>
       <notInShop>true</notInShop>
@@ -1613,7 +1613,7 @@
             <density>131.007 130.253</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_37_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_37_40>
         <Cannone_da_47_32>shared  <maxAmmo>87</maxAmmo>
           <armor>
             <gun>10</gun>
@@ -1678,7 +1678,7 @@
             <density>128.95 133.647</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_47_32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_47_32>
       </guns>
       <models>
         <undamaged>vehicles/italy/It06_M14_41/normal/lod0/Turret_02.model</undamaged>
@@ -1775,7 +1775,7 @@
   <radios>
     <R_F_1_C_A>shared</R_F_1_C_A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1863,7 +1863,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <Cz01_Skoda_T40.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@
   <chassis>
     <Chassis_Cz01_Skoda_T40>
       <userString>#czech_vehicles:Chassis_Cz01_Skoda_T40</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -386,7 +386,7 @@
             <length>0.112005</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.42393</xStart>
@@ -592,7 +592,7 @@
                 <point>-1.46574 1.25566 3.24037</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -619,7 +619,7 @@
             <length>0.112005</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.42393</xStart>
@@ -825,14 +825,14 @@
                 <point>1.33575 1.2327 3.24037</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -854,7 +854,7 @@
   <turrets0>
     <Turret_1_Cz01_Skoda_T40>
       <userString>#czech_vehicles:Turret_1_Cz01_Skoda_T40</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -965,7 +965,7 @@
             <density>145.198 143.179</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_Vz_37N_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_Vz_37N_A>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz01_Skoda_T40/normal/lod0/Turret_01.model</undamaged>
@@ -1107,7 +1107,7 @@
     <armour>0.752201376</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -175,7 +175,7 @@
   <chassis>
     <Chassis_T95>
       <userString>#usa_vehicles:Chassis_T95</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>29300</price>
       <unlocks>
@@ -1418,7 +1418,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1438,7 +1438,7 @@
     </Chassis_T95>
     <Chassis_T95_2>
       <userString>#usa_vehicles:Chassis_T95_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62500</price>
       <armor>
@@ -2677,7 +2677,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2803,7 +2803,7 @@
             <density>75.5231 75.6219</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_AT_Gun_T5E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_AT_Gun_T5E1>
         <_120mm_AT_Gun_T53>shared  <maxAmmo>42</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2883,7 +2883,7 @@
             <density>74.4224 77.0337</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_AT_Gun_T53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_AT_Gun_T53>
         <_155mm_AT_Gun_T7>shared  <maxAmmo>30</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2957,7 +2957,7 @@
             <density>72.7729 76.1476</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_155mm_AT_Gun_T7>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_155mm_AT_Gun_T7>
       </guns>
       <models>
         <undamaged>vehicles/american/A40_T95/normal/lod0/Turret_01.model</undamaged>
@@ -2974,8 +2974,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_05</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_T95>
@@ -3094,7 +3094,7 @@
     <armour>1.082695427</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

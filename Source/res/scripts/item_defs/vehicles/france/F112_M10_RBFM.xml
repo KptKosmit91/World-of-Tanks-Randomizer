@@ -1,11 +1,11 @@
 <F112_M10_RBFM.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -164,7 +164,7 @@
   <chassis>
     <Chassis_F112_M10_RBFM>
       <userString>#france_vehicles:Chassis_F112_M10_RBFM</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -447,7 +447,7 @@
             <length>0.0752904</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91648</xStart>
@@ -661,7 +661,7 @@
                 <point>-1.14349 1.21987 2.4261</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -922,7 +922,7 @@
                 <point>1.14349 1.21987 2.4261</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -943,7 +943,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_F112_M10_RBFM>
@@ -1075,7 +1075,7 @@
             <density>121.614 114.128</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_3_inch_AT_Gun_M7>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3_inch_AT_Gun_M7>
       </guns>
       <models>
         <undamaged>vehicles/french/F112_M10_RBFM/normal/lod0/Turret_01.model</undamaged>
@@ -1184,7 +1184,7 @@
     <armour>0.847232066</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,9 +1,9 @@
 <GB95_Ekins_Firefly_M4A4.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -150,7 +150,7 @@
   <chassis>
     <Chassis_GB95_Ekins_Firefly_M4A4>
       <userString>#gb_vehicles:Chassis_GB95_Ekins_Firefly_M4A4</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1122,7 +1122,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1144,7 +1144,7 @@
   <turrets0>
     <Turret_1_GB95_Ekins_Firefly_M4A4>
       <userString>#gb_vehicles:Turret_1_GB95_Ekins_Firefly_M4A4</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1257,7 +1257,7 @@
             <density>98.6377 110.537</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII_A>
       </guns>
       <models>
         <undamaged>vehicles/british/GB95_Ekins_Firefly_M4A4/normal/lod0/Turret_01.model</undamaged>
@@ -1358,7 +1358,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

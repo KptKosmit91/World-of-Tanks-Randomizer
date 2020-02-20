@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -136,7 +136,7 @@
   <chassis>
     <Chassis_AMX40>
       <userString>#france_vehicles:Chassis_AMX40</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1750</price>
       <unlocks>
@@ -338,7 +338,7 @@
             <length>0.148712</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.27363</xStart>
@@ -507,7 +507,7 @@
             <length>0.14871</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.27367</xStart>
@@ -659,7 +659,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -679,7 +679,7 @@
     </Chassis_AMX40>
     <Chassis_AMX40_2>
       <userString>#france_vehicles:Chassis_AMX40_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4750</price>
       <armor>
@@ -877,7 +877,7 @@
             <length>0.148712</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.27363</xStart>
@@ -1046,7 +1046,7 @@
             <length>0.14871</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.27367</xStart>
@@ -1198,7 +1198,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1220,7 +1220,7 @@
   <turrets0>
     <Turret_1_AMX40>
       <userString>#france_vehicles:Turret_1_AMX40</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1850</price>
       <armor>
@@ -1323,7 +1323,7 @@
             <density>114.509 115.564</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_47mm_SA34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34>
         <_47mm_SA35>shared  <maxAmmo>156</maxAmmo>
           <unlocks>
             <turret>Turret_2_AMX40  <cost>1100</cost>
@@ -1395,7 +1395,7 @@
             <density>124.629 126.193</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
       </guns>
       <models>
         <undamaged>vehicles/french/F14_AMX40/normal/lod0/Turret_01.model</undamaged>
@@ -1458,7 +1458,7 @@
     </Turret_1_AMX40>
     <Turret_2_AMX40>
       <userString>#france_vehicles:Turret_2_AMX40</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4700</price>
       <unlocks>
@@ -1566,7 +1566,7 @@
             <density>114.509 115.564</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_47mm_SA34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34>
         <_47mm_SA35>shared  <maxAmmo>156</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1634,7 +1634,7 @@
             <density>124.629 126.193</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
         <_75mm_SA32>shared  <maxAmmo>70</maxAmmo>
           <unlocks>
             <vehicle>F62_ELC_AMX  <cost>14900</cost>
@@ -1707,7 +1707,7 @@
             <density>111.663 104.301</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_SA32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA32>
       </guns>
       <models>
         <undamaged>vehicles/french/F14_AMX40/normal/lod0/Turret_02.model</undamaged>
@@ -1877,7 +1877,7 @@
     <armour>1.195352097</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

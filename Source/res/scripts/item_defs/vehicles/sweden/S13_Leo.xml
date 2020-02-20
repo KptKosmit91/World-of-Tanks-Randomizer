@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -129,7 +129,7 @@
   <chassis>
     <Chassis_S13_Leo>
       <userString>#sweden_vehicles:Chassis_S13_Leo</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12500</price>
       <unlocks>
@@ -831,7 +831,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -851,7 +851,7 @@
     </Chassis_S13_Leo>
     <Chassis_S13_Leo_2>
       <userString>#sweden_vehicles:Chassis_S13_Leo_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>24800</price>
       <armor>
@@ -1549,7 +1549,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1571,7 +1571,7 @@
   <turrets0>
     <Turret_1_S13_Leo>
       <userString>#sweden_vehicles:Turret_1_S13_Leo</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14000</price>
       <armor>
@@ -1685,7 +1685,7 @@
             <density>106.724 112.241</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_kan_m_43_strv>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_kan_m_43_strv>
         <_75mm_kan_strv_74_R>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <gun>_105mm_kan_m_34  <cost>16700</cost>
@@ -1768,7 +1768,7 @@
             <density>100.398 101.953</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_kan_strv_74_R>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_kan_strv_74_R>
         <_105mm_kan_m_34>shared  <maxAmmo>35</maxAmmo>
           <unlocks>
             <turret>Turret_2_S13_Leo  <cost>8550</cost>
@@ -1851,7 +1851,7 @@
             <density>107.139 114.471</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_kan_m_34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_kan_m_34>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S13_Leo/normal/lod0/Turret_01.model</undamaged>
@@ -1913,7 +1913,7 @@
     </Turret_1_S13_Leo>
     <Turret_2_S13_Leo>
       <userString>#sweden_vehicles:Turret_2_S13_Leo</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>23600</price>
       <unlocks>
@@ -2027,7 +2027,7 @@
             <density>106.724 112.241</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_kan_m_43_strv>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_kan_m_43_strv>
         <_75mm_kan_strv_74_R>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>55  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2106,7 +2106,7 @@
             <density>100.398 101.953</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_kan_strv_74_R>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_kan_strv_74_R>
         <_105mm_kan_m_34>shared  <maxAmmo>35</maxAmmo>
           <armor>
             <armor_1>55  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2185,7 +2185,7 @@
             <density>107.139 114.471</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_kan_m_34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_kan_m_34>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S13_Leo/normal/lod0/Turret_02.model</undamaged>
@@ -2391,7 +2391,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,8 +3,8 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <gunner></gunner>
-    <driver></driver>
+    <gunner />
+    <driver />
   </crew>
   <speedLimits>
     <forward>52.5</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@ loader</commander>
   <chassis>
     <Chassis_GB76_Mk_VIC>
       <userString>#gb_vehicles:Chassis_GB76_Mk_VIC</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -910,7 +910,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1031,7 +1031,7 @@ loader</commander>
             <density>149.253 149.58</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_15mm_Machine_gun_BESA_>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_15mm_Machine_gun_BESA_>
       </guns>
       <models>
         <undamaged>vehicles/british/GB76_Mk_VIC/normal/lod0/Turret_01.model</undamaged>
@@ -1162,7 +1162,7 @@ loader</commander>
     <armour>0.785039432</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

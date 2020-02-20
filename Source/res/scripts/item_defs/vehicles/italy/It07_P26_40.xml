@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -128,7 +128,7 @@
   <chassis>
     <Chassis_It07_P26_40>
       <userString>#italy_vehicles:Chassis_It07_P26_40</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <unlocks>
@@ -934,7 +934,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -954,7 +954,7 @@
     </Chassis_It07_P26_40>
     <Chassis_It07_P26_40_2>
       <userString>#italy_vehicles:Chassis_It07_P26_40_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4850</price>
       <armor>
@@ -1756,7 +1756,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1778,7 +1778,7 @@
   <turrets0>
     <Turret_1_It07_P26_40>
       <userString>#italy_vehicles:Turret_1_It07_P26_40</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2200</price>
       <armor>
@@ -1877,7 +1877,7 @@
             <density>166.697 170.13</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_47_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_47_40>
         <Cannone_da_75_32>shared  <maxAmmo>68</maxAmmo>
           <unlocks>
             <turret>Turret_2_It07_P26_40  <cost>1150</cost>
@@ -1944,7 +1944,7 @@
             <density>153.917 165.591</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_32>
       </guns>
       <models>
         <undamaged>vehicles/italy/It07_P26_40/normal/lod0/Turret_01.model</undamaged>
@@ -2008,7 +2008,7 @@
     </Turret_1_It07_P26_40>
     <Turret_2_It07_P26_40>
       <userString>#italy_vehicles:Turret_2_It07_P26_40</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4900</price>
       <unlocks>
@@ -2101,7 +2101,7 @@
             <density>166.697 170.13</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_47_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_47_40>
         <Cannone_da_75_32>shared  <maxAmmo>68</maxAmmo>
           <armor>
             <gun>20</gun>
@@ -2164,7 +2164,7 @@
             <density>153.917 165.591</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_32>
         <Cannone_da_75_34>shared  <maxAmmo>68</maxAmmo>
           <unlocks>
             <vehicle>It11_P43  <cost>11850</cost>
@@ -2231,7 +2231,7 @@
             <density>147.081 144.226</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_34>
       </guns>
       <models>
         <undamaged>vehicles/italy/It07_P26_40/normal/lod0/Turret_02.model</undamaged>
@@ -2318,7 +2318,7 @@
     </R_F_1_C_A>
     <R_F_2_C_A>shared</R_F_2_C_A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2410,7 +2410,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

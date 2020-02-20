@@ -1,10 +1,10 @@
 <Ch08_Type97_Chi_Ha_bootcamp.xml>
   
   <crew>
-    <commander></commander>
+    <commander />
     <gunner>loader</gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -72,7 +72,7 @@
     <hangarShadowTexture>vehicles/chinese/Ch08_Type97_Chi_Ha/Type97_Chi_Ha_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_Ch08_Type97_Chi_Ha_bootcamp>
       <userString>#china_vehicles:Chassis_Ch08_Type97_Chi_Ha</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>1270</price>
       <notInShop>true</notInShop>
@@ -825,8 +825,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Ch08_Type97_Chi_Ha_bootcamp>
@@ -834,7 +834,7 @@
   <turrets0>
     <Turret_1_Ch08_Type97_Chi_Ha_bootcamp>
       <userString>#china_vehicles:Turret_1_Ch08_Type97_Chi_Ha</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>840</price>
       <notInShop>true</notInShop>
@@ -907,7 +907,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -916,7 +916,7 @@
             <density>153.37 154.61</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_57mm_Gun_Type_97_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_Gun_Type_97_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch08_Type97_Chi_Ha/normal/lod0/Turret_01.model</undamaged>
@@ -933,7 +933,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1036,7 +1036,7 @@
     <armour>0.752276412</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

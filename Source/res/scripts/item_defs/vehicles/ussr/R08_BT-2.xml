@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -128,7 +128,7 @@
   <chassis>
     <BT-2>
       <userString>#ussr_vehicles:BT-2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>260</price>
       <unlocks>
@@ -421,7 +421,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -441,7 +441,7 @@
     </BT-2>
     <BT-2bis>
       <userString>#ussr_vehicles:BT-2bis</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>520</price>
       <armor>
@@ -730,7 +730,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -752,7 +752,7 @@
   <turrets0>
     <BT-2_cylindrical>
       <userString>#ussr_vehicles:BT-2_cylindrical</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>440</price>
       <armor>
@@ -854,7 +854,7 @@
             <density>99.918 118.001</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_B-3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_B-3>
         <_20mm_TNSH>shared  <maxAmmo>420</maxAmmo>
           <reloadTime>9.4</reloadTime>
           <aimingTime>1.9</aimingTime>
@@ -925,7 +925,7 @@
             <density>104.907 105.276</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_20mm_TNSH>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_TNSH>
       </guns>
       <models>
         <undamaged>vehicles/russian/R08_BT-2/normal/lod0/Turret_01.model</undamaged>
@@ -988,7 +988,7 @@
     </BT-2_cylindrical>
     <BT-2_bis>
       <userString>#ussr_vehicles:BT-2_bis</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <unlocks>
@@ -1093,7 +1093,7 @@
             <density>99.918 118.001</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_B-3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_B-3>
         <_20mm_TNSH>shared  <maxAmmo>420</maxAmmo>
           <reloadTime>8.6</reloadTime>
           <armor>
@@ -1164,7 +1164,7 @@
             <density>104.907 105.276</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_20mm_TNSH>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_TNSH>
         <_45mm_20K>shared  <maxAmmo>80</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.14</turretRotation>
@@ -1239,7 +1239,7 @@
             <density>106.03 116.905</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
       </guns>
       <models>
         <undamaged>vehicles/russian/R08_BT-2/normal/lod0/Turret_02.model</undamaged>
@@ -1404,7 +1404,7 @@
     <armour>0.701396388</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

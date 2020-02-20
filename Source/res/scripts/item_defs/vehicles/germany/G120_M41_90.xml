@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>72.4</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -735,7 +735,7 @@
   <chassis>
     <Chassis_G120_M41_90>
       <userString>#germany_vehicles:Chassis_G120_M41_90</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <notInShop>true</notInShop>
@@ -1213,7 +1213,7 @@
             <length>0.151135</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.66794</xStart>
@@ -1385,7 +1385,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1407,7 +1407,7 @@
   <turrets0>
     <Turret_1_G120_M41_90>
       <userString>#germany_vehicles:Turret_1_G120_M41_90</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <notInShop>true</notInShop>
@@ -1519,7 +1519,7 @@
             <density>201.677 202.966</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90_76mm_US_Kanone_M_32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90_76mm_US_Kanone_M_32>
       </guns>
       <models>
         <undamaged>vehicles/german/G120_M41_90/normal/lod0/Turret_01.model</undamaged>
@@ -2028,7 +2028,7 @@
     <armour>0.817789876</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

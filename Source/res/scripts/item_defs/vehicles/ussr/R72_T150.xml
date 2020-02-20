@@ -1,11 +1,11 @@
 <R72_T150.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1.0 1.0 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -111,7 +111,7 @@
   <chassis>
     <Chassis_T150>
       <userString>#ussr_vehicles:Chassis_T150</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10720</price>
       <unlocks>
@@ -900,7 +900,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -920,7 +920,7 @@
     </Chassis_T150>
     <Chassis_T150_2>
       <userString>#ussr_vehicles:Chassis_T150_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16400</price>
       <armor>
@@ -1705,7 +1705,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1727,7 +1727,7 @@
   <turrets0>
     <Turret_1_T150>
       <userString>#ussr_vehicles:Turret_1_T150</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9900</price>
       <armor>
@@ -1845,7 +1845,7 @@
             <density>106.349 112.522</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_ZiS-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_ZiS-5>
         <_57mm_413>shared  <maxAmmo>166</maxAmmo>
           <armor>
             <armor_1>90  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1924,7 +1924,7 @@
             <density>109.288 107.211</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_413>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_413>
         <_122mm_cannon_U-11>shared  <maxAmmo>48</maxAmmo>
           <armor>
             <armor_1>90  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1998,7 +1998,7 @@
             <density>106.661 106.84</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_cannon_U-11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_cannon_U-11>
         <_85mm_S-31>shared  <maxAmmo>70</maxAmmo>
           <unlocks>
             <turret>Turret_2_T150  <cost>3940</cost>
@@ -2076,7 +2076,7 @@
             <density>111.4 105.912</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_S-31>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_S-31>
       </guns>
       <models>
         <undamaged>vehicles/russian/R72_T150/normal/lod0/Turret_01.model</undamaged>
@@ -2160,7 +2160,7 @@
     </Turret_1_T150>
     <Turret_2_T150>
       <userString>#ussr_vehicles:Turret_2_T150</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>19400</price>
       <unlocks>
@@ -2275,7 +2275,7 @@
             <density>106.349 112.522</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_ZiS-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_ZiS-5>
         <_57mm_413>shared  <maxAmmo>184</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2354,7 +2354,7 @@
             <density>109.288 107.211</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_413>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_413>
         <_122mm_cannon_U-11>shared  <maxAmmo>70</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2428,7 +2428,7 @@
             <density>106.661 106.84</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_cannon_U-11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_cannon_U-11>
         <_85mm_S-31>shared  <maxAmmo>91</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2502,7 +2502,7 @@
             <density>111.4 105.912</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_S-31>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_S-31>
         <_107mm_ZiS-6>shared  <maxAmmo>54</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2581,7 +2581,7 @@
             <density>104.995 116.683</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-6>
       </guns>
       <models>
         <undamaged>vehicles/russian/R72_T150/normal/lod0/Turret_02.model</undamaged>
@@ -2788,7 +2788,7 @@
     <armour>1.041732662</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

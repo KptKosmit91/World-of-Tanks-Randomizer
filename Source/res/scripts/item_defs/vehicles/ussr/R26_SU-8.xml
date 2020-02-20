@@ -2,11 +2,11 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -144,7 +144,7 @@
   <chassis>
     <SU-8>
       <userString>#ussr_vehicles:SU-8</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8500</price>
       <unlocks>
@@ -1040,7 +1040,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1060,7 +1060,7 @@
     </SU-8>
     <SU-8Bis>
       <userString>#ussr_vehicles:SU-8Bis</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13600</price>
       <armor>
@@ -1952,7 +1952,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2124,7 +2124,7 @@
             <density>79.2361 88.1014</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_howitzer_A-19>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_howitzer_A-19>
         <_152mm_howitzer_ML-20_mod_1931>shared  <pitchLimits>
             <minPitch>0 -44 1 -44</minPitch>
             <maxPitch>0 4 1 4</maxPitch>
@@ -2251,7 +2251,7 @@
             <density>84.3252 84.9846</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_howitzer_ML-20_mod_1931>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_howitzer_ML-20_mod_1931>
       </guns>
       <models>
         <undamaged>vehicles/russian/R26_SU-8/normal/lod0/Turret_01.model</undamaged>
@@ -2409,7 +2409,7 @@
     <armour>0.786373558</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

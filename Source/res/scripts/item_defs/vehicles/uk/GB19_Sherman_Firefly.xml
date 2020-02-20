@@ -1,9 +1,9 @@
 <GB19_Sherman_Firefly.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@
   <chassis>
     <Chassis_GB19_Sherman_Firefly>
       <userString>#gb_vehicles:Chassis_GB19_Sherman_Firefly</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9600</price>
       <unlocks>
@@ -1120,7 +1120,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1140,7 +1140,7 @@
     </Chassis_GB19_Sherman_Firefly>
     <Chassis_GB19_Sherman_Firefly_2>
       <userString>#gb_vehicles:Chassis_GB19_Sherman_Firefly_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16300</price>
       <armor>
@@ -2135,7 +2135,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2157,7 +2157,7 @@
   <turrets0>
     <Turret_1_GB19_Sherman_Firefly>
       <userString>#gb_vehicles:Turret_1_GB19_Sherman_Firefly</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10300</price>
       <armor>
@@ -2270,7 +2270,7 @@
             <density>100.271 100.914</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37>
         <_105mm_SPH_M4_L23>shared  <maxAmmo>72</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2343,7 +2343,7 @@
             <density>100.606 100.918</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_SPH_M4_L23>
         <_76mm_Gun_M1A1>shared  <maxAmmo>77</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2425,7 +2425,7 @@
             <density>100.097 100.555</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
       </guns>
       <models>
         <undamaged>vehicles/british/GB19_Sherman_Firefly/normal/lod0/Turret_01.model</undamaged>
@@ -2499,7 +2499,7 @@
     </Turret_1_GB19_Sherman_Firefly>
     <Turret_2_GB19_Sherman_Firefly>
       <userString>#gb_vehicles:Turret_2_GB19_Sherman_Firefly</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17100</price>
       <unlocks>
@@ -2612,7 +2612,7 @@
             <density>100.271 100.914</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37>
         <_105mm_SPH_M4_L23>shared  <maxAmmo>72</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2685,7 +2685,7 @@
             <density>100.606 100.918</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_SPH_M4_L23>
         <_76mm_Gun_M1A1>shared  <maxAmmo>77</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2763,7 +2763,7 @@
             <density>100.097 100.555</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <OQF_17pdr_Gun_Mk_IV_SH_SH>shared  <maxAmmo>77</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2847,7 +2847,7 @@
             <density>102.288 86.6775</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_IV_SH_SH>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_IV_SH_SH>
         <OQF_17pdr_Gun_Mk_VII>shared  <maxAmmo>77</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2925,7 +2925,7 @@
             <density>102.288 86.6775</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII>
       </guns>
       <models>
         <undamaged>vehicles/british/GB19_Sherman_Firefly/normal/lod0/Turret_02.model</undamaged>
@@ -3119,7 +3119,7 @@
     <armour>1.073199045</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

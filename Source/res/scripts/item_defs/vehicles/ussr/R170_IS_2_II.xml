@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>34</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
@@ -1093,7 +1093,7 @@
   <chassis>
     <Chassis_R170_IS_2_II>
       <userString>#ussr_vehicles:Chassis_R170_IS_2_II</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17500</price>
       <unlocks>
@@ -1830,7 +1830,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1850,7 +1850,7 @@
     </Chassis_R170_IS_2_II>
     <Chassis_R170_IS_2_II_2>
       <userString>#ussr_vehicles:Chassis_R170_IS_2_II_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33000</price>
       <armor>
@@ -2583,7 +2583,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2605,7 +2605,7 @@
   <turrets0>
     <Turret_1_R170_IS_2_II>
       <userString>#ussr_vehicles:Turret_1_R170_IS_2_II</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22000</price>
       <unlocks>
@@ -2771,7 +2771,7 @@
             <density>149.012 147.781</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D-5T_dualgun>
+        <RAND_IsDoubleGun>true</RAND_IsDoubleGun></_85mm_D-5T_dualgun>
         <_100mm_S34_dualgun>shared  <maxAmmo>74</maxAmmo>
           <unlocks>
             <vehicle>R171_IS_3_II  <cost>165400</cost>
@@ -2885,7 +2885,7 @@
             <density>106.059 125.941</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_S34_dualgun>
+        <RAND_IsDoubleGun>true</RAND_IsDoubleGun></_100mm_S34_dualgun>
       </guns>
       <models>
         <undamaged>vehicles/russian/R170_IS_2_II/normal/lod0/Turret_01.model</undamaged>
@@ -3643,7 +3643,7 @@
     </Turret_1_R170_IS_2_II>
     <Turret_2_R170_IS_2_II>
       <userString>#ussr_vehicles:Turret_2_R170_IS_2_II</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32500</price>
       <armor>
@@ -3818,7 +3818,7 @@
             <density>149.012 147.781</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D-5T_dualgun>
+        <RAND_IsDoubleGun>true</RAND_IsDoubleGun></_85mm_D-5T_dualgun>
         <_100mm_S34_dualgun>shared  <maxAmmo>74</maxAmmo>
           <armor>
             <armor_1>240  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -3944,7 +3944,7 @@
             <density>106.059 125.941</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_S34_dualgun>
+        <RAND_IsDoubleGun>true</RAND_IsDoubleGun></_100mm_S34_dualgun>
       </guns>
       <models>
         <undamaged>vehicles/russian/R170_IS_2_II/normal/lod0/Turret_02.model</undamaged>
@@ -4807,7 +4807,7 @@
     <charger>NoneExtra : DualGunCharger</charger>
   </extras>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

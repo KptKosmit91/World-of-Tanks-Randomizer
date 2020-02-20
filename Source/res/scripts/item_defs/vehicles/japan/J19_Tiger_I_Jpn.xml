@@ -1,11 +1,11 @@
 <J19_Tiger_I_Jpn.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -114,7 +114,7 @@
   <chassis>
     <Chassis_Tiger_I_Jpn>
       <userString>#japan_vehicles:Chassis_J19_Tiger_I_Jpn</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -877,7 +877,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -900,7 +900,7 @@
     <Turret_1_Tiger_I_Jpn>
       <userString>#japan_vehicles:Turret_1_J19_Tiger_I_Jpn</userString>
       <shortUserString>#japan_vehicles:Turret_1_J19_Tiger_I_Jpn_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1022,7 +1022,7 @@
             <density>101.864 101.698</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56A>
       </guns>
       <models>
         <undamaged>vehicles/japan/J19_Tiger_I_Jpn/normal/lod0/Turret_01.model</undamaged>
@@ -1164,7 +1164,7 @@
     <armour>0.879999147</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

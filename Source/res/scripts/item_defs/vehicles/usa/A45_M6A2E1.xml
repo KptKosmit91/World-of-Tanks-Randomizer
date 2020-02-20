@@ -1,11 +1,11 @@
 <A45_M6A2E1.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>29</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1051,7 +1051,7 @@
   <chassis>
     <Chassis_M6A2E1>
       <userString>#usa_vehicles:Chassis_M6A2E1</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <notInShop>true</notInShop>
       <price>15000</price>
@@ -2365,7 +2365,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2387,7 +2387,7 @@
   <turrets0>
     <Turret_1_M6A2E1>
       <userString>#usa_vehicles:Turret_1_M6A2E1</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <notInShop>true</notInShop>
       <price>19200</price>
@@ -2507,7 +2507,7 @@
             <density>99.9511 101.943</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1_1>
       </guns>
       <models>
         <undamaged>vehicles/american/A45_M6A2E1/normal/lod0/Turret_01.model</undamaged>
@@ -3026,7 +3026,7 @@
     <armour>1.000684301</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

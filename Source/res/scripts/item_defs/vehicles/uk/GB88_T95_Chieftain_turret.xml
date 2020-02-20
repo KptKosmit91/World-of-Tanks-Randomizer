@@ -1,9 +1,9 @@
 <GB88_T95_Chieftain_turret.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -683,7 +683,7 @@
   <chassis>
     <Chassis_GB88_T95_Chieftain_turret>
       <userString>#gb_vehicles:Chassis_GB88_T95_Chieftain_turret</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1075,7 +1075,7 @@
             <length>0.0915737</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.52337</xStart>
@@ -1301,7 +1301,7 @@
                 <point>-1.43275 1.16057 3.24384</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1332,7 +1332,7 @@
             <length>0.0903493</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.54615</xStart>
@@ -1558,14 +1558,14 @@
                 <point>1.43275 1.17525 3.2704</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1587,7 +1587,7 @@
   <turrets0>
     <Turret_1_GB88_T95_Chieftain_turret>
       <userString>#gb_vehicles:Turret_1_GB88_T95_Chieftain_turret</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1717,7 +1717,7 @@
             <density>197.981 198.318</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_L11A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_L11A1>
       </guns>
       <models>
         <undamaged>vehicles/british/GB88_T95_Chieftain_turret/normal/lod0/Turret_01.model</undamaged>
@@ -2261,7 +2261,7 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
     <collision>collision</collision>
     <damagedStateGroup>large</damagedStateGroup>

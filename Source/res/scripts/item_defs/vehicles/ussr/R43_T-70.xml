@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -128,7 +128,7 @@ loader</commander>
   <chassis>
     <Chassis_T-70>
       <userString>#ussr_vehicles:Chassis_T-70</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <unlocks>
@@ -398,7 +398,7 @@ loader</commander>
             <length>0.0890505</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.09695</xStart>
@@ -566,7 +566,7 @@ loader</commander>
                 <point>-0.899008 0.933746 2.08854</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -593,7 +593,7 @@ loader</commander>
             <length>0.090224</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.10216</xStart>
@@ -760,14 +760,14 @@ loader</commander>
                 <point>0.899 0.951148 2.0934</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -787,7 +787,7 @@ loader</commander>
     </Chassis_T-70>
     <Chassis_T-70_2>
       <userString>#ussr_vehicles:Chassis_T-70_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1730</price>
       <armor>
@@ -1053,7 +1053,7 @@ loader</commander>
             <length>0.0890505</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.09695</xStart>
@@ -1221,7 +1221,7 @@ loader</commander>
                 <point>-0.899008 0.933746 2.08854</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1248,7 +1248,7 @@ loader</commander>
             <length>0.090224</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.10216</xStart>
@@ -1415,14 +1415,14 @@ loader</commander>
                 <point>0.899 0.951148 2.0934</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1444,7 +1444,7 @@ loader</commander>
   <turrets0>
     <Turret_1_T-70>
       <userString>#ussr_vehicles:Turret_1_T-70</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>920</price>
       <unlocks>
@@ -1545,7 +1545,7 @@ loader</commander>
             <density>102.121 104.787</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_37mm_ZiS-19>shared  <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
             <maxPitch>0 6 1 6</maxPitch>
@@ -1607,7 +1607,7 @@ loader</commander>
             <density>98.4295 113.201</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_ZiS-19>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_ZiS-19>
       </guns>
       <models>
         <undamaged>vehicles/russian/R43_T70/normal/lod0/Turret_01.model</undamaged>
@@ -1691,7 +1691,7 @@ loader</commander>
     </Turret_1_T-70>
     <Turret_2_T-70>
       <userString>#ussr_vehicles:Turret_2_T-70</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1750</price>
       <unlocks>
@@ -1793,7 +1793,7 @@ loader</commander>
             <density>102.121 104.787</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_37mm_ZiS-19>shared  <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
             <maxPitch>0 6 1 6</maxPitch>
@@ -1860,7 +1860,7 @@ loader</commander>
             <density>98.4295 113.201</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_ZiS-19>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_ZiS-19>
         <_45mm_VT-42>shared  <pitchLimits>
             <minPitch>0 -19 1 -19</minPitch>
             <maxPitch>0 4 1 4</maxPitch>
@@ -1927,7 +1927,7 @@ loader</commander>
             <density>96.4744 106.81</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_45mm_VT-42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_VT-42>
       </guns>
       <models>
         <undamaged>vehicles/russian/R43_T70/normal/lod0/Turret_02.model</undamaged>

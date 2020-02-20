@@ -1,12 +1,12 @@
 <F67_Bat_Chatillon155_55.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56.3</forward>
@@ -24,12 +24,12 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>16</armor_1>
@@ -111,7 +111,7 @@
   <chassis>
     <Chassis_Bat_Chatillon155_55>
       <userString>#france_vehicles:Chassis_Bat_Chatillon155_55</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <unlocks>
@@ -1001,7 +1001,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1021,7 +1021,7 @@
     </Chassis_Bat_Chatillon155_55>
     <Chassis_Bat_Chatillon155_55_2>
       <userString>#france_vehicles:Chassis_Bat_Chatillon155_55_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>61000</price>
       <armor>
@@ -1907,7 +1907,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2033,7 +2033,7 @@
             <density>79.3347 79.4915</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_155mm_L_GPF>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_155mm_L_GPF>
       </guns>
       <models>
         <undamaged>vehicles/french/F67_Bat_Chatillon155_55/normal/lod0/Turret_01.model</undamaged>
@@ -2222,7 +2222,7 @@
             <density>75.9317 82.0437</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_155mm>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_155mm>
       </guns>
       <models>
         <undamaged>vehicles/french/F67_Bat_Chatillon155_55/normal/lod0/Turret_02.model</undamaged>
@@ -2419,7 +2419,7 @@
     <armour>1.005337153</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

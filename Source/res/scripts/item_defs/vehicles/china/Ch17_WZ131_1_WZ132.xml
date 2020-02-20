@@ -1,9 +1,9 @@
 <Ch17_WZ131_1_WZ132.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -213,7 +213,7 @@
   <chassis>
     <Chassis_Ch17_WZ131_1_WZ132>
       <userString>#china_vehicles:Chassis_Ch17_WZ131_1_WZ132</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16500</price>
       <unlocks>
@@ -1031,7 +1031,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1051,7 +1051,7 @@
     </Chassis_Ch17_WZ131_1_WZ132>
     <Chassis_Ch17_WZ131_1_WZ132_2>
       <userString>#china_vehicles:Chassis_Ch17_WZ131_1_WZ132_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <armor>
@@ -1865,7 +1865,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1887,7 +1887,7 @@
   <turrets0>
     <Turret_1_Ch17_WZ131_1_WZ132>
       <userString>#china_vehicles:Turret_1_Ch17_WZ131_1_WZ132</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16000</price>
       <armor>
@@ -2017,7 +2017,7 @@
             <density>112.68 118.469</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_Tip_64-85T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_Tip_64-85T>
         <_100mm_59-100TA>shared  <maxAmmo>43</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2108,7 +2108,7 @@
             <density>100.328 105.608</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_59-100TA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_59-100TA>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch17_WZ131_1_WZ132/normal/lod0/Turret_01.model</undamaged>
@@ -2309,7 +2309,7 @@
     </Turret_1_Ch17_WZ131_1_WZ132>
     <Turret_2_Ch17_WZ131_1_WZ132>
       <userString>#china_vehicles:Turret_2_Ch17_WZ131_1_WZ132</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <unlocks>
@@ -2439,7 +2439,7 @@
             <density>112.68 118.469</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_Tip_64-85T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_Tip_64-85T>
         <_100mm_59-100TA>shared  <maxAmmo>43</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2529,7 +2529,7 @@
             <density>100.328 105.608</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_59-100TA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_59-100TA>
         <_100mm_60-100TA>shared  <maxAmmo>43</maxAmmo>
           <unlocks>
             <vehicle>Ch28_WZ_132A  <cost>133000</cost>
@@ -2623,7 +2623,7 @@
             <density>124.507 130.06</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_60-100TA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_60-100TA>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch17_WZ131_1_WZ132/normal/lod0/Turret_02.model</undamaged>
@@ -2930,7 +2930,7 @@
     <armour>0.900299889</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

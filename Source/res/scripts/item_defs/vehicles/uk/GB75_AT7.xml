@@ -1,12 +1,12 @@
 <GB75_AT7.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -163,7 +163,7 @@
   <chassis>
     <Chassis_GB75_AT7>
       <userString>#gb_vehicles:Chassis_GB75_AT7</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>8600</price>
       <unlocks>
@@ -827,7 +827,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -847,7 +847,7 @@
     </Chassis_GB75_AT7>
     <Chassis_GB75_AT7_2>
       <userString>#gb_vehicles:Chassis_GB75_AT7_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19000</price>
       <armor>
@@ -1507,7 +1507,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1642,7 +1642,7 @@
             <density>134.21 132.067</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V_AT>
         <OQF_77mm_AT_Gun_MkII>shared  <maxAmmo>84</maxAmmo>
           <unlocks>
             <gun>_17pdr_OQF_AT_1  <cost>15000</cost>
@@ -1729,7 +1729,7 @@
             <density>150.684 128.577</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </OQF_77mm_AT_Gun_MkII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_77mm_AT_Gun_MkII>
         <_17pdr_OQF_AT_1>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_20pdr_AT_Gun_Type_A  <cost>16400</cost>
@@ -1818,7 +1818,7 @@
             <density>128.905 128.583</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_17pdr_OQF_AT_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_17pdr_OQF_AT_1>
         <_20pdr_AT_Gun_Type_A>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>203.2  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1901,7 +1901,7 @@
             <density>128.511 147.524</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_20pdr_AT_Gun_Type_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_AT_Gun_Type_A>
       </guns>
       <models>
         <undamaged>vehicles/british/GB75_AT7/normal/lod0/Turret_01.model</undamaged>
@@ -1918,8 +1918,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_05</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_GB75_AT7>
@@ -2045,7 +2045,7 @@
     <armour>0.909361795</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -115,7 +115,7 @@
   <chassis>
     <Chassis_R154_T_34E_1943>
       <userString>#ussr_vehicles:Chassis_R154_T_34E_1943</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -882,7 +882,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -904,7 +904,7 @@
   <turrets0>
     <Turret_1_R154_T_34E_1943>
       <userString>#ussr_vehicles:Turret_1_R154_T_34E_1943</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -1022,7 +1022,7 @@
             <density>121.935 122.59</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_76mm_F_34_1943>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F_34_1943>
       </guns>
       <models>
         <undamaged>vehicles/russian/R154_T_34E_1943/normal/lod0/Turret_01.model</undamaged>
@@ -1120,7 +1120,7 @@
   <radios>
     <_9RM_O>shared</_9RM_O>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1169,7 +1169,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

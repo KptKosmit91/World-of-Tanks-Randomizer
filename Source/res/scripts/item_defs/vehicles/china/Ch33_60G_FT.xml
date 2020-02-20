@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -144,7 +144,7 @@
   <chassis>
     <Chassis_Ch33_60G_FT>
       <userString>#china_vehicles:Chassis_Ch33_60G_FT</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4100</price>
       <armor>
@@ -945,7 +945,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -965,7 +965,7 @@
     </Chassis_Ch33_60G_FT>
     <Chassis_Ch33_60G_FT_2>
       <userString>#china_vehicles:Chassis_Ch33_60G_FT_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9600</price>
       <armor>
@@ -1762,7 +1762,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1913,7 +1913,7 @@
             <density>130.884 136.81</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_56_85TG_FT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_56_85TG_FT>
         <_85mm_62_85TG_FT>shared  <maxAmmo>48</maxAmmo>
           <unlocks>
             <vehicle>Ch34_WZ131G_FT  <cost>20350</cost>
@@ -2021,7 +2021,7 @@
             <density>133.346 135.161</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_62_85TG_FT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_62_85TG_FT>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch33_60G_FT/normal/lod0/Turret_01.model</undamaged>
@@ -2038,8 +2038,8 @@
       <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_Ch33_60G_FT>
@@ -2063,7 +2063,7 @@
     </_9RM_shop>
     <A-220_1>shared</A-220_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2151,7 +2151,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

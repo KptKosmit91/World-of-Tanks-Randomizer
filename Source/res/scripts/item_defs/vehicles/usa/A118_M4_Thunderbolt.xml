@@ -1,11 +1,11 @@
 <A118_M4_Thunderbolt.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1.8 1.8 0.32 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -140,7 +140,7 @@
   <chassis>
     <Chassis_A118_M4_Thunderbolt>
       <userString>#usa_vehicles:Chassis_A118_M4_Thunderbolt</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -981,7 +981,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1003,7 +1003,7 @@
   <turrets0>
     <Turret_1_A118_M4_Thunderbolt>
       <userString>#usa_vehicles:Turret_1_A118_M4_Thunderbolt</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1121,7 +1121,7 @@
             <density>140.353 143.254</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2A>
       </guns>
       <models>
         <undamaged>vehicles/american/A118_M4_Thunderbolt/normal/lod0/Turret_01.model</undamaged>
@@ -1195,7 +1195,7 @@
   <radios>
     <SCR_508_1>shared</SCR_508_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1244,7 +1244,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -102,7 +102,7 @@
   <chassis>
     <T-18Bis>
       <userString>#ussr_vehicles:T-18Bis</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -369,7 +369,7 @@
             <length>0.155294</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.46761</xStart>
@@ -482,7 +482,7 @@
                 <point>-0.800693 1.0889 1.40534</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -509,7 +509,7 @@
             <length>0.155297</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.46756</xStart>
@@ -622,14 +622,14 @@
                 <point>0.800777 1.0889 1.40541</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -721,7 +721,7 @@
             <density>110.247 110.136</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_Gochkins>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Gochkins>
         <_45mm_mod_1932>shared  <maxAmmo>54</maxAmmo>
           <unlocks>
             <vehicle>R10_AT-1  <cost>270</cost>
@@ -795,10 +795,10 @@
             <density>110.055 109.062</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_45mm_mod_1932>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_mod_1932>
       </guns>
       <userString>#ussr_vehicles:T-18_mod</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -895,7 +895,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>32</forward>
@@ -969,7 +969,7 @@ loader</commander>
     <armour>0.893480696</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 radioman</commander>
-    <driver></driver>
-    <loader></loader>
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>45.1</forward>
@@ -23,7 +23,7 @@ radioman</commander>
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@ radioman</commander>
   <chassis>
     <Chassis_LTP>
       <userString>#ussr_vehicles:Chassis_LTP</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <notInShop>true</notInShop>
       <price>1840</price>
@@ -470,7 +470,7 @@ radioman</commander>
             <length>0.0879875</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.01625</xStart>
@@ -631,7 +631,7 @@ radioman</commander>
                 <point>-0.700326 0.843749 2.07576</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -658,7 +658,7 @@ radioman</commander>
             <length>0.0873533</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.03766</xStart>
@@ -821,14 +821,14 @@ radioman</commander>
                 <point>0.710383 0.81069 2.11174</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -850,7 +850,7 @@ radioman</commander>
   <turrets0>
     <Turret_1_LTP>
       <userString>#ussr_vehicles:Turret_1_LTP</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <notInShop>true</notInShop>
       <price>1820</price>
@@ -948,7 +948,7 @@ radioman</commander>
             <density>267.11 263.795</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_20KL>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20KL>
       </guns>
       <models>
         <undamaged>vehicles/russian/R86_LTP/normal/lod0/Turret_01.model</undamaged>
@@ -1090,7 +1090,7 @@ radioman</commander>
     <armour>0.82895479</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

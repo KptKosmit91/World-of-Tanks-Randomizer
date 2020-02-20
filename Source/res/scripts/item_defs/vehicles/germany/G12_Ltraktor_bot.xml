@@ -3,8 +3,8 @@
   <crew>
     <commander>radioman
 gunner</commander>
-    <driver></driver>
-    <loader></loader>
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>36</forward>
@@ -22,7 +22,7 @@ gunner</commander>
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -74,7 +74,7 @@ gunner</commander>
     <hangarShadowTexture>vehicles/german/G12_Ltraktor/Ltraktor_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -119,7 +119,7 @@ gunner</commander>
   <chassis>
     <Leichtertaktorketten_bot>
       <userString>#germany_vehicles:Leichtertaktorketten_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -827,8 +827,8 @@ gunner</commander>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Leichtertaktorketten_bot>
@@ -836,7 +836,7 @@ gunner</commander>
   <turrets0>
     <Swedish_Bofors_bot>
       <userString>#germany_vehicles:Swedish_Bofors_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -897,7 +897,7 @@ gunner</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -906,7 +906,7 @@ gunner</commander>
             <density>110.708 111.703</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_L46_bot>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_L46_bot>
       </guns>
       <models>
         <undamaged>vehicles/german/G12_Ltraktor/normal/lod0/Turret_01.model</undamaged>
@@ -923,7 +923,7 @@ gunner</commander>
       <wwturretRotatorSoundManual>tur_man_trav_05</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1012,9 +1012,9 @@ gunner</commander>
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

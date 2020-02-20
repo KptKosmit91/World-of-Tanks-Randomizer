@@ -1,12 +1,12 @@
 <GB17_Grant_I.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
-    <loader></loader>
+    <loader />
   </crew>
   <speedLimits>
     <forward>39</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -157,7 +157,7 @@
   <chassis>
     <Chassis_GB17_Grant_I>
       <userString>#gb_vehicles:Chassis_GB17_Grant_I</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1870</price>
       <unlocks>
@@ -440,7 +440,7 @@
             <length>0.0823926</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92802</xStart>
@@ -651,7 +651,7 @@
                 <point>-1.16284 1.00224 2.75208</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -682,7 +682,7 @@
             <length>0.0823925</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92803</xStart>
@@ -893,14 +893,14 @@
                 <point>1.18428 1.00491 2.75204</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -920,7 +920,7 @@
     </Chassis_GB17_Grant_I>
     <Chassis_GB17_Grant_I_2>
       <userString>#gb_vehicles:Chassis_GB17_Grant_I_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4650</price>
       <armor>
@@ -1189,7 +1189,7 @@
             <length>0.0823926</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92802</xStart>
@@ -1400,7 +1400,7 @@
                 <point>-1.16284 1.00224 2.75208</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1431,7 +1431,7 @@
             <length>0.0823925</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92803</xStart>
@@ -1642,7 +1642,7 @@
                 <point>1.18428 1.00491 2.75204</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1659,7 +1659,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1769,7 +1769,7 @@
             <density>409.368 397.853</density>
             <aoTextureSize>1024 1024</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M2_L28>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M2_L28>
         <QF_6_pounder_Mk_III>shared  <maxAmmo>76</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1833,7 +1833,7 @@
             <density>408.804 398.066</density>
             <aoTextureSize>1024 1024</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_III>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_III>
         <_75mm_Gun_M3_L37>shared  <maxAmmo>65</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1896,7 +1896,7 @@
             <density>405.385 403.081</density>
             <aoTextureSize>1024 1024</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37>
       </guns>
       <models>
         <undamaged>vehicles/british/GB17_Grant_I/normal/lod0/Turret_01.model</undamaged>
@@ -1914,7 +1914,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2054,7 +2054,7 @@
     <armour>1.057008989</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,12 +1,12 @@
 <GB78_Sexton_I.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40.2</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
@@ -162,7 +162,7 @@
   <chassis>
     <Chassis_Sexton_I>
       <userString>#gb_vehicles:Chassis_Sexton_I</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1180</price>
       <notInShop>true</notInShop>
@@ -436,7 +436,7 @@
             <length>0.0609685</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.11197</xStart>
@@ -705,7 +705,7 @@
                 <point>-1.04147 1.14703 2.81165</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -736,7 +736,7 @@
             <length>0.0609685</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.11196</xStart>
@@ -1005,14 +1005,14 @@
                 <point>1.0515 1.15 2.81168</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1122,7 +1122,7 @@
             <density>98.6158 96.1414</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_25pdr_Field_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25pdr_Field_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB78_Sexton_I/normal/lod0/Turret_01.model</undamaged>
@@ -1223,7 +1223,7 @@
     <armour>0.558690874</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

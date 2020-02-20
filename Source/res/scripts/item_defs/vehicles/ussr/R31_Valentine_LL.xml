@@ -2,7 +2,7 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@
   <chassis>
     <ValentineMK_I>
       <userString>#ussr_vehicles:ValentineMK_I</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4510</price>
       <notInShop>true</notInShop>
@@ -862,7 +862,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -884,7 +884,7 @@
   <turrets0>
     <Valentine_LL>
       <userString>#ussr_vehicles:Valentine_LL</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>8160</price>
       <notInShop>true</notInShop>
@@ -979,7 +979,7 @@
             <density>119.32 125.955</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_45mm_20KL>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20KL>
       </guns>
       <models>
         <undamaged>vehicles/russian/R31_Valentine_LL/normal/lod0/Turret_01.model</undamaged>
@@ -1100,7 +1100,7 @@
     <armour>0.847473423</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

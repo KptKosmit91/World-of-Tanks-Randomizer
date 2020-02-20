@@ -1,11 +1,11 @@
 <G85_Aufklarungspanzer_V.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -891,7 +891,7 @@
   <chassis>
     <Chassis_G85_Aufklarungspanzer_V>
       <userString>#germany_vehicles:Chassis_G85_Aufklarungspanzer_V</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1222,7 +1222,7 @@
             <length>0.153148</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92921</xStart>
@@ -1379,7 +1379,7 @@
                 <point>-1.48993 1.36342 3.19672</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1406,7 +1406,7 @@
             <length>0.153115</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92987</xStart>
@@ -1563,14 +1563,14 @@
                 <point>1.54995 1.34695 3.19474</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1592,7 +1592,7 @@
   <turrets0>
     <Turret_1_G85_Aufklarungspanzer_V>
       <userString>#germany_vehicles:Turret_1_G85_Aufklarungspanzer_V</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1705,7 +1705,7 @@
             <density>200.652 146.73</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Waffe0725_1944>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Waffe0725_1944>
       </guns>
       <models>
         <undamaged>vehicles/german/G85_Auf_Panther/normal/lod0/Turret_01.model</undamaged>
@@ -1986,9 +1986,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
+    <radioman />
+    <driver />
+    <gunner />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,12 +23,12 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>30</armor_1>
@@ -835,7 +835,7 @@
   <chassis>
     <Chassis_G114_Skorpian>
       <userString>#germany_vehicles:Chassis_G114_Skorpian</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1174,7 +1174,7 @@
             <length>0.159393</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92345</xStart>
@@ -1328,7 +1328,7 @@
                 <point>-1.28741 1.29959 3.21319</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1355,7 +1355,7 @@
             <length>0.159392</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92348</xStart>
@@ -1509,14 +1509,14 @@
                 <point>1.52746 1.25333 3.21309</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1630,7 +1630,7 @@
             <density>116.747 79.9339</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_K43_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_K43_L55>
       </guns>
       <models>
         <undamaged>vehicles/german/G114_Skorpian/normal/lod0/Turret_01.model</undamaged>
@@ -2077,7 +2077,7 @@
     <armour>0.850624002</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

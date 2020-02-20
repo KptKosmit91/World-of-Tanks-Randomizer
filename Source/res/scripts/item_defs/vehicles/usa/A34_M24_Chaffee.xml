@@ -1,11 +1,11 @@
 <A34_M24_Chaffee.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>62</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@
   <chassis>
     <Chassis_M24_Chaffee>
       <userString>#usa_vehicles:Chassis_M24_Chaffee</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4450</price>
       <unlocks>
@@ -919,7 +919,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -939,7 +939,7 @@
     </Chassis_M24_Chaffee>
     <Chassis_M24_Chaffee_2>
       <userString>#usa_vehicles:Chassis_M24_Chaffee_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9750</price>
       <unlocks>
@@ -1750,7 +1750,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1772,7 +1772,7 @@
   <turrets0>
     <Turret_1_M24_Chaffee>
       <userString>#usa_vehicles:Turret_1_M24_Chaffee</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4500</price>
       <unlocks>
@@ -1885,7 +1885,7 @@
             <density>158.891 159.62</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M6>
       </guns>
       <models>
         <undamaged>vehicles/american/A34_M24_Chaffee/normal/lod0/Turret_01.model</undamaged>
@@ -1969,7 +1969,7 @@
     </Turret_1_M24_Chaffee>
     <Turret_2_M24_Chaffee>
       <userString>#usa_vehicles:Turret_2_M24_Chaffee</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>12100</price>
       <unlocks>
@@ -2086,7 +2086,7 @@
             <density>158.891 159.62</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M6>
         <_75mm_Gun_M17>shared  <maxAmmo>48</maxAmmo>
           <armor>
             <armor_1>38.1  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2167,7 +2167,7 @@
             <density>158.903 159.128</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M17>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M17>
       </guns>
       <models>
         <undamaged>vehicles/american/A34_M24_Chaffee/normal/lod0/Turret_02.model</undamaged>
@@ -2357,7 +2357,7 @@
     <armour>0.780328468</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

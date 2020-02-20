@@ -1,12 +1,12 @@
 <GB06_Vickers_Medium_Mk_III.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <Chassis_GB06_Vickers_Medium_Mk_III>
       <userString>#gb_vehicles:Chassis_GB06_Vickers_Medium_Mk_III</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>670</price>
       <unlocks>
@@ -956,7 +956,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -976,7 +976,7 @@
     </Chassis_GB06_Vickers_Medium_Mk_III>
     <Chassis_GB06_Vickers_Medium_Mk_III_2>
       <userString>#gb_vehicles:Chassis_GB06_Vickers_Medium_Mk_III_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <armor>
@@ -1804,7 +1804,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1826,7 +1826,7 @@
   <turrets0>
     <Turret_1_GB06_Vickers_Medium_Mk_III>
       <userString>#gb_vehicles:Turret_1_GB06_Vickers_Medium_Mk_III</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>730</price>
       <unlocks>
@@ -1922,7 +1922,7 @@
             <density>168.462 207.734</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </OQF_3pdr_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_3pdr_Gun>
         <QF_6_pounder_8cwt_Mk_I>shared  <maxAmmo>80</maxAmmo>
           <pitchLimits>
             <minPitch>0 -16 1 -16</minPitch>
@@ -1982,7 +1982,7 @@
             <density>163.661 208.599</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_8cwt_Mk_I>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_8cwt_Mk_I>
       </guns>
       <models>
         <undamaged>vehicles/british/GB06_Vickers_Medium_Mk_III/normal/lod0/Turret_01.model</undamaged>
@@ -2046,7 +2046,7 @@
     </Turret_1_GB06_Vickers_Medium_Mk_III>
     <Turret_2_GB06_Vickers_Medium_Mk_III>
       <userString>#gb_vehicles:Turret_2_GB06_Vickers_Medium_Mk_III</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <unlocks>
@@ -2139,7 +2139,7 @@
             <density>168.462 207.734</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </OQF_3pdr_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_3pdr_Gun>
         <QF_6_pounder_8cwt_Mk_I>shared  <maxAmmo>80</maxAmmo>
           <pitchLimits>
             <minPitch>0 -16 1 -16</minPitch>
@@ -2199,7 +2199,7 @@
             <density>163.661 208.599</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_8cwt_Mk_I>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_8cwt_Mk_I>
         <_2pdr_Gun_Mk_IX>shared  <maxAmmo>130</maxAmmo>
           <pitchLimits>
             <minPitch>0 -16 1 -16</minPitch>
@@ -2263,7 +2263,7 @@
             <density>162.686 207.127</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_IX>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_IX>
       </guns>
       <models>
         <undamaged>vehicles/british/GB06_Vickers_Medium_Mk_III/normal/lod0/Turret_02.model</undamaged>
@@ -2448,7 +2448,7 @@
     <armour>0.888097942</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

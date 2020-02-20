@@ -1,9 +1,9 @@
 <Ch19_121.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -654,7 +654,7 @@
   <chassis>
     <Chassis_Ch19_121>
       <userString>#china_vehicles:Chassis_Ch19_121</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1011,7 +1011,7 @@
             <length>0.137796</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.1388</xStart>
@@ -1176,7 +1176,7 @@
                 <point>-1.49087 1.27129 3.13092</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1203,7 +1203,7 @@
             <length>0.135767</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.11557</xStart>
@@ -1369,14 +1369,14 @@
                 <point>1.49091 1.17887 3.12967</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1398,7 +1398,7 @@
   <turrets0>
     <Turret_1_Ch19_121>
       <userString>#china_vehicles:Turret_1_Ch19_121</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1551,7 +1551,7 @@
             <density>97.8966 103.019</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122-mm_60-122TG>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_60-122TG>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch19_121/normal/lod0/Turret_01.model</undamaged>
@@ -2239,7 +2239,7 @@
     <armour>1.140259361</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

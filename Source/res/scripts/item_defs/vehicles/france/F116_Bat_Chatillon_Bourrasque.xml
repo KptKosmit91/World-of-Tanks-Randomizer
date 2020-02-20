@@ -2,7 +2,7 @@
   <crew>
     <commander>	radioman
 			loader	</commander>
-    <driver></driver>
+    <driver />
     <gunner>	loader	</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>	1.6	</priceFactor>
     <tiling>	1 1 0 0	</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>	1 1	</density>
   </camouflage>
   <hull>
@@ -948,7 +948,7 @@
   <chassis>
     <Chassis_F116_Bat_Chatillon_Bourrasque>
       <userString>	#france_vehicles:Chassis_F116_Bat_Chatillon_Bourrasque	</userString>
-      <tags></tags>
+      <tags />
       <level>	8	</level>
       <price>	30000	</price>
       <notInShop>	true	</notInShop>
@@ -1431,7 +1431,7 @@
             <length>	0.123517	</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>	-2.45161	</xStart>
@@ -1587,7 +1587,7 @@
                 <point>	0.940997 1.11449 2.4307	</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1618,7 +1618,7 @@
             <length>	0.123517	</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>	-2.45161	</xStart>
@@ -1774,14 +1774,14 @@
                 <point>	0.940997 1.11449 2.4307	</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>	CHASSIS	</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1803,7 +1803,7 @@
   <turrets0>
     <Turret_1_F116_Bat_Chatillon_Bourrasque>
       <userString>	#france_vehicles:Turret_1_F116_Bat_Chatillon_Bourrasque	</userString>
-      <tags></tags>
+      <tags />
       <level>	8	</level>
       <price>	30000	</price>
       <notInShop>	true	</notInShop>
@@ -1930,7 +1930,7 @@
             <aoTextureSize>	512 512	</aoTextureSize>
             <tiling>	1.14 1.14 0.000000 0.000000	</tiling>
           </camouflage>
-        </_105mm_D_1504_EBR_2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_D_1504_EBR_2>
       </guns>
       <models>
         <undamaged>	vehicles/french/F116_Bat_Chatillon_Bourrasque/normal/lod0/Turret_01.model	</undamaged>
@@ -2666,7 +2666,7 @@
   <radios>
     <SCR_508_1>	shared	</SCR_508_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2715,7 +2715,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>	medium	</damagedStateGroup>
   </effects>
   <emblems>

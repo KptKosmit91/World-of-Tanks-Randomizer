@@ -1,11 +1,11 @@
 <A06_M4A3E8_Sherman_training.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>32</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -109,7 +109,7 @@
   <chassis>
     <NVSS_T801>
       <userString>#usa_vehicles:NVSS_T80</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16300</price>
       <notInShop>true</notInShop>
@@ -1047,7 +1047,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </NVSS_T801>
@@ -1055,7 +1055,7 @@
   <turrets0>
     <Turret_1_M4A3E8_Sherman_training>
       <userString>Turret_1_M4A3E8_Sherman_training</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>120</price>
       <notInShop>true</notInShop>
@@ -1134,7 +1134,7 @@
             <density>146.875 136.999</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Gun_1_M4A3E8_Sherman_training>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Gun_1_M4A3E8_Sherman_training>
       </guns>
       <models>
         <undamaged>vehicles/american/A06_M4A3E8_Sherman/normal/lod0/Turret_01.model</undamaged>
@@ -1240,7 +1240,7 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
     <collision>collision</collision>
     <damagedStateGroup>large</damagedStateGroup>

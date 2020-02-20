@@ -1,11 +1,11 @@
 <F83_AMX_M4_Mle1949_Bis.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <radioman></radioman>
+    <commander />
+    <driver />
+    <gunner />
+    <loader />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -133,7 +133,7 @@
   <chassis>
     <Chassis_F83_AMX_M4_Mle1949_Bis>
       <userString>#france_vehicles:Chassis_F83_AMX_M4_Mle1949_Bis</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <unlocks>
@@ -485,7 +485,7 @@
             <length>0.128673</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.51399</xStart>
@@ -673,7 +673,7 @@
                 <point>-1.25678 1.21464 3.56307</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -700,7 +700,7 @@
             <length>0.128674</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.51397</xStart>
@@ -888,14 +888,14 @@
                 <point>1.25681 1.21462 3.56313</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -915,7 +915,7 @@
     </Chassis_F83_AMX_M4_Mle1949_Bis>
     <Chassis_F83_AMX_M4_Mle1949_Bis_2>
       <userString>#france_vehicles:Chassis_F83_AMX_M4_Mle1949_Bis_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>67000</price>
       <armor>
@@ -1253,7 +1253,7 @@
             <length>0.128673</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.51399</xStart>
@@ -1441,7 +1441,7 @@
                 <point>-1.25678 1.21464 3.56307</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1468,7 +1468,7 @@
             <length>0.128674</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.51397</xStart>
@@ -1656,7 +1656,7 @@
                 <point>1.25681 1.21462 3.56313</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1673,7 +1673,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1695,7 +1695,7 @@
   <turrets0>
     <Turret_1_F83_AMX_M4_Mle1949_Bis>
       <userString>#france_vehicles:Turret_1_F83_AMX_M4_Mle1949_Bis</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <yawLimits>-180 180</yawLimits>
@@ -1825,7 +1825,7 @@
             <density>87.6334 90.4915</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_D_1203_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_D_1203_A>
       </guns>
       <models>
         <undamaged>vehicles/french/F83_AMX_M4_Mle1949_Bis/normal/lod0/Turret_01.model</undamaged>
@@ -1899,7 +1899,7 @@
     </Turret_1_F83_AMX_M4_Mle1949_Bis>
     <Turret_2_F83_AMX_M4_Mle1949_Bis>
       <userString>#france_vehicles:Turret_2_F83_AMX_M4_Mle1949_Bis</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>63000</price>
       <unlocks>
@@ -2021,7 +2021,7 @@
             <density>87.6334 90.4915</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_D_1203_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_D_1203_A>
         <_127mm_54_Model_1948>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <armor_1>300  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2108,7 +2108,7 @@
             <density>87.5766 88.5169</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_127mm_54_Model_1948>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_127mm_54_Model_1948>
       </guns>
       <invisibilityFactor>0.927</invisibilityFactor>
       <models>
@@ -2206,7 +2206,7 @@
     </SCR_508>
     <SCR_528>shared</SCR_528>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2298,7 +2298,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

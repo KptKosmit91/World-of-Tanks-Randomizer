@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -607,7 +607,7 @@
   <chassis>
     <Chassis_R145_Object_705_A>
       <userString>#ussr_vehicles:Chassis_R145_Object_705_A</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1108,7 +1108,7 @@
             <length>0.156567</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.64846</xStart>
@@ -1278,7 +1278,7 @@
                 <point>-1.57638 1.17541 3.63208</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1305,7 +1305,7 @@
             <length>0.154737</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.68414</xStart>
@@ -1476,14 +1476,14 @@
                 <point>1.70397 1.21059 3.58865</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1505,7 +1505,7 @@
   <turrets0>
     <Turret_1_R145_Object_705_A>
       <userString>#ussr_vehicles:Turret_1_R145_Object_705_A</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1680,7 +1680,7 @@
             <density>90.4002 104.802</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_M_51>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_M_51>
       </guns>
       <models>
         <undamaged>vehicles/russian/R145_Object_705_A/normal/lod0/Turret_01.model</undamaged>
@@ -2201,7 +2201,7 @@
   <radios>
     <_10RK-26>shared</_10RK-26>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2250,7 +2250,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

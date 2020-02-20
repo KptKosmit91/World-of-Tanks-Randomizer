@@ -1,11 +1,11 @@
 <S23_Strv_81_sabaton.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <radioman></radioman>
+    <commander />
+    <driver />
+    <gunner />
+    <loader />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -74,8 +74,8 @@
     <hangarShadowTexture>vehicles/sweden/S23_Strv_81_sabaton/Strv_81_sabaton_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -98,7 +98,7 @@
   <chassis>
     <Chassis_S23_Strv_81_sabaton>
       <userString>#sweden_vehicles:Chassis_S23_Strv_81_sabaton</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33000</price>
       <armor>
@@ -1158,8 +1158,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_S23_Strv_81_sabaton>
@@ -1167,7 +1167,7 @@
   <turrets0>
     <Turret_1_S23_Strv_81_sabaton>
       <userString>#sweden_vehicles:Turret_1_S23_Strv_81_sabaton</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -1242,8 +1242,8 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -1263,7 +1263,7 @@
             <density>118.369 127.633</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_84mm_kan_strv_81_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_84mm_kan_strv_81_1>
       </guns>
       <notInShop>true</notInShop>
       <models>
@@ -1281,8 +1281,8 @@
       <physicsShape>1.126 0.119 1.119 0.000 0.726 0.163 0.678 0.648 0.541 0.504 0.270 0.507 0.144 0.000 0.222</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1313,7 +1313,7 @@
   <radios>
     <Ra_400_1>shared</Ra_400_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <premiumVehicleXPFactor>0.1</premiumVehicleXPFactor>
   <physics>
     <detailed>
@@ -1363,7 +1363,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <gunner />
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -105,7 +105,7 @@
   <chassis>
     <Chassis_Pl06_10TP>
       <userString>#poland_vehicles:Chassis_Pl06_10TP</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <unlocks>
@@ -476,7 +476,7 @@
             <length>0.17499</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.64538</xStart>
@@ -610,7 +610,7 @@
                 <point>-0.782945 1.0385 2.70806</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -641,7 +641,7 @@
             <length>0.17366</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.63018</xStart>
@@ -775,14 +775,14 @@
                 <point>0.782975 1.04392 2.70156</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -802,7 +802,7 @@
     </Chassis_Pl06_10TP>
     <Chassis_Pl06_10TP_2>
       <userString>#poland_vehicles:Chassis_Pl06_10TP_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2050</price>
       <armor>
@@ -1169,7 +1169,7 @@
             <length>0.17499</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.64538</xStart>
@@ -1303,7 +1303,7 @@
                 <point>-0.782945 1.0385 2.70806</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1334,7 +1334,7 @@
             <length>0.17366</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.63018</xStart>
@@ -1468,14 +1468,14 @@
                 <point>0.782975 1.04392 2.70156</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1497,7 +1497,7 @@
   <turrets0>
     <Turret_1_Pl06_10TP>
       <userString>#poland_vehicles:Turret_1_Pl06_10TP</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <notInShop>true</notInShop>
@@ -1603,7 +1603,7 @@
             <density>119.755 120.434</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_Bofors_wz_37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Bofors_wz_37>
         <_47mm_kan_m_38_strv>shared  <maxAmmo>108</maxAmmo>
           <unlocks>
             <vehicle>Pl07_14TP  <cost>3250</cost>
@@ -1679,7 +1679,7 @@
             <density>118.719 121.141</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_kan_m_38_strv>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_kan_m_38_strv>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl06_10TP/normal/lod0/Turret_01.model</undamaged>
@@ -1783,7 +1783,7 @@
     </N2_M>
     <N2_S>shared</N2_S>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1871,7 +1871,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

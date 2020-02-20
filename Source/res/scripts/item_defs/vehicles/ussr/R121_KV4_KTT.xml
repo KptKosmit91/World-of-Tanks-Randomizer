@@ -1,12 +1,12 @@
 <R121_KV4_KTT.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -25,12 +25,12 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>200</armor_1>
@@ -1149,7 +1149,7 @@
   <chassis>
     <Chassis_R121_KV4_KTT>
       <userString>#ussr_vehicles:Chassis_R121_KV4_KTT</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1676,7 +1676,7 @@
             <length>0.153892</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.24705</xStart>
@@ -1890,7 +1890,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2024,7 +2024,7 @@
             <density>92.9736 138.824</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-24_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-24_A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R121_KV4_KTT/normal/lod0/Turret_01.model</undamaged>
@@ -2242,7 +2242,7 @@
     <armour>0.836514413</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

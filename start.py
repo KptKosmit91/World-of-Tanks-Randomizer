@@ -1,5 +1,5 @@
 import config as conf
-from shutil import rmtree
+from shutil import rmtree, copytree
 import os
 import fileMethods as fm
 import config as conf
@@ -13,6 +13,8 @@ if os.path.exists("Output/res/scripts"):
     rmtree("Output/res/scripts")
 if os.path.exists("Output/res/spaces"):
     rmtree("Output/res/spaces")
+if os.path.exists("Output/res/vehicles"):
+    rmtree("Output/res/vehicles")
 
 for f in conf.countryFolders:
     folder = conf.tanksPathOut+conf.countryFolders[f]
@@ -20,6 +22,8 @@ for f in conf.countryFolders:
 
 fm.createFolder(conf.mapsPathOut)
 fm.createFolder("Output/res/spaces")
+
+copytree("Source/res/vehicles", "Output/res/vehicles")
 
 printSetting("Chaos Mode Enabled", conf.chaosModeEnabled)
 printSetting("Randomize Tank Models", conf.RandomizeTankModels)

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1035,7 +1035,7 @@
   <chassis>
     <Chassis_F89_Canon_dassaut_de_105>
       <userString>#france_vehicles:Chassis_F89_Canon_dassaut_de_105</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1325,7 +1325,7 @@
             <length>0.14637</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.16299</xStart>
@@ -1482,7 +1482,7 @@
                 <point>-1.42968 1.10615 2.91138</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1509,7 +1509,7 @@
             <length>0.154583</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.14921</xStart>
@@ -1662,14 +1662,14 @@
                 <point>1.42963 1.05739 2.95686</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1828,7 +1828,7 @@
             <density>99.9617 114.52</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_105mm_CN_105>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_CN_105>
       </guns>
       <models>
         <undamaged>vehicles/french/F89_Canon_dassaut_de_105/normal/lod0/Turret_01.model</undamaged>
@@ -1845,8 +1845,8 @@
       <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_F89_Canon_dassaut_de_105>
@@ -1860,7 +1860,7 @@
   <radios>
     <SCR_528A>shared</SCR_528A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1909,7 +1909,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

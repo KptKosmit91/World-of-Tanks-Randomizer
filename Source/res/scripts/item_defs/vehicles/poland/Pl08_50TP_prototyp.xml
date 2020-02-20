@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1195,7 +1195,7 @@
   <chassis>
     <Chassis_Pl08_50TP_prototyp>
       <userString>#poland_vehicles:Chassis_Pl08_50TP_prototyp</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1517,7 +1517,7 @@
             <length>0.17974</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.80325</xStart>
@@ -1673,7 +1673,7 @@
                 <point>-1.5924 1.1228 3.47621</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1700,7 +1700,7 @@
             <length>0.17974</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.80325</xStart>
@@ -1856,14 +1856,14 @@
                 <point>1.2822 1.13818 3.47622</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1885,7 +1885,7 @@
   <turrets0>
     <Turret_1_Pl08_50TP_prototyp>
       <userString>#poland_vehicles:Turret_1_Pl08_50TP_prototyp</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2073,7 +2073,7 @@
             <density>134.437 134.949</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122_mm_wz_43_50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122_mm_wz_43_50>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl08_50TP_prototyp/normal/lod0/Turret_01.model</undamaged>
@@ -2386,7 +2386,7 @@
   <radios>
     <RTU_Jesion>shared</RTU_Jesion>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2435,7 +2435,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <G80_Pz_IV_AusfD.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <Chassis_Pz_IV_AusfD>
       <userString>#germany_vehicles:Chassis_Pz_IV_AusfD</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <unlocks>
@@ -1108,7 +1108,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1128,7 +1128,7 @@
     </Chassis_Pz_IV_AusfD>
     <Chassis_Pz_IV_AusfD_2>
       <userString>#germany_vehicles:Chassis_Pz_IV_AusfD_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4750</price>
       <armor>
@@ -2108,7 +2108,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2130,7 +2130,7 @@
   <turrets0>
     <Turret_1_Pz_IV_AusfD>
       <userString>#germany_vehicles:Turret_1_Pz_IV_AusfD</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2200</price>
       <armor>
@@ -2233,7 +2233,7 @@
             <density>82.0787 81.9473</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_38_L42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_38_L42>
         <_50mm_KwK_39_L60>shared  <maxAmmo>96</maxAmmo>
           <armor>
             <armor_1>10  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2293,7 +2293,7 @@
             <density>81.2705 80.734</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60>
         <_75mm_KwK_37_L24>shared  <maxAmmo>80</maxAmmo>
           <unlocks>
             <turret>Turret_2_Pz_IV_AusfD  <cost>1200</cost>
@@ -2357,7 +2357,7 @@
             <density>81.5755 81.5909</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_37_L24>
       </guns>
       <models>
         <undamaged>vehicles/german/G80_Pz_IV_AusfD/normal/lod0/Turret_01.model</undamaged>
@@ -2421,7 +2421,7 @@
     </Turret_1_Pz_IV_AusfD>
     <Turret_2_Pz_IV_AusfD>
       <userString>#germany_vehicles:Turret_2_Pz_IV_AusfD</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5150</price>
       <unlocks>
@@ -2526,7 +2526,7 @@
             <density>82.0787 81.9473</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_38_L42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_38_L42>
         <_50mm_KwK_39_L60>shared  <maxAmmo>96</maxAmmo>
           <armor>
             <armor_1>35  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2591,7 +2591,7 @@
             <density>81.2705 80.734</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60>
         <_75mm_KwK_37_L24>shared  <maxAmmo>80</maxAmmo>
           <armor>
             <armor_1>35  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2655,7 +2655,7 @@
             <density>81.5755 81.5909</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_37_L24>
         <_75mm_KwK_40_L43>shared  <maxAmmo>75</maxAmmo>
           <unlocks>
             <vehicle>G81_Pz_IV_AusfH  <cost>12800</cost>
@@ -2723,7 +2723,7 @@
             <density>88.6793 89.0059</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L43>
       </guns>
       <models>
         <undamaged>vehicles/german/G80_Pz_IV_AusfD/normal/lod0/Turret_02.model</undamaged>
@@ -2908,7 +2908,7 @@
     <armour>0.80569684</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

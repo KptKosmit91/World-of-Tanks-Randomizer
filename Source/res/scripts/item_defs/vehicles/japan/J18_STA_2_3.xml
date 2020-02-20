@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -777,7 +777,7 @@
   <chassis>
     <Chassis_STA_2_3>
       <userString>#japan_vehicles:Chassis_STA_2_3</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1057,7 +1057,7 @@
             <length>0.0811678</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.953</xStart>
@@ -1284,7 +1284,7 @@
                 <point>-1.10329 1.08498 3.01209</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1315,7 +1315,7 @@
             <length>0.0810881</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94247</xStart>
@@ -1539,14 +1539,14 @@
                 <point>1.14559 1.10844 2.99876</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1568,7 +1568,7 @@
   <turrets0>
     <Turret_1_STA_2_3>
       <userString>#japan_vehicles:Turret_1_STA_2_3</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1725,7 +1725,7 @@
             <density>106.941 103.953</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_90mm_Rifled_Gun_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Rifled_Gun_1>
       </guns>
       <models>
         <undamaged>vehicles/japan/J18_STA_2_3/normal/lod0/Turret_01.model</undamaged>
@@ -2283,7 +2283,7 @@
     <armour>0.753559261</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

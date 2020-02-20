@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>72</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -117,7 +117,7 @@ loader</commander>
   <chassis>
     <T16E2>
       <userString>#usa_vehicles:T16E2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <notInShop>true</notInShop>
@@ -740,7 +740,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -853,7 +853,7 @@ loader</commander>
             <density>156.955 158.589</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_Hispano_Suiza_Birgikt_gun_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Hispano_Suiza_Birgikt_gun_A>
       </guns>
       <models>
         <undamaged>vehicles/american/A19_T2_lt/normal/lod0/Turret_01.model</undamaged>
@@ -975,7 +975,7 @@ loader</commander>
     <armour>0.86506861</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

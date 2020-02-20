@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -126,7 +126,7 @@
   <chassis>
     <T-26>
       <userString>#ussr_vehicles:T-26</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>340</price>
       <unlocks>
@@ -1076,7 +1076,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1096,7 +1096,7 @@
     </T-26>
     <T-26M>
       <userString>#ussr_vehicles:T-26M</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>680</price>
       <armor>
@@ -2042,7 +2042,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2065,7 +2065,7 @@
     <T-26_cylindrical>
       <userString>#ussr_vehicles:T-26_cylindrical</userString>
       <shortUserString>#ussr_vehicles:T-26_cylindrical_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>670</price>
       <unlocks>
@@ -2161,7 +2161,7 @@
             <density>199.349 201.326</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_B-3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_B-3>
         <_45mm_20K>shared  <maxAmmo>136</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2229,7 +2229,7 @@
             <density>198.043 201.447</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_37mm_ZiS-19>shared  <maxAmmo>140</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2291,7 +2291,7 @@
             <density>190.242 199.568</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_ZiS-19>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_ZiS-19>
       </guns>
       <models>
         <undamaged>vehicles/russian/R09_T-26/normal/lod0/Turret_01.model</undamaged>
@@ -2356,7 +2356,7 @@
     <T-26_conic>
       <userString>#ussr_vehicles:T-26_conic</userString>
       <shortUserString>#ussr_vehicles:T-26_conic_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1440</price>
       <armor>
@@ -2450,7 +2450,7 @@
             <density>199.349 201.326</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_B-3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_B-3>
         <_45mm_20K>shared  <maxAmmo>136</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.14</turretRotation>
@@ -2517,7 +2517,7 @@
             <density>198.043 201.447</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_37mm_ZiS-19>shared  <maxAmmo>140</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.14</turretRotation>
@@ -2584,7 +2584,7 @@
             <density>190.242 199.568</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_ZiS-19>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_ZiS-19>
       </guns>
       <models>
         <undamaged>vehicles/russian/R09_T-26/normal/lod0/Turret_02.model</undamaged>
@@ -2749,7 +2749,7 @@
     <armour>0.815993472</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

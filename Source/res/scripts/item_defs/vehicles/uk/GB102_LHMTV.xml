@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -316,7 +316,7 @@ loader</commander>
   <chassis>
     <Chassis_GB102_LHMTV_Mk1>
       <userString>#gb_vehicles:Chassis_GB102_LHMTV_Mk1</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17000</price>
       <unlocks>
@@ -1060,7 +1060,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1080,7 +1080,7 @@ loader</commander>
     </Chassis_GB102_LHMTV_Mk1>
     <Chassis_GB102_LHMTV_Mk2>
       <userString>#gb_vehicles:Chassis_GB102_LHMTV_Mk2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31600</price>
       <armor>
@@ -1820,7 +1820,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1842,7 +1842,7 @@ loader</commander>
   <turrets0>
     <Turret_1_GB102_LHMTV>
       <userString>#gb_vehicles:Turret_1_GB102_LHMTV</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <unlocks>
@@ -2078,7 +2078,7 @@ loader</commander>
             <density>106.09 108.407</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_HV_L40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_HV_L40>
       </guns>
       <models>
         <undamaged>vehicles/british/GB102_LHMTV/normal/lod0/Turret_01.model</undamaged>
@@ -2161,7 +2161,7 @@ loader</commander>
     </Turret_1_GB102_LHMTV>
     <Turret_2_GB102_LHMTV>
       <userString>#gb_vehicles:Turret_2_GB102_LHMTV</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31300</price>
       <unlocks>
@@ -2398,7 +2398,7 @@ loader</commander>
             <density>106.09 108.407</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_HV_L40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_HV_L40>
         <_85mm_HV_L40>shared  <maxAmmo>25</maxAmmo>
           <unlocks>
             <vehicle>GB103_GSOR3301_AVR_FS  <cost>164900</cost>
@@ -2609,7 +2609,7 @@ loader</commander>
             <density>104.052 104.622</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_HV_L40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_HV_L40>
       </guns>
       <models>
         <undamaged>vehicles/british/GB102_LHMTV/normal/lod0/Turret_02.model</undamaged>
@@ -2710,7 +2710,7 @@ loader</commander>
     </C13_B47>
     <N22_LT>shared</N22_LT>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2798,7 +2798,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

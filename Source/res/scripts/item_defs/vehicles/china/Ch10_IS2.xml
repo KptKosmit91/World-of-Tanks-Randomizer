@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>37</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -112,7 +112,7 @@
   <chassis>
     <Chassis_Ch10_IS2>
       <userString>#china_vehicles:Chassis_Ch10_IS2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12990</price>
       <unlocks>
@@ -875,7 +875,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -895,7 +895,7 @@
     </Chassis_Ch10_IS2>
     <Chassis_Ch10_IS2_2>
       <userString>#china_vehicles:Chassis_Ch10_IS2_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19400</price>
       <armor>
@@ -1654,7 +1654,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1676,7 +1676,7 @@
   <turrets0>
     <Turret_1_Ch10_IS2>
       <userString>#china_vehicles:Turret_1_Ch10_IS2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <armor>
@@ -1786,7 +1786,7 @@
             <density>147.339 165.369</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_44-100JT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_44-100JT>
         <_122-mm_37-122JT>shared  <maxAmmo>28</maxAmmo>
           <unlocks>
             <vehicle>Ch11_110  <cost>85000</cost>
@@ -1865,7 +1865,7 @@
             <density>145.938 170.814</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_37-122JT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_37-122JT>
         <_122-mm_D25-T>shared  <maxAmmo>28</maxAmmo>
           <unlocks>
             <turret>Turret_2_Ch10_IS2  <cost>12500</cost>
@@ -1943,7 +1943,7 @@
             <density>146.379 164.731</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D25-T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D25-T>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch10_IS2/normal/lod0/Turret_01.model</undamaged>
@@ -2026,7 +2026,7 @@
     </Turret_1_Ch10_IS2>
     <Turret_2_Ch10_IS2>
       <userString>#china_vehicles:Turret_2_Ch10_IS2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>25000</price>
       <armor>
@@ -2133,7 +2133,7 @@
             <density>147.339 165.369</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_44-100JT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_44-100JT>
         <_122-mm_37-122JT>shared  <maxAmmo>28</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2207,7 +2207,7 @@
             <density>145.938 170.814</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_37-122JT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_37-122JT>
         <_122-mm_D25-T>shared  <maxAmmo>28</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2280,7 +2280,7 @@
             <density>146.379 164.731</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D25-T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D25-T>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch10_IS2/normal/lod0/Turret_02.model</undamaged>
@@ -2491,7 +2491,7 @@
     <armour>1.205730943</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

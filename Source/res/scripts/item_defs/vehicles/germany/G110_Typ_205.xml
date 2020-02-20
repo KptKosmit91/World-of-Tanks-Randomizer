@@ -1,12 +1,12 @@
 <G110_Typ_205.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -131,7 +131,7 @@
   <chassis>
     <Chassis_G110_Typ_205>
       <userString>#germany_vehicles:Chassis_G110_Typ_205</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <unlocks>
@@ -886,7 +886,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -906,7 +906,7 @@
     </Chassis_G110_Typ_205>
     <Chassis_G110_Typ_205_2>
       <userString>#germany_vehicles:Chassis_G110_Typ_205_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>65500</price>
       <armor>
@@ -1657,7 +1657,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1679,7 +1679,7 @@
   <turrets0>
     <Turret_1_G110_Typ_205>
       <userString>#germany_vehicles:Turret_1_G110_Typ_205</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>55000</price>
       <notInShop>true</notInShop>
@@ -1800,7 +1800,7 @@
             <density>105.915 105.973</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_L50A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_L50A>
         <_128mm_KwK44_L55>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <vehicle>G42_Maus  <cost>219660</cost>
@@ -1885,7 +1885,7 @@
             <density>103.619 106.913</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_KwK44_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_KwK44_L55>
       </guns>
       <models>
         <undamaged>vehicles/german/G110_Typ_205/normal/lod0/Turret_01.model</undamaged>
@@ -2097,7 +2097,7 @@
     </engines>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

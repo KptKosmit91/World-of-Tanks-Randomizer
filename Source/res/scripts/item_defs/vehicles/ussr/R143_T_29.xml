@@ -1,11 +1,11 @@
 <R143_T_29.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
+    <commander />
+    <driver />
     <gunner>loader</gunner>
-    <radioman></radioman>
-    <radioman></radioman>
+    <radioman />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>44.6</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1.4 1.4 0.000000 1.1</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -127,7 +127,7 @@
   <chassis>
     <Chassis_R143_T_29>
       <userString>#ussr_vehicles:Chassis_R143_T_29</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <notInShop>true</notInShop>
@@ -388,7 +388,7 @@
             <length>0.148279</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.2808</xStart>
@@ -549,7 +549,7 @@
                 <point>-1.3208 1.16266 3.24351</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -576,7 +576,7 @@
             <length>0.148294</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.28051</xStart>
@@ -737,14 +737,14 @@
                 <point>1.43495 1.15705 3.24444</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -766,7 +766,7 @@
   <turrets0>
     <Turret_1_R143_T_29>
       <userString>#ussr_vehicles:Turret_1_R143_T_29</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <notInShop>true</notInShop>
@@ -865,7 +865,7 @@
             <density>217.166 229.002</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_L-10A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_L-10A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R143_T_29/normal/lod0/Turret_01.model</undamaged>
@@ -937,7 +937,7 @@
   <radios>
     <_71-TK-3A>shared</_71-TK-3A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -986,7 +986,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

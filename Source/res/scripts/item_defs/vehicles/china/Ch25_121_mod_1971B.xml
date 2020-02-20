@@ -1,9 +1,9 @@
 <Ch25_121_mod_1971B.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -655,7 +655,7 @@
   <chassis>
     <Chassis_Ch25_121_mod_1971B>
       <userString>#china_vehicles:Chassis_Ch25_121_mod_1971B</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1182,7 +1182,7 @@
             <length>0.140393</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.10073</xStart>
@@ -1356,7 +1356,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1378,7 +1378,7 @@
   <turrets0>
     <Turret_1_Ch25_121_mod_1971B>
       <userString>#china_vehicles:Turret_1_Ch25_121_mod_1971B</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1523,7 +1523,7 @@
             <density>131.397 137.072</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_L7C>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_L7C>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch25_121_mod_1971B/normal/lod0/Turret_01.model</undamaged>
@@ -2172,7 +2172,7 @@
     <armour>0.988786572</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

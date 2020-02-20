@@ -1,11 +1,11 @@
 <A23_M7_med.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@
   <chassis>
     <VVSS_T48>
       <userString>#usa_vehicles:VVSS_T48</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4450</price>
       <unlocks>
@@ -1032,7 +1032,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1052,7 +1052,7 @@
     </VVSS_T48>
     <VVSS_T48A>
       <userString>#usa_vehicles:VVSS_T48A</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <armor>
@@ -1957,7 +1957,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1979,7 +1979,7 @@
   <turrets0>
     <M47>
       <userString>#usa_vehicles:M47</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>11500</price>
       <armor>
@@ -2095,7 +2095,7 @@
             <density>125.546 123.653</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M2_L28L>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M2_L28L>
         <QF_6_pounder_Mk_III>shared  <maxAmmo>155</maxAmmo>
           <pitchLimits>
             <minPitch>0 -18 1 -18</minPitch>
@@ -2175,7 +2175,7 @@
             <density>123.443 127.228</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_III>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_III>
         <_75mm_Gun_M3_L37L>shared  <maxAmmo>71</maxAmmo>
           <pitchLimits>
             <minPitch>0 -18 1 -18</minPitch>
@@ -2259,7 +2259,7 @@
             <density>125.084 124.676</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37L>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37L>
       </guns>
       <models>
         <undamaged>vehicles/american/A23_M7_med/normal/lod0/Turret_02.model</undamaged>
@@ -2441,7 +2441,7 @@
     <armour>0.865584893</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

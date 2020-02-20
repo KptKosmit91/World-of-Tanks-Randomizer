@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -22,10 +22,10 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
-    <variants></variants>
+    <variants />
     <armor>
       <armor_1>120</armor_1>
       <armor_2>80</armor_2>
@@ -117,7 +117,7 @@
   <chassis>
     <Chassis_Pl05_50TP_Tyszkiewicza>
       <userString>#poland_vehicles:Chassis_Pl05_50TP_Tyszkiewicza</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <unlocks>
@@ -393,7 +393,7 @@
             <length>0.180473</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.40479</xStart>
@@ -552,7 +552,7 @@
                 <point>-1.43502 1.30616 3.45319</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -579,7 +579,7 @@
             <length>0.180473</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.40479</xStart>
@@ -738,14 +738,14 @@
                 <point>1.50503 1.27528 3.45319</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -765,7 +765,7 @@
     </Chassis_Pl05_50TP_Tyszkiewicza>
     <Chassis_Pl05_50TP_Tyszkiewicza_2>
       <userString>#poland_vehicles:Chassis_Pl05_50TP_Tyszkiewicza_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>63700</price>
       <armor>
@@ -1037,7 +1037,7 @@
             <length>0.180473</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.40479</xStart>
@@ -1196,7 +1196,7 @@
                 <point>-1.43502 1.30616 3.45319</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1223,7 +1223,7 @@
             <length>0.180473</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.40479</xStart>
@@ -1382,14 +1382,14 @@
                 <point>1.50503 1.27528 3.45319</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1411,7 +1411,7 @@
   <turrets0>
     <Turret_1_Pl05_50TP_Tyszkiewicza>
       <userString>#poland_vehicles:Turret_1_Pl05_50TP_Tyszkiewicza</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32500</price>
       <unlocks>
@@ -1579,7 +1579,7 @@
             <density>100.723 103.709</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_wz_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_wz_53>
         <_130mm_R_14_wz_56>shared  <maxAmmo>30</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1703,7 +1703,7 @@
             <density>103.913 120.941</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_130mm_R_14_wz_56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_R_14_wz_56>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl05_50TP_Tyszkiewicza/normal/lod0/Turret_01.model</undamaged>
@@ -1786,7 +1786,7 @@
     </Turret_1_Pl05_50TP_Tyszkiewicza>
     <Turret_2_Pl05_50TP_Tyszkiewicza>
       <userString>#poland_vehicles:Turret_2_Pl05_50TP_Tyszkiewicza</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>59100</price>
       <unlocks>
@@ -1945,7 +1945,7 @@
             <density>100.723 103.709</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_wz_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_wz_53>
         <_130mm_R_14_wz_56>shared  <maxAmmo>30</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2063,7 +2063,7 @@
             <density>103.913 120.941</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_130mm_R_14_wz_56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_R_14_wz_56>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl05_50TP_Tyszkiewicza/normal/lod0/Turret_02.model</undamaged>
@@ -2251,9 +2251,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

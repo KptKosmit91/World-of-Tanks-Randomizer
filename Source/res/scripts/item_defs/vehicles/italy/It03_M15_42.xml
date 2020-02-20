@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -115,7 +115,7 @@
   <chassis>
     <Chassis_It03_M15_42>
       <userString>#italy_vehicles:Chassis_It03_M15_42</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>700</price>
       <unlocks>
@@ -915,7 +915,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -935,7 +935,7 @@
     </Chassis_It03_M15_42>
     <Chassis_It03_M15_42_2>
       <userString>#italy_vehicles:Chassis_It03_M15_42_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2050</price>
       <armor>
@@ -1731,7 +1731,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1753,7 +1753,7 @@
   <turrets0>
     <Turret_1_It03_M15_42>
       <userString>#italy_vehicles:Turret_1_It03_M15_42</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>900</price>
       <armor>
@@ -1839,7 +1839,7 @@
             <density>163.043 161.989</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_47_32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_47_32>
         <Cannone_da_47_40>shared  <maxAmmo>111</maxAmmo>
           <unlocks>
             <turret>Turret_2_It03_M15_42  <cost>350</cost>
@@ -1898,7 +1898,7 @@
             <density>179.478 178.568</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_47_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_47_40>
       </guns>
       <models>
         <undamaged>vehicles/italy/It03_M15_42/normal/lod0/Turret_01.model</undamaged>
@@ -1972,7 +1972,7 @@
     </Turret_1_It03_M15_42>
     <Turret_2_It03_M15_42>
       <userString>#italy_vehicles:Turret_2_It03_M15_42</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2100</price>
       <unlocks>
@@ -2058,7 +2058,7 @@
             <density>163.043 161.989</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_47_32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_47_32>
         <Cannone_da_47_40>shared  <maxAmmo>111</maxAmmo>
           <armor>
             <gun>10</gun>
@@ -2113,7 +2113,7 @@
             <density>179.478 178.568</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_47_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_47_40>
       </guns>
       <models>
         <undamaged>vehicles/italy/It03_M15_42/normal/lod0/Turret_02.model</undamaged>
@@ -2205,7 +2205,7 @@
     </R_F_1_C_A>
     <R_F_2_C_A>shared</R_F_2_C_A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2293,7 +2293,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

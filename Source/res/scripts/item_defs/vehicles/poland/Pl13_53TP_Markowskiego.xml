@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -298,7 +298,7 @@
   <chassis>
     <Chassis_Pl13_53TP_Markowskiego>
       <userString>#poland_vehicles:Chassis_Pl13_53TP_Markowskiego</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19000</price>
       <unlocks>
@@ -1264,7 +1264,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1284,7 +1284,7 @@
     </Chassis_Pl13_53TP_Markowskiego>
     <Chassis_Pl13_53TP_Markowskiego_2>
       <userString>#poland_vehicles:Chassis_Pl13_53TP_Markowskiego_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>34800</price>
       <armor>
@@ -2246,7 +2246,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2268,7 +2268,7 @@
   <turrets0>
     <Turret_1_Pl13_53TP_Markowskiego>
       <userString>#poland_vehicles:Turret_1_Pl13_53TP_Markowskiego</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <unlocks>
@@ -2402,7 +2402,7 @@
             <density>98.2242 102.283</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Bofors_wz_34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Bofors_wz_34>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl13_53TP_Markowskiego/normal/lod0/Turret_01.model</undamaged>
@@ -2628,7 +2628,7 @@
     </Turret_1_Pl13_53TP_Markowskiego>
     <Turret_2_Pl13_53TP_Markowskiego>
       <userString>#poland_vehicles:Turret_2_Pl13_53TP_Markowskiego</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>41000</price>
       <unlocks>
@@ -2785,7 +2785,7 @@
             <density>98.2242 102.283</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Bofors_wz_34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Bofors_wz_34>
         <_122mm_D_25T_P>shared  <maxAmmo>40</maxAmmo>
           <unlocks>
             <gun>_122mm_wz_53  <cost>46000</cost>
@@ -2904,7 +2904,7 @@
             <density>100.607 100.43</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_D_25T_P>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D_25T_P>
         <_122mm_wz_53>shared  <maxAmmo>34</maxAmmo>
           <unlocks>
             <vehicle>Pl05_50TP_Tyszkiewicza  <cost>106700</cost>
@@ -3023,7 +3023,7 @@
             <density>93.9969 104.698</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_wz_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_wz_53>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl13_53TP_Markowskiego/normal/lod0/Turret_02.model</undamaged>
@@ -3254,7 +3254,7 @@
     </RTU_Jesion_M>
     <R_113_P>shared</R_113_P>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -3342,7 +3342,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

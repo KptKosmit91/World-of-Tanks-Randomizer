@@ -3,7 +3,7 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <driver></driver>
+    <driver />
     <radioman>loader</radioman>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -134,7 +134,7 @@ loader</commander>
   <chassis>
     <Chassis_Somua_S35>
       <userString>#france_vehicles:Chassis_Somua_S35</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <unlocks>
@@ -1022,7 +1022,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1042,7 +1042,7 @@ loader</commander>
     </Chassis_Somua_S35>
     <Chassis_Somua_S35_2>
       <userString>#france_vehicles:Chassis_Somua_S35_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1900</price>
       <armor>
@@ -1926,7 +1926,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1948,7 +1948,7 @@ loader</commander>
   <turrets0>
     <Turret_1_Somua_S35>
       <userString>#france_vehicles:Turret_1_Somua_S35</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <armor>
@@ -2053,7 +2053,7 @@ loader</commander>
             <density>133.589 132.475</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34>
         <_47mm_SA35>shared  <maxAmmo>118</maxAmmo>
           <unlocks>
             <turret>Turret_2_Somua_S35  <cost>350</cost>
@@ -2126,7 +2126,7 @@ loader</commander>
             <density>134.221 141.093</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
       </guns>
       <models>
         <undamaged>vehicles/french/F44_Somua_S35/normal/lod0/Turret_01.model</undamaged>
@@ -2200,7 +2200,7 @@ loader</commander>
     </Turret_1_Somua_S35>
     <Turret_2_Somua_S35>
       <userString>#france_vehicles:Turret_2_Somua_S35</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1850</price>
       <unlocks>
@@ -2315,7 +2315,7 @@ loader</commander>
             <density>133.589 132.475</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34>
         <_47mm_SA35>shared  <maxAmmo>118</maxAmmo>
           <armor>
             <armor_4>0  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2386,7 +2386,7 @@ loader</commander>
             <density>134.221 141.093</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
         <_47mm_SA37>shared  <maxAmmo>69</maxAmmo>
           <armor>
             <armor_4>0  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2459,7 +2459,7 @@ loader</commander>
             <density>130.564 146.351</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA37>
       </guns>
       <models>
         <undamaged>vehicles/french/F44_Somua_S35/normal/lod0/Turret_02.model</undamaged>
@@ -2658,7 +2658,7 @@ loader</commander>
     <armour>0.861312906</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

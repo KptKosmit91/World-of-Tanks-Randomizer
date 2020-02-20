@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -159,7 +159,7 @@
   <chassis>
     <Chassis_S10_Strv_103_0_Series>
       <userString>#sweden_vehicles:Chassis_S10_Strv_103_0_Series</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <unlocks>
@@ -390,7 +390,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -410,7 +410,7 @@
     </Chassis_S10_Strv_103_0_Series>
     <Chassis_S10_Strv_103_0_Series_2>
       <userString>#sweden_vehicles:Chassis_S10_Strv_103_0_Series_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>67500</price>
       <armor>
@@ -637,7 +637,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -753,7 +753,7 @@
             <density>124.837 123.661</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_kan_strv_103_L_51>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_kan_strv_103_L_51>
         <_105mm_kan_strv_103_L_62>
           <maxAmmo>50</maxAmmo>
           <unlocks>
@@ -825,7 +825,7 @@
             <density>119.827 129.717</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_kan_strv_103_L_62>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_kan_strv_103_L_62>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S10_Strv_103_0_Series/normal/lod0/Turret_01.model</undamaged>
@@ -842,8 +842,8 @@
       <physicsShape>1.100 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_S10_Strv_103_0_Series>
@@ -977,7 +977,7 @@
   <isRotationStill>True</isRotationStill>
   <useHullZSize>True</useHullZSize>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

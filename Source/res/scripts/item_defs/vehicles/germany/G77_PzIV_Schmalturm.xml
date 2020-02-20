@@ -1,11 +1,11 @@
 <G77_PzIV_Schmalturm.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@
   <chassis>
     <PzIV_ausf43>
       <userString>#germany_vehicles:PzIV_ausf43</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>7910</price>
       <notInShop>true</notInShop>
@@ -880,7 +880,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -902,7 +902,7 @@
   <turrets0>
     <PzIV_Schmalturm_A>
       <userString>#germany_vehicles:PzIV_Schmalturm_A</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13240</price>
       <notInShop>true</notInShop>
@@ -1014,7 +1014,7 @@
             <density>91.0333 89.9131</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_441_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_441_A>
       </guns>
       <models>
         <undamaged>vehicles/german/G77_PzIV_Schmalturm/normal/lod0/Turret_01.model</undamaged>
@@ -1156,7 +1156,7 @@
     <armour>0.880048072</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

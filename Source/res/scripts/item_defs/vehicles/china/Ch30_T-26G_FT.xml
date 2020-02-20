@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>36</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -149,7 +149,7 @@
   <chassis>
     <Chassis_Ch30_T-26G_FT>
       <userString>#china_vehicles:Chassis_Ch30_T-26G_FT</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>270</price>
       <armor>
@@ -1087,7 +1087,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1107,7 +1107,7 @@
     </Chassis_Ch30_T-26G_FT>
     <Chassis_Ch30_T-26G_FT_2>
       <userString>#china_vehicles:Chassis_Ch30_T-26G_FT_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>610</price>
       <armor>
@@ -2011,7 +2011,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2126,7 +2126,7 @@
             <density>170.047 169.555</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_Pak>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Pak>
         <_47mm_Gun_Type_1G_FT>shared  <maxAmmo>80</maxAmmo>
           <unlocks>
             <vehicle>Ch31_M3G_FT  <cost>1060</cost>
@@ -2198,7 +2198,7 @@
             <density>163.118 166.818</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_Gun_Type_1G_FT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_Gun_Type_1G_FT>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch30_T-26G_FT/normal/lod0/Turret_01.model</undamaged>
@@ -2254,7 +2254,7 @@
   <radios>
     <_71-TK-3>shared</_71-TK-3>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2342,7 +2342,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

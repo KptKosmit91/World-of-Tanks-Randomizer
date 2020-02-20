@@ -1,11 +1,11 @@
 <G92_VK7201.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>33</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -752,7 +752,7 @@
   <chassis>
     <Chassis_VK7201>
       <userString>#germany_vehicles:Chassis_VK7201</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1116,7 +1116,7 @@
             <length>0.143</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.50449</xStart>
@@ -1288,7 +1288,7 @@
                 <point>-1.56885 1.27923 3.2879</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1319,7 +1319,7 @@
             <length>0.143</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.50449</xStart>
@@ -1491,14 +1491,14 @@
                 <point>1.56885 1.26493 3.28791</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1520,7 +1520,7 @@
   <turrets0>
     <Turret_VK7201>
       <userString>#germany_vehicles:Turret_VK7201</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1637,7 +1637,7 @@
             <density>103.07 106.763</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_150mm_KwK44_L38_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_KwK44_L38_A>
       </guns>
       <models>
         <undamaged>vehicles/german/G92_VK7201/normal/lod0/Turret_01.model</undamaged>
@@ -2091,7 +2091,7 @@
     <armour>1.181587686</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

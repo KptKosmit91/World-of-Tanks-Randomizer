@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -878,7 +878,7 @@ loader</commander>
   <chassis>
     <Chassis_R158_LT_432>
       <userString>#ussr_vehicles:Chassis_R158_LT_432</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30600</price>
       <notInShop>true</notInShop>
@@ -1733,7 +1733,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1755,7 +1755,7 @@ loader</commander>
   <turrets0>
     <Turret_1_R158_LT_432>
       <userString>#ussr_vehicles:Turret_1_R158_LT_432</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1879,7 +1879,7 @@ loader</commander>
             <density>116.117 116.043</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_D_58>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D_58>
       </guns>
       <models>
         <undamaged>vehicles/russian/R158_LT_432/normal/lod0/Turret_01.model</undamaged>
@@ -2490,7 +2490,7 @@ loader</commander>
   <radios>
     <R123>shared</R123>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2539,7 +2539,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

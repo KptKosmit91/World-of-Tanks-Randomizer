@@ -1,12 +1,12 @@
 <G138_VK168_02.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <radioman></radioman>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <driver />
+    <radioman />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -936,7 +936,7 @@
   <chassis>
     <Chassis_G138_VK168_02>
       <userString>#germany_vehicles:Chassis_G138_VK168_02</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1886,7 +1886,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1908,7 +1908,7 @@
   <turrets0>
     <Turret_1_G138_VK168_02>
       <userString>#germany_vehicles:Turret_1_G138_VK168_02</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2052,7 +2052,7 @@
             <density>121.734 122.574</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_128mm_L50P>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_L50P>
       </guns>
       <models>
         <undamaged>vehicles/german/G138_VK168_02/normal/lod0/Turret_01.model</undamaged>
@@ -2536,7 +2536,7 @@
   <radios>
     <FuG12A>shared</FuG12A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2585,7 +2585,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,8 +3,8 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <gunner></gunner>
-    <driver></driver>
+    <gunner />
+    <driver />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -76,7 +76,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/japan/J04_Ke_Ni/Ke_Ni_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -111,7 +111,7 @@ loader</commander>
   <chassis>
     <Chassis_Ke_Ni_bootcamp>
       <userString>#japan_vehicles:Chassis_Ke_Ni</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>800</price>
       <notInShop>true</notInShop>
@@ -372,7 +372,7 @@ loader</commander>
             <length>0.079676</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.05302</xStart>
@@ -549,7 +549,7 @@ loader</commander>
                 <point>-0.931893 0.971956 1.8911</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -576,7 +576,7 @@ loader</commander>
             <length>0.0797184</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.0514</xStart>
@@ -753,14 +753,14 @@ loader</commander>
                 <point>0.931998 0.970023 1.89479</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Ke_Ni_bootcamp>
@@ -768,7 +768,7 @@ loader</commander>
   <turrets0>
     <Turret_1_Ke_Ni_bootcamp>
       <userString>#japan_vehicles:Turret_1_Ke_Ni</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>1000</price>
       <notInShop>true</notInShop>
@@ -833,7 +833,7 @@ loader</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -842,7 +842,7 @@ loader</commander>
             <density>189.173 185.82</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_Type_100_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Type_100_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/japan/J04_Ke_Ni/normal/lod0/Turret_01.model</undamaged>
@@ -859,7 +859,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -962,7 +962,7 @@ loader</commander>
     <armour>0.669919184</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

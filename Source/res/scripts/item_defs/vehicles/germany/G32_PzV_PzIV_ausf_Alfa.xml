@@ -1,11 +1,11 @@
 <G32_PzV_PzIV_ausf_Alfa.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@
   <chassis>
     <PzV-IVketten_ausfA>
       <userString>#germany_vehicles:PzV-IVketten</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>12930</price>
       <notInShop>true</notInShop>
@@ -492,7 +492,7 @@
             <length>0.166602</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98381</xStart>
@@ -645,7 +645,7 @@
                 <point>-1.47902 1.37471 3.01388</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -672,7 +672,7 @@
             <length>0.166589</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98406</xStart>
@@ -825,14 +825,14 @@
                 <point>1.34904 1.39206 3.01316</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -854,7 +854,7 @@
   <turrets0>
     <PzIVturm_Ausf_Alfa>
       <userString>#germany_vehicles:PzIVturm</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>2640</price>
       <notInShop>true</notInShop>
@@ -969,7 +969,7 @@
             <density>125.244 124.409</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48A>
       </guns>
       <models>
         <undamaged>vehicles/german/G32_PzV_PzIV_Alpha/normal/lod0/Turret_01.model</undamaged>
@@ -1091,7 +1091,7 @@
     <armour>1.137880682</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

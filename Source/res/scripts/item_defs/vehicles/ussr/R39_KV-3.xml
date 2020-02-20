@@ -1,12 +1,12 @@
 <R39_KV-3.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>32</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -112,7 +112,7 @@
   <chassis>
     <KV-3>
       <userString>#ussr_vehicles:KV-3</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>10720</price>
       <unlocks>
@@ -394,7 +394,7 @@
             <length>0.16114</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.81788</xStart>
@@ -592,7 +592,7 @@
             <length>0.161123</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.81822</xStart>
@@ -770,7 +770,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -790,7 +790,7 @@
     </KV-3>
     <KV-3bis>
       <userString>#ussr_vehicles:KV-3bis</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18200</price>
       <armor>
@@ -1068,7 +1068,7 @@
             <length>0.16114</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.81788</xStart>
@@ -1266,7 +1266,7 @@
             <length>0.161123</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.81822</xStart>
@@ -1444,7 +1444,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1466,7 +1466,7 @@
   <turrets0>
     <KV-220_mod>
       <userString>#ussr_vehicles:KV-220_mod</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>10630</price>
       <armor>
@@ -1575,7 +1575,7 @@
             <density>99.91 99.6552</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_F-30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_F-30>
         <_107mm_ZiS-6>shared  <unlocks>
             <turret>KV-3  <cost>7120</cost>
             </turret>
@@ -1655,7 +1655,7 @@
             <density>114.214 103.421</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-6>
         <_85mm_S-31>shared  <reloadTime>5.1</reloadTime>
           <maxAmmo>91</maxAmmo>
           <pitchLimits>
@@ -1728,7 +1728,7 @@
             <density>97.7423 99.3736</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_S-31>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_S-31>
       </guns>
       <models>
         <undamaged>vehicles/russian/R39_KV-3/normal/lod0/Turret_01.model</undamaged>
@@ -1812,7 +1812,7 @@
     </KV-220_mod>
     <KV-3>
       <userString>#ussr_vehicles:KV-3</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21930</price>
       <unlocks>
@@ -1926,7 +1926,7 @@
             <density>99.91 99.6552</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_F-30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_F-30>
         <_100mm_D10T>shared  <maxAmmo>47</maxAmmo>
           <unlocks>
             <vehicle>R170_IS_2_II  <cost>51300</cost>
@@ -2004,7 +2004,7 @@
             <density>92.3424 113.315</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D10T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D10T>
         <_107mm_ZiS-6>shared  <maxAmmo>55</maxAmmo>
           <pitchLimits>
             <minPitch>0 -24 1 -24</minPitch>
@@ -2078,7 +2078,7 @@
             <density>114.214 103.421</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-6>
         <_85mm_S-31>shared  <reloadTime>5.1</reloadTime>
           <maxAmmo>79</maxAmmo>
           <pitchLimits>
@@ -2151,7 +2151,7 @@
             <density>97.7423 99.3736</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_S-31>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_S-31>
         <_122-mm_D-25T_with_a_piston_shutter>shared  <maxAmmo>38</maxAmmo>
           <pitchLimits>
             <minPitch>0 -24 1 -24</minPitch>
@@ -2228,7 +2228,7 @@
             <density>96.4103 96.1779</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_a_piston_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_a_piston_shutter>
         <_122-mm_D-25T_with_wedges_shutter>shared  <maxAmmo>38</maxAmmo>
           <pitchLimits>
             <minPitch>0 -24 1 -24</minPitch>
@@ -2301,7 +2301,7 @@
             <density>96.4144 96.1799</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_wedges_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter>
       </guns>
       <models>
         <undamaged>vehicles/russian/R39_KV-3/normal/lod0/Turret_02.model</undamaged>
@@ -2510,7 +2510,7 @@
     <armour>1.124254562</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

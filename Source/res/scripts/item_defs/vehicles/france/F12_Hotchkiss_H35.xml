@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>27</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -119,7 +119,7 @@ loader</commander>
   <chassis>
     <Chassis_Hotchkiss_H35>
       <userString>#france_vehicles:Chassis_Hotchkiss_H35</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>250</price>
       <unlocks>
@@ -969,7 +969,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -989,7 +989,7 @@ loader</commander>
     </Chassis_Hotchkiss_H35>
     <Chassis_Hotchkiss_H35_2>
       <userString>#france_vehicles:Chassis_Hotchkiss_H35_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>560</price>
       <armor>
@@ -1835,7 +1835,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1857,7 +1857,7 @@ loader</commander>
   <turrets0>
     <Turret_1_Hotchkiss_H35>
       <userString>#france_vehicles:Turret_1_Hotchkiss_H35</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>450</price>
       <notInShop>true</notInShop>
@@ -1958,7 +1958,7 @@ loader</commander>
             <density>170.817 179.009</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_APX_SA18>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_APX_SA18>
         <_25mm_Canon_Raccourci_Mle.1934>shared  <maxAmmo>160</maxAmmo>
           <pitchLimits>
             <minPitch>0 -16 1 -16</minPitch>
@@ -2016,7 +2016,7 @@ loader</commander>
             <density>179.465 181.903</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_25mm_Canon_Raccourci_Mle.1934>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_Canon_Raccourci_Mle.1934>
         <_37mm_SA38>shared  <maxAmmo>100</maxAmmo>
           <pitchLimits>
             <minPitch>0 -13 1 -13</minPitch>
@@ -2079,7 +2079,7 @@ loader</commander>
             <density>180.512 178.232</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_SA38>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_SA38>
       </guns>
       <models>
         <undamaged>vehicles/french/F12_Hotchkiss_H35/normal/lod0/Turret_01.model</undamaged>
@@ -2244,7 +2244,7 @@ loader</commander>
     <armour>0.99358596</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

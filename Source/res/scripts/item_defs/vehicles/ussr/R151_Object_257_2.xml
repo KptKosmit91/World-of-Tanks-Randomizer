@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_R151_Object_257_2>
       <userString>#ussr_vehicles:Chassis_R151_Object_257_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>29500</price>
       <unlocks>
@@ -942,7 +942,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -962,7 +962,7 @@
     </Chassis_R151_Object_257_2>
     <Chassis_R151_Object_257_2_2>
       <userString>#ussr_vehicles:Chassis_R151_Object_257_2_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62500</price>
       <armor>
@@ -1793,7 +1793,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1815,7 +1815,7 @@
   <turrets0>
     <Turret_1_R151_Object_257_2>
       <userString>#ussr_vehicles:Turret_1_R151_Object_257_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -1962,7 +1962,7 @@
             <density>100.445 107.45</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL-9>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-9>
         <_122mm_BL_13_1_A>shared  <reloadTime>13.5</reloadTime>
           <maxAmmo>40</maxAmmo>
           <unlocks>
@@ -2073,7 +2073,7 @@
             <density>99.8578 97.5729</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL_13_1_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL_13_1_A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R151_Object_257_2/normal/lod0/Turret_02.model</undamaged>
@@ -2156,7 +2156,7 @@
     </Turret_1_R151_Object_257_2>
     <Turret_2_R151_Object_257_2>
       <userString>#ussr_vehicles:Turret_2_R151_Object_257_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62000</price>
       <unlocks>
@@ -2311,7 +2311,7 @@
             <density>100.445 107.45</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL-9>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-9>
         <_122mm_BL_13_1_A>shared  <reloadTime>13</reloadTime>
           <maxAmmo>40</maxAmmo>
           <armor>
@@ -2426,7 +2426,7 @@
             <density>99.8578 97.5729</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL_13_1_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL_13_1_A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R151_Object_257_2/normal/lod0/Turret_01.model</undamaged>
@@ -2532,7 +2532,7 @@
     </_12RT>
     <R113>shared</R113>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2620,7 +2620,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

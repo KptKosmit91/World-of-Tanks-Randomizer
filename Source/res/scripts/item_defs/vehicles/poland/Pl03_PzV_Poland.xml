@@ -1,11 +1,11 @@
 <Pl03_PzV_Poland.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -76,7 +76,7 @@
     <customization>
       <customizableVehicleAreas>
         <paint>HULL</paint>
-        <camouflage></camouflage>
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -101,7 +101,7 @@
     <Chassis_1_Pl03_PzV_Poland>
       <userString>#poland_vehicles:Chassis_1_Pl03_PzV_Poland</userString>
       <shortUserString>#poland_vehicles:Chassis_1_Pl03_PzV_Poland_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>18200</price>
       <notInShop>true</notInShop>
@@ -440,7 +440,7 @@
             <length>0.152003</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9521</xStart>
@@ -598,7 +598,7 @@
                 <point>-1.33497 1.40193 3.20387</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -625,7 +625,7 @@
             <length>0.152003</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9521</xStart>
@@ -783,14 +783,14 @@
                 <point>1.57491 1.33734 3.20389</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_1_Pl03_PzV_Poland>
@@ -799,7 +799,7 @@
     <Turret_1_Pl03_PzV_Poland>
       <userString>#poland_vehicles:Turret_1_Pl03_PzV_Poland</userString>
       <shortUserString>#poland_vehicles:Turret_1_Pl03_PzV_Poland_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13500</price>
       <notInShop>true</notInShop>
@@ -869,7 +869,7 @@
           <customization>
             <customizableVehicleAreas>
               <paint>GUN GUN_2</paint>
-              <camouflage></camouflage>
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -889,7 +889,7 @@
             <density>144.145 160.445</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl03_PzV_Poland/normal/lod0/Turret_01.model</undamaged>
@@ -907,7 +907,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -977,7 +977,7 @@
     <armour>0.963500662</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

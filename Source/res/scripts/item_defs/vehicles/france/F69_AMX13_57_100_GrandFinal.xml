@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>61</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -109,7 +109,7 @@ loader</commander>
   <chassis>
     <Chassis_AMX13_57_100_GrandFinal>
       <userString>#france_vehicles:Chassis_AMX13_57_100_GrandFinal</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -848,7 +848,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -870,7 +870,7 @@ loader</commander>
   <turrets0>
     <Turret_1_AMX13_57_100_GrandFinal>
       <userString>#france_vehicles:Turret_1_AMX13_57_100_GrandFinal</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -981,7 +981,7 @@ loader</commander>
             <density>110.862 106.049</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_AC_canon_L100>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_AC_canon_L100>
       </guns>
       <models>
         <undamaged>vehicles/french/F69_AMX13_57_100_GrandFinal/normal/lod0/Turret_01.model</undamaged>
@@ -1121,7 +1121,7 @@ loader</commander>
     <armour>0.707814761</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

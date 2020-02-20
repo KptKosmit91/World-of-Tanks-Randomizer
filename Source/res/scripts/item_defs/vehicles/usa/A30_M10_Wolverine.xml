@@ -1,11 +1,11 @@
 <A30_M10_Wolverine.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -126,7 +126,7 @@
   <chassis>
     <Chassis_M10_Wolverine>
       <userString>#usa_vehicles:Chassis_M10_Wolverine</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4300</price>
       <unlocks>
@@ -1051,7 +1051,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1071,7 +1071,7 @@
     </Chassis_M10_Wolverine>
     <Chassis_M10_Wolverine_2>
       <userString>#usa_vehicles:Chassis_M10_Wolverine_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10000</price>
       <armor>
@@ -1992,7 +1992,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2131,7 +2131,7 @@
             <density>103.242 98.1822</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Gun_M7_L50>
         <_76mm_AT_Gun_M1A1>shared  <maxAmmo>54</maxAmmo>
           <reloadTime>3.7</reloadTime>
           <unlocks>
@@ -2211,7 +2211,7 @@
             <density>92.4314 92.7156</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A1>
         <_76mm_AT_Gun_M1A2>shared  <maxAmmo>54</maxAmmo>
           <reloadTime>3.3</reloadTime>
           <unlocks>
@@ -2296,7 +2296,7 @@
             <density>93.0449 92.8163</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A2>
         <_105mm_AT_SPH_M4_L23>shared  <maxAmmo>30</maxAmmo>
           <reloadTime>7.9</reloadTime>
           <shotDispersionFactors>
@@ -2378,7 +2378,7 @@
             <density>107.006 106.926</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_AT_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_AT_SPH_M4_L23>
       </guns>
       <models>
         <undamaged>vehicles/american/A30_M10_Wolverine/normal/lod0/Turret_01.model</undamaged>
@@ -2563,7 +2563,7 @@
             <density>103.242 98.1822</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Gun_M7_L50>
         <_76mm_AT_Gun_M1A1>shared  <maxAmmo>54</maxAmmo>
           <reloadTime>3.5</reloadTime>
           <shotDispersionFactors>
@@ -2644,7 +2644,7 @@
             <density>92.4314 92.7156</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A1>
         <_76mm_AT_Gun_M1A2>shared  <maxAmmo>54</maxAmmo>
           <reloadTime>3.2</reloadTime>
           <shotDispersionRadius>0.38</shotDispersionRadius>
@@ -2720,7 +2720,7 @@
             <density>93.0449 92.8163</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A2>
         <_105mm_AT_SPH_M4_L23>shared  <maxAmmo>30</maxAmmo>
           <reloadTime>7.8</reloadTime>
           <armor>
@@ -2797,7 +2797,7 @@
             <density>107.006 106.926</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_AT_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_AT_SPH_M4_L23>
       </guns>
       <models>
         <undamaged>vehicles/american/A30_M10_Wolverine/normal/lod0/Turret_02.model</undamaged>
@@ -2985,7 +2985,7 @@
     <armour>0.847232066</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

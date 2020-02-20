@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <gunner />
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <MTLS_T1>
       <userString>#usa_vehicles:MTLS_T1</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>2000</price>
       <notInShop>true</notInShop>
@@ -857,7 +857,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -879,7 +879,7 @@
   <turrets0>
     <MTLS_D1>
       <userString>#usa_vehicles:MTLS_D1</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5350</price>
       <notInShop>true</notInShop>
@@ -982,7 +982,7 @@
             <density>236.151 217.7</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_44_caliber_automatic_cannon>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_44_caliber_automatic_cannon>
       </guns>
       <models>
         <undamaged>vehicles/american/A33_MTLS-1G14/normal/lod0/Turret_01.model</undamaged>
@@ -1105,7 +1105,7 @@
     <armour>0.819304505</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

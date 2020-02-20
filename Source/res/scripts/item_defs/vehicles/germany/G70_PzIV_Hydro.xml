@@ -1,11 +1,11 @@
 <G70_PzIV_Hydro.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -125,7 +125,7 @@
   <chassis>
     <Chassis_PzIV_Hydro>
       <userString>#germany_vehicles:Chassis_PzIV_Hydro</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>7910</price>
       <notInShop>true</notInShop>
@@ -851,7 +851,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -873,7 +873,7 @@
   <turrets0>
     <Turret_1_PzIV_Hydro>
       <userString>#germany_vehicles:Turret_1_PzIV_Hydro</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9200</price>
       <notInShop>true</notInShop>
@@ -989,7 +989,7 @@
             <density>161.811 164.678</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48A>
       </guns>
       <models>
         <undamaged>vehicles/german/G70_PzIV_Hydro/normal/lod0/Turret_01.model</undamaged>
@@ -1111,7 +1111,7 @@
     <armour>0.981478406</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

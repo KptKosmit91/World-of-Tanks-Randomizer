@@ -1,9 +1,9 @@
 <R131_Tank_Gavalov.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -104,7 +104,7 @@
   <chassis>
     <Chassis_R131_Tank_Gavalov>
       <userString>#ussr_vehicles:Chassis_R131_Tank_Gavalov</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>8800</price>
       <unlocks>
@@ -572,7 +572,7 @@
             <length>0.110901</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.6765</xStart>
@@ -740,7 +740,7 @@
                 <point>-1.2039 0.768708 2.70221</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -767,7 +767,7 @@
             <length>0.109978</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.70188</xStart>
@@ -936,14 +936,14 @@
                 <point>1.26396 0.797256 2.68709</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -963,7 +963,7 @@
     </Chassis_R131_Tank_Gavalov>
     <Chassis_R131_Tank_Gavalov_2>
       <userString>#ussr_vehicles:Chassis_R131_Tank_Gavalov_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18500</price>
       <armor>
@@ -1417,7 +1417,7 @@
             <length>0.110901</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.6765</xStart>
@@ -1585,7 +1585,7 @@
                 <point>-1.2039 0.768708 2.70221</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1612,7 +1612,7 @@
             <length>0.109978</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.70188</xStart>
@@ -1781,7 +1781,7 @@
                 <point>1.26396 0.797256 2.68709</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1798,7 +1798,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1820,7 +1820,7 @@
   <turrets0>
     <Turret_1_R131_Tank_Gavalov>
       <userString>#ussr_vehicles:Turret_1_R131_Tank_Gavalov</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -1935,7 +1935,7 @@
             <density>114.877 115.202</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53M>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53M>
         <_85mm_D5T-85BMU>shared  <maxAmmo>38</maxAmmo>
           <unlocks>
             <vehicle>R107_LTB  <cost>96700</cost>
@@ -2021,7 +2021,7 @@
             <density>110.55 122.944</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_D5T-85BMU>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D5T-85BMU>
       </guns>
       <models>
         <undamaged>vehicles/russian/R131_Tank_Gavalov/normal/lod0/Turret_01.model</undamaged>
@@ -2123,7 +2123,7 @@
     </_9RM>
     <R113>shared</R113>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <crewXpFactor>1.0</crewXpFactor>
   <physics>
     <detailed>
@@ -2212,7 +2212,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <G141_VK7501K.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -801,7 +801,7 @@
   <chassis>
     <Chassis_G141_VK7501K>
       <userString>#germany_vehicles:Chassis_G141_VK7501K</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1338,7 +1338,7 @@
             <length>0.142616</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.56258</xStart>
@@ -1515,7 +1515,7 @@
                 <point>-1.67952 1.26172 3.497</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1542,7 +1542,7 @@
             <length>0.145683</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.5695</xStart>
@@ -1719,14 +1719,14 @@
                 <point>1.67952 1.26172 3.497</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1749,7 +1749,7 @@
     <Turret_1_G141_VK7501K>
       <userString>#germany_vehicles:Turret_1_G141_VK7501K</userString>
       <notInShop>true</notInShop>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -1862,7 +1862,7 @@
             <density>103.22 109.153</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_Kw_K_L_61K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_Kw_K_L_61K>
       </guns>
       <models>
         <undamaged>vehicles/german/G141_VK7501K/normal/lod0/Turret_01.model</undamaged>
@@ -2577,7 +2577,7 @@
   <radios>
     <FuG12A>shared</FuG12A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2626,7 +2626,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

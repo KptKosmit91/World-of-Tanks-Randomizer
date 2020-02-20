@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -101,7 +101,7 @@
   <chassis>
     <Chassis_T62A_fallout>
       <userString>#ussr_vehicles:Chassis_T62A_fallout</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -448,7 +448,7 @@
             <length>0.122909</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.0862</xStart>
@@ -622,7 +622,7 @@
                 <point>-1.45586 1.24837 3.05929</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -649,7 +649,7 @@
             <length>0.123991</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.05971</xStart>
@@ -822,14 +822,14 @@
                 <point>1.37582 1.23835 3.07786</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_T62A_fallout>
@@ -837,7 +837,7 @@
   <turrets0>
     <Turret_1_T62A_fallout>
       <userString>#ussr_vehicles:Turret_1_T62A_fallout</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -932,7 +932,7 @@
             <density>147.798 146.919</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_D54_TS_fallout>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D54_TS_fallout>
       </guns>
       <models>
         <undamaged>vehicles/russian/R87_T62A/normal/lod0/Turret_01.model</undamaged>
@@ -1062,7 +1062,7 @@
     <armour>1.253004391</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>dominationLarge</damagedStateGroup>
   </effects>
   <emblems>

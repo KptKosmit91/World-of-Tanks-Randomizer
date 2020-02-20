@@ -1,11 +1,11 @@
 <A35_Pershing.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -289,7 +289,7 @@
   <chassis>
     <Pershingchassis1>
       <userString>#usa_vehicles:Pershingchassis1</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16300</price>
       <unlocks>
@@ -593,7 +593,7 @@
             <length>0.13924</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91824</xStart>
@@ -750,7 +750,7 @@
                 <point>-1.39505 1.28809 2.79062</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -777,7 +777,7 @@
             <length>0.13924</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91824</xStart>
@@ -934,14 +934,14 @@
                 <point>1.39506 1.30238 2.79062</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -961,7 +961,7 @@
     </Pershingchassis1>
     <Pershingchassis2>
       <userString>#usa_vehicles:Pershingchassis2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30250</price>
       <armor>
@@ -1261,7 +1261,7 @@
             <length>0.13924</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91824</xStart>
@@ -1418,7 +1418,7 @@
                 <point>-1.39505 1.28809 2.79062</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1445,7 +1445,7 @@
             <length>0.13924</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91824</xStart>
@@ -1602,14 +1602,14 @@
                 <point>1.39506 1.30238 2.79062</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1631,7 +1631,7 @@
   <turrets0>
     <Turret_1_Pershing>
       <userString>#usa_vehicles:Turret_1_Pershing</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21800</price>
       <unlocks>
@@ -1758,7 +1758,7 @@
             <density>69.2385 70.7443</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <_76mm_Gun_M1A2>shared  <maxAmmo>92</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1840,7 +1840,7 @@
             <density>70.7086 68.3452</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2>
         <_90mm_Gun_M3>shared  <maxAmmo>70</maxAmmo>
           <reloadTime>8.2</reloadTime>
           <shotDispersionFactors>
@@ -1930,7 +1930,7 @@
             <density>69.4682 69.8159</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3>
         <_90mm_Gun_T15E2M2>shared  <maxAmmo>70</maxAmmo>
           <reloadTime>8.2</reloadTime>
           <shotDispersionFactors>
@@ -2014,7 +2014,7 @@
             <density>68.588 70.6394</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T15E2M2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T15E2M2>
       </guns>
       <models>
         <undamaged>vehicles/american/A35_Pershing/normal/lod0/Turret_01.model</undamaged>
@@ -2198,7 +2198,7 @@
     </Turret_1_Pershing>
     <Turret_2_Pershing>
       <userString>#usa_vehicles:Turret_2_Pershing</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>46000</price>
       <unlocks>
@@ -2313,7 +2313,7 @@
             <density>69.2385 70.7443</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <_76mm_Gun_M1A2>shared  <maxAmmo>92</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2387,7 +2387,7 @@
             <density>70.7086 68.3452</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2>
         <_90mm_Gun_M3>shared  <maxAmmo>70</maxAmmo>
           <reloadTime>8.2</reloadTime>
           <shotDispersionFactors>
@@ -2462,7 +2462,7 @@
             <density>69.4682 69.8159</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3>
         <_90mm_Gun_T15E2M2>shared  <maxAmmo>70</maxAmmo>
           <reloadTime>8.2</reloadTime>
           <shotDispersionFactors>
@@ -2537,7 +2537,7 @@
             <density>68.588 70.6394</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T15E2M2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T15E2M2>
         <_105mm_SPH_M4_L23>shared  <maxAmmo>54</maxAmmo>
           <reloadTime>8</reloadTime>
           <shotDispersionFactors>
@@ -2612,7 +2612,7 @@
             <density>69.1683 78.6118</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_SPH_M4_L23>
       </guns>
       <models>
         <undamaged>vehicles/american/A35_Pershing/normal/lod0/Turret_02.model</undamaged>
@@ -2889,7 +2889,7 @@
     <armour>0.966014424</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

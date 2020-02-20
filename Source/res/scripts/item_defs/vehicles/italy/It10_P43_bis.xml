@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -109,7 +109,7 @@
   <chassis>
     <Chassis_It10_P43_bis>
       <userString>#italy_vehicles:Chassis_It10_P43_bis</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9400</price>
       <unlocks>
@@ -395,7 +395,7 @@
             <length>0.13358</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.93271</xStart>
@@ -614,7 +614,7 @@
             <length>0.133576</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9328</xStart>
@@ -813,7 +813,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -833,7 +833,7 @@
     </Chassis_It10_P43_bis>
     <Chassis_It10_P43_bis_2>
       <userString>#italy_vehicles:Chassis_It10_P43_bis_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15600</price>
       <armor>
@@ -1115,7 +1115,7 @@
             <length>0.13358</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.93271</xStart>
@@ -1334,7 +1334,7 @@
             <length>0.133576</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9328</xStart>
@@ -1533,7 +1533,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1555,7 +1555,7 @@
   <turrets0>
     <Turret_1_It10_P43_bis>
       <userString>#italy_vehicles:Turret_1_It10_P43_bis</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10000</price>
       <armor>
@@ -1654,7 +1654,7 @@
             <density>144.963 144.236</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_50_Skoda>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_50_Skoda>
       </guns>
       <models>
         <undamaged>vehicles/italy/It10_P43_bis/normal/lod0/Turret_01.model</undamaged>
@@ -1737,7 +1737,7 @@
     </Turret_1_It10_P43_bis>
     <Turret_2_It10_P43_bis>
       <userString>#italy_vehicles:Turret_2_It10_P43_bis</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17100</price>
       <unlocks>
@@ -1837,7 +1837,7 @@
             <density>144.963 144.236</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Cannone_da_75_50_Skoda>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_75_50_Skoda>
         <Cannone_da_90_42>shared  <maxAmmo>48</maxAmmo>
           <unlocks>
             <vehicle>It09_P43_ter  <cost>58370</cost>
@@ -1908,7 +1908,7 @@
             <density>130.294 130.267</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_42>
       </guns>
       <invisibilityFactor>1.027</invisibilityFactor>
       <models>
@@ -2015,7 +2015,7 @@
     </R_F_2_C_A>
     <R_F_3_M_2>shared</R_F_3_M_2>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2107,7 +2107,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -156,7 +156,7 @@
   <chassis>
     <Chassis_GB73_AT2>
       <userString>#gb_vehicles:Chassis_GB73_AT2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4050</price>
       <unlocks>
@@ -824,7 +824,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -844,7 +844,7 @@
     </Chassis_GB73_AT2>
     <Chassis_GB73_AT2_2>
       <userString>#gb_vehicles:Chassis_GB73_AT2_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9000</price>
       <armor>
@@ -1508,7 +1508,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1642,7 +1642,7 @@
             <density>157.758 157.524</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_III_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_III_AT>
         <_3.7inch_AT_Howitzer>shared  <maxAmmo>42</maxAmmo>
           <pitchLimits>
             <minPitch>0 -13 1 -13</minPitch>
@@ -1733,7 +1733,7 @@
             <density>184.807 158.705</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_3.7inch_AT_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3.7inch_AT_Howitzer>
         <QF_6_pounder_Mk_V_AT>shared  <maxAmmo>96</maxAmmo>
           <pitchLimits>
             <minPitch>0 -13 1 -13</minPitch>
@@ -1822,7 +1822,7 @@
             <density>161.163 160.94</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V_AT>
       </guns>
       <models>
         <undamaged>vehicles/british/GB73_AT2/normal/lod0/Turret_01.model</undamaged>
@@ -1839,8 +1839,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_03</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_GB73_AT2>
@@ -1957,7 +1957,7 @@
     <armour>0.882509465</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

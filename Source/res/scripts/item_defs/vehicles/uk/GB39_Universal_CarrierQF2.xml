@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -146,7 +146,7 @@
   <chassis>
     <Chassis_GB39_Universal_CarrierQF2>
       <userString>#gb_vehicles:Chassis_GB39_Universal_CarrierQF2</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>280</price>
       <unlocks>
@@ -388,7 +388,7 @@
             <length>0.0368576</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.71035</xStart>
@@ -657,7 +657,7 @@
                 <point>-0.795461 0.835633 1.93907</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -684,7 +684,7 @@
             <length>0.0368536</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.71068</xStart>
@@ -953,14 +953,14 @@
                 <point>0.795461 0.835633 1.93907</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -980,7 +980,7 @@
     </Chassis_GB39_Universal_CarrierQF2>
     <Chassis_GB39_Universal_CarrierQF2_2>
       <userString>#gb_vehicles:Chassis_GB39_Universal_CarrierQF2_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>580</price>
       <armor>
@@ -1218,7 +1218,7 @@
             <length>0.0368576</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.71035</xStart>
@@ -1487,7 +1487,7 @@
                 <point>-0.795461 0.835633 1.93907</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1514,7 +1514,7 @@
             <length>0.0368536</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.71068</xStart>
@@ -1783,14 +1783,14 @@
                 <point>0.795461 0.835633 1.93907</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1904,7 +1904,7 @@
             <density>101.36 101.299</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_2pdr_AT_Gun_Mk_IX>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_AT_Gun_Mk_IX>
         <QF_6_pounder_8cwt_Mk_II_AT>shared  <maxAmmo>64</maxAmmo>
           <unlocks>
             <gun>QF_6_pounder_8cwt_Mk_I_AT  <cost>1200</cost>
@@ -1971,7 +1971,7 @@
             <density>101.554 103.942</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_8cwt_Mk_II_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_8cwt_Mk_II_AT>
         <QF_6_pounder_8cwt_Mk_I_AT>shared  <maxAmmo>64</maxAmmo>
           <unlocks>
             <vehicle>GB42_Valentine_AT  <cost>1050</cost>
@@ -2038,7 +2038,7 @@
             <density>102.495 102.41</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_8cwt_Mk_I_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_8cwt_Mk_I_AT>
       </guns>
       <models>
         <undamaged>vehicles/british/GB39_Universal_CarrierQF2/normal/lod0/Turret_01.model</undamaged>
@@ -2197,7 +2197,7 @@
     <armour>0.772140005</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

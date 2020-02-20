@@ -1,11 +1,11 @@
 <G90_DW_II.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -122,7 +122,7 @@
   <chassis>
     <Chassis_DW_II>
       <userString>#germany_vehicles:Chassis_DW_II</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2100</price>
       <unlocks>
@@ -859,7 +859,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -879,7 +879,7 @@
     </Chassis_DW_II>
     <Chassis_DW_II_2>
       <userString>#germany_vehicles:Chassis_DW_II_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4800</price>
       <armor>
@@ -1612,7 +1612,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1634,7 +1634,7 @@
   <turrets0>
     <Turret_1_DW_II>
       <userString>#germany_vehicles:Turret_1_DW_II</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2200</price>
       <unlocks>
@@ -1735,7 +1735,7 @@
             <density>143.301 143.408</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_37_L24>
         <_50mm_KwK_39_L60>shared  <invisibilityFactorAtShot>0.276</invisibilityFactorAtShot>
           <armor>
             <armor_1>50  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1797,7 +1797,7 @@
             <density>156.265 159.433</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60>
       </guns>
       <models>
         <undamaged>vehicles/german/G90_DW_II/normal/lod0/Turret_01.model</undamaged>
@@ -1861,7 +1861,7 @@
     </Turret_1_DW_II>
     <Turret_2_DW_II>
       <userString>#germany_vehicles:Turret_2_DW_II</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5200</price>
       <unlocks>
@@ -1966,7 +1966,7 @@
             <density>143.301 143.408</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_37_L24>
         <_50mm_KwK_39_L60>shared  <invisibilityFactorAtShot>0.276</invisibilityFactorAtShot>
           <armor>
             <armor_1>50  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2038,7 +2038,7 @@
             <density>156.265 159.433</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60>
       </guns>
       <models>
         <undamaged>vehicles/german/G90_DW_II/normal/lod0/Turret_02.model</undamaged>
@@ -2231,7 +2231,7 @@
     <armour>0.913747005</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

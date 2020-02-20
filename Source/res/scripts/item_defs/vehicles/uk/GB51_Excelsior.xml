@@ -1,11 +1,11 @@
 <GB51_Excelsior.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38.6</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -117,7 +117,7 @@
   <chassis>
     <Chassis_GB51_Excelsior>
       <userString>#gb_vehicles:Chassis_GB51_Excelsior</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -1000,7 +1000,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1022,7 +1022,7 @@
   <turrets0>
     <Turret_2_GB51_Excelsior>
       <userString>#gb_vehicles:Turret_2_GB51_Excelsior</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1136,7 +1136,7 @@
             <density>193.173 193.346</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Mk_V_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Mk_V_A>
       </guns>
       <models>
         <undamaged>vehicles/british/GB51_Excelsior/normal/lod0/Turret_01.model</undamaged>
@@ -1278,7 +1278,7 @@
     <armour>1.004719221</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

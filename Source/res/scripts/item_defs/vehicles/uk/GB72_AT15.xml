@@ -1,12 +1,12 @@
 <GB72_AT15.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -437,7 +437,7 @@
   <chassis>
     <Chassis_GB72_AT15>
       <userString>#gb_vehicles:Chassis_GB72_AT15</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>29240</price>
       <unlocks>
@@ -1245,7 +1245,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1265,7 +1265,7 @@
     </Chassis_GB72_AT15>
     <Chassis_GB72_AT15_2>
       <userString>#gb_vehicles:Chassis_GB72_AT15_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>39000</price>
       <armor>
@@ -2069,7 +2069,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2194,7 +2194,7 @@
             <density>120.489 122.951</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_17pdr_OQF_AT_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_17pdr_OQF_AT_1>
         <_20pdr_AT_Gun_Type_A>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_20pdr_AT_Gun_Type_B  <cost>45000</cost>
@@ -2265,7 +2265,7 @@
             <density>119.787 121.177</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_AT_Gun_Type_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_AT_Gun_Type_A>
         <_32-pounder_AT_Gun_OQF>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <vehicle>GB32_Tortoise  <cost>161000</cost>
@@ -2336,7 +2336,7 @@
             <density>119.762 119.727</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_32-pounder_AT_Gun_OQF>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_32-pounder_AT_Gun_OQF>
         <_20pdr_AT_Gun_Type_B>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <gun>40</gun>
@@ -2403,7 +2403,7 @@
             <density>116.615 119.637</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_AT_Gun_Type_B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_AT_Gun_Type_B>
       </guns>
       <models>
         <undamaged>vehicles/british/GB72_AT15/normal/lod0/Turret_01.model</undamaged>
@@ -2566,7 +2566,7 @@
     <armour>0.833838827</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

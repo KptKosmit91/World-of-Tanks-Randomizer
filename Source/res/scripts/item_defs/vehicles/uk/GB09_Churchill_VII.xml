@@ -1,11 +1,11 @@
 <GB09_Churchill_VII.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -116,7 +116,7 @@
   <chassis>
     <Chassis_GB09_Churchill_VII>
       <userString>#gb_vehicles:Chassis_GB09_Churchill_VII</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8600</price>
       <unlocks>
@@ -886,7 +886,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -906,7 +906,7 @@
     </Chassis_GB09_Churchill_VII>
     <Chassis_GB09_Churchill_VII_2>
       <userString>#gb_vehicles:Chassis_GB09_Churchill_VII_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>18000</price>
       <armor>
@@ -1672,7 +1672,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1694,7 +1694,7 @@
   <turrets0>
     <Turret_1_GB09_Churchill_VII>
       <userString>#gb_vehicles:Turret_1_GB09_Churchill_VII</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8350</price>
       <armor>
@@ -1808,7 +1808,7 @@
             <density>128.745 135.87</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V>
         <_3.7inch_Howitzer>shared  <maxAmmo>50</maxAmmo>
           <pitchLimits>
             <maxPitch>0 3 1 3</maxPitch>
@@ -1880,7 +1880,7 @@
             <density>151.551 142.356</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_3.7inch_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3.7inch_Howitzer>
         <_75mm_Gun_Mk_V>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1956,7 +1956,7 @@
             <density>129.675 137.129</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Mk_V>
         <_75mm_Gun_Vickers_HV>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -12 1 -12</minPitch>
@@ -2028,7 +2028,7 @@
             <density>125.13 149.107</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Vickers_HV>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Vickers_HV>
       </guns>
       <models>
         <undamaged>vehicles/british/GB09_Churchill_VII/normal/lod0/Turret_01.model</undamaged>
@@ -2090,7 +2090,7 @@
     </Turret_1_GB09_Churchill_VII>
     <Turret_2_GB09_Churchill_VII>
       <userString>#gb_vehicles:Turret_2_GB09_Churchill_VII</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17000</price>
       <unlocks>
@@ -2202,7 +2202,7 @@
             <density>128.745 135.87</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V>
         <_3.7inch_Howitzer>shared  <maxAmmo>50</maxAmmo>
           <pitchLimits>
             <maxPitch>0 3 1 3</maxPitch>
@@ -2274,7 +2274,7 @@
             <density>151.551 142.356</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_3.7inch_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3.7inch_Howitzer>
         <_75mm_Gun_Mk_V>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2346,7 +2346,7 @@
             <density>129.675 137.129</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Mk_V>
         <_75mm_Gun_Vickers_HV>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -12 1 -12</minPitch>
@@ -2418,7 +2418,7 @@
             <density>125.13 149.107</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Vickers_HV>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Vickers_HV>
         <OQF_77mm_Gun_MkII>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -12 1 -12</minPitch>
@@ -2493,7 +2493,7 @@
             <density>124.785 151.492</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_77mm_Gun_MkII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_77mm_Gun_MkII>
       </guns>
       <models>
         <undamaged>vehicles/british/GB09_Churchill_VII/normal/lod0/Turret_02.model</undamaged>
@@ -2667,7 +2667,7 @@
     <armour>0.871424538</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

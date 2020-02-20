@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -282,7 +282,7 @@
   <chassis>
     <Chassis_Indien_Panzer>
       <userString>#germany_vehicles:Chassis_Indien_Panzer</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17500</price>
       <unlocks>
@@ -678,7 +678,7 @@
             <length>0.0946254</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.06357</xStart>
@@ -882,7 +882,7 @@
                 <point>-1.54153 1.201 3.0871</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -909,7 +909,7 @@
             <length>0.0952377</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.04398</xStart>
@@ -1111,14 +1111,14 @@
                 <point>1.37153 1.17337 3.05126</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1138,7 +1138,7 @@
     </Chassis_Indien_Panzer>
     <Chassis_Indien_Panzer_2>
       <userString>#germany_vehicles:Chassis_Indien_Panzer_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30100</price>
       <armor>
@@ -1530,7 +1530,7 @@
             <length>0.0946254</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.06357</xStart>
@@ -1734,7 +1734,7 @@
                 <point>-1.54153 1.201 3.0871</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1761,7 +1761,7 @@
             <length>0.0952377</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.04398</xStart>
@@ -1963,14 +1963,14 @@
                 <point>1.37153 1.17337 3.05126</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1992,7 +1992,7 @@
   <turrets0>
     <Turret_2_Indien_Panzer>
       <userString>#germany_vehicles:Turret_2_Indien_Panzer</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>29000</price>
       <notInShop>true</notInShop>
@@ -2124,7 +2124,7 @@
             <density>102.067 105.076</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56>
         <_88mm_KwK_43_L71>shared  <unlocks>
             <gun>_9cm_KwK_51_L71  <cost>18300</cost>
             </gun>
@@ -2221,7 +2221,7 @@
             <density>100.969 108.765</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71>
         <_9cm_KwK_51_L71>shared  <unlocks>
             <vehicle>G91_Pro_Ag_A  <cost>172800</cost>
             </vehicle>
@@ -2318,7 +2318,7 @@
             <density>101.361 102.942</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_9cm_KwK_51_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_9cm_KwK_51_L71>
       </guns>
       <models>
         <undamaged>vehicles/german/G88_Indien_Panzer/normal/lod0/Turret_01.model</undamaged>
@@ -2645,7 +2645,7 @@
     <armour>1.014666487</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

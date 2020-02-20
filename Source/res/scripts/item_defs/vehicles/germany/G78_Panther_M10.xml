@@ -1,11 +1,11 @@
 <G78_Panther_M10.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -118,7 +118,7 @@
   <chassis>
     <Chassis_Panther_M10>
       <userString>#germany_vehicles:Chassis_Panther_M10</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18200</price>
       <notInShop>true</notInShop>
@@ -479,7 +479,7 @@
             <length>0.142397</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96517</xStart>
@@ -642,7 +642,7 @@
                 <point>-1.38821 1.33424 3.15794</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -669,7 +669,7 @@
             <length>0.142398</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96517</xStart>
@@ -832,14 +832,14 @@
                 <point>1.57822 1.3384 3.15795</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -861,7 +861,7 @@
   <turrets0>
     <Turret_1_Panther_M10>
       <userString>#germany_vehicles:Turret_1_Panther_M10</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17500</price>
       <notInShop>true</notInShop>
@@ -975,7 +975,7 @@
             <density>115.31 127.263</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70_A>
       </guns>
       <models>
         <undamaged>vehicles/german/G78_Panther_M10/normal/lod0/Turret_01.model</undamaged>
@@ -1118,7 +1118,7 @@
     <armour>0.879257199</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

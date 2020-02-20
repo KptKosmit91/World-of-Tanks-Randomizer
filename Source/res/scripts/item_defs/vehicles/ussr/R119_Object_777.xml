@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
@@ -116,7 +116,7 @@
   <chassis>
     <Chassis_R119_Object_777>
       <userString>#ussr_vehicles:Chassis_R119_Object_777</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <notInShop>true</notInShop>
       <price>55000</price>
@@ -581,7 +581,7 @@
             <length>0.150568</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.59128</xStart>
@@ -782,7 +782,7 @@
             <length>0.150572</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.5912</xStart>
@@ -963,7 +963,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -985,7 +985,7 @@
   <turrets0>
     <Turret_1_R119_Object_777>
       <userString>#ussr_vehicles:Turret_1_R119_Object_777</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <notInShop>true</notInShop>
       <price>50000</price>
@@ -1118,7 +1118,7 @@
             <density>116.701 115.623</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122mm_M62-T2A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_M62-T2A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R119_Object_777/normal/lod0/Turret_01.model</undamaged>
@@ -1259,7 +1259,7 @@
     <armour>1.151828432</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

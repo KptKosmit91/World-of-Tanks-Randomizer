@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>44</forward>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -119,7 +119,7 @@
   <chassis>
     <Chassis_GB20_Crusader>
       <userString>#gb_vehicles:Chassis_GB20_Crusader</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>2000</price>
       <unlocks>
@@ -479,7 +479,7 @@
             <length>0.0919482</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.82451</xStart>
@@ -676,7 +676,7 @@
                 <point>-1.15353 1.07655 2.83034</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -703,7 +703,7 @@
             <length>0.0919547</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.82429</xStart>
@@ -900,14 +900,14 @@
                 <point>1.24354 1.09665 2.83096</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -927,7 +927,7 @@
     </Chassis_GB20_Crusader>
     <Chassis_GB20_Crusader_2>
       <userString>#gb_vehicles:Chassis_GB20_Crusader_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9500</price>
       <armor>
@@ -1283,7 +1283,7 @@
             <length>0.0919482</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.82451</xStart>
@@ -1480,7 +1480,7 @@
                 <point>-1.15353 1.07655 2.83034</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1507,7 +1507,7 @@
             <length>0.0919547</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.82429</xStart>
@@ -1704,14 +1704,14 @@
                 <point>1.24354 1.09665 2.83096</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1733,7 +1733,7 @@
   <turrets0>
     <Turret_1_GB20_Crusader>
       <userString>#gb_vehicles:Turret_1_GB20_Crusader</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3980</price>
       <unlocks>
@@ -1834,7 +1834,7 @@
             <density>200.807 195.808</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
         <_76mm_Howitzer_MkI>shared  <maxAmmo>100</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1899,7 +1899,7 @@
             <density>199.677 199.68</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Howitzer_MkI>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Howitzer_MkI>
       </guns>
       <models>
         <undamaged>vehicles/british/GB20_Crusader/normal/lod0/Turret_01.model</undamaged>
@@ -1963,7 +1963,7 @@
     </Turret_1_GB20_Crusader>
     <Turret_2_GB20_Crusader>
       <userString>#gb_vehicles:Turret_2_GB20_Crusader</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>11000</price>
       <unlocks>
@@ -2069,7 +2069,7 @@
             <density>200.807 195.808</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
         <_76mm_Howitzer_MkI>shared  <maxAmmo>100</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2141,7 +2141,7 @@
             <density>199.677 199.68</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Howitzer_MkI>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Howitzer_MkI>
         <QF_6_pounder_Mk_III>shared  <maxAmmo>65</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2219,7 +2219,7 @@
             <density>216.292 216.567</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_III>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_III>
         <QF_6_pounder_Mk_V>shared  <maxAmmo>65</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2291,7 +2291,7 @@
             <density>215.404 214.592</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V>
       </guns>
       <models>
         <undamaged>vehicles/british/GB20_Crusader/normal/lod0/Turret_02.model</undamaged>
@@ -2471,7 +2471,7 @@
     <armour>0.67821695</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

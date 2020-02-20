@@ -1,11 +1,11 @@
 <G137_PzVI_Tiger_217.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -149,7 +149,7 @@
   <chassis>
     <Chassis_G137_PzVI_Tiger_217>
       <userString>#germany_vehicles:Chassis_G137_PzVI_Tiger_217</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -650,7 +650,7 @@
             <length>0.114473</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.7152</xStart>
@@ -825,7 +825,7 @@
                 <point>-1.41134 1.31881 2.89397</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -852,7 +852,7 @@
             <length>0.114468</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.71533</xStart>
@@ -1027,14 +1027,14 @@
                 <point>1.41134 1.31881 2.89397</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1057,7 +1057,7 @@
     <Turret_1_G137_PzVI_Tiger_217>
       <userString>#germany_vehicles:Turret_1_G137_PzVI_Tiger_217</userString>
       <shortUserString>#germany_vehicles:Turret_1_G137_PzVI_Tiger_217</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1181,7 +1181,7 @@
             <density>136.315 135.953</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56A>
       </guns>
       <models>
         <undamaged>vehicles/german/G137_PzVI_Tiger_217/normal/lod0/Turret_01.model</undamaged>
@@ -1317,7 +1317,7 @@
     <armour>0.879999147</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

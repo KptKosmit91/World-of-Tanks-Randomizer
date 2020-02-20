@@ -1,9 +1,9 @@
 <G101_StuG_III.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -159,7 +159,7 @@
   <chassis>
     <Chassis_G101_StuG_III>
       <userString>#germany_vehicles:Chassis_G101_StuG_III</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <unlocks>
@@ -1111,7 +1111,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1131,7 +1131,7 @@
     </Chassis_G101_StuG_III>
     <Chassis_G101_StuG_III_2>
       <userString>#germany_vehicles:Chassis_G101_StuG_III_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4740</price>
       <armor>
@@ -2071,7 +2071,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2183,7 +2183,7 @@
             <density>105.308 106.708</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_StuK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_StuK_37_L24>
         <_75mm_StuK_40_L43>shared  <reloadTime>3.9</reloadTime>
           <unlocks>
             <gun>_75mm_PaK_39_L48  <cost>3400</cost>
@@ -2255,7 +2255,7 @@
             <density>109.703 109.556</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_StuK_40_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_StuK_40_L43>
         <_75mm_PaK_39_L48>shared  <reloadTime>3.9</reloadTime>
           <armor>
             <armor_1>50  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2320,7 +2320,7 @@
             <density>109.355 109.126</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_PaK_39_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_PaK_39_L48>
         <_105mm_StuH42_L28>shared  <armor>
             <armor_1>50  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_1>
@@ -2390,7 +2390,7 @@
             <density>107.221 107.115</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28>
       </guns>
       <models>
         <undamaged>vehicles/german/G101_StuG_III/normal/lod0/Turret_01.model</undamaged>
@@ -2407,8 +2407,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_G101_StuG_III>
@@ -2529,7 +2529,7 @@
     <armour>0.839436771</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

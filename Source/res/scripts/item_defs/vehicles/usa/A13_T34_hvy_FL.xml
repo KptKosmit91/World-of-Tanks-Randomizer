@@ -1,12 +1,12 @@
 <A13_T34_hvy_FL.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -723,7 +723,7 @@
   <chassis>
     <T80E3_FL>
       <userString>#usa_vehicles:T80E3</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <notInShop>true</notInShop>
       <price>31500</price>
@@ -1667,7 +1667,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1689,7 +1689,7 @@
   <turrets0>
     <T34T7_FL>
       <userString>#usa_vehicles:T34T7</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <notInShop>true</notInShop>
       <price>47700</price>
@@ -1805,7 +1805,7 @@
             <density>95.2227 92.6153</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_T53A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_T53A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A13_T34_hvy/normal/lod0/Turret_01.model</undamaged>
@@ -2415,7 +2415,7 @@
     <armour>0.968169405</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

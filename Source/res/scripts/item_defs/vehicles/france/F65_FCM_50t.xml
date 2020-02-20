@@ -1,11 +1,11 @@
 <F65_FCM_50t.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>51</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -682,7 +682,7 @@
   <chassis>
     <Chassis_FCM_50t>
       <userString>#france_vehicles:Chassis_FCM_50t</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>37520</price>
       <notInShop>true</notInShop>
@@ -951,7 +951,7 @@
             <length>0.212239</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.73254</xStart>
@@ -1102,7 +1102,7 @@
                 <point>-1.61167 1.64349 3.16525</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1129,7 +1129,7 @@
             <length>0.212283</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.73192</xStart>
@@ -1280,14 +1280,14 @@
                 <point>1.63169 1.60119 3.16728</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1309,7 +1309,7 @@
   <turrets0>
     <Turret_1_FCM_50t>
       <userString>#france_vehicles:Turret_1_FCM_50t</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31320</price>
       <notInShop>true</notInShop>
@@ -1421,7 +1421,7 @@
             <density>99.3778 105.388</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_45A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_45A>
       </guns>
       <models>
         <undamaged>vehicles/french/F65_FCM_50t/normal/lod0/Turret_01.model</undamaged>
@@ -2070,7 +2070,7 @@
     <armour>0.898946663</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

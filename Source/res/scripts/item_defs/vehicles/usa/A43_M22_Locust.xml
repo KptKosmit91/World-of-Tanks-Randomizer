@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>64</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -106,7 +106,7 @@
   <chassis>
     <Chassis_M22_Locust>
       <userString>#usa_vehicles:Chassis_M22_Locust</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <notInShop>true</notInShop>
       <price>1640</price>
@@ -923,7 +923,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -945,7 +945,7 @@
   <turrets0>
     <Turret_1_M22_Locust>
       <userString>#usa_vehicles:Turret_1_M22_Locust</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <notInShop>true</notInShop>
       <price>4020</price>
@@ -1041,7 +1041,7 @@
             <density>255.255 254.546</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-6_L53M2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-6_L53M2>
       </guns>
       <models>
         <undamaged>vehicles/american/A43_M22_Locust/normal/lod0/Turret_01.model</undamaged>
@@ -1162,7 +1162,7 @@
     <armour>0.874393971</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

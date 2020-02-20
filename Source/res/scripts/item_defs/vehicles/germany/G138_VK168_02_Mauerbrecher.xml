@@ -1,12 +1,12 @@
 <G138_VK168_02_Mauerbrecher.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <radioman></radioman>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <driver />
+    <radioman />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -83,8 +83,8 @@
     <hangarShadowTexture>vehicles/german/G138_VK168_02_Mauerbrecher/VK168_02_Mauerbrecher_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -108,7 +108,7 @@
   <chassis>
     <Chassis_G138_VK168_02_Mauerbrecher>
       <userString>#germany_vehicles:Chassis_G138_VK168_02_Mauerbrecher</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1057,8 +1057,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_G138_VK168_02_Mauerbrecher>
@@ -1066,7 +1066,7 @@
   <turrets0>
     <Turret_1_G138_VK168_02_Mauerbrecher>
       <userString>#germany_vehicles:Turret_1_G138_VK168_02_Mauerbrecher</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1141,8 +1141,8 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -1162,7 +1162,7 @@
             <density>129.677 132.448</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_128mm_L50P>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_L50P>
       </guns>
       <models>
         <undamaged>vehicles/german/G138_VK168_02_Mauerbrecher/normal/lod0/Turret_01.model</undamaged>
@@ -1179,8 +1179,8 @@
       <physicsShape>1.059 0.078 1.098 0.000 0.534 0.273 0.863 0.500 0.169 0.500 0.475 0.500 0.162 0.500 0.000</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -1199,7 +1199,7 @@
   <radios>
     <FuG12A>shared</FuG12A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1248,7 +1248,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

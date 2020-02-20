@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <T2E1>
       <userString>#usa_vehicles:T2E1</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>340</price>
       <unlocks>
@@ -879,7 +879,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -899,7 +899,7 @@
     </T2E1>
     <T2E4>
       <userString>#usa_vehicles:T2E4</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>650</price>
       <armor>
@@ -1650,7 +1650,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1672,7 +1672,7 @@
   <turrets0>
     <T2T1>
       <userString>#usa_vehicles:T2T1</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>500</price>
       <armor>
@@ -1774,7 +1774,7 @@
             <density>222.83 222.187</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_Browning_semiautomatic_gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Browning_semiautomatic_gun>
         <_20mm_Hispano_Suiza_Birgikt_gun>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 1 10</maxPitch>
@@ -1839,7 +1839,7 @@
             <density>225.475 215.038</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_Hispano_Suiza_Birgikt_gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Hispano_Suiza_Birgikt_gun>
       </guns>
       <models>
         <undamaged>vehicles/american/A24_T2_med/normal/lod0/Turret_01.model</undamaged>
@@ -1893,7 +1893,7 @@
     </T2T1>
     <T2T2>
       <userString>#usa_vehicles:T2T2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>700</price>
       <unlocks>
@@ -1992,7 +1992,7 @@
             <density>222.83 222.187</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_Browning_semiautomatic_gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Browning_semiautomatic_gun>
         <_37mm_M-5>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2062,7 +2062,7 @@
             <density>212.747 211.23</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_M-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5>
         <_20mm_Hispano_Suiza_Birgikt_gun>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2129,7 +2129,7 @@
             <density>225.475 215.038</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_Hispano_Suiza_Birgikt_gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Hispano_Suiza_Birgikt_gun>
       </guns>
       <models>
         <undamaged>vehicles/american/A24_T2_med/normal/lod0/Turret_02.model</undamaged>
@@ -2283,7 +2283,7 @@
     <armour>0.779067102</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

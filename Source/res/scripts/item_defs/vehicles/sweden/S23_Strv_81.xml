@@ -1,9 +1,9 @@
 <S23_Strv_81.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -918,7 +918,7 @@
   <chassis>
     <Chassis_S23_Strv_81>
       <userString>#sweden_vehicles:Chassis_S23_Strv_81</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33000</price>
       <notInShop>true</notInShop>
@@ -1979,7 +1979,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2001,7 +2001,7 @@
   <turrets0>
     <Turret_1_S23_Strv_81>
       <userString>#sweden_vehicles:Turret_1_S23_Strv_81</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -2139,7 +2139,7 @@
             <density>124.805 134.203</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_84mm_kan_strv_81_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_84mm_kan_strv_81_1>
       </guns>
       <notInShop>true</notInShop>
       <models>
@@ -2476,7 +2476,7 @@
   <radios>
     <Ra_400_1>shared</Ra_400_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <premiumVehicleXPFactor>0.1</premiumVehicleXPFactor>
   <physics>
     <detailed>
@@ -2526,7 +2526,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

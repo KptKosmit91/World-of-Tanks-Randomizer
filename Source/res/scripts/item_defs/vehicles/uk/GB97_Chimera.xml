@@ -1,9 +1,9 @@
 <GB97_Chimera.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1175,7 +1175,7 @@
   <chassis>
     <Chassis_GB97_Chimera>
       <userString>#gb_vehicles:Chassis_GB97_Chimera</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1476,7 +1476,7 @@
             <length>0.15129</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.29329</xStart>
@@ -1657,7 +1657,7 @@
                 <point>-1.68061 0.9333 3.28784</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1684,7 +1684,7 @@
             <length>0.15129</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.29329</xStart>
@@ -1865,14 +1865,14 @@
                 <point>1.43062 0.923295 3.28781</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1894,7 +1894,7 @@
   <turrets0>
     <Turret_1_GB97_Chimera>
       <userString>#gb_vehicles:Turret_1_GB97_Chimera</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2011,7 +2011,7 @@
             <density>141.721 139.854</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_5inch_QF_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_5inch_QF_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB97_Chimera/normal/lod0/Turret_01.model</undamaged>
@@ -2350,7 +2350,7 @@
   <radios>
     <C45A>shared</C45A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2399,7 +2399,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

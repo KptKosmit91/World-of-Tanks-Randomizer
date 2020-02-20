@@ -2,7 +2,7 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@
     <PzII_ketten_Ausf_A>
       <userString>#germany_vehicles:PzII_ketten_Ausf_A</userString>
       <shortUserString>#germany_vehicles:PzII_ketten_Ausf_A_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>300</price>
       <unlocks>
@@ -379,7 +379,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -421,7 +421,7 @@
             <length>0.0880134</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.27197</xStart>
@@ -599,7 +599,7 @@
                 <point>-0.99874 0.974262 2.30478</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -626,7 +626,7 @@
             <length>0.0880889</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.27197</xStart>
@@ -804,7 +804,7 @@
                 <point>0.99874 0.974262 2.30478</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -812,7 +812,7 @@
     <PzII_ketten_Ausf_B>
       <userString>#germany_vehicles:PzII_ketten_Ausf_B</userString>
       <shortUserString>#germany_vehicles:PzII_ketten_Ausf_B_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <armor>
@@ -1056,7 +1056,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1098,7 +1098,7 @@
             <length>0.0880134</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.27197</xStart>
@@ -1276,7 +1276,7 @@
                 <point>-0.99874 0.974262 2.30478</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1303,7 +1303,7 @@
             <length>0.0880889</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.27197</xStart>
@@ -1481,7 +1481,7 @@
                 <point>0.99874 0.974262 2.30478</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1591,7 +1591,7 @@
             <density>113.945 117.141</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_30>
         <_20mm_KwK_38_L55>shared  <maxAmmo>260</maxAmmo>
           <reloadTime>4.3</reloadTime>
           <aimingTime>1.6</aimingTime>
@@ -1664,7 +1664,7 @@
             <density>113.945 117.141</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_38_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_38_L55>
         <_20mm_Flak_38_L112>shared  <maxAmmo>260</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.1</turretRotation>
@@ -1728,7 +1728,7 @@
             <density>110.408 122.484</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
       </guns>
       <models>
         <undamaged>vehicles/german/G06_PzII/normal/lod0/Turret_01.model</undamaged>
@@ -1774,7 +1774,7 @@
         </slot>
       </customizationSlots>
       <camouflage>
-        <exclusionMask></exclusionMask>
+        <exclusionMask />
         <tiling>1 0.49 0.000000 0.000000</tiling>
         <density>118.484 118.161</density>
         <aoTextureSize>512 256</aoTextureSize>
@@ -1879,7 +1879,7 @@
             <density>113.945 117.141</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_30>
         <_20mm_KwK_38_L55>shared  <maxAmmo>320</maxAmmo>
           <reloadTime>3.9</reloadTime>
           <aimingTime>1.6</aimingTime>
@@ -1944,7 +1944,7 @@
             <density>113.945 117.141</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_38_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_38_L55>
         <_20mm_Flak_38_L112>shared  <maxAmmo>320</maxAmmo>
           <armor>
             <armor_1>20  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2008,7 +2008,7 @@
             <density>110.408 122.484</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
       </guns>
       <models>
         <undamaged>vehicles/german/G06_PzII/normal/lod0/Turret_02.model</undamaged>
@@ -2166,7 +2166,7 @@
     <armour>0.812760856</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

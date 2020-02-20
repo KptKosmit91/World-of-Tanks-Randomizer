@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <gunner />
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>61</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -79,7 +79,7 @@
     <hangarShadowTexture>vehicles/american/A03_M3_Stuart/M3_Stuart_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -124,7 +124,7 @@
   <chassis>
     <chassisE1_bootcamp>
       <userString>#usa_vehicles:chassisE1</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>660</price>
       <notInShop>true</notInShop>
@@ -971,8 +971,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </chassisE1_bootcamp>
@@ -980,7 +980,7 @@
   <turrets0>
     <D37812_bootcamp>
       <userString>#usa_vehicles:D37812</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>800</price>
       <notInShop>true</notInShop>
@@ -1049,7 +1049,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1058,7 +1058,7 @@
             <density>209.563 209.255</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_Hispano_Suiza_Birgikt_gun_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Hispano_Suiza_Birgikt_gun_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/american/A03_M3_Stuart/normal/lod0/Turret_01.model</undamaged>
@@ -1075,7 +1075,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1168,7 +1168,7 @@
     <armour>0.813244384</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

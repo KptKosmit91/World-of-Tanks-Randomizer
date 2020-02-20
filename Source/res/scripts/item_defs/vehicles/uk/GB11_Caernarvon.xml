@@ -1,9 +1,9 @@
 <GB11_Caernarvon.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -48,7 +48,7 @@
       <maxRegenHealth>160</maxRegenHealth>
       <repairCost>1.0</repairCost>
     </ammoBayHealth>
-    <variants></variants>
+    <variants />
     <models>
       <undamaged>vehicles/british/GB11_Caernarvon/normal/lod0/Hull.model</undamaged>
       <destroyed>vehicles/british/GB11_Caernarvon/crash/lod0/Hull.model</destroyed>
@@ -407,7 +407,7 @@
   <chassis>
     <Chassis_GB11_Caernarvon>
       <userString>#gb_vehicles:Chassis_GB11_Caernarvon</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20200</price>
       <unlocks>
@@ -1313,7 +1313,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1333,7 +1333,7 @@
     </Chassis_GB11_Caernarvon>
     <Chassis_GB11_Caernarvon_2>
       <userString>#gb_vehicles:Chassis_GB11_Caernarvon_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30500</price>
       <armor>
@@ -2235,7 +2235,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2257,7 +2257,7 @@
   <turrets0>
     <Turret_1_GB11_Caernarvon>
       <userString>#gb_vehicles:Turret_1_GB11_Caernarvon</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22500</price>
       <unlocks>
@@ -2398,7 +2398,7 @@
             <density>99.8115 121.147</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII>
       </guns>
       <models>
         <undamaged>vehicles/british/GB11_Caernarvon/normal/lod0/Turret_01.model</undamaged>
@@ -2526,7 +2526,7 @@
     </Turret_1_GB11_Caernarvon>
     <Turret_2_GB11_Caernarvon>
       <userString>#gb_vehicles:Turret_2_GB11_Caernarvon</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <unlocks>
@@ -2660,7 +2660,7 @@
             <density>99.8115 121.147</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII>
         <_32_pounder_Gun_OQF>shared  <maxAmmo>50</maxAmmo>
           <pitchLimits>
             <minPitch>0 -18 1 -18</minPitch>
@@ -2760,7 +2760,7 @@
             <density>110.77 112.879</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_32_pounder_Gun_OQF>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_32_pounder_Gun_OQF>
       </guns>
       <models>
         <undamaged>vehicles/british/GB11_Caernarvon/normal/lod0/Turret_02.model</undamaged>
@@ -3010,7 +3010,7 @@
     <armour>1.027357776</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

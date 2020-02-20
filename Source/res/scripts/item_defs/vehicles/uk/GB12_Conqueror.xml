@@ -1,9 +1,9 @@
 <GB12_Conqueror.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -120,7 +120,7 @@
   <chassis>
     <Chassis_GB12_Conqueror>
       <userString>#gb_vehicles:Chassis_GB12_Conqueror</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31500</price>
       <unlocks>
@@ -1027,7 +1027,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1047,7 +1047,7 @@
     </Chassis_GB12_Conqueror>
     <Chassis_GB12_Conqueror_2>
       <userString>#gb_vehicles:Chassis_GB12_Conqueror_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62000</price>
       <armor>
@@ -1950,7 +1950,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1972,7 +1972,7 @@
   <turrets0>
     <Turret_1_GB12_Conqueror>
       <userString>#gb_vehicles:Turret_1_GB12_Conqueror</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>42000</price>
       <armor>
@@ -2096,7 +2096,7 @@
             <density>106.923 109.168</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_32_pounder_Gun_OQF>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_32_pounder_Gun_OQF>
       </guns>
       <models>
         <undamaged>vehicles/british/GB12_Conqueror/normal/lod0/Turret_01.model</undamaged>
@@ -2170,7 +2170,7 @@
     </Turret_1_GB12_Conqueror>
     <Turret_2_GB12_Conqueror>
       <userString>#gb_vehicles:Turret_2_GB12_Conqueror</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>59000</price>
       <unlocks>
@@ -2298,7 +2298,7 @@
             <density>106.923 109.168</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_32_pounder_Gun_OQF>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_32_pounder_Gun_OQF>
         <_120mm_Gun_L1A1>shared  <maxAmmo>35</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2388,7 +2388,7 @@
             <density>90.6195 95.5808</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_L1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_L1A1>
       </guns>
       <models>
         <undamaged>vehicles/british/GB12_Conqueror/normal/lod0/Turret_02.model</undamaged>
@@ -2593,7 +2593,7 @@
     <armour>1.032945208</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

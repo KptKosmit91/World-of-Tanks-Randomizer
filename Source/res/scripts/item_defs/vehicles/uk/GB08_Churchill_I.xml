@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>25.7</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>3 3 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -127,7 +127,7 @@
   <chassis>
     <Chassis_GB08_Churchill_I>
       <userString>#gb_vehicles:Chassis_GB08_Churchill_I</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4050</price>
       <unlocks>
@@ -410,7 +410,7 @@
                 <ySamples>1.07659 1.06659 1.05659 1.04659 1.03659 1.02659 1.01659</ySamples>
               </part>
             </bottom>
-            <top></top>
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_L1</wheel>
@@ -486,7 +486,7 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
+            <top />
             <bottom>
               <range>
                 <point>-1.01484 0.952517 -2.67935</point>
@@ -591,7 +591,7 @@
                 <ySamples>1.07657 1.06657 1.05657 1.04657 1.03657 1.02657 1.01657</ySamples>
               </part>
             </bottom>
-            <top></top>
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_R1</wheel>
@@ -667,7 +667,7 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
+            <top />
             <bottom>
               <range>
                 <point>1.01489 0.952587 -2.67935</point>
@@ -735,7 +735,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -755,7 +755,7 @@
     </Chassis_GB08_Churchill_I>
     <Chassis_GB08_Churchill_I_2>
       <userString>#gb_vehicles:Chassis_GB08_Churchill_I_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8500</price>
       <unlocks>
@@ -1014,7 +1014,7 @@
                 <ySamples>1.07659 1.06659 1.05659 1.04659 1.03659 1.02659 1.01659</ySamples>
               </part>
             </bottom>
-            <top></top>
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_L1</wheel>
@@ -1090,7 +1090,7 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
+            <top />
             <bottom>
               <range>
                 <point>-1.01484 0.952517 -2.67935</point>
@@ -1195,7 +1195,7 @@
                 <ySamples>1.07657 1.06657 1.05657 1.04657 1.03657 1.02657 1.01657</ySamples>
               </part>
             </bottom>
-            <top></top>
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_R1</wheel>
@@ -1271,7 +1271,7 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
+            <top />
             <bottom>
               <range>
                 <point>1.01489 0.952587 -2.67935</point>
@@ -1363,7 +1363,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1385,7 +1385,7 @@
   <turrets0>
     <Turret_1_GB08_Churchill_I>
       <userString>#gb_vehicles:Turret_1_GB08_Churchill_I</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4300</price>
       <armor>
@@ -1493,7 +1493,7 @@
             <density>136.406 153.326</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
         <_76mm_Howitzer_MkI>shared  <maxAmmo>115</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1560,7 +1560,7 @@
             <density>138.766 138.64</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Howitzer_MkI>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Howitzer_MkI>
       </guns>
       <models>
         <undamaged>vehicles/british/GB08_Churchill_I/normal/lod0/Turret_01.model</undamaged>
@@ -1634,7 +1634,7 @@
     </Turret_1_GB08_Churchill_I>
     <Turret_2_GB08_Churchill_I>
       <userString>#gb_vehicles:Turret_2_GB08_Churchill_I</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>7500</price>
       <unlocks>
@@ -1748,7 +1748,7 @@
             <density>136.406 153.326</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
         <_76mm_Howitzer_MkI>shared  <maxAmmo>115</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1824,7 +1824,7 @@
             <density>138.766 138.64</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Howitzer_MkI>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Howitzer_MkI>
         <QF_6_pounder_Mk_III>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1904,7 +1904,7 @@
             <density>133.522 147.712</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_III>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_III>
         <QF_6_pounder_Mk_V>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1986,7 +1986,7 @@
             <density>135.419 149.263</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V>
         <_75mm_Gun_Mk_V>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2066,7 +2066,7 @@
             <density>138.378 142.629</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Mk_V>
         <_75mm_Gun_Vickers_HV>shared  <maxAmmo>84</maxAmmo>
           <pitchLimits>
             <minPitch>0 -12 1 -12</minPitch>
@@ -2142,7 +2142,7 @@
             <density>138.181 147.43</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Vickers_HV>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Vickers_HV>
       </guns>
       <models>
         <undamaged>vehicles/british/GB08_Churchill_I/normal/lod0/Turret_02.model</undamaged>
@@ -2327,7 +2327,7 @@
     <armour>0.762143905</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

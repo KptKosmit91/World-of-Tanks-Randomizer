@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>43</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -152,7 +152,7 @@
   <chassis>
     <Chassis_S19_Sav_M43>
       <userString>#sweden_vehicles:Chassis_S19_Sav_M43</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1850</price>
       <unlocks>
@@ -416,7 +416,7 @@
             <length>0.0997342</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.18846</xStart>
@@ -582,7 +582,7 @@
                 <point>-0.695927 1.04577 2.29963</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -609,7 +609,7 @@
             <length>0.0991161</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.20762</xStart>
@@ -776,14 +776,14 @@
                 <point>0.695959 1.04655 2.30221</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -803,7 +803,7 @@
     </Chassis_S19_Sav_M43>
     <Chassis_S19_Sav_M43_2>
       <userString>#sweden_vehicles:Chassis_S19_Sav_M43_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4400</price>
       <armor>
@@ -1063,7 +1063,7 @@
             <length>0.0997342</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.18846</xStart>
@@ -1229,7 +1229,7 @@
                 <point>-0.695927 1.04577 2.29963</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1256,7 +1256,7 @@
             <length>0.0991161</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.20762</xStart>
@@ -1423,14 +1423,14 @@
                 <point>0.695959 1.04655 2.30221</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1534,7 +1534,7 @@
             <density>122.255 121.756</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_kan_m_02>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_kan_m_02>
         <_75mm_kan_m_41_ikv_L_50_neglkrut>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_105mm_kan_m_44_sav  <cost>3800</cost>
@@ -1596,7 +1596,7 @@
             <density>122.205 122.604</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_kan_m_41_ikv_L_50_neglkrut>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_kan_m_41_ikv_L_50_neglkrut>
         <_105mm_kan_m_44_sav>shared  <maxAmmo>41</maxAmmo>
           <unlocks>
             <vehicle>S14_Ikv_103  <cost>10830</cost>
@@ -1667,7 +1667,7 @@
             <density>122.681 125.67</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_kan_m_44_sav>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_kan_m_44_sav>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S19_Sav_M43/normal/lod0/Turret_01.model</undamaged>
@@ -1684,8 +1684,8 @@
       <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.600 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_S19_Sav_M43>
@@ -1817,7 +1817,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -115,7 +115,7 @@ loader</commander>
   <chassis>
     <Chassis_Char_de_25t>
       <userString>#france_vehicles:Chassis_Char_de_25t</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -431,7 +431,7 @@ loader</commander>
             <length>0.138713</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.51535</xStart>
@@ -577,7 +577,7 @@ loader</commander>
                 <point>-1.27414 1.13924 2.54754</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -604,7 +604,7 @@ loader</commander>
             <length>0.139223</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.50413</xStart>
@@ -750,14 +750,14 @@ loader</commander>
                 <point>1.31414 1.08472 2.57739</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -777,7 +777,7 @@ loader</commander>
     </Chassis_Char_de_25t>
     <Chassis_Char_de_25t_2>
       <userString>#france_vehicles:Chassis_Char_de_25t_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>68000</price>
       <armor>
@@ -1089,7 +1089,7 @@ loader</commander>
             <length>0.138713</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.51535</xStart>
@@ -1235,7 +1235,7 @@ loader</commander>
                 <point>-1.27414 1.13924 2.54754</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1262,7 +1262,7 @@ loader</commander>
             <length>0.139223</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.50413</xStart>
@@ -1408,14 +1408,14 @@ loader</commander>
                 <point>1.31414 1.08472 2.57739</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1438,7 +1438,7 @@ loader</commander>
     <Turret_1_Char_de_25t>
       <userString>#france_vehicles:Turret_1_Char_de_25t</userString>
       <shortUserString>#france_vehicles:Turret_1_Char_de_25t_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -1556,7 +1556,7 @@ loader</commander>
             <density>124.067 136.508</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_90mm_F3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_F3>
         <Canon_de_90mm_Vo_930_m_s>shared  <maxAmmo>42</maxAmmo>
           <unlocks>
             <gun>_100mm_SA_47  <cost>34500</cost>
@@ -1647,7 +1647,7 @@ loader</commander>
             <density>126.971 131.134</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </Canon_de_90mm_Vo_930_m_s>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_90mm_Vo_930_m_s>
         <_100mm_SA_47>shared  <maxAmmo>42</maxAmmo>
           <unlocks>
             <vehicle>F18_Bat_Chatillon25t  <cost>200000</cost>
@@ -1738,7 +1738,7 @@ loader</commander>
             <density>121.541 137.11</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_100mm_SA_47>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_SA_47>
       </guns>
       <models>
         <undamaged>vehicles/french/F75_Char_de_25t/normal/lod0/Turret_01.model</undamaged>
@@ -1918,7 +1918,7 @@ loader</commander>
     <armour>0.927792485</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

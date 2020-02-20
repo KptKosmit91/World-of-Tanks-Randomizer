@@ -1,11 +1,11 @@
 <G58_VK4502P7.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -115,7 +115,7 @@
     <Chassis_G58_VK4502P>
       <userString>#germany_vehicles:Chassis_G58_VK4502P</userString>
       <shortUserString>#germany_vehicles:Chassis_G58_VK4502P_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -1047,7 +1047,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1070,7 +1070,7 @@
     <Turret_1_G58_VK4502P>
       <userString>#germany_vehicles:Turret_1_G58_VK4502P</userString>
       <shortUserString>#germany_vehicles:Turret_1_G58_VK4502P_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -1181,7 +1181,7 @@
             <density>89.4905 92.3526</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71B>
       </guns>
       <models>
         <undamaged>vehicles/german/G58_VK4502P7/normal/lod0/Turret_01.model</undamaged>
@@ -1318,9 +1318,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <G122_VK6501H.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -126,7 +126,7 @@
   <chassis>
     <Chassis_G122_VK6501H>
       <userString>#germany_vehicles:Chassis_G122_VK6501H</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -395,7 +395,7 @@
             <length>0.249909</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.49677</xStart>
@@ -524,7 +524,7 @@
                 <point>-1.36035 1.47311 3.12581</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -551,7 +551,7 @@
             <length>0.249907</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.49679</xStart>
@@ -680,14 +680,14 @@
                 <point>1.36035 1.46706 3.12575</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -709,7 +709,7 @@
   <turrets0>
     <Turret_1_G122_VK6501H>
       <userString>#germany_vehicles:Turret_1_G122_VK6501H</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -821,7 +821,7 @@
             <density>104.503 101.437</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L40>
       </guns>
       <models>
         <undamaged>vehicles/german/G122_VK6501H/normal/lod0/Turret_01.model</undamaged>
@@ -939,9 +939,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

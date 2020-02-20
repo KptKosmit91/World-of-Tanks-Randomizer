@@ -1,11 +1,11 @@
 <G40_Nashorn.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -158,7 +158,7 @@
   <chassis>
     <Chassis_Nashorn>
       <userString>#germany_vehicles:Chassis_Nashorn</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9000</price>
       <unlocks>
@@ -914,7 +914,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -934,7 +934,7 @@
     </Chassis_Nashorn>
     <Chassis_Nashorn_2>
       <userString>#germany_vehicles:Chassis_Nashorn_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14500</price>
       <armor>
@@ -1686,7 +1686,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1813,7 +1813,7 @@
             <density>77.28 71.911</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_StuK42_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_StuK42_L70>
         <_88mm_PaK_36_L56>shared  <maxAmmo>55</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1894,7 +1894,7 @@
             <density>74.8565 75.1166</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_PaK_36_L56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_PaK_36_L56>
         <_88mm_PaK_43_L71>shared  <maxAmmo>40</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1973,7 +1973,7 @@
             <density>75.0795 74.1179</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_PaK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_PaK_43_L71>
       </guns>
       <models>
         <undamaged>vehicles/german/G40_Nashorn/normal/lod0/Turret_01.model</undamaged>
@@ -2136,7 +2136,7 @@
     <armour>0.634307731</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

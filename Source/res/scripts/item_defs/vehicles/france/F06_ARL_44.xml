@@ -1,11 +1,11 @@
 <F06_ARL_44.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>37</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -116,7 +116,7 @@
   <chassis>
     <Chassis_ARL_44>
       <userString>#france_vehicles:Chassis_ARL_44</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8600</price>
       <unlocks>
@@ -826,7 +826,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -846,7 +846,7 @@
     </Chassis_ARL_44>
     <Chassis_ARL_44_2>
       <userString>#france_vehicles:Chassis_ARL_44_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15420</price>
       <armor>
@@ -1551,7 +1551,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1573,7 +1573,7 @@
   <turrets0>
     <Turret_1_ARL_44>
       <userString>#france_vehicles:Turret_1_ARL_44</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8350</price>
       <armor>
@@ -1689,7 +1689,7 @@
             <density>98.832 125.121</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <_90mm_canon_DCA_30>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <turret>Turret_2_ARL_44  <cost>6100</cost>
@@ -1775,7 +1775,7 @@
             <density>100.78 123.775</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_30>
       </guns>
       <models>
         <undamaged>vehicles/french/F06_ARL_44/normal/lod0/Turret_01.model</undamaged>
@@ -1859,7 +1859,7 @@
     </Turret_1_ARL_44>
     <Turret_2_ARL_44>
       <userString>#france_vehicles:Turret_2_ARL_44</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>20430</price>
       <unlocks>
@@ -1979,7 +1979,7 @@
             <density>98.832 125.121</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <_90mm_canon_DCA_30>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>110  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2057,7 +2057,7 @@
             <density>100.78 123.775</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_30>
         <_105mm_canon_13TR>shared  <maxAmmo>40</maxAmmo>
           <armor>
             <armor_1>110  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2135,7 +2135,7 @@
             <density>99.1126 93.5513</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_canon_13TR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_canon_13TR>
         <_90mm_F3>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <gun>_105mm_canon_13TR  <cost>16350</cost>
@@ -2220,7 +2220,7 @@
             <density>103.324 95.4243</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_F3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_F3>
         <_90mm_canon_DCA_45>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>110  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2299,7 +2299,7 @@
             <density>69.9734 92.4073</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_45>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_45>
       </guns>
       <models>
         <undamaged>vehicles/french/F06_ARL_44/normal/lod0/Turret_02.model</undamaged>
@@ -2494,7 +2494,7 @@
     <armour>0.776419721</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>68</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -906,7 +906,7 @@
   <chassis>
     <Chassis_R98_T44_85M>
       <userString>#ussr_vehicles:Chassis_T44_85M</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1262,7 +1262,7 @@
             <length>0.173585</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9196</xStart>
@@ -1596,7 +1596,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1618,7 +1618,7 @@
   <turrets0>
     <Turret_1_R98_T44_85M>
       <userString>#ussr_vehicles:Turret_1_T44_85M</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1776,7 +1776,7 @@
             <density>110.787 115.742</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53_44BM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53_44BM>
       </guns>
       <models>
         <undamaged>vehicles/russian/R98_T44_85/normal/lod0/Turret_01.model</undamaged>
@@ -2335,7 +2335,7 @@
     <armour>1.044615409</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

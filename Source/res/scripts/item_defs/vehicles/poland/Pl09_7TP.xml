@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -130,7 +130,7 @@
   <chassis>
     <Chassis_Pl09_7TP>
       <userString>#poland_vehicles:Chassis_Pl09_7TP</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>310</price>
       <unlocks>
@@ -416,7 +416,7 @@
             <length>0.0824402</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.31476</xStart>
@@ -612,7 +612,7 @@
                 <point>-0.816135 1.04678 2.14476</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -639,7 +639,7 @@
             <length>0.0823929</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.31649</xStart>
@@ -835,14 +835,14 @@
                 <point>0.804138 1.05096 2.13565</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -862,7 +862,7 @@
     </Chassis_Pl09_7TP>
     <Chassis_Pl09_7TP_2>
       <userString>#poland_vehicles:Chassis_Pl09_7TP_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>590</price>
       <armor>
@@ -1144,7 +1144,7 @@
             <length>0.0824402</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.31476</xStart>
@@ -1340,7 +1340,7 @@
                 <point>-0.816135 1.04678 2.14476</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1367,7 +1367,7 @@
             <length>0.0823929</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.31649</xStart>
@@ -1563,14 +1563,14 @@
                 <point>0.804138 1.05096 2.13565</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1592,7 +1592,7 @@
   <turrets0>
     <Turret_1_Pl09_7TP>
       <userString>#poland_vehicles:Turret_1_Pl09_7TP</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>550</price>
       <unlocks>
@@ -1694,7 +1694,7 @@
             <density>143.044 144.063</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_Bofors_wz_37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Bofors_wz_37>
         <_47mm_QFSA>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>15  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1759,7 +1759,7 @@
             <density>141.02 140.642</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_47mm_QFSA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_QFSA>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl09_7TP/normal/lod0/Turret_01.model</undamaged>
@@ -1823,7 +1823,7 @@
     </Turret_1_Pl09_7TP>
     <Turret_2_Pl09_7TP>
       <userString>#poland_vehicles:Turret_2_Pl09_7TP</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>850</price>
       <unlocks>
@@ -1920,7 +1920,7 @@
             <density>143.044 144.063</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_Bofors_wz_37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Bofors_wz_37>
         <_47mm_QFSA>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>18  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1985,7 +1985,7 @@
             <density>141.02 140.642</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_47mm_QFSA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_QFSA>
         <_40mm_DL55>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <vehicle>Pl06_10TP  <cost>950</cost>
@@ -2055,7 +2055,7 @@
             <density>148.972 154.841</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_40mm_DL55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_DL55>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl09_7TP/normal/lod0/Turret_02.model</undamaged>
@@ -2132,7 +2132,7 @@
   <radios>
     <N2>shared</N2>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2220,7 +2220,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

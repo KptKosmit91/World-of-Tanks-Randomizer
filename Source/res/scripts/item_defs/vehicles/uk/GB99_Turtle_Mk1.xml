@@ -1,12 +1,12 @@
 <GB99_Turtle_Mk1.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
@@ -1740,7 +1740,7 @@
   <chassis>
     <Chassis_GB99_Turtle_Mk1>
       <userString>#gb_vehicles:Chassis_GB99_Turtle_Mk1</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>40000</price>
       <armor>
@@ -2031,7 +2031,7 @@
             <length>0.150561</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.24631</xStart>
@@ -2191,7 +2191,7 @@
                 <point>-1.69788 1.14134 3.15255</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -2218,7 +2218,7 @@
             <length>0.150561</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.24631</xStart>
@@ -2378,14 +2378,14 @@
                 <point>1.69788 1.14134 3.15255</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB99_Turtle_Mk1>
@@ -2537,7 +2537,7 @@
             <aoTextureSize>256 256</aoTextureSize>
             <tiling>1.23 1.23 0.000000 0.000000</tiling>
           </camouflage>
-        </OQF_55_pdr_AT_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_55_pdr_AT_Gun>
       </guns>
       <notInShop>true</notInShop>
       <models>
@@ -2555,8 +2555,8 @@
       <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_GB99_Turtle_Mk1>
@@ -2570,7 +2570,7 @@
   <radios>
     <British_Wireless_set_N19>shared</British_Wireless_set_N19>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2619,7 +2619,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

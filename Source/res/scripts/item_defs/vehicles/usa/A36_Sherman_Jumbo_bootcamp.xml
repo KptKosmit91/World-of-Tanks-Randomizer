@@ -1,11 +1,11 @@
 <A36_Sherman_Jumbo_bootcamp.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>3.4 3.4 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <Chassis_Sherman_Jumbo_bootcamp>
       <userString>#usa_vehicles:Chassis_Sherman_Jumbo</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9630</price>
       <notInShop>true</notInShop>
@@ -1088,7 +1088,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Sherman_Jumbo_bootcamp>
@@ -1096,7 +1096,7 @@
   <turrets0>
     <Turret_1_Sherman_Jumbo_bootcamp>
       <userString>#usa_vehicles:Turret_1_Sherman_Jumbo</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>14120</price>
       <notInShop>true</notInShop>
@@ -1181,7 +1181,7 @@
             <density>86.7771 86.3668</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/american/A36_Sherman_Jumbo/normal/lod0/Turret_01.model</undamaged>
@@ -1291,7 +1291,7 @@
     <armour>1.039018702</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

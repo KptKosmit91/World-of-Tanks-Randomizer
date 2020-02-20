@@ -1,12 +1,12 @@
 <A16_M7_Priest.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38.6</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -153,7 +153,7 @@
   <chassis>
     <VVSST49>
       <userString>#usa_vehicles:VVSST49</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>590</price>
       <unlocks>
@@ -432,7 +432,7 @@
             <length>0.0627759</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.01533</xStart>
@@ -703,7 +703,7 @@
                 <point>-1.09344 1.21362 2.79035</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -734,7 +734,7 @@
             <length>0.0627757</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.01533</xStart>
@@ -1005,14 +1005,14 @@
                 <point>1.19352 1.21457 2.79033</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1032,7 +1032,7 @@
     </VVSST49>
     <VVSST51>
       <userString>#usa_vehicles:VVSST51</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1650</price>
       <armor>
@@ -1307,7 +1307,7 @@
             <length>0.0627759</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.01533</xStart>
@@ -1578,7 +1578,7 @@
                 <point>-1.09344 1.21362 2.79035</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1609,7 +1609,7 @@
             <length>0.0627757</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.01533</xStart>
@@ -1880,14 +1880,14 @@
                 <point>1.19352 1.21457 2.79033</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2005,7 +2005,7 @@
             <density>98.6987 100.285</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Howitzer_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Howitzer_M3>
         <_105mm_Howitzer_M2A1>shared  <pitchLimits>
             <minPitch>0 -45 1 -45</minPitch>
             <maxPitch>0 5 1 5</maxPitch>
@@ -2072,7 +2072,7 @@
             <density>98.7157 100.435</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Howitzer_M2A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Howitzer_M2A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A16_M7_Priest/normal/lod0/Turret_01.model</undamaged>
@@ -2235,7 +2235,7 @@
     <armour>0.529278114</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

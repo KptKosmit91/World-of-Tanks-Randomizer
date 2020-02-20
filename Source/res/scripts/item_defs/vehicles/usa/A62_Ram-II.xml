@@ -1,11 +1,11 @@
 <A62_Ram-II.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -116,7 +116,7 @@
   <chassis>
     <VVSS_WE210>
       <userString>#usa_vehicles:VVSS_WE210</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10200</price>
       <notInShop>true</notInShop>
@@ -376,7 +376,7 @@
             <length>0.0702366</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.93951</xStart>
@@ -610,7 +610,7 @@
                 <point>-1.17044 1.06905 2.68011</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -641,7 +641,7 @@
             <length>0.0697624</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91296</xStart>
@@ -874,14 +874,14 @@
                 <point>0.990469 1.05578 2.65571</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -903,7 +903,7 @@
   <turrets0>
     <Ram_II_D1>
       <userString>#usa_vehicles:Ram_II_D1</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>11100</price>
       <notInShop>true</notInShop>
@@ -999,7 +999,7 @@
             <density>300.924 298.146</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_IIIA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_IIIA>
       </guns>
       <models>
         <undamaged>vehicles/american/A62_Ram-II/normal/lod0/Turret_01.model</undamaged>
@@ -1120,7 +1120,7 @@
     <armour>1.130076372</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

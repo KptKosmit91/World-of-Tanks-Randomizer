@@ -1,12 +1,12 @@
 <G56_E-100.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -942,7 +942,7 @@
   <chassis>
     <Chassis_E-100>
       <userString>#germany_vehicles:Chassis_E-100</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1394,7 +1394,7 @@
             <length>0.149776</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.49344</xStart>
@@ -1571,7 +1571,7 @@
                 <point>-1.92725 1.21257 4.03929</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1602,7 +1602,7 @@
             <length>0.149336</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.46253</xStart>
@@ -1778,14 +1778,14 @@
                 <point>1.9273 1.19915 4.07133</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1807,7 +1807,7 @@
   <turrets0>
     <Turret_2_E-100>
       <userString>#germany_vehicles:Turret_2_E-100</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1964,7 +1964,7 @@
             <density>61.5894 69.7873</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_128mm_KwK44_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_KwK44_L55>
         <_150mm_KwK44_L38>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>250  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2083,7 +2083,7 @@
             <density>59.5053 62.8999</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_150mm_KwK44_L38>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_KwK44_L38>
       </guns>
       <models>
         <undamaged>vehicles/german/G56_E-100/normal/lod0/Turret_02.model</undamaged>
@@ -2682,7 +2682,7 @@
     <armour>1.105361953</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <G118_VK4503.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@
   <chassis>
     <Chassis_G118_VK4503>
       <userString>#germany_vehicles:Chassis_G118_VK4503</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -576,7 +576,7 @@
             <length>0.149127</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98245</xStart>
@@ -729,7 +729,7 @@
                 <point>-1.48969 1.48179 2.60976</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -756,7 +756,7 @@
             <length>0.149329</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97831</xStart>
@@ -909,14 +909,14 @@
                 <point>1.48969 1.48243 2.62149</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -938,7 +938,7 @@
   <turrets0>
     <Turret_1_G118_VK4503>
       <userString>#germany_vehicles:Turret_1_G118_VK4503</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -1056,7 +1056,7 @@
             <density>122.201 119.878</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71B>
       </guns>
       <models>
         <undamaged>vehicles/german/G118_VK4503/normal/lod0/Turret_01.model</undamaged>
@@ -1188,7 +1188,7 @@
     <armour>1.075271062</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

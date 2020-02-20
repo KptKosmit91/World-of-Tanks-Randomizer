@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>37</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -152,7 +152,7 @@
   <chassis>
     <Chassis_Lorraine39_L_AM>
       <userString>#france_vehicles:Chassis_Lorraine39_L_AM</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>590</price>
       <unlocks>
@@ -1096,7 +1096,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1116,7 +1116,7 @@
     </Chassis_Lorraine39_L_AM>
     <Chassis_Lorraine39_L_AM_2>
       <userString>#france_vehicles:Chassis_Lorraine39_L_AM_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1730</price>
       <armor>
@@ -2056,7 +2056,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2168,7 +2168,7 @@
             <density>109.078 106.839</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_105_court_mle_1935B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_court_mle_1935B>
         <Canon_de_105_court_mle_1934S>shared  <unlocks>
             <vehicle>F66_AMX_Ob_Am105  <cost>3100</cost>
             </vehicle>
@@ -2235,7 +2235,7 @@
             <density>106.368 105.064</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_105_court_mle_1934S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_court_mle_1934S>
       </guns>
       <models>
         <undamaged>vehicles/french/F21_Lorraine39_L_AM/normal/lod0/Turret_01.model</undamaged>
@@ -2253,7 +2253,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2383,7 +2383,7 @@
     <armour>0.880841191</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

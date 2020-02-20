@@ -1,11 +1,11 @@
 <F113_Bretagne_Panther.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -72,8 +72,8 @@
     <hangarShadowTexture>vehicles/french/F113_Bretagne_Panther/Bretagne_Panther_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -126,7 +126,7 @@
   <chassis>
     <Chassis_F113_Bretagne_Panther>
       <userString>#france_vehicles:Chassis_F113_Bretagne_Panther</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>18200</price>
       <armor>
@@ -268,8 +268,8 @@
       </groundNodes>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <trackThickness>0.000000</trackThickness>
@@ -473,7 +473,7 @@
             <length>0.151434</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97592</xStart>
@@ -629,7 +629,7 @@
                 <point>-1.51246 1.46521 3.00545</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -656,7 +656,7 @@
             <length>0.151434</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97621</xStart>
@@ -812,7 +812,7 @@
                 <point>1.51246 1.46521 3.00545</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -835,7 +835,7 @@
   <turrets0>
     <Turret_1_F113_Bretagne_Panther>
       <userString>#france_vehicles:Turret_1_F113_Bretagne_Panther</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13500</price>
       <armor>
@@ -903,8 +903,8 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -941,7 +941,7 @@
               <isUVProportional>true</isUVProportional>
             </slot>
           </customizationSlots>
-        </_75mm_Kw_K_42_L_70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Kw_K_42_L_70>
       </guns>
       <notInShop>true</notInShop>
       <models>
@@ -959,8 +959,8 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1062,7 +1062,7 @@
     <armour>0.963500662</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

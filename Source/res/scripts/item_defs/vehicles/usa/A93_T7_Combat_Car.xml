@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56</forward>
@@ -109,7 +109,7 @@
   <chassis>
     <Chassis_T7_Combat_Car>
       <userString>#usa_vehicles:Chassis_T7_Combat_Car</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <notInShop>true</notInShop>
@@ -431,7 +431,7 @@
             <length>0.0932338</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.38514</xStart>
@@ -607,7 +607,7 @@
                 <point>-1.20508 1.05012 2.4555</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -638,7 +638,7 @@
             <length>0.0932399</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.38517</xStart>
@@ -814,14 +814,14 @@
                 <point>1.16512 1.03592 2.45541</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -906,15 +906,15 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <camouflage>
             <density>25.0 25.0</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_12.7mm_MG_HB_M2_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_12.7mm_MG_HB_M2_A>
       </guns>
       <models>
         <undamaged>vehicles/american/A93_T7_Combat_Car/normal/lod0/Turret_01.model</undamaged>
@@ -1046,7 +1046,7 @@
     <armour>0.877327986</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

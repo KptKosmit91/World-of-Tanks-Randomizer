@@ -136,7 +136,7 @@
 			<Effect>shot_dualgun_main_mb_R</Effect>
 			<Effect>shot_dualgun1_main_L</Effect>
 			<Effect>shot_dualgun1_main_R</Effect-->
-			<Effect>shot_dualgun_main_R</Effect>
+			<Effect>shot_dualgun_main_R_singleFix</Effect>
 			<Effect>shot_mainext</Effect>
 			<Effect>shot_mainext_mb</Effect>
 			<!--Effect>shot_dualgun1_mainext_mb_L</Effect>
@@ -144,7 +144,7 @@
 			<Effect>shot_dualgun_mainext_mb_R</Effect>
 			<Effect>shot_dualgun1_mainext_L</Effect>
 			<Effect>shot_dualgun1_mainext_R</Effect-->
-			<Effect>shot_dualgun_mainext_R</Effect>
+			<Effect>shot_dualgun_mainext_R_singleFix</Effect>
 			<Effect>shot_large</Effect>
 			<Effect>shot_large_mb</Effect>
 			<!--Effect>shot_dualgun1_large_mb_L</Effect>
@@ -152,7 +152,7 @@
 			<Effect>shot_dualgun_large_mb_R</Effect>
 			<Effect>shot_dualgun1_large_L</Effect>
 			<Effect>shot_dualgun1_large_R</Effect-->
-			<Effect>shot_dualgun_large_R</Effect>
+			<Effect>shot_dualgun_large_R_singleFix</Effect>
 			<Effect>shot_largeext</Effect>
 			<Effect>shot_largeext_mb</Effect>
 			<Effect>shot_ch41</Effect>
@@ -162,6 +162,23 @@
 			<Effect>shot_superhuge</Effect>
 			<Effect>shot_superhuge_mb</Effect>
 		</GunEffectList>
+
+		<!--used in case when a double barrel model has been selected-->
+		<DualGunEffectList>
+			<Effect>shot_dualgun1_main_mb_L</Effect>
+			<Effect>shot_dualgun1_main_mb_R</Effect>
+			<Effect>shot_dualgun1_main_L</Effect>
+			<Effect>shot_dualgun1_main_R</Effect>
+			<Effect>shot_dualgun1_mainext_mb_L</Effect>
+			<Effect>shot_dualgun1_mainext_mb_R</Effect>
+			<Effect>shot_dualgun1_mainext_L</Effect>
+			<Effect>shot_dualgun1_mainext_R</Effect>
+			<Effect>shot_dualgun1_large_mb_L</Effect>
+			<Effect>shot_dualgun1_large_mb_R</Effect>
+			<Effect>shot_dualgun1_large_L</Effect>
+			<Effect>shot_dualgun1_large_R</Effect>
+		</DualGunEffectList>
+
 		<!--reload sound list to randomize from-->
 		<GunReloadSFXList>
 			<Effect>reload12_25</Effect>

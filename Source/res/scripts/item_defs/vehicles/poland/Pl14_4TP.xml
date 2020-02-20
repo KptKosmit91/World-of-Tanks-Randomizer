@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -128,7 +128,7 @@ loader</commander>
   <chassis>
     <Chassis_Pl14_4TP>
       <userString>#poland_vehicles:Chassis_Pl14_4TP</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -383,7 +383,7 @@ loader</commander>
             <length>0.0892887</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.7544</xStart>
@@ -537,7 +537,7 @@ loader</commander>
                 <point>-0.670763 0.771101 1.86732</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -564,7 +564,7 @@ loader</commander>
             <length>0.0892729</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.76349</xStart>
@@ -718,14 +718,14 @@ loader</commander>
                 <point>0.678689 0.778619 1.86613</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -747,7 +747,7 @@ loader</commander>
   <turrets0>
     <Turret_1_Pl14_4TP>
       <userString>#poland_vehicles:Turret_1_Pl14_4TP</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -847,7 +847,7 @@ loader</commander>
             <density>121.3 121.559</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_20mm_wz_38_FKA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_wz_38_FKA>
         <_47mm_QFSA>shared  <maxAmmo>45</maxAmmo>
           <unlocks>
             <vehicle>Pl09_7TP  <cost>235</cost>
@@ -910,7 +910,7 @@ loader</commander>
             <density>121.708 122.002</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_47mm_QFSA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_QFSA>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl14_4TP/normal/lod0/Turret_01.model</undamaged>
@@ -982,7 +982,7 @@ loader</commander>
   <radios>
     <N2>shared</N2>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1031,7 +1031,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

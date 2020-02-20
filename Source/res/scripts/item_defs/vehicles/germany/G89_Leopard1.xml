@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>70</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -633,7 +633,7 @@
   <chassis>
     <Chassis_Leopard1>
       <userString>#germany_vehicles:Chassis_Leopard1</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1563,7 +1563,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1585,7 +1585,7 @@
   <turrets0>
     <Turret_1_Leopard1>
       <userString>#germany_vehicles:Turret_1_Leopard1</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1719,7 +1719,7 @@
             <density>123.477 112.701</density>
             <aoTextureSize>256 512</aoTextureSize>
           </camouflage>
-        </_105mm_BK_L7A3_L51>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_BK_L7A3_L51>
       </guns>
       <models>
         <undamaged>vehicles/german/G89_Leopard1/normal/lod0/Turret_01.model</undamaged>
@@ -2173,7 +2173,7 @@
     <armour>1.00092121</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -4,7 +4,7 @@
     <commander>radioman
 gunner
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>41</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -70,7 +70,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/american/A01_T1_Cunningham/T1_Cunningham_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -114,7 +114,7 @@ loader</commander>
   <chassis>
     <Cunningham_E1_bot>
       <userString>#usa_vehicles:Cunningham_E1_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -713,8 +713,8 @@ loader</commander>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Cunningham_E1_bot>
@@ -722,7 +722,7 @@ loader</commander>
   <turrets0>
     <Cunningham_D1_bot>
       <userString>#usa_vehicles:Cunningham_D1_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -774,7 +774,7 @@ loader</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -782,7 +782,7 @@ loader</commander>
             <density>120.732 120.711</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_Gun_M1916_bot>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Gun_M1916_bot>
       </guns>
       <models>
         <undamaged>vehicles/american/A01_T1_Cunningham/normal/lod0/Turret_01.model</undamaged>
@@ -799,7 +799,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -886,9 +886,9 @@ loader</commander>
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

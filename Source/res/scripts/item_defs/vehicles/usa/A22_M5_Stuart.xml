@@ -1,11 +1,11 @@
 <A22_M5_Stuart.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>64.4</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -131,7 +131,7 @@
   <chassis>
     <VVSS_T16E3>
       <userString>#usa_vehicles:VVSS_T16E3</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1500</price>
       <unlocks>
@@ -390,7 +390,7 @@
             <length>0.118796</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.86986</xStart>
@@ -532,7 +532,7 @@
                 <point>-0.852448 1.03748 2.2287</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -559,7 +559,7 @@
             <length>0.118817</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.86932</xStart>
@@ -701,14 +701,14 @@
                 <point>0.872553 1.03661 2.22995</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -728,7 +728,7 @@
     </VVSS_T16E3>
     <VVSS_T36E8>
       <userString>#usa_vehicles:VVSS_T36E8</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5050</price>
       <armor>
@@ -983,7 +983,7 @@
             <length>0.118796</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.86986</xStart>
@@ -1125,7 +1125,7 @@
                 <point>-0.852448 1.03748 2.2287</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1152,7 +1152,7 @@
             <length>0.118817</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.86932</xStart>
@@ -1294,14 +1294,14 @@
                 <point>0.872553 1.03661 2.22995</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1323,7 +1323,7 @@
   <turrets0>
     <M44>
       <userString>#usa_vehicles:M44</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1890</price>
       <armor>
@@ -1423,7 +1423,7 @@
             <density>191.847 192.015</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-6_L53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-6_L53>
         <_37mm_T16>shared  <maxAmmo>120</maxAmmo>
           <unlocks>
             <turret>M7  <cost>1220</cost>
@@ -1501,7 +1501,7 @@
             <density>205.067 192.221</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_T16>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_T16>
       </guns>
       <models>
         <undamaged>vehicles/american/A22_M5_Stuart/normal/lod0/Turret_01.model</undamaged>
@@ -1564,7 +1564,7 @@
     </M44>
     <M7>
       <userString>#usa_vehicles:M7</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5180</price>
       <unlocks>
@@ -1665,7 +1665,7 @@
             <density>191.847 192.015</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-6_L53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-6_L53>
         <_37mm_T16>shared  <maxAmmo>145</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1739,7 +1739,7 @@
             <density>205.067 192.221</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_T16>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_T16>
       </guns>
       <models>
         <undamaged>vehicles/american/A22_M5_Stuart/normal/lod0/Turret_02.model</undamaged>
@@ -1913,7 +1913,7 @@
     <armour>0.910591167</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

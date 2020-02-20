@@ -1,11 +1,11 @@
 <G102_Pz_III_bootcamp.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>68</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -72,7 +72,7 @@
     <hangarShadowTexture>vehicles/german/G102_Pz_III/Pz_III_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -108,7 +108,7 @@
     <PzIIIketten_Ausf_A_bootcamp>
       <userString>#germany_vehicles:PzIIIketten_Ausf_A</userString>
       <shortUserString>#germany_vehicles:PzIIIketten_Ausf_A_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>660</price>
       <notInShop>true</notInShop>
@@ -790,8 +790,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </PzIIIketten_Ausf_A_bootcamp>
@@ -800,7 +800,7 @@
     <PzIII_Ausf_A_bootcamp>
       <userString>#germany_vehicles:PzIII_Ausf_A</userString>
       <shortUserString>#germany_vehicles:PzIII_Ausf_A_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>720</price>
       <notInShop>true</notInShop>
@@ -855,7 +855,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -864,7 +864,7 @@
             <density>165.404 171.271</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_L46_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_L46_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/german/G102_Pz_III/normal/lod0/Turret_01.model</undamaged>
@@ -881,7 +881,7 @@
       <physicsShape>1.000 0.010 1.010 0.000 0.560 0.195 1.000 0.505 0.070 0.500 0.370 0.500 0.155 0.720 0.370</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -980,9 +980,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

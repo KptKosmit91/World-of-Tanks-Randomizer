@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>46</forward>
@@ -23,12 +23,12 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>50</armor_1>
@@ -122,7 +122,7 @@
   <chassis>
     <Chassis_G_Panther_1>
       <userString>#germany_vehicles:Chassis_G_Panther_1</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16700</price>
       <unlocks>
@@ -471,7 +471,7 @@
             <length>0.152797</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.88789</xStart>
@@ -625,7 +625,7 @@
                 <point>-1.42901 1.3575 2.99482</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -652,7 +652,7 @@
             <length>0.152796</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.88789</xStart>
@@ -806,14 +806,14 @@
                 <point>-1.42901 1.3575 2.99482</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -833,7 +833,7 @@
     </Chassis_G_Panther_1>
     <Chassis_G_Panther_2>
       <userString>#germany_vehicles:Chassis_G_Panther_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22070</price>
       <armor>
@@ -1178,7 +1178,7 @@
             <length>0.152797</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.88789</xStart>
@@ -1332,7 +1332,7 @@
                 <point>-1.42901 1.3575 2.99482</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1359,7 +1359,7 @@
             <length>0.152796</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.88789</xStart>
@@ -1513,14 +1513,14 @@
                 <point>-1.42901 1.3575 2.99482</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1649,7 +1649,7 @@
             <density>83.9811 83.6871</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_150mm_sFH18_L30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_sFH18_L30>
         <_150mm_sFH36_L43>shared  <maxAmmo>30</maxAmmo>
           <reloadTime>27</reloadTime>
           <unlocks>
@@ -1728,7 +1728,7 @@
             <density>100.749 104.222</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_150mm_sFH36_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_sFH36_L43>
       </guns>
       <models>
         <undamaged>vehicles/german/G49_G_Panther/normal/lod0/Turret_01.model</undamaged>
@@ -1913,7 +1913,7 @@
     <armour>0.727645535</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

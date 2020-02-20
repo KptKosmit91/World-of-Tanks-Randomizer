@@ -1,11 +1,11 @@
 <G86_VK2001DB.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -127,7 +127,7 @@
   <chassis>
     <Chassis_VK2001DB>
       <userString>#germany_vehicles:Chassis_VK2001DB</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1900</price>
       <unlocks>
@@ -813,7 +813,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -833,7 +833,7 @@
     </Chassis_VK2001DB>
     <Chassis_VK2001DB_2>
       <userString>#germany_vehicles:Chassis_VK2001DB_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4600</price>
       <armor>
@@ -1515,7 +1515,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1537,7 +1537,7 @@
   <turrets0>
     <Turret_1_VK2001DB>
       <userString>#germany_vehicles:Turret_1_VK2001DB</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2500</price>
       <unlocks>
@@ -1659,7 +1659,7 @@
             <density>142.291 139.593</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_38_L42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_38_L42>
         <_50mm_KwK_39_L60>shared  <maxAmmo>90</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1746,7 +1746,7 @@
             <density>144.118 154.176</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60>
       </guns>
       <models>
         <undamaged>vehicles/german/G86_VK2001DB/normal/lod0/Turret_01.model</undamaged>
@@ -1810,7 +1810,7 @@
     </Turret_1_VK2001DB>
     <Turret_2_VK2001DB>
       <userString>#germany_vehicles:Turret_2_VK2001DB</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5000</price>
       <unlocks>
@@ -1932,7 +1932,7 @@
             <density>142.291 139.593</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_38_L42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_38_L42>
         <_50mm_KwK_39_L60>shared  <maxAmmo>90</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2019,7 +2019,7 @@
             <density>144.118 154.176</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60>
         <_75mm_KwK_37_L24>shared  <maxAmmo>50</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2110,7 +2110,7 @@
             <density>137.629 135.634</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_37_L24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_37_L24>
       </guns>
       <models>
         <undamaged>vehicles/german/G86_VK2001DB/normal/lod0/Turret_02.model</undamaged>
@@ -2294,7 +2294,7 @@
     <armour>0.848430584</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

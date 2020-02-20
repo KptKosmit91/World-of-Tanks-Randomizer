@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_R105_BT_7A>
       <userString>#ussr_vehicles:Chassis_R105_BT_7A</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <notInShop>true</notInShop>
@@ -479,7 +479,7 @@
             <length>0.169211</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.64452</xStart>
@@ -631,7 +631,7 @@
                 <point>-0.811273 1.04352 2.81556</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -662,7 +662,7 @@
             <length>0.16928</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.63456</xStart>
@@ -814,14 +814,14 @@
                 <point>0.811376 1.02054 2.84345</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -843,7 +843,7 @@
   <turrets0>
     <Turret_1_R105_BT_7A>
       <userString>#ussr_vehicles:Turret_1_R105_BT_7A</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <notInShop>true</notInShop>
@@ -942,7 +942,7 @@
             <density>136.698 136.648</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_KT-28A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_KT-28A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R105_BT_7A/normal/lod0/Turret_01.model</undamaged>
@@ -1084,7 +1084,7 @@
     <armour>0.791120772</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

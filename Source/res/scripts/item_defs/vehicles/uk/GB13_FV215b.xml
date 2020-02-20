@@ -1,9 +1,9 @@
 <GB13_FV215b.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -983,7 +983,7 @@
   <chassis>
     <Chassis_GB13_FV215b>
       <userString>#gb_vehicles:Chassis_GB13_FV215b</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1909,7 +1909,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1931,7 +1931,7 @@
   <turrets0>
     <Turret_1_GB13_FV215b>
       <userString>#gb_vehicles:Turret_1_GB13_FV215b</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -2056,7 +2056,7 @@
             <density>106.003 106.24</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_L1A1_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_L1A1_A>
       </guns>
       <models>
         <undamaged>vehicles/british/GB13_FV215b/normal/lod0/Turret_01.model</undamaged>

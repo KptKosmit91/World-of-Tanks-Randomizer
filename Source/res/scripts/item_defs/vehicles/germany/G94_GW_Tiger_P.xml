@@ -1,12 +1,12 @@
 <G94_GW_Tiger_P.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -495,7 +495,7 @@
   <chassis>
     <Chassis_GW_Elefant>
       <userString>#germany_vehicles:Chassis_GW_Elefant</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <unlocks>
@@ -980,7 +980,7 @@
             <length>0.132357</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.10527</xStart>
@@ -1182,7 +1182,7 @@
                 <point>-1.22388 1.22301 4.15142</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1213,7 +1213,7 @@
             <length>0.132651</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.09205</xStart>
@@ -1414,14 +1414,14 @@
                 <point>1.40389 1.23218 4.13424</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1441,7 +1441,7 @@
     </Chassis_GW_Elefant>
     <Chassis_GW_Elefant_2>
       <userString>#germany_vehicles:Chassis_GW_Elefant_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>36000</price>
       <armor>
@@ -1922,7 +1922,7 @@
             <length>0.132357</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.10527</xStart>
@@ -2131,7 +2131,7 @@
                 <point>1.27389 1.2229 4.14355</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -2162,7 +2162,7 @@
             <length>0.132651</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.09205</xStart>
@@ -2371,14 +2371,14 @@
                 <point>1.27389 1.2229 4.14355</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2506,7 +2506,7 @@
             <density>92.2968 86.6925</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_170mm_K72_Sf_>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_170mm_K72_Sf_>
         <_210mm_Morser_21>shared  <maxAmmo>15</maxAmmo>
           <shotDispersionRadius>0.79</shotDispersionRadius>
           <armor>
@@ -2583,7 +2583,7 @@
             <density>82.4841 85.7258</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_210mm_Morser_21>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_210mm_Morser_21>
       </guns>
       <models>
         <undamaged>vehicles/german/G94_GW_Tiger_P/normal/lod0/Turret_01.model</undamaged>
@@ -2600,8 +2600,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_06</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_GW_Elefant>
@@ -2723,7 +2723,7 @@
     <armour>0.499670091</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

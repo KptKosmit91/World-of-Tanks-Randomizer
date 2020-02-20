@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
+    <gunner />
+    <radioman />
+    <driver />
   </crew>
   <speedLimits>
     <forward>61</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -129,7 +129,7 @@
   <chassis>
     <chassisE1_LL>
       <userString>#ussr_vehicles:chassisE1_LL</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>1420</price>
       <notInShop>true</notInShop>
@@ -937,7 +937,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -959,7 +959,7 @@
   <turrets0>
     <D37812_LL>
       <userString>#ussr_vehicles:D37812_LL</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>1880</price>
       <notInShop>true</notInShop>
@@ -1043,7 +1043,7 @@
             <density>199.355 198.859</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-5_LL>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5_LL>
       </guns>
       <models>
         <undamaged>vehicles/russian/R67_M3_LL/normal/lod0/Turret_01.model</undamaged>
@@ -1164,7 +1164,7 @@
     <armour>0.77881542</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

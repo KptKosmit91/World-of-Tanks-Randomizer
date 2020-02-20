@@ -1,9 +1,9 @@
 <R24_SU-76.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -157,7 +157,7 @@
   <chassis>
     <SU-76>
       <userString>#ussr_vehicles:SU-76_1</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>580</price>
       <unlocks>
@@ -1035,7 +1035,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1055,7 +1055,7 @@
     </SU-76>
     <SU-76bis>
       <userString>#ussr_vehicles:SU-76bis</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1730</price>
       <armor>
@@ -1927,7 +1927,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2047,7 +2047,7 @@
             <density>95.344 100.671</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-8_S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-8_S>
         <_76mm_ZiS-3_mod_42>shared  <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
             <maxPitch>0 5 1 5</maxPitch>
@@ -2120,7 +2120,7 @@
             <density>97.3504 97.6664</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_ZiS-3_mod_42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_ZiS-3_mod_42>
         <_57mm_ZiS-2>shared  <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
             <maxPitch>0 5 1 5</maxPitch>
@@ -2189,7 +2189,7 @@
             <density>98.6047 99.9279</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-2>
       </guns>
       <models>
         <undamaged>vehicles/russian/R24_SU-76/normal/lod0/Turret_01.model</undamaged>
@@ -2338,7 +2338,7 @@
     <armour>0.845233259</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

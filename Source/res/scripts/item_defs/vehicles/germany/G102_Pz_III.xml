@@ -1,11 +1,11 @@
 <G102_Pz_III.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>68</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -120,7 +120,7 @@
     <PzIIIketten_Ausf_A>
       <userString>#germany_vehicles:PzIIIketten_Ausf_A</userString>
       <shortUserString>#germany_vehicles:PzIIIketten_Ausf_A_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>660</price>
       <unlocks>
@@ -806,7 +806,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -827,7 +827,7 @@
     <PzIIIketten_Ausf_B>
       <userString>#germany_vehicles:PzIIIketten_Ausf_B</userString>
       <shortUserString>#germany_vehicles:PzIIIketten_Ausf_B_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2050</price>
       <armor>
@@ -1509,7 +1509,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1532,7 +1532,7 @@
     <PzIII_Ausf_A>
       <userString>#germany_vehicles:PzIII_Ausf_A</userString>
       <shortUserString>#germany_vehicles:PzIII_Ausf_A_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>720</price>
       <armor>
@@ -1622,7 +1622,7 @@
             <density>165.404 171.271</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_L46>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_L46>
         <_20mm_KwK_38_L55>shared  <unlocks>
             <turret>PzIII_Ausf_C  <cost>400</cost>
             </turret>
@@ -1687,7 +1687,7 @@
             <density>172.635 174.987</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_38_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_38_L55>
       </guns>
       <models>
         <undamaged>vehicles/german/G102_Pz_III/normal/lod0/Turret_01.model</undamaged>
@@ -1762,7 +1762,7 @@
     <PzIII_Ausf_C>
       <userString>#germany_vehicles:PzIII_Ausf_C</userString>
       <shortUserString>#germany_vehicles:PzIII_Ausf_C_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <unlocks>
@@ -1863,7 +1863,7 @@
             <density>165.404 171.271</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_L46>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_L46>
         <_20mm_KwK_38_L55>shared  <maxAmmo>400</maxAmmo>
           <reloadTime>3.4</reloadTime>
           <aimingTime>1.4</aimingTime>
@@ -1924,7 +1924,7 @@
             <density>172.635 174.987</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_38_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_38_L55>
         <_50mm_KwK_38_L42>shared  <maxAmmo>76</maxAmmo>
           <unlocks>
             <vehicle>G90_DW_II  <cost>5020</cost>
@@ -1992,7 +1992,7 @@
             <density>162.19 161.018</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_38_L42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_38_L42>
         <_20mm_Flak_38_L112>shared  <maxAmmo>400</maxAmmo>
           <aimingTime>1.4</aimingTime>
           <reloadTime>3.4</reloadTime>
@@ -2053,7 +2053,7 @@
             <density>178.959 191.651</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
       </guns>
       <models>
         <undamaged>vehicles/german/G102_Pz_III/normal/lod0/Turret_02.model</undamaged>
@@ -2243,9 +2243,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

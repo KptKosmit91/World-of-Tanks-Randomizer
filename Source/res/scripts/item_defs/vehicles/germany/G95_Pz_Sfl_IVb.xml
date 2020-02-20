@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_Pz_Sfl_IVb>
       <userString>#germany_vehicles:Chassis_Pz_Sfl_IVb</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <unlocks>
@@ -379,7 +379,7 @@
             <length>0.116667</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.46096</xStart>
@@ -587,7 +587,7 @@
             <length>0.117634</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.43583</xStart>
@@ -775,7 +775,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -795,7 +795,7 @@
     </Chassis_Pz_Sfl_IVb>
     <Chassis_Pz_Sfl_IVb_2>
       <userString>#germany_vehicles:Chassis_Pz_Sfl_IVb_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4750</price>
       <armor>
@@ -1063,7 +1063,7 @@
             <length>0.116667</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.46096</xStart>
@@ -1271,7 +1271,7 @@
             <length>0.117634</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.43583</xStart>
@@ -1459,7 +1459,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1590,7 +1590,7 @@
             <density>97.0102 95.5715</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_leFH16_L22>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_leFH16_L22>
         <_105mm_leFH18_L28>shared  <maxAmmo>60</maxAmmo>
           <pitchLimits>
             <minPitch>0 -40 1 -40</minPitch>
@@ -1668,7 +1668,7 @@
             <density>96.8596 96.053</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_leFH18_L28>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_leFH18_L28>
       </guns>
       <models>
         <undamaged>vehicles/german/G95_Pz_Sfl_IVb/normal/lod0/Turret_01.model</undamaged>
@@ -1862,7 +1862,7 @@
     <armour>0.789172888</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

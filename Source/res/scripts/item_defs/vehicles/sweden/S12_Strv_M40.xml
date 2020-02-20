@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -105,7 +105,7 @@
   <chassis>
     <Chassis_S12_Strv_M40>
       <userString>#sweden_vehicles:Chassis_S12_Strv_M40</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>520</price>
       <unlocks>
@@ -353,7 +353,7 @@
             <length>0.0743676</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.10096</xStart>
@@ -536,7 +536,7 @@
                 <point>-0.723872 1.16575 2.1753</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -563,7 +563,7 @@
             <length>0.0748981</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.07947</xStart>
@@ -745,14 +745,14 @@
                 <point>0.723909 1.15305 2.18986</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -772,7 +772,7 @@
     </Chassis_S12_Strv_M40>
     <Chassis_S12_Strv_M40_2>
       <userString>#sweden_vehicles:Chassis_S12_Strv_M40_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1940</price>
       <armor>
@@ -1018,7 +1018,7 @@
             <length>0.0743676</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.10096</xStart>
@@ -1201,7 +1201,7 @@
                 <point>-0.723872 1.16575 2.1753</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1228,7 +1228,7 @@
             <length>0.0748981</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.07947</xStart>
@@ -1410,14 +1410,14 @@
                 <point>0.723909 1.15305 2.18986</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1439,7 +1439,7 @@
   <turrets0>
     <Turret_1_S12_Strv_M40>
       <userString>#sweden_vehicles:Turret_1_S12_Strv_M40</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <armor>
@@ -1536,7 +1536,7 @@
             <density>246.013 250.853</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_kan_m_38_strv>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_kan_m_38_strv>
         <_37mm_kan_m_38_49_strv>shared  <maxAmmo>100</maxAmmo>
           <unlocks>
             <turret>Turret_2_S12_Strv_M40  <cost>380</cost>
@@ -1603,7 +1603,7 @@
             <density>246.013 250.853</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_kan_m_38_49_strv>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_kan_m_38_49_strv>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S12_Strv_M40/normal/lod0/Turret_01.model</undamaged>
@@ -1687,7 +1687,7 @@
     </Turret_1_S12_Strv_M40>
     <Turret_2_S12_Strv_M40>
       <userString>#sweden_vehicles:Turret_2_S12_Strv_M40</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2200</price>
       <unlocks>
@@ -1785,7 +1785,7 @@
             <density>246.013 250.853</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_kan_m_38_strv>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_kan_m_38_strv>
         <_37mm_kan_m_38_49_strv>shared  <maxAmmo>100</maxAmmo>
           <armor>
             <armor_1>50  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1847,7 +1847,7 @@
             <density>246.013 250.853</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_kan_m_38_49_strv>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_kan_m_38_49_strv>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S12_Strv_M40/normal/lod0/Turret_02.model</undamaged>
@@ -2066,7 +2066,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

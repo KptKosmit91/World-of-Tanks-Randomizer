@@ -1,11 +1,11 @@
 <GB21_Cromwell.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>64</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -114,7 +114,7 @@
   <chassis>
     <Chassis_GB21_Cromwell>
       <userString>#gb_vehicles:Chassis_GB21_Cromwell</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>4000</price>
       <unlocks>
@@ -478,7 +478,7 @@
             <length>0.101257</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92722</xStart>
@@ -669,7 +669,7 @@
                 <point>-1.2315 1.09266 2.99637</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -696,7 +696,7 @@
             <length>0.101257</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92722</xStart>
@@ -887,14 +887,14 @@
                 <point>1.31151 1.09286 2.99637</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -914,7 +914,7 @@
     </Chassis_GB21_Cromwell>
     <Chassis_GB21_Cromwell_2>
       <userString>#gb_vehicles:Chassis_GB21_Cromwell_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>19000</price>
       <armor>
@@ -1274,7 +1274,7 @@
             <length>0.101257</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92722</xStart>
@@ -1465,7 +1465,7 @@
                 <point>-1.2315 1.09266 2.99637</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1492,7 +1492,7 @@
             <length>0.101257</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92722</xStart>
@@ -1683,14 +1683,14 @@
                 <point>1.31151 1.09286 2.99637</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1712,7 +1712,7 @@
   <turrets0>
     <Turret_1_GB21_Cromwell>
       <userString>#gb_vehicles:Turret_1_GB21_Cromwell</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12500</price>
       <armor>
@@ -1819,7 +1819,7 @@
             <density>119.643 123.478</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_III>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_III>
         <QF_6_pounder_Mk_V>shared  <maxAmmo>75</maxAmmo>
           <unlocks>
             <turret>Turret_2_GB21_Cromwell  <cost>4200</cost>
@@ -1897,7 +1897,7 @@
             <density>119.269 123.198</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V>
         <_3.7inch_Howitzer>shared  <maxAmmo>40</maxAmmo>
           <armor>
             <gun>40</gun>
@@ -1969,7 +1969,7 @@
             <density>114.474 120.617</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_3.7inch_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3.7inch_Howitzer>
       </guns>
       <models>
         <undamaged>vehicles/british/GB21_Cromwell/normal/lod0/Turret_01.model</undamaged>
@@ -2033,7 +2033,7 @@
     </Turret_1_GB21_Cromwell>
     <Turret_2_GB21_Cromwell>
       <userString>#gb_vehicles:Turret_2_GB21_Cromwell</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17500</price>
       <unlocks>
@@ -2135,7 +2135,7 @@
             <density>119.643 123.478</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_III>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_III>
         <QF_6_pounder_Mk_V>shared  <maxAmmo>75</maxAmmo>
           <armor>
             <gun>10</gun>
@@ -2202,7 +2202,7 @@
             <density>119.269 123.198</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V>
         <_3.7inch_Howitzer>shared  <maxAmmo>40</maxAmmo>
           <armor>
             <gun>40</gun>
@@ -2269,7 +2269,7 @@
             <density>114.474 120.617</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_3.7inch_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3.7inch_Howitzer>
         <_75mm_Gun_Mk_V>shared  <maxAmmo>64</maxAmmo>
           <unlocks>
             <gun>_75mm_Gun_Vickers_HV  <cost>5000</cost>
@@ -2347,7 +2347,7 @@
             <density>118.267 126.063</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Mk_V>
         <_75mm_Gun_Vickers_HV>shared  <maxAmmo>64</maxAmmo>
           <unlocks>
             <vehicle>GB22_Comet  <cost>58000</cost>
@@ -2423,7 +2423,7 @@
             <density>118.322 124.644</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Vickers_HV>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Vickers_HV>
       </guns>
       <models>
         <undamaged>vehicles/british/GB21_Cromwell/normal/lod0/Turret_02.model</undamaged>
@@ -2607,7 +2607,7 @@
     <armour>0.896736835</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

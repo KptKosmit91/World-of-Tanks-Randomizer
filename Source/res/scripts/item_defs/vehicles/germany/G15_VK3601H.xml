@@ -1,11 +1,11 @@
 <G15_VK3601H.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50.5</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -123,7 +123,7 @@
     <VK3601H_henshelketten>
       <userString>#germany_vehicles:VK3601H_henshelketten</userString>
       <shortUserString>#germany_vehicles:VK3601H_henshelketten_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9970</price>
       <unlocks>
@@ -877,7 +877,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -898,7 +898,7 @@
     <VK3601H_henshelketten_ausf_B>
       <userString>#germany_vehicles:VK3601H_henshelketten_ausf_B</userString>
       <shortUserString>#germany_vehicles:VK3601H_henshelketten_ausf_B_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15440</price>
       <armor>
@@ -1648,7 +1648,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1671,7 +1671,7 @@
     <VK3601H_Standardturm>
       <userString>#germany_vehicles:VK3601H_Standardturm</userString>
       <shortUserString>#germany_vehicles:VK3601H_Standardturm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9680</price>
       <armor>
@@ -1782,7 +1782,7 @@
             <density>94.737 108.99</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28Pz>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28Pz>
         <_75mm_KwK_L70>shared  <reloadTime>4.8</reloadTime>
           <armor>
             <armor_1>80  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1861,7 +1861,7 @@
             <density>111.618 111.853</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
         <_75mm_KwK41_L58_conic>shared  <shotDispersionFactors>
             <turretRotation>0.16</turretRotation>
             <afterShot>4</afterShot>
@@ -1941,7 +1941,7 @@
             <density>104.214 118.008</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK41_L58_conic>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK41_L58_conic>
       </guns>
       <models>
         <undamaged>vehicles/german/G15_VK3601H/normal/lod0/Turret_01.model</undamaged>
@@ -2016,7 +2016,7 @@
     <VK3601H_Grosseturm>
       <userString>#germany_vehicles:VK3601H_Grosseturm</userString>
       <shortUserString>#germany_vehicles:VK3601H_Grosseturm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14560</price>
       <unlocks>
@@ -2131,7 +2131,7 @@
             <density>94.737 108.99</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28Pz>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28Pz>
         <_75mm_KwK_L70>shared  <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_1>
@@ -2208,7 +2208,7 @@
             <density>111.618 111.853</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
         <_75mm_KwK41_L58_conic>shared  <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_1>
@@ -2286,7 +2286,7 @@
             <density>104.214 118.008</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK41_L58_conic>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK41_L58_conic>
         <_88mm_KwK_36_L56>shared  <unlocks>
             <vehicle>G04_PzVI_Tiger_I  <cost>45050</cost>
             </vehicle>
@@ -2363,7 +2363,7 @@
             <density>115.771 105.836</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56>
       </guns>
       <models>
         <undamaged>vehicles/german/G15_VK3601H/normal/lod0/Turret_02.model</undamaged>
@@ -2548,7 +2548,7 @@
     <armour>0.930391702</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

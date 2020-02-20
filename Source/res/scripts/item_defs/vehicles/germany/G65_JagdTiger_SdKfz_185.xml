@@ -1,12 +1,12 @@
 <G65_JagdTiger_SdKfz_185.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -1408,7 +1408,7 @@
   <chassis>
     <Chassis_JagdTiger_SdKfz_185>
       <userString>#germany_vehicles:Chassis_JagdTiger_SdKfz_185</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28100</price>
       <notInShop>true</notInShop>
@@ -1581,7 +1581,7 @@
             <length>0.134868</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.53002</xStart>
@@ -1761,7 +1761,7 @@
                 <point>-1.64439 1.31047 3.34848</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1792,7 +1792,7 @@
             <length>0.134868</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.53002</xStart>
@@ -1972,14 +1972,14 @@
                 <point>1.64447 1.30161 3.34844</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2130,7 +2130,7 @@
             <density>96.8391 101.042</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_Pak_43_L71A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_Pak_43_L71A>
       </guns>
       <models>
         <undamaged>vehicles/german/G65_JagdTiger_SdKfz_185/normal/lod0/Turret_01.model</undamaged>
@@ -2147,8 +2147,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_JagdTiger_SdKfz_185>
@@ -2213,7 +2213,7 @@
     <armour>0.759051724</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

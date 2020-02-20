@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1044,7 +1044,7 @@
   <chassis>
     <Chassis_GB87_Chieftain_T95_turret>
       <userString>#gb_vehicles:Chassis_GB87_Chieftain_T95_turret</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1297,7 +1297,7 @@
             <length>0.154956</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.51558</xStart>
@@ -1476,7 +1476,7 @@
                 <point>-1.33612 1.32663 3.61236</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1503,7 +1503,7 @@
             <length>0.154946</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.51577</xStart>
@@ -1682,14 +1682,14 @@
                 <point>1.51609 1.19877 3.61173</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1841,10 +1841,10 @@
             <density>127.661 137.147</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T208_rifled>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T208_rifled>
       </guns>
       <userString>#gb_vehicles:Turret_1_GB87_Chieftain_T95_turret</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2286,9 +2286,9 @@
     </Turret_1_GB87_Chieftain_T95_turret>
   </turrets0>
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>

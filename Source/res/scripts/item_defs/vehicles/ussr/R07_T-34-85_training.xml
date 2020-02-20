@@ -1,11 +1,11 @@
 <R07_T-34-85_training.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>54</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -97,7 +97,7 @@
   <chassis>
     <T-34-85Bis2>
       <userString>#ussr_vehicles:T-34-85Bis</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>9500</price>
       <notInShop>true</notInShop>
@@ -475,7 +475,7 @@
             <length>0.159299</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94778</xStart>
@@ -624,7 +624,7 @@
                 <point>-1.1853 1.05817 2.84757</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -655,7 +655,7 @@
             <length>0.157758</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92813</xStart>
@@ -804,7 +804,7 @@
                 <point>1.1853 1.05817 2.84757</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -851,7 +851,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T-34-85Bis2>
@@ -860,7 +860,7 @@
     <T-34_mod_100_2>
       <userString>#ussr_vehicles:T-34_mod_100</userString>
       <shortUserString>#ussr_vehicles:T-34_mod_100_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>15550</price>
       <notInShop>true</notInShop>
@@ -947,7 +947,7 @@
             <density>133.512 140.824</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53T>
       </guns>
       <models>
         <undamaged>vehicles/russian/R07_T-34-85/normal/lod0/Turret_02.model</undamaged>
@@ -1072,9 +1072,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <G41_DickerMax.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -156,7 +156,7 @@
   <chassis>
     <Chassis_DickerMax>
       <userString>#germany_vehicles:Chassis_DickerMax</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <notInShop>true</notInShop>
@@ -949,7 +949,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1080,7 +1080,7 @@
             <density>141.148 150.084</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_K18_L52A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_K18_L52A>
       </guns>
       <models>
         <undamaged>vehicles/german/G41_DickerMax/normal/lod0/Turret_01.model</undamaged>
@@ -1098,7 +1098,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1174,7 +1174,7 @@
     <armour>0.655714106</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

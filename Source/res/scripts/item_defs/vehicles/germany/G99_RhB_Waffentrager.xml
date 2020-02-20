@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -22,12 +22,12 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>4.5 4.5 0.48 0.48</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>20</armor_1>
@@ -323,7 +323,7 @@
   <chassis>
     <Chassis_RhB_Waffentrager>
       <userString>#germany_vehicles:Chassis_RhB_Waffentrager</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <unlocks>
@@ -751,7 +751,7 @@
             <length>0.107328</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3241</xStart>
@@ -947,7 +947,7 @@
                 <point>-1.31254 0.955435 3.16932</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -974,7 +974,7 @@
             <length>0.107328</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3241</xStart>
@@ -1170,14 +1170,14 @@
                 <point>1.31257 0.935375 3.16932</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1197,7 +1197,7 @@
     </Chassis_RhB_Waffentrager>
     <Chassis_RhB_Waffentrager_2>
       <userString>#germany_vehicles:Chassis_RhB_Waffentrager_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <armor>
@@ -1621,7 +1621,7 @@
             <length>0.107328</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3241</xStart>
@@ -1817,7 +1817,7 @@
                 <point>-1.31254 0.955435 3.16932</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1844,7 +1844,7 @@
             <length>0.107328</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3241</xStart>
@@ -2040,14 +2040,14 @@
                 <point>1.31257 0.935375 3.16932</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2175,7 +2175,7 @@
             <density>92.055 102.461</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_K44_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_K44_L55>
         <_150mm_Rohr_L29_5>shared  <maxAmmo>30</maxAmmo>
           <unlocks>
             <vehicle>G97_Waffentrager_IV  <cost>163500</cost>
@@ -2255,7 +2255,7 @@
             <density>102.869 103.952</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_150mm_Rohr_L29_5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_Rohr_L29_5>
       </guns>
       <models>
         <undamaged>vehicles/german/G99_RhB_Waffentrager/normal/lod0/Turret_01.model</undamaged>
@@ -2585,7 +2585,7 @@
     <armour>1.073900038</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -156,7 +156,7 @@
   <chassis>
     <Chassis_AMX_105AM>
       <userString>#france_vehicles:Chassis_AMX_105AM</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3600</price>
       <unlocks>
@@ -1026,7 +1026,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1046,7 +1046,7 @@
     </Chassis_AMX_105AM>
     <Chassis_AMX_105AM_2>
       <userString>#france_vehicles:Chassis_AMX_105AM_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9000</price>
       <armor>
@@ -1912,7 +1912,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2037,7 +2037,7 @@
             <density>100.064 111.721</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_105_court_mle_1934S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_court_mle_1934S>
         <Canon_de_105_mle_1930_Schneider_AM>shared  <maxAmmo>34</maxAmmo>
           <unlocks>
             <vehicle>F23_AMX_13F3AM  <cost>31900</cost>
@@ -2118,7 +2118,7 @@
             <density>99.0156 111.318</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_105_mle_1930_Schneider_AM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_mle_1930_Schneider_AM>
       </guns>
       <models>
         <undamaged>vehicles/french/F22_AMX_105AM/normal/lod0/Turret_01.model</undamaged>
@@ -2136,7 +2136,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2267,7 +2267,7 @@
     <armour>0.673501918</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

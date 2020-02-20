@@ -1,11 +1,11 @@
 <A117_T26E5.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40.2</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -814,7 +814,7 @@
   <chassis>
     <Chassis_A117_T26E5>
       <userString>#usa_vehicles:Chassis_A117_T26E5</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>16300</price>
       <armor>
@@ -1098,7 +1098,7 @@
             <length>0.0766625</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98989</xStart>
@@ -1326,7 +1326,7 @@
                 <point>-1.40233 1.28849 2.82156</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1357,7 +1357,7 @@
             <length>0.0766616</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98985</xStart>
@@ -1585,14 +1585,14 @@
                 <point>1.67234 1.30971 2.82166</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1614,7 +1614,7 @@
   <turrets0>
     <Turret_1_A117_T26E5>
       <userString>#usa_vehicles:Turret_1_A117_T26E5</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>21800</price>
       <armor>
@@ -1807,7 +1807,7 @@
             <density>104.449 101.674</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T7E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T7E1>
       </guns>
       <notInShop>true</notInShop>
       <models>
@@ -2280,7 +2280,7 @@
   <radios>
     <SCR_528A1>shared</SCR_528A1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <premiumVehicleXPFactor>0.1</premiumVehicleXPFactor>
   <crewXpFactor>1.5</crewXpFactor>
   <physics>
@@ -2330,7 +2330,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

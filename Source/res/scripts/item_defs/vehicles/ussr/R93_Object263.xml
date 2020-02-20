@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -167,7 +167,7 @@
   <chassis>
     <Chassis_R93_Object263>
       <userString>#ussr_vehicles:Chassis_R93_Object263</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28150</price>
       <unlocks>
@@ -635,7 +635,7 @@
             <length>0.149</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.62197</xStart>
@@ -807,7 +807,7 @@
                 <point>-1.59309 0.993893 3.52998</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -834,7 +834,7 @@
             <length>0.149</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.62197</xStart>
@@ -1006,14 +1006,14 @@
                 <point>1.46309 1.02917 3.52999</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1033,7 +1033,7 @@
     </Chassis_R93_Object263>
     <Chassis_R93_Object263_2>
       <userString>#ussr_vehicles:Chassis_R93_Object263_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>63000</price>
       <armor>
@@ -1497,7 +1497,7 @@
             <length>0.149</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.62197</xStart>
@@ -1669,7 +1669,7 @@
                 <point>-1.59309 0.993893 3.52998</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1696,7 +1696,7 @@
             <length>0.149</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.62197</xStart>
@@ -1868,14 +1868,14 @@
                 <point>1.46309 1.02917 3.52999</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2003,7 +2003,7 @@
             <density>111.527 111.984</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_122mm_M62-T2S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_M62-T2S>
         <_130mm_S-70A>shared  <maxAmmo>42</maxAmmo>
           <armor>
             <armor_1>250  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2087,7 +2087,7 @@
             <density>97.613 107.601</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_130mm_S-70A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_S-70A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R93_Object263/normal/lod0/Turret_01.model</undamaged>
@@ -2105,7 +2105,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>

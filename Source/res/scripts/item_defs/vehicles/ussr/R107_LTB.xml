@@ -1,9 +1,9 @@
 <R107_LTB.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -225,7 +225,7 @@
   <chassis>
     <Chassis_R107_LTB>
       <userString>#ussr_vehicles:Chassis_R107_LTB</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17600</price>
       <unlocks>
@@ -1008,7 +1008,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1028,7 +1028,7 @@
     </Chassis_R107_LTB>
     <Chassis_R107_LTB_2>
       <userString>#ussr_vehicles:Chassis_R107_LTB_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30600</price>
       <armor>
@@ -1807,7 +1807,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1829,7 +1829,7 @@
   <turrets0>
     <Turret_1_R107_LTB>
       <userString>#ussr_vehicles:Turret_1_R107_LTB</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1964,7 +1964,7 @@
             <density>133.331 152.839</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D5T-85BMU>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D5T-85BMU>
         <_85mm_D10_85>shared  <maxAmmo>42</maxAmmo>
           <unlocks>
             <vehicle>R40_T-54  <cost>225300</cost>
@@ -2065,7 +2065,7 @@
             <density>108.445 115.761</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D10_85>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D10_85>
       </guns>
       <models>
         <undamaged>vehicles/russian/R107_LTB/normal/lod0/Turret_01.model</undamaged>
@@ -2441,7 +2441,7 @@
     <armour>1.096437537</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <gunner />
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>58</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <Chassis_GB14_M2>
       <userString>#gb_vehicles:Chassis_GB14_M2</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>330</price>
       <unlocks>
@@ -1022,7 +1022,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1042,7 +1042,7 @@
     </Chassis_GB14_M2>
     <Chassis_GB14_M2_2>
       <userString>#gb_vehicles:Chassis_GB14_M2_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>630</price>
       <armor>
@@ -1936,7 +1936,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2048,7 +2048,7 @@
             <density>219.83 233.993</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_12.7mm_MG_HB_M2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_12.7mm_MG_HB_M2>
       </guns>
       <models>
         <undamaged>vehicles/british/GB14_M2/normal/lod0/Turret_01.model</undamaged>
@@ -2112,7 +2112,7 @@
     </Turret_1_GB14_M2>
     <Turret_2_GB14_M2>
       <userString>#gb_vehicles:Turret_2_GB14_M2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>640</price>
       <unlocks>
@@ -2208,7 +2208,7 @@
             <density>219.83 233.993</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_12.7mm_MG_HB_M2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_12.7mm_MG_HB_M2>
         <_37mm_M-5>shared  <maxAmmo>103</maxAmmo>
           <unlocks>
             <vehicle>GB15_Stuart_I  <cost>1215</cost>
@@ -2281,7 +2281,7 @@
             <density>212.628 214.439</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_M-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5>
       </guns>
       <models>
         <undamaged>vehicles/british/GB14_M2/normal/lod0/Turret_02.model</undamaged>
@@ -2456,7 +2456,7 @@
     <armour>0.75811301</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

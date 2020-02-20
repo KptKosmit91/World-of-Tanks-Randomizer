@@ -1,11 +1,11 @@
 <A63_M46_Patton_KR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48.3</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -87,8 +87,8 @@
     </customizationSlots>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <camouflage>
@@ -99,7 +99,7 @@
   <chassis>
     <Chassis_M46_Patton_KR>
       <userString>#usa_vehicles:Chassis_M46_Patton_KR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>16300</price>
       <notInShop>true</notInShop>
@@ -407,7 +407,7 @@
             <length>0.0630288</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19698</xStart>
@@ -671,7 +671,7 @@
                 <point>-1.56095 1.33071 2.72624</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -702,7 +702,7 @@
             <length>0.0630289</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19699</xStart>
@@ -966,14 +966,14 @@
                 <point>1.56097 1.31255 2.72623</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_M46_Patton_KR>
@@ -981,7 +981,7 @@
   <turrets0>
     <Turret_1_M46_Patton_KR>
       <userString>#usa_vehicles:Turret_1_M46_Patton_KR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>21800</price>
       <notInShop>true</notInShop>
@@ -1068,15 +1068,15 @@
           </customizationSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <camouflage>
             <density>106.622 109.928</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A63_M46_Patton_KR/normal/lod0/Turret_01.model</undamaged>
@@ -1093,8 +1093,8 @@
       <physicsShape>0.931 -0.071 1.000 0.000 0.607 0.080 0.697 0.649 0.394 0.553 0.104 0.500 0.056 0.100 0.000</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -1162,7 +1162,7 @@
     <armour>0.994753238</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

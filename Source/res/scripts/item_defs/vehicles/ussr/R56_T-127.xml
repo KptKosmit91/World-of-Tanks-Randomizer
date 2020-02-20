@@ -1,10 +1,10 @@
 <R56_T-127.xml>
   
   <crew>
-    <commander></commander>
+    <commander />
     <gunner>loader</gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -109,7 +109,7 @@
   <chassis>
     <Chassis_T-127>
       <userString>#ussr_vehicles:Chassis_T-127</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <notInShop>true</notInShop>
       <price>1840</price>
@@ -817,7 +817,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -839,7 +839,7 @@
   <turrets0>
     <Turret_1_T-127>
       <userString>#ussr_vehicles:Turret_1_T-127</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <notInShop>true</notInShop>
       <price>1820</price>
@@ -934,7 +934,7 @@
             <density>98.8866 101.517</density>
             <aoTextureSize>128 128</aoTextureSize>
           </camouflage>
-        </_45mm_20KL>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20KL>
       </guns>
       <models>
         <undamaged>vehicles/russian/R56_T-127/normal/lod0/Turret_01.model</undamaged>
@@ -1076,7 +1076,7 @@
     <armour>0.877402172</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

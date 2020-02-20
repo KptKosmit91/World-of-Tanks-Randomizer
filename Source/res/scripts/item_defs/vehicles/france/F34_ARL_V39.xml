@@ -1,11 +1,11 @@
 <F34_ARL_V39.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -160,7 +160,7 @@
   <chassis>
     <Chassis_ARL_V39>
       <userString>#france_vehicles:Chassis_ARL_V39</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9100</price>
       <unlocks>
@@ -1213,7 +1213,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1233,7 +1233,7 @@
     </Chassis_ARL_V39>
     <Chassis_ARL_V39_2>
       <userString>#france_vehicles:Chassis_ARL_V39_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16890</price>
       <armor>
@@ -2282,7 +2282,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2414,7 +2414,7 @@
             <density>137.085 137.146</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_APX>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_APX>
         <_75mm_Long_44_AC>shared  <maxAmmo>160</maxAmmo>
           <unlocks>
             <gun>Canon_de_105_mle_1930_Schneider_AC  <cost>7800</cost>
@@ -2498,7 +2498,7 @@
             <density>121.985 123.306</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Long_44_AC>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Long_44_AC>
         <Canon_de_105_mle_1930_Schneider_AC>shared  <maxAmmo>80</maxAmmo>
           <armor>
             <armor_1>60  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2577,7 +2577,7 @@
             <density>125.456 129.859</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_105_mle_1930_Schneider_AC>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_mle_1930_Schneider_AC>
         <_90mm_canon_DCA_30_CA>shared  <maxAmmo>100</maxAmmo>
           <unlocks>
             <gun>_90mm_canon_DCA_45_AC  <cost>18500</cost>
@@ -2663,7 +2663,7 @@
             <density>125.825 138.017</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_30_CA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_30_CA>
         <_90mm_canon_DCA_45_AC>shared  <maxAmmo>80</maxAmmo>
           <armor>
             <armor_1>60  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2742,7 +2742,7 @@
             <density>109.702 111.338</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_45_AC>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_45_AC>
       </guns>
       <models>
         <undamaged>vehicles/french/F34_ARL_V39/normal/lod0/Turret_01.model</undamaged>
@@ -2759,8 +2759,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_ARL_V39>
@@ -2877,7 +2877,7 @@
     <armour>0.998460389</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

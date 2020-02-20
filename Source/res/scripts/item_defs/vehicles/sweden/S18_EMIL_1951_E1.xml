@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -200,7 +200,7 @@ loader</commander>
   <chassis>
     <Chassis_S18_EMIL_1951_E1>
       <userString>#sweden_vehicles:Chassis_S18_EMIL_1951_E1</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16500</price>
       <unlocks>
@@ -490,7 +490,7 @@ loader</commander>
             <length>0.120498</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.85817</xStart>
@@ -673,7 +673,7 @@ loader</commander>
                 <point>-0.965425 1.1066 2.74503</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -700,7 +700,7 @@ loader</commander>
             <length>0.118523</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.84927</xStart>
@@ -884,14 +884,14 @@ loader</commander>
                 <point>1.11544 1.11878 2.72135</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -911,7 +911,7 @@ loader</commander>
     </Chassis_S18_EMIL_1951_E1>
     <Chassis_S18_EMIL_1951_E1_2>
       <userString>#sweden_vehicles:Chassis_S18_EMIL_1951_E1_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33400</price>
       <armor>
@@ -1197,7 +1197,7 @@ loader</commander>
             <length>0.120498</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.85817</xStart>
@@ -1380,7 +1380,7 @@ loader</commander>
                 <point>-0.965425 1.1066 2.74503</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1407,7 +1407,7 @@ loader</commander>
             <length>0.118523</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.84927</xStart>
@@ -1591,14 +1591,14 @@ loader</commander>
                 <point>1.11544 1.11878 2.72135</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1620,7 +1620,7 @@ loader</commander>
   <turrets0>
     <Turret_1_S18_EMIL_1951_E1>
       <userString>#sweden_vehicles:Turret_1_S18_EMIL_1951_E1</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1819,7 +1819,7 @@ loader</commander>
             <density>102.568 101.165</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_lvkan_m_42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_lvkan_m_42>
         <_105mm_TK_105_9>shared  <maxAmmo>57</maxAmmo>
           <unlocks>
             <vehicle>S17_EMIL_1952_E2  <cost>167500</cost>
@@ -1987,7 +1987,7 @@ loader</commander>
             <density>99.7164 99.7772</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_TK_105_9>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_TK_105_9>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S18_EMIL_1951_E1/normal/lod0/Turret_01.model</undamaged>
@@ -2272,7 +2272,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -855,7 +855,7 @@
   <chassis>
     <Chassis_R148_Object_430_U>
       <userString>#ussr_vehicles:Chassis_R148_Object_430_U</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1291,7 +1291,7 @@
             <length>0.130517</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.01576</xStart>
@@ -1459,7 +1459,7 @@
                 <point>-1.43235 0.982025 3.05331</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1486,7 +1486,7 @@
             <length>0.130318</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95519</xStart>
@@ -1653,14 +1653,14 @@
                 <point>1.43236 0.948191 3.03945</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1682,7 +1682,7 @@
   <turrets0>
     <Turret_1_R148_Object_430_U>
       <userString>#ussr_vehicles:Turret_1_R148_Object_430_U</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1857,7 +1857,7 @@
             <density>125.471 136.418</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122mm_M62_T2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_M62_T2>
       </guns>
       <models>
         <undamaged>vehicles/russian/R148_Object_430_U/normal/lod0/Turret_01.model</undamaged>
@@ -2476,7 +2476,7 @@
   <radios>
     <R113M>shared</R113M>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2525,7 +2525,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

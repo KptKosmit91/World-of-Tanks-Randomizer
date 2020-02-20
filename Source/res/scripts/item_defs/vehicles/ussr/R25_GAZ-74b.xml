@@ -1,9 +1,9 @@
 <R25_GAZ-74b.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -142,7 +142,7 @@
   <chassis>
     <GAZ-74B>
       <userString>#ussr_vehicles:GAZ-74B</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <unlocks>
@@ -981,7 +981,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1001,7 +1001,7 @@
     </GAZ-74B>
     <SU-85A>
       <userString>#ussr_vehicles:SU-85A</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4510</price>
       <armor>
@@ -1836,7 +1836,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1954,7 +1954,7 @@
             <density>97.7957 102.113</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_ZiS-3_mod_42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_ZiS-3_mod_42>
         <_57mm_ZiS-2>shared  <pitchLimits>
             <minPitch>0 -7 1 -7</minPitch>
             <maxPitch>0 5 1 5</maxPitch>
@@ -2020,7 +2020,7 @@
             <density>95.9513 104.604</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-2>
         <_85mm_D-5S-85A>shared  <pitchLimits>
             <minPitch>0 -7 1 -7</minPitch>
             <maxPitch>0 5 1 5</maxPitch>
@@ -2092,7 +2092,7 @@
             <density>100.074 107.229</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D-5S-85A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D-5S-85A>
         <_85mm_LB-2S>shared  <pitchLimits>
             <minPitch>0 -7 1 -7</minPitch>
             <maxPitch>0 5 1 5</maxPitch>
@@ -2159,7 +2159,7 @@
             <density>100.163 108.142</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_LB-2S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_LB-2S>
       </guns>
       <models>
         <undamaged>vehicles/russian/R25_GAZ-74b/normal/lod0/Turret_01.model</undamaged>
@@ -2317,7 +2317,7 @@
     <armour>0.850502793</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

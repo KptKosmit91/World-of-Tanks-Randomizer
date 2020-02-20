@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>14</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -141,7 +141,7 @@
   <chassis>
     <Chassis_GB29_Crusader_5inch>
       <userString>#gb_vehicles:Chassis_GB29_Crusader_5inch</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <unlocks>
@@ -533,7 +533,7 @@
             <length>0.098691</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98962</xStart>
@@ -754,7 +754,7 @@
             <length>0.0985727</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.99323</xStart>
@@ -945,14 +945,14 @@
                 <point>0.99471 0.86712 2.77332</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -972,7 +972,7 @@
     </Chassis_GB29_Crusader_5inch>
     <Chassis_GB29_Crusader_5inch_2>
       <userString>#gb_vehicles:Chassis_GB29_Crusader_5inch_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <armor>
@@ -1356,7 +1356,7 @@
             <length>0.098691</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98962</xStart>
@@ -1577,7 +1577,7 @@
             <length>0.0985727</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.99323</xStart>
@@ -1768,14 +1768,14 @@
                 <point>0.99471 0.86712 2.77332</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1899,7 +1899,7 @@
             <density>95.6509 95.5962</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_4.5inch_SPG_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_4.5inch_SPG_Howitzer>
       </guns>
       <models>
         <undamaged>vehicles/british/GB29_Crusader_5inch/normal/lod0/Turret_01.model</undamaged>
@@ -2076,7 +2076,7 @@
             <density>94.5274 94.805</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_5.5inch_SPG_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_5.5inch_SPG_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB29_Crusader_5inch/normal/lod0/Turret_02.model</undamaged>
@@ -2235,7 +2235,7 @@
     <armour>0.450806529</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

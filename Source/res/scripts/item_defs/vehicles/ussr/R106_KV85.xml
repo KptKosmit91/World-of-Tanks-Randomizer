@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>34</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -112,7 +112,7 @@
   <chassis>
     <Chassis_R106_KV85>
       <userString>#ussr_vehicles:Chassis_R106_KV85</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9100</price>
       <unlocks>
@@ -841,7 +841,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -861,7 +861,7 @@
     </Chassis_R106_KV85>
     <Chassis_R106_KV85_2>
       <userString>#ussr_vehicles:Chassis_R106_KV85_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15390</price>
       <armor>
@@ -1586,7 +1586,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1608,7 +1608,7 @@
   <turrets0>
     <Turret_1_R106_KV85>
       <userString>#ussr_vehicles:Turret_1_R106_KV85</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9900</price>
       <armor>
@@ -1724,7 +1724,7 @@
             <density>97.8322 97.8191</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_D-5T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D-5T>
       </guns>
       <models>
         <undamaged>vehicles/russian/R106_KV85/normal/lod0/Turret_01.model</undamaged>
@@ -1807,7 +1807,7 @@
     </Turret_1_R106_KV85>
     <Turret_2_R106_KV85>
       <userString>#ussr_vehicles:Turret_2_R106_KV85</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17500</price>
       <unlocks>
@@ -1925,7 +1925,7 @@
             <density>97.8322 97.8191</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_85mm_D-5T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D-5T>
         <_100mm_S34>shared  <maxAmmo>41</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2005,7 +2005,7 @@
             <density>88.8471 100.034</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_S34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_S34>
         <_122-mm_D-25T_with_a_piston_shutter>shared  <maxAmmo>28</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2086,7 +2086,7 @@
             <density>95.4976 94.5565</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_a_piston_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_a_piston_shutter>
       </guns>
       <models>
         <undamaged>vehicles/russian/R106_KV85/normal/lod0/Turret_03.model</undamaged>
@@ -2293,7 +2293,7 @@
     <armour>1.069430323</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

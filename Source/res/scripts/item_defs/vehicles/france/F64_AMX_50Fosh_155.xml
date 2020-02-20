@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -1135,7 +1135,7 @@
   <chassis>
     <Chassis_AMX_50Fosh_155_2>
       <userString>#france_vehicles:Chassis_AMX_50Fosh_155_2</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1514,7 +1514,7 @@
             <length>0.158</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.5176</xStart>
@@ -1680,7 +1680,7 @@
                 <point>-1.37978 1.16178 3.4344</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1707,7 +1707,7 @@
             <length>0.158</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.5176</xStart>
@@ -1873,14 +1873,14 @@
                 <point>1.58979 1.18946 3.4344</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2040,7 +2040,7 @@
             <density>99.3186 100.529</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_155mm_SA_58_AC>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_155mm_SA_58_AC>
       </guns>
       <models>
         <undamaged>vehicles/french/F64_AMX_50Fosh_155/normal/lod0/Turret_01.model</undamaged>
@@ -2057,8 +2057,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_07</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_AMX_50Fosh_155>
@@ -2127,7 +2127,7 @@
     <armour>1.16343034</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

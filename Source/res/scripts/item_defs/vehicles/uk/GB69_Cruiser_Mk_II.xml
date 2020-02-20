@@ -1,11 +1,11 @@
 <GB69_Cruiser_Mk_II.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_GB69_Cruiser_Mk_II>
       <userString>#gb_vehicles:Chassis_GB69_Cruiser_Mk_II</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>670</price>
       <unlocks>
@@ -468,7 +468,7 @@
             <length>0.0541871</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.63135</xStart>
@@ -750,7 +750,7 @@
                 <point>-1.05652 0.906776 2.94929</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -781,7 +781,7 @@
             <length>0.0544026</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.61846</xStart>
@@ -1061,14 +1061,14 @@
                 <point>1.05661 0.925376 2.93184</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1088,7 +1088,7 @@
     </Chassis_GB69_Cruiser_Mk_II>
     <Chassis_GB69_Cruiser_Mk_II_2>
       <userString>#gb_vehicles:Chassis_GB69_Cruiser_Mk_II_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1700</price>
       <unlocks>
@@ -1449,7 +1449,7 @@
             <length>0.0541871</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.63135</xStart>
@@ -1731,7 +1731,7 @@
                 <point>-1.05652 0.906776 2.94929</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1762,7 +1762,7 @@
             <length>0.0544026</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.61846</xStart>
@@ -2042,14 +2042,14 @@
                 <point>1.05661 0.925376 2.93184</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2071,7 +2071,7 @@
   <turrets0>
     <Turret_1_GB69_Cruiser_Mk_II>
       <userString>#gb_vehicles:Turret_1_GB69_Cruiser_Mk_II</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>730</price>
       <unlocks>
@@ -2174,7 +2174,7 @@
             <density>185.263 221.386</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_IX>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_IX>
         <_40mm_Pom_Pom>shared  <maxAmmo>160</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2240,7 +2240,7 @@
             <density>187.166 197.414</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_40mm_Pom_Pom>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_Pom_Pom>
       </guns>
       <models>
         <undamaged>vehicles/british/GB69_Cruiser_Mk_II/normal/lod0/Turret_01.model</undamaged>
@@ -2314,7 +2314,7 @@
     </Turret_1_GB69_Cruiser_Mk_II>
     <Turret_2_GB69_Cruiser_Mk_II>
       <userString>#gb_vehicles:Turret_2_GB69_Cruiser_Mk_II</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1700</price>
       <unlocks>
@@ -2414,7 +2414,7 @@
             <density>185.263 221.386</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_IX>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_IX>
         <_40mm_Pom_Pom>shared  <maxAmmo>160</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2480,7 +2480,7 @@
             <density>187.166 197.414</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_40mm_Pom_Pom>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_Pom_Pom>
         <_3.7inch_Howitzer>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <armor_1>30  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2545,7 +2545,7 @@
             <density>177.65 177</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_3.7inch_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3.7inch_Howitzer>
       </guns>
       <models>
         <undamaged>vehicles/british/GB69_Cruiser_Mk_II/normal/lod0/Turret_02.model</undamaged>
@@ -2735,7 +2735,7 @@
     <armour>0.774630772</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,12 +1,12 @@
 <A11_T29.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -111,7 +111,7 @@
   <chassis>
     <T84E1>
       <userString>#usa_vehicles:T84E1</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13400</price>
       <unlocks>
@@ -398,7 +398,7 @@
             <length>0.0735292</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.63281</xStart>
@@ -662,7 +662,7 @@
                 <point>-1.53361 1.37505 3.5549</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -693,7 +693,7 @@
             <length>0.0735483</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.63888</xStart>
@@ -958,14 +958,14 @@
                 <point>1.64361 1.4027 3.57282</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -985,7 +985,7 @@
     </T84E1>
     <T84E3>
       <userString>#usa_vehicles:T84E3</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22000</price>
       <armor>
@@ -1268,7 +1268,7 @@
             <length>0.0735292</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.63281</xStart>
@@ -1532,7 +1532,7 @@
                 <point>-1.53361 1.37505 3.5549</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1563,7 +1563,7 @@
             <length>0.0735483</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.63888</xStart>
@@ -1828,14 +1828,14 @@
                 <point>1.64361 1.4027 3.57282</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1857,7 +1857,7 @@
   <turrets0>
     <T123>
       <userString>#usa_vehicles:T123</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15200</price>
       <armor>
@@ -1970,7 +1970,7 @@
             <density>96.225 96.6102</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2>
         <_90mm_Gun_M3>shared  <maxAmmo>73</maxAmmo>
           <reloadTime>7.6</reloadTime>
           <pitchLimits>
@@ -2050,7 +2050,7 @@
             <density>92.5071 98.6204</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3>
         <_105mm_Gun_T5E1>shared  <maxAmmo>63</maxAmmo>
           <reloadTime>13.7</reloadTime>
           <pitchLimits>
@@ -2129,7 +2129,7 @@
             <density>99.2948 92.3999</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1>
       </guns>
       <models>
         <undamaged>vehicles/american/A11_T29/normal/lod0/Turret_01.model</undamaged>
@@ -2203,7 +2203,7 @@
     </T123>
     <T136>
       <userString>#usa_vehicles:T136</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>25500</price>
       <unlocks>
@@ -2317,7 +2317,7 @@
             <density>96.225 96.6102</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2>
         <_90mm_Gun_M3>shared  <maxAmmo>73</maxAmmo>
           <reloadTime>7.6</reloadTime>
           <pitchLimits>
@@ -2391,7 +2391,7 @@
             <density>92.5071 98.6204</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3>
         <_105mm_Gun_T5E1>shared  <maxAmmo>63</maxAmmo>
           <reloadTime>11.4</reloadTime>
           <pitchLimits>
@@ -2471,7 +2471,7 @@
             <density>99.2948 92.3999</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1>
       </guns>
       <models>
         <undamaged>vehicles/american/A11_T29/normal/lod0/Turret_02.model</undamaged>
@@ -2665,7 +2665,7 @@
     <armour>1.035144781</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

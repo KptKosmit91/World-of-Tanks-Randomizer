@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -136,7 +136,7 @@
   <chassis>
     <Chassis_A107_T1_HMC>
       <userString>#usa_vehicles:Chassis_A107_T1_HMC</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>250</price>
       <unlocks>
@@ -790,7 +790,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -810,7 +810,7 @@
     </Chassis_A107_T1_HMC>
     <Chassis_A107_T1_HMC_2>
       <userString>#usa_vehicles:Chassis_A107_T1_HMC_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>550</price>
       <armor>
@@ -1460,7 +1460,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1501,8 +1501,8 @@
           </pitchLimits>
           <turretYawLimits>-30 30</turretYawLimits>
           <pitchLimits>
-            <minPitch></minPitch>
-            <maxPitch></maxPitch>
+            <minPitch />
+            <maxPitch />
           </pitchLimits>
           <invisibilityFactorAtShot>0.221</invisibilityFactorAtShot>
           <shotDispersionRadius>0.8</shotDispersionRadius>
@@ -1557,7 +1557,7 @@
             <density>121.138 126.977</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Pack_Howitzer_M1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Pack_Howitzer_M1>
       </guns>
       <ceilless>true</ceilless>
       <userString>#usa_vehicles:Turret_1_A107_T1_HMC</userString>
@@ -1628,9 +1628,9 @@
   <crew>
     <commander>gunner
 radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>34</forward>
@@ -1758,7 +1758,7 @@ radioman</commander>
     <armour>0.767378312</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,9 +1,9 @@
 <R23_T-43.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@
   <chassis>
     <T-43>
       <userString>#ussr_vehicles:T-43</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>11690</price>
       <unlocks>
@@ -466,7 +466,7 @@
             <length>0.168568</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.81091</xStart>
@@ -603,7 +603,7 @@
                 <point>-1.0725 1.25309 2.63458</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -634,7 +634,7 @@
             <length>0.167973</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.79674</xStart>
@@ -771,14 +771,14 @@
                 <point>1.0925 1.24185 2.67426</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -798,7 +798,7 @@
     </T-43>
     <T-43M>
       <userString>#ussr_vehicles:T-43M</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17720</price>
       <armor>
@@ -1129,7 +1129,7 @@
             <length>0.174223</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.78544</xStart>
@@ -1266,7 +1266,7 @@
                 <point>1.0725 1.25309 2.63458</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1297,7 +1297,7 @@
             <length>0.17333</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.79727</xStart>
@@ -1434,7 +1434,7 @@
                 <point>0.0925 1.24185 2.67426</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1465,7 +1465,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1487,7 +1487,7 @@
   <turrets0>
     <T-43_mod_43>
       <userString>#ussr_vehicles:T-43_mod_43</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12840</price>
       <unlocks>
@@ -1603,7 +1603,7 @@
             <density>114.241 114.53</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53>
         <_122mm_cannon_U-11>shared  <maxAmmo>36</maxAmmo>
           <pitchLimits>
             <minPitch>0 -26 1 -26</minPitch>
@@ -1682,7 +1682,7 @@
             <density>112.868 127.585</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_cannon_U-11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_cannon_U-11>
       </guns>
       <models>
         <undamaged>vehicles/russian/R23_T-43/normal/lod0/Turret_01.model</undamaged>
@@ -1766,7 +1766,7 @@
     </T-43_mod_43>
     <T-43_mod_100>
       <userString>#ussr_vehicles:T-43_mod_100</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>15300</price>
       <unlocks>
@@ -1880,7 +1880,7 @@
             <density>114.241 114.53</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_ZiS_S-53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_ZiS_S-53>
         <_122mm_cannon_U-11>shared  <maxAmmo>42</maxAmmo>
           <pitchLimits>
             <minPitch>0 -26 1 -26</minPitch>
@@ -1959,7 +1959,7 @@
             <density>112.868 127.585</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_cannon_U-11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_cannon_U-11>
         <_85mm_D5T-85BM>shared  <unlocks>
             <vehicle>R20_T-44  <cost>93653</cost>
             </vehicle>
@@ -2042,7 +2042,7 @@
             <density>114.269 113.879</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_D5T-85BM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_D5T-85BM>
       </guns>
       <models>
         <undamaged>vehicles/russian/R23_T-43/normal/lod0/Turret_02.model</undamaged>
@@ -2240,7 +2240,7 @@
     <armour>1.166565656</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

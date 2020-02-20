@@ -1,12 +1,12 @@
 <J28_O_I_100.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>25</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -116,7 +116,7 @@
   <chassis>
     <Chassis_J28_O_I_100>
       <userString>#japan_vehicles:Chassis_J28_O_I_100</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <unlocks>
@@ -866,7 +866,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -886,7 +886,7 @@
     </Chassis_J28_O_I_100>
     <Chassis_J28_O_I_100_2>
       <userString>#japan_vehicles:Chassis_J28_O_I_100_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>29200</price>
       <armor>
@@ -1632,7 +1632,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1654,7 +1654,7 @@
   <turrets0>
     <Turret_1_J28_O_I_100>
       <userString>#japan_vehicles:Turret_1_J28_O_I_100</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -1782,7 +1782,7 @@
             <density>89.9579 89.878</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Cannon_Type92>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Cannon_Type92>
         <_105mm_Experimental_Tank_Gun>shared  <maxAmmo>100</maxAmmo>
           <unlocks>
             <vehicle>J27_O_I_120  <cost>110200</cost>
@@ -1866,7 +1866,7 @@
             <density>93.5851 94.537</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Experimental_Tank_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Experimental_Tank_Gun>
         <_150mm_Howitzer_Type96>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <armor_1>200  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1945,7 +1945,7 @@
             <density>87.02 88.6416</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_150mm_Howitzer_Type96>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_Howitzer_Type96>
       </guns>
       <models>
         <undamaged>vehicles/japan/J28_O_I_100/normal/lod0/Turret_01.model</undamaged>
@@ -2139,7 +2139,7 @@
     <armour>0.957480026</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

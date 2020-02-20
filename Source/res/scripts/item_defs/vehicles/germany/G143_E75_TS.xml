@@ -1,11 +1,11 @@
 <G143_E75_TS.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1010,7 +1010,7 @@
   <chassis>
     <Chassis_G143_E75_TS>
       <userString>#germany_vehicles:Chassis_G143_E75_TS</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1279,7 +1279,7 @@
             <length>0.148454</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.13336</xStart>
@@ -1443,7 +1443,7 @@
                 <point>-1.67398 1.40681 3.3982</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1474,7 +1474,7 @@
             <length>0.147056</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.07937</xStart>
@@ -1638,14 +1638,14 @@
                 <point>1.67398 1.40681 3.3982</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1667,7 +1667,7 @@
   <turrets0>
     <Turret_1_G143_E75_TS>
       <userString>#germany_vehicles:Turret_1_G143_E75_TS</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1807,7 +1807,7 @@
             <density>102.722 104.97</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Kw_K_L_73>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Kw_K_L_73>
       </guns>
       <models>
         <undamaged>vehicles/german/G143_E75_TS/normal/lod0/Turret_01.model</undamaged>
@@ -2360,7 +2360,7 @@
   <radios>
     <FuG12A>shared</FuG12A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <premiumVehicleXPFactor>0.1</premiumVehicleXPFactor>
   <physics>
     <detailed>
@@ -2410,7 +2410,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

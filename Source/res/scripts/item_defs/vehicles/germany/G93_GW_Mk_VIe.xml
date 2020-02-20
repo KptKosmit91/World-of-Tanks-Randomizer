@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -160,7 +160,7 @@
     <Chassis_GW_Mk_IVe>
       <userString>#germany_vehicles:Chassis_GW_Mk_IVe</userString>
       <shortUserString>#germany_vehicles:Chassis_GW_Mk_IVe_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>240</price>
       <unlocks>
@@ -994,7 +994,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1015,7 +1015,7 @@
     <Chassis_GW_Mk_IVe_2>
       <userString>#germany_vehicles:Chassis_GW_Mk_IVe_2</userString>
       <shortUserString>#germany_vehicles:Chassis_GW_Mk_IVe_2_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>580</price>
       <armor>
@@ -1845,7 +1845,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1964,7 +1964,7 @@
             <density>100.847 110.414</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_105mm_leFH16_L22>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_leFH16_L22>
       </guns>
       <models>
         <undamaged>vehicles/german/G93_GW_Mk_VIe/normal/lod0/Turret_01.model</undamaged>
@@ -1981,8 +1981,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_01</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_GW_Mk_IVe>
@@ -2100,7 +2100,7 @@
     <armour>0.705896267</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

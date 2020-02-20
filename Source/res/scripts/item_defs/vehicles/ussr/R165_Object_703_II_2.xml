@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
@@ -893,7 +893,7 @@
   <chassis>
     <Chassis_R165_Object_703_II_2>
       <userString>#ussr_vehicles:Chassis_R165_Object_703_II_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1557,7 +1557,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1579,7 +1579,7 @@
   <turrets0>
     <Turret_1_R165_Object_703_II_2>
       <userString>#ussr_vehicles:Turret_1_R165_Object_703_II_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1791,7 +1791,7 @@
             <density>128.918 132.137</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_S34_P_dualgun>
+        <RAND_IsDoubleGun>true</RAND_IsDoubleGun></_100mm_S34_P_dualgun>
       </guns>
       <models>
         <undamaged>vehicles/russian/R165_Object_703_II/normal/lod0/Turret_01.model</undamaged>
@@ -2639,7 +2639,7 @@
   <radios>
     <_10RKM>shared</_10RKM>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2700,7 +2700,7 @@
     <charger>NoneExtra : DualGunCharger</charger>
   </extras>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

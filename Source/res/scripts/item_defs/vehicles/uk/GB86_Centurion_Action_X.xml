@@ -1,9 +1,9 @@
 <GB86_Centurion_Action_X.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1080,7 +1080,7 @@
   <chassis>
     <Chassis_GB86_Centurion_Action_X>
       <userString>#gb_vehicles:Chassis_GB86_Centurion_Action_X</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1948,7 +1948,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1970,7 +1970,7 @@
   <turrets0>
     <Turret_1_GB86_Centurion_Action_X>
       <userString>#gb_vehicles:Turret_1_GB86_Centurion_Action_X</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -2071,7 +2071,7 @@
             <density>108.94 108.038</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_L7_HEAT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_L7_HEAT>
       </guns>
       <models>
         <undamaged>vehicles/british/GB86_Centurion_Action_X/normal/lod0/Turret_01.model</undamaged>
@@ -2570,7 +2570,7 @@
     <armour>0.991207891</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <R57_A43.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -106,7 +106,7 @@
   <chassis>
     <Chassis_A43>
       <userString>#ussr_vehicles:Chassis_A43</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8300</price>
       <unlocks>
@@ -395,7 +395,7 @@
             <length>0.171012</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.84205</xStart>
@@ -553,7 +553,7 @@
                 <point>-1.33361 1.22493 2.88491</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -584,7 +584,7 @@
             <length>0.171064</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.84231</xStart>
@@ -742,14 +742,14 @@
                 <point>1.14362 1.23756 2.88416</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -769,7 +769,7 @@
     </Chassis_A43>
     <Chassis_A43_2>
       <userString>#ussr_vehicles:Chassis_A43_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14100</price>
       <armor>
@@ -1054,7 +1054,7 @@
             <length>0.171012</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.84205</xStart>
@@ -1212,7 +1212,7 @@
                 <point>-1.33361 1.22493 2.88491</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1243,7 +1243,7 @@
             <length>0.171064</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.84231</xStart>
@@ -1401,14 +1401,14 @@
                 <point>1.14362 1.23756 2.88416</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1430,7 +1430,7 @@
   <turrets0>
     <Turret_1_A43>
       <userString>#ussr_vehicles:Turret_1_A43</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9500</price>
       <armor>
@@ -1544,7 +1544,7 @@
             <density>137.626 130.944</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_F-34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F-34>
         <_57mm_ZiS-4>shared  <maxAmmo>100</maxAmmo>
           <armor>
             <armor_1>90  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1624,7 +1624,7 @@
             <density>147.113 128.132</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-4>
         <_76mm_S-54>shared  <maxAmmo>100</maxAmmo>
           <unlocks>
             <turret>Turret_2_A43  <cost>4450</cost>
@@ -1708,7 +1708,7 @@
             <density>132.97 120.693</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_S-54>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_S-54>
       </guns>
       <models>
         <undamaged>vehicles/russian/R57_A43/normal/lod0/Turret_01.model</undamaged>
@@ -1792,7 +1792,7 @@
     </Turret_1_A43>
     <Turret_2_A43>
       <userString>#ussr_vehicles:Turret_2_A43</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14500</price>
       <unlocks>
@@ -1908,7 +1908,7 @@
             <density>137.626 130.944</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_F-34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F-34>
         <_57mm_ZiS-4>shared  <maxAmmo>100</maxAmmo>
           <armor>
             <armor_1>75  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1988,7 +1988,7 @@
             <density>147.113 128.132</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-4>
         <_76mm_S-54>shared  <maxAmmo>100</maxAmmo>
           <armor>
             <armor_1>75  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2068,7 +2068,7 @@
             <density>132.97 120.693</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_S-54>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_S-54>
       </guns>
       <models>
         <undamaged>vehicles/russian/R57_A43/normal/lod0/Turret_02.model</undamaged>
@@ -2258,7 +2258,7 @@
     <armour>1.101104767</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

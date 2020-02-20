@@ -1,9 +1,9 @@
 <Ch04_T34_1_training.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -68,7 +68,7 @@
     <hangarShadowTexture>vehicles/chinese/Ch04_T34_1/T34_1_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -92,7 +92,7 @@
   <chassis>
     <Chassis_Ch04_T34_1_training>
       <userString>#china_vehicles:Chassis_Ch04_T34_1</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>7730</price>
       <notInShop>true</notInShop>
@@ -460,7 +460,7 @@
             <length>0.176238</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.71017</xStart>
@@ -586,7 +586,7 @@
                 <point>0.32593 1.0006 2.62136</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -617,7 +617,7 @@
             <length>0.176242</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.70645</xStart>
@@ -743,14 +743,14 @@
                 <point>1.32593 1.0006 2.62136</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Ch04_T34_1_training>
@@ -758,7 +758,7 @@
   <turrets0>
     <Turret_1_Ch04_T34_1_training>
       <userString>Turret_1_Ch04_T34_1_training</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>10000</price>
       <notInShop>true</notInShop>
@@ -824,7 +824,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -844,7 +844,7 @@
             <density>92.4412 103.95</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_44-100JTtraining>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_44-100JTtraining>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch04_T34_1/normal/lod0/Turret_01.model</undamaged>
@@ -861,7 +861,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>

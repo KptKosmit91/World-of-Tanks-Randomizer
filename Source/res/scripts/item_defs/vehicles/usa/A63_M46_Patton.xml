@@ -1,11 +1,11 @@
 <A63_M46_Patton.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -111,7 +111,7 @@
   <chassis>
     <Chassis_M46_Patton>
       <userString>#usa_vehicles:Chassis_M46_Patton</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31700</price>
       <unlocks>
@@ -422,7 +422,7 @@
             <length>0.0630288</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19698</xStart>
@@ -686,7 +686,7 @@
                 <point>-1.56095 1.33071 2.72624</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -717,7 +717,7 @@
             <length>0.0630289</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19699</xStart>
@@ -981,14 +981,14 @@
                 <point>1.56097 1.31255 2.72623</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1008,7 +1008,7 @@
     </Chassis_M46_Patton>
     <Chassis_M46_Patton_2>
       <userString>#usa_vehicles:Chassis_M46_Patton_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>60500</price>
       <armor>
@@ -1315,7 +1315,7 @@
             <length>0.0630288</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19698</xStart>
@@ -1579,7 +1579,7 @@
                 <point>-1.56095 1.33071 2.72624</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1610,7 +1610,7 @@
             <length>0.0630289</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.19699</xStart>
@@ -1874,14 +1874,14 @@
                 <point>1.56097 1.31255 2.72623</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1903,7 +1903,7 @@
   <turrets0>
     <Turret_1_M46_Patton>
       <userString>#usa_vehicles:Turret_1_M46_Patton</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28000</price>
       <unlocks>
@@ -2031,7 +2031,7 @@
             <density>106.512 110.052</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3>
         <_90mm_Gun_M36>shared  <maxAmmo>70</maxAmmo>
           <reloadTime>7.6</reloadTime>
           <shotDispersionFactors>
@@ -2113,7 +2113,7 @@
             <density>104.509 113.094</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M36>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M36>
         <_90mm_Gun_T15E2M2>shared  <maxAmmo>70</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.1</turretRotation>
@@ -2195,7 +2195,7 @@
             <density>102.843 110</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T15E2M2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T15E2M2>
         <_105mm_Gun_T5E1M2>shared  <maxAmmo>54</maxAmmo>
           <unlocks>
             <vehicle>A120_M48A5  <cost>205000</cost>
@@ -2281,7 +2281,7 @@
             <density>103.663 112.351</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1M2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1M2>
       </guns>
       <models>
         <undamaged>vehicles/american/A63_M46_Patton/normal/lod0/Turret_01.model</undamaged>
@@ -2355,7 +2355,7 @@
     </Turret_1_M46_Patton>
     <Turret_2_M46_Patton>
       <userString>#usa_vehicles:Turret_2_M46_Patton</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>52000</price>
       <unlocks>
@@ -2485,7 +2485,7 @@
             <density>106.512 110.052</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3>
         <_90mm_Gun_M36>shared  <maxAmmo>71</maxAmmo>
           <reloadTime>7.6</reloadTime>
           <shotDispersionFactors>
@@ -2573,7 +2573,7 @@
             <density>104.509 113.094</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M36>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M36>
         <_90mm_Gun_T15E2M2>shared  <maxAmmo>71</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.08</turretRotation>
@@ -2661,7 +2661,7 @@
             <density>102.843 110</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T15E2M2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T15E2M2>
         <_105mm_Gun_T5E1M2>shared  <maxAmmo>54</maxAmmo>
           <pitchLimits>
             <minPitch>0 -22 1 -22</minPitch>
@@ -2749,7 +2749,7 @@
             <density>103.663 112.351</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1M2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1M2>
         <_105mm_SPH_M4_L23>shared  <maxAmmo>54</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.08</turretRotation>
@@ -2837,7 +2837,7 @@
             <density>108.049 103.572</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_SPH_M4_L23>
       </guns>
       <models>
         <undamaged>vehicles/american/A63_M46_Patton/normal/lod0/Turret_02.model</undamaged>
@@ -3026,7 +3026,7 @@
     <armour>1.052819822</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

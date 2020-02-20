@@ -1,11 +1,11 @@
 <G81_Pz_IV_AusfH.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -134,7 +134,7 @@
   <chassis>
     <Chassis_Pz_IV_AusfH>
       <userString>#germany_vehicles:Chassis_Pz_IV_AusfH</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4510</price>
       <unlocks>
@@ -834,7 +834,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -854,7 +854,7 @@
     </Chassis_Pz_IV_AusfH>
     <Chassis_Pz_IV_AusfH_2>
       <userString>#germany_vehicles:Chassis_Pz_IV_AusfH_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>7910</price>
       <armor>
@@ -1550,7 +1550,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1572,7 +1572,7 @@
   <turrets0>
     <Turret_1_Pz_IV_AusfH>
       <userString>#germany_vehicles:Turret_1_Pz_IV_AusfH</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8500</price>
       <armor>
@@ -1690,7 +1690,7 @@
             <density>158.29 158.148</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L43>
         <_75mm_KwK_40_L48>shared  <unlocks>
             <turret>Turret_2_Pz_IV_AusfH  <cost>4015</cost>
             </turret>
@@ -1771,7 +1771,7 @@
             <density>163.457 163.872</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48>
       </guns>
       <models>
         <undamaged>vehicles/german/G81_Pz_IV_AusfH/normal/lod0/Turret_01.model</undamaged>
@@ -1835,7 +1835,7 @@
     </Turret_1_Pz_IV_AusfH>
     <Turret_2_Pz_IV_AusfH>
       <userString>#germany_vehicles:Turret_2_Pz_IV_AusfH</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13240</price>
       <unlocks>
@@ -1955,7 +1955,7 @@
             <density>158.29 158.148</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L43>
         <_75mm_KwK_40_L48>shared  <reloadTime>4</reloadTime>
           <shotDispersionFactors>
             <turretRotation>0.12</turretRotation>
@@ -2035,7 +2035,7 @@
             <density>163.457 163.872</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48>
         <_105mm_StuH42_L28Pz>shared  <unlocks>
             <vehicle>G15_VK3601H  <cost>23200</cost>
             </vehicle>
@@ -2115,7 +2115,7 @@
             <density>145.568 152.369</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28Pz>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28Pz>
       </guns>
       <models>
         <undamaged>vehicles/german/G81_Pz_IV_AusfH/normal/lod0/Turret_02.model</undamaged>
@@ -2290,7 +2290,7 @@
     <armour>0.874009205</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

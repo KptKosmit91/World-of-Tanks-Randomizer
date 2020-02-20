@@ -1,12 +1,12 @@
 <G02_Hummel.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -153,7 +153,7 @@
   <chassis>
     <Hummel_Ausf_1943>
       <userString>#germany_vehicles:Hummel_Ausf_1943</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9000</price>
       <unlocks>
@@ -439,7 +439,7 @@
             <length>0.120913</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.8994</xStart>
@@ -613,7 +613,7 @@
                 <point>-1.01618 1.14779 2.96492</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -640,7 +640,7 @@
             <length>0.120971</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.89829</xStart>
@@ -814,14 +814,14 @@
                 <point>1.0162 1.13891 2.96922</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -841,7 +841,7 @@
     </Hummel_Ausf_1943>
     <Hummel_Ausf_1944>
       <userString>#germany_vehicles:Hummel_Ausf_1944</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13480</price>
       <armor>
@@ -1123,7 +1123,7 @@
             <length>0.120913</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.8994</xStart>
@@ -1297,7 +1297,7 @@
                 <point>-1.01618 1.14779 2.96492</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1324,7 +1324,7 @@
             <length>0.120971</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.89829</xStart>
@@ -1498,14 +1498,14 @@
                 <point>1.0162 1.13891 2.96922</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1626,7 +1626,7 @@
             <density>99.2315 98.7984</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_150mm_sFH13_L17>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_sFH13_L17>
       </guns>
       <models>
         <undamaged>vehicles/german/G02_Hummel/normal/lod0/Turret_01.model</undamaged>
@@ -1769,7 +1769,7 @@
             <density>102.54 106.71</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_150mm_sFH18_L30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_sFH18_L30>
       </guns>
       <models>
         <undamaged>vehicles/german/G02_Hummel/normal/lod0/Turret_02.model</undamaged>
@@ -1932,7 +1932,7 @@
     <armour>0.579698456</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

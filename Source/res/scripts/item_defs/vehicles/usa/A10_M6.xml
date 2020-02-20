@@ -1,12 +1,12 @@
 <A10_M6.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -115,7 +115,7 @@
   <chassis>
     <HVS1>
       <userString>#usa_vehicles:HVS1</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9700</price>
       <unlocks>
@@ -1049,7 +1049,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1069,7 +1069,7 @@
     </HVS1>
     <HVS2>
       <userString>#usa_vehicles:HVS2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15900</price>
       <armor>
@@ -1999,7 +1999,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2021,7 +2021,7 @@
   <turrets0>
     <M6D1>
       <userString>#usa_vehicles:M6D1</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10000</price>
       <armor>
@@ -2125,7 +2125,7 @@
             <density>92.6147 105.727</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M7_L50>
         <_76mm_Gun_M1A1>shared  <maxAmmo>75</maxAmmo>
           <pitchLimits>
             <minPitch>0 -30 1 -30</minPitch>
@@ -2196,7 +2196,7 @@
             <density>88.9251 107.713</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <_76mm_Gun_M1A2>shared  <maxAmmo>75</maxAmmo>
           <pitchLimits>
             <minPitch>0 -30 1 -30</minPitch>
@@ -2268,7 +2268,7 @@
             <density>93.38 104.307</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2>
       </guns>
       <models>
         <undamaged>vehicles/american/A10_M6/normal/lod0/Turret_01.model</undamaged>
@@ -2352,7 +2352,7 @@
     </M6D1>
     <M6D2>
       <userString>#usa_vehicles:M6D2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>18250</price>
       <unlocks>
@@ -2456,7 +2456,7 @@
             <density>92.6147 105.727</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M7_L50>
         <_76mm_Gun_M1A1>shared  <maxAmmo>75</maxAmmo>
           <pitchLimits>
             <minPitch>0 -30 1 -30</minPitch>
@@ -2523,7 +2523,7 @@
             <density>88.9251 107.713</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <_76mm_Gun_M1A2>shared  <maxAmmo>75</maxAmmo>
           <pitchLimits>
             <minPitch>0 -30 1 -30</minPitch>
@@ -2589,7 +2589,7 @@
             <density>93.38 104.307</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2>
         <_90mm_Gun_M3>shared  <maxAmmo>52</maxAmmo>
           <pitchLimits>
             <minPitch>0 -30 1 -30</minPitch>
@@ -2657,7 +2657,7 @@
             <density>92.2333 92.7078</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3>
       </guns>
       <models>
         <undamaged>vehicles/american/A10_M6/normal/lod0/Turret_02.model</undamaged>
@@ -2847,7 +2847,7 @@
     <armour>1.109173552</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

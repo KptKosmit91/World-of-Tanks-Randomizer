@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>34</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@
   <chassis>
     <Chassis_M103>
       <userString>#usa_vehicles:Chassis_M103</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31500</price>
       <unlocks>
@@ -456,7 +456,7 @@
             </Helloween_3Dst>
           </modelSets>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.29736</xStart>
@@ -698,7 +698,7 @@
                 <point>-1.55272 1.35417 3.4298</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -735,7 +735,7 @@
             </Helloween_3Dst>
           </modelSets>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.2998</xStart>
@@ -977,14 +977,14 @@
                 <point>1.56148 1.35817 3.42197</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1004,7 +1004,7 @@
     </Chassis_M103>
     <Chassis_M103_2>
       <userString>#usa_vehicles:Chassis_M103_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>61500</price>
       <armor>
@@ -1335,7 +1335,7 @@
             </Helloween_3Dst>
           </modelSets>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.29736</xStart>
@@ -1577,7 +1577,7 @@
                 <point>-1.55272 1.35417 3.4298</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1614,7 +1614,7 @@
             </Helloween_3Dst>
           </modelSets>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.2998</xStart>
@@ -1856,14 +1856,14 @@
                 <point>1.56148 1.35817 3.42197</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1885,7 +1885,7 @@
   <turrets0>
     <Turret_1_M103>
       <userString>#usa_vehicles:Turret_1_M103</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>43500</price>
       <armor>
@@ -2014,7 +2014,7 @@
             <density>109.563 114.337</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1>
         <_120mm_Gun_T122>shared  <maxAmmo>33</maxAmmo>
           <unlocks>
             <turret>Turret_2_M103  <cost>23000</cost>
@@ -2106,7 +2106,7 @@
             <density>104.787 114.434</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_T122>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_T122>
       </guns>
       <models>
         <undamaged>vehicles/american/A66_M103/normal/lod0/Turret_01.model</undamaged>
@@ -2197,7 +2197,7 @@
     </Turret_1_M103>
     <Turret_2_M103>
       <userString>#usa_vehicles:Turret_2_M103</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>55000</price>
       <unlocks>
@@ -2319,7 +2319,7 @@
             <density>109.563 114.337</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1>
         <_120mm_Gun_T122>shared  <maxAmmo>33</maxAmmo>
           <armor>
             <armor_1>254  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2400,7 +2400,7 @@
             <density>104.787 114.434</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_T122>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_T122>
         <_120mm_Gun_M58>shared  <maxAmmo>33</maxAmmo>
           <armor>
             <armor_1>254  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2482,7 +2482,7 @@
             <density>118.578 116.068</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_M58>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_M58>
       </guns>
       <models>
         <undamaged>vehicles/american/A66_M103/normal/lod0/Turret_02.model</undamaged>
@@ -2683,7 +2683,7 @@
     <armour>0.959665224</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

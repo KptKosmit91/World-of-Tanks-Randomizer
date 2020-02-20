@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -110,7 +110,7 @@
   <chassis>
     <Chassis_T-50>
       <userString>#ussr_vehicles:Chassis_T-50</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3400</price>
       <unlocks>
@@ -940,7 +940,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -960,7 +960,7 @@
     </Chassis_T-50>
     <Chassis_T-50_2>
       <userString>#ussr_vehicles:Chassis_T-50_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9200</price>
       <armor>
@@ -1778,7 +1778,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1800,7 +1800,7 @@
   <turrets0>
     <Turret_1_T-50>
       <userString>#ussr_vehicles:Turret_1_T-50</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>3640</price>
       <notInShop>true</notInShop>
@@ -1912,7 +1912,7 @@
             <density>103.085 105.258</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_45mm_20KM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20KM>
         <_45mm_VT-43M>shared  <maxAmmo>150</maxAmmo>
           <unlocks>
             <vehicle>R101_MT25  <cost>32150</cost>
@@ -1992,7 +1992,7 @@
             <density>103.332 120.359</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_45mm_VT-43M>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_VT-43M>
       </guns>
       <models>
         <undamaged>vehicles/russian/R41_T-50/normal/lod0/Turret_01.model</undamaged>
@@ -2184,7 +2184,7 @@
     <armour>0.901857078</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

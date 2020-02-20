@@ -1,12 +1,12 @@
 <GB63_TOG_II.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>14</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <Chassis_GB63_TOG_II>
       <userString>#gb_vehicles:Chassis_GB63_TOG_II</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15420</price>
       <notInShop>true</notInShop>
@@ -717,7 +717,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -739,7 +739,7 @@
   <turrets0>
     <Turret_1_GB63_TOG_II>
       <userString>#gb_vehicles:Turret_1_GB63_TOG_II</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>20430</price>
       <notInShop>true</notInShop>
@@ -835,7 +835,7 @@
             <density>101.399 101.897</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </OQF_17pdr_Gun_Mk_VII_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_17pdr_Gun_Mk_VII_A>
       </guns>
       <models>
         <undamaged>vehicles/british/GB63_TOG_II/normal/lod0/Turret_01.model</undamaged>
@@ -967,7 +967,7 @@
     <armour>0.901164293</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

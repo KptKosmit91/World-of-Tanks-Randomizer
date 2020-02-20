@@ -1,11 +1,11 @@
 <G106_PzKpfwPanther_AusfF.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>46</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1128,7 +1128,7 @@
     <Chassis_G106_PzKpfwPanther_AusfF>
       <userString>#germany_vehicles:Chassis_G106_PzKpfwPanther_AusfF</userString>
       <shortUserString>#germany_vehicles:Chassis_G106_PzKpfwPanther_AusfF_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -1451,7 +1451,7 @@
             <length>0.149365</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9476</xStart>
@@ -1610,7 +1610,7 @@
                 <point>-1.57494 1.3597 3.17634</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1637,7 +1637,7 @@
             <length>0.149364</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94761</xStart>
@@ -1796,14 +1796,14 @@
                 <point>1.49494 1.3566 3.17632</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1826,7 +1826,7 @@
     <Turret_1_G106_PzKpfwPanther_AusfF>
       <userString>#germany_vehicles:Turret_1_G106_PzKpfwPanther_AusfF</userString>
       <shortUserString>#germany_vehicles:Turret_1_G106_PzKpfwPanther_AusfF_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -1968,7 +1968,7 @@
             <density>104.731 104.921</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71B>
       </guns>
       <models>
         <undamaged>vehicles/german/G106_PzKpfwPanther_AusfF/normal/lod0/Turret_01.model</undamaged>
@@ -2370,7 +2370,7 @@
     <armour>0.953631965</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

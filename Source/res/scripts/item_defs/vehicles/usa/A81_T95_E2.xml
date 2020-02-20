@@ -1,9 +1,9 @@
 <A81_T95_E2.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -777,7 +777,7 @@
   <chassis>
     <Chassis_T95_E2>
       <userString>#usa_vehicles:Chassis_T95_E2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>16300</price>
       <notInShop>true</notInShop>
@@ -1147,7 +1147,7 @@
             <length>0.0988549</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.42746</xStart>
@@ -1359,7 +1359,7 @@
                 <point>-1.43869 1.11552 3.31872</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1390,7 +1390,7 @@
             <length>0.098289</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.42396</xStart>
@@ -1602,14 +1602,14 @@
                 <point>1.21873 1.16509 3.32998</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1631,7 +1631,7 @@
   <turrets0>
     <Turret_1_T95_E2>
       <userString>#usa_vehicles:Turret_1_T95_E2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>21800</price>
       <notInShop>true</notInShop>
@@ -1800,7 +1800,7 @@
             <density>111.125 111.793</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M41E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M41E1>
       </guns>
       <models>
         <undamaged>vehicles/american/A81_T95_E2/normal/lod0/Turret_01.model</undamaged>
@@ -2280,7 +2280,7 @@
     <armour>1.078487088</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

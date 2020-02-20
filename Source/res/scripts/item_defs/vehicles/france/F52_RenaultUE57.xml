@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>36</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -112,7 +112,7 @@
   <chassis>
     <Chassis_RenaultUE57>
       <userString>#france_vehicles:Chassis_RenaultUE57</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>440</price>
       <unlocks>
@@ -368,7 +368,7 @@
             <length>0.0429588</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.39343</xStart>
@@ -554,7 +554,7 @@
                 <point>-0.844163 0.80939 1.27017</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -581,7 +581,7 @@
             <length>0.0429567</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.39358</xStart>
@@ -790,14 +790,14 @@
                 <point>0.844105 0.808987 1.26988</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -817,7 +817,7 @@
     </Chassis_RenaultUE57>
     <Chassis_RenaultUE57_2>
       <userString>#france_vehicles:Chassis_RenaultUE57_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <armor>
@@ -1069,7 +1069,7 @@
             <length>0.0429588</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.39343</xStart>
@@ -1255,7 +1255,7 @@
                 <point>-0.844163 0.80939 1.27017</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1282,7 +1282,7 @@
             <length>0.0429567</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.39358</xStart>
@@ -1491,14 +1491,14 @@
                 <point>0.844105 0.808987 1.26988</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1611,7 +1611,7 @@
             <density>102.038 99.5661</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_47mm_SA-L_Mle.37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA-L_Mle.37>
         <_57mm_6_pdr_AT_Gun_Mk_IV>shared  <maxAmmo>70</maxAmmo>
           <unlocks>
             <vehicle>F32_Somua_Sau_40  <cost>3100</cost>
@@ -1678,7 +1678,7 @@
             <density>109.99 110.447</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_6_pdr_AT_Gun_Mk_IV>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_6_pdr_AT_Gun_Mk_IV>
       </guns>
       <models>
         <undamaged>vehicles/french/F52_RenaultUE57/normal/lod0/Turret_01.model</undamaged>
@@ -1853,7 +1853,7 @@
     <armour>0.988567898</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <G136_Tiger_131.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -78,8 +78,8 @@
     <hangarShadowTexture>vehicles/german/G136_Tiger_131/Tiger_131_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -138,7 +138,7 @@
   <chassis>
     <Chassis_G136_Tiger_131>
       <userString>#germany_vehicles:Chassis_G136_Tiger_131</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -639,7 +639,7 @@
             <length>0.114</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.81775</xStart>
@@ -815,7 +815,7 @@
                 <point>-1.6261 1.28116 2.82525</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -842,7 +842,7 @@
             <length>0.113999</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.81776</xStart>
@@ -1018,14 +1018,14 @@
                 <point>1.3261 1.27664 2.82522</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1048,7 +1048,7 @@
     <Turret_1_G136_Tiger_131>
       <userString>#germany_vehicles:Turret_1_G136_Tiger_131</userString>
       <shortUserString>#germany_vehicles:Turret_1_G136_Tiger_131</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1128,8 +1128,8 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -1171,7 +1171,7 @@
             <density>116.999 116.901</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56A>
       </guns>
       <models>
         <undamaged>vehicles/german/G136_Tiger_131/normal/lod0/Turret_01.model</undamaged>
@@ -1188,8 +1188,8 @@
       <physicsShape>0.996 -0.008 1.002 0.000 0.652 0.125 0.809 0.476 0.315 0.432 0.000 0.500 0.039 0.000 0.245</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1271,7 +1271,7 @@
     <armour>0.879999147</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

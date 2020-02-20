@@ -1,12 +1,12 @@
 <A32_M12.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38.6</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -153,7 +153,7 @@
   <chassis>
     <Chassis_M12>
       <userString>#usa_vehicles:Chassis_M12</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14600</price>
       <unlocks>
@@ -1050,7 +1050,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1070,7 +1070,7 @@
     </Chassis_M12>
     <Chassis_M12_2>
       <userString>#usa_vehicles:Chassis_M12_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19700</price>
       <armor>
@@ -1963,7 +1963,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2132,7 +2132,7 @@
             <density>86.0671 100.636</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_155mm_Gun_M1918M1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_155mm_Gun_M1918M1>
       </guns>
       <models>
         <undamaged>vehicles/american/A32_M12/normal/lod0/Turret_01.model</undamaged>
@@ -2150,7 +2150,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2317,7 +2317,7 @@
             <density>92.5318 94.6049</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_155mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_155mm_Gun_M1A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A32_M12/normal/lod0/Turret_02.model</undamaged>
@@ -2480,7 +2480,7 @@
     <armour>0.816323349</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

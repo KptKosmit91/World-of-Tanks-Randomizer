@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56.3</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -582,7 +582,7 @@
   <chassis>
     <Chassis_T95_E6>
       <userString>#usa_vehicles:Chassis_T95_E6</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -980,7 +980,7 @@
             <length>0.0984461</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.42295</xStart>
@@ -1185,7 +1185,7 @@
                 <point>-1.4337 1.11586 3.31665</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1216,7 +1216,7 @@
             <length>0.0984308</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.44554</xStart>
@@ -1425,14 +1425,14 @@
                 <point>1.19371 1.16873 3.33327</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1454,7 +1454,7 @@
   <turrets0>
     <Turret_1_T95_E6>
       <userString>#usa_vehicles:Turret_1_T95_E6</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1584,7 +1584,7 @@
             <density>111.225 109.504</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_T123E6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_T123E6>
       </guns>
       <models>
         <undamaged>vehicles/american/A95_T95_E6/normal/lod0/Turret_01.model</undamaged>
@@ -2102,7 +2102,7 @@
     <armour>0.841861634</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

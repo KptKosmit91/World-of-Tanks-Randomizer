@@ -2,7 +2,7 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -132,7 +132,7 @@
   <chassis>
     <Chassis_G108_PzKpfwII_AusfD>
       <userString>#germany_vehicles:Chassis_G108_PzKpfwII_AusfD</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -485,7 +485,7 @@
             <length>0.0927567</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.18808</xStart>
@@ -651,7 +651,7 @@
                 <point>-0.717747 0.958764 2.12468</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -678,7 +678,7 @@
             <length>0.0943272</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.13758</xStart>
@@ -841,14 +841,14 @@
                 <point>0.717802 0.892821 2.10726</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -978,7 +978,7 @@
             <density>128.19 123.581</density>
             <aoTextureSize>128 128</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_30A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_30A>
       </guns>
       <models>
         <undamaged>vehicles/german/G108_PzKpfwII_AusfD/normal/lod0/Turret_01.model</undamaged>
@@ -1100,7 +1100,7 @@
     <armour>0.793317011</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

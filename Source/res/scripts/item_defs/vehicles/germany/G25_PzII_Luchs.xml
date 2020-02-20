@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -116,7 +116,7 @@
   <chassis>
     <Luchsketten_Ausf_A>
       <userString>#germany_vehicles:Luchsketten_Ausf_A</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3680</price>
       <unlocks>
@@ -856,7 +856,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -876,7 +876,7 @@
     </Luchsketten_Ausf_A>
     <Luchsketten_Ausf_B>
       <userString>#germany_vehicles:Luchsketten_Ausf_B</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9650</price>
       <armor>
@@ -1566,7 +1566,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1588,7 +1588,7 @@
   <turrets0>
     <PzIIL_Luchsturm>
       <userString>#germany_vehicles:PzIIL_Luchsturm</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>1580</price>
       <armor>
@@ -1684,7 +1684,7 @@
             <density>162.133 163.407</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_38_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_38_L55>
         <_37mm_KwK_L46>shared  <maxAmmo>77</maxAmmo>
           <unlocks>
             <turret>PzIIL_Grosseturm  <cost>1980</cost>
@@ -1757,7 +1757,7 @@
             <density>163.575 163.518</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_L46>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_L46>
         <_20mm_Flak_38_L112>shared  <maxAmmo>330</maxAmmo>
           <reloadTime>3</reloadTime>
           <shotDispersionFactors>
@@ -1823,7 +1823,7 @@
             <density>163.421 163.419</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
         <_30mm_MK103>shared  <maxAmmo>240</maxAmmo>
           <armor>
             <armor_1>30  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1893,7 +1893,7 @@
             <density>163.419 163.419</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_30mm_MK103>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_30mm_MK103>
       </guns>
       <models>
         <undamaged>vehicles/german/G25_PzII_Luchs/normal/lod0/Turret_01.model</undamaged>
@@ -1957,7 +1957,7 @@
     </PzIIL_Luchsturm>
     <PzIIL_Grosseturm>
       <userString>#germany_vehicles:PzIIL_Grosseturm</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10500</price>
       <unlocks>
@@ -2055,7 +2055,7 @@
             <density>162.133 163.407</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_KwK_38_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_KwK_38_L55>
         <_37mm_KwK_L46>shared  <maxAmmo>77</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.1</turretRotation>
@@ -2124,7 +2124,7 @@
             <density>163.575 163.518</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_L46>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_L46>
         <_20mm_Flak_38_L112>shared  <maxAmmo>330</maxAmmo>
           <reloadTime>2.7</reloadTime>
           <aimingTime>1.4</aimingTime>
@@ -2186,7 +2186,7 @@
             <density>163.421 163.419</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
         <_30mm_MK103>shared  <maxAmmo>240</maxAmmo>
           <armor>
             <armor_1>50  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2256,7 +2256,7 @@
             <density>163.419 163.419</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_30mm_MK103>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_30mm_MK103>
         <_50mm_KwK_38_L42>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <gun>_50mm_KwK_39_L60  <cost>1350</cost>
@@ -2330,7 +2330,7 @@
             <density>144.319 143.221</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_38_L42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_38_L42>
         <_50mm_KwK_39_L60>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 8 0.1 8 0.163662 10 0.369671 10 0.433333 8 0.566667 8 0.630329 10 0.836338 10 0.9 8 1 8</maxPitch>
@@ -2398,7 +2398,7 @@
             <density>148.576 148.206</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60>
       </guns>
       <models>
         <undamaged>vehicles/german/G25_PzII_Luchs/normal/lod0/Turret_02.model</undamaged>
@@ -2582,7 +2582,7 @@
     <armour>0.777856038</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

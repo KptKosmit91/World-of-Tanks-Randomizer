@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -153,7 +153,7 @@
   <chassis>
     <Chassis_GB30_FV3805>
       <userString>#gb_vehicles:Chassis_GB30_FV3805</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <unlocks>
@@ -1035,7 +1035,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1055,7 +1055,7 @@
     </Chassis_GB30_FV3805>
     <Chassis_GB30_FV3805_2>
       <userString>#gb_vehicles:Chassis_GB30_FV3805_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62000</price>
       <armor>
@@ -1933,7 +1933,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2058,7 +2058,7 @@
             <density>92.6697 92.7664</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_5.5inch_SPG_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_5.5inch_SPG_Gun>
         <_6inch_SPG_Gun>shared  <maxAmmo>76</maxAmmo>
           <unlocks>
             <gun>_7.2inch_SPG_Howitzer  <cost>60000</cost>
@@ -2137,7 +2137,7 @@
             <density>92.6696 92.7688</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_6inch_SPG_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_6inch_SPG_Gun>
         <_7.2inch_SPG_Howitzer>shared  <maxAmmo>48</maxAmmo>
           <unlocks>
             <vehicle>GB31_Conqueror_Gun  <cost>267000</cost>
@@ -2216,7 +2216,7 @@
             <density>91.5166 95.9686</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_7.2inch_SPG_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_7.2inch_SPG_Howitzer>
       </guns>
       <models>
         <undamaged>vehicles/british/GB30_FV3805/normal/lod0/Turret_01.model</undamaged>
@@ -2375,7 +2375,7 @@
     <armour>0.982933101</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

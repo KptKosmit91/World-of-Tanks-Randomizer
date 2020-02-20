@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>23</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -65,7 +65,7 @@ loader</commander>
     <exhaust>
       <pixie>diesel_small</pixie>
       <nodes>HP_Track_Exhaus_1</nodes>
-      <tags></tags>
+      <tags />
     </exhaust>
     <turretPositions>
       <turret>0.000000 0.535453 0.43705</turret>
@@ -77,7 +77,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/japan/J01_NC27/NC27_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -102,7 +102,7 @@ loader</commander>
   <chassis>
     <Chassis_NC27_bot>
       <userString>#japan_vehicles:Chassis_NC27_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -620,7 +620,7 @@ loader</commander>
                 <ySamples>0.425134 0.426902 0.42902 0.431496 0.43434 0.437561 0.441174</ySamples>
               </part>
             </bottom>
-            <top></top>
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_R1</wheel>
@@ -699,7 +699,7 @@ loader</commander>
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
+            <top />
             <bottom>
               <range>
                 <point>0.622461 0.749839 -1.89743</point>
@@ -761,8 +761,8 @@ loader</commander>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_NC27_bot>
@@ -770,7 +770,7 @@ loader</commander>
   <turrets0>
     <Turret_1_NC27_bot>
       <userString>#japan_vehicles:Turret_1_NC27_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -835,7 +835,7 @@ loader</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -844,7 +844,7 @@ loader</commander>
             <density>135.699 136.076</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_APX_SA18_bot>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_APX_SA18_bot>
       </guns>
       <models>
         <undamaged>vehicles/japan/J01_NC27/normal/lod0/Turret_01.model</undamaged>
@@ -861,7 +861,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_man_trav_05</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -959,9 +959,9 @@ loader</commander>
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

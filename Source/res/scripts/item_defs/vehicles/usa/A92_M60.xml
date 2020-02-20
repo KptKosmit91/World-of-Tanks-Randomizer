@@ -1,9 +1,9 @@
 <A92_M60.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -556,7 +556,7 @@
   <chassis>
     <Chassis_M60>
       <userString>#usa_vehicles:Chassis_M60</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1524,7 +1524,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1546,7 +1546,7 @@
   <turrets0>
     <Turret_1_M60>
       <userString>#usa_vehicles:Turret_1_M60</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1696,7 +1696,7 @@
             <density>107.746 109.585</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_M68_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_M68_1>
       </guns>
       <models>
         <undamaged>vehicles/american/A92_M60/normal/lod0/Turret_01.model</undamaged>
@@ -2189,7 +2189,7 @@
     <armour>1.117380288</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

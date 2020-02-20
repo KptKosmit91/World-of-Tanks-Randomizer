@@ -13,6 +13,8 @@ if conf.CustomSounds == "false":
 
 files.append(conf.tanksPath + "common/gun_effects.xml")
 
+files.append("Addons/NewGunEffects/Source/res/scripts/item_defs/vehicles/common/gun_effects.xml")
+
 if conf.UseAlternativeGunSoundsMod == "true":
     files.append("Addons/AlternativeGunSounds/Source/res/scripts/item_defs/vehicles/common/gun_effects.xml")
 

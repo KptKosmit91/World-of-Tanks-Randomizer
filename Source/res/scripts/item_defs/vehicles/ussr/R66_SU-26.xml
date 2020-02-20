@@ -1,11 +1,11 @@
 <R66_SU-26.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -23,12 +23,12 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>3.7 2.6 0.2 0.16</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>15</armor_1>
@@ -110,7 +110,7 @@
   <chassis>
     <Su-26A>
       <userString>#ussr_vehicles:Su-26A</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>680</price>
       <unlocks>
@@ -996,7 +996,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1016,7 +1016,7 @@
     </Su-26A>
     <Su-26B>
       <userString>#ussr_vehicles:Su-26B</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <armor>
@@ -1888,7 +1888,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2004,7 +2004,7 @@
             <density>98.9056 93.8252</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_cannon_mod_1927>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_cannon_mod_1927>
         <_76mm_cannon_mod_1905_30>shared  <maxAmmo>48</maxAmmo>
           <unlocks>
             <gun>_76mm_cannon_mod_1905_40  <cost>1200</cost>
@@ -2074,7 +2074,7 @@
             <density>101.019 101.189</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_cannon_mod_1905_30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_cannon_mod_1905_30>
         <_76mm_cannon_mod_1905_40>shared  <maxAmmo>48</maxAmmo>
           <armor>
             <armor_6>5  <vehicleDamageFactor>1.0</vehicleDamageFactor>
@@ -2138,7 +2138,7 @@
             <density>101.009 105.632</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_cannon_mod_1905_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_cannon_mod_1905_40>
       </guns>
       <models>
         <undamaged>vehicles/russian/R66_SU-26/normal/lod0/Turret_01.model</undamaged>
@@ -2342,7 +2342,7 @@
     <armour>0.780095282</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

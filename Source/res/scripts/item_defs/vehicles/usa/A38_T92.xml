@@ -1,12 +1,12 @@
 <A38_T92.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>32.2</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -1053,7 +1053,7 @@
   <chassis>
     <Chassis_T92>
       <userString>#usa_vehicles:Chassis_T92</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>32000</price>
       <notInShop>true</notInShop>
@@ -1371,7 +1371,7 @@
             <length>0.071</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.20946</xStart>
@@ -1632,7 +1632,7 @@
                 <point>-1.4141 1.19354 3.35807</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1663,7 +1663,7 @@
             <length>0.0710676</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.20709</xStart>
@@ -1924,14 +1924,14 @@
                 <point>1.45411 1.19868 3.36559</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2056,7 +2056,7 @@
             <density>91.9989 92.0757</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_240mm_Howitzer_M1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_240mm_Howitzer_M1>
       </guns>
       <models>
         <undamaged>vehicles/american/A38_T92/normal/lod0/Turret_01.model</undamaged>
@@ -2074,7 +2074,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2156,7 +2156,7 @@
     <armour>0.663996121</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

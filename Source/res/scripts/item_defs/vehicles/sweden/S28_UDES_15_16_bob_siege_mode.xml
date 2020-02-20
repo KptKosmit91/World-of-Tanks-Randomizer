@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -893,7 +893,7 @@ loader</commander>
   <chassis>
     <Chassis_S28_UDES_15_16_bob>
       <userString>#sweden_vehicles:Chassis_S28_UDES_15_16</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1152,7 +1152,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1174,7 +1174,7 @@ loader</commander>
   <turrets0>
     <Turret_1_S28_UDES_15_16_bob>
       <userString>#sweden_vehicles:Turret_1_S28_UDES_15_16</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1355,7 +1355,7 @@ loader</commander>
             <density>113.836 115.502</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_strvkan_L_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_strvkan_L_40>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S28_UDES_15_16/normal/lod0/Turret_01.model</undamaged>
@@ -1881,7 +1881,7 @@ loader</commander>
   <radios>
     <Ra_421_1>shared</Ra_421_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1951,12 +1951,12 @@ loader</commander>
       </wheelsCorrectionAngles>
       <isEnabled>True</isEnabled>
     </pitch>
-    <yawDisabled></yawDisabled>
+    <yawDisabled />
   </hull_aiming>
   <useHullZSize>True</useHullZSize>
   <useHullZOffset>True</useHullZOffset>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

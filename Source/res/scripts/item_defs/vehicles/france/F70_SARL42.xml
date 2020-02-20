@@ -1,9 +1,9 @@
 <F70_SARL42.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -135,7 +135,7 @@
   <chassis>
     <Chassis_SARL42>
       <userString>#france_vehicles:Chassis_SARL42</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1600</price>
       <unlocks>
@@ -1059,7 +1059,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1079,7 +1079,7 @@
     </Chassis_SARL42>
     <Chassis_SARL42_2>
       <userString>#france_vehicles:Chassis_SARL42_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4300</price>
       <armor>
@@ -1999,7 +1999,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2021,7 +2021,7 @@
   <turrets0>
     <Turret_1_SARL42>
       <userString>#france_vehicles:Turret_1_SARL42</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <armor>
@@ -2137,7 +2137,7 @@
             <density>107.551 106.038</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
         <_47mm_SA37>shared  <maxAmmo>69</maxAmmo>
           <unlocks>
             <gun>_47mm_SA37_ameliore  <cost>2400</cost>
@@ -2222,7 +2222,7 @@
             <density>107.664 109.602</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA37>
         <_47mm_SA37_ameliore>shared  <maxAmmo>69</maxAmmo>
           <armor>
             <armor_1>40  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2301,7 +2301,7 @@
             <density>107.664 109.602</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA37_ameliore>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA37_ameliore>
       </guns>
       <models>
         <undamaged>vehicles/french/F70_SARL42/normal/lod0/Turret_01.model</undamaged>
@@ -2365,7 +2365,7 @@
     </Turret_1_SARL42>
     <Turret_2_SARL42>
       <userString>#france_vehicles:Turret_2_SARL42</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4800</price>
       <unlocks>
@@ -2489,7 +2489,7 @@
             <density>107.551 106.038</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
         <_47mm_SA37>shared  <maxAmmo>69</maxAmmo>
           <armor>
             <armor_1>40  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2572,7 +2572,7 @@
             <density>107.664 109.602</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA37>
         <_47mm_SA37_ameliore>shared  <maxAmmo>69</maxAmmo>
           <armor>
             <armor_1>40  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2655,7 +2655,7 @@
             <density>107.664 109.602</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA37_ameliore>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA37_ameliore>
         <_75mm_SA32>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_75mm_Long_44  <cost>2700</cost>
@@ -2745,7 +2745,7 @@
             <density>99.7918 103.415</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_SA32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA32>
         <_75mm_Long_44>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <armor_1>40  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2828,7 +2828,7 @@
             <density>100.281 105.312</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Long_44>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Long_44>
       </guns>
       <models>
         <undamaged>vehicles/french/F70_SARL42/normal/lod0/Turret_02.model</undamaged>
@@ -3008,7 +3008,7 @@
     <armour>0.914159825</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

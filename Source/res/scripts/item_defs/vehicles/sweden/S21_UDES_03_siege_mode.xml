@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -362,7 +362,7 @@
   <chassis>
     <Chassis_S21_UDES_03>
       <userString>#sweden_vehicles:Chassis_S21_UDES_03</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18000</price>
       <unlocks>
@@ -603,7 +603,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -623,7 +623,7 @@
     </Chassis_S21_UDES_03>
     <Chassis_S21_UDES_03_2>
       <userString>#sweden_vehicles:Chassis_S21_UDES_03_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>35900</price>
       <armor>
@@ -860,7 +860,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1047,7 +1047,7 @@
             <density>126.449 127.663</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_kan_m_F>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_kan_m_F>
         <_105mm_kan_UDES_03>
           <maxAmmo>40</maxAmmo>
           <unlocks>
@@ -1190,7 +1190,7 @@
             <density>126.992 125.217</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_kan_UDES_03>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_kan_UDES_03>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S21_UDES_03/normal/lod0/Turret_01.model</undamaged>
@@ -1207,8 +1207,8 @@
       <physicsShape>1.100 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_S21_UDES_03>
@@ -1349,7 +1349,7 @@
   <isRotationStill>True</isRotationStill>
   <useHullZSize>True</useHullZSize>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

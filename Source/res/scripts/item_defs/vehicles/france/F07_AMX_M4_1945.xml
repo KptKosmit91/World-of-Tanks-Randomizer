@@ -1,11 +1,11 @@
 <F07_AMX_M4_1945.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -122,7 +122,7 @@
   <chassis>
     <Chassis_AMX_M4_1945>
       <userString>#france_vehicles:Chassis_AMX_M4_1945</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>9550</price>
       <unlocks>
@@ -1015,7 +1015,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1035,7 +1035,7 @@
     </Chassis_AMX_M4_1945>
     <Chassis_AMX_M4_1945_2>
       <userString>#france_vehicles:Chassis_AMX_M4_1945_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18500</price>
       <armor>
@@ -1924,7 +1924,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1946,7 +1946,7 @@
   <turrets0>
     <Turret_1_AMX_M4_1945>
       <userString>#france_vehicles:Turret_1_AMX_M4_1945</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14520</price>
       <armor>
@@ -2062,7 +2062,7 @@
             <density>108.2 108.664</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_30>
         <_90mm_F3>shared  <maxAmmo>74</maxAmmo>
           <unlocks>
             <turret>Turret_2_AMX_M4_1945  <cost>9600</cost>
@@ -2146,7 +2146,7 @@
             <density>104.321 110.026</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_F3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_F3>
         <_105mm_canon_13TR>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <armor_1>110  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2224,7 +2224,7 @@
             <density>105.649 110.631</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_canon_13TR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_canon_13TR>
       </guns>
       <models>
         <undamaged>vehicles/french/F07_AMX_M4_1945/normal/lod0/Turret_01.model</undamaged>
@@ -2298,7 +2298,7 @@
     </Turret_1_AMX_M4_1945>
     <Turret_2_AMX_M4_1945>
       <userString>#france_vehicles:Turret_2_AMX_M4_1945</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20500</price>
       <unlocks>
@@ -2417,7 +2417,7 @@
             <density>108.2 108.664</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_30>
         <_90mm_F3>shared  <maxAmmo>74</maxAmmo>
           <pitchLimits>
             <minPitch>0 -12 1 -12</minPitch>
@@ -2496,7 +2496,7 @@
             <density>104.321 110.026</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_F3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_F3>
         <_90mm_canon_DCA_45>shared  <maxAmmo>74</maxAmmo>
           <unlocks>
             <vehicle>F81_Char_de_65t  <cost>62500</cost>
@@ -2580,7 +2580,7 @@
             <density>101.617 107.983</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_45>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_45>
         <_105mm_canon_13TR>shared  <maxAmmo>60</maxAmmo>
           <pitchLimits>
             <minPitch>0 -12 1 -12</minPitch>
@@ -2660,7 +2660,7 @@
             <density>105.649 110.631</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_canon_13TR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_canon_13TR>
       </guns>
       <models>
         <undamaged>vehicles/french/F07_AMX_M4_1945/normal/lod0/Turret_02.model</undamaged>
@@ -2849,7 +2849,7 @@
     <armour>1.150655622</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

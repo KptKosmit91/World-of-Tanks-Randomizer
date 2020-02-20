@@ -1,12 +1,12 @@
 <G37_Ferdinand.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -484,7 +484,7 @@
     <Ferdinandstandardketten>
       <userString>#germany_vehicles:Ferdinandstandardketten</userString>
       <shortUserString>#germany_vehicles:Ferdinandstandardketten_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18860</price>
       <unlocks>
@@ -1269,7 +1269,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1290,7 +1290,7 @@
     <Ferdinandvetstaerktketten>
       <userString>#germany_vehicles:Ferdinandvetstaerktketten</userString>
       <shortUserString>#germany_vehicles:Ferdinandvetstaerktketten_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32234</price>
       <armor>
@@ -2071,7 +2071,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2196,7 +2196,7 @@
             <density>99.5089 82.0837</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_PaK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_PaK_43_L71>
         <_105mm_K18_L52>shared  <pitchLimits>
             <minPitch>0 -14 1 -14</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2279,7 +2279,7 @@
             <density>75.5503 74.0844</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_K18_L52>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_K18_L52>
         <_128mm_PaK44_L55>shared  <pitchLimits>
             <minPitch>0 -14 1 -14</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2360,7 +2360,7 @@
             <density>91.2199 88.6278</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_PaK44_L55>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_PaK44_L55>
       </guns>
       <models>
         <undamaged>vehicles/german/G37_Ferdinand/normal/lod0/Turret_01.model</undamaged>
@@ -2377,8 +2377,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_07</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -2503,7 +2503,7 @@
     <armour>0.804393468</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

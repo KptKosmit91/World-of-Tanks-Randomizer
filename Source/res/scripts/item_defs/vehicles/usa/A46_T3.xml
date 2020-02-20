@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>72.4</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -180,7 +180,7 @@ loader</commander>
   <chassis>
     <Chassis_A46_T3>
       <userString>#usa_vehicles:Chassis_A46_T3</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>270</price>
       <unlocks>
@@ -852,7 +852,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -872,7 +872,7 @@ loader</commander>
     </Chassis_A46_T3>
     <Chassis_A46_T3_2>
       <userString>#usa_vehicles:Chassis_A46_T3_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>580</price>
       <armor>
@@ -1540,7 +1540,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1652,7 +1652,7 @@ loader</commander>
             <density>144.486 152.603</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_M-3_antitank_gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-3_antitank_gun>
       </guns>
       <models>
         <undamaged>vehicles/american/A46_T3/normal/lod0/Turret_01.model</undamaged>
@@ -1670,7 +1670,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1780,7 +1780,7 @@ loader</commander>
             <density>139.255 141.498</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Howitzer_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Howitzer_M1A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A46_T3/normal/lod0/Turret_02.model</undamaged>
@@ -1798,7 +1798,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1909,7 +1909,7 @@ loader</commander>
             <density>138.657 142.615</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Ordnance_QF_2pdr_AT_Gun_Mk.X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Ordnance_QF_2pdr_AT_Gun_Mk.X>
       </guns>
       <models>
         <undamaged>vehicles/american/A46_T3/normal/lod0/Turret_03.model</undamaged>
@@ -1927,7 +1927,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2046,7 +2046,7 @@ loader</commander>
     <armour>0.783426524</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

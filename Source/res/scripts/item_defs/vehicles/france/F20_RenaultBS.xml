@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>19</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -149,7 +149,7 @@ loader</commander>
   <chassis>
     <Chassis_RenaultBS>
       <userString>#france_vehicles:Chassis_RenaultBS</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>250</price>
       <unlocks>
@@ -461,7 +461,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -481,7 +481,7 @@ loader</commander>
     </Chassis_RenaultBS>
     <Chassis_RenaultBS2>
       <userString>#france_vehicles:Chassis_RenaultBS2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>560</price>
       <unlocks>
@@ -793,7 +793,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -901,7 +901,7 @@ loader</commander>
             <density>506.931 500.334</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Schneider>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Schneider>
       </guns>
       <models>
         <undamaged>vehicles/french/F20_RenaultBS/normal/lod0/Turret_01.model</undamaged>
@@ -918,8 +918,8 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_man_trav_06</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_RenaultBS>
@@ -1031,7 +1031,7 @@ loader</commander>
     <armour>0.926794616</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,12 +1,12 @@
 <R51_Object_212.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -163,7 +163,7 @@
   <chassis>
     <Chassis_Object_212>
       <userString>#ussr_vehicles:Chassis_Object_212</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30600</price>
       <unlocks>
@@ -921,7 +921,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -941,7 +941,7 @@
     </Chassis_Object_212>
     <Chassis_Object_212_2>
       <userString>#ussr_vehicles:Chassis_Object_212_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>59400</price>
       <armor>
@@ -1695,7 +1695,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1829,7 +1829,7 @@
             <density>105.879 106.453</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_BR-2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_BR-2>
         <_203mm_B-4>shared  <maxAmmo>40</maxAmmo>
           <shotDispersionRadius>0.75</shotDispersionRadius>
           <reloadTime>39</reloadTime>
@@ -1920,7 +1920,7 @@
             <density>106.569 107.84</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_203mm_B-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_203mm_B-4>
       </guns>
       <models>
         <undamaged>vehicles/russian/R51_Object_212/normal/lod0/Turret_01.model</undamaged>
@@ -1937,8 +1937,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_06</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_Object_212>
@@ -2055,7 +2055,7 @@
     <armour>0.906774472</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

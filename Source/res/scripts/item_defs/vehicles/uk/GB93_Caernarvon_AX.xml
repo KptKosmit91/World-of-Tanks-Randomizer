@@ -1,9 +1,9 @@
 <GB93_Caernarvon_AX.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1061,7 +1061,7 @@
   <chassis>
     <Chassis_GB93_Caernarvon_AX>
       <userString>#gb_vehicles:Chassis_GB93_Caernarvon_AX</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1964,7 +1964,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1986,7 +1986,7 @@
   <turrets0>
     <Turret_1_GB93_Caernarvon_AX>
       <userString>#gb_vehicles:Turret_1_GB93_Caernarvon_AX</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2097,7 +2097,7 @@
             <density>111.476 111.186</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_B_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_B_1>
       </guns>
       <models>
         <undamaged>vehicles/british/GB93_Caernarvon_AX/normal/lod0/Turret_01.model</undamaged>
@@ -2514,7 +2514,7 @@
   <radios>
     <C45A>shared</C45A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2563,7 +2563,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

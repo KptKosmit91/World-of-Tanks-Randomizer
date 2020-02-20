@@ -1,11 +1,11 @@
 <A121_M26_Cologne.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -120,7 +120,7 @@
   <chassis>
     <Chassis_A121_M26_Cologne>
       <userString>#usa_vehicles:Chassis_A121_M26_Cologne</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -421,7 +421,7 @@
             <length>0.124248</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96677</xStart>
@@ -603,7 +603,7 @@
                 <point>-1.39076 1.30922 2.74867</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -630,7 +630,7 @@
             <length>0.124248</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96678</xStart>
@@ -812,14 +812,14 @@
                 <point>1.39076 1.30922 2.74867</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -841,7 +841,7 @@
   <turrets0>
     <Turret_1_A121_M26_Cologne>
       <userString>#usa_vehicles:Turret_1_A121_M26_Cologne</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -953,7 +953,7 @@
             <density>131.733 133.353</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3E>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3E>
       </guns>
       <models>
         <undamaged>vehicles/american/A121_M26_Cologne/normal/lod0/Turret_01.model</undamaged>
@@ -1014,7 +1014,7 @@
   <radios>
     <SCR_528A1>shared</SCR_528A1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1063,7 +1063,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

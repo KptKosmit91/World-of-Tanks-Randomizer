@@ -1,12 +1,12 @@
 <GB27_Sexton.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40.2</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -151,7 +151,7 @@
         <anchorDirection>0.000000 0.527905 -0.849303</anchorDirection>
       </slot>
     </customizationSlots>
-    <variants></variants>
+    <variants />
     <camouflage>
       <density>104.107 104.096</density>
       <aoTextureSize>1024 1024</aoTextureSize>
@@ -160,7 +160,7 @@
   <chassis>
     <Chassis_GB27_Sexton>
       <userString>#gb_vehicles:Chassis_GB27_Sexton</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <unlocks>
@@ -986,7 +986,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1006,7 +1006,7 @@
     </Chassis_GB27_Sexton>
     <Chassis_GB27_Sexton_2>
       <userString>#gb_vehicles:Chassis_GB27_Sexton_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1900</price>
       <armor>
@@ -1828,7 +1828,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1952,7 +1952,7 @@
             <density>98.2927 96.1716</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_18_pdr_SPG_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_18_pdr_SPG_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB27_Sexton/normal/lod0/Turret_02.model</undamaged>
@@ -2090,7 +2090,7 @@
             <density>88.8265 92.063</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </OQF_25pdr_Gun_Mk_II>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></OQF_25pdr_Gun_Mk_II>
       </guns>
       <models>
         <undamaged>vehicles/british/GB27_Sexton/normal/lod0/Turret_01.model</undamaged>
@@ -2244,7 +2244,7 @@
     <armour>0.494149349</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

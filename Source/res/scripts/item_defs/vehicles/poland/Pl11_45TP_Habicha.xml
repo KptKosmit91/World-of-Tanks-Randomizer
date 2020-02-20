@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -109,7 +109,7 @@
   <chassis>
     <Chassis_Pl11_45TP_Habicha>
       <userString>#poland_vehicles:Chassis_Pl11_45TP_Habicha</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <unlocks>
@@ -1053,7 +1053,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1073,7 +1073,7 @@
     </Chassis_Pl11_45TP_Habicha>
     <Chassis_Pl11_45TP_Habicha_2>
       <userString>#poland_vehicles:Chassis_Pl11_45TP_Habicha_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22800</price>
       <armor>
@@ -2013,7 +2013,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2035,7 +2035,7 @@
   <turrets0>
     <Turret_1_Pl11_45TP_Habicha>
       <userString>#poland_vehicles:Turret_1_Pl11_45TP_Habicha</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14000</price>
       <unlocks>
@@ -2148,7 +2148,7 @@
             <density>92.4734 109.266</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_wz_39_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_wz_39_40>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl11_45TP_Habicha/normal/lod0/Turret_01.model</undamaged>
@@ -2232,7 +2232,7 @@
     </Turret_1_Pl11_45TP_Habicha>
     <Turret_2_Pl11_45TP_Habicha>
       <userString>#poland_vehicles:Turret_2_Pl11_45TP_Habicha</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>23000</price>
       <unlocks>
@@ -2346,7 +2346,7 @@
             <density>92.4734 109.266</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_wz_39_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_wz_39_40>
         <_105mm_Bofors_wz_34>shared  <maxAmmo>40</maxAmmo>
           <unlocks>
             <vehicle>Pl13_53TP_Markowskiego  <cost>84200</cost>
@@ -2424,7 +2424,7 @@
             <density>93.6086 99.3018</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_Bofors_wz_34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Bofors_wz_34>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl11_45TP_Habicha/normal/lod0/Turret_02.model</undamaged>
@@ -2526,7 +2526,7 @@
     </N2_L>
     <RKD>shared</RKD>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2614,7 +2614,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

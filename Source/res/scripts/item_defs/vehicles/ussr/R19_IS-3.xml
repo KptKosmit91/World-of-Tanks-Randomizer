@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -294,7 +294,7 @@
   <chassis>
     <IS-3>
       <userString>#ussr_vehicles:IS-3</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17780</price>
       <unlocks>
@@ -992,7 +992,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1012,7 +1012,7 @@
     </IS-3>
     <IS-3M>
       <userString>#ussr_vehicles:IS-3M</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31450</price>
       <armor>
@@ -1706,7 +1706,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1728,7 +1728,7 @@
   <turrets0>
     <IS-3>
       <userString>#ussr_vehicles:IS-3_K</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <unlocks>
@@ -1924,7 +1924,7 @@
             <density>104.468 108.32</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_a_piston_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_a_piston_shutter>
         <_100mm_D10T>shared  <maxAmmo>50</maxAmmo>
           <pitchLimits>
             <minPitch>0 -23 1 -23</minPitch>
@@ -2078,7 +2078,7 @@
             <density>105.201 108.295</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D10T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D10T>
         <_122-mm_D-25T_with_wedges_shutter>shared  <maxAmmo>28</maxAmmo>
           <pitchLimits>
             <minPitch>0 -23 1 -23</minPitch>
@@ -2238,7 +2238,7 @@
             <density>104.375 108.269</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_wedges_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter>
         <_122mm_BL-9>shared  <maxAmmo>28</maxAmmo>
           <unlocks>
             <vehicle>R151_Object_257_2  <cost>142700</cost>
@@ -2395,7 +2395,7 @@
             <density>99.3296 110.513</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL-9>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-9>
       </guns>
       <models>
         <undamaged>vehicles/russian/R19_IS-3/normal/lod0/Turret_01.model</undamaged>
@@ -2686,7 +2686,7 @@
     </IS-3>
     <Mod_T-10>
       <userString>#ussr_vehicles:Mod_T-10</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31500</price>
       <armor>
@@ -2869,7 +2869,7 @@
             <density>104.468 108.32</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_a_piston_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_a_piston_shutter>
         <_100mm_D10T>shared  <maxAmmo>50</maxAmmo>
           <pitchLimits>
             <minPitch>0 -23 1 -23</minPitch>
@@ -3015,7 +3015,7 @@
             <density>105.201 108.295</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D10T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D10T>
         <_122-mm_D-25T_with_wedges_shutter>shared  <maxAmmo>28</maxAmmo>
           <pitchLimits>
             <minPitch>0 -23 1 -23</minPitch>
@@ -3161,7 +3161,7 @@
             <density>104.375 108.269</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_wedges_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter>
         <_122mm_BL-9>shared  <maxAmmo>28</maxAmmo>
           <pitchLimits>
             <minPitch>0 -23 1 -23</minPitch>
@@ -3306,7 +3306,7 @@
             <density>99.3296 110.513</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL-9>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-9>
       </guns>
       <models>
         <undamaged>vehicles/russian/R19_IS-3/normal/lod0/Turret_02.model</undamaged>
@@ -3734,7 +3734,7 @@
     <armour>1.098949784</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -110,7 +110,7 @@
   <chassis>
     <Leopardketten_Ausf_A>
       <userString>#germany_vehicles:Leopardketten_Ausf_A</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4230</price>
       <unlocks>
@@ -402,7 +402,7 @@
             <length>0.150411</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.33952</xStart>
@@ -540,7 +540,7 @@
                 <point>-1.44167 1.23329 2.47369</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -567,7 +567,7 @@
             <length>0.150416</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.33943</xStart>
@@ -705,14 +705,14 @@
                 <point>1.23168 1.26557 2.47394</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -732,7 +732,7 @@
     </Leopardketten_Ausf_A>
     <Leopardketten_Ausf_B>
       <userString>#germany_vehicles:Leopardketten_Ausf_B</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>12740</price>
       <armor>
@@ -1020,7 +1020,7 @@
             <length>0.150411</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.33952</xStart>
@@ -1158,7 +1158,7 @@
                 <point>-1.44167 1.23329 2.47369</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1185,7 +1185,7 @@
             <length>0.150416</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.33943</xStart>
@@ -1323,14 +1323,14 @@
                 <point>1.23168 1.26557 2.47394</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1352,7 +1352,7 @@
   <turrets0>
     <Leopardturm>
       <userString>#germany_vehicles:Leopardturm</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9380</price>
       <notInShop>true</notInShop>
@@ -1469,7 +1469,7 @@
             <density>137.08 135.305</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_30mm_MK103A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_30mm_MK103A>
         <_50mm_KwK_39_L60L>shared  <maxAmmo>64</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1550,7 +1550,7 @@
             <density>146.006 145.056</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_50mm_KwK_39_L60L>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_50mm_KwK_39_L60L>
       </guns>
       <models>
         <undamaged>vehicles/german/G26_VK1602/normal/lod0/Turret_01.model</undamaged>
@@ -1749,7 +1749,7 @@
     <armour>0.820202972</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

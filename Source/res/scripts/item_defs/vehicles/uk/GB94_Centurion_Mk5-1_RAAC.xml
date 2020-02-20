@@ -1,9 +1,9 @@
 <GB94_Centurion_Mk5-1_RAAC.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -784,7 +784,7 @@
   <chassis>
     <Chassis_GB94_Centurion_Mk5-1_RAAC>
       <userString>#gb_vehicles:Chassis_GB94_Centurion_Mk5-1_RAAC</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33000</price>
       <notInShop>true</notInShop>
@@ -1671,7 +1671,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1693,7 +1693,7 @@
   <turrets0>
     <Turret_1_GB94_Centurion_Mk5-1_RAAC>
       <userString>#gb_vehicles:Turret_1_GB94_Centurion_Mk5-1_RAAC</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1815,7 +1815,7 @@
             <density>124.486 124.605</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_B_1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_B_1>
       </guns>
       <models>
         <undamaged>vehicles/british/GB94_Centurion_Mk5-1_RAAC/normal/lod0/Turret_01.model</undamaged>
@@ -2144,7 +2144,7 @@
   <radios>
     <C42_B47>shared</C42_B47>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2193,7 +2193,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

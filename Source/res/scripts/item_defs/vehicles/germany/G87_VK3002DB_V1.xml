@@ -1,11 +1,11 @@
 <G87_VK3002DB_V1.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@
   <chassis>
     <Chassis_VK3002DB_V1>
       <userString>#germany_vehicles:Chassis_VK3002DB_V1</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9250</price>
       <unlocks>
@@ -385,7 +385,7 @@
             <length>0.128545</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.04947</xStart>
@@ -813,7 +813,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -833,7 +833,7 @@
     </Chassis_VK3002DB_V1>
     <Chassis_VK3002DB_V1_2>
       <userString>#germany_vehicles:Chassis_VK3002DB_V1_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14500</price>
       <armor>
@@ -1101,7 +1101,7 @@
             <length>0.128545</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.04947</xStart>
@@ -1529,7 +1529,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1551,7 +1551,7 @@
   <turrets0>
     <Turret_1_VK3002DB_V1>
       <userString>#germany_vehicles:Turret_1_VK3002DB_V1</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>11330</price>
       <unlocks>
@@ -1667,7 +1667,7 @@
             <density>172.774 168.651</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48>
       </guns>
       <models>
         <undamaged>vehicles/german/G87_VK3002DB_V1/normal/lod0/Turret_01.model</undamaged>
@@ -1751,7 +1751,7 @@
     </Turret_1_VK3002DB_V1>
     <Turret_2_VK3002DB_V1>
       <userString>#germany_vehicles:Turret_2_VK3002DB_V1</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19260</price>
       <unlocks>
@@ -1865,7 +1865,7 @@
             <density>172.774 168.651</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48>
         <_75mm_KwK_L70>shared  <maxAmmo>79</maxAmmo>
           <reloadTime>4.2</reloadTime>
           <pitchLimits>
@@ -1938,7 +1938,7 @@
             <density>152.624 152.221</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
       </guns>
       <models>
         <undamaged>vehicles/german/G87_VK3002DB_V1/normal/lod0/Turret_02.model</undamaged>
@@ -2144,7 +2144,7 @@
     <armour>0.986927245</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

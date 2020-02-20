@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 radioman</commander>
-    <driver></driver>
-    <loader></loader>
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>24</forward>
@@ -22,7 +22,7 @@ radioman</commander>
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -112,7 +112,7 @@ radioman</commander>
   <chassis>
     <Chassis_GB04_Valentine>
       <userString>#gb_vehicles:Chassis_GB04_Valentine</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1420</price>
       <unlocks>
@@ -1005,7 +1005,7 @@ radioman</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1025,7 +1025,7 @@ radioman</commander>
     </Chassis_GB04_Valentine>
     <Chassis_GB04_Valentine_2>
       <userString>#gb_vehicles:Chassis_GB04_Valentine_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4700</price>
       <armor>
@@ -1914,7 +1914,7 @@ radioman</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1936,7 +1936,7 @@ radioman</commander>
   <turrets0>
     <Turret_1_GB04_Valentine>
       <userString>#gb_vehicles:Turret_1_GB04_Valentine</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1880</price>
       <unlocks>
@@ -2035,7 +2035,7 @@ radioman</commander>
             <density>122.054 129.306</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
       </guns>
       <models>
         <undamaged>vehicles/british/GB04_Valentine/normal/lod0/Turret_01.model</undamaged>
@@ -2099,7 +2099,7 @@ radioman</commander>
     </Turret_1_GB04_Valentine>
     <Turret_2_GB04_Valentine>
       <userString>#gb_vehicles:Turret_2_GB04_Valentine</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4500</price>
       <unlocks>
@@ -2200,7 +2200,7 @@ radioman</commander>
             <density>122.054 129.306</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_X>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_X>
         <QF_6_pounder_Mk_III>shared  <maxAmmo>44</maxAmmo>
           <pitchLimits>
             <minPitch>0 -17 1 -17</minPitch>
@@ -2267,7 +2267,7 @@ radioman</commander>
             <density>118.122 132.564</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_III>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_III>
         <QF_6_pounder_Mk_V>shared  <maxAmmo>44</maxAmmo>
           <pitchLimits>
             <minPitch>0 -17 1 -17</minPitch>
@@ -2339,7 +2339,7 @@ radioman</commander>
             <density>121.488 131.661</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_V>
         <_75mm_Gun_Mk_V>shared  <maxAmmo>44</maxAmmo>
           <pitchLimits>
             <minPitch>0 -17 1 -17</minPitch>
@@ -2402,7 +2402,7 @@ radioman</commander>
             <density>122 132.339</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Mk_V>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Mk_V>
       </guns>
       <models>
         <undamaged>vehicles/british/GB04_Valentine/normal/lod0/Turret_02.model</undamaged>
@@ -2610,7 +2610,7 @@ radioman</commander>
     <armour>0.788942471</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

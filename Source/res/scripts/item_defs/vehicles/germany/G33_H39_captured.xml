@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>37</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -122,7 +122,7 @@ loader</commander>
   <chassis>
     <H35ketten>
       <userString>#germany_vehicles:H35ketten</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>1030</price>
       <notInShop>true</notInShop>
@@ -946,7 +946,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -968,7 +968,7 @@ loader</commander>
   <turrets0>
     <H39turm>
       <userString>#germany_vehicles:H39turm</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>1050</price>
       <notInShop>true</notInShop>
@@ -1057,7 +1057,7 @@ loader</commander>
             <density>201.91 201.821</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_SA_38f_L34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_SA_38f_L34>
       </guns>
       <models>
         <undamaged>vehicles/german/G33_H39_captured/normal/lod0/Turret_01.model</undamaged>
@@ -1179,7 +1179,7 @@ loader</commander>
     <armour>0.955789308</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

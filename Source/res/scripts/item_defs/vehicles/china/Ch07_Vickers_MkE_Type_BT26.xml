@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -118,7 +118,7 @@
   <chassis>
     <Chassis_Ch07_Vickers_MkE_Type_BT26>
       <userString>#china_vehicles:Chassis_Ch07_Vickers_MkE_Type_BT26</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>340</price>
       <unlocks>
@@ -404,7 +404,7 @@
             <length>0.0863193</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.23157</xStart>
@@ -581,7 +581,7 @@
                 <point>-1.0269 1.15308 2.08453</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -608,7 +608,7 @@
             <length>0.0862944</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.23244</xStart>
@@ -786,14 +786,14 @@
                 <point>1.027 1.14409 2.12554</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -813,7 +813,7 @@
     </Chassis_Ch07_Vickers_MkE_Type_BT26>
     <Chassis_Ch07_Vickers_MkE_Type_BT26_2>
       <userString>#china_vehicles:Chassis_Ch07_Vickers_MkE_Type_BT26_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>620</price>
       <armor>
@@ -1095,7 +1095,7 @@
             <length>0.0863193</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.23157</xStart>
@@ -1272,7 +1272,7 @@
                 <point>-1.0269 1.15308 2.08453</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1299,7 +1299,7 @@
             <length>0.0862944</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.23244</xStart>
@@ -1477,14 +1477,14 @@
                 <point>1.027 1.14409 2.12554</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1506,7 +1506,7 @@
   <turrets0>
     <Turret_1_Ch07_Vickers_MkE_Type_BT26>
       <userString>#china_vehicles:Turret_1_Ch07_Vickers_MkE_Type_BT26</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>160</price>
       <unlocks>
@@ -1609,7 +1609,7 @@
             <density>77.4696 86.7508</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_QFSA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_QFSA>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch07_Vickers_MkE_Type_BT26/normal/lod0/Turret_01.model</undamaged>
@@ -1673,7 +1673,7 @@
     </Turret_1_Ch07_Vickers_MkE_Type_BT26>
     <Turret_2_Ch07_Vickers_MkE_Type_BT26>
       <userString>#china_vehicles:Turret_2_Ch07_Vickers_MkE_Type_BT26</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <unlocks>
@@ -1780,7 +1780,7 @@
             <density>77.4696 86.7508</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_QFSA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_QFSA>
         <_45mm_20K>shared  <maxAmmo>136</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -1849,7 +1849,7 @@
             <density>87.1117 89.0623</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_40mm_Pom_Pom>shared  <maxAmmo>160</maxAmmo>
           <pitchLimits>
             <minPitch>0 -23 1 -23</minPitch>
@@ -1917,7 +1917,7 @@
             <density>87.1063 88.7532</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_40mm_Pom_Pom>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_Pom_Pom>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch07_Vickers_MkE_Type_BT26/normal/lod0/Turret_02.model</undamaged>
@@ -2082,7 +2082,7 @@
     <armour>0.746555606</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

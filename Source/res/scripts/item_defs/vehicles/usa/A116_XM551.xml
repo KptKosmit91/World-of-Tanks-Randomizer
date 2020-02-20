@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1079,7 +1079,7 @@
   <chassis>
     <Chassis_A116_XM551>
       <userString>#usa_vehicles:Chassis_A116_XM551</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1880,7 +1880,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1902,7 +1902,7 @@
   <turrets0>
     <Turret_1_A116_XM551>
       <userString>#usa_vehicles:Turret_1_A116_XM551</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -2015,7 +2015,7 @@
             <density>127.314 128.632</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_Lightweight_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Lightweight_Gun>
         <_152mm_Gun_Launcher_M81>shared  <maxAmmo>28</maxAmmo>
           <armor>
             <armor_1>50.8  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2097,7 +2097,7 @@
             <density>121.063 121.363</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_152mm_Gun_Launcher_M81>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_Gun_Launcher_M81>
       </guns>
       <models>
         <undamaged>vehicles/american/A116_XM551/normal/lod0/Turret_01.model</undamaged>
@@ -2364,7 +2364,7 @@
   <radios>
     <AN_VRC_12A>shared</AN_VRC_12A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <crewXpFactor>1.0</crewXpFactor>
   <physics>
     <detailed>
@@ -2414,7 +2414,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

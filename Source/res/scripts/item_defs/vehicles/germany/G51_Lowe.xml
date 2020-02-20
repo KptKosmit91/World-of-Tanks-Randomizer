@@ -1,11 +1,11 @@
 <G51_Lowe.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -989,7 +989,7 @@
     <Chassis_Lowe>
       <userString>#germany_vehicles:Chassis_Lowe</userString>
       <notInShop>true</notInShop>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -1337,7 +1337,7 @@
             <length>0.142247</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.65386</xStart>
@@ -1515,7 +1515,7 @@
                 <point>-1.88998 1.28722 3.53642</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1546,7 +1546,7 @@
             <length>0.142251</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.65387</xStart>
@@ -1724,14 +1724,14 @@
                 <point>1.89002 1.31881 3.53633</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1754,7 +1754,7 @@
     <Turret_1_Lowe>
       <userString>#germany_vehicles:Turret_1_Lowe</userString>
       <notInShop>true</notInShop>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -1870,7 +1870,7 @@
             <density>99.557 103.591</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_KwK46_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK46_L70>
       </guns>
       <models>
         <undamaged>vehicles/german/G51_Lowe/normal/lod0/Turret_01.model</undamaged>
@@ -2474,7 +2474,7 @@
     <armour>1.132732836</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

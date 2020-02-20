@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>21</forward>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -150,7 +150,7 @@
   <chassis>
     <Chassis_RenaultFT_AC>
       <userString>#france_vehicles:Chassis_RenaultFT_AC</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>240</price>
       <unlocks>
@@ -462,7 +462,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -482,7 +482,7 @@
     </Chassis_RenaultFT_AC>
     <Chassis_RenaultFT_AC_2>
       <userString>#france_vehicles:Chassis_RenaultFT_AC_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>560</price>
       <armor>
@@ -790,7 +790,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -905,7 +905,7 @@
             <density>116.715 116.742</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_25mm_antichar_SA-L_mle_1937>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_antichar_SA-L_mle_1937>
         <_47mm_SA-L_Mle.37>shared  <maxAmmo>150</maxAmmo>
           <unlocks>
             <vehicle>F52_RenaultUE57  <cost>1750</cost>
@@ -974,7 +974,7 @@
             <density>142.052 142.87</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_47mm_SA-L_Mle.37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA-L_Mle.37>
         <_25mm_automatique_mle_1936>shared  <maxAmmo>400</maxAmmo>
           <armor>
             <armor_1>15  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1040,7 +1040,7 @@
             <density>118.157 118.195</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_25mm_automatique_mle_1936>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_automatique_mle_1936>
       </guns>
       <models>
         <undamaged>vehicles/french/F30_RenaultFT_AC/normal/lod0/Turret_01.model</undamaged>
@@ -1058,7 +1058,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1178,7 +1178,7 @@
     <armour>0.887962439</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

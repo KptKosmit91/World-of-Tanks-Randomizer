@@ -3,7 +3,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -86,7 +86,7 @@
   <chassis>
     <Chassis_G116_Turan_III_prot>
       <userString>#germany_vehicles:Chassis_G116_Turan_III_prot</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -389,7 +389,7 @@
             <length>0.110164</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.46732</xStart>
@@ -582,7 +582,7 @@
                 <point>-1.08751 1.17009 2.76534</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -609,7 +609,7 @@
             <length>0.106706</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.45569</xStart>
@@ -805,14 +805,14 @@
                 <point>1.08759 1.16151 2.77277</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -850,8 +850,8 @@
           </armor>
           <turretYawLimits>-180 180</turretYawLimits>
           <pitchLimits>
-            <minPitch></minPitch>
-            <maxPitch></maxPitch>
+            <minPitch />
+            <maxPitch />
           </pitchLimits>
           <invisibilityFactorAtShot>0.247</invisibilityFactorAtShot>
           <reloadTime>4</reloadTime>
@@ -915,10 +915,10 @@
             <density>197.225 233.971</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_43_M_L43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_43_M_L43>
       </guns>
       <userString>#germany_vehicles:Turret_1_G116_Turan_III_prot</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -1032,11 +1032,11 @@
     </Turret_1_G116_Turan_III_prot>
   </turrets0>
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -1111,7 +1111,7 @@
     <armour>0.817159088</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

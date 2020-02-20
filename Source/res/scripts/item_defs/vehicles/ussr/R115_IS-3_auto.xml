@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -879,7 +879,7 @@ loader</commander>
   <chassis>
     <Chassis_R115_IS-3_auto>
       <userString>#ussr_vehicles:Chassis_R115_IS-3_auto</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1565,7 +1565,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1587,7 +1587,7 @@ loader</commander>
   <turrets0>
     <Turret_1_R115_IS-3_auto>
       <userString>#ussr_vehicles:Turret_1_R115_IS-3_auto</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1723,7 +1723,7 @@ loader</commander>
             <density>104.497 106.832</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25TA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25TA>
       </guns>
       <models>
         <undamaged>vehicles/russian/R115_IS-3_auto/normal/lod0/Turret_01.model</undamaged>
@@ -2398,7 +2398,7 @@ loader</commander>
     <armour>1.0707518</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1033,7 +1033,7 @@
   <chassis>
     <Chassis_Ch38_WZ113G_FT>
       <userString>#china_vehicles:Chassis_Ch38_WZ113G_FT</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1462,7 +1462,7 @@
             <length>0.153157</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.58327</xStart>
@@ -1629,7 +1629,7 @@
                 <point>-1.46776 1.06649 3.46175</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1656,7 +1656,7 @@
             <length>0.153068</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.58505</xStart>
@@ -1823,14 +1823,14 @@
                 <point>1.46778 0.951759 3.45587</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1977,7 +1977,7 @@
             <density>96.1954 97.2387</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_59_152JG_FT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_59_152JG_FT>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch38_WZ113G_FT/normal/lod0/Turret_01.model</undamaged>
@@ -1994,8 +1994,8 @@
       <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_Ch38_WZ113G_FT>
@@ -2009,7 +2009,7 @@
   <radios>
     <A-220B_1>shared</A-220B_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2058,7 +2058,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

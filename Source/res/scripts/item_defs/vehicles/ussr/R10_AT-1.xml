@@ -3,8 +3,8 @@
   <crew>
     <commander>loader
 radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
+    <driver />
+    <gunner />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -22,7 +22,7 @@ radioman</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -138,7 +138,7 @@ radioman</commander>
   <chassis>
     <AT-1>
       <userString>#ussr_vehicles:AT-1</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>560</price>
       <unlocks>
@@ -1092,7 +1092,7 @@ radioman</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1112,7 +1112,7 @@ radioman</commander>
     </AT-1>
     <AT-1bis>
       <userString>#ussr_vehicles:AT-1bis</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1790</price>
       <armor>
@@ -2062,7 +2062,7 @@ radioman</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2179,7 +2179,7 @@ radioman</commander>
             <density>102.873 98.4149</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K_S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K_S>
         <_76mm_L-10_S>shared  <pitchLimits>
             <minPitch>0 -45 1 -45</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2246,7 +2246,7 @@ radioman</commander>
             <density>100.785 100.534</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_76mm_L-10_S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_L-10_S>
         <_57mm_ZiS-8_S>shared  <pitchLimits>
             <minPitch>0 -45 1 -45</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -2318,7 +2318,7 @@ radioman</commander>
             <density>100.562 122.276</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-8_S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-8_S>
       </guns>
       <models>
         <undamaged>vehicles/russian/R10_AT-1/normal/lod0/Turret_01.model</undamaged>
@@ -2335,8 +2335,8 @@ radioman</commander>
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </AT-1>
@@ -2443,7 +2443,7 @@ radioman</commander>
     <armour>0.699917624</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

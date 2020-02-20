@@ -1,12 +1,12 @@
 <A04_M3_Grant.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -149,7 +149,7 @@
   <chassis>
     <VVSST41>
       <userString>#usa_vehicles:VVSST41</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1870</price>
       <unlocks>
@@ -433,7 +433,7 @@
             <length>0.0688635</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.88867</xStart>
@@ -661,7 +661,7 @@
                 <point>-1.01355 1.18488 2.40757</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -692,7 +692,7 @@
             <length>0.0688632</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.88865</xStart>
@@ -921,14 +921,14 @@
                 <point>1.03357 1.13251 2.44225</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -948,7 +948,7 @@
     </VVSST41>
     <VVSST48>
       <userString>#usa_vehicles:VVSST48</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4650</price>
       <armor>
@@ -1228,7 +1228,7 @@
             <length>0.066257</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.90627</xStart>
@@ -1465,7 +1465,7 @@
                 <point>-1.01355 1.18404 2.42967</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1496,7 +1496,7 @@
             <length>0.0662594</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.87329</xStart>
@@ -1733,14 +1733,14 @@
                 <point>1.01357 1.12249 2.46272</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1847,7 +1847,7 @@
             <density>100.546 99.1263</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M2_L28>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M2_L28>
         <_75mm_Gun_M3_L37>shared  <maxAmmo>50</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1910,7 +1910,7 @@
             <density>101.53 99.8283</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37>
       </guns>
       <models>
         <undamaged>vehicles/american/A04_M3_Grant/normal/lod0/Turret_01.model</undamaged>
@@ -1928,7 +1928,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2067,7 +2067,7 @@
     <armour>0.966179633</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,10 +1,10 @@
 <A57_M8A1.xml>
   
   <crew>
-    <commander></commander>
+    <commander />
     <gunner>loader</gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>58</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>7.6 7.6 0.78 0.51</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -115,7 +115,7 @@
   <chassis>
     <Chassis_M8A1>
       <userString>#usa_vehicles:Chassis_M8A1</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1850</price>
       <unlocks>
@@ -982,7 +982,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1002,7 +1002,7 @@
     </Chassis_M8A1>
     <Chassis_M8A1_2>
       <userString>#usa_vehicles:Chassis_M8A1_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5850</price>
       <armor>
@@ -1869,7 +1869,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1995,7 +1995,7 @@
             <density>106.136 105.969</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Howitzer_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Howitzer_M3>
         <_75mm_AT_Gun_M3_L37>shared  <maxAmmo>46</maxAmmo>
           <unlocks>
             <turret>Turret_2_M8A1  <cost>1200</cost>
@@ -2075,7 +2075,7 @@
             <density>105.95 119.43</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Gun_M3_L37>
         <_57mm_Gun_M1_L50>shared  <maxAmmo>66</maxAmmo>
           <unlocks>
             <vehicle>A58_T67  <cost>10500</cost>
@@ -2155,7 +2155,7 @@
             <density>106.044 106.639</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_Gun_M1_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_Gun_M1_L50>
       </guns>
       <models>
         <undamaged>vehicles/american/A57_M8A1/normal/lod0/Turret_01.model</undamaged>
@@ -2314,7 +2314,7 @@
             <density>106.136 105.969</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Howitzer_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Howitzer_M3>
         <_75mm_AT_Gun_M3_L37>shared  <maxAmmo>46</maxAmmo>
           <armor>
             <armor_1>38.1  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2388,7 +2388,7 @@
             <density>105.95 119.43</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Gun_M3_L37>
         <_57mm_Gun_M1_L50>shared  <maxAmmo>66</maxAmmo>
           <armor>
             <armor_1>38.1  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2462,7 +2462,7 @@
             <density>106.044 106.639</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_Gun_M1_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_Gun_M1_L50>
         <_75mm_AT_Gun_M7_L50>shared  <maxAmmo>46</maxAmmo>
           <armor>
             <armor_1>38.1  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2536,7 +2536,7 @@
             <density>106.195 121.904</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_AT_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_AT_Gun_M7_L50>
       </guns>
       <models>
         <undamaged>vehicles/american/A57_M8A1/normal/lod0/Turret_02.model</undamaged>
@@ -2701,7 +2701,7 @@
     <armour>0.903760052</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

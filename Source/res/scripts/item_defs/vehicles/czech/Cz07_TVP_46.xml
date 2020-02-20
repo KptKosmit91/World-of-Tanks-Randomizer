@@ -1,11 +1,11 @@
 <Cz07_TVP_46.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -227,7 +227,7 @@
   <chassis>
     <Chassis_Cz07_TVP_46>
       <userString>#czech_vehicles:Chassis_Cz07_TVP_46</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18000</price>
       <unlocks>
@@ -999,7 +999,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1019,7 +1019,7 @@
     </Chassis_Cz07_TVP_46>
     <Chassis_Cz07_TVP_46_2>
       <userString>#czech_vehicles:Chassis_Cz07_TVP_46_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33500</price>
       <armor>
@@ -1787,7 +1787,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1809,7 +1809,7 @@
   <turrets0>
     <Turret_1_Cz07_TVP_46>
       <userString>#czech_vehicles:Turret_1_Cz07_TVP_46</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18000</price>
       <armor>
@@ -1942,7 +1942,7 @@
             <density>81.3047 87.1583</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_Vz_37N>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_Vz_37N>
         <_88mm_vz_41N>shared  <maxAmmo>53</maxAmmo>
           <unlocks>
             <gun>_105mm_vz_39N  <cost>17800</cost>
@@ -2046,7 +2046,7 @@
             <density>96.3553 84.1287</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_vz_41N>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_vz_41N>
         <_100mm_vz_44S>shared  <maxAmmo>66</maxAmmo>
           <unlocks>
             <turret>Turret_2_Cz07_TVP_46  <cost>16200</cost>
@@ -2149,7 +2149,7 @@
             <density>88.6185 84.2474</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_vz_44S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_vz_44S>
         <_105mm_vz_39N>shared  <maxAmmo>59</maxAmmo>
           <armor>
             <armor_1>65  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2248,7 +2248,7 @@
             <density>78.3252 83.7556</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_vz_39N>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_vz_39N>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz07_TVP_46/normal/lod0/Turret_01.model</undamaged>
@@ -2475,7 +2475,7 @@
     </Turret_1_Cz07_TVP_46>
     <Turret_2_Cz07_TVP_46>
       <userString>#czech_vehicles:Turret_2_Cz07_TVP_46</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31800</price>
       <unlocks>
@@ -2595,7 +2595,7 @@
             <density>81.3047 87.1583</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_Vz_37N>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_Vz_37N>
         <_88mm_vz_41N>shared  <maxAmmo>67</maxAmmo>
           <armor>
             <armor_1>65  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2680,7 +2680,7 @@
             <density>96.3553 84.1287</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_vz_41N>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_vz_41N>
         <_100mm_vz_44S>shared  <maxAmmo>82</maxAmmo>
           <armor>
             <armor_1>65  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2764,7 +2764,7 @@
             <density>88.6185 84.2474</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_vz_44S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_vz_44S>
         <_105mm_vz_39N>shared  <maxAmmo>74</maxAmmo>
           <armor>
             <armor_1>65  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2848,7 +2848,7 @@
             <density>78.3252 83.7556</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_vz_39N>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_vz_39N>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz07_TVP_46/normal/lod0/Turret_02.model</undamaged>
@@ -3185,7 +3185,7 @@
     <armour>0.770052973</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

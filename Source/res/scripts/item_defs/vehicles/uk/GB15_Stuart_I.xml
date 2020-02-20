@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <gunner />
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>58</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -133,7 +133,7 @@
   <chassis>
     <Chassis_GB15_Stuart_I>
       <userString>#gb_vehicles:Chassis_GB15_Stuart_I</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>660</price>
       <unlocks>
@@ -1015,7 +1015,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1035,7 +1035,7 @@
     </Chassis_GB15_Stuart_I>
     <Chassis_GB15_Stuart_I_2>
       <userString>#gb_vehicles:Chassis_GB15_Stuart_I_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1850</price>
       <armor>
@@ -1913,7 +1913,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1935,7 +1935,7 @@
   <turrets0>
     <Turret_1_GB15_Stuart_I>
       <userString>#gb_vehicles:Turret_1_GB15_Stuart_I</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>800</price>
       <armor>
@@ -2034,7 +2034,7 @@
             <density>113.774 114.366</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5>
       </guns>
       <models>
         <undamaged>vehicles/british/GB15_Stuart_I/normal/lod0/Turret_01.model</undamaged>
@@ -2098,7 +2098,7 @@
     </Turret_1_GB15_Stuart_I>
     <Turret_2_GB15_Stuart_I>
       <userString>#gb_vehicles:Turret_2_GB15_Stuart_I</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <unlocks>
@@ -2198,7 +2198,7 @@
             <density>113.774 114.366</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5>
         <_37mm_M-6_L53>shared  <maxAmmo>106</maxAmmo>
           <unlocks>
             <vehicle>GB17_Grant_I  <cost>3720</cost>
@@ -2269,7 +2269,7 @@
             <density>113.493 113.763</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_M-6_L53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-6_L53>
         <_2pdr_Gun_Mk_IX>shared  <maxAmmo>98</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2334,7 +2334,7 @@
             <density>116.647 116.855</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_IX>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_IX>
       </guns>
       <models>
         <undamaged>vehicles/british/GB15_Stuart_I/normal/lod0/Turret_02.model</undamaged>
@@ -2514,7 +2514,7 @@
     <armour>0.794395802</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

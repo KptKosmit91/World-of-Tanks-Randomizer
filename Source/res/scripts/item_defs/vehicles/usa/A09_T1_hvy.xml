@@ -1,12 +1,12 @@
 <A09_T1_hvy.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35.4</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -135,7 +135,7 @@
   <chassis>
     <HVSST31>
       <userString>#usa_vehicles:HVSST31</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4050</price>
       <unlocks>
@@ -1062,7 +1062,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1082,7 +1082,7 @@
     </HVSST31>
     <HVSST35>
       <userString>#usa_vehicles:HVSST35</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9600</price>
       <armor>
@@ -2005,7 +2005,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2027,7 +2027,7 @@
   <turrets0>
     <T1D5>
       <userString>#usa_vehicles:T1D5</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4300</price>
       <armor>
@@ -2130,7 +2130,7 @@
             <density>181.753 188.411</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M7_L50>
       </guns>
       <models>
         <undamaged>vehicles/american/A09_T1_hvy/normal/lod0/Turret_01.model</undamaged>
@@ -2194,7 +2194,7 @@
     </T1D5>
     <T1D6>
       <userString>#usa_vehicles:T1D6</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>11300</price>
       <unlocks>
@@ -2297,7 +2297,7 @@
             <density>181.753 188.411</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M7_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M7_L50>
         <_76mm_Gun_M1A1>shared  <maxAmmo>75</maxAmmo>
           <pitchLimits>
             <minPitch>0 -30 1 -30</minPitch>
@@ -2364,7 +2364,7 @@
             <density>180.92 182.19</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A09_T1_hvy/normal/lod0/Turret_02.model</undamaged>
@@ -2545,7 +2545,7 @@
     <armour>1.038658905</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

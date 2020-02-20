@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>24</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -135,7 +135,7 @@ loader</commander>
   <chassis>
     <Chassis_FCM36_20t>
       <userString>#france_vehicles:Chassis_FCM36_20t</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>260</price>
       <unlocks>
@@ -963,7 +963,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -983,7 +983,7 @@ loader</commander>
     </Chassis_FCM36_20t>
     <Chassis_FCM36_20t_2>
       <userString>#france_vehicles:Chassis_FCM36_20t_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>570</price>
       <armor>
@@ -1807,7 +1807,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1829,7 +1829,7 @@ loader</commander>
   <turrets0>
     <Turret_1_FCM36_20t>
       <userString>#france_vehicles:Turret_1_FCM36_20t</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -1931,7 +1931,7 @@ loader</commander>
             <density>107.238 106.871</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_APX_SA18>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_APX_SA18>
         <_25mm_Canon_Raccourci_Mle.1934>shared  <maxAmmo>150</maxAmmo>
           <armor>
             <armor_1>8  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1993,7 +1993,7 @@ loader</commander>
             <density>103.294 100.698</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_25mm_Canon_Raccourci_Mle.1934>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_Canon_Raccourci_Mle.1934>
         <_37mm_SA38>shared  <maxAmmo>102</maxAmmo>
           <unlocks>
             <vehicle>F13_AMX38  <cost>1270</cost>
@@ -2060,7 +2060,7 @@ loader</commander>
             <density>102.135 101.896</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_SA38>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_SA38>
       </guns>
       <models>
         <undamaged>vehicles/french/F50_FCM36_20t/normal/lod0/Turret_01.model</undamaged>
@@ -2225,7 +2225,7 @@ loader</commander>
     <armour>0.948227893</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

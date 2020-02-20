@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -153,7 +153,7 @@ loader</commander>
   <chassis>
     <Chassis_Pl01_TKS_20mm>
       <userString>#poland_vehicles:Chassis_Pl01_TKS_20mm</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>800</price>
       <notInShop>true</notInShop>
@@ -436,7 +436,7 @@ loader</commander>
             <length>0.0399488</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.28409</xStart>
@@ -631,7 +631,7 @@ loader</commander>
                 <point>-0.797398 0.68009 1.15313</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -658,7 +658,7 @@ loader</commander>
             <length>0.0399485</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.28411</xStart>
@@ -853,14 +853,14 @@ loader</commander>
                 <point>0.797376 0.680074 1.15307</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -992,7 +992,7 @@ loader</commander>
             <density>254.043 244.276</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_20mm_n_k_m_20_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_n_k_m_20_A>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl01_TKS_20mm/normal/lod0/Turret_01.model</undamaged>
@@ -1009,8 +1009,8 @@ loader</commander>
       <physicsShape>1.000 -0.119 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_Pl01_TKS_20mm>
@@ -1084,7 +1084,7 @@ loader</commander>
     </engines>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

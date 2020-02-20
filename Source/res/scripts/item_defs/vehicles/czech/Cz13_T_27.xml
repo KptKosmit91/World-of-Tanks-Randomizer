@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -895,7 +895,7 @@
   <chassis>
     <Chassis_Cz13_T_27>
       <userString>#czech_vehicles:Chassis_Cz13_T_27</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1155,7 +1155,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1679,7 +1679,7 @@
   <turrets0>
     <Turret_1_Cz13_T_27>
       <userString>#czech_vehicles:Turret_1_Cz13_T_27</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1835,7 +1835,7 @@
             <density>113.696 118.113</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_vz_41N_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_vz_41N_A>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz13_T_27/normal/lod0/Turret_01.model</undamaged>
@@ -2415,7 +2415,7 @@
   <radios>
     <Radiostanice_RM_31T_A>shared</Radiostanice_RM_31T_A>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2464,7 +2464,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

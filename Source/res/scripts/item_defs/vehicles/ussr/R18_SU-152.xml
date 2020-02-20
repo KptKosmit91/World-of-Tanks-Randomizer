@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>43</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -158,7 +158,7 @@
   <chassis>
     <SU-152_mod_1943>
       <userString>#ussr_vehicles:SU-152_mod_1943</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20090</price>
       <unlocks>
@@ -440,7 +440,7 @@
             <length>0.153782</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.31673</xStart>
@@ -645,7 +645,7 @@
             <length>0.156299</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.34454</xStart>
@@ -832,7 +832,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -852,7 +852,7 @@
     </SU-152_mod_1943>
     <SU-152_mod_1944>
       <userString>#ussr_vehicles:SU-152_mod_1944</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32710</price>
       <armor>
@@ -1130,7 +1130,7 @@
             <length>0.153782</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.31673</xStart>
@@ -1335,7 +1335,7 @@
             <length>0.156299</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.34454</xStart>
@@ -1522,7 +1522,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1646,7 +1646,7 @@
             <density>97.7361 96.1918</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_ML-20_mod_1937>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_ML-20_mod_1937>
         <_122mm_A-19>shared  <maxAmmo>28</maxAmmo>
           <unlocks>
             <gun>_122mm_D-25C_mod1944  <cost>21400</cost>
@@ -1726,7 +1726,7 @@
             <density>96.1888 96.9144</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_A-19>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_A-19>
         <_122mm_D-25C_mod1944>shared  <maxAmmo>32</maxAmmo>
           <armor>
             <armor_1>65  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1800,7 +1800,7 @@
             <density>93.8193 99.3927</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_D-25C_mod1944>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D-25C_mod1944>
       </guns>
       <models>
         <undamaged>vehicles/russian/R18_SU-152/normal/lod0/Turret_01.model</undamaged>
@@ -1817,8 +1817,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_05</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </SU-152_01>
@@ -1939,7 +1939,7 @@
     <armour>1.040522556</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

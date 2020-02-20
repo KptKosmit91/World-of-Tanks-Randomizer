@@ -1,10 +1,10 @@
 <R45_IS-7_fallout.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <loader />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -103,7 +103,7 @@
   <chassis>
     <Chassis_IS-7_fallout>
       <userString>#ussr_vehicles:Chassis_IS-7_fallout</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <notInShop>true</notInShop>
       <price>82500</price>
@@ -565,7 +565,7 @@
             <length>0.149901</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.46158</xStart>
@@ -761,7 +761,7 @@
             <length>0.149862</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.46238</xStart>
@@ -937,7 +937,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_IS-7_fallout>
@@ -945,7 +945,7 @@
   <turrets0>
     <Turret_IS-7_fallout>
       <userString>#ussr_vehicles:Turret_IS-7_fallout</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <notInShop>true</notInShop>
       <price>66000</price>
@@ -1029,7 +1029,7 @@
             <density>107.854 102.965</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_130mm_S-70_fallout>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_S-70_fallout>
       </guns>
       <models>
         <undamaged>vehicles/russian/R45_IS-7/normal/lod0/Turret_01.model</undamaged>
@@ -1159,7 +1159,7 @@
     <armour>1.332818258</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>dominationLarge</damagedStateGroup>
   </effects>
   <emblems>

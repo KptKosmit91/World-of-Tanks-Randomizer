@@ -1,11 +1,11 @@
 <A130_Super_Hellcat.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>72</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
     <density>1 1</density>
   </camouflage>
   <hull>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_A130_Super_Hellcat>
       <userString>#usa_vehicles:Chassis_A130_Super_Hellcat</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -391,7 +391,7 @@
             <length>0.123557</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.49004</xStart>
@@ -577,7 +577,7 @@
             <length>0.12356</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.48996</xStart>
@@ -743,7 +743,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -884,7 +884,7 @@
             <density>119.12 133.948</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_AT_Gun_M3T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_AT_Gun_M3T>
       </guns>
       <models>
         <undamaged>vehicles/american/A130_Super_Hellcat/normal/lod0/Turret_02.model</undamaged>
@@ -991,7 +991,7 @@
     <armour>0.654565359</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

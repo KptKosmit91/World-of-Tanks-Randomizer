@@ -1,11 +1,11 @@
 <R13_KV-1s.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>43</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -114,7 +114,7 @@
   <chassis>
     <KV-1s>
       <userString>#ussr_vehicles:Chassis_KV-1s</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4500</price>
       <unlocks>
@@ -797,7 +797,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -817,7 +817,7 @@
     </KV-1s>
     <KV-1s_bis>
       <userString>#ussr_vehicles:KV-1s_bis</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10390</price>
       <armor>
@@ -1496,7 +1496,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1518,7 +1518,7 @@
   <turrets0>
     <KV1S_mod_42>
       <userString>#ussr_vehicles:KV1S_mod_42</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>5000</price>
       <armor>
@@ -1633,7 +1633,7 @@
             <density>130.144 130.889</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_ZiS-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_ZiS-5>
         <_85mm_S-31>shared  <maxAmmo>55</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -1717,7 +1717,7 @@
             <density>118.068 120.816</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_S-31>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_S-31>
       </guns>
       <models>
         <undamaged>vehicles/russian/R13_KV-1s/normal/lod0/Turret_01.model</undamaged>
@@ -1800,7 +1800,7 @@
     </KV1S_mod_42>
     <KV1S_mod_43>
       <userString>#ussr_vehicles:KV1S_mod_43</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10500</price>
       <unlocks>
@@ -1915,7 +1915,7 @@
             <density>130.144 130.889</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_ZiS-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_ZiS-5>
         <_85mm_S-31>shared  <maxAmmo>55</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -1995,7 +1995,7 @@
             <density>118.068 120.816</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_85mm_S-31>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_85mm_S-31>
         <_122mm_S-41>shared  <maxAmmo>60</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2078,7 +2078,7 @@
             <density>133.345 142.078</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_S-41>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_S-41>
       </guns>
       <models>
         <undamaged>vehicles/russian/R13_KV-1s/normal/lod0/Turret_02.model</undamaged>
@@ -2273,7 +2273,7 @@
     <armour>0.995927125</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

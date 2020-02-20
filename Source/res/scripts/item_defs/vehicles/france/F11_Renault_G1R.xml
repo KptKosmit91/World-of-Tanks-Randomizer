@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <loader></loader>
-    <driver></driver>
-    <radioman></radioman>
+    <loader />
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -134,7 +134,7 @@
   <chassis>
     <Chassis_Renault_G1R>
       <userString>#france_vehicles:Chassis_Renault_G1R</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4000</price>
       <unlocks>
@@ -899,7 +899,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -919,7 +919,7 @@
     </Chassis_Renault_G1R>
     <Chassis_Renault_G1R_2>
       <userString>#france_vehicles:Chassis_Renault_G1R_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9600</price>
       <armor>
@@ -1680,7 +1680,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1702,7 +1702,7 @@
   <turrets0>
     <Turret_1_Renault_G1R>
       <userString>#france_vehicles:Turret_1_Renault_G1R</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4000</price>
       <unlocks>
@@ -1822,7 +1822,7 @@
             <density>111.719 104.32</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_SA32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA32>
       </guns>
       <models>
         <undamaged>vehicles/french/F11_Renault_G1R/normal/lod0/Turret_01.model</undamaged>
@@ -1886,7 +1886,7 @@
     </Turret_1_Renault_G1R>
     <Turret_2_Renault_G1R>
       <userString>#france_vehicles:Turret_2_Renault_G1R</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10100</price>
       <unlocks>
@@ -2015,7 +2015,7 @@
             <density>111.719 104.32</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_SA32>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA32>
         <_75mm_Long_44>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <vehicle>F06_ARL_44  <cost>35450</cost>
@@ -2103,7 +2103,7 @@
             <density>103.881 103.811</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Long_44>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Long_44>
         <Canon_de_105_court_mle_1934S_T>shared  <maxAmmo>35</maxAmmo>
           <armor>
             <armor_1>60  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2187,7 +2187,7 @@
             <density>118.184 82.4023</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Canon_de_105_court_mle_1934S_T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_court_mle_1934S_T>
       </guns>
       <models>
         <undamaged>vehicles/french/F11_Renault_G1R/normal/lod0/Turret_02.model</undamaged>
@@ -2371,7 +2371,7 @@
     <armour>0.928175316</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

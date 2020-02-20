@@ -2,11 +2,11 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56.3</forward>
@@ -24,12 +24,12 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
       <lobby>0</lobby>
-      <battle></battle>
+      <battle />
     </fakeTurrets>
     <armor>
       <armor_1>25.4</armor_1>
@@ -125,7 +125,7 @@
   <chassis>
     <Chassis_M53_55>
       <userString>#usa_vehicles:Chassis_M53_55</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <unlocks>
@@ -386,7 +386,7 @@
             <length>0.0822631</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-0.207073</xStart>
@@ -547,7 +547,7 @@
                 <point>-1.6778 1.3891 3.60691</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -578,7 +578,7 @@
             <length>0.0802424</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-0.207071</xStart>
@@ -739,14 +739,14 @@
                 <point>1.6778 1.3891 3.60691</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -766,7 +766,7 @@
     </Chassis_M53_55>
     <Chassis_M53_55_2>
       <userString>#usa_vehicles:Chassis_M53_55_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>64000</price>
       <armor>
@@ -999,7 +999,7 @@
             <length>0.0831321</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-0.212199</xStart>
@@ -1161,7 +1161,7 @@
                 <point>-1.6778 1.39383 3.61188</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1192,7 +1192,7 @@
             <length>0.082219</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-0.212198</xStart>
@@ -1354,7 +1354,7 @@
                 <point>1.6778 1.39383 3.61188</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
@@ -1385,7 +1385,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1407,7 +1407,7 @@
   <turrets0>
     <Turret_1_M53_55>
       <userString>#usa_vehicles:Turret_1_M53_55</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>100</price>
       <notInShop>true</notInShop>
@@ -1518,7 +1518,7 @@
             <density>83.5476 93.4165</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_155mm_Gun_M46>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_155mm_Gun_M46>
         <_203mm_Howitzer_M47>shared  <maxAmmo>20</maxAmmo>
           <reloadTime>42</reloadTime>
           <shotDispersionRadius>0.75</shotDispersionRadius>
@@ -1597,7 +1597,7 @@
             <density>87.2707 89.9946</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_203mm_Howitzer_M47>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_203mm_Howitzer_M47>
       </guns>
       <models>
         <undamaged>vehicles/american/A88_M53_55/normal/lod0/Turret_01.model</undamaged>
@@ -1780,7 +1780,7 @@
     <armour>0.878196397</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

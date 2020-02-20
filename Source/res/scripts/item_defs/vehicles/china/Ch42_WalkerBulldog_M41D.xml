@@ -1,9 +1,9 @@
 <Ch42_WalkerBulldog_M41D.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1042,7 +1042,7 @@
   <chassis>
     <Chassis_Ch42_WalkerBulldog_M41D>
       <userString>#china_vehicles:Chassis_Ch42_WalkerBulldog_M41D</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1295,7 +1295,7 @@
             <length>0.129037</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.69836</xStart>
@@ -1450,7 +1450,7 @@
                 <point>-1.24041 1.21669 2.52765</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1477,7 +1477,7 @@
             <length>0.128433</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.71254</xStart>
@@ -1632,14 +1632,14 @@
                 <point>1.24041 1.21669 2.52765</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1661,7 +1661,7 @@
   <turrets0>
     <Turret_1_Ch42_WalkerBulldog_M41D>
       <userString>#china_vehicles:Turret_1_Ch42_WalkerBulldog_M41D</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1784,7 +1784,7 @@
             <density>113.921 112.769</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_M32K1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_M32K1>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch42_WalkerBulldog_M41D/normal/lod0/Turret_01.model</undamaged>
@@ -2230,7 +2230,7 @@
   <radios>
     <AN_GRC_8>shared</AN_GRC_8>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2279,7 +2279,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

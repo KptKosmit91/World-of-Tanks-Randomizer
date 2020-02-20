@@ -1,9 +1,9 @@
 <Ch18_WZ-120.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_Ch18_WZ-120>
       <userString>#china_vehicles:Chassis_Ch18_WZ-120</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31700</price>
       <unlocks>
@@ -503,7 +503,7 @@
             <length>0.142527</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.85077</xStart>
@@ -658,7 +658,7 @@
                 <point>-1.28041 1.15047 2.92162</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -685,7 +685,7 @@
             <length>0.14236</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.85436</xStart>
@@ -840,14 +840,14 @@
                 <point>1.37042 1.17676 2.91125</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -867,7 +867,7 @@
     </Chassis_Ch18_WZ-120>
     <Chassis_Ch18_WZ-120_2>
       <userString>#china_vehicles:Chassis_Ch18_WZ-120_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62000</price>
       <armor>
@@ -1259,7 +1259,7 @@
             <length>0.142527</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.85077</xStart>
@@ -1414,7 +1414,7 @@
                 <point>-1.28041 1.15047 2.92162</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1441,7 +1441,7 @@
             <length>0.14236</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.85436</xStart>
@@ -1596,14 +1596,14 @@
                 <point>1.37042 1.17676 2.91125</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1625,7 +1625,7 @@
   <turrets0>
     <Turret_1_Ch18_WZ-120>
       <userString>#china_vehicles:Turret_1_Ch18_WZ-120</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28000</price>
       <armor>
@@ -1735,7 +1735,7 @@
             <density>107.971 102.861</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_59-100T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_59-100T>
         <_100mm_60-100T>shared  <maxAmmo>34</maxAmmo>
           <unlocks>
             <turret>Turret_2_Ch18_WZ-120  <cost>23500</cost>
@@ -1812,7 +1812,7 @@
             <density>110.655 112.23</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_60-100T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_60-100T>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch18_WZ-120/normal/lod0/Turret_01.model</undamaged>
@@ -1895,7 +1895,7 @@
     </Turret_1_Ch18_WZ-120>
     <Turret_2_Ch18_WZ-120>
       <userString>#china_vehicles:Turret_2_Ch18_WZ-120</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>60000</price>
       <unlocks>
@@ -2007,7 +2007,7 @@
             <density>107.971 102.861</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_59-100T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_59-100T>
         <_100mm_60-100T>shared  <maxAmmo>45</maxAmmo>
           <armor>
             <armor_1>220  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2080,7 +2080,7 @@
             <density>110.655 112.23</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_60-100T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_60-100T>
         <_100mm_62-100T>shared  <maxAmmo>45</maxAmmo>
           <unlocks>
             <gun>_122-mm_60-122T  <cost>59000</cost>
@@ -2157,7 +2157,7 @@
             <density>115.209 110.908</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_62-100T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_62-100T>
         <_122-mm_60-122T>shared  <maxAmmo>40</maxAmmo>
           <armor>
             <armor_1>220  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2230,7 +2230,7 @@
             <density>112.092 109.885</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_60-122T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_60-122T>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch18_WZ-120/normal/lod0/Turret_02.model</undamaged>
@@ -2428,7 +2428,7 @@
     <armour>1.082015819</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

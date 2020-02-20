@@ -1,9 +1,9 @@
 <Ch14_T34_3.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>4.8 4.4 0.63 0.33</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -629,7 +629,7 @@
   <chassis>
     <Chassis_Ch14_T34_3>
       <userString>#china_vehicles:Chassis_Ch14_T34_3</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1022,7 +1022,7 @@
             <length>0.140218</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.86696</xStart>
@@ -1179,7 +1179,7 @@
                 <point>-1.2804 1.12337 2.9521</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1206,7 +1206,7 @@
             <length>0.139695</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.8782</xStart>
@@ -1363,14 +1363,14 @@
                 <point>1.38042 1.17037 2.91917</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1392,7 +1392,7 @@
   <turrets0>
     <Turret_1_Ch14_T34_3>
       <userString>#china_vehicles:Turret_1_Ch14_T34_3</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28000</price>
       <notInShop>true</notInShop>
@@ -1536,7 +1536,7 @@
             <density>122.14 125.405</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122-mm_D25-TA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D25-TA>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch14_T34_3/normal/lod0/Turret_01.model</undamaged>
@@ -2133,7 +2133,7 @@
     <armour>1.147660456</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

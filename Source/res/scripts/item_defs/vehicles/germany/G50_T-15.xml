@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -119,7 +119,7 @@
   <chassis>
     <Chassis_T-15>
       <userString>#germany_vehicles:Chassis_T-15</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <notInShop>true</notInShop>
       <price>3600</price>
@@ -858,7 +858,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -880,7 +880,7 @@
   <turrets0>
     <Turret_1_T-15>
       <userString>#germany_vehicles:Turret_1_T-15</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <notInShop>true</notInShop>
       <price>3500</price>
@@ -970,7 +970,7 @@
             <density>204.78 229.035</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_38t_L47_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_38t_L47_A>
       </guns>
       <models>
         <undamaged>vehicles/german/G50_T-15/normal/lod0/Turret_01.model</undamaged>
@@ -1102,7 +1102,7 @@
     <armour>0.82644779</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

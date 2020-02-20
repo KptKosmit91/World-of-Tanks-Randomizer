@@ -1,9 +1,9 @@
 <F72_AMX_30.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -719,7 +719,7 @@
   <chassis>
     <Chassis_AMX_30>
       <userString>#france_vehicles:Chassis_AMX_30</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1020,7 +1020,7 @@
             <length>0.145999</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.26211</xStart>
@@ -1182,7 +1182,7 @@
                 <point>-1.41617 1.08054 3.16186</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1209,7 +1209,7 @@
             <length>0.148045</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.29316</xStart>
@@ -1381,7 +1381,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1403,7 +1403,7 @@
   <turrets0>
     <Turret_1_AMX_30>
       <userString>#france_vehicles:Turret_1_AMX_30</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1525,7 +1525,7 @@
             <density>115.346 112.385</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_mle_F1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_mle_F1>
       </guns>
       <models>
         <undamaged>vehicles/french/F72_AMX_30/normal/lod0/Turret_01.model</undamaged>
@@ -2086,7 +2086,7 @@
     <armour>0.738514873</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

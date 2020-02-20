@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -921,7 +921,7 @@
   <chassis>
     <Chassis_R157_Object_279R>
       <userString>#ussr_vehicles:Chassis_R157_Object_279R</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1350,7 +1350,7 @@
             <length>0.163514</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9753</xStart>
@@ -1499,7 +1499,7 @@
                 <point>-1.43157 0.804361 2.99351</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1526,7 +1526,7 @@
             <length>0.163019</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98445</xStart>
@@ -1675,14 +1675,14 @@
                 <point>1.35156 0.826263 2.96629</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1704,7 +1704,7 @@
   <turrets0>
     <Turret_1_R157_Object_279R>
       <userString>#ussr_vehicles:Turret_1_R157_Object_279R</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1907,7 +1907,7 @@
             <density>107.245 114.097</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122mm_M62_T2_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_M62_T2_A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R157_Object_279R/normal/lod0/Turret_01.model</undamaged>
@@ -2428,7 +2428,7 @@
   <radios>
     <_10RK-26>shared</_10RK-26>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2477,7 +2477,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,7 +3,7 @@
   <crew>
     <commander>loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
     <radioman>loader</radioman>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@
   <chassis>
     <Chassis_AMX_50_68t_fallout>
       <userString>#france_vehicles:Chassis_AMX_50_68t_fallout</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <notInShop>true</notInShop>
       <price>82500</price>
@@ -434,7 +434,7 @@
             <length>0.153263</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.33793</xStart>
@@ -598,7 +598,7 @@
                 <point>-1.35006 1.34801 3.2523</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -625,7 +625,7 @@
             <length>0.153128</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.34064</xStart>
@@ -789,14 +789,14 @@
                 <point>1.35057 1.35764 3.24376</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_AMX_50_68t_fallout>
@@ -804,7 +804,7 @@
   <turrets0>
     <Turret_1_AMX_50_68t_fallout>
       <userString>#france_vehicles:Turret_1_AMX_50_68t_fallout</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <notInShop>true</notInShop>
       <price>66000</price>
@@ -901,7 +901,7 @@
             <density>92.7851 93.3603</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_120mm_SA_46_fallout>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_SA_46_fallout>
       </guns>
       <models>
         <undamaged>vehicles/french/F10_AMX_50B/normal/lod0/Turret_01.model</undamaged>
@@ -1021,7 +1021,7 @@
     <armour>1.168942063</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>dominationLarge</damagedStateGroup>
   </effects>
   <emblems>

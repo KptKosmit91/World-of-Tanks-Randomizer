@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -73,8 +73,8 @@
     <hangarShadowTexture>vehicles/russian/R134_Object_252K/Object_252K_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -114,7 +114,7 @@
   <chassis>
     <Chassis_R134_Object_252K>
       <userString>#ussr_vehicles:Chassis_R134_Object_252K</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -543,7 +543,7 @@
             <length>0.151451</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.74119</xStart>
@@ -682,7 +682,7 @@
                 <point>-1.2544 1.17093 2.10524</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -709,7 +709,7 @@
             <length>0.151087</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.74991</xStart>
@@ -854,14 +854,14 @@
                 <point>1.2644 1.16545 2.53815</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -877,7 +877,7 @@
   <turrets0>
     <Turret_1_R134_Object_252K>
       <userString>#ussr_vehicles:Turret_1_R134_Object_252K</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <armor>
@@ -977,8 +977,8 @@
           </drivenJoints>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -1004,7 +1004,7 @@
             <density>96.4224 97.2677</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122mm_BL_13>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL_13>
       </guns>
       <notInShop>true</notInShop>
       <models>
@@ -1022,8 +1022,8 @@
       <physicsShape>0.934 0.022 1.158 0.000 0.485 0.484 0.635 0.344 0.529 0.453 0.443 0.500 0.165 0.754 0.283</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1071,7 +1071,7 @@
   <radios>
     <_10RKM>shared</_10RKM>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <premiumVehicleXPFactor>0.1</premiumVehicleXPFactor>
   <physics>
     <detailed>
@@ -1121,7 +1121,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

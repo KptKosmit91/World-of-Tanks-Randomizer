@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50.5</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -159,7 +159,7 @@
   <chassis>
     <Chassis_GB57_Alecto>
       <userString>#gb_vehicles:Chassis_GB57_Alecto</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>580</price>
       <unlocks>
@@ -401,7 +401,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -421,7 +421,7 @@
     </Chassis_GB57_Alecto>
     <Chassis_GB57_Alecto_2>
       <userString>#gb_vehicles:Chassis_GB57_Alecto_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4700</price>
       <unlocks>
@@ -663,7 +663,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -782,7 +782,7 @@
             <density>93.1718 98.172</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_II_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_II_AT>
         <_3.7inch_AT_Howitzer>shared  <maxAmmo>48</maxAmmo>
           <unlocks>
             <gun>_25pdr_AT_Field_Gun  <cost>3700</cost>
@@ -849,7 +849,7 @@
             <density>93.7431 95.7147</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_3.7inch_AT_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3.7inch_AT_Howitzer>
         <QF_6_pounder_Mk_IV_AT>shared  <maxAmmo>120</maxAmmo>
           <armor>
             <gun>15</gun>
@@ -913,7 +913,7 @@
             <density>93.3728 98.0226</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_IV_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_IV_AT>
         <_25pdr_AT_Field_Gun>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <gun>30</gun>
@@ -980,7 +980,7 @@
             <density>87.1201 87.5725</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_25pdr_AT_Field_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25pdr_AT_Field_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB57_Alecto/normal/lod0/Turret_01.model</undamaged>
@@ -1144,7 +1144,7 @@
     <armour>0.643060845</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

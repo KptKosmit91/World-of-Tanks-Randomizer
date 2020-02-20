@@ -3,9 +3,9 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <gunner></gunner>
+    <gunner />
     <driver>loader</driver>
-    <radioman></radioman>
+    <radioman />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -74,7 +74,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/french/F04_B1/B1_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -119,7 +119,7 @@ loader</commander>
   <chassis>
     <Chassis_B1_bootcamp>
       <userString>#france_vehicles:Chassis_B1</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1900</price>
       <notInShop>true</notInShop>
@@ -795,8 +795,8 @@ loader</commander>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_B1_bootcamp>
@@ -804,7 +804,7 @@ loader</commander>
   <turrets0>
     <Turret_1_B1_bootcamp>
       <userString>#france_vehicles:Turret_1_B1</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1950</price>
       <notInShop>true</notInShop>
@@ -871,7 +871,7 @@ loader</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -880,7 +880,7 @@ loader</commander>
             <density>118.354 118.307</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA34_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/french/F04_B1/normal/lod0/Turret_01.model</undamaged>
@@ -897,7 +897,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -989,7 +989,7 @@ loader</commander>
     <armour>1.020268623</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

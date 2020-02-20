@@ -1,11 +1,11 @@
 <G04_PzVI_Tiger_IA.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -129,7 +129,7 @@
   <chassis>
     <Chassis_G04_PzVI_Tiger_IA>
       <userString>#germany_vehicles:Chassis_G04_PzVI_Tiger_IA</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21600</price>
       <notInShop>true</notInShop>
@@ -633,7 +633,7 @@
             <length>0.134119</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.93867</xStart>
@@ -796,7 +796,7 @@
                 <point>-1.32633 1.30757 2.82844</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -823,7 +823,7 @@
             <length>0.134135</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9383</xStart>
@@ -986,14 +986,14 @@
                 <point>-1.32633 1.30757 2.82844</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1016,7 +1016,7 @@
     <Turret_1_G04_PzVI_Tiger_IA>
       <userString>#germany_vehicles:Turret_1_G04_PzVI_Tiger_IA</userString>
       <shortUserString>#germany_vehicles:Turret_1_G04_PzVI_Tiger_IA_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33220</price>
       <notInShop>true</notInShop>
@@ -1140,7 +1140,7 @@
             <density>98.2987 98.0624</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56A>
       </guns>
       <models>
         <undamaged>vehicles/german/G04_PzVI_Tiger_I/normal/lod0/Turret_02.model</undamaged>
@@ -1268,9 +1268,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

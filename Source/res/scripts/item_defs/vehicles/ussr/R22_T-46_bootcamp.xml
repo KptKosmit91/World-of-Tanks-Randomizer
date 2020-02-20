@@ -3,8 +3,8 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
-    <gunner></gunner>
+    <driver />
+    <gunner />
   </crew>
   <speedLimits>
     <forward>58</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -72,7 +72,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/russian/R22_T-46/T-46_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -117,7 +117,7 @@ loader</commander>
   <chassis>
     <T-46-1_bootcamp>
       <userString>#ussr_vehicles:T-46_mod_1</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>660</price>
       <notInShop>true</notInShop>
@@ -823,8 +823,8 @@ loader</commander>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T-46-1_bootcamp>
@@ -832,7 +832,7 @@ loader</commander>
   <turrets0>
     <T-46_bootcamp>
       <userString>#ussr_vehicles:Turret_1_T46</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>840</price>
       <notInShop>true</notInShop>
@@ -891,7 +891,7 @@ loader</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -900,7 +900,7 @@ loader</commander>
             <density>137.725 137.862</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_45mm_20K_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/russian/R22_T-46/normal/lod0/Turret_01.model</undamaged>
@@ -917,7 +917,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1010,7 +1010,7 @@ loader</commander>
     <armour>0.68723672</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

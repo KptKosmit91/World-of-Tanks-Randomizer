@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -427,7 +427,7 @@
   <chassis>
     <Chassis_Lorraine155_51>
       <userString>#france_vehicles:Chassis_Lorraine155_51</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20080</price>
       <unlocks>
@@ -715,7 +715,7 @@
             <length>0.137313</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.13132</xStart>
@@ -879,7 +879,7 @@
                 <point>-1.31629 1.18202 3.04777</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -906,7 +906,7 @@
             <length>0.137325</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.13107</xStart>
@@ -1070,14 +1070,14 @@
                 <point>1.31632 1.19843 3.04855</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1097,7 +1097,7 @@
     </Chassis_Lorraine155_51>
     <Chassis_Lorraine155_51_2>
       <userString>#france_vehicles:Chassis_Lorraine155_51_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33000</price>
       <armor>
@@ -1381,7 +1381,7 @@
             <length>0.137313</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.13132</xStart>
@@ -1545,7 +1545,7 @@
                 <point>-1.31629 1.18202 3.04777</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1572,7 +1572,7 @@
             <length>0.137325</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.13107</xStart>
@@ -1736,14 +1736,14 @@
                 <point>1.31632 1.19843 3.04855</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1868,7 +1868,7 @@
             <density>60.4026 59.5526</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Obusier_de_155mm_mle.1950>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Obusier_de_155mm_mle.1950>
         <Canon_de_155mm_L_GPF>shared  <unlocks>
             <vehicle>F67_Bat_Chatillon155_55  <cost>182000</cost>
             </vehicle>
@@ -1946,7 +1946,7 @@
             <density>75.6275 75.6289</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_155mm_L_GPF>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_155mm_L_GPF>
       </guns>
       <models>
         <undamaged>vehicles/french/F25_Lorraine155_51/normal/lod0/Turret_01.model</undamaged>
@@ -2095,7 +2095,7 @@
     <armour>0.738580048</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

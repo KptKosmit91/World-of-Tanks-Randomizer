@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <variants>
@@ -128,7 +128,7 @@
   <chassis>
     <Chassis_IS8>
       <userString>#ussr_vehicles:Chassis_IS8</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>27920</price>
       <unlocks>
@@ -400,7 +400,7 @@
             <length>0.16009</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3679</xStart>
@@ -571,7 +571,7 @@
                 <point>-1.32119 1.10176 3.27583</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -598,7 +598,7 @@
             <length>0.159981</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.36998</xStart>
@@ -769,14 +769,14 @@
                 <point>1.32121 1.10538 3.2692</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -796,7 +796,7 @@
     </Chassis_IS8>
     <Chassis_IS8_2>
       <userString>#ussr_vehicles:Chassis_IS8_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>66500</price>
       <armor>
@@ -1064,7 +1064,7 @@
             <length>0.16009</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3679</xStart>
@@ -1235,7 +1235,7 @@
                 <point>-1.32119 1.10176 3.27583</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1262,7 +1262,7 @@
             <length>0.159981</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.36998</xStart>
@@ -1433,14 +1433,14 @@
                 <point>1.32121 1.10538 3.2692</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1462,7 +1462,7 @@
   <turrets0>
     <Turret_1_IS8>
       <userString>#ussr_vehicles:Turret_1_IS8</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33680</price>
       <unlocks>
@@ -1593,7 +1593,7 @@
             <density>89.3193 88.3912</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_wedges_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter>
         <_122mm_BL-9>shared  <maxAmmo>30</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -1683,7 +1683,7 @@
             <density>89.3707 90.9993</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL-9>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-9>
         <_122mm_M62-T2>shared  <maxAmmo>30</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -1774,7 +1774,7 @@
             <density>88.7336 89.2056</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_M62-T2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_M62-T2>
       </guns>
       <models>
         <undamaged>vehicles/russian/R81_IS8/normal/lod0/Turret_01.model</undamaged>
@@ -1857,7 +1857,7 @@
     </Turret_1_IS8>
     <Turret_2_IS8>
       <userString>#ussr_vehicles:Turret_2_IS8</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>66500</price>
       <armor>
@@ -1977,7 +1977,7 @@
             <density>89.3193 88.3912</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_wedges_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter>
         <_122mm_BL-9>shared  <maxAmmo>30</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2063,7 +2063,7 @@
             <density>89.3707 90.9993</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL-9>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-9>
         <_122mm_M62-T2>shared  <maxAmmo>30</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2149,7 +2149,7 @@
             <density>88.7336 89.2056</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_M62-T2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_M62-T2>
       </guns>
       <models>
         <undamaged>vehicles/russian/R81_IS8/normal/lod0/Turret_02.model</undamaged>
@@ -2344,7 +2344,7 @@
     <armour>1.09988962</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>3.4 2 0.5 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@ loader</commander>
     <Pz35t_Standardketten>
       <userString>#germany_vehicles:Pz35t_Standardketten</userString>
       <shortUserString>#germany_vehicles:Pz35t_Standardketten_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>360</price>
       <unlocks>
@@ -1187,7 +1187,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1208,7 +1208,7 @@ loader</commander>
     <Pz35t_Vetstaerktketten>
       <userString>#germany_vehicles:Pz35t_Vetstaerktketten</userString>
       <shortUserString>#germany_vehicles:Pz35t_Vetstaerktketten_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>630</price>
       <armor>
@@ -2284,7 +2284,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2307,7 +2307,7 @@ loader</commander>
     <Pz35t_Standardturm>
       <userString>#germany_vehicles:Pz35t_Standardturm</userString>
       <shortUserString>#germany_vehicles:Pz35t_Standardturm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>560</price>
       <unlocks>
@@ -2419,7 +2419,7 @@ loader</commander>
             <density>129.606 124.23</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_34t_L40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_34t_L40>
         <_37mm_KwK_38t_L47>shared  <maxAmmo>72</maxAmmo>
           <unlocks>
             <vehicle>G08_Pz38t  <cost>1250</cost>
@@ -2489,7 +2489,7 @@ loader</commander>
             <density>120.269 118.331</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_38t_L47>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_38t_L47>
         <_20mm_Flak_38_L112>shared  <maxAmmo>300</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.1</turretRotation>
@@ -2559,7 +2559,7 @@ loader</commander>
             <density>119.41 123.684</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
       </guns>
       <models>
         <undamaged>vehicles/german/G07_Pz35t/normal/lod0/Turret_01.model</undamaged>
@@ -2644,7 +2644,7 @@ loader</commander>
     <Pz35t_Verstaerktturm>
       <userString>#germany_vehicles:Pz35t_Verstaerktturm</userString>
       <shortUserString>#germany_vehicles:Pz35t_Verstaerktturm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1430</price>
       <armor>
@@ -2751,7 +2751,7 @@ loader</commander>
             <density>129.606 124.23</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_34t_L40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_34t_L40>
         <_37mm_KwK_38t_L47>shared  <maxAmmo>72</maxAmmo>
           <shotDispersionFactors>
             <turretRotation>0.14</turretRotation>
@@ -2822,7 +2822,7 @@ loader</commander>
             <density>120.269 118.331</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_38t_L47>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_38t_L47>
         <_20mm_Flak_38_L112>shared  <maxAmmo>300</maxAmmo>
           <armor>
             <armor_1>25  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2892,7 +2892,7 @@ loader</commander>
             <density>119.41 123.684</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_20mm_Flak_38_L112>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Flak_38_L112>
       </guns>
       <models>
         <undamaged>vehicles/german/G07_Pz35t/normal/lod0/Turret_01.model</undamaged>
@@ -3077,7 +3077,7 @@ loader</commander>
     <armour>0.80077794</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

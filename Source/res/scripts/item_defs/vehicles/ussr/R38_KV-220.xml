@@ -1,11 +1,11 @@
 <R38_KV-220.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>33</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -116,7 +116,7 @@
   <chassis>
     <KV220_A>
       <userString>#ussr_vehicles:KV220</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16300</price>
       <notInShop>true</notInShop>
@@ -811,7 +811,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -833,7 +833,7 @@
   <turrets0>
     <KV-220-1A>
       <userString>#ussr_vehicles:KV-220</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9430</price>
       <notInShop>true</notInShop>
@@ -935,7 +935,7 @@
             <density>200.181 201.222</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_ZiS-5A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_ZiS-5A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R38_KV-220/normal/lod0/Turret_01.model</undamaged>
@@ -1077,7 +1077,7 @@
     <armour>0.988863778</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

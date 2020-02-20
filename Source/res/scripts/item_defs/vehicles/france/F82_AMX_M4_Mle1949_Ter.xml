@@ -1,11 +1,11 @@
 <F82_AMX_M4_Mle1949_Ter.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <radioman></radioman>
+    <commander />
+    <driver />
+    <gunner />
+    <loader />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -794,7 +794,7 @@
   <chassis>
     <Chassis_F82_AMX_M4_Mle1949_Ter>
       <userString>#france_vehicles:Chassis_F82_AMX_M4_Mle1949_Ter</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1174,7 +1174,7 @@
             <length>0.144258</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.50838</xStart>
@@ -1349,7 +1349,7 @@
                 <point>-1.4975 1.22334 3.48815</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1376,7 +1376,7 @@
             <length>0.145043</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.4919</xStart>
@@ -1551,14 +1551,14 @@
                 <point>1.5675 1.18469 3.54269</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1580,7 +1580,7 @@
   <turrets0>
     <Turret_1_F82_AMX_M4_Mle1949_Ter>
       <userString>#france_vehicles:Turret_1_F82_AMX_M4_Mle1949_Ter</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1706,7 +1706,7 @@
             <density>105.228 101.595</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_D_1203_B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_D_1203_B>
         <_130mm_45_Model_1935>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <armor_1>300  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1793,7 +1793,7 @@
             <density>100.688 101.142</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_130mm_45_Model_1935>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_45_Model_1935>
       </guns>
       <models>
         <undamaged>vehicles/french/F82_AMX_M4_Mle1949_Ter/normal/lod0/Turret_01.model</undamaged>
@@ -2390,9 +2390,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

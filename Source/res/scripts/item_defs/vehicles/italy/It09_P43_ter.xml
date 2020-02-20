@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -44,7 +44,7 @@
       <maxRegenHealth>120</maxRegenHealth>
       <repairCost>1.0</repairCost>
     </ammoBayHealth>
-    <variants></variants>
+    <variants />
     <models>
       <undamaged>vehicles/italy/It09_P43_ter/normal/lod0/Hull.model</undamaged>
       <destroyed>vehicles/italy/It09_P43_ter/crash/lod0/Hull.model</destroyed>
@@ -110,7 +110,7 @@
   <chassis>
     <Chassis_It09_P43_ter>
       <userString>#italy_vehicles:Chassis_It09_P43_ter</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>11900</price>
       <unlocks>
@@ -833,7 +833,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -853,7 +853,7 @@
     </Chassis_It09_P43_ter>
     <Chassis_It09_P43_ter_2>
       <userString>#italy_vehicles:Chassis_It09_P43_ter_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21300</price>
       <armor>
@@ -1572,7 +1572,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1594,7 +1594,7 @@
   <turrets0>
     <Turret_1_It09_P43_ter>
       <userString>#italy_vehicles:Turret_1_It09_P43_ter</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14000</price>
       <armor>
@@ -1702,7 +1702,7 @@
             <density>109.672 119.978</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_42>
       </guns>
       <models>
         <undamaged>vehicles/italy/It09_P43_ter/normal/lod0/Turret_01.model</undamaged>
@@ -1786,7 +1786,7 @@
     </Turret_1_It09_P43_ter>
     <Turret_2_It09_P43_ter>
       <userString>#italy_vehicles:Turret_2_It09_P43_ter</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>19600</price>
       <unlocks>
@@ -1894,7 +1894,7 @@
             <density>109.672 119.978</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_42>
         <Cannone_da_90_53>shared  <maxAmmo>48</maxAmmo>
           <unlocks>
             <vehicle>It14_P44_Pantera  <cost>100750</cost>
@@ -1973,7 +1973,7 @@
             <density>130.717 114.788</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_53>
       </guns>
       <invisibilityFactor>0.986</invisibilityFactor>
       <models>
@@ -2086,7 +2086,7 @@
     </R_F_3_M_2>
     <R_F_4_M>shared</R_F_4_M>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2178,7 +2178,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

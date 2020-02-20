@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -112,7 +112,7 @@
   <chassis>
     <Chassis_Pro_Ag_A>
       <userString>#germany_vehicles:Chassis_Pro_Ag_A</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32200</price>
       <unlocks>
@@ -391,7 +391,7 @@
             <length>0.0709535</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.01206</xStart>
@@ -645,7 +645,7 @@
                 <point>-1.50124 1.15624 3.30105</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -676,7 +676,7 @@
             <length>0.0710621</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.0028</xStart>
@@ -930,14 +930,14 @@
                 <point>1.50124 1.15624 3.30105</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -957,7 +957,7 @@
     </Chassis_Pro_Ag_A>
     <Chassis_Pro_Ag_A_2>
       <userString>#germany_vehicles:Chassis_Pro_Ag_A_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>61750</price>
       <armor>
@@ -1232,7 +1232,7 @@
             <length>0.0709535</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.01206</xStart>
@@ -1486,7 +1486,7 @@
                 <point>-1.50124 1.15624 3.30105</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1517,7 +1517,7 @@
             <length>0.0710621</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.0028</xStart>
@@ -1771,14 +1771,14 @@
                 <point>1.50124 1.15624 3.30105</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1800,7 +1800,7 @@
   <turrets0>
     <Turret_1_Pro_Ag_A>
       <userString>#germany_vehicles:Turret_1_Pro_Ag_A</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32700</price>
       <unlocks>
@@ -1925,7 +1925,7 @@
             <density>76.6969 85.5063</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_9cm_KwK_51_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_9cm_KwK_51_L71>
         <_105mm_L7A1>shared  <unlocks>
             <vehicle>G89_Leopard1  <cost>216000</cost>
             </vehicle>
@@ -2014,7 +2014,7 @@
             <density>77.1556 83.7302</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_L7A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_L7A1>
       </guns>
       <models>
         <undamaged>vehicles/german/G91_Pro_Ag_A/normal/lod0/Turret_01.model</undamaged>
@@ -2098,7 +2098,7 @@
     </Turret_1_Pro_Ag_A>
     <Turret_2_Pro_Ag_A>
       <userString>#germany_vehicles:Turret_2_Pro_Ag_A</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>51500</price>
       <armor>
@@ -2217,7 +2217,7 @@
             <density>76.6969 85.5063</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_9cm_KwK_51_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_9cm_KwK_51_L71>
         <_105mm_L7A1>shared  <maxAmmo>58</maxAmmo>
           <aimingTime>1.9</aimingTime>
           <shotDispersionFactors>
@@ -2302,7 +2302,7 @@
             <density>77.1556 83.7302</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_L7A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_L7A1>
       </guns>
       <models>
         <undamaged>vehicles/german/G91_Pro_Ag_A/normal/lod0/Turret_02.model</undamaged>
@@ -2494,7 +2494,7 @@
     <armour>0.985738041</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

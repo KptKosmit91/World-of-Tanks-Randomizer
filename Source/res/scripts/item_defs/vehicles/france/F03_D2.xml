@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>23</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -134,7 +134,7 @@ loader</commander>
   <chassis>
     <Chassis_D2>
       <userString>#france_vehicles:Chassis_D2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>540</price>
       <unlocks>
@@ -998,7 +998,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1018,7 +1018,7 @@ loader</commander>
     </Chassis_D2>
     <Chassis_D2_2>
       <userString>#france_vehicles:Chassis_D2_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <armor>
@@ -1878,7 +1878,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1900,7 +1900,7 @@ loader</commander>
   <turrets0>
     <Turret_1_D2>
       <userString>#france_vehicles:Turret_1_D2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>780</price>
       <armor>
@@ -2007,7 +2007,7 @@ loader</commander>
             <density>118.38 118.339</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34>
         <_47mm_SA35>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 0.125 10 0.188662 5 0.811338 5 0.875 10 1 10</maxPitch>
@@ -2082,7 +2082,7 @@ loader</commander>
             <density>154.011 154.975</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
         <_25mm_Canon_Raccourci_Mle.1934>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 0.125 10 0.188662 5 0.811338 5 0.875 10 1 10</maxPitch>
@@ -2146,7 +2146,7 @@ loader</commander>
             <density>111.299 112.017</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_25mm_Canon_Raccourci_Mle.1934>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_Canon_Raccourci_Mle.1934>
       </guns>
       <models>
         <undamaged>vehicles/french/F03_D2/normal/lod0/Turret_01.model</undamaged>
@@ -2210,7 +2210,7 @@ loader</commander>
     </Turret_1_D2>
     <Turret_2_D2>
       <userString>#france_vehicles:Turret_2_D2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1800</price>
       <unlocks>
@@ -2316,7 +2316,7 @@ loader</commander>
             <density>118.38 118.339</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34>
         <_47mm_SA35>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 0.125 10 0.188662 5 0.811338 5 0.875 10 1 10</maxPitch>
@@ -2387,7 +2387,7 @@ loader</commander>
             <density>154.011 154.975</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
         <_25mm_Canon_Raccourci_Mle.1934>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 0.125 10 0.188662 5 0.811338 5 0.875 10 1 10</maxPitch>
@@ -2446,7 +2446,7 @@ loader</commander>
             <density>111.299 112.017</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_25mm_Canon_Raccourci_Mle.1934>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_Canon_Raccourci_Mle.1934>
         <_47mm_SA37>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 0.125 10 0.188662 5 0.811338 5 0.875 10 1 10</maxPitch>
@@ -2516,7 +2516,7 @@ loader</commander>
             <density>117.112 118.38</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA37>
       </guns>
       <models>
         <undamaged>vehicles/french/F03_D2/normal/lod0/Turret_02.model</undamaged>
@@ -2690,7 +2690,7 @@ loader</commander>
     <armour>0.921857812</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

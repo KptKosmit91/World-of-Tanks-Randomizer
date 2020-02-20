@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -111,7 +111,7 @@
   <chassis>
     <Chassis_Cz02_TVP_T50>
       <userString>#czech_vehicles:Chassis_Cz02_TVP_T50</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <unlocks>
@@ -467,7 +467,7 @@
             <length>0.124529</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.38534</xStart>
@@ -650,7 +650,7 @@
                 <point>-1.2369 1.37724 3.33924</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -677,7 +677,7 @@
             <length>0.124083</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.39627</xStart>
@@ -861,14 +861,14 @@
                 <point>1.22691 1.36999 3.36626</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -888,7 +888,7 @@
     </Chassis_Cz02_TVP_T50>
     <Chassis_Cz02_TVP_T50_2>
       <userString>#czech_vehicles:Chassis_Cz02_TVP_T50_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62700</price>
       <armor>
@@ -1240,7 +1240,7 @@
             <length>0.124529</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.38534</xStart>
@@ -1423,7 +1423,7 @@
                 <point>-1.2369 1.37724 3.33924</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1450,7 +1450,7 @@
             <length>0.124083</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.39627</xStart>
@@ -1634,14 +1634,14 @@
                 <point>1.22691 1.36999 3.36626</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1663,7 +1663,7 @@
   <turrets0>
     <Turret_1_Cz02_TVP_T50>
       <userString>#czech_vehicles:Turret_1_Cz02_TVP_T50</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32700</price>
       <armor>
@@ -1787,7 +1787,7 @@
             <density>110.652 99.7786</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_A20>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_A20>
         <_100mm_R11>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>140  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1874,7 +1874,7 @@
             <density>87.3528 99.7786</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_R11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_R11>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz02_TVP_T50/normal/lod0/Turret_01.model</undamaged>
@@ -1958,7 +1958,7 @@
     </Turret_1_Cz02_TVP_T50>
     <Turret_2_Cz02_TVP_T50>
       <userString>#czech_vehicles:Turret_2_Cz02_TVP_T50</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>58000</price>
       <unlocks>
@@ -2080,7 +2080,7 @@
             <density>110.652 99.7786</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_A20>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_A20>
         <_100mm_R11>shared  <maxAmmo>45</maxAmmo>
           <armor>
             <armor_1>150  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2167,7 +2167,7 @@
             <density>87.3528 99.7786</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_R11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_R11>
         <_100mm_AK1>shared  <maxAmmo>45</maxAmmo>
           <unlocks>
             <vehicle>Cz04_T50_51  <cost>208000</cost>
@@ -2263,7 +2263,7 @@
             <density>100.745 102.761</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_AK1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_AK1>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz02_TVP_T50/normal/lod0/Turret_02.model</undamaged>
@@ -2453,7 +2453,7 @@
     <armour>1.017972893</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

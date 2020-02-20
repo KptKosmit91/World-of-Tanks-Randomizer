@@ -1,11 +1,11 @@
 <A36_Sherman_Jumbo.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>3.4 3.4 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -136,7 +136,7 @@
   <chassis>
     <Chassis_Sherman_Jumbo>
       <userString>#usa_vehicles:Chassis_Sherman_Jumbo</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9630</price>
       <unlocks>
@@ -1103,7 +1103,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1123,7 +1123,7 @@
     </Chassis_Sherman_Jumbo>
     <Chassis_Sherman_Jumbo_2>
       <userString>#usa_vehicles:Chassis_Sherman_Jumbo_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16350</price>
       <armor>
@@ -2086,7 +2086,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2108,7 +2108,7 @@
   <turrets0>
     <Turret_1_Sherman_Jumbo>
       <userString>#usa_vehicles:Turret_1_Sherman_Jumbo</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>14120</price>
       <armor>
@@ -2219,7 +2219,7 @@
             <density>86.7771 86.3668</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37>
         <_105mm_SPH_M4_L23>shared  <maxAmmo>70</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2294,7 +2294,7 @@
             <density>86.8538 87.1205</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_SPH_M4_L23>
         <_76mm_Gun_M1A1>shared  <maxAmmo>104</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2379,7 +2379,7 @@
             <density>86.7306 86.5051</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A36_Sherman_Jumbo/normal/lod0/Turret_01.model</undamaged>
@@ -2443,7 +2443,7 @@
     </Turret_1_Sherman_Jumbo>
     <Turret_2_Sherman_Jumbo>
       <userString>#usa_vehicles:Turret_2_Sherman_Jumbo</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17000</price>
       <unlocks>
@@ -2569,7 +2569,7 @@
             <density>86.7771 86.3668</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37>
         <_105mm_SPH_M4_L23>shared  <maxAmmo>70</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2653,7 +2653,7 @@
             <density>86.8538 87.1205</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_SPH_M4_L23>
         <_76mm_Gun_M1A1>shared  <maxAmmo>104</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2738,7 +2738,7 @@
             <density>86.7306 86.5051</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <_76mm_Gun_M1A2>shared  <maxAmmo>104</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2817,7 +2817,7 @@
             <density>93.6302 91.0397</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2>
       </guns>
       <models>
         <undamaged>vehicles/american/A36_Sherman_Jumbo/normal/lod0/Turret_02.model</undamaged>
@@ -2996,7 +2996,7 @@
     <armour>1.039018702</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

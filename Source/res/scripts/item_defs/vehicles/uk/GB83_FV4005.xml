@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>32</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1017,7 +1017,7 @@
   <chassis>
     <Chassis_GB83_FV4005>
       <userString>#gb_vehicles:Chassis_GB83_FV4005</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -2120,7 +2120,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2142,7 +2142,7 @@
   <turrets0>
     <Turret_1_GB83_FV4005>
       <userString>#gb_vehicles:Turret_1_GB83_FV4005</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>100</price>
       <notInShop>true</notInShop>
@@ -2264,7 +2264,7 @@
             <density>98.6828 100.816</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_183mm_AT_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_183mm_AT_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB83_FV4005/normal/lod0/Turret_01.model</undamaged>
@@ -2817,7 +2817,7 @@
     <armour>1.16649011</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

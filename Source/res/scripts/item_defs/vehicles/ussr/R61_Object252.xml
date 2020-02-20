@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -999,7 +999,7 @@
   <chassis>
     <Chassis_IS-6>
       <userString>#ussr_vehicles:Chassis_IS-6</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>27920</price>
       <notInShop>true</notInShop>
@@ -1384,7 +1384,7 @@
             <length>0.149082</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.31846</xStart>
@@ -1549,7 +1549,7 @@
                 <point>-1.26438 1.07633 3.39031</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1576,7 +1576,7 @@
             <length>0.151162</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.35141</xStart>
@@ -1740,14 +1740,14 @@
                 <point>1.33442 1.07209 3.37534</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1769,7 +1769,7 @@
   <turrets0>
     <Turret_IS-6>
       <userString>#ussr_vehicles:Turret_IS-6</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33680</price>
       <notInShop>true</notInShop>
@@ -1903,7 +1903,7 @@
             <density>127.877 123.386</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122-mm_D-30>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-30>
       </guns>
       <models>
         <undamaged>vehicles/russian/R61_Object252/normal/lod0/Turret_01.model</undamaged>
@@ -2448,7 +2448,7 @@
     <armour>1.374734456</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

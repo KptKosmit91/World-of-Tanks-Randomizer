@@ -2,11 +2,11 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -153,7 +153,7 @@
   <chassis>
     <Chassis_Pz_Sfl_IVc>
       <userString>#germany_vehicles:Chassis_Pz_Sfl_IVc</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5000</price>
       <unlocks>
@@ -657,7 +657,7 @@
             <length>0.11629</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96137</xStart>
@@ -839,7 +839,7 @@
                 <point>-1.34275 0.999085 3.14394</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -866,7 +866,7 @@
             <length>0.116254</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96235</xStart>
@@ -1048,14 +1048,14 @@
                 <point>1.34277 0.988749 3.14104</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1075,7 +1075,7 @@
     </Chassis_Pz_Sfl_IVc>
     <Chassis_Pz_Sfl_IVc_2>
       <userString>#germany_vehicles:Chassis_Pz_Sfl_IVc_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8800</price>
       <armor>
@@ -1575,7 +1575,7 @@
             <length>0.11629</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96137</xStart>
@@ -1757,7 +1757,7 @@
                 <point>-1.34275 0.999085 3.14394</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1784,7 +1784,7 @@
             <length>0.116254</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.96235</xStart>
@@ -1966,14 +1966,14 @@
                 <point>1.34277 0.988749 3.14104</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2099,7 +2099,7 @@
             <density>56.5207 59.876</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Flak_L60>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Flak_L60>
         <_88mm_Flak_37_L56>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_88mm_Flak_41_L74  <cost>16500</cost>
@@ -2181,7 +2181,7 @@
             <density>61.2192 61.6152</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_Flak_37_L56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_Flak_37_L56>
       </guns>
       <models>
         <undamaged>vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Turret_01.model</undamaged>
@@ -2326,7 +2326,7 @@
             <density>68.4214 71.1192</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_Flak_41_L74>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_Flak_41_L74>
       </guns>
       <models>
         <undamaged>vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Turret_02.model</undamaged>
@@ -2474,7 +2474,7 @@
     <armour>0.724825</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,9 +1,9 @@
 <Ch01_Type59.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -616,7 +616,7 @@
   <chassis>
     <Chassis_Ch01_Type59_2>
       <userString>#china_vehicles:Chassis_Ch01_Type59_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30200</price>
       <notInShop>true</notInShop>
@@ -1389,7 +1389,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1411,7 +1411,7 @@
   <turrets0>
     <Turret_1_Ch01_Type59_2>
       <userString>#china_vehicles:Turret_1_Ch01_Type59_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28000</price>
       <notInShop>true</notInShop>
@@ -1573,7 +1573,7 @@
             <density>100.491 114.725</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_100mm_59>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_59>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch01_Type59/normal/lod0/Turret_01.model</undamaged>
@@ -2144,7 +2144,7 @@
     <armour>1.203216407</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

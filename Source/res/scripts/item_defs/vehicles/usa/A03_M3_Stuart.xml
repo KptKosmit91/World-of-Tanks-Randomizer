@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <gunner />
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>61</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -136,7 +136,7 @@
   <chassis>
     <chassisE1>
       <userString>#usa_vehicles:chassisE1</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>660</price>
       <unlocks>
@@ -987,7 +987,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1007,7 +1007,7 @@
     </chassisE1>
     <chassisE2>
       <userString>#usa_vehicles:chassisE2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1850</price>
       <armor>
@@ -1854,7 +1854,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1876,7 +1876,7 @@
   <turrets0>
     <D37812>
       <userString>#usa_vehicles:D37812</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>800</price>
       <armor>
@@ -1980,7 +1980,7 @@
             <density>209.563 209.255</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_Hispano_Suiza_Birgikt_gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Hispano_Suiza_Birgikt_gun>
         <_37mm_M-5>shared  <maxAmmo>103</maxAmmo>
           <unlocks>
             <turret>D39273  <cost>375</cost>
@@ -2046,7 +2046,7 @@
             <density>210.016 210.244</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_M-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5>
       </guns>
       <models>
         <undamaged>vehicles/american/A03_M3_Stuart/normal/lod0/Turret_01.model</undamaged>
@@ -2110,7 +2110,7 @@
     </D37812>
     <D39273>
       <userString>#usa_vehicles:D39273</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <unlocks>
@@ -2212,7 +2212,7 @@
             <density>209.563 209.255</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20mm_Hispano_Suiza_Birgikt_gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_Hispano_Suiza_Birgikt_gun>
         <_37mm_M-5>shared  <maxAmmo>103</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2279,7 +2279,7 @@
             <density>210.016 210.244</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_M-5>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-5>
         <_37mm_M-6_L53>shared  <maxAmmo>103</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2346,7 +2346,7 @@
             <density>208.466 210.953</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_M-6_L53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_M-6_L53>
       </guns>
       <models>
         <undamaged>vehicles/american/A03_M3_Stuart/normal/lod0/Turret_02.model</undamaged>
@@ -2532,7 +2532,7 @@
     <armour>0.813244384</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

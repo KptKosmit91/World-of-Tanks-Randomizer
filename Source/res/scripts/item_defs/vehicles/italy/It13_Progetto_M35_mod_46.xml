@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -989,7 +989,7 @@
   <chassis>
     <Chassis_It13_Progetto_M35_mod_46>
       <userString>#italy_vehicles:Chassis_It13_Progetto_M35_mod_46</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1655,7 +1655,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1677,7 +1677,7 @@
   <turrets0>
     <Turret_1_It13_Progetto_M35_mod_46>
       <userString>#italy_vehicles:Turret_1_It13_Progetto_M35_mod_46</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1839,7 +1839,7 @@
             <density>120.603 119.624</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_90_50_T119E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_90_50_T119E1>
       </guns>
       <models>
         <undamaged>vehicles/italy/It13_Progetto_M35_mod_46/normal/lod0/Turret_01.model</undamaged>
@@ -2370,7 +2370,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

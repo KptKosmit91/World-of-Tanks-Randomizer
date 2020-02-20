@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1120,7 +1120,7 @@ loader</commander>
   <chassis>
     <Chassis_S25_EMIL_51>
       <userString>#sweden_vehicles:Chassis_S25_EMIL_51</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33400</price>
       <notInShop>true</notInShop>
@@ -1624,7 +1624,7 @@ loader</commander>
                 <point>-1.08542 0.946249 2.98373</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1651,7 +1651,7 @@ loader</commander>
             <length>0.12034</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.80511</xStart>
@@ -1818,14 +1818,14 @@ loader</commander>
                 <point>1.08542 0.946249 2.98373</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_S25_EMIL_51>
@@ -1833,7 +1833,7 @@ loader</commander>
   <turrets0>
     <Turret_1_S25_EMIL_51>
       <userString>#sweden_vehicles:Turret_1_S25_EMIL_51</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2139,7 +2139,7 @@ loader</commander>
             <density>117.224 117.276</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_105mm_lvkan_L_67>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_lvkan_L_67>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S25_EMIL_51/normal/lod0/Turret_01.model</undamaged>
@@ -2354,7 +2354,7 @@ loader</commander>
   <radios>
     <Ra_400_P>shared</Ra_400_P>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2403,7 +2403,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

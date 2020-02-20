@@ -1,11 +1,11 @@
 <GB05_Vickers_Medium_Mk_II_bot.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>2.7 2.6 0.33 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -73,7 +73,7 @@
     <hangarShadowTexture>vehicles/british/GB05_Vickers_Medium_Mk_II/Vickers_Medium_Mk_II_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -108,7 +108,7 @@
   <chassis>
     <Chassis_GB05_Vickers_Medium_Mk_II_bot>
       <userString>#gb_vehicles:Chassis_GB05_Vickers_Medium_Mk_II_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>330</price>
       <notInShop>true</notInShop>
@@ -952,8 +952,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB05_Vickers_Medium_Mk_II_bot>
@@ -961,7 +961,7 @@
   <turrets0>
     <Turret_1_GB05_Vickers_Medium_Mk_II_bot>
       <userString>#gb_vehicles:Turret_1_GB05_Vickers_Medium_Mk_II_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>120</price>
       <notInShop>true</notInShop>
@@ -1022,7 +1022,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1031,7 +1031,7 @@
             <density>145.064 145.056</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_3pdr_gun_Hotchkiss_bot>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3pdr_gun_Hotchkiss_bot>
       </guns>
       <models>
         <undamaged>vehicles/british/GB05_Vickers_Medium_Mk_II/normal/lod0/Turret_01.model</undamaged>
@@ -1048,7 +1048,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1146,9 +1146,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -999,7 +999,7 @@ loader</commander>
   <chassis>
     <Chassis_F19_Lorraine40t>
       <userString>#france_vehicles:Chassis_F19_Lorraine40t</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1282,7 +1282,7 @@ loader</commander>
             <length>0.140482</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.33063</xStart>
@@ -1462,7 +1462,7 @@ loader</commander>
                 <point>-1.33079 1.21319 2.9911</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1489,7 +1489,7 @@ loader</commander>
             <length>0.140218</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.33632</xStart>
@@ -1669,14 +1669,14 @@ loader</commander>
                 <point>1.54081 1.20028 2.97349</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1698,7 +1698,7 @@ loader</commander>
   <turrets0>
     <Turret_1_F19_Lorraine40t>
       <userString>#france_vehicles:Turret_1_F19_Lorraine40t</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2063,7 +2063,7 @@ loader</commander>
             <density>82.218 83.7086</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_SA_47_L>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_SA_47_L>
       </guns>
       <models>
         <undamaged>vehicles/french/F19_Lorraine40t/normal/lod0/Turret_01.model</undamaged>
@@ -2326,7 +2326,7 @@ loader</commander>
     <armour>0.978068533</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

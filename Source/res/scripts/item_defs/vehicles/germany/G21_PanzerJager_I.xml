@@ -3,8 +3,8 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
-    <gunner></gunner>
+    <driver />
+    <gunner />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -155,7 +155,7 @@ loader</commander>
   <chassis>
     <PzJgd_ketten_I>
       <userString>#germany_vehicles:PzJgd_ketten_I</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>280</price>
       <unlocks>
@@ -856,7 +856,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -876,7 +876,7 @@ loader</commander>
     </PzJgd_ketten_I>
     <PzJgd_ketten_II>
       <userString>#germany_vehicles:PzJgd_ketten_II</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>570</price>
       <armor>
@@ -1573,7 +1573,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1685,7 +1685,7 @@ loader</commander>
             <density>180.371 183.704</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_37mm_PaK_38t_L47>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_PaK_38t_L47>
         <_47mm_PaK_38t_L43AT>shared  <pitchLimits>
             <minPitch>0 -10 1 -10</minPitch>
             <maxPitch>0 8 1 8</maxPitch>
@@ -1753,7 +1753,7 @@ loader</commander>
             <density>181.415 187.763</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_47mm_PaK_38t_L43AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_PaK_38t_L43AT>
       </guns>
       <models>
         <undamaged>vehicles/german/G21_PanzerJager_I/normal/lod0/Turret_01.model</undamaged>
@@ -1897,7 +1897,7 @@ loader</commander>
     <armour>0.890551251</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

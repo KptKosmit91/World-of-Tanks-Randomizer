@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -119,7 +119,7 @@ loader</commander>
   <chassis>
     <Chassis_S01_Strv_74_A2>
       <userString>#sweden_vehicles:Chassis_S01_Strv_74_A2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -880,7 +880,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -902,7 +902,7 @@ loader</commander>
   <turrets0>
     <Turret_1_S01_Strv_74_A2>
       <userString>#sweden_vehicles:Turret_1_S01_Strv_74_A2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -1017,7 +1017,7 @@ loader</commander>
             <density>100.104 100.715</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_kan_strv_74>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_kan_strv_74>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S01_Strv_74_A2/normal/lod0/Turret_01.model</undamaged>
@@ -1089,7 +1089,7 @@ loader</commander>
   <radios>
     <Ra_400_1>shared</Ra_400_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1137,7 +1137,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

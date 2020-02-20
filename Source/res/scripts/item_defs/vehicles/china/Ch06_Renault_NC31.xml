@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>25</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -125,7 +125,7 @@ loader</commander>
   <chassis>
     <Chassis_Ch06_Renault_NC31_2>
       <userString>#china_vehicles:Chassis_Ch06_Renault_NC31_2</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -722,7 +722,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -806,7 +806,7 @@ loader</commander>
             <density>161.975 161.133</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_APX_SA18>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_APX_SA18>
         <_37mm_KwK_L46>shared  <unlocks>
             <vehicle>Ch30_T-26G_FT  <cost>275</cost>
             </vehicle>
@@ -879,10 +879,10 @@ loader</commander>
             <density>161.202 160.468</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_L46>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_L46>
       </guns>
       <userString>#china_vehicles:Turret_2_Ch06_Renault_NC31</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -1031,7 +1031,7 @@ loader</commander>
     <armour>0.815043165</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

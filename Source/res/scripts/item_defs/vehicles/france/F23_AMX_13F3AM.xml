@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -146,7 +146,7 @@
   <chassis>
     <Chassis_AMX_13F3AM>
       <userString>#france_vehicles:Chassis_AMX_13F3AM</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8600</price>
       <unlocks>
@@ -602,7 +602,7 @@
             <length>0.116955</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.73021</xStart>
@@ -765,7 +765,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -785,7 +785,7 @@
     </Chassis_AMX_13F3AM>
     <Chassis_AMX_13F3AM_2>
       <userString>#france_vehicles:Chassis_AMX_13F3AM_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>13300</price>
       <armor>
@@ -1237,7 +1237,7 @@
             <length>0.116955</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.73021</xStart>
@@ -1400,7 +1400,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1524,7 +1524,7 @@
             <density>64.6392 64.112</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Obusier_de_155mm_C_mle.1917>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Obusier_de_155mm_C_mle.1917>
         <Canon_de_155mm_de_33_calibres>shared  <maxAmmo>25</maxAmmo>
           <pitchLimits>
             <minPitch>0 -45 1 -45</minPitch>
@@ -1602,7 +1602,7 @@
             <density>62.2993 65.3835</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_155mm_de_33_calibres>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_155mm_de_33_calibres>
       </guns>
       <models>
         <undamaged>vehicles/french/F23_AMX_13F3AM/normal/lod0/Turret_01.model</undamaged>
@@ -1620,7 +1620,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1744,7 +1744,7 @@
     <armour>0.640331588</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

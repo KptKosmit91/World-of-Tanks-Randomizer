@@ -2,7 +2,7 @@
   
   <crew>
     <commander>loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
     <radioman>loader</radioman>
   </crew>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -959,7 +959,7 @@
   <chassis>
     <Chassis_F84_Somua_SM>
       <userString>#france_vehicles:Chassis_F84_Somua_SM</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1242,7 +1242,7 @@
             <length>0.135761</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.41512</xStart>
@@ -1417,7 +1417,7 @@
                 <point>-1.32792 1.20772 3.23721</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1444,7 +1444,7 @@
             <length>0.135779</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.41471</xStart>
@@ -1619,14 +1619,14 @@
                 <point>1.32794 1.20647 3.2385</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1648,7 +1648,7 @@
   <turrets0>
     <Turret_1_F84_Somua_SM>
       <userString>#france_vehicles:Turret_1_F84_Somua_SM</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -2122,7 +2122,7 @@
             <density>120.215 121.709</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_100mm_SA_47_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_SA_47_A>
       </guns>
       <models>
         <undamaged>vehicles/french/F84_Somua_SM/normal/lod0/Turret_01.model</undamaged>
@@ -2323,7 +2323,7 @@
   <radios>
     <SCR_508_1>shared</SCR_508_1>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2372,7 +2372,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

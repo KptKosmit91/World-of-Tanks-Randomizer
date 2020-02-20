@@ -1,9 +1,9 @@
 <GB24_Centurion_Mk3.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -127,7 +127,7 @@
   <chassis>
     <Chassis_GB24_Centurion_Mk3>
       <userString>#gb_vehicles:Chassis_GB24_Centurion_Mk3</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31500</price>
       <unlocks>
@@ -913,7 +913,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -933,7 +933,7 @@
     </Chassis_GB24_Centurion_Mk3>
     <Chassis_GB24_Centurion_Mk3_2>
       <userString>#gb_vehicles:Chassis_GB24_Centurion_Mk3_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>63000</price>
       <armor>
@@ -1715,7 +1715,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1737,7 +1737,7 @@
   <turrets0>
     <Turret_1_GB24_Centurion_Mk3>
       <userString>#gb_vehicles:Turret_1_GB24_Centurion_Mk3</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>50500</price>
       <armor>
@@ -1865,7 +1865,7 @@
             <density>120.805 128.147</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_A>
         <_20pdr_Gun_Type_B>shared  <maxAmmo>72</maxAmmo>
           <pitchLimits>
             <minPitch>0 -18 1 -18</minPitch>
@@ -1960,7 +1960,7 @@
             <density>119.182 126.547</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_B>
       </guns>
       <models>
         <undamaged>vehicles/british/GB24_Centurion_Mk3/normal/lod0/Turret_01.model</undamaged>
@@ -2030,7 +2030,7 @@
     </Turret_1_GB24_Centurion_Mk3>
     <Turret_2_GB24_Centurion_Mk3>
       <userString>#gb_vehicles:Turret_2_GB24_Centurion_Mk3</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>61000</price>
       <unlocks>
@@ -2158,7 +2158,7 @@
             <density>120.805 128.147</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_A>
         <_20pdr_Gun_Type_B>shared  <maxAmmo>72</maxAmmo>
           <pitchLimits>
             <minPitch>0 -18 1 -18</minPitch>
@@ -2249,7 +2249,7 @@
             <density>119.182 126.547</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_B>
         <_105mm_Gun_L7>shared  <maxAmmo>72</maxAmmo>
           <pitchLimits>
             <minPitch>0 -18 1 -18</minPitch>
@@ -2344,7 +2344,7 @@
             <density>114.811 124.187</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_L7>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_L7>
       </guns>
       <models>
         <undamaged>vehicles/british/GB24_Centurion_Mk3/normal/lod0/Turret_02.model</undamaged>
@@ -2541,7 +2541,7 @@
     <armour>0.967555013</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

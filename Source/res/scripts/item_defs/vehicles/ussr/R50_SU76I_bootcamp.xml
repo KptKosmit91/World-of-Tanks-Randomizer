@@ -1,9 +1,9 @@
 <R50_SU76I_bootcamp.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>6.6 6.6 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -85,7 +85,7 @@
     <hangarShadowTexture>vehicles/russian/R50_SU76I/SU76I_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -151,7 +151,7 @@
   <chassis>
     <Chassis_SU76I_bootcamp>
       <userString>#ussr_vehicles:Chassis_SU76I_bootcamp</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <notInShop>true</notInShop>
@@ -1010,8 +1010,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_SU76I_bootcamp>
@@ -1078,7 +1078,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1087,7 +1087,7 @@
             <density>121.202 120.61</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_76mm_F-34S_A_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F-34S_A_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/russian/R50_SU76I/normal/lod0/Turret_01.model</undamaged>
@@ -1104,8 +1104,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_03</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_SU76I_bootcamp>
@@ -1169,7 +1169,7 @@
     <armour>0.787623217</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

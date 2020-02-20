@@ -1,11 +1,11 @@
 <A78_M4_Improved.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -135,7 +135,7 @@
   <chassis>
     <Chassis_M4_Improved>
       <userString>#usa_vehicles:Chassis_M4_Improved</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -469,7 +469,7 @@
             <length>0.0866196</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.09347</xStart>
@@ -676,7 +676,7 @@
                 <point>-1.42204 1.2403 2.60837</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -707,7 +707,7 @@
             <length>0.0866186</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.09347</xStart>
@@ -914,14 +914,14 @@
                 <point>1.42205 1.23223 2.60838</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -943,7 +943,7 @@
   <turrets0>
     <Turret_1_M4_Improved>
       <userString>#usa_vehicles:Turret_1_M4_Improved</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8000</price>
       <notInShop>true</notInShop>
@@ -1058,7 +1058,7 @@
             <density>90.9993 117.714</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M3_L37A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M3_L37A>
       </guns>
       <models>
         <undamaged>vehicles/american/A78_M4_Improved/normal/lod0/Turret_01.model</undamaged>
@@ -1180,7 +1180,7 @@
     <armour>0.905657166</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

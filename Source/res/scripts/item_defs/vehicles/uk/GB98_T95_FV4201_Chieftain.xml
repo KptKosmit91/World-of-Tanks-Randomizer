@@ -1,9 +1,9 @@
 <GB98_T95_FV4201_Chieftain.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -912,7 +912,7 @@
   <chassis>
     <Chassis_GB98_T95_FV4201_Chieftain>
       <userString>#gb_vehicles:Chassis_GB98_T95_FV4201_Chieftain</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1304,7 +1304,7 @@
             <length>0.0987883</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.6041</xStart>
@@ -1530,7 +1530,7 @@
                 <point>-1.43263 1.11362 3.32065</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1561,7 +1561,7 @@
             <length>0.088541</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.532</xStart>
@@ -1787,14 +1787,14 @@
                 <point>1.43263 1.11362 3.32065</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1816,7 +1816,7 @@
   <turrets0>
     <Turret_1_GB98_T95_FV4201_Chieftain>
       <userString>#gb_vehicles:Turret_1_GB98_T95_FV4201_Chieftain</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1953,7 +1953,7 @@
             <density>120.467 129.956</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_L11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_L11>
       </guns>
       <models>
         <undamaged>vehicles/british/GB98_T95_FV4201_Chieftain/normal/lod0/Turret_01.model</undamaged>
@@ -2534,7 +2534,7 @@
   <radios>
     <C42_B47>shared</C42_B47>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>

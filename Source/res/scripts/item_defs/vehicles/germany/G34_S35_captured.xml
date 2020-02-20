@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>37</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@ loader</commander>
   <chassis>
     <S-35ketten>
       <userString>#germany_vehicles:S-35ketten</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1730</price>
       <notInShop>true</notInShop>
@@ -1006,7 +1006,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1028,7 +1028,7 @@ loader</commander>
   <turrets0>
     <Somuaturm>
       <userString>#germany_vehicles:Somuaturm</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1350</price>
       <notInShop>true</notInShop>
@@ -1117,7 +1117,7 @@ loader</commander>
             <density>125.227 134.358</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_47mm_SA35_L34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35_L34>
       </guns>
       <models>
         <undamaged>vehicles/german/G34_S35_captured/normal/lod0/Turret_01.model</undamaged>
@@ -1238,7 +1238,7 @@ loader</commander>
     <armour>0.89518319</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

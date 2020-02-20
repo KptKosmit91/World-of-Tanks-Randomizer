@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -694,7 +694,7 @@
   <chassis>
     <Chassis_R144_K_91>
       <userString>#ussr_vehicles:Chassis_R144_K_91</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1717,7 +1717,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1739,7 +1739,7 @@
   <turrets0>
     <Turret_1_R144_K_91>
       <userString>#ussr_vehicles:Turret_1_R144_K_91</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1908,7 +1908,7 @@
             <density>104.005 104.288</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D_46T>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D_46T>
       </guns>
       <models>
         <undamaged>vehicles/russian/R144_K_91/normal/lod0/Turret_01.model</undamaged>
@@ -2496,7 +2496,7 @@
   <radios>
     <R113M>shared</R113M>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2545,7 +2545,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

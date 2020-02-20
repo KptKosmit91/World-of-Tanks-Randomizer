@@ -1,12 +1,12 @@
 <R73_KV4.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -318,7 +318,7 @@
   <chassis>
     <Chassis_KV4>
       <userString>#ussr_vehicles:Chassis_KV4</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17780</price>
       <unlocks>
@@ -596,7 +596,7 @@
             <length>0.153795</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.98672</xStart>
@@ -808,7 +808,7 @@
             <length>0.152844</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.00574</xStart>
@@ -1001,7 +1001,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1021,7 +1021,7 @@
     </Chassis_KV4>
     <Chassis_KV4_2>
       <userString>#ussr_vehicles:Chassis_KV4_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33600</price>
       <armor>
@@ -1295,7 +1295,7 @@
             <length>0.153795</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.98672</xStart>
@@ -1507,7 +1507,7 @@
             <length>0.152844</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.00574</xStart>
@@ -1700,7 +1700,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1722,7 +1722,7 @@
   <turrets0>
     <Turret_1_KV4>
       <userString>#ussr_vehicles:Turret_1_KV4</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>23450</price>
       <armor>
@@ -1829,7 +1829,7 @@
             <density>92.9246 93.7509</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-6>
         <_122-mm_D-25T_with_a_piston_shutter>shared  <maxAmmo>50</maxAmmo>
           <pitchLimits>
             <minPitch>0 -12 1 -12</minPitch>
@@ -1908,7 +1908,7 @@
             <density>92.1727 97.0923</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_a_piston_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_a_piston_shutter>
         <_122-mm_D-25T_with_wedges_shutter>shared  <maxAmmo>50</maxAmmo>
           <pitchLimits>
             <minPitch>0 -12 1 -12</minPitch>
@@ -1991,7 +1991,7 @@
             <density>91.9872 97.5424</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_wedges_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter>
         <_107mm_ZiS-24>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>180  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2071,7 +2071,7 @@
             <density>84.6037 90.4881</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-24>
       </guns>
       <models>
         <undamaged>vehicles/russian/R73_KV4/normal/lod0/Turret_01.model</undamaged>
@@ -2272,7 +2272,7 @@
     </Turret_1_KV4>
     <Turret_2_KV4>
       <userString>#ussr_vehicles:Turret_2_KV4</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <armor>
@@ -2382,7 +2382,7 @@
             <density>92.9246 93.7509</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-6>
         <_122-mm_D-25T_with_a_piston_shutter>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>180  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2462,7 +2462,7 @@
             <density>92.1727 97.0923</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_a_piston_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_a_piston_shutter>
         <_122-mm_D-25T_with_wedges_shutter>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>180  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2542,7 +2542,7 @@
             <density>91.9872 97.5424</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D-25T_with_wedges_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter>
         <_107mm_ZiS-24>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>180  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2622,7 +2622,7 @@
             <density>84.6037 90.4881</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-24>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-24>
       </guns>
       <models>
         <undamaged>vehicles/russian/R73_KV4/normal/lod0/Turret_02.model</undamaged>
@@ -2939,7 +2939,7 @@
     <armour>1.020863187</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

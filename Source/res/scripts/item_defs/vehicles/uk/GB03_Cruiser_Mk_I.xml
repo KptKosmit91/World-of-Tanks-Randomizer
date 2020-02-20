@@ -1,12 +1,12 @@
 <GB03_Cruiser_Mk_I.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@
   <chassis>
     <Chassis_GB03_Cruiser_Mk_I>
       <userString>#gb_vehicles:Chassis_GB03_Cruiser_Mk_I</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>330</price>
       <unlocks>
@@ -404,7 +404,7 @@
             <length>0.137062</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.63267</xStart>
@@ -602,7 +602,7 @@
             <length>0.137025</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.6335</xStart>
@@ -780,7 +780,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -800,7 +800,7 @@
     </Chassis_GB03_Cruiser_Mk_I>
     <Chassis_GB03_Cruiser_Mk_I_2>
       <userString>#gb_vehicles:Chassis_GB03_Cruiser_Mk_I_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>600</price>
       <unlocks>
@@ -1096,7 +1096,7 @@
             <length>0.137062</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.63267</xStart>
@@ -1294,7 +1294,7 @@
             <length>0.137025</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.6335</xStart>
@@ -1472,7 +1472,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1494,7 +1494,7 @@
   <turrets0>
     <Turret_1_GB03_Cruiser_Mk_I>
       <userString>#gb_vehicles:Turret_1_GB03_Cruiser_Mk_I</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>120</price>
       <armor>
@@ -1594,7 +1594,7 @@
             <density>183.425 179.264</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_IX>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_IX>
         <_40mm_Pom_Pom>shared  <maxAmmo>160</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1672,7 +1672,7 @@
             <density>186.279 180.606</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_40mm_Pom_Pom>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_Pom_Pom>
       </guns>
       <models>
         <undamaged>vehicles/british/GB03_Cruiser_Mk_I/normal/lod0/Turret_01.model</undamaged>
@@ -1756,7 +1756,7 @@
     </Turret_1_GB03_Cruiser_Mk_I>
     <Turret_2_GB03_Cruiser_Mk_I>
       <userString>#gb_vehicles:Turret_2_GB03_Cruiser_Mk_I</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <armor>
@@ -1852,7 +1852,7 @@
             <density>183.425 179.264</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_2pdr_Gun_Mk_IX>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_2pdr_Gun_Mk_IX>
         <_40mm_Pom_Pom>shared  <maxAmmo>160</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -1926,7 +1926,7 @@
             <density>186.279 180.606</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_40mm_Pom_Pom>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_Pom_Pom>
       </guns>
       <models>
         <undamaged>vehicles/british/GB03_Cruiser_Mk_I/normal/lod0/Turret_02.model</undamaged>
@@ -2116,7 +2116,7 @@
     <armour>0.776028923</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

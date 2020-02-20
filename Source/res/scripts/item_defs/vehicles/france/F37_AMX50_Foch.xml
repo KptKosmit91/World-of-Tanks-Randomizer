@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -173,7 +173,7 @@
   <chassis>
     <Chassis_AMX50_Foch>
       <userString>#france_vehicles:Chassis_AMX50_Foch</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>27650</price>
       <unlocks>
@@ -581,7 +581,7 @@
             <length>0.156991</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3763</xStart>
@@ -745,7 +745,7 @@
                 <point>-1.58977 1.19295 3.3743</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -772,7 +772,7 @@
             <length>0.157004</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.37604</xStart>
@@ -936,14 +936,14 @@
                 <point>1.58979 1.22763 3.37511</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -963,7 +963,7 @@
     </Chassis_AMX50_Foch>
     <Chassis_AMX50_Foch_2>
       <userString>#france_vehicles:Chassis_AMX50_Foch_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>64000</price>
       <armor>
@@ -1367,7 +1367,7 @@
             <length>0.156991</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.3763</xStart>
@@ -1531,7 +1531,7 @@
                 <point>-1.58977 1.19295 3.3743</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1558,7 +1558,7 @@
             <length>0.157004</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.37604</xStart>
@@ -1722,14 +1722,14 @@
                 <point>1.58979 1.22763 3.37511</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1865,7 +1865,7 @@
             <density>99.6945 101.93</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_120mm_SA_46_AC>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_SA_46_AC>
       </guns>
       <models>
         <undamaged>vehicles/french/F37_AMX50_Foch/normal/lod0/Turret_01.model</undamaged>
@@ -1882,8 +1882,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_05</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_AMX50_Foch>
@@ -1995,7 +1995,7 @@
     <armour>1.219188306</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

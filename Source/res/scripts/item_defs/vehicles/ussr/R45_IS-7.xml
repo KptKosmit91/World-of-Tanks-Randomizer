@@ -1,10 +1,10 @@
 <R45_IS-7.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <loader />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -850,7 +850,7 @@
   <chassis>
     <IS-7>
       <userString>#ussr_vehicles:IS-7</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <notInShop>true</notInShop>
       <price>82500</price>
@@ -1330,7 +1330,7 @@
             </NYst>
           </modelSets>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.47366</xStart>
@@ -1537,7 +1537,7 @@
             </NYst>
           </modelSets>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.52807</xStart>
@@ -1719,7 +1719,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1741,7 +1741,7 @@
   <turrets0>
     <IS-7>
       <userString>#ussr_vehicles:IS-7</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <notInShop>true</notInShop>
       <price>66000</price>
@@ -1911,7 +1911,7 @@
             <density>107.854 102.965</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_130mm_S-70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_S-70>
       </guns>
       <models>
         <undamaged>vehicles/russian/R45_IS-7/normal/lod0/Turret_01.model</undamaged>
@@ -2646,7 +2646,7 @@
     <armour>1.332818258</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

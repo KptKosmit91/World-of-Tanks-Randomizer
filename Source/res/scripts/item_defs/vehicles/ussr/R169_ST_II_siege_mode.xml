@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -787,7 +787,7 @@
   <chassis>
     <Chassis_R169_ST_II>
       <userString>#ussr_vehicles:Chassis_R169_ST_II</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1252,7 +1252,7 @@
             <length>0.16766</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.40319</xStart>
@@ -1434,7 +1434,7 @@
                 <point>-1.47403 1.05262 3.13556</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1461,7 +1461,7 @@
             <length>0.16761</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.4041</xStart>
@@ -1643,14 +1643,14 @@
                 <point>1.23409 1.05472 3.13267</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1672,7 +1672,7 @@
   <turrets0>
     <Turret_1_R169_ST_II>
       <userString>#ussr_vehicles:Turret_1_R169_ST_II</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1832,7 +1832,7 @@
             <aoTextureSize>512 256</aoTextureSize>
             <tiling>0.7 0.35 0.000000 0.000000</tiling>
           </camouflage>
-        </_122mm_M62-T2_dualgun>
+        <RAND_IsDoubleGun>true</RAND_IsDoubleGun></_122mm_M62-T2_dualgun>
       </guns>
       <models>
         <undamaged>vehicles/russian/R169_ST_II/normal/lod0/Turret_01.model</undamaged>
@@ -2714,7 +2714,7 @@
     <charger>NoneExtra : DualGunCharger</charger>
   </extras>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <G67_VK4502A.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -405,7 +405,7 @@
     <Chassis_VK4502A>
       <userString>#germany_vehicles:Chassis_VK4502A</userString>
       <shortUserString>#germany_vehicles:Chassis_VK4502A_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>16550</price>
       <unlocks>
@@ -1266,7 +1266,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1287,7 +1287,7 @@
     <Chassis_VK4502A_2>
       <userString>#germany_vehicles:Chassis_VK4502A_2</userString>
       <shortUserString>#germany_vehicles:Chassis_VK4502A_2_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33400</price>
       <armor>
@@ -2144,7 +2144,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2167,7 +2167,7 @@
     <Turret_1_VK4502A>
       <userString>#germany_vehicles:Turret_1_VK4502A</userString>
       <shortUserString>#germany_vehicles:Turret_1_VK4502A_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18500</price>
       <unlocks>
@@ -2301,7 +2301,7 @@
             <density>96.985 94.6085</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56>
         <_88mm_KwK_43_L71>shared  <maxAmmo>72</maxAmmo>
           <unlocks>
             <gun>_105mm_KwK45_L52  <cost>16800</cost>
@@ -2401,7 +2401,7 @@
             <density>94.6801 93.9253</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71>
         <_105mm_KwK45_L52>shared  <maxAmmo>42</maxAmmo>
           <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
@@ -2498,7 +2498,7 @@
             <density>95.3552 95.1679</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_KwK45_L52>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK45_L52>
       </guns>
       <models>
         <undamaged>vehicles/german/G67_VK4502A/normal/lod0/Turret_01.model</undamaged>
@@ -2739,7 +2739,7 @@
     <Turret_2_VK4502A>
       <userString>#germany_vehicles:Turret_2_VK4502A</userString>
       <shortUserString>#germany_vehicles:Turret_2_VK4502A_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33550</price>
       <unlocks>
@@ -2872,7 +2872,7 @@
             <density>96.985 94.6085</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56>
         <_88mm_KwK_43_L71>shared  <maxAmmo>72</maxAmmo>
           <reloadTime>7.7</reloadTime>
           <shotDispersionFactors>
@@ -2966,7 +2966,7 @@
             <density>94.6801 93.9253</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71>
         <_105mm_KwK45_L52>shared  <maxAmmo>42</maxAmmo>
           <reloadTime>10.1</reloadTime>
           <pitchLimits>
@@ -3061,7 +3061,7 @@
             <density>95.3552 95.1679</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_KwK45_L52>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_KwK45_L52>
       </guns>
       <models>
         <undamaged>vehicles/german/G67_VK4502A/normal/lod0/Turret_02.model</undamaged>
@@ -3421,7 +3421,7 @@
     <armour>0.976783566</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

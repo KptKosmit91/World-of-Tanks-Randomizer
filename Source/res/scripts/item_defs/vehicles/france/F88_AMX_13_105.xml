@@ -3,7 +3,7 @@
   <crew>
     <commander>radioman
 loader</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@ loader</commander>
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1229,7 +1229,7 @@ loader</commander>
   <chassis>
     <Chassis_F88_AMX_13_105>
       <userString>#france_vehicles:Turret_1_F88_AMX_13_105</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1991,7 +1991,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2013,7 +2013,7 @@ loader</commander>
   <turrets0>
     <Turret_1_F88_AMX_13_105>
       <userString>#france_vehicles:Turret_1_F88_AMX_13_105</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -2307,7 +2307,7 @@ loader</commander>
             <density>116.217 125.992</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_105mm_D1504>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_D1504>
       </guns>
       <models>
         <undamaged>vehicles/french/F88_AMX_13_105/normal/lod0/Turret_01.model</undamaged>
@@ -2389,7 +2389,7 @@ loader</commander>
   <radios>
     <SCR_528_Fr>shared</SCR_528_Fr>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <crewXpFactor>1.0</crewXpFactor>
   <physics>
     <detailed>
@@ -2439,7 +2439,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

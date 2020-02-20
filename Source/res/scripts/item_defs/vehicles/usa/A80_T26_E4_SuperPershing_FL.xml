@@ -1,11 +1,11 @@
 <A80_T26_E4_SuperPershing_FL.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40.2</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -673,7 +673,7 @@
   <chassis>
     <Chassis_T26_E4_SuperPershing_FL>
       <userString>#usa_vehicles:Chassis_T26_E4_SuperPershing</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>16300</price>
       <notInShop>true</notInShop>
@@ -970,7 +970,7 @@
             <length>0.130301</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91548</xStart>
@@ -1128,7 +1128,7 @@
                 <point>-1.43104 1.36151 2.49225</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1155,7 +1155,7 @@
             <length>0.130289</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91577</xStart>
@@ -1313,14 +1313,14 @@
                 <point>1.43103 1.35719 2.49146</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1342,7 +1342,7 @@
   <turrets0>
     <Turret_1_T26_E4_SuperPershing_FL>
       <userString>#usa_vehicles:Turret_1_T26_E4_SuperPershing</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>21800</price>
       <notInShop>true</notInShop>
@@ -1625,7 +1625,7 @@
             <density>114.387 119.809</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T15E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T15E1>
       </guns>
       <models>
         <undamaged>vehicles/american/A80_T26_E4_SuperPershing/normal/lod0/Turret_01.model</undamaged>
@@ -2066,7 +2066,7 @@
     <armour>1.169819278</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

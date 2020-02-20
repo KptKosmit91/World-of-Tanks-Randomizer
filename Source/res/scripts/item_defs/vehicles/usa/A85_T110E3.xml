@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>24</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -1037,7 +1037,7 @@
   <chassis>
     <Chassis_T110E3>
       <userString>#usa_vehicles:Chassis_T110E3</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -2039,7 +2039,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2169,7 +2169,7 @@
             <density>87.2327 88.8946</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_155mm_AT_Gun_T7E2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_155mm_AT_Gun_T7E2>
       </guns>
       <models>
         <undamaged>vehicles/american/A85_T110E3/normal/lod0/Turret_01.model</undamaged>
@@ -2186,8 +2186,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_06</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_T110E3>
@@ -2251,7 +2251,7 @@
     <armour>1.1133635</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

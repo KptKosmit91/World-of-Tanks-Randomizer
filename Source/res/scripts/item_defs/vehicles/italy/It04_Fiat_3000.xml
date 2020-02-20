@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>21</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -116,7 +116,7 @@ loader</commander>
   <chassis>
     <Chassis_It04_Fiat_3000>
       <userString>#italy_vehicles:Chassis_It04_Fiat_3000</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -792,7 +792,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -814,7 +814,7 @@ loader</commander>
   <turrets0>
     <Turret_1_It04_Fiat_3000>
       <userString>#italy_vehicles:Turret_1_It04_Fiat_3000</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -897,7 +897,7 @@ loader</commander>
             <density>173.56 174.114</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_37_20>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_37_20>
         <Cannone_da_37_40>shared  <maxAmmo>68</maxAmmo>
           <unlocks>
             <vehicle>It06_M14_41  <cost>270</cost>
@@ -951,7 +951,7 @@ loader</commander>
             <density>173.219 173.324</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </Cannone_da_37_40>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Cannone_da_37_40>
       </guns>
       <models>
         <undamaged>vehicles/italy/It04_Fiat_3000/normal/lod0/Turret_01.model</undamaged>
@@ -1023,7 +1023,7 @@ loader</commander>
   <radios>
     <R_F_C_R>shared</R_F_C_R>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1072,7 +1072,7 @@ loader</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

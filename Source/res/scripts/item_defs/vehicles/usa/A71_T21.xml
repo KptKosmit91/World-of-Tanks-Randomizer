@@ -1,11 +1,11 @@
 <A71_T21.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>57</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@
   <chassis>
     <Chassis_T21>
       <userString>#usa_vehicles:Chassis_T21</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8300</price>
       <unlocks>
@@ -1065,7 +1065,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1085,7 +1085,7 @@
     </Chassis_T21>
     <Chassis_T21_2>
       <userString>#usa_vehicles:Chassis_T21_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16000</price>
       <armor>
@@ -2038,7 +2038,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2060,7 +2060,7 @@
   <turrets0>
     <Turret_2_T21>
       <userString>#usa_vehicles:Turret_2_T21</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17050</price>
       <armor>
@@ -2176,7 +2176,7 @@
             <density>109.172 135.308</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1L>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1L>
         <_76mm_Gun_M1A2L>shared  <maxAmmo>70</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2264,7 +2264,7 @@
             <density>113.698 130.136</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2L>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2L>
       </guns>
       <models>
         <undamaged>vehicles/american/A71_T21/normal/lod0/Turret_01.model</undamaged>
@@ -2454,7 +2454,7 @@
     <armour>0.821367162</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

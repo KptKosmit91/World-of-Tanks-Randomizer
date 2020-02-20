@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
+    <radioman />
+    <driver />
+    <gunner />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -127,7 +127,7 @@
   <chassis>
     <Chassis_Pl07_14TP>
       <userString>#poland_vehicles:Chassis_Pl07_14TP</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1900</price>
       <unlocks>
@@ -494,7 +494,7 @@
             <length>0.177284</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.66775</xStart>
@@ -627,7 +627,7 @@
                 <point>-1.098 1.16602 2.69697</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -658,7 +658,7 @@
             <length>0.177288</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.6677</xStart>
@@ -791,14 +791,14 @@
                 <point>1.098 1.16124 2.69828</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -818,7 +818,7 @@
     </Chassis_Pl07_14TP>
     <Chassis_Pl07_14TP_2>
       <userString>#poland_vehicles:Chassis_Pl07_14TP_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4700</price>
       <armor>
@@ -1181,7 +1181,7 @@
             <length>0.177284</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.66775</xStart>
@@ -1314,7 +1314,7 @@
                 <point>-1.098 1.16602 2.69697</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1345,7 +1345,7 @@
             <length>0.177288</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.6677</xStart>
@@ -1478,14 +1478,14 @@
                 <point>1.098 1.16124 2.69828</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1507,7 +1507,7 @@
   <turrets0>
     <Turret_1_Pl07_14TP>
       <userString>#poland_vehicles:Turret_1_Pl07_14TP</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2100</price>
       <unlocks>
@@ -1619,7 +1619,7 @@
             <density>126.363 129.09</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_Bofors_wz_37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Bofors_wz_37>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl07_14TP/normal/lod0/Turret_01.model</undamaged>
@@ -1683,7 +1683,7 @@
     </Turret_1_Pl07_14TP>
     <Turret_2_Pl07_14TP>
       <userString>#poland_vehicles:Turret_2_Pl07_14TP</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4850</price>
       <unlocks>
@@ -1800,7 +1800,7 @@
             <density>126.363 129.09</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_Bofors_wz_37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Bofors_wz_37>
         <_40mm_auto_Boforsa>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>_47mm_armata_wz_39  <cost>1400</cost>
@@ -1892,7 +1892,7 @@
             <density>136.301 135.279</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_40mm_auto_Boforsa>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_40mm_auto_Boforsa>
         <_47mm_armata_wz_39>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <vehicle>Pl12_25TP_KSUST_II  <cost>11930</cost>
@@ -1976,7 +1976,7 @@
             <density>131.027 130.915</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_armata_wz_39>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_armata_wz_39>
       </guns>
       <models>
         <undamaged>vehicles/poland/Pl07_14TP/normal/lod0/Turret_02.model</undamaged>
@@ -2058,7 +2058,7 @@
     </N2_M>
     <N2_S>shared</N2_S>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2146,7 +2146,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

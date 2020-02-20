@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>42</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -70,7 +70,7 @@
     <hangarShadowTexture>vehicles/german/G08_Pz38t/Pz38t_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -105,7 +105,7 @@
   <chassis>
     <Pz38t_Standardketten_bootcamp>
       <userString>#germany_vehicles:Pz38t_Standardketten</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>620</price>
       <notInShop>true</notInShop>
@@ -820,8 +820,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Pz38t_Standardketten_bootcamp>
@@ -829,7 +829,7 @@
   <turrets0>
     <LT-40_turm_bootcamp>
       <userString>#germany_vehicles:LT-40_turm</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1620</price>
       <notInShop>true</notInShop>
@@ -899,7 +899,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -908,7 +908,7 @@
             <density>195.799 195.921</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_KwK_38t_L47_bootcamp>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_KwK_38t_L47_bootcamp>
       </guns>
       <models>
         <undamaged>vehicles/german/G08_Pz38t/normal/lod0/Turret_01.model</undamaged>
@@ -925,7 +925,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -954,7 +954,7 @@
       </customizationSlots>
       <camouflage>
         <tiling>0.76 0.43 0.000000 0.000000</tiling>
-        <exclusionMask></exclusionMask>
+        <exclusionMask />
         <density>114.722 114.731</density>
         <aoTextureSize>512 256</aoTextureSize>
       </camouflage>
@@ -1019,7 +1019,7 @@
     <armour>0.726633053</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

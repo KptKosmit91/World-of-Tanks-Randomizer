@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>43</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -404,7 +404,7 @@
   <chassis>
     <ISU-152>
       <userString>#ussr_vehicles:ISU-152</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22040</price>
       <unlocks>
@@ -697,7 +697,7 @@
             <length>0.154234</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.36615</xStart>
@@ -892,7 +892,7 @@
             <length>0.153793</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.36623</xStart>
@@ -1063,7 +1063,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1083,7 +1083,7 @@
     </ISU-152>
     <ISU-152_mod_1945>
       <userString>#ussr_vehicles:ISU-152_mod_1945</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>34100</price>
       <armor>
@@ -1347,7 +1347,7 @@
             <length>0.154234</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.36615</xStart>
@@ -1542,7 +1542,7 @@
             <length>0.153793</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.36623</xStart>
@@ -1738,7 +1738,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1859,7 +1859,7 @@
             <density>102.334 102.46</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_ML-20C>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_ML-20C>
         <_122mm_BL-9S>shared  <maxAmmo>32</maxAmmo>
           <armor>
             <armor_1>100  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1940,7 +1940,7 @@
             <density>98.9081 98.3833</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL-9S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-9S>
         <_152mm_D_4S>shared  <maxAmmo>20</maxAmmo>
           <reloadTime>17.6</reloadTime>
           <armor>
@@ -2016,7 +2016,7 @@
             <density>99.1365 106.011</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_D_4S>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_D_4S>
       </guns>
       <models>
         <undamaged>vehicles/russian/R47_ISU-152/normal/lod0/Turret_01.model</undamaged>
@@ -2033,8 +2033,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_06</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </ISU-152_01>

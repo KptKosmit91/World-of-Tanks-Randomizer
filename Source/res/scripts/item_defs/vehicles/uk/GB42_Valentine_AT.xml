@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 radioman</commander>
-    <driver></driver>
-    <loader></loader>
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>24</forward>
@@ -22,7 +22,7 @@ radioman</commander>
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -140,7 +140,7 @@ radioman</commander>
   <chassis>
     <Chassis_GB42_Valentine_AT>
       <userString>#gb_vehicles:Chassis_GB42_Valentine_AT</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1420</price>
       <unlocks>
@@ -1132,7 +1132,7 @@ radioman</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1152,7 +1152,7 @@ radioman</commander>
     </Chassis_GB42_Valentine_AT>
     <Chassis_GB42_Valentine_AT_2>
       <userString>#gb_vehicles:Chassis_GB42_Valentine_AT_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2100</price>
       <armor>
@@ -2140,7 +2140,7 @@ radioman</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2262,7 +2262,7 @@ radioman</commander>
             <density>109.753 114.706</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_II_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_II_AT>
         <_3.7inch_AT_Howitzer>shared  <maxAmmo>42</maxAmmo>
           <armor>
             <armor_1>65  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2327,7 +2327,7 @@ radioman</commander>
             <density>125.511 121.385</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_3.7inch_AT_Howitzer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_3.7inch_AT_Howitzer>
         <QF_6_pounder_Mk_IV_AT>shared  <maxAmmo>102</maxAmmo>
           <unlocks>
             <vehicle>GB57_Alecto  <cost>3700</cost>
@@ -2397,7 +2397,7 @@ radioman</commander>
             <density>110.431 104.788</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </QF_6_pounder_Mk_IV_AT>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></QF_6_pounder_Mk_IV_AT>
       </guns>
       <models>
         <undamaged>vehicles/british/GB42_Valentine_AT/normal/lod0/Turret_01.model</undamaged>
@@ -2594,7 +2594,7 @@ radioman</commander>
     <armour>0.636157347</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

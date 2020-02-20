@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1323,7 +1323,7 @@
   <chassis>
     <Chassis_R149_Object_268_4>
       <userString>#ussr_vehicles:Chassis_R149_Object_268_4</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1595,7 +1595,7 @@
             <length>0.161263</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.26727</xStart>
@@ -1763,7 +1763,7 @@
                 <point>-1.31942 1.25183 3.58685</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1790,7 +1790,7 @@
             <length>0.161263</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.26728</xStart>
@@ -1958,14 +1958,14 @@
                 <point>-1.31942 1.25183 3.58685</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2101,7 +2101,7 @@
             <density>131.455 125.838</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_M_53_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_M_53_A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R149_Object_268_4/normal/lod0/Turret_01.model</undamaged>
@@ -2118,8 +2118,8 @@
       <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_R149_Object_268_4>
@@ -2133,7 +2133,7 @@
   <radios>
     <_10RK-26>shared</_10RK-26>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>

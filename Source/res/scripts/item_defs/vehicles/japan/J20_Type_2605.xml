@@ -1,12 +1,12 @@
 <J20_Type_2605.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>25</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -1025,7 +1025,7 @@
   <chassis>
     <Chassis_J20_Type_2605>
       <userString>#japan_vehicles:Chassis_J20_Type_2605</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1346,7 +1346,7 @@
             <length>0.158785</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-5.01818</xStart>
@@ -1548,7 +1548,7 @@
                 <point>-1.60213 1.68918 4.74712</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1575,7 +1575,7 @@
             <length>0.158804</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-5.01781</xStart>
@@ -1777,14 +1777,14 @@
                 <point>1.60211 1.69836 4.74871</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1806,7 +1806,7 @@
   <turrets0>
     <Turret_1_J20_Type_2605>
       <userString>#japan_vehicles:Turret_1_J20_Type_2605</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1934,7 +1934,7 @@
             <density>111.906 113.235</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_150mm_45_41st_Year_Type>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_45_41st_Year_Type>
         <_140mm_50_3rd_Year_Type>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <gun>60</gun>
@@ -2020,7 +2020,7 @@
             <density>102.417 104.351</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_140mm_50_3rd_Year_Type>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_140mm_50_3rd_Year_Type>
       </guns>
       <models>
         <undamaged>vehicles/japan/J20_Type_2605/normal/lod0/Turret_01.model</undamaged>
@@ -2552,7 +2552,7 @@
     <armour>0.9965</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

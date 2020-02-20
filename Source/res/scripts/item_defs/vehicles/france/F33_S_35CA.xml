@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>37</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>0.5 0.5 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -155,7 +155,7 @@
   <chassis>
     <Chassis_S_35CA>
       <userString>#france_vehicles:Chassis_S_35CA</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4660</price>
       <unlocks>
@@ -975,7 +975,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -995,7 +995,7 @@
     </Chassis_S_35CA>
     <Chassis_S_35CA_2>
       <userString>#france_vehicles:Chassis_S_35CA_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>7660</price>
       <unlocks>
@@ -1815,7 +1815,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1955,7 +1955,7 @@
             <density>131.308 131.969</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_17_pdr_Gan_MK.II>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_17_pdr_Gan_MK.II>
         <Canon_de_105_mle_1930_Schneider_AC>shared  <maxAmmo>42</maxAmmo>
           <armor>
             <armor_1>56  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2037,7 +2037,7 @@
             <density>108.016 109.024</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </Canon_de_105_mle_1930_Schneider_AC>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_mle_1930_Schneider_AC>
         <_90mm_canon_DCA_30_CA>shared  <maxAmmo>65</maxAmmo>
           <armor>
             <armor_1>56  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2120,7 +2120,7 @@
             <density>105.802 110.31</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_90mm_canon_DCA_30_CA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_canon_DCA_30_CA>
       </guns>
       <models>
         <undamaged>vehicles/french/F33_S_35CA/normal/lod0/Turret_01.model</undamaged>
@@ -2138,7 +2138,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2273,7 +2273,7 @@
     <armour>1.113536032</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

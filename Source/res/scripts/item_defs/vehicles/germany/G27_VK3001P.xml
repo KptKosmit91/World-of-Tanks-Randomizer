@@ -1,11 +1,11 @@
 <G27_VK3001P.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -123,7 +123,7 @@
   <chassis>
     <VK3001P>
       <userString>#germany_vehicles:VK3001P</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9380</price>
       <unlocks>
@@ -811,7 +811,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -832,7 +832,7 @@
     <VK3001P_ausf_B>
       <userString>#germany_vehicles:VK3001P_ausf_B</userString>
       <shortUserString>#germany_vehicles:VK3001P_ausf_B_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <armor>
@@ -1516,7 +1516,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1539,7 +1539,7 @@
     <VK3001P_Krupp_turm>
       <userString>#germany_vehicles:VK3001P_Krupp_turm</userString>
       <shortUserString>#germany_vehicles:VK3001P_Krupp_turm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16920</price>
       <unlocks>
@@ -1656,7 +1656,7 @@
             <density>107.375 108.958</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48>
         <_88mm_KwK_36_L56>shared  <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 10 0.366894 10 0.430556 4 0.569444 4 0.633106 10 1 10</maxPitch>
@@ -1738,7 +1738,7 @@
             <density>90.166 82.5557</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56>
       </guns>
       <models>
         <undamaged>vehicles/german/G27_VK3001P/normal/lod0/Turret_01.model</undamaged>
@@ -1823,7 +1823,7 @@
     <VK3001P_Porsche_turm>
       <userString>#germany_vehicles:VK3001P_Porsche_turm</userString>
       <shortUserString>#germany_vehicles:VK3001P_Porsche_turm_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>21200</price>
       <unlocks>
@@ -1949,7 +1949,7 @@
             <density>107.375 108.958</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_40_L48>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_40_L48>
         <_75mm_KwK_L70>shared  <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
             <maxPitch>0 8 0.353005 8 0.416667 7 0.583333 7 0.646995 8 1 8</maxPitch>
@@ -2036,7 +2036,7 @@
             <density>83.8558 82.6879</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK_L70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK_L70>
         <_105mm_StuH42_L28Pz>shared  <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
             <maxPitch>0 8 0.353005 8 0.416667 5 0.583333 5 0.646995 8 1 8</maxPitch>
@@ -2118,7 +2118,7 @@
             <density>76.8789 77.233</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_StuH42_L28Pz>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_StuH42_L28Pz>
         <_88mm_KwK_36_L56>shared  <pitchLimits>
             <minPitch>0 -15 1 -15</minPitch>
             <maxPitch>0 8 0.353005 8 0.416667 4 0.583333 4 0.646995 8 1 8</maxPitch>
@@ -2206,7 +2206,7 @@
             <density>90.166 82.5557</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_36_L56>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_36_L56>
       </guns>
       <models>
         <undamaged>vehicles/german/G27_VK3001P/normal/lod0/Turret_02.model</undamaged>
@@ -2417,7 +2417,7 @@
     <armour>0.94968942</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

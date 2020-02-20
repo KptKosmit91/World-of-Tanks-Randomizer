@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -985,7 +985,7 @@
   <chassis>
     <Chassis_S11_Strv_103B>
       <userString>#sweden_vehicles:Chassis_S11_Strv_103B</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1209,7 +1209,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1327,7 +1327,7 @@
             <density>121.701 130.747</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_kan_strv_103_L_62>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_kan_strv_103_L_62>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S11_Strv_103B/normal/lod0/Turret_01.model</undamaged>
@@ -1344,8 +1344,8 @@
       <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_S11_Strv_103B>
@@ -1430,7 +1430,7 @@
   </hull_aiming>
   <useHullZSize>True</useHullZSize>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

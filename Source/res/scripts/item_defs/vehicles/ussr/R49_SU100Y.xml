@@ -2,11 +2,11 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -157,7 +157,7 @@
   <chassis>
     <Chassis_SU100Y>
       <userString>#ussr_vehicles:Chassis_SU100Y</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>34100</price>
       <notInShop>true</notInShop>
@@ -446,7 +446,7 @@
             <length>0.168</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.17844</xStart>
@@ -622,7 +622,7 @@
                 <point>-1.55784 1.51131 4.13757</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -649,7 +649,7 @@
             <length>0.168</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.17843</xStart>
@@ -825,14 +825,14 @@
                 <point>1.46786 1.32961 4.13759</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -966,7 +966,7 @@
             <density>117.716 133.553</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_130mm_B-13-S2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_B-13-S2>
       </guns>
       <models>
         <undamaged>vehicles/russian/R49_SU100Y/normal/lod0/Turret_01.model</undamaged>
@@ -1067,7 +1067,7 @@
     <armour>0.915403844</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

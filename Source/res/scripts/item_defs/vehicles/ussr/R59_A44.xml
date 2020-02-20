@@ -1,11 +1,11 @@
 <R59_A44.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>59</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -114,7 +114,7 @@
   <chassis>
     <Chassis_A44>
       <userString>#ussr_vehicles:Chassis_A44</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12700</price>
       <unlocks>
@@ -396,7 +396,7 @@
             <length>0.147182</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.13434</xStart>
@@ -614,7 +614,7 @@
             <length>0.147198</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.13401</xStart>
@@ -812,7 +812,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -832,7 +832,7 @@
     </Chassis_A44>
     <Chassis_A44_2>
       <userString>#ussr_vehicles:Chassis_A44_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17700</price>
       <armor>
@@ -1110,7 +1110,7 @@
             <length>0.147182</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.13434</xStart>
@@ -1328,7 +1328,7 @@
             <length>0.147198</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.13401</xStart>
@@ -1526,7 +1526,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1548,7 +1548,7 @@
   <turrets0>
     <Turret_1_A44>
       <userString>#ussr_vehicles:Turret_1_A44</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12840</price>
       <unlocks>
@@ -1672,7 +1672,7 @@
             <density>126.699 126.554</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_F-34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F-34>
         <_57mm_ZiS-4>shared  <maxAmmo>160</maxAmmo>
           <armor>
             <armor_1>120  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1751,7 +1751,7 @@
             <density>127.133 130.029</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-4>
         <_76mm_S-54>shared  <maxAmmo>160</maxAmmo>
           <unlocks>
             <gun>_107mm_ZiS-6  <cost>14400</cost>
@@ -1834,7 +1834,7 @@
             <density>128.568 130.332</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_S-54>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_S-54>
         <_107mm_ZiS-6>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <vehicle>R60_Object416  <cost>104600</cost>
@@ -1912,7 +1912,7 @@
             <density>126.298 133.828</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-6>
       </guns>
       <models>
         <undamaged>vehicles/russian/R59_A44/normal/lod0/Turret_01.model</undamaged>
@@ -1995,7 +1995,7 @@
     </Turret_1_A44>
     <Turret_2_A44>
       <userString>#ussr_vehicles:Turret_2_A44</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17300</price>
       <armor>
@@ -2110,7 +2110,7 @@
             <density>126.699 126.554</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_F-34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F-34>
         <_57mm_ZiS-4>shared  <maxAmmo>160</maxAmmo>
           <armor>
             <armor_1>90  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2189,7 +2189,7 @@
             <density>127.133 130.029</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-4>
         <_76mm_S-54>shared  <maxAmmo>160</maxAmmo>
           <armor>
             <armor_1>90  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2268,7 +2268,7 @@
             <density>128.568 130.332</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_S-54>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_S-54>
         <_107mm_ZiS-6>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <armor_1>90  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2342,7 +2342,7 @@
             <density>126.298 133.828</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-6>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-6>
       </guns>
       <models>
         <undamaged>vehicles/russian/R59_A44/normal/lod0/Turret_02.model</undamaged>
@@ -2536,7 +2536,7 @@
     <armour>0.951972301</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

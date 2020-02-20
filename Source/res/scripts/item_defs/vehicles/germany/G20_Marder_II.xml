@@ -2,7 +2,7 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
+    <driver />
     <gunner>loader</gunner>
   </crew>
   <speedLimits>
@@ -21,7 +21,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -139,7 +139,7 @@
     <MarderII>
       <userString>#germany_vehicles:MarderII</userString>
       <shortUserString>#germany_vehicles:MarderII_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>590</price>
       <unlocks>
@@ -441,7 +441,7 @@
             <length>0.0875565</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.16778</xStart>
@@ -632,7 +632,7 @@
                 <point>-0.793735 0.938925 2.25371</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -659,7 +659,7 @@
             <length>0.0875643</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.16752</xStart>
@@ -834,14 +834,14 @@
                 <point>0.793773 0.938001 2.25439</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -862,7 +862,7 @@
     <MarderIIketten_ausf_B>
       <userString>#germany_vehicles:MarderIIketten_ausf_B</userString>
       <shortUserString>#germany_vehicles:MarderIIketten_ausf_B_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1750</price>
       <unlocks>
@@ -1284,7 +1284,7 @@
             <length>0.0875565</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.16778</xStart>
@@ -1475,7 +1475,7 @@
                 <point>-0.793735 0.938925 2.25371</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1502,7 +1502,7 @@
             <length>0.0875643</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.16752</xStart>
@@ -1677,14 +1677,14 @@
                 <point>0.793773 0.938001 2.25439</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1801,7 +1801,7 @@
             <density>79.8136 97.0588</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_PaK_36r>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_PaK_36r>
         <_75mm_PaK_40_2>shared  <maxAmmo>37</maxAmmo>
           <pitchLimits>
             <minPitch>0 -10 1 -10</minPitch>
@@ -1870,7 +1870,7 @@
             <density>99.7746 105.986</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_PaK_40_2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_PaK_40_2>
       </guns>
       <models>
         <undamaged>vehicles/german/G20_Marder_II/normal/lod0/Turret_01.model</undamaged>
@@ -2026,7 +2026,7 @@
     <armour>0.743159534</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

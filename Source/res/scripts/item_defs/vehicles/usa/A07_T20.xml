@@ -1,11 +1,11 @@
 <A07_T20.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -129,7 +129,7 @@
   <chassis>
     <HVSS_T48>
       <userString>#usa_vehicles:HVSS_T48</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>11900</price>
       <unlocks>
@@ -1036,7 +1036,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1056,7 +1056,7 @@
     </HVSS_T48>
     <HVSS_T51>
       <userString>#usa_vehicles:HVSS_T51</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17900</price>
       <armor>
@@ -1959,7 +1959,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1981,7 +1981,7 @@
   <turrets0>
     <T20D1>
       <userString>#usa_vehicles:T20D1</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12900</price>
       <armor>
@@ -2088,7 +2088,7 @@
             <density>99.4482 109.252</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <_76mm_Gun_M1A2>shared  <maxAmmo>70</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2168,7 +2168,7 @@
             <density>88.2801 109.883</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2>
       </guns>
       <models>
         <undamaged>vehicles/american/A07_T20/normal/lod0/Turret_01.model</undamaged>
@@ -2232,7 +2232,7 @@
     </T20D1>
     <T20D2>
       <userString>#usa_vehicles:T20D2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17400</price>
       <unlocks>
@@ -2342,7 +2342,7 @@
             <density>99.4482 109.252</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1>
         <_76mm_Gun_M1A2>shared  <maxAmmo>68</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2416,7 +2416,7 @@
             <density>88.2801 109.883</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2>
         <_105mm_SPH_M4_L23>shared  <maxAmmo>36</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2490,7 +2490,7 @@
             <density>101.958 103.09</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_105mm_SPH_M4_L23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_SPH_M4_L23>
         <_90mm_Gun_M3>shared  <maxAmmo>48</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2565,7 +2565,7 @@
             <density>98.7889 104.949</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3>
       </guns>
       <models>
         <undamaged>vehicles/american/A07_T20/normal/lod0/Turret_02.model</undamaged>
@@ -2744,7 +2744,7 @@
     <armour>1.003286086</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

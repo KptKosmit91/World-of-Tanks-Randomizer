@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 radioman</commander>
-    <loader></loader>
-    <driver></driver>
+    <loader />
+    <driver />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -22,7 +22,7 @@ radioman</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -146,7 +146,7 @@ radioman</commander>
   <chassis>
     <Chassis_GB25_Loyd_Carrier>
       <userString>#gb_vehicles:Chassis_GB25_Loyd_Carrier</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>270</price>
       <unlocks>
@@ -404,7 +404,7 @@ radioman</commander>
             <length>0.0426116</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.88555</xStart>
@@ -657,7 +657,7 @@ radioman</commander>
                 <point>-0.831499 0.702403 1.95006</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -684,7 +684,7 @@ radioman</commander>
             <length>0.0426287</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.8843</xStart>
@@ -937,14 +937,14 @@ radioman</commander>
                 <point>0.831483 0.700184 1.95289</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -964,7 +964,7 @@ radioman</commander>
     </Chassis_GB25_Loyd_Carrier>
     <Chassis_GB25_Loyd_Carrier_2>
       <userString>#gb_vehicles:Chassis_GB25_Loyd_Carrier_2</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>550</price>
       <armor>
@@ -1218,7 +1218,7 @@ radioman</commander>
             <length>0.0426116</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.88555</xStart>
@@ -1471,7 +1471,7 @@ radioman</commander>
                 <point>-0.831499 0.702403 1.95006</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1498,7 +1498,7 @@ radioman</commander>
             <length>0.0426287</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.8843</xStart>
@@ -1751,14 +1751,14 @@ radioman</commander>
                 <point>0.831483 0.700184 1.95289</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1871,7 +1871,7 @@ radioman</commander>
             <density>121.703 123.63</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_13pdr_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_13pdr_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB25_Loyd_Gun_Carriage/normal/lod0/Turret_01.model</undamaged>
@@ -1889,7 +1889,7 @@ radioman</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2024,7 +2024,7 @@ radioman</commander>
     <armour>0.42853594</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

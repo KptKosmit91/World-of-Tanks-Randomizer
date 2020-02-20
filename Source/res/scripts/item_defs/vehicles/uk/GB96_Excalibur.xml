@@ -1,9 +1,9 @@
 <GB96_Excalibur.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -127,7 +127,7 @@
   <chassis>
     <Chassis_GB96_Excalibur>
       <userString>#gb_vehicles:Chassis_GB96_Excalibur</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -400,7 +400,7 @@
             <length>0.153186</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98492</xStart>
@@ -563,7 +563,7 @@
                 <point>-1.3088 1.10272 2.98936</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -590,7 +590,7 @@
             <length>0.153319</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.98226</xStart>
@@ -753,14 +753,14 @@
                 <point>1.54911 1.0987 2.9972</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -782,7 +782,7 @@
   <turrets0>
     <Turret_1_GB96_Excalibur>
       <userString>#gb_vehicles:Turret_1_GB96_Excalibur</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12000</price>
       <notInShop>true</notInShop>
@@ -904,7 +904,7 @@
             <density>125.952 125.721</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Excalibur_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Excalibur_Gun>
       </guns>
       <models>
         <undamaged>vehicles/british/GB96_Excalibur/normal/lod0/Turret_01.model</undamaged>
@@ -976,7 +976,7 @@
   <radios>
     <C42_B47>shared</C42_B47>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1025,7 +1025,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

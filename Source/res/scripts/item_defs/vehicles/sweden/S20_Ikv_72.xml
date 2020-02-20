@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>57</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -152,7 +152,7 @@
   <chassis>
     <Chassis_S20_Ikv_72>
       <userString>#sweden_vehicles:Chassis_S20_Ikv_72</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>560</price>
       <unlocks>
@@ -910,7 +910,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -930,7 +930,7 @@
     </Chassis_S20_Ikv_72>
     <Chassis_S20_Ikv_72_2>
       <userString>#sweden_vehicles:Chassis_S20_Ikv_72_2</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2080</price>
       <armor>
@@ -1684,7 +1684,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1791,7 +1791,7 @@
             <density>110.531 109.29</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_kan_m_41_ikv>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_kan_m_41_ikv>
         <_75mm_kan_m_41_ikv_L_50>shared  <maxAmmo>42</maxAmmo>
           <unlocks>
             <vehicle>S19_Sav_M43  <cost>3170</cost>
@@ -1854,7 +1854,7 @@
             <density>108.543 109.079</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_kan_m_41_ikv_L_50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_kan_m_41_ikv_L_50>
       </guns>
       <ceilless>true</ceilless>
       <models>
@@ -1873,7 +1873,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2017,7 +2017,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

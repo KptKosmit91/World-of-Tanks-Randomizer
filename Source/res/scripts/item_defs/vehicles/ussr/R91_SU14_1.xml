@@ -2,11 +2,11 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>3.9 3.9 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -157,7 +157,7 @@
   <chassis>
     <Chassis_SU14_1>
       <userString>#ussr_vehicles:Chassis_SU14_1</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14000</price>
       <unlocks>
@@ -1055,7 +1055,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1075,7 +1075,7 @@
     </Chassis_SU14_1>
     <Chassis_SU14_1_2>
       <userString>#ussr_vehicles:Chassis_SU14_1_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18500</price>
       <armor>
@@ -1969,7 +1969,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2104,7 +2104,7 @@
             <density>174.844 171.483</density>
             <aoTextureSize>2048 1024</aoTextureSize>
           </camouflage>
-        </_152mm_howitzer_ML-20_mod_1931>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_howitzer_ML-20_mod_1931>
       </guns>
       <models>
         <undamaged>vehicles/russian/R91_SU14_1/normal/lod0/Turret_01.model</undamaged>
@@ -2261,7 +2261,7 @@
             <density>166.562 171.538</density>
             <aoTextureSize>2048 1024</aoTextureSize>
           </camouflage>
-        </_152mm_BR-2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_BR-2>
         <_203mm_B-4>shared  <maxAmmo>16</maxAmmo>
           <reloadTime>53.2</reloadTime>
           <pitchLimits>
@@ -2340,7 +2340,7 @@
             <density>172.532 166.652</density>
             <aoTextureSize>2048 1024</aoTextureSize>
           </camouflage>
-        </_203mm_B-4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_203mm_B-4>
       </guns>
       <models>
         <undamaged>vehicles/russian/R91_SU14_1/normal/lod0/Turret_02.model</undamaged>
@@ -2358,7 +2358,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2489,7 +2489,7 @@
     <armour>0.598098618</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

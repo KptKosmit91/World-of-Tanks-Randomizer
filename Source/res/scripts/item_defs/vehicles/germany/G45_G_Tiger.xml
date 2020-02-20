@@ -1,12 +1,12 @@
 <G45_G_Tiger.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -162,7 +162,7 @@
     <Chassis_G_Tiger>
       <userString>#germany_vehicles:Chassis_G_Tiger</userString>
       <shortUserString>#germany_vehicles:Chassis_G_Tiger_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <unlocks>
@@ -548,7 +548,7 @@
             <length>0.145873</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.11556</xStart>
@@ -739,7 +739,7 @@
                 <point>-1.5313 1.42721 3.98036</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -766,7 +766,7 @@
             <length>0.145858</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.11587</xStart>
@@ -957,14 +957,14 @@
                 <point>1.5313 1.42303 3.97921</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -985,7 +985,7 @@
     <Chassis_G_Tiger2>
       <userString>#germany_vehicles:Chassis_G_Tiger2</userString>
       <shortUserString>#germany_vehicles:Chassis_G_Tiger2_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>60800</price>
       <armor>
@@ -1367,7 +1367,7 @@
             <length>0.145873</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.11556</xStart>
@@ -1558,7 +1558,7 @@
                 <point>-1.5313 1.42721 3.98036</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1585,7 +1585,7 @@
             <length>0.145858</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-4.11587</xStart>
@@ -1776,14 +1776,14 @@
                 <point>1.5313 1.42303 3.97921</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1908,7 +1908,7 @@
             <density>89.3717 84.9051</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_170mm_K72_Sf_>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_170mm_K72_Sf_>
         <_210mm_Morser_21>shared  <maxAmmo>15</maxAmmo>
           <shotDispersionRadius>0.77</shotDispersionRadius>
           <unlocks>
@@ -1988,7 +1988,7 @@
             <density>80.7833 83.8838</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_210mm_Morser_21>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_210mm_Morser_21>
       </guns>
       <models>
         <undamaged>vehicles/german/G45_G_Tiger/normal/lod0/Turret_01.model</undamaged>
@@ -2005,8 +2005,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_05</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_G_Tiger>
@@ -2128,7 +2128,7 @@
     <armour>0.816951974</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35.4</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -624,7 +624,7 @@
   <chassis>
     <Chassis_T57_58>
       <userString>#usa_vehicles:Chassis_T57_58</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -941,7 +941,7 @@
             <length>0.0813053</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.30715</xStart>
@@ -1184,7 +1184,7 @@
                 <point>-1.50772 1.35373 3.43852</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1215,7 +1215,7 @@
             <length>0.0811013</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.2975</xStart>
@@ -1457,14 +1457,14 @@
                 <point>1.55774 1.3529 3.42913</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1486,7 +1486,7 @@
   <turrets0>
     <Turret_1_T57_58>
       <userString>#usa_vehicles:Turret_1_T57_58</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1790,7 +1790,7 @@
             <density>106.265 107.196</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_T179>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_T179>
       </guns>
       <models>
         <undamaged>vehicles/american/A67_T57_58/normal/lod0/Turret_01.model</undamaged>
@@ -2049,7 +2049,7 @@
     <armour>1.153755451</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

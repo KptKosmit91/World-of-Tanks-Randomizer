@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -129,7 +129,7 @@
   <chassis>
     <Chassis_T37>
       <userString>#usa_vehicles:Chassis_T37</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9800</price>
       <unlocks>
@@ -859,7 +859,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -879,7 +879,7 @@
     </Chassis_T37>
     <Chassis_T37_2>
       <userString>#usa_vehicles:Chassis_T37_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15200</price>
       <armor>
@@ -1605,7 +1605,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1627,7 +1627,7 @@
   <turrets0>
     <Turret_1_T37>
       <userString>#usa_vehicles:Turret_1_T37</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9000</price>
       <armor>
@@ -1747,7 +1747,7 @@
             <density>99.4973 106.865</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_T94>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_T94>
       </guns>
       <models>
         <undamaged>vehicles/american/A94_T37/normal/lod0/Turret_01.model</undamaged>
@@ -1811,7 +1811,7 @@
     </Turret_1_T37>
     <Turret_2_T37>
       <userString>#usa_vehicles:Turret_2_T37</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16200</price>
       <unlocks>
@@ -1932,7 +1932,7 @@
             <density>99.4973 106.865</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_T94>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_T94>
         <_76mm_Gun_T91>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <vehicle>A112_T71E2R  <cost>62400</cost>
@@ -2015,7 +2015,7 @@
             <density>98.7478 97.6047</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_T91>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_T91>
       </guns>
       <models>
         <undamaged>vehicles/american/A94_T37/normal/lod0/Turret_02.model</undamaged>
@@ -2185,7 +2185,7 @@
     <armour>0.92651064</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

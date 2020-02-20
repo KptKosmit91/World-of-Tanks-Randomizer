@@ -1,11 +1,11 @@
 <G46_T-25.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -111,7 +111,7 @@
   <chassis>
     <Chassis_T-25>
       <userString>#germany_vehicles:Chassis_T-25</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>7900</price>
       <notInShop>true</notInShop>
@@ -504,7 +504,7 @@
             <length>0.114853</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94264</xStart>
@@ -682,7 +682,7 @@
                 <point>-1.23663 1.02243 2.97232</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -709,7 +709,7 @@
             <length>0.114853</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94263</xStart>
@@ -887,14 +887,14 @@
                 <point>1.23662 0.971278 2.97236</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -916,7 +916,7 @@
   <turrets0>
     <Turret_1_T-25>
       <userString>#germany_vehicles:Turret_1_T-25</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8500</price>
       <notInShop>true</notInShop>
@@ -1021,7 +1021,7 @@
             <density>96.3604 97.4775</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_75mm_A18KwK>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_A18KwK>
       </guns>
       <models>
         <undamaged>vehicles/german/G46_T-25/normal/lod0/Turret_01.model</undamaged>
@@ -1163,7 +1163,7 @@
     <armour>0.949921335</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

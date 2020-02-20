@@ -1,12 +1,12 @@
 <A17_M37.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56.3</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -152,7 +152,7 @@
   <chassis>
     <T85E1>
       <userString>#usa_vehicles:T85E1</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1380</price>
       <unlocks>
@@ -1095,7 +1095,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1115,7 +1115,7 @@
     </T85E1>
     <T85E2>
       <userString>#usa_vehicles:T85E2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3900</price>
       <armor>
@@ -2111,7 +2111,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2222,7 +2222,7 @@
             <density>115.113 129.87</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Howitzer_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Howitzer_M3>
         <_105mm_Howitzer_M4>shared  <maxAmmo>126</maxAmmo>
           <reloadTime>15</reloadTime>
           <pitchLimits>
@@ -2288,7 +2288,7 @@
             <density>127.532 166.302</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Howitzer_M4>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Howitzer_M4>
       </guns>
       <models>
         <undamaged>vehicles/american/A17_M37/normal/lod0/Turret_01.model</undamaged>
@@ -2442,7 +2442,7 @@
     <armour>0.91484939</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

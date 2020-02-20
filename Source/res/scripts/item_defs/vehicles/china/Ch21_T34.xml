@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -111,7 +111,7 @@
   <chassis>
     <Chassis_Ch21_T34>
       <userString>#china_vehicles:Chassis_Ch21_T34</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>2680</price>
       <unlocks>
@@ -507,7 +507,7 @@
             <length>0.142375</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.86247</xStart>
@@ -661,7 +661,7 @@
                 <point>-1.39804 0.958976 2.83253</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -688,7 +688,7 @@
             <length>0.142397</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.862</xStart>
@@ -842,14 +842,14 @@
                 <point>1.39806 1.01281 2.83388</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -869,7 +869,7 @@
     </Chassis_Ch21_T34>
     <Chassis_Ch21_T34_2>
       <userString>#china_vehicles:Chassis_Ch21_T34_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9800</price>
       <armor>
@@ -1261,7 +1261,7 @@
             <length>0.142375</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.86247</xStart>
@@ -1415,7 +1415,7 @@
                 <point>-1.39804 0.958976 2.83253</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1442,7 +1442,7 @@
             <length>0.142397</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.862</xStart>
@@ -1596,14 +1596,14 @@
                 <point>1.39806 1.01281 2.83388</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1625,7 +1625,7 @@
   <turrets0>
     <Turret_1_Ch21_T34>
       <userString>#china_vehicles:Turret_1_Ch21_T34</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3980</price>
       <unlocks>
@@ -1736,7 +1736,7 @@
             <density>142.644 149.806</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_F-34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F-34>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch21_T34/normal/lod0/Turret_01.model</undamaged>
@@ -1820,7 +1820,7 @@
     </Turret_1_Ch21_T34>
     <Turret_2_Ch21_T34>
       <userString>#china_vehicles:Turret_2_Ch21_T34</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10000</price>
       <unlocks>
@@ -1936,7 +1936,7 @@
             <density>142.644 149.806</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_F-34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_F-34>
         <_57mm_55-57FG>shared  <maxAmmo>100</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2018,7 +2018,7 @@
             <density>144.459 162.531</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_57mm_55-57FG>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_55-57FG>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch21_T34/normal/lod0/Turret_02.model</undamaged>
@@ -2208,7 +2208,7 @@
     <armour>1.008597463</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

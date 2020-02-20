@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
+    <radioman />
+    <driver />
+    <gunner />
   </crew>
   <speedLimits>
     <forward>72</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@
   <chassis>
     <A-20_mod_1938>
       <userString>#ussr_vehicles:A-20_mod_1938</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1420</price>
       <unlocks>
@@ -884,7 +884,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -904,7 +904,7 @@
     </A-20_mod_1938>
     <A-20_mod_1941>
       <userString>#ussr_vehicles:A-20_mod_1941</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3580</price>
       <armor>
@@ -1676,7 +1676,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1698,7 +1698,7 @@
   <turrets0>
     <A-20_mod_1938>
       <userString>#ussr_vehicles:A-20_mod_1938</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1880</price>
       <unlocks>
@@ -1800,7 +1800,7 @@
             <density>108.577 103.306</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_37mm_ZiS-19>shared  <maxAmmo>150</maxAmmo>
           <unlocks>
             <gun>_37mm_automatic_SH-37  <cost>2600</cost>
@@ -1869,7 +1869,7 @@
             <density>110.249 105.192</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_ZiS-19>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_ZiS-19>
         <_37mm_automatic_SH-37>shared  <maxAmmo>140</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -1934,7 +1934,7 @@
             <density>104.391 106.244</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_automatic_SH-37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_automatic_SH-37>
       </guns>
       <models>
         <undamaged>vehicles/russian/R12_A-20/normal/lod0/Turret_01.model</undamaged>
@@ -2018,7 +2018,7 @@
     </A-20_mod_1938>
     <A-20bis>
       <userString>#ussr_vehicles:A-20bis</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5170</price>
       <unlocks>
@@ -2119,7 +2119,7 @@
             <density>108.577 103.306</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_20K>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20K>
         <_37mm_ZiS-19>shared  <maxAmmo>150</maxAmmo>
           <pitchLimits>
             <minPitch>0 -25 1 -25</minPitch>
@@ -2184,7 +2184,7 @@
             <density>110.249 105.192</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_ZiS-19>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_ZiS-19>
         <_37mm_automatic_SH-37>shared  <maxAmmo>140</maxAmmo>
           <pitchLimits>
             <minPitch>0 -27 1 -27</minPitch>
@@ -2249,7 +2249,7 @@
             <density>104.391 106.244</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_37mm_automatic_SH-37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_automatic_SH-37>
         <_76mm_L-11>shared  <maxAmmo>50</maxAmmo>
           <reloadTime>6</reloadTime>
           <unlocks>
@@ -2313,7 +2313,7 @@
             <density>102.4 102.01</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_L-11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_L-11>
         <_45mm_VT-42>shared  <maxAmmo>77</maxAmmo>
           <unlocks>
             <vehicle>R41_T-50  <cost>10200</cost>
@@ -2382,7 +2382,7 @@
             <density>110.293 104.363</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_VT-42>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_VT-42>
       </guns>
       <models>
         <undamaged>vehicles/russian/R12_A-20/normal/lod0/Turret_02.model</undamaged>
@@ -2577,7 +2577,7 @@
     <armour>0.907828922</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,9 +1,9 @@
 <Ch01_Type59_Gold.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -84,8 +84,8 @@
     </customizationSlots>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <camouflage>
@@ -96,7 +96,7 @@
   <chassis>
     <Chassis_Ch01_Type59_gold>
       <userString>#china_vehicles:Chassis_Ch01_Type59_gold</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30200</price>
       <notInShop>true</notInShop>
@@ -832,8 +832,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Ch01_Type59_gold>
@@ -841,7 +841,7 @@
   <turrets0>
     <Turret_1_Ch01_Type59_gold>
       <userString>#china_vehicles:Turret_1_Ch01_Type59_gold</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28000</price>
       <notInShop>true</notInShop>
@@ -934,15 +934,15 @@
           </customizationSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <camouflage>
             <density>150.609 165.958</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_59>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_59>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch01_Type59_Gold/normal/lod0/Turret_01.model</undamaged>
@@ -1002,8 +1002,8 @@
       </customizationSlots>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -1071,7 +1071,7 @@
     <armour>1.203216407</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

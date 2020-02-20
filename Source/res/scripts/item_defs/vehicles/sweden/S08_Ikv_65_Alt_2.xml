@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -154,7 +154,7 @@
   <chassis>
     <Chassis_S08_Ikv_65_Alt_2>
       <userString>#sweden_vehicles:Chassis_S08_Ikv_65_Alt_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8800</price>
       <unlocks>
@@ -744,7 +744,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -764,7 +764,7 @@
     </Chassis_S08_Ikv_65_Alt_2>
     <Chassis_S08_Ikv_65_Alt_2_2>
       <userString>#sweden_vehicles:Chassis_S08_Ikv_65_Alt_2_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15100</price>
       <armor>
@@ -1350,7 +1350,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1473,7 +1473,7 @@
             <density>147.83 145.556</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Bofors_L_43>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Bofors_L_43>
         <_90mm_Bofors_L_53>shared  <maxAmmo>40</maxAmmo>
           <armor>
             <armor_1>15</armor_1>
@@ -1552,7 +1552,7 @@
             <density>148.445 148.461</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Bofors_L_53>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Bofors_L_53>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S08_Ikv_65_Alt_2/normal/lod0/Turret_01.model</undamaged>
@@ -1569,8 +1569,8 @@
       <physicsShape>1.200 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_S08_Ikv_65_Alt_2>
@@ -1702,7 +1702,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -148,7 +148,7 @@
   <chassis>
     <Sturmpanzerketten_ausf_A>
       <userString>#germany_vehicles:Sturmpanzerketten_ausf_A</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1260</price>
       <unlocks>
@@ -904,7 +904,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -924,7 +924,7 @@
     </Sturmpanzerketten_ausf_A>
     <Sturmpanzerketten_ausf_B>
       <userString>#germany_vehicles:Sturmpanzerketten_ausf_B</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>3560</price>
       <armor>
@@ -1676,7 +1676,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1794,7 +1794,7 @@
             <density>101.105 99.1281</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_150mm_sIG33L11>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_150mm_sIG33L11>
       </guns>
       <models>
         <undamaged>vehicles/german/G22_Sturmpanzer_II/normal/lod0/Turret_01.model</undamaged>
@@ -1811,8 +1811,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_04</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </SturmpanzerII>
@@ -1929,7 +1929,7 @@
     <armour>0.612462671</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

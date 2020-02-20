@@ -1,11 +1,11 @@
 <F32_Somua_Sau_40.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>37</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -147,7 +147,7 @@
   <chassis>
     <Chassis_Somua_Sau_40>
       <userString>#france_vehicles:Chassis_Somua_Sau_40</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1660</price>
       <unlocks>
@@ -1053,7 +1053,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1073,7 +1073,7 @@
     </Chassis_Somua_Sau_40>
     <Chassis_Somua_Sau_40_2>
       <userString>#france_vehicles:Chassis_Somua_Sau_40_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4760</price>
       <unlocks>
@@ -1979,7 +1979,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2101,7 +2101,7 @@
             <density>148.493 148.231</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_APX>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_APX>
         <_75mm_Long_44_AC>shared  <maxAmmo>40</maxAmmo>
           <unlocks>
             <gun>Canon_de_105_court_mle_1934S_AC  <cost>3900</cost>
@@ -2173,7 +2173,7 @@
             <density>149.468 149.306</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Long_44_AC>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Long_44_AC>
         <Canon_de_105_court_mle_1934S_AC>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <armor_1>35  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2241,7 +2241,7 @@
             <density>146.425 150.896</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </Canon_de_105_court_mle_1934S_AC>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_court_mle_1934S_AC>
       </guns>
       <models>
         <undamaged>vehicles/french/F32_Somua_Sau_40/normal/lod0/Turret_01.model</undamaged>
@@ -2258,8 +2258,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_02</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_Somua_Sau_40>
@@ -2376,7 +2376,7 @@
     <armour>0.857849041</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

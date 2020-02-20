@@ -1,12 +1,12 @@
 <A12_T32.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -266,7 +266,7 @@
   <chassis>
     <T84E1A>
       <userString>#usa_vehicles:T84E1A</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20200</price>
       <unlocks>
@@ -573,7 +573,7 @@
             <length>0.0697936</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.29955</xStart>
@@ -834,7 +834,7 @@
                 <point>-1.38562 1.31351 3.28519</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -865,7 +865,7 @@
             <length>0.0700752</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.32018</xStart>
@@ -1131,14 +1131,14 @@
                 <point>1.38476 1.29049 3.31831</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1158,7 +1158,7 @@
     </T84E1A>
     <T84E3A>
       <userString>#usa_vehicles:T84E3A</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>38100</price>
       <armor>
@@ -1461,7 +1461,7 @@
             <length>0.0697936</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.29955</xStart>
@@ -1722,7 +1722,7 @@
                 <point>-1.38562 1.31351 3.28519</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1753,7 +1753,7 @@
             <length>0.0700752</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.32018</xStart>
@@ -2019,14 +2019,14 @@
                 <point>1.38476 1.29049 3.31831</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2048,7 +2048,7 @@
   <turrets0>
     <T99E2>
       <userString>#usa_vehicles:T99E2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>32500</price>
       <unlocks>
@@ -2183,7 +2183,7 @@
             <density>112.741 110.074</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T15E2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T15E2>
         <_105mm_Gun_T5E1>shared  <maxAmmo>43</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2274,7 +2274,7 @@
             <density>112.521 114.546</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1>
       </guns>
       <models>
         <undamaged>vehicles/american/A12_T32/normal/lod0/Turret_01.model</undamaged>
@@ -2481,7 +2481,7 @@
     </T99E2>
     <T119>
       <userString>#usa_vehicles:T119</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50500</price>
       <unlocks>
@@ -2614,7 +2614,7 @@
             <density>112.741 110.074</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T15E2>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T15E2>
         <_105mm_Gun_T5E1>shared  <maxAmmo>43</maxAmmo>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
@@ -2712,7 +2712,7 @@
             <density>112.521 114.546</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1>
       </guns>
       <models>
         <undamaged>vehicles/american/A12_T32/normal/lod0/Turret_02.model</undamaged>
@@ -3039,7 +3039,7 @@
     <armour>0.985043868</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

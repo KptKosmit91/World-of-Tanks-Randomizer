@@ -1,10 +1,10 @@
 <Cz09_T_24.xml>
   
   <crew>
-    <commander></commander>
+    <commander />
     <gunner>loader</gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>58</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -119,7 +119,7 @@
   <chassis>
     <Chassis_Cz09_T_24>
       <userString>#czech_vehicles:Chassis_Cz09_T_24</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4000</price>
       <unlocks>
@@ -425,7 +425,7 @@
             <length>0.103044</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94646</xStart>
@@ -615,7 +615,7 @@
                 <point>-1.22665 0.938544 2.97865</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -642,7 +642,7 @@
             <length>0.103052</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94623</xStart>
@@ -832,14 +832,14 @@
                 <point>1.06659 0.963521 2.97938</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -859,7 +859,7 @@
     </Chassis_Cz09_T_24>
     <Chassis_Cz09_T_24_2>
       <userString>#czech_vehicles:Chassis_Cz09_T_24_2</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8900</price>
       <armor>
@@ -1161,7 +1161,7 @@
             <length>0.103044</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94646</xStart>
@@ -1351,7 +1351,7 @@
                 <point>-1.22665 0.938544 2.97865</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1378,7 +1378,7 @@
             <length>0.103052</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94623</xStart>
@@ -1568,14 +1568,14 @@
                 <point>1.06659 0.963521 2.97938</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1597,7 +1597,7 @@
   <turrets0>
     <Turret_1_Cz09_T_24>
       <userString>#czech_vehicles:Turret_1_Cz09_T_24</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4500</price>
       <armor>
@@ -1706,7 +1706,7 @@
             <density>110.475 115.502</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Skoda_A13>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Skoda_A13>
         <_75mm_Skoda_A18>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <turret>Turret_2_Cz09_T_24  <cost>2400</cost>
@@ -1786,7 +1786,7 @@
             <density>112.454 114.086</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Skoda_A18>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Skoda_A18>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz09_T_24/normal/lod0/Turret_01.model</undamaged>
@@ -1850,7 +1850,7 @@
     </Turret_1_Cz09_T_24>
     <Turret_2_Cz09_T_24>
       <userString>#czech_vehicles:Turret_2_Cz09_T_24</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10300</price>
       <unlocks>
@@ -1966,7 +1966,7 @@
             <density>110.475 115.502</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Skoda_A13>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Skoda_A13>
         <_75mm_Skoda_A18>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>50  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2047,7 +2047,7 @@
             <density>112.454 114.086</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Skoda_A18>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Skoda_A18>
       </guns>
       <models>
         <undamaged>vehicles/czech/Cz09_T_24/normal/lod0/Turret_02.model</undamaged>
@@ -2232,7 +2232,7 @@
     <armour>0.886862577</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

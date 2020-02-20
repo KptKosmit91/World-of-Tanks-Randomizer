@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -841,7 +841,7 @@
   <chassis>
     <Chassis_Ch03_WZ-111>
       <userString>#china_vehicles:Chassis_Ch03_WZ-111</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30200</price>
       <notInShop>true</notInShop>
@@ -1688,7 +1688,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1710,7 +1710,7 @@
   <turrets0>
     <Turret_1_Ch03_WZ-111>
       <userString>#china_vehicles:Turret_1_Ch03_WZ-111</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28000</price>
       <notInShop>true</notInShop>
@@ -1854,7 +1854,7 @@
             <density>88.5366 89.5137</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122-mm_D25-TA>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D25-TA>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch03_WZ-111/normal/lod0/Turret_01.model</undamaged>
@@ -2554,7 +2554,7 @@
     <armour>1.213301369</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

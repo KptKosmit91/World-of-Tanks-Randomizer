@@ -1,0 +1,59 @@
+import xml.etree.ElementTree as ET
+import xmlMethods as xml
+import config as conf
+import os
+import fileMethods as fm
+
+
+maps = []
+
+def loadMaps():
+    folder = conf.mapsPath
+    for n in os.listdir(folder):
+        if n.lower() != "_default_.xml" and n.lower() != "_list_.xml" and n.lower() != "hangar_v3.xml" and n.lower() != "1002_ai_test.xml":
+            maps.append(folder+n)
+
+loadMaps()
+
+for m in maps:
+    f = open(m, "r")
+    mapName = m.replace(conf.mapsPath, "")
+    text=f.read()
+    text = text.replace(mapName,"root")
+
+    f.close()
+
+    f = open(m, "w")
+    f.write(text)
+    f.close()
+
+def getFilePaths():
+    tanks = []
+    for f in conf.countryFolders:
+        folder = conf.tanksPath+conf.countryFolders[f]+"/"
+        for n in os.listdir(folder):
+            if n.lower() != "components" and n.lower() != "customization.xml" and n.lower() != "list.xml" and not conf.isBlacklisted(n):
+                tanks.append(folder+n)
+
+    return tanks
+
+def work(tank):
+    print(tank)
+    tree = ET.parse(tank)
+    root = tree.getroot()
+
+    for t in root.find("turrets0").findall("*"):
+        for g in t.find("guns").findall("*"):
+            if xml.elementExists("multiGunEffects", g):
+                xml.insertElement("RAND_IsDoubleGun", "true", g)
+            else:
+                xml.insertElement("RAND_IsDoubleGun", "false", g)
+
+    newtree = ET.ElementTree(root)
+
+    newtree.write(tank)
+
+tanks = getFilePaths()
+
+for t in tanks:
+    work(t)

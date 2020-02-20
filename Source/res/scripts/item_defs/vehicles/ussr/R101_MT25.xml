@@ -1,11 +1,11 @@
 <R101_MT25.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>62</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -122,7 +122,7 @@
   <chassis>
     <Chassis_R101_MT25>
       <userString>#ussr_vehicles:Chassis_R101_MT25</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9000</price>
       <unlocks>
@@ -322,7 +322,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -342,7 +342,7 @@
     </Chassis_R101_MT25>
     <Chassis_R101_MT25_2>
       <userString>#ussr_vehicles:Chassis_R101_MT25_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <armor>
@@ -538,7 +538,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -560,7 +560,7 @@
   <turrets0>
     <Turret_1_R101_MT25>
       <userString>#ussr_vehicles:Turret_1_R101_MT25</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>9900</price>
       <notInShop>true</notInShop>
@@ -681,7 +681,7 @@
             <density>101.546 120.062</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_45mm_VT-43M>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_VT-43M>
         <_57mm_ZiS-4M>shared  <maxAmmo>100</maxAmmo>
           <unlocks>
             <gun>_76mm_S-54M  <cost>4300</cost>
@@ -769,7 +769,7 @@
             <density>98.3083 107.095</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_57mm_ZiS-4M>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_ZiS-4M>
         <_76mm_S-54M>shared  <maxAmmo>70</maxAmmo>
           <reloadTime>4.5</reloadTime>
           <unlocks>
@@ -857,7 +857,7 @@
             <density>104.535 94.4275</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_S-54M>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_S-54M>
       </guns>
       <models>
         <undamaged>vehicles/russian/R101_MT25/normal/lod0/Turret_01.model</undamaged>
@@ -1037,7 +1037,7 @@
     <armour>0.896480354</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -150,7 +150,7 @@
   <chassis>
     <Chassis_T40>
       <userString>#usa_vehicles:Chassis_T40</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1850</price>
       <unlocks>
@@ -421,7 +421,7 @@
             <length>0.0833509</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94228</xStart>
@@ -626,7 +626,7 @@
                 <point>-1.10467 1.22558 2.44633</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -657,7 +657,7 @@
             <length>0.0833506</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9422</xStart>
@@ -862,14 +862,14 @@
                 <point>1.10469 1.22563 2.44655</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -889,7 +889,7 @@
     </Chassis_T40>
     <Chassis_T40_2>
       <userString>#usa_vehicles:Chassis_T40_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4500</price>
       <armor>
@@ -1156,7 +1156,7 @@
             <length>0.0833509</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.94228</xStart>
@@ -1361,7 +1361,7 @@
                 <point>-1.10467 1.22558 2.44633</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1392,7 +1392,7 @@
             <length>0.0833506</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9422</xStart>
@@ -1597,14 +1597,14 @@
                 <point>1.10469 1.22563 2.44655</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1723,7 +1723,7 @@
             <density>122.061 121.77</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_75mm_Howitzer_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Howitzer_M1A1>
         <_76mm_AT_Gun_M1918>shared  <maxAmmo>98</maxAmmo>
           <reloadTime>3.7</reloadTime>
           <pitchLimits>
@@ -1785,12 +1785,12 @@
             </slot>
           </customizationSlots>
           <camouflage>
-            <exclusionMask></exclusionMask>
+            <exclusionMask />
             <tiling>1 0.5 0.000000 0.000000</tiling>
             <density>121.875 121.676</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1918>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1918>
         <_105mm_AT_Howitzer_M3>shared  <maxAmmo>50</maxAmmo>
           <reloadTime>8</reloadTime>
           <shotDispersionFactors>
@@ -1855,7 +1855,7 @@
             <density>122.091 121.623</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_105mm_AT_Howitzer_M3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_AT_Howitzer_M3>
         <_57mm_Gun_M1_L50>shared  <maxAmmo>126</maxAmmo>
           <reloadTime>2.3</reloadTime>
           <pitchLimits>
@@ -1918,7 +1918,7 @@
             <density>122.064 122.822</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_57mm_Gun_M1_L50>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_57mm_Gun_M1_L50>
         <_76mm_AT_Gun_M1A1>shared  <maxAmmo>68</maxAmmo>
           <reloadTime>3.7</reloadTime>
           <aimingTime>1.7</aimingTime>
@@ -1979,12 +1979,12 @@
             </slot>
           </customizationSlots>
           <camouflage>
-            <exclusionMask></exclusionMask>
+            <exclusionMask />
             <tiling>0.955 0.535 0.000000 0.000000</tiling>
             <density>119.887 119.609</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A1>
       </guns>
       <models>
         <undamaged>vehicles/american/A29_T40/normal/lod0/Turret_01.model</undamaged>
@@ -2138,7 +2138,7 @@
     <armour>0.765479111</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

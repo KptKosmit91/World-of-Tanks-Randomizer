@@ -1,11 +1,11 @@
 <G43_Sturer_Emil.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>25</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -157,7 +157,7 @@
   <chassis>
     <Chassis_Sturer_Emil>
       <userString>#germany_vehicles:Chassis_Sturer_Emil</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <unlocks>
@@ -905,7 +905,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -925,7 +925,7 @@
     </Chassis_Sturer_Emil>
     <Chassis_Sturer_Emil_2>
       <userString>#germany_vehicles:Chassis_Sturer_Emil_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18500</price>
       <armor>
@@ -1669,7 +1669,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1797,7 +1797,7 @@
             <density>90.5568 94.6121</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_K18_L52_R>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_K18_L52_R>
         <_128mm_SF_L61>shared  <maxAmmo>15</maxAmmo>
           <unlocks>
             <vehicle>G99_RhB_Waffentrager  <cost>71000</cost>
@@ -1881,7 +1881,7 @@
             <density>87.6494 94.4728</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_SF_L61>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_SF_L61>
       </guns>
       <models>
         <undamaged>vehicles/german/G43_Sturer_Emil/normal/lod0/Turret_01.model</undamaged>
@@ -1899,7 +1899,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2028,7 +2028,7 @@
     <armour>0.799915266</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

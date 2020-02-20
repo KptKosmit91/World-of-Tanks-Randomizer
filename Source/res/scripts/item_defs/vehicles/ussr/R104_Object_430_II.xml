@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_R104_Object_430_II>
       <userString>#ussr_vehicles:Chassis_R104_Object_430_II</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <unlocks>
@@ -386,7 +386,7 @@
             <length>0.159111</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95567</xStart>
@@ -549,7 +549,7 @@
                 <point>-1.49068 1.10951 3.08842</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -580,7 +580,7 @@
             <length>0.159112</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95567</xStart>
@@ -731,14 +731,14 @@
                 <point>1.28071 1.11483 3.08842</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -758,7 +758,7 @@
     </Chassis_R104_Object_430_II>
     <Chassis_R104_Object_430_II_2>
       <userString>#ussr_vehicles:Chassis_R104_Object_430_II_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62000</price>
       <armor>
@@ -1033,7 +1033,7 @@
             <length>0.159111</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95567</xStart>
@@ -1196,7 +1196,7 @@
                 <point>-1.49068 1.10951 3.08842</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1227,7 +1227,7 @@
             <length>0.159112</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.95567</xStart>
@@ -1378,14 +1378,14 @@
                 <point>1.28071 1.11483 3.08842</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1407,7 +1407,7 @@
   <turrets0>
     <Turret_1_R104_Object_430_II>
       <userString>#ussr_vehicles:Turret_1_R104_Object_430_II</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <unlocks>
@@ -1531,7 +1531,7 @@
             <density>136.03 167.569</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_M-63>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_M-63>
         <_100mm_D54_obr_45U>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <vehicle>R144_K_91  <cost>252700</cost>
@@ -1613,7 +1613,7 @@
             <density>138.131 135.563</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D54_obr_45U>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D54_obr_45U>
       </guns>
       <models>
         <undamaged>vehicles/russian/R104_Object_430_II/normal/lod0/Turret_01.model</undamaged>
@@ -1696,7 +1696,7 @@
     </Turret_1_R104_Object_430_II>
     <Turret_2_R104_Object_430_II>
       <userString>#ussr_vehicles:Turret_2_R104_Object_430_II</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>61000</price>
       <armor>
@@ -1813,7 +1813,7 @@
             <density>136.03 167.569</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_M-63>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_M-63>
         <_100mm_D54_obr_45U>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>180  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1896,7 +1896,7 @@
             <density>138.131 135.563</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_D54_obr_45U>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_D54_obr_45U>
       </guns>
       <models>
         <undamaged>vehicles/russian/R104_Object_430_II/normal/lod0/Turret_02.model</undamaged>
@@ -2090,7 +2090,7 @@
     <armour>1.019151218</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

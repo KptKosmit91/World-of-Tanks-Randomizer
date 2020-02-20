@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@
   <chassis>
     <Chassis_R153_Object_705>
       <userString>#ussr_vehicles:Chassis_R153_Object_705</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <unlocks>
@@ -573,7 +573,7 @@
             <length>0.165001</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.66196</xStart>
@@ -738,7 +738,7 @@
                 <point>-1.47766 1.18 3.59814</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -765,7 +765,7 @@
             <length>0.164999</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.66198</xStart>
@@ -930,14 +930,14 @@
                 <point>1.64761 1.18036 3.59808</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -957,7 +957,7 @@
     </Chassis_R153_Object_705>
     <Chassis_R153_Object_705_2>
       <userString>#ussr_vehicles:Chassis_R153_Object_705_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>62800</price>
       <armor>
@@ -1413,7 +1413,7 @@
             <length>0.165001</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.66196</xStart>
@@ -1578,7 +1578,7 @@
                 <point>-1.47766 1.18 3.59814</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1605,7 +1605,7 @@
             <length>0.164999</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.66198</xStart>
@@ -1770,14 +1770,14 @@
                 <point>1.64761 1.18036 3.59808</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1799,7 +1799,7 @@
   <turrets0>
     <Turret_1_R153_Object_705>
       <userString>#ussr_vehicles:Turret_1_R153_Object_705</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <armor>
@@ -1939,7 +1939,7 @@
             <density>102.508 106.975</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_D_25BM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D_25BM>
         <_122mm_BL_13_1_A>shared  <maxAmmo>40</maxAmmo>
           <unlocks>
             <turret>Turret_2_R153_Object_705  <cost>26500</cost>
@@ -2045,7 +2045,7 @@
             <density>92.4891 113.199</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL_13_1_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL_13_1_A>
       </guns>
       <models>
         <undamaged>vehicles/russian/R153_Object_705/normal/lod0/Turret_01.model</undamaged>
@@ -2129,7 +2129,7 @@
     </Turret_1_R153_Object_705>
     <Turret_2_R153_Object_705>
       <userString>#ussr_vehicles:Turret_2_R153_Object_705</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>63500</price>
       <unlocks>
@@ -2283,7 +2283,7 @@
             <density>102.508 106.975</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_D_25BM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D_25BM>
         <_122mm_BL_13_1_A>shared  <maxAmmo>40</maxAmmo>
           <armor>
             <armor_1>300  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2397,7 +2397,7 @@
             <density>92.4891 113.199</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL_13_1_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL_13_1_A>
         <_130mm_S-70>shared  <maxAmmo>30</maxAmmo>
           <unlocks>
             <vehicle>R145_Object_705_A  <cost>162300</cost>
@@ -2518,7 +2518,7 @@
             <density>112.416 106.381</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_130mm_S-70>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_130mm_S-70>
       </guns>
       <models>
         <undamaged>vehicles/russian/R153_Object_705/normal/lod0/Turret_02.model</undamaged>
@@ -2620,7 +2620,7 @@
     </_10RK>
     <_12RT>shared</_12RT>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -2708,7 +2708,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

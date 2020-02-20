@@ -3,9 +3,9 @@
   <crew>
     <commander>gunner
 loader</commander>
-    <gunner></gunner>
+    <gunner />
     <driver>loader</driver>
-    <radioman></radioman>
+    <radioman />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -131,7 +131,7 @@ loader</commander>
   <chassis>
     <Chassis_B1>
       <userString>#france_vehicles:Chassis_B1</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1900</price>
       <unlocks>
@@ -811,7 +811,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -831,7 +831,7 @@ loader</commander>
     </Chassis_B1>
     <Chassis_B1_2>
       <userString>#france_vehicles:Chassis_B1_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4680</price>
       <unlocks>
@@ -1511,7 +1511,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1533,7 +1533,7 @@ loader</commander>
   <turrets0>
     <Turret_1_B1>
       <userString>#france_vehicles:Turret_1_B1</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>1950</price>
       <armor>
@@ -1634,7 +1634,7 @@ loader</commander>
             <density>118.354 118.307</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34>
         <_47mm_SA35>shared  <maxAmmo>112</maxAmmo>
           <unlocks>
             <turret>Turret_2_B1  <cost>1220</cost>
@@ -1709,7 +1709,7 @@ loader</commander>
             <density>126.782 127.672</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
       </guns>
       <models>
         <undamaged>vehicles/french/F04_B1/normal/lod0/Turret_01.model</undamaged>
@@ -1772,7 +1772,7 @@ loader</commander>
     </Turret_1_B1>
     <Turret_2_B1>
       <userString>#france_vehicles:Turret_2_B1</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>5240</price>
       <unlocks>
@@ -1874,7 +1874,7 @@ loader</commander>
             <density>118.354 118.307</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA34>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA34>
         <_47mm_SA35>shared  <maxAmmo>112</maxAmmo>
           <armor>
             <armor_1>30  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1944,7 +1944,7 @@ loader</commander>
             <density>126.782 127.672</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA35>
         <_47mm_SA37>shared  <maxAmmo>112</maxAmmo>
           <armor>
             <armor_1>30  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2015,7 +2015,7 @@ loader</commander>
             <density>114.271 118.365</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA37>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA37>
       </guns>
       <models>
         <undamaged>vehicles/french/F04_B1/normal/lod0/Turret_02.model</undamaged>
@@ -2199,7 +2199,7 @@ loader</commander>
     <armour>1.020268623</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

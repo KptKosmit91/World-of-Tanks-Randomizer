@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>32</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -74,7 +74,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/russian/R11_MS-1/MS-1_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -109,7 +109,7 @@ loader</commander>
   <chassis>
     <T-18_bot>
       <userString>#ussr_vehicles:T-18_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -376,7 +376,7 @@ loader</commander>
             <length>0.155294</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.46761</xStart>
@@ -489,7 +489,7 @@ loader</commander>
                 <point>-0.800693 1.0889 1.40534</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -516,7 +516,7 @@ loader</commander>
             <length>0.155297</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-1.46756</xStart>
@@ -629,14 +629,14 @@ loader</commander>
                 <point>0.800777 1.0889 1.40541</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T-18_bot>
@@ -644,7 +644,7 @@ loader</commander>
   <turrets0>
     <T-18_Standart_bot>
       <userString>#ussr_vehicles:T-18_Standart_bot</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -706,7 +706,7 @@ loader</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -715,7 +715,7 @@ loader</commander>
             <density>107.23 107.131</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </_37mm_Gochkins_bot>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_Gochkins_bot>
       </guns>
       <models>
         <undamaged>vehicles/russian/R11_MS-1/normal/lod0/Turret_01.model</undamaged>
@@ -732,7 +732,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -821,9 +821,9 @@ loader</commander>
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -155,7 +155,7 @@
   <chassis>
     <Chassis_AMX_Ob_Am105>
       <userString>#france_vehicles:Chassis_AMX_Ob_Am105</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2100</price>
       <unlocks>
@@ -1033,7 +1033,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1053,7 +1053,7 @@
     </Chassis_AMX_Ob_Am105>
     <Chassis_AMX_Ob_Am105_2>
       <userString>#france_vehicles:Chassis_AMX_Ob_Am105_2</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4800</price>
       <armor>
@@ -1927,7 +1927,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2040,7 +2040,7 @@
             <density>95.7108 96.184</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_105_DEFA_4767_mod>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_DEFA_4767_mod>
       </guns>
       <models>
         <undamaged>vehicles/french/F66_AMX_Ob_Am105/normal/lod0/Turret_01.model</undamaged>
@@ -2058,7 +2058,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2165,7 +2165,7 @@
             <density>95.2751 95.3253</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_105_mle_1930_Schneider_AM>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_105_mle_1930_Schneider_AM>
       </guns>
       <models>
         <undamaged>vehicles/french/F66_AMX_Ob_Am105/normal/lod0/Turret_02.model</undamaged>
@@ -2183,7 +2183,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>TURRET</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2318,7 +2318,7 @@
     <armour>0.771811084</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

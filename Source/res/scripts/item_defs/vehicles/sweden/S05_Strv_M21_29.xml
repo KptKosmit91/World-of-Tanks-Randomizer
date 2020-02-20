@@ -2,9 +2,9 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
-    <loader></loader>
-    <radioman></radioman>
+    <driver />
+    <loader />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>25</forward>
@@ -149,7 +149,7 @@
   <chassis>
     <Chassis_S05_Strv_M21_29>
       <userString>#sweden_vehicles:Chassis_S05_Strv_M21_29</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -481,7 +481,7 @@
                 <ySamples>0.628455 0.636526 0.645438 0.65531 0.666306 0.678652 0.692684</ySamples>
               </part>
             </bottom>
-            <top></top>
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_L9</wheel>
@@ -537,7 +537,7 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
+            <top />
             <bottom>
               <range>
                 <point>-0.907001 0.579443 -2.06133</point>
@@ -653,7 +653,7 @@
                 <ySamples>0.628453 0.636524 0.645435 0.655307 0.666303 0.678648 0.69268</ySamples>
               </part>
             </bottom>
-            <top></top>
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_R9</wheel>
@@ -709,7 +709,7 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
+            <top />
             <bottom>
               <range>
                 <point>0.907001 0.579443 -2.06133</point>
@@ -788,7 +788,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -810,7 +810,7 @@
   <turrets0>
     <Turret_1_S05_Strv_M21_29>
       <userString>#sweden_vehicles:Turret_1_S05_Strv_M21_29</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -907,7 +907,7 @@
             <density>120.042 119.832</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_37mm_kanon_m_Skoda>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_kanon_m_Skoda>
         <_20mm_akan_m_Madsen>shared  <maxAmmo>480</maxAmmo>
           <unlocks>
             <vehicle>S09_L_120_TD  <cost>275</cost>
@@ -973,7 +973,7 @@
             <density>118.287 118.269</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_20mm_akan_m_Madsen>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_akan_m_Madsen>
       </guns>
       <models>
         <undamaged>vehicles/sweden/S05_Strv_M21_29/normal/lod0/Turret_01.model</undamaged>
@@ -1084,7 +1084,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

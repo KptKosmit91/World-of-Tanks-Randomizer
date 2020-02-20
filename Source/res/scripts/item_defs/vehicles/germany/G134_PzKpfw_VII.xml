@@ -1,11 +1,11 @@
 <G134_PzKpfw_VII.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>33</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -856,7 +856,7 @@
   <chassis>
     <Chassis_G134_PzKpfw_VII>
       <userString>#germany_vehicles:Chassis_G134_PzKpfw_VII</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1220,7 +1220,7 @@
             <length>0.145146</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.39565</xStart>
@@ -1391,7 +1391,7 @@
                 <point>-1.555 1.27766 3.35718</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -1422,7 +1422,7 @@
             <length>0.145131</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.39568</xStart>
@@ -1593,14 +1593,14 @@
                 <point>1.625 1.23945 3.35711</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1622,7 +1622,7 @@
   <turrets0>
     <Turret_1_G134_PzKpfw_VII>
       <userString>#germany_vehicles:Turret_1_G134_PzKpfw_VII</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1739,7 +1739,7 @@
             <density>113.521 117.107</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_KwK46_L61>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_KwK46_L61>
       </guns>
       <models>
         <undamaged>vehicles/german/G134_PzKpfw_VII/normal/lod0/Turret_01.model</undamaged>
@@ -2324,7 +2324,7 @@
     <armour>1.181587686</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>45</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -256,7 +256,7 @@
   <chassis>
     <Chassis_STA_1>
       <userString>#japan_vehicles:Chassis_STA_1</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17000</price>
       <unlocks>
@@ -1260,7 +1260,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1280,7 +1280,7 @@
     </Chassis_STA_1>
     <Chassis_STA_1_2>
       <userString>#japan_vehicles:Chassis_STA_1_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <armor>
@@ -2280,7 +2280,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -2302,7 +2302,7 @@
   <turrets0>
     <Turret_1_STA_1>
       <userString>#japan_vehicles:Turret_1_STA_1</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18000</price>
       <unlocks>
@@ -2440,7 +2440,7 @@
             <density>119.557 120.159</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3A1>
         <_90mm_Rifled_Gun>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>124  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2534,7 +2534,7 @@
             <density>117.984 120.102</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Rifled_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Rifled_Gun>
       </guns>
       <models>
         <undamaged>vehicles/japan/J13_STA_1/normal/lod0/Turret_01.model</undamaged>
@@ -2750,7 +2750,7 @@
     </Turret_1_STA_1>
     <Turret_2_STA_1>
       <userString>#japan_vehicles:Turret_2_STA_1</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <unlocks>
@@ -2886,7 +2886,7 @@
             <density>119.557 120.159</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_M3A1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_M3A1>
         <_90mm_Rifled_Gun>shared  <maxAmmo>50</maxAmmo>
           <armor>
             <armor_1>124  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -2980,7 +2980,7 @@
             <density>117.984 120.102</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Rifled_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Rifled_Gun>
         <_90mm_Gun_Type61>shared  <maxAmmo>50</maxAmmo>
           <unlocks>
             <vehicle>J14_Type_61  <cost>169000</cost>
@@ -3078,7 +3078,7 @@
             <density>121.498 121.491</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_Type61>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_Type61>
       </guns>
       <models>
         <undamaged>vehicles/japan/J13_STA_1/normal/lod0/Turret_02.model</undamaged>
@@ -3411,7 +3411,7 @@
     <armour>0.839928268</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -3,8 +3,8 @@
   <crew>
     <commander>gunner
 radioman</commander>
-    <driver></driver>
-    <loader></loader>
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -23,7 +23,7 @@ radioman</commander>
   <camouflage>
     <priceFactor>0.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -113,7 +113,7 @@ radioman</commander>
   <chassis>
     <Chassis_R161_T_116>
       <userString>#ussr_vehicles:Chassis_R161_T_116</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <armor>
@@ -906,7 +906,7 @@ radioman</commander>
   <turrets0>
     <Turret_1_R161_T_116>
       <userString>#ussr_vehicles:Turret_1_R161_T_116</userString>
-      <tags></tags>
+      <tags />
       <level>3</level>
       <price>2000</price>
       <armor>
@@ -999,7 +999,7 @@ radioman</commander>
             <density>135.699 135.937</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_45mm_20KL>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20KL>
       </guns>
       <notInShop>true</notInShop>
       <models>
@@ -1092,7 +1092,7 @@ radioman</commander>
   <radios>
     <_71_TK_1SH>shared</_71_TK_1SH>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -1141,7 +1141,7 @@ radioman</commander>
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>
