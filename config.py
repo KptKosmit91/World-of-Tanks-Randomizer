@@ -1,3 +1,10 @@
+'''
+
+PLEASE DO NOT MODIFY THIS FILE UNLESS YOU KNOW WHAT YOU'RE DOING!
+For the true Config file see Config/RandomizerConfig.xml
+
+'''
+
 randomizerversion = "0.8.1"
 wotversion="1.7.1.2"
 

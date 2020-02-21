@@ -36,8 +36,7 @@ ________________________________________________________________________________
 
 INSTALLING THE GENERATED MODS
 
-After running the bat file and after the window displays "You are ready to install your mod!" go to the Output folder. Ignore the "res" folder. Copy the generated .wotmod file into World_of_Tanks/mods/(VersionFolder)
-Don't confuse the "mods" folder with the "res_mods" folder!
+After running the bat file and after the window displays "You are ready to install your mod!" go to the Output folder. Copy the generated .wotmod file into World_of_Tanks/mods/(VersionFolder)
 And remember to only have one randomized mod installed in the game at a time.
 ________________________________________________________________________________________________________________________________________
 

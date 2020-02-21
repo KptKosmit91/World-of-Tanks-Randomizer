@@ -21,4 +21,7 @@ from shutil import rmtree
 if os.path.exists("Temp"):
     rmtree("Temp")
 
+if os.path.exists(conf.resOut):
+    rmtree(conf.resOut)
+
 sleep(2)
