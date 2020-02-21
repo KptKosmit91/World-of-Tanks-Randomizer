@@ -2,13 +2,13 @@
 
 ***ENGLISH:***
 
-Showcase vid: https://www.youtube.com/watch?v=VlDN37WwlM8
+Video: https://www.youtube.com/watch?v=VlDN37WwlM8
 
 **REQUIREMENTS:**
 
--Python 3.7+ is required to run this tool. Older versions might work but it was only tested on this version.
+*-Python 3.7+ is required to run this tool. Older versions might work but it was only tested on this version.
 You can download it here if you don't have it: https://www.python.org/downloads/release/python-375/
-Remember to check "Add Python 3.7 to PATH" while installing it!
+Remember to check "Add Python 3.7 to PATH" while installing it!*
 ________________________________________________________________________________________________________________________________________
 
 **CURRENT FEATURES:**
@@ -65,10 +65,13 @@ ________________________________________________________________________________
 
 ***POLSKI/POLISH:***
 
+Film: https://www.youtube.com/watch?v=VlDN37WwlM8
+Film u YellowGaming: https://www.youtube.com/watch?v=y4rjgsHhah4
+
 **WYMAGANIA:**
--Python 3.7+ jest potrzebny by używać tego narzędzia.
-Jeśli go nie masz, możesz go pobrać tutaj: https://www.python.org/downloads/release/python-375/
-Pamiętaj aby zaznaczyć opcje "Add Python 3.7 to PATH" podczas instalacji!
+*-Python 3.7+ jest potrzebny by używać tego narzędzia.
+Jeśli go nie masz, możesz go pobrać tutaj: *https://www.python.org/downloads/release/python-375/
+Pamiętaj aby zaznaczyć opcje "Add Python 3.7 to PATH" podczas instalacji!*
 ________________________________________________________________________________________________________________________________________
 
 **ZAWARTOŚĆ NARZĘDZIA:**
@@ -107,7 +110,8 @@ ________________________________________________________________________________
 StranikS-Scan za dekompilacje WoT'a i łatwy dostęp do plików .xml ( github: https://github.com/StranikS-Scan/WorldOfTanks-Decompiled )
 ________________________________________________________________________________________________________________________________________
 
-Dołącz na moj serwer Discorda (kliknij na obraz):
+Dołącz na moj serwer Discorda (kliknij na obraz)
+
 PS jak narazie serwer jest raczej anglojęzyczny. Jak bedzie dużo polaków to zrobie wiecej kanałów tekstowych :)
 
-[![Join my Discord server](https://i.imgur.com/yGopMl8.png)](https://discord.gg/bnkB4tr)
+[![Dołącz na Discorda](https://i.imgur.com/yGopMl8.png)](https://discord.gg/bnkB4tr)
