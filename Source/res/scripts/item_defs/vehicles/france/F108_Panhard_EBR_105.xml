@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <gunner />
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>70</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -510,7 +510,7 @@
   <chassis>
     <Chassis_F108_Panhard_EBR_105>
       <userString>#france_vehicles:Chassis_F108_Panhard_EBR_105</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -919,7 +919,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -941,7 +941,7 @@
   <turrets0>
     <Turret_1_F108_Panhard_EBR_105>
       <userString>#france_vehicles:Turret_1_F108_Panhard_EBR_105</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1079,7 +1079,7 @@
             <density>150.02 148.15</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_D_1504_EBR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_D_1504_EBR>
       </guns>
       <models>
         <undamaged>vehicles/french/F108_Panhard_EBR_105/normal/lod0/Turret_01.model</undamaged>
@@ -1634,25 +1634,25 @@
   </siege_mode>
   <extras>
     <wheel_Health>wheelHealths : WheelHealths  <sounds>
-        <destroyed></destroyed>
-        <critical></critical>
-        <functional></functional>
+        <destroyed />
+        <critical />
+        <functional />
       </sounds>
       <deviceUserString>#ingame_gui:devices/wheel</deviceUserString>
     </wheel_Health>
   </extras>
   <deviceExtras>
     <devices>
-      <wheel_Health>track  <multiple></multiple>
+      <wheel_Health>track  <multiple />
       </wheel_Health>
     </devices>
-    <tankmen></tankmen>
+    <tankmen />
   </deviceExtras>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <useHullZSize>True</useHullZSize>
   <useHullZOffset>True</useHullZOffset>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
     <groundCollisionLight>groundCollisionWheeledLight</groundCollisionLight>
     <groundCollisionHeavy>groundCollisionWheeledHeavy</groundCollisionHeavy>

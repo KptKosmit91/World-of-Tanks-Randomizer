@@ -1,12 +1,12 @@
 <R77_KV2_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>2.3 2.3 0.33 0.2</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -105,7 +105,7 @@
   <chassis>
     <Chassis_KV2_2_IGR>
       <userString>#igr_vehicles:Chassis_KV2_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15900</price>
       <notInShop>true</notInShop>
@@ -373,7 +373,7 @@
             <length>0.153442</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.26188</xStart>
@@ -573,7 +573,7 @@
             <length>0.153443</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.26185</xStart>
@@ -753,7 +753,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_KV2_2_IGR>
@@ -761,7 +761,7 @@
   <turrets0>
     <Turret_2_KV2_IGR>
       <userString>#igr_vehicles:Turret_2_KV2_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17200</price>
       <notInShop>true</notInShop>
@@ -850,7 +850,7 @@
             <density>103.957 104.332</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_152mm_M-10_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_152mm_M-10_IGR>
       </guns>
       <models>
         <undamaged>vehicles/russian/R77_KV2/normal/lod0/Turret_02.model</undamaged>
@@ -980,7 +980,7 @@
     <armour>1.029421587</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

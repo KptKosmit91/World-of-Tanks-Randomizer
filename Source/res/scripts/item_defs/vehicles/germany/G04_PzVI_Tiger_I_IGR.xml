@@ -1,11 +1,11 @@
 <G04_PzVI_Tiger_I_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -82,7 +82,7 @@
     <hangarShadowTexture>vehicles/german/G04_PzVI_Tiger_I/PzVI_Tiger_I_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -117,7 +117,7 @@
   <chassis>
     <PzVI_Vetstaerktketten_IGR>
       <userString>#igr_vehicles:Chassis_PzVI_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21600</price>
       <notInShop>true</notInShop>
@@ -621,7 +621,7 @@
             <length>0.134119</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.93867</xStart>
@@ -784,7 +784,7 @@
                 <point>-1.32633 1.30757 2.82844</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -811,7 +811,7 @@
             <length>0.134135</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.9383</xStart>
@@ -974,14 +974,14 @@
                 <point>-1.32633 1.30757 2.82844</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </PzVI_Vetstaerktketten_IGR>
@@ -990,7 +990,7 @@
     <PzVI_Porsche_Turm_IGR>
       <userString>#igr_vehicles:Turret_2_PzVI_IGR</userString>
       <shortUserString>#igr_vehicles:Turret_2_PzVI_IGR_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33220</price>
       <notInShop>true</notInShop>
@@ -1073,7 +1073,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1094,7 +1094,7 @@
             <density>88.909 97.3041</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71_IGR>
       </guns>
       <models>
         <undamaged>vehicles/german/G04_PzVI_Tiger_I/normal/lod0/Turret_02.model</undamaged>
@@ -1111,7 +1111,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1214,7 +1214,7 @@
     <armour>0.886956578</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

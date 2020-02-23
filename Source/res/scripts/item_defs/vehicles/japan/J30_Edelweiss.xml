@@ -1,11 +1,11 @@
 <J30_Edelweiss.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -106,8 +106,8 @@
     </customizationSlots>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <camouflage>
@@ -118,7 +118,7 @@
   <chassis>
     <Chassis_J30_Edelweiss>
       <userString>#japan_vehicles:Chassis_J30_Edelweiss</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -387,7 +387,7 @@
             <length>0.179752</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.45921</xStart>
@@ -521,7 +521,7 @@
                 <point>-1.13709 1.44094 2.84349</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -548,7 +548,7 @@
             <length>0.179753</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.45919</xStart>
@@ -682,14 +682,14 @@
                 <point>1.3871 1.44093 2.84354</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_J30_Edelweiss>
@@ -697,7 +697,7 @@
   <turrets0>
     <Turret_1_J30_Edelweiss>
       <userString>#japan_vehicles:Turret_1_J30_Edelweiss</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -806,15 +806,15 @@
           </customizationSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <camouflage>
             <density>117.339 124.125</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_Edelweiss_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_Edelweiss_Gun>
       </guns>
       <models>
         <undamaged>vehicles/japan/J30_Edelweiss/normal/lod0/Turret_01.model</undamaged>
@@ -844,8 +844,8 @@
       </customizationSlots>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -863,7 +863,7 @@
   <radios>
     <Edelweiss_Radio>shared</Edelweiss_Radio>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -912,7 +912,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

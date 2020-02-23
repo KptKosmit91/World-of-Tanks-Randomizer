@@ -1,11 +1,11 @@
 <J29_Nameless.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <driver />
+    <gunner />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -89,8 +89,8 @@
     </customizationSlots>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <camouflage>
@@ -101,7 +101,7 @@
   <chassis>
     <Chassis_J29_Nameless>
       <userString>#japan_vehicles:Chassis_J29_Nameless</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -396,7 +396,7 @@
             <length>0.191663</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.10903</xStart>
@@ -525,7 +525,7 @@
                 <point>-1.11701 2.04943 2.54505</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -552,7 +552,7 @@
             <length>0.191663</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.10904</xStart>
@@ -691,8 +691,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_J29_Nameless>
@@ -700,7 +700,7 @@
   <turrets0>
     <Turret_1_J29_Nameless>
       <userString>#japan_vehicles:Turret_1_J29_Nameless</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -791,15 +791,15 @@
           </customizationSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <camouflage>
             <density>147.402 148.735</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_88mm_Nameless_Gun>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_Nameless_Gun>
       </guns>
       <models>
         <undamaged>vehicles/japan/J29_Nameless/normal/lod0/Turret_01.model</undamaged>
@@ -829,8 +829,8 @@
       </customizationSlots>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -848,7 +848,7 @@
   <radios>
     <Nameless_Radio>shared</Nameless_Radio>
   </radios>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <physics>
     <detailed>
       <engines>
@@ -897,7 +897,7 @@
     </detailed>
   </physics>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>28</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -76,7 +76,7 @@
     <hangarShadowTexture>vehicles/french/F28_105_leFH18B2/105_leFH18B2_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -142,7 +142,7 @@
   <chassis>
     <Chassis_105_leFH18B2_IGR>
       <userString>#igr_vehicles:Chassis_105_leFH18B2_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>240</price>
       <notInShop>true</notInShop>
@@ -746,8 +746,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_105_leFH18B2_IGR>
@@ -814,7 +814,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -835,7 +835,7 @@
             <density>116.737 117.855</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_leFH18_L28_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_leFH18_L28_IGR>
       </guns>
       <models>
         <undamaged>vehicles/french/F28_105_leFH18B2/normal/lod0/Turret_01.model</undamaged>
@@ -852,7 +852,7 @@
       <wwturretRotatorSoundManual>tur_man_trav_05</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -922,7 +922,7 @@
     <armour>0.799230536</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

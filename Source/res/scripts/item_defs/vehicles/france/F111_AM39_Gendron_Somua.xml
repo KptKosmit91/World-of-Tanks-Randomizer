@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>50</forward>
@@ -23,7 +23,7 @@ loader</commander>
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -125,7 +125,7 @@ loader</commander>
   <chassis>
     <Chassis_F111_AM39_Gendron_Somua>
       <userString>#france_vehicles:Chassis_F111_AM39_Gendron_Somua</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -449,7 +449,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -471,7 +471,7 @@ loader</commander>
   <turrets0>
     <Turret_1_F111_AM39_Gendron_Somua>
       <userString>#france_vehicles:Turret_1_F111_AM39_Gendron_Somua</userString>
-      <tags></tags>
+      <tags />
       <level>2</level>
       <price>500</price>
       <notInShop>true</notInShop>
@@ -552,7 +552,7 @@ loader</commander>
             <density>327.802 327.954</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_25mm_SA35>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_25mm_SA35>
       </guns>
       <models>
         <undamaged>vehicles/french/F111_AM39_Gendron_Somua/normal/lod0/Turret_01.model</undamaged>
@@ -674,25 +674,25 @@ loader</commander>
   </physics>
   <extras>
     <wheel_Health>wheelHealths : WheelHealths  <sounds>
-        <destroyed></destroyed>
-        <critical></critical>
-        <functional></functional>
+        <destroyed />
+        <critical />
+        <functional />
       </sounds>
       <deviceUserString>#ingame_gui:devices/wheel</deviceUserString>
     </wheel_Health>
   </extras>
   <deviceExtras>
     <devices>
-      <wheel_Health>track  <multiple></multiple>
+      <wheel_Health>track  <multiple />
       </wheel_Health>
     </devices>
-    <tankmen></tankmen>
+    <tankmen />
   </deviceExtras>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <useHullZSize>True</useHullZSize>
   <useHullZOffset>True</useHullZOffset>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
     <groundCollisionLight>groundCollisionWheeledLight</groundCollisionLight>
     <groundCollisionHeavy>groundCollisionWheeledHeavy</groundCollisionHeavy>

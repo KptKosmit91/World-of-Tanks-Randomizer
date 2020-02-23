@@ -1,5 +1,6 @@
 import config as conf
-from shutil import rmtree, copytree
+from shutil import rmtree
+from distutils.dir_util import copy_tree as copytree
 import os
 import fileMethods as fm
 import config as conf
@@ -23,14 +24,22 @@ for f in conf.countryFolders:
 fm.createFolder(conf.mapsPathOut)
 fm.createFolder("Output/res/spaces")
 
-copytree("Source/res/vehicles", "Output/res/vehicles")
-
 printSetting("Chaos Mode Enabled", conf.chaosModeEnabled)
 printSetting("Randomize Tank Models", conf.RandomizeTankModels)
 printSetting("Randomize Gun Effects And Sounds", conf.RandomizeGunEffectsAndSounds)
 printSetting("Randomize Engine Sounds", conf.RandomizeEngineSounds)
 printSetting("Randomize Engine RPM", conf.RandomizeEngineRPM)
-printSetting("Randomize Music OnMaps", conf.RandomizeMusicOnMaps)
+printSetting("Randomize Music On Maps", conf.RandomizeMusicOnMaps)
 printSetting("Randomize Crew Prompts", conf.RandomizeCrewPrompts)
 printSetting("Randomize Shell Impact Sounds", conf.RandomizeShellImpactSounds)
 printSetting("Custom Sounds", conf.CustomSounds)
+printSetting("Use Alernative Gun Sounds", conf.UseAlternativeGunSoundsMod)
+printSetting("Use Old Gun Sounds", conf.UseOldGunSoundsMod)
+
+print("\nCopying additional tank model files... Don't worry if the window has frozen.\n")
+
+copytree("Source/res/vehicles", "Output/res/vehicles")
+copytree("Addons/NewTankModels/Source/res/vehicles", "Output/res/vehicles", )
+copytree("Addons/NewTankModels/Source/res/FiatBojowy", "Output/res/FiatBojowy", )
+
+print("\nCopying completed!\n")

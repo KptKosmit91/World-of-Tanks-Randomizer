@@ -4,7 +4,7 @@
     <commander>gunner
 radioman
 loader</commander>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>60</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -72,7 +72,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/french/F62_ELC_AMX/ELC_AMX_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -107,7 +107,7 @@ loader</commander>
   <chassis>
     <Chassis_ELC_AMX_2_IGR>
       <userString>#igr_vehicles:Chassis_ELC_AMX_2_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9510</price>
       <notInShop>true</notInShop>
@@ -369,7 +369,7 @@ loader</commander>
             <length>0.129454</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.01123</xStart>
@@ -517,7 +517,7 @@ loader</commander>
                 <point>-1.14117 0.927468 2.00203</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -544,7 +544,7 @@ loader</commander>
             <length>0.129614</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.00748</xStart>
@@ -692,14 +692,14 @@ loader</commander>
                 <point>1.14126 0.898519 2.01067</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_ELC_AMX_2_IGR>
@@ -707,7 +707,7 @@ loader</commander>
   <turrets0>
     <Turret_1_ELC_AMX_IGR>
       <userString>#igr_vehicles:Turret_1_ELC_AMX_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>4800</price>
       <notInShop>true</notInShop>
@@ -779,7 +779,7 @@ loader</commander>
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -800,7 +800,7 @@ loader</commander>
             <density>192.745 195.611</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_D914_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_D914_IGR>
       </guns>
       <models>
         <undamaged>vehicles/french/F62_ELC_AMX/normal/lod0/Turret_01.model</undamaged>
@@ -817,7 +817,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -911,7 +911,7 @@ loader</commander>
     <armour>0.852514147</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>64</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -119,7 +119,7 @@ loader</commander>
   <chassis>
     <Chassis_AMX_13_90_2_IGR>
       <userString>#igr_vehicles:Chassis_AMX_13_90_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>26000</price>
       <notInShop>true</notInShop>
@@ -900,7 +900,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_AMX_13_90_2_IGR>
@@ -908,7 +908,7 @@ loader</commander>
   <turrets0>
     <Turret_1_AMX_13_90_IGR>
       <userString>#igr_vehicles:Turret_1_AMX_13_90_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>25000</price>
       <notInShop>true</notInShop>
@@ -1003,7 +1003,7 @@ loader</commander>
             <density>89.3144 91.6574</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_90mm_F3M_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_F3M_IGR>
       </guns>
       <models>
         <undamaged>vehicles/french/F17_AMX_13_90/normal/lod0/Turret_01.model</undamaged>
@@ -1102,7 +1102,7 @@ loader</commander>
     <armour>0.705171195</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

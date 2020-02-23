@@ -1,11 +1,11 @@
 <A08_T23.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>56</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -71,7 +71,7 @@
     <hangarShadowTexture>vehicles/russian/R00_Placeholder/Placeholder_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -96,7 +96,7 @@
   <chassis>
     <VVSS_T51>
       <userString>#usa_vehicles:VVSS_T51</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <notInShop>true</notInShop>
       <price>16300</price>
@@ -203,8 +203,8 @@
       </AODecals>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </VVSS_T51>
@@ -212,7 +212,7 @@
   <turrets0>
     <T23T80>
       <userString>#usa_vehicles:T23T80</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <notInShop>true</notInShop>
       <price>21800</price>
@@ -272,7 +272,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -293,7 +293,7 @@
             <density>29.281 29.2776</density>
             <aoTextureSize>128 128</aoTextureSize>
           </camouflage>
-        </_12.7mm_T23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_12.7mm_T23>
       </guns>
       <models>
         <undamaged>vehicles/russian/R00_Placeholder/normal/lod0/Turret_01.model</undamaged>
@@ -310,7 +310,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -398,9 +398,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

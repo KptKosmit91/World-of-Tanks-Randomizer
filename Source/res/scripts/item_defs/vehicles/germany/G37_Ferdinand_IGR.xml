@@ -1,12 +1,12 @@
 <G37_Ferdinand_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>30</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -147,7 +147,7 @@
     <Ferdinandvetstaerktketten_IGR>
       <userString>#igr_vehicles:Ferdinandvetstaerktketten_IGR</userString>
       <shortUserString>#igr_vehicles:Ferdinandvetstaerktketten_IGR_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32234</price>
       <notInShop>true</notInShop>
@@ -929,7 +929,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Ferdinandvetstaerktketten_IGR>
@@ -1013,7 +1013,7 @@
             <density>91.2199 88.6278</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_128mm_PaK44_L55_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_128mm_PaK44_L55_IGR>
       </guns>
       <models>
         <undamaged>vehicles/german/G37_Ferdinand/normal/lod0/Turret_01.model</undamaged>
@@ -1030,7 +1030,7 @@
       <wwturretRotatorSoundManual>tur_man_trav_07</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1099,7 +1099,7 @@
     <armour>0.804393468</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <G03_PzV_Panther_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -101,7 +101,7 @@
     <Pz-V_Vetstaerktketten_IGR>
       <userString>#igr_vehicles:Pz-V_Vetstaerktketten_IGR</userString>
       <shortUserString>#igr_vehicles:Pz-V_Vetstaerktketten_IGR_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18200</price>
       <notInShop>true</notInShop>
@@ -432,7 +432,7 @@
             <length>0.150998</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97221</xStart>
@@ -591,7 +591,7 @@
                 <point>-1.57995 1.40288 3.21872</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -618,7 +618,7 @@
             <length>0.150998</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.97221</xStart>
@@ -776,14 +776,14 @@
                 <point>1.57993 1.45855 3.14322</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Pz-V_Vetstaerktketten_IGR>
@@ -792,7 +792,7 @@
     <Pz-V_Shmallturm_IGR>
       <userString>#igr_vehicles:Pz-V_Shmallturm_IGR</userString>
       <shortUserString>#igr_vehicles:Pz-V_Shmallturm_IGR_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22300</price>
       <notInShop>true</notInShop>
@@ -887,7 +887,7 @@
             <density>91.1164 91.0225</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_KwK45_L100_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_KwK45_L100_IGR>
       </guns>
       <models>
         <undamaged>vehicles/german/G03_PzV_Panther/normal/lod0/Turret_02.model</undamaged>
@@ -1017,7 +1017,7 @@
     <armour>0.963500662</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>53</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -120,7 +120,7 @@
   <chassis>
     <Chassis_ST_B1_IGR>
       <userString>#igr_vehicles:Chassis_ST_B1_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -232,7 +232,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_ST_B1_IGR>
@@ -240,7 +240,7 @@
   <turrets0>
     <Turret_1_ST_B1_IGR>
       <userString>#igr_vehicles:Turret_1_ST_B1_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -340,7 +340,7 @@
             <density>128.15 128.221</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Rifled_Gun_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Rifled_Gun_IGR>
       </guns>
       <models>
         <undamaged>vehicles/japan/J16_ST_B1/normal/lod0/Turret_01.model</undamaged>
@@ -450,7 +450,7 @@
     <armour>1.020268623</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

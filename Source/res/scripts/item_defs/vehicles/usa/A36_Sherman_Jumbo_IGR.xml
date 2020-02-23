@@ -1,11 +1,11 @@
 <A36_Sherman_Jumbo_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>3.4 3.4 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -124,7 +124,7 @@
   <chassis>
     <Chassis_Sherman_Jumbo_2_IGR>
       <userString>#igr_vehicles:Chassis_Sherman_Jumbo_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16350</price>
       <notInShop>true</notInShop>
@@ -1088,7 +1088,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Sherman_Jumbo_2_IGR>
@@ -1096,7 +1096,7 @@
   <turrets0>
     <Turret_2_Sherman_Jumbo_IGR>
       <userString>#igr_vehicles:Turret_2_Sherman_Jumbo_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17000</price>
       <notInShop>true</notInShop>
@@ -1188,7 +1188,7 @@
             <density>93.6302 91.0397</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A2_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A2_IGR>
       </guns>
       <models>
         <undamaged>vehicles/american/A36_Sherman_Jumbo/normal/lod0/Turret_02.model</undamaged>
@@ -1298,7 +1298,7 @@
     <armour>1.039018702</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

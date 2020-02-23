@@ -1,11 +1,11 @@
 <R05_KV.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <radioman></radioman>
-    <driver></driver>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <radioman />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>34</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -74,7 +74,7 @@
     <hangarShadowTexture>vehicles/russian/R00_Placeholder/Placeholder_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -98,7 +98,7 @@
   <chassis>
     <KV_1>
       <userString>#ussr_vehicles:KV_1</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4020</price>
       <notInShop>true</notInShop>
@@ -205,8 +205,8 @@
       </AODecals>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </KV_1>
@@ -214,7 +214,7 @@
   <turrets0>
     <KV_1>
       <userString>#ussr_vehicles:KV_1</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9380</price>
       <notInShop>true</notInShop>
@@ -276,7 +276,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -285,7 +285,7 @@
             <density>29.281 29.2776</density>
             <aoTextureSize>128 128</aoTextureSize>
           </camouflage>
-        </Gun_01_KV>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Gun_01_KV>
       </guns>
       <models>
         <undamaged>vehicles/russian/R00_Placeholder/normal/lod0/Turret_01.model</undamaged>
@@ -302,7 +302,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -391,9 +391,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

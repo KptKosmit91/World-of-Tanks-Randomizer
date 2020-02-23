@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>72.4</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -129,7 +129,7 @@
   <chassis>
     <Chassis_GB77_FV304_2_IGR>
       <userString>#igr_vehicles:Chassis_GB77_FV304_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15000</price>
       <notInShop>true</notInShop>
@@ -366,7 +366,7 @@
             <length>0.0990904</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.14963</xStart>
@@ -543,7 +543,7 @@
                 <point>1.15775 1.21773 2.8545</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -570,7 +570,7 @@
             <length>0.0990324</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.15139</xStart>
@@ -747,14 +747,14 @@
                 <point>1.15775 1.21773 2.8545</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB77_FV304_2_IGR>
@@ -840,7 +840,7 @@
             <density>113.075 112.135</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_4.5inch_SPG_Howitzer_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_4.5inch_SPG_Howitzer_IGR>
       </guns>
       <models>
         <undamaged>vehicles/british/GB77_FV304/normal/lod0/Turret_02.model</undamaged>
@@ -939,7 +939,7 @@
     <armour>0.410133015</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

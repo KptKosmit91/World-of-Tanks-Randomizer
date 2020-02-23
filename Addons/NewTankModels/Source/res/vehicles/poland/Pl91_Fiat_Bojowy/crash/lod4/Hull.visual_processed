@@ -1,0 +1,241 @@
+<?xml version="1.0" ?>
+<root>
+	<node>
+		<identifier>Scene Root</identifier>
+		<transform>
+			<row0>1.000000 0.000000 0.000000</row0>
+			<row1>0.000000 1.000000 0.000000</row1>
+			<row2>0.000000 0.000000 1.000000</row2>
+			<row3>0.000000 0.000000 0.000000</row3>
+		</transform>
+		<node>
+			<identifier>HP_TrackUp_RRear</identifier>
+			<transform>
+				<row0>-1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 0.836735 0.000000</row1>
+				<row2>0.000000 0.000000 -0.836735</row2>
+				<row3>0.784839 -0.089967 -1.228702</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_turretJoint</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.229593 1.147249 -0.203295</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_Fire_1</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.012836 -0.062548 -0.962031</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_Track_Exhaus_1</identifier>
+			<transform>
+				<row0>-0.510000 0.000000 0.000000</row0>
+				<row1>0.000000 0.050000 0.000000</row1>
+				<row2>0.000000 0.000000 -0.510000</row2>
+				<row3>-0.204012 -0.015451 -1.676435</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_Fire_2</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>-0.349201 0.102013 0.006326</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_TrackUp_LRear</identifier>
+			<transform>
+				<row0>-1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 0.836735 0.000000</row1>
+				<row2>0.000000 0.000000 -0.836735</row2>
+				<row3>-0.784839 -0.089967 -1.228702</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_TrackUp_LFront</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 0.895464 0.000000</row1>
+				<row2>0.000000 0.000000 0.895464</row2>
+				<row3>-0.784839 0.096465 1.010363</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_TrackUp_RFront</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 0.895464 0.000000</row1>
+				<row2>0.000000 0.000000 0.895464</row2>
+				<row3>0.784839 0.096465 1.010363</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+		<node>Scene Root</node>
+		<geometry>
+			<vertices>vertices</vertices>
+			<primitive>indices</primitive>
+			<primitiveGroup>
+				0
+				<material>
+					<identifier>F126Underside</identifier>
+					<fx>shaders/std_effects/PBS_tank_crash.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						normalMap
+						<Texture>FiatBojowy/F126Underside_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>FiatBojowy/F126Underside_AM.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>FiatBojowy/F126Underside_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>FiatBojowy/F126Underside_AO.dds</Texture>
+					</property>
+					<property>
+						crashTileMap
+						<Texture>vehicles/russian/Tank_detail/crash_tile.dds</Texture>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						g_crashUVTiling
+						<Vector4>3 3 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>
+				1
+				<material>
+					<identifier>F126Body</identifier>
+					<fx>shaders/std_effects/PBS_tank_crash.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						normalMap
+						<Texture>FiatBojowy/F126Body_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>FiatBojowy/F126BodyCrash_AM.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>FiatBojowy/F126Crash_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>FiatBojowy/F126_EmptyAO.dds</Texture>
+					</property>
+					<property>
+						crashTileMap
+						<Texture>vehicles/russian/Tank_detail/crash_tile.dds</Texture>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaReference
+						<Int>64</Int>
+					</property>
+					<property>
+						g_crashUVTiling
+						<Vector4>4 4 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>0.0007580000092275441 0.26892799139022827 -0.020159000530838966</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				2
+				<material>
+					<identifier>tank_chassis_01</identifier>
+					<fx>shaders/std_effects/PBS_tank_crash.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						normalMap
+						<Texture>vehicles/poland/Pl01_TKS_20mm/TKS_20mm_chassis_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/poland/Pl01_TKS_20mm/TKS_20mm_chassis_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/poland/Pl01_TKS_20mm/TKS_20mm_chassis_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/poland/Pl01_TKS_20mm/TKS_20mm_chassis_01_AO.dds</Texture>
+					</property>
+					<property>
+						crashTileMap
+						<Texture>vehicles/russian/Tank_detail/crash_tile.dds</Texture>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaReference
+						<Int>0</Int>
+					</property>
+					<property>
+						g_crashUVTiling
+						<Vector4>2 2 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>0.0 -0.23373299837112427 -0.085377998650074</groupOrigin>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>-0.865515 -1.566437 -0.325445</min>
+		<max>1.081575 1.905747 1.479170</max>
+	</boundingBox>
+</root>

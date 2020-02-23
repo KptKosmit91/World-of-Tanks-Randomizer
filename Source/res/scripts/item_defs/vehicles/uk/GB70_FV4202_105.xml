@@ -1,9 +1,9 @@
 <GB70_FV4202_105.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -73,7 +73,7 @@
     <hangarShadowTexture>vehicles/russian/R00_Placeholder/Placeholder_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -107,7 +107,7 @@
   <chassis>
     <Chassis_GB70_FV4202_105>
       <userString>#gb_vehicles:Chassis_GB70_FV4202_105</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -214,8 +214,8 @@
       </AODecals>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB70_FV4202_105>
@@ -223,7 +223,7 @@
   <turrets0>
     <Turret_1_GB70_FV4202_105>
       <userString>#gb_vehicles:Turret_1_GB70_FV4202_105</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -286,7 +286,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -306,7 +306,7 @@
             <density>29.281 29.2776</density>
             <aoTextureSize>128 128</aoTextureSize>
           </camouflage>
-        </Gun_FV4202>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Gun_FV4202>
       </guns>
       <models>
         <undamaged>vehicles/russian/R00_Placeholder/normal/lod0/Turret_01.model</undamaged>
@@ -323,7 +323,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -421,9 +421,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

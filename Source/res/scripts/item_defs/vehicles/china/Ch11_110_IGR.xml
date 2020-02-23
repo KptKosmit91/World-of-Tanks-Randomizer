@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -97,7 +97,7 @@
   <chassis>
     <Chassis_Ch11_110_2_IGR>
       <userString>#igr_vehicles:Chassis_Ch11_110_2_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>35000</price>
       <notInShop>true</notInShop>
@@ -366,7 +366,7 @@
             <length>0.152171</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.17895</xStart>
@@ -572,7 +572,7 @@
             <length>0.150416</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.21404</xStart>
@@ -769,7 +769,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Ch11_110_2_IGR>
@@ -777,7 +777,7 @@
   <turrets0>
     <Turret_2_Ch11_110_IGR>
       <userString>#igr_vehicles:Turret_2_Ch11_110_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33200</price>
       <notInShop>true</notInShop>
@@ -876,7 +876,7 @@
             <density>97.1153 97.648</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_62-100T_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_62-100T_IGR>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch11_110/normal/lod0/Turret_02.model</undamaged>
@@ -1006,7 +1006,7 @@
     <armour>1.18895793</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

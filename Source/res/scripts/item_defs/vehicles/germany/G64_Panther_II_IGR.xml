@@ -1,11 +1,11 @@
 <G64_Panther_II_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>55</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -103,7 +103,7 @@
     <Chassis_Panther_II_2_IGR>
       <userString>#igr_vehicles:Chassis_Panther_II_IGR</userString>
       <shortUserString>#igr_vehicles:Chassis_Panther_II_IGR_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30350</price>
       <notInShop>true</notInShop>
@@ -575,7 +575,7 @@
             <length>0.149156</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.02034</xStart>
@@ -732,7 +732,7 @@
                 <point>-1.4487 1.36903 3.02464</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -763,7 +763,7 @@
             <length>0.149194</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.02145</xStart>
@@ -920,14 +920,14 @@
                 <point>1.58871 1.25496 3.02134</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Panther_II_2_IGR>
@@ -935,7 +935,7 @@
   <turrets0>
     <Turret_2_Panther_II_IGR>
       <userString>#igr_vehicles:Turret_2_Panther_II_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>28550</price>
       <notInShop>true</notInShop>
@@ -1031,7 +1031,7 @@
             <density>129.476 101.926</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_88mm_KwK_43_L71_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71_IGR>
       </guns>
       <models>
         <undamaged>vehicles/german/G64_Panther_II/normal/lod0/Turret_02.model</undamaged>
@@ -1161,7 +1161,7 @@
     <armour>1.02451236</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

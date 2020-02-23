@@ -1,11 +1,11 @@
 <A35_Pershing_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@
   <chassis>
     <Pershingchassis2_IGR>
       <userString>#igr_vehicles:Pershingchassis2_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30250</price>
       <notInShop>true</notInShop>
@@ -409,7 +409,7 @@
             <length>0.13924</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91824</xStart>
@@ -566,7 +566,7 @@
                 <point>-1.39505 1.28809 2.79062</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -593,7 +593,7 @@
             <length>0.13924</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.91824</xStart>
@@ -750,14 +750,14 @@
                 <point>1.39506 1.30238 2.79062</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Pershingchassis2_IGR>
@@ -765,7 +765,7 @@
   <turrets0>
     <Turret_2_Pershing_IGR>
       <userString>#igr_vehicles:Turret_2_Pershing_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>46000</price>
       <notInShop>true</notInShop>
@@ -862,7 +862,7 @@
             <density>66.3964 72.9453</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_Gun_T15E2M2_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_Gun_T15E2M2_IGR>
       </guns>
       <models>
         <undamaged>vehicles/american/A35_Pershing/normal/lod0/Turret_02.model</undamaged>
@@ -962,7 +962,7 @@
     <armour>0.966014424</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -5,7 +5,7 @@ For the true Config file see Config/RandomizerConfig.xml
 
 '''
 
-randomizerversion = "0.8.1"
+randomizerversion = "0.8.2"
 wotversion="1.7.1.2"
 
 resOut = "Output/res/"
@@ -15,6 +15,9 @@ mapsPathOut = "Output/res/scripts/arena_defs/"
 
 tanksPath = "Source/res/scripts/item_defs/vehicles/"
 tanksPathOut = "Output/res/scripts/item_defs/vehicles/"
+
+addonNewTankModelsPath = "Addons/NewTankModels/"
+addonNewTankModelsVehiclesPath = "Addons/NewTankModels/Source/res/scripts/item_defs/vehicles/"
 
 # vehicle folders
 countryFolders={
@@ -46,7 +49,7 @@ wotmodName=root.find("WotmodFilename").text
 
 tankrandomizer = root.find("TankRandomizer")
 
-#Toggles
+#toggles
 chaosModeEnabled = tankrandomizer.find("ChaosModeEnabled").text.lower()
 RandomizeTankModels = tankrandomizer.find("RandomizeTankModels").text.lower()
 RandomizeEngineSounds = tankrandomizer.find("RandomizeEngineSounds").text.lower()
@@ -64,6 +67,7 @@ RandomizeFoliageColor = tankrandomizer.find("RandomizeFoliageColor").text.lower(
 CustomSounds = tankrandomizer.find("CustomSounds").text.lower()
 UseAlternativeGunSoundsMod = tankrandomizer.find("UseAlternativeGunSoundsMod").text.lower()
 UseOldGunSoundsMod = tankrandomizer.find("UseOldGunSoundsMod").text.lower()
+#end toggles
 
 SensitivityToImpulseMin = float(tankrandomizer.find("SensitivityToImpulseMin").text)
 SensitivityToImpulseMax = float(tankrandomizer.find("SensitivityToImpulseMax").text)
@@ -74,7 +78,13 @@ rpm_maxMin = float(tankrandomizer.find("EngineRPM_Max").find("Min").text)
 rpm_maxMax = float(tankrandomizer.find("EngineRPM_Max").find("Max").text)
 
 def isBlacklisted(tank):
-    if tank.endswith("_IGR.xml"):
+    if tank.lower().endswith(".xml") == False:
+        return True
+    if tank.lower() == "customization.xml":
+        return True
+    if tank.lower() == "list.xml":
+        return True
+    if tank.lower().endswith("_igr.xml"):
         return True
 
     tanks = tankrandomizer.find("ModelRandomizerBlacklist").findall("Tank")

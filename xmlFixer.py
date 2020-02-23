@@ -27,13 +27,20 @@ for m in maps:
     f.write(text)
     f.close()
 
-def getFilePaths():
+def getTankFilePaths():
     tanks = []
     for f in conf.countryFolders:
         folder = conf.tanksPath+conf.countryFolders[f]+"/"
-        for n in os.listdir(folder):
-            if n.lower() != "components" and n.lower() != "customization.xml" and n.lower() != "list.xml" and not conf.isBlacklisted(n):
-                tanks.append(folder+n)
+        if os.path.exists(folder):
+            for n in os.listdir(folder):
+                if n.lower() != "components" and n.lower() != "customization.xml" and n.lower() != "list.xml":
+                    tanks.append(folder+n)
+
+        folder = conf.addonNewTankModelsVehiclesPath+conf.countryFolders[f]+"/"
+        if os.path.exists(folder):
+            for n in os.listdir(folder):
+                if n.lower() != "components" and n.lower() != "customization.xml" and n.lower() != "list.xml":
+                    tanks.append(folder+n)
 
     return tanks
 
@@ -53,7 +60,7 @@ def work(tank):
 
     newtree.write(tank)
 
-tanks = getFilePaths()
+tanks = getTankFilePaths()
 
 for t in tanks:
     f = open(t, "r")

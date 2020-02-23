@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
+    <driver />
+    <gunner />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>80</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -301,7 +301,7 @@
   <chassis>
     <Chassis_F110_Lynx_6x6>
       <userString>#france_vehicles:Chassis_F110_Lynx_6x6</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <unlocks>
@@ -646,7 +646,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -666,7 +666,7 @@
     </Chassis_F110_Lynx_6x6>
     <Chassis_F110_Lynx_6x6_2>
       <userString>#france_vehicles:Chassis_F110_Lynx_6x6_2</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31400</price>
       <armor>
@@ -1007,7 +1007,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1029,7 +1029,7 @@
   <turrets0>
     <Turret_1_F110_Lynx_6x6>
       <userString>#france_vehicles:Turret_1_F110_Lynx_6x6</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <notInShop>true</notInShop>
@@ -1149,7 +1149,7 @@
             <density>113.581 118.538</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_SA50L>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA50L>
         <_90mm_D_921_F1>shared  <maxAmmo>38</maxAmmo>
           <unlocks>
             <gun>_90mm_CN_90_F3  <cost>23400</cost>
@@ -1239,7 +1239,7 @@
             <density>114.908 112.599</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_D_921_F1>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_D_921_F1>
         <_90mm_CN_90_F3>shared  <maxAmmo>38</maxAmmo>
           <armor>
             <gun>10</gun>
@@ -1325,7 +1325,7 @@
             <density>115.583 117.434</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_90mm_CN_90_F3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_CN_90_F3>
       </guns>
       <models>
         <undamaged>vehicles/french/F110_Lynx_6x6/normal/lod0/Turret_01.model</undamaged>
@@ -1627,25 +1627,25 @@
   </siege_mode>
   <extras>
     <wheel_Health>wheelHealths : WheelHealths  <sounds>
-        <destroyed></destroyed>
-        <critical></critical>
-        <functional></functional>
+        <destroyed />
+        <critical />
+        <functional />
       </sounds>
       <deviceUserString>#ingame_gui:devices/wheel</deviceUserString>
     </wheel_Health>
   </extras>
   <deviceExtras>
     <devices>
-      <wheel_Health>track  <multiple></multiple>
+      <wheel_Health>track  <multiple />
       </wheel_Health>
     </devices>
-    <tankmen></tankmen>
+    <tankmen />
   </deviceExtras>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <useHullZSize>True</useHullZSize>
   <useHullZOffset>True</useHullZOffset>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
     <groundCollisionLight>groundCollisionWheeledLight</groundCollisionLight>
     <groundCollisionHeavy>groundCollisionWheeledHeavy</groundCollisionHeavy>

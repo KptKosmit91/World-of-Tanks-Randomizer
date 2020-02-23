@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
+    <driver />
+    <gunner />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -116,7 +116,7 @@
   <chassis>
     <Chassis_F109_AMD_Panhard_178B>
       <userString>#france_vehicles:Chassis_F109_AMD_Panhard_178B</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9500</price>
       <unlocks>
@@ -378,7 +378,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -398,7 +398,7 @@
     </Chassis_F109_AMD_Panhard_178B>
     <Chassis_F109_AMD_Panhard_178B_2>
       <userString>#france_vehicles:Chassis_F109_AMD_Panhard_178B_2</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>14000</price>
       <armor>
@@ -656,7 +656,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -678,7 +678,7 @@
   <turrets0>
     <Turret_1_F109_AMD_Panhard_178B>
       <userString>#france_vehicles:Turret_1_F109_AMD_Panhard_178B</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10000</price>
       <armor>
@@ -793,7 +793,7 @@
             <density>92.8513 92.234</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA37B_ameliore>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA37B_ameliore>
       </guns>
       <models>
         <undamaged>vehicles/french/F109_AMD_Panhard_178B/normal/lod0/Turret_01.model</undamaged>
@@ -867,7 +867,7 @@
     </Turret_1_F109_AMD_Panhard_178B>
     <Turret_2_F109_AMD_Panhard_178B>
       <userString>#france_vehicles:Turret_2_F109_AMD_Panhard_178B</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>16000</price>
       <unlocks>
@@ -983,7 +983,7 @@
             <density>92.8513 92.234</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_47mm_SA37B_ameliore>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_47mm_SA37B_ameliore>
         <_75mm_Gun_M6B>shared  <maxAmmo>45</maxAmmo>
           <unlocks>
             <gun>_75mm_SA49_EBR  <cost>4100</cost>
@@ -1071,7 +1071,7 @@
             <density>124.777 125.719</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_M6B>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_M6B>
         <_75mm_SA49_EBR>shared  <maxAmmo>45</maxAmmo>
           <armor>
             <armor_1>20  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1156,7 +1156,7 @@
             <density>124.519 125.812</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_SA49_EBR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA49_EBR>
       </guns>
       <models>
         <undamaged>vehicles/french/F109_AMD_Panhard_178B/normal/lod0/Turret_02.model</undamaged>
@@ -1349,25 +1349,25 @@
   </physics>
   <extras>
     <wheel_Health>wheelHealths : WheelHealths  <sounds>
-        <destroyed></destroyed>
-        <critical></critical>
-        <functional></functional>
+        <destroyed />
+        <critical />
+        <functional />
       </sounds>
       <deviceUserString>#ingame_gui:devices/wheel</deviceUserString>
     </wheel_Health>
   </extras>
   <deviceExtras>
     <devices>
-      <wheel_Health>track  <multiple></multiple>
+      <wheel_Health>track  <multiple />
       </wheel_Health>
     </devices>
-    <tankmen></tankmen>
+    <tankmen />
   </deviceExtras>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <useHullZSize>True</useHullZSize>
   <useHullZOffset>True</useHullZOffset>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
     <groundCollisionLight>groundCollisionWheeledLight</groundCollisionLight>
     <groundCollisionHeavy>groundCollisionWheeledHeavy</groundCollisionHeavy>

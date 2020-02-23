@@ -1,12 +1,12 @@
 <GB72_AT15_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>20</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -149,7 +149,7 @@
   <chassis>
     <Chassis_GB72_AT15_2_IGR>
       <userString>#igr_vehicles:Chassis_GB72_AT15_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>39000</price>
       <notInShop>true</notInShop>
@@ -954,7 +954,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB72_AT15_2_IGR>
@@ -1047,7 +1047,7 @@
             <density>116.615 119.637</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_AT_Gun_Type_B_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_AT_Gun_Type_B_IGR>
       </guns>
       <models>
         <undamaged>vehicles/british/GB72_AT15/normal/lod0/Turret_01.model</undamaged>
@@ -1134,7 +1134,7 @@
     <armour>0.833838827</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

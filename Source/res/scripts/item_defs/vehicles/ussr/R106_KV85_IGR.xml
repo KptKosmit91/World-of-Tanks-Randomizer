@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>34</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -100,7 +100,7 @@
   <chassis>
     <Chassis_R106_KV85_2_IGR>
       <userString>#igr_vehicles:Chassis_R106_KV85_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>15390</price>
       <notInShop>true</notInShop>
@@ -826,7 +826,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_R106_KV85_2_IGR>
@@ -834,7 +834,7 @@
   <turrets0>
     <Turret_2_R106_KV85_IGR>
       <userString>#igr_vehicles:Turret_2_R106_KV85_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17500</price>
       <notInShop>true</notInShop>
@@ -930,7 +930,7 @@
             <density>88.8471 100.034</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_100mm_S34_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_S34_IGR>
       </guns>
       <models>
         <undamaged>vehicles/russian/R106_KV85/normal/lod0/Turret_03.model</undamaged>
@@ -1059,7 +1059,7 @@
     <armour>1.069430323</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -24,6 +24,7 @@ random.seed(seed)
 tanks = []
 
 tankXmlStorage = []
+tankBaseEmblemStorage = []
 
 isChaos = conf.chaosModeEnabled.lower()
 
@@ -34,9 +35,16 @@ guns = []
 def getFilePaths():
     for f in conf.countryFolders:
         folder = conf.tanksPath+conf.countryFolders[f]+"/"
-        for n in os.listdir(folder):
-            if n.lower() != "components" and n.lower() != "customization.xml" and n.lower() != "list.xml" and not conf.isBlacklisted(n):
-                tanks.append(folder+n)
+        if os.path.exists(folder):
+            for n in os.listdir(folder):
+                if not conf.isBlacklisted(n):
+                    tanks.append(folder+n)
+    
+        folder = conf.addonNewTankModelsVehiclesPath+conf.countryFolders[f]+"/"
+        if os.path.exists(folder):
+            for n in os.listdir(folder):
+                if not conf.isBlacklisted(n):
+                    tanks.append(folder+n)
 
 def getTankModels(tank):
     tree = ET.parse(tank)
@@ -47,6 +55,7 @@ def getTankModels(tank):
 
 
         tankXmlStorage.append(root)
+        tankBaseEmblemStorage.append(root.find("emblems"))
         hullModels.append(hull.find("models"))
     
     for t in root.find("turrets0").findall("*"):
@@ -56,8 +65,13 @@ def getTankModels(tank):
 
 
 def updateTankModels(tank):
+    name = tank.replace(conf.tanksPath, "")
+
+    if name.lower().startswith("addons"):
+        return False
+
     if randModels == "true":
-        print(("Randomizing Tank: " + tank).replace(conf.tanksPath, "").title())
+        print("Randomizing Tank: " + name.title())
 
     tree = ET.parse(tank)
     root = tree.getroot()
@@ -91,6 +105,10 @@ def updateTankModels(tank):
             if s.find("slotType").text.replace("	", "") == "clan":
                 newClanSlot = s
                 break
+        
+        if random.randint(0, 100) <= 90:
+            xml.addElement("turretHardPoints", tankXmlStorage[rand].find("hull").find("turretHardPoints"), root.find("hull"))
+            xml.removeAllElementsByName("variants", root.find("hull"))
 
         if newClanSlot is not None and clanSlot is not None:
             xml.addElement("rayStart", newClanSlot.find("rayStart"), clanSlot)
@@ -128,6 +146,10 @@ def updateTankModels(tank):
         hullModels.pop(rand)
         tankXmlStorage.pop(rand)
 
+        rand = xml.getRandomListIndex(tankBaseEmblemStorage, random)
+        selectedEmblem = tankBaseEmblemStorage[rand]
+        xml.addElement("emblems", selectedEmblem, root)
+
         rand = xml.getRandomListIndex(conf.getRandomExhaustEffects(), random)
         effect = conf.getRandomExhaustEffects()[rand]
         xml.insertElement("pixie", effect, root.find("hull").find("exhaust"))
@@ -148,7 +170,6 @@ def updateTankModels(tank):
         for g in t.find("guns").findall("*"):
 
             #gun effect is randomized twice (second time is in gunEffectRandomizer.py, this is required)
-
             isDoubleGun = g.find("RAND_IsDoubleGun").text.lower()
 
             if randModels == "true" and isDoubleGun == "false":
@@ -196,7 +217,9 @@ def updateTankModels(tank):
 
     newtree = ET.ElementTree(root)
 
-    newtree.write(tank.replace("Source", "Output"))
+    newtree.write(tank.replace(conf.addonNewTankModelsPath, "").replace("Source", "Output"))
+
+    return False
 
 print("Starting randomization... please wait, this process might take a while.")
 getFilePaths()

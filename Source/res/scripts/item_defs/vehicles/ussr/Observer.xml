@@ -22,7 +22,7 @@ driver</commander>
   <camouflage>
     <priceFactor>0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -74,8 +74,8 @@ driver</commander>
     <hangarShadowTexture>vehicles/russian/R11_MS-1/MS-1_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <camouflage>
@@ -87,7 +87,7 @@ driver</commander>
   <chassis>
     <Observer>
       <userString>#ussr_vehicles:T-18</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>240</price>
       <notInShop>true</notInShop>
@@ -213,8 +213,8 @@ driver</commander>
       <trackThickness>-0.0339</trackThickness>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Observer>
@@ -222,7 +222,7 @@ driver</commander>
   <turrets0>
     <Observer>
       <userString>#ussr_vehicles:T-18_Standart</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>0</price>
       <notInShop>true</notInShop>
@@ -292,8 +292,8 @@ driver</commander>
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <camouflage>
@@ -301,7 +301,7 @@ driver</commander>
             <density>107.23 107.131</density>
             <aoTextureSize>256 256</aoTextureSize>
           </camouflage>
-        </Observer>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Observer>
       </guns>
       <models>
         <undamaged>vehicles/russian/R11_MS-1/normal/lod0/Turret_01.model</undamaged>
@@ -318,8 +318,8 @@ driver</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -392,7 +392,7 @@ driver</commander>
     <camouflage>0</camouflage>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>empty</damagedStateGroup>
   </effects>
   <emblems>

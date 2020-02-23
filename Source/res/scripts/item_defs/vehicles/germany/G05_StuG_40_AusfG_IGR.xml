@@ -1,9 +1,9 @@
 <G05_StuG_40_AusfG_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -82,7 +82,7 @@
     <hangarShadowTexture>vehicles/german/G05_StuG_40_AusfG/StuG_40_AusfG_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -147,7 +147,7 @@
   <chassis>
     <StuGIII_Ausf_1943_IGR>
       <userString>#igr_vehicles:Chassis_StuG_40_AusfG_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4740</price>
       <notInShop>true</notInShop>
@@ -1030,8 +1030,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </StuGIII_Ausf_1943_IGR>
@@ -1095,7 +1095,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1116,7 +1116,7 @@
             <density>92.3425 98.3155</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_StuK42_L70_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_StuK42_L70_IGR>
       </guns>
       <models>
         <undamaged>vehicles/german/G05_StuG_40_AusfG/normal/lod0/turret_01.model</undamaged>
@@ -1133,8 +1133,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_02</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </StuGIII_0_IGR>
@@ -1198,7 +1198,7 @@
     <armour>0.737779</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

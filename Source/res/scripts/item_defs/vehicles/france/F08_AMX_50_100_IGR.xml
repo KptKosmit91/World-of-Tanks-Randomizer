@@ -3,7 +3,7 @@
   <crew>
     <commander>loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
     <radioman>loader</radioman>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -118,7 +118,7 @@
   <chassis>
     <Chassis_AMX_50_100_2_IGR>
       <userString>#igr_vehicles:Chassis_AMX_50_100_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>37250</price>
       <notInShop>true</notInShop>
@@ -431,7 +431,7 @@
             <length>0.156048</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.34777</xStart>
@@ -613,7 +613,7 @@
                 <point>-1.28723 1.2474 3.20624</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -640,7 +640,7 @@
             <length>0.155609</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.35633</xStart>
@@ -823,14 +823,14 @@
                 <point>1.53285 1.08945 3.25706</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_AMX_50_100_2_IGR>
@@ -838,7 +838,7 @@
   <turrets0>
     <Turret_1_AMX_50_100_IGR>
       <userString>#igr_vehicles:Turret_1_AMX_50_100_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>25000</price>
       <notInShop>true</notInShop>
@@ -935,7 +935,7 @@
             <density>102.405 98.071</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_100mm_SA_47_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_SA_47_IGR>
       </guns>
       <models>
         <undamaged>vehicles/french/F08_AMX_50_100/normal/lod0/Turret_01.model</undamaged>
@@ -1045,7 +1045,7 @@
     <armour>1.34250162</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

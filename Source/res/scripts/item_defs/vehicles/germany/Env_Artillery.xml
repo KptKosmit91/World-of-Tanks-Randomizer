@@ -1,12 +1,12 @@
 <Env_Artillery.xml>
   
   <crew>
-    <commander></commander>
-    <radioman></radioman>
-    <driver></driver>
-    <gunner></gunner>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <radioman />
+    <driver />
+    <gunner />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>0.000001</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -134,7 +134,7 @@
       </slot>
     </customizationSlots>
     <camouflage>
-      <exclusionMask></exclusionMask>
+      <exclusionMask />
       <density>83.3006 83.2356</density>
       <aoTextureSize>1024 1024</aoTextureSize>
     </camouflage>
@@ -142,7 +142,7 @@
   <chassis>
     <Chassis_Env_Artillery>
       <userString>#germany_vehicles:Chassis_Env_Artillery</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>9000</price>
       <notInShop>true</notInShop>
@@ -403,7 +403,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Env_Artillery>
@@ -483,11 +483,11 @@
           </customizationSlots>
           <camouflage>
             <tiling>0.805 0.805 0.000000 0.000000</tiling>
-            <exclusionMask></exclusionMask>
+            <exclusionMask />
             <density>102.54 106.71</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </Gun_Env_Artillery>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Gun_Env_Artillery>
       </guns>
       <models>
         <undamaged>vehicles/german/G02_Hummel/normal/lod0/Turret_02.model</undamaged>
@@ -504,7 +504,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -569,9 +569,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

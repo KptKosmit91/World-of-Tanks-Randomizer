@@ -1,11 +1,11 @@
 <GB21_Cromwell_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>64</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.2</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -102,7 +102,7 @@
   <chassis>
     <Chassis_GB21_Cromwell_2_IGR>
       <userString>#igr_vehicles:Chassis_GB21_Cromwell_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>19000</price>
       <notInShop>true</notInShop>
@@ -463,7 +463,7 @@
             <length>0.101257</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92722</xStart>
@@ -654,7 +654,7 @@
                 <point>-1.2315 1.09266 2.99637</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -681,7 +681,7 @@
             <length>0.101257</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.92722</xStart>
@@ -872,14 +872,14 @@
                 <point>1.31151 1.09286 2.99637</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB21_Cromwell_2_IGR>
@@ -887,7 +887,7 @@
   <turrets0>
     <Turret_2_GB21_Cromwell_IGR>
       <userString>#igr_vehicles:Turret_2_GB21_Cromwell_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>17500</price>
       <notInShop>true</notInShop>
@@ -970,7 +970,7 @@
             <density>118.322 124.644</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Vickers_HV_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Vickers_HV_IGR>
       </guns>
       <models>
         <undamaged>vehicles/british/GB21_Cromwell/normal/lod0/Turret_02.model</undamaged>
@@ -1080,7 +1080,7 @@
     <armour>0.896736835</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

@@ -1,11 +1,11 @@
 <A15_T57.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>49.9</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>0.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -73,7 +73,7 @@
     <hangarShadowTexture>vehicles/russian/R00_Placeholder/Placeholder_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -138,7 +138,7 @@
   <chassis>
     <VVSS_T36E6>
       <userString>#usa_vehicles:VVSS_T36E6</userString>
-      <tags></tags>
+      <tags />
       <level>1</level>
       <price>270</price>
       <notInShop>true</notInShop>
@@ -245,8 +245,8 @@
       </AODecals>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </VVSS_T36E6>
@@ -313,7 +313,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -322,7 +322,7 @@
             <density>29.281 29.2776</density>
             <aoTextureSize>128 128</aoTextureSize>
           </camouflage>
-        </_12.7mm_T23>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_12.7mm_T23>
       </guns>
       <models>
         <undamaged>vehicles/russian/R00_Placeholder/normal/lod0/Turret_01.model</undamaged>
@@ -339,8 +339,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_03</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -405,9 +405,9 @@
       </chassis>
     </detailed>
   </physics>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>

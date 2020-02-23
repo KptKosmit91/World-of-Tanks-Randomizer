@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <radioman></radioman>
+    <driver />
+    <gunner />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>70</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -121,7 +121,7 @@
   <chassis>
     <Chassis_F107_Hotchkiss_EBR>
       <userString>#france_vehicles:Chassis_F107_Hotchkiss_EBR</userString>
-      <tags></tags>
+      <tags />
       <level>6</level>
       <price>12500</price>
       <unlocks>
@@ -453,7 +453,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -473,7 +473,7 @@
     </Chassis_F107_Hotchkiss_EBR>
     <Chassis_F107_Hotchkiss_EBR_2>
       <userString>#france_vehicles:Chassis_F107_Hotchkiss_EBR_2</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21800</price>
       <armor>
@@ -801,7 +801,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -823,7 +823,7 @@
   <turrets0>
     <Turret_1_F107_Hotchkiss_EBR>
       <userString>#france_vehicles:Turret_1_F107_Hotchkiss_EBR</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>20000</price>
       <notInShop>true</notInShop>
@@ -934,7 +934,7 @@
             <density>115.268 116.553</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_75mm_SA49_EBR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_SA49_EBR>
         <Canon_de_75mm_Vo_920_m_s_EBR>shared  <maxAmmo>60</maxAmmo>
           <unlocks>
             <gun>Canon_de_75mm_Vo_1000_m_s_EBR  <cost>12200</cost>
@@ -1016,7 +1016,7 @@
             <density>103.84 103.802</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_75mm_Vo_920_m_s_EBR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_75mm_Vo_920_m_s_EBR>
         <Canon_de_75mm_Vo_1000_m_s_EBR>shared  <maxAmmo>60</maxAmmo>
           <armor>
             <armor_1>40  <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1094,7 +1094,7 @@
             <density>102.361 105.534</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </Canon_de_75mm_Vo_1000_m_s_EBR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Canon_de_75mm_Vo_1000_m_s_EBR>
       </guns>
       <models>
         <undamaged>vehicles/french/F107_Hotchkiss_EBR/normal/lod0/Turret_01.model</undamaged>
@@ -1295,25 +1295,25 @@
   </physics>
   <extras>
     <wheel_Health>wheelHealths : WheelHealths  <sounds>
-        <destroyed></destroyed>
-        <critical></critical>
-        <functional></functional>
+        <destroyed />
+        <critical />
+        <functional />
       </sounds>
       <deviceUserString>#ingame_gui:devices/wheel</deviceUserString>
     </wheel_Health>
   </extras>
   <deviceExtras>
     <devices>
-      <wheel_Health>track  <multiple></multiple>
+      <wheel_Health>track  <multiple />
       </wheel_Health>
     </devices>
-    <tankmen></tankmen>
+    <tankmen />
   </deviceExtras>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <useHullZSize>True</useHullZSize>
   <useHullZOffset>True</useHullZOffset>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
     <groundCollisionLight>groundCollisionWheeledLight</groundCollisionLight>
     <groundCollisionHeavy>groundCollisionWheeledHeavy</groundCollisionHeavy>

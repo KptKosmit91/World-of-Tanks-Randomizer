@@ -1,12 +1,12 @@
 <A13_T34_hvy_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -100,7 +100,7 @@
   <chassis>
     <T80E3_IGR>
       <userString>#igr_vehicles:Chassis_T34_hvy_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <notInShop>true</notInShop>
       <price>31500</price>
@@ -980,7 +980,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T80E3_IGR>
@@ -988,7 +988,7 @@
   <turrets0>
     <T34T7_IGR>
       <userString>#igr_vehicles:Turret_1_T34_hvy_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <notInShop>true</notInShop>
       <price>47700</price>
@@ -1082,7 +1082,7 @@
             <density>95.2227 92.6153</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_120mm_Gun_T53A1_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_Gun_T53A1_IGR>
       </guns>
       <models>
         <undamaged>vehicles/american/A13_T34_hvy/normal/lod0/Turret_01.model</undamaged>
@@ -1212,7 +1212,7 @@
     <armour>0.968169405</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

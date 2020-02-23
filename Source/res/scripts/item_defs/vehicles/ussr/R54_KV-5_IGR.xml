@@ -1,12 +1,12 @@
 <R54_KV-5_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>40</forward>
@@ -25,7 +25,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -111,7 +111,7 @@
   <chassis>
     <Chassis_KV-5_IGR>
       <userString>#igr_vehicles:Chassis_KV-5_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18400</price>
       <notInShop>true</notInShop>
@@ -864,7 +864,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_KV-5_IGR>
@@ -872,7 +872,7 @@
   <turrets0>
     <Turret_1_KV-5_IGR>
       <userString>#igr_vehicles:Turret_1_KV-5_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>21500</price>
       <notInShop>true</notInShop>
@@ -951,7 +951,7 @@
             <density>108.659 108.528</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_107mm_ZiS-6M_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_107mm_ZiS-6M_IGR>
       </guns>
       <models>
         <undamaged>vehicles/russian/R54_KV-5/normal/lod0/Turret_01.model</undamaged>
@@ -1071,7 +1071,7 @@
     <armour>1.005464988</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

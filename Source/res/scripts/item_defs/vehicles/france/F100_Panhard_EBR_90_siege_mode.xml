@@ -2,9 +2,9 @@
   
   <crew>
     <commander>loader</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
+    <gunner />
+    <driver />
+    <radioman />
   </crew>
   <speedLimits>
     <forward>85</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -149,7 +149,7 @@
   <chassis>
     <Chassis_F100_Panhard_EBR_90>
       <userString>#france_vehicles:Chassis_F100_Panhard_EBR_90</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30000</price>
       <unlocks>
@@ -561,7 +561,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -581,7 +581,7 @@
     </Chassis_F100_Panhard_EBR_90>
     <Chassis_F100_Panhard_EBR_90_2>
       <userString>#france_vehicles:Chassis_F100_Panhard_EBR_90_2</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>58900</price>
       <armor>
@@ -989,7 +989,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -1011,7 +1011,7 @@
   <turrets0>
     <Turret_1_F100_Panhard_EBR_90>
       <userString>#france_vehicles:Turret_1_F100_Panhard_EBR_90</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>50000</price>
       <notInShop>true</notInShop>
@@ -1124,7 +1124,7 @@
             <density>151.701 158.318</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_90mm_CN_90_F3>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_CN_90_F3>
         <_90mm_D_921>shared  <maxAmmo>43</maxAmmo>
           <armor>
             <armor_1>30</armor_1>
@@ -1205,7 +1205,7 @@
             <density>158.849 159.505</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_90mm_D_921>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_90mm_D_921>
       </guns>
       <models>
         <undamaged>vehicles/french/F100_Panhard_EBR_90/normal/lod0/Turret_01.model</undamaged>
@@ -1376,25 +1376,25 @@
   </siege_mode>
   <extras>
     <wheel_Health>wheelHealths : WheelHealths  <sounds>
-        <destroyed></destroyed>
-        <critical></critical>
-        <functional></functional>
+        <destroyed />
+        <critical />
+        <functional />
       </sounds>
       <deviceUserString>#ingame_gui:devices/wheel</deviceUserString>
     </wheel_Health>
   </extras>
   <deviceExtras>
     <devices>
-      <wheel_Health>track  <multiple></multiple>
+      <wheel_Health>track  <multiple />
       </wheel_Health>
     </devices>
-    <tankmen></tankmen>
+    <tankmen />
   </deviceExtras>
-  <clientAdjustmentFactors></clientAdjustmentFactors>
+  <clientAdjustmentFactors />
   <useHullZSize>True</useHullZSize>
   <useHullZOffset>True</useHullZOffset>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
     <groundCollisionLight>groundCollisionWheeledLight</groundCollisionLight>
     <groundCollisionHeavy>groundCollisionWheeledHeavy</groundCollisionHeavy>

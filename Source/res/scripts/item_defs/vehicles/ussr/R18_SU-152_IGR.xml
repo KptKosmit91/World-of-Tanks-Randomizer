@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>43</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -81,7 +81,7 @@
     <hangarShadowTexture>vehicles/russian/R18_SU-152/SU-152_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -146,7 +146,7 @@
   <chassis>
     <SU-152_mod_1944_IGR>
       <userString>#igr_vehicles:SU-152_mod_1944_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32710</price>
       <notInShop>true</notInShop>
@@ -425,7 +425,7 @@
             <length>0.153782</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.31673</xStart>
@@ -630,7 +630,7 @@
             <length>0.156299</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.34454</xStart>
@@ -816,8 +816,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </SU-152_mod_1944_IGR>
@@ -878,7 +878,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -899,7 +899,7 @@
             <density>93.8193 99.3927</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_D-25C_mod1944_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_D-25C_mod1944_IGR>
       </guns>
       <models>
         <undamaged>vehicles/russian/R18_SU-152/normal/lod0/Turret_01.model</undamaged>
@@ -916,8 +916,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_05</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </SU-152_01_IGR>
@@ -981,7 +981,7 @@
     <armour>1.040522556</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

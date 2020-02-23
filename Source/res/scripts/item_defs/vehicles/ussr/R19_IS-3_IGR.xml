@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>38</forward>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -101,7 +101,7 @@
   <chassis>
     <IS-3M_IGR>
       <userString>#igr_vehicles:Chassis_IS-3_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31450</price>
       <notInShop>true</notInShop>
@@ -784,7 +784,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </IS-3M_IGR>
@@ -792,7 +792,7 @@
   <turrets0>
     <Mod_T-10_IGR>
       <userString>#igr_vehicles:Turret_2_IS-3_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31500</price>
       <notInShop>true</notInShop>
@@ -885,7 +885,7 @@
             <density>101.568 106.737</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_122mm_BL-9_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122mm_BL-9_IGR>
       </guns>
       <models>
         <undamaged>vehicles/russian/R19_IS-3/normal/lod0/Turret_02.model</undamaged>
@@ -1015,7 +1015,7 @@
     <armour>1.098949784</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

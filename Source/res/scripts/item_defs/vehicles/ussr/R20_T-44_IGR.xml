@@ -1,9 +1,9 @@
 <R20_T-44_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -96,7 +96,7 @@
   <chassis>
     <T-44Bis_IGR>
       <userString>#igr_vehicles:Chassis_T-44_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30200</price>
       <notInShop>true</notInShop>
@@ -496,7 +496,7 @@
             <length>0.170104</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.79681</xStart>
@@ -657,7 +657,7 @@
                 <point>-1.43354 1.03444 2.90475</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -688,7 +688,7 @@
             <length>0.169761</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.7954</xStart>
@@ -849,14 +849,14 @@
                 <point>1.43354 1.0012 2.9088</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T-44Bis_IGR>
@@ -864,7 +864,7 @@
   <turrets0>
     <T-44-100_IGR>
       <userString>#igr_vehicles:Turret_2_T-44_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>9</level>
       <price>48000</price>
       <notInShop>true</notInShop>
@@ -963,7 +963,7 @@
             <density>106.008 109.868</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_LB-1_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_LB-1_IGR>
       </guns>
       <models>
         <undamaged>vehicles/russian/R20_T-44/normal/lod0/Turret_02.model</undamaged>
@@ -1093,7 +1093,7 @@
     <armour>1.08057228</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

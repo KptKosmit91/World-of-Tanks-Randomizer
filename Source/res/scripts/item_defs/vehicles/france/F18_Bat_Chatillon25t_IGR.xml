@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -103,7 +103,7 @@ loader</commander>
   <chassis>
     <Chassis_Bat_Chatillon25t_2_IGR>
       <userString>#igr_vehicles:Chassis_Bat_Chatillon25t_2_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>68200</price>
       <notInShop>true</notInShop>
@@ -814,7 +814,7 @@ loader</commander>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Bat_Chatillon25t_2_IGR>
@@ -823,7 +823,7 @@ loader</commander>
     <Turret_1_Bat_Chatillon25t_IGR>
       <userString>#igr_vehicles:Turret_1_Bat_Chatillon25t_IGR</userString>
       <shortUserString>#igr_vehicles:Turret_1_Bat_Chatillon25t_IGR_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>37000</price>
       <notInShop>true</notInShop>
@@ -921,7 +921,7 @@ loader</commander>
             <density>118.079 116.364</density>
             <aoTextureSize>1024 512</aoTextureSize>
           </camouflage>
-        </_105mm_CN_105_57_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_CN_105_57_IGR>
       </guns>
       <models>
         <undamaged>vehicles/french/F18_Bat_Chatillon25t/normal/lod0/Turret_01.model</undamaged>
@@ -1041,7 +1041,7 @@ loader</commander>
     <armour>1.321930894</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

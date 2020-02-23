@@ -4,7 +4,7 @@
     <commander>radioman
 loader</commander>
     <gunner>loader</gunner>
-    <driver></driver>
+    <driver />
   </crew>
   <speedLimits>
     <forward>64</forward>
@@ -22,7 +22,7 @@ loader</commander>
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -72,7 +72,7 @@ loader</commander>
     <hangarShadowTexture>vehicles/american/A103_T71E1/T71E1_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -112,7 +112,7 @@ loader</commander>
   <chassis>
     <Chassis_T71_2_IGR>
       <userString>#igr_vehicles:Chassis_T71_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>18000</price>
       <notInShop>true</notInShop>
@@ -373,7 +373,7 @@ loader</commander>
             <length>0.125314</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.39505</xStart>
@@ -571,7 +571,7 @@ loader</commander>
             <length>0.125288</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.39568</xStart>
@@ -748,8 +748,8 @@ loader</commander>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -765,7 +765,7 @@ loader</commander>
   <turrets0>
     <Turret_1_T71_IGR>
       <userString>#igr_vehicles:Turret_1_T71_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>17400</price>
       <notInShop>true</notInShop>
@@ -837,7 +837,7 @@ loader</commander>
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -865,7 +865,7 @@ loader</commander>
             <density>102.839 103.155</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_T185E_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_T185E_IGR>
       </guns>
       <models>
         <undamaged>vehicles/american/A103_T71E1/normal/lod0/Turret_01.model</undamaged>
@@ -882,7 +882,7 @@ loader</commander>
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>

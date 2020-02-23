@@ -1,11 +1,11 @@
 <A58_T67_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>61</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -67,7 +67,7 @@
     <hangarShadowTexture>vehicles/american/A58_T67/T67_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -92,7 +92,7 @@
   <chassis>
     <Chassis_T49_2_IGR>
       <userString>#igr_vehicles:Chassis_T49_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>10200</price>
       <notInShop>true</notInShop>
@@ -840,8 +840,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_T49_2_IGR>
@@ -920,7 +920,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -941,7 +941,7 @@
             <density>99.313 98.8006</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_76mm_AT_Gun_M1A1_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_AT_Gun_M1A1_IGR>
       </guns>
       <models>
         <undamaged>vehicles/american/A58_T67/normal/lod0/Turret_02.model</undamaged>
@@ -958,7 +958,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1071,7 +1071,7 @@
     <armour>0.590817144</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

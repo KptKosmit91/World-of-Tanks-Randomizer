@@ -1,9 +1,9 @@
 <GB11_Caernarvon_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -110,7 +110,7 @@
   <chassis>
     <Chassis_GB11_Caernarvon_2_IGR>
       <userString>#igr_vehicles:Chassis_GB11_Caernarvon_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>30500</price>
       <notInShop>true</notInShop>
@@ -1013,7 +1013,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB11_Caernarvon_2_IGR>
@@ -1021,7 +1021,7 @@
   <turrets0>
     <Turret_2_GB11_Caernarvon_IGR>
       <userString>#igr_vehicles:Turret_2_GB11_Caernarvon_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>31000</price>
       <notInShop>true</notInShop>
@@ -1109,7 +1109,7 @@
             <density>107.239 109.503</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_B_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_B_IGR>
       </guns>
       <models>
         <undamaged>vehicles/british/GB11_Caernarvon/normal/lod0/Turret_02.model</undamaged>
@@ -1218,7 +1218,7 @@
     <armour>1.027357776</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

@@ -2,9 +2,9 @@
   
   <crew>
     <commander>radioman</commander>
-    <gunner></gunner>
-    <driver></driver>
-    <loader></loader>
+    <gunner />
+    <driver />
+    <loader />
   </crew>
   <speedLimits>
     <forward>65</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -79,7 +79,7 @@
     <hangarShadowTexture>vehicles/german/G48_E-25/E-25_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -135,7 +135,7 @@
   <chassis>
     <Chassis_E-25_IGR>
       <userString>#igr_vehicles:Chassis_E-25_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>12860</price>
       <notInShop>true</notInShop>
@@ -402,7 +402,7 @@
             <length>0.106017</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.09532</xStart>
@@ -555,7 +555,7 @@
                 <point>-1.32088 0.932626 2.0924</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -582,7 +582,7 @@
             <length>0.106017</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-2.04231</xStart>
@@ -734,14 +734,14 @@
                 <point>1.14091 1.0616 2.09239</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_E-25_IGR>
@@ -812,7 +812,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -833,7 +833,7 @@
             <density>105.642 102.199</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_StuK42_L70A_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_StuK42_L70A_IGR>
       </guns>
       <models>
         <undamaged>vehicles/german/G48_E-25/normal/lod0/Turret_01.model</undamaged>
@@ -850,8 +850,8 @@
       <wwturretRotatorSoundManual>tur_man_trav_07</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Turret_1_E-25_IGR>
@@ -915,7 +915,7 @@
     <armour>0.894766878</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

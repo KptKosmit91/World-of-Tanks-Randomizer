@@ -1,9 +1,9 @@
 <Ch22_113_Beijing_Opera.xml>
   
   <crew>
-    <commander></commander>
-    <driver></driver>
-    <gunner></gunner>
+    <commander />
+    <driver />
+    <gunner />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -75,8 +75,8 @@
     <hangarShadowTexture>vehicles/chinese/Ch22_113_Beijing_Opera/113_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
-        <camouflage></camouflage>
+        <paint />
+        <camouflage />
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
@@ -99,7 +99,7 @@
   <chassis>
     <Chassis_Ch22_113_Beijing_Opera>
       <userString>#china_vehicles:Chassis_Ch22_113_Beijing_Opera</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -528,7 +528,7 @@
             <length>0.15604</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.6407</xStart>
@@ -693,7 +693,7 @@
                 <point>-1.47276 1.09309 3.38117</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -720,7 +720,7 @@
             <length>0.156103</length>
           </mainSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.63946</xStart>
@@ -885,14 +885,14 @@
                 <point>1.49278 0.993779 3.38523</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Ch22_113_Beijing_Opera>
@@ -900,7 +900,7 @@
   <turrets0>
     <Turret_1_Ch22_113_Beijing_Opera>
       <userString>#china_vehicles:Turret_1_Ch22_113_Beijing_Opera</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -974,8 +974,8 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
-              <camouflage></camouflage>
+              <paint />
+              <camouflage />
             </customizableVehicleAreas>
           </customization>
           <customizationSlots>
@@ -994,7 +994,7 @@
             <density>121.507 122.972</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_122-mm_60-122TP>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_60-122TP>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch22_113_Beijing_Opera/normal/lod0/Turret_01.model</undamaged>
@@ -1011,8 +1011,8 @@
       <physicsShape>1.057 0.031 1.072 0.000 0.689 0.175 0.618 0.439 0.468 0.500 0.457 0.487 0.243 0.346 0.275</physicsShape>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -1080,7 +1080,7 @@
     <armour>1.250992035</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

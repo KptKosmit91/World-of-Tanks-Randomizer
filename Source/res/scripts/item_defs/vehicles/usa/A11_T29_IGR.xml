@@ -1,12 +1,12 @@
 <A11_T29_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
+    <loader />
   </crew>
   <speedLimits>
     <forward>35</forward>
@@ -24,7 +24,7 @@
   <camouflage>
     <priceFactor>1.4</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -74,7 +74,7 @@
     <hangarShadowTexture>vehicles/american/A11_T29/T29_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -99,7 +99,7 @@
   <chassis>
     <T84E3_IGR>
       <userString>#igr_vehicles:T84E3_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>22000</price>
       <notInShop>true</notInShop>
@@ -383,7 +383,7 @@
             <length>0.0735292</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.63281</xStart>
@@ -647,7 +647,7 @@
                 <point>-1.53361 1.37505 3.5549</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </left>
         <right>
@@ -678,7 +678,7 @@
             <length>0.0735483</length>
           </secSegment>
           <collisionHull>
-            <bottom></bottom>
+            <bottom />
             <top>
               <part>
                 <xStart>-3.63888</xStart>
@@ -943,14 +943,14 @@
                 <point>1.64361 1.4027 3.57282</point>
               </range>
             </top>
-            <bottom></bottom>
+            <bottom />
           </sourceCollisionHullPoints>
         </right>
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T84E3_IGR>
@@ -958,7 +958,7 @@
   <turrets0>
     <T136_IGR>
       <userString>#igr_vehicles:T136_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>7</level>
       <price>25500</price>
       <notInShop>true</notInShop>
@@ -1033,7 +1033,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1054,7 +1054,7 @@
             <density>99.0174 92.4049</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_T5E1_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_T5E1_IGR>
       </guns>
       <models>
         <undamaged>vehicles/american/A11_T29/normal/lod0/Turret_02.model</undamaged>
@@ -1071,7 +1071,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1179,7 +1179,7 @@
     <armour>1.035144781</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

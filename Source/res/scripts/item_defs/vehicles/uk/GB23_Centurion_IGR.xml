@@ -1,9 +1,9 @@
 <GB23_Centurion_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -109,7 +109,7 @@
   <chassis>
     <Chassis_GB23_Centurion_2_IGR>
       <userString>#igr_vehicles:Chassis_GB23_Centurion_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>33000</price>
       <notInShop>true</notInShop>
@@ -1095,7 +1095,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB23_Centurion_2_IGR>
@@ -1103,7 +1103,7 @@
   <turrets0>
     <Turret_2_GB23_Centurion_IGR>
       <userString>#igr_vehicles:Turret_2_GB23_Centurion_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>42000</price>
       <notInShop>true</notInShop>
@@ -1204,7 +1204,7 @@
             <density>115.516 119.612</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_20pdr_Gun_Type_A_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20pdr_Gun_Type_A_IGR>
       </guns>
       <models>
         <undamaged>vehicles/british/GB23_Centurion/normal/lod0/Turret_02.model</undamaged>
@@ -1313,7 +1313,7 @@
     <armour>0.913171085</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

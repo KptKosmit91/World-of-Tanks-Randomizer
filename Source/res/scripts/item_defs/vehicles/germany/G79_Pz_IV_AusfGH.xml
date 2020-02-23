@@ -1,11 +1,11 @@
 <G79_Pz_IV_AusfGH.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -108,7 +108,7 @@
   <chassis>
     <PzIV_Ausf_1940>
       <userString>#germany_vehicles:PzIV_Ausf_1940</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4510</price>
       <notInShop>true</notInShop>
@@ -216,7 +216,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
@@ -239,7 +239,7 @@
     <PzIV_Standart>
       <userString>#germany_vehicles:PzIV_Standart</userString>
       <shortUserString>#germany_vehicles:PzIV_Standart_short</shortUserString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8500</price>
       <notInShop>true</notInShop>
@@ -345,7 +345,7 @@
             <density>29.281 29.2776</density>
             <aoTextureSize>128 128</aoTextureSize>
           </camouflage>
-        </Gun_PzIV>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></Gun_PzIV>
       </guns>
       <models>
         <undamaged>vehicles/russian/R00_Placeholder/normal/lod0/Turret_01.model</undamaged>
@@ -465,7 +465,7 @@
     <armour>1.137880682</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

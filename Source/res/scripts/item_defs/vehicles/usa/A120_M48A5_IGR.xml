@@ -1,9 +1,9 @@
 <A120_M48A5_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>2.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -100,7 +100,7 @@
   <chassis>
     <Chassis_A120_M48A5_IGR>
       <userString>#igr_vehicles:Chassis_A120_M48A5_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>82500</price>
       <notInShop>true</notInShop>
@@ -1216,7 +1216,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_A120_M48A5_IGR>
@@ -1224,7 +1224,7 @@
   <turrets0>
     <Turret_1_A120_M48A5_IGR>
       <userString>#igr_vehicles:Turret_1_A120_M48A5_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>10</level>
       <price>66000</price>
       <notInShop>true</notInShop>
@@ -1322,7 +1322,7 @@
             <density>140.853 146.433</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_105mm_Gun_M68_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_105mm_Gun_M68_IGR>
       </guns>
       <models>
         <undamaged>vehicles/american/A120_M48A5/normal/lod0/Turret_01.model</undamaged>
@@ -1453,7 +1453,7 @@
     <armour>1.065747476</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>

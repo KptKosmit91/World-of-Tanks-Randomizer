@@ -1,11 +1,11 @@
 <A05_M4_Sherman_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
-    <radioman></radioman>
-    <loader></loader>
+    <commander />
+    <gunner />
+    <driver />
+    <radioman />
+    <loader />
   </crew>
   <speedLimits>
     <forward>48</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -76,7 +76,7 @@
     <hangarShadowTexture>vehicles/american/A05_M4_Sherman/M4_Sherman_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -121,7 +121,7 @@
   <chassis>
     <T42_IGR>
       <userString>#igr_vehicles:T42_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8300</price>
       <notInShop>true</notInShop>
@@ -1129,8 +1129,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </T42_IGR>
@@ -1138,7 +1138,7 @@
   <turrets0>
     <D51072_IGR>
       <userString>#igr_vehicles:D51072_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>11500</price>
       <notInShop>true</notInShop>
@@ -1208,7 +1208,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -1229,7 +1229,7 @@
             <density>110.308 123.631</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_76mm_Gun_M1A1_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_76mm_Gun_M1A1_IGR>
       </guns>
       <models>
         <undamaged>vehicles/american/A05_M4_Sherman/normal/lod0/Turret_02.model</undamaged>
@@ -1246,7 +1246,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1339,7 +1339,7 @@
     <armour>0.99230542</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

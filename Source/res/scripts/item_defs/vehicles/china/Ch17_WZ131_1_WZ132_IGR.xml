@@ -1,9 +1,9 @@
 <Ch17_WZ131_1_WZ132_IGR.xml>
   
   <crew>
-    <commander></commander>
-    <gunner></gunner>
-    <driver></driver>
+    <commander />
+    <gunner />
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>1.6</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -97,7 +97,7 @@
   <chassis>
     <Chassis_Ch17_WZ131_1_WZ132_2_IGR>
       <userString>#igr_vehicles:Chassis_Ch17_WZ131_1_WZ132_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <notInShop>true</notInShop>
@@ -912,7 +912,7 @@
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
-          <camouflage></camouflage>
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_Ch17_WZ131_1_WZ132_2_IGR>
@@ -920,7 +920,7 @@
   <turrets0>
     <Turret_2_Ch17_WZ131_1_WZ132_IGR>
       <userString>#igr_vehicles:Turret_2_Ch17_WZ131_1_WZ132_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>8</level>
       <price>32000</price>
       <notInShop>true</notInShop>
@@ -1013,7 +1013,7 @@
             <density>124.507 130.06</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        </_100mm_60-100TA_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_100mm_60-100TA_IGR>
       </guns>
       <models>
         <undamaged>vehicles/chinese/Ch17_WZ131_1_WZ132/normal/lod0/Turret_02.model</undamaged>
@@ -1143,7 +1143,7 @@
     <armour>0.900299889</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

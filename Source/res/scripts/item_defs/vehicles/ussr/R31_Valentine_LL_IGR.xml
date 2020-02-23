@@ -2,7 +2,7 @@
   
   <crew>
     <commander>gunner</commander>
-    <driver></driver>
+    <driver />
     <loader>radioman</loader>
   </crew>
   <speedLimits>
@@ -22,7 +22,7 @@
   <camouflage>
     <priceFactor>0.8</priceFactor>
     <tiling>1 1 0 0</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -76,7 +76,7 @@
     <hangarShadowTexture>vehicles/russian/R31_Valentine_LL/Valentine_LL_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -101,7 +101,7 @@
   <chassis>
     <ValentineMK_I_IGR>
       <userString>#igr_vehicles:ValentineMK_I_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>4510</price>
       <notInShop>true</notInShop>
@@ -849,8 +849,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </ValentineMK_I_IGR>
@@ -858,7 +858,7 @@
   <turrets0>
     <Valentine_LL_IGR>
       <userString>#igr_vehicles:Turret_Valentine_LL_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>4</level>
       <price>8160</price>
       <notInShop>true</notInShop>
@@ -921,7 +921,7 @@
           </hitTester>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -930,7 +930,7 @@
             <density>119.32 125.955</density>
             <aoTextureSize>256 128</aoTextureSize>
           </camouflage>
-        </_45mm_20KL_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_45mm_20KL_IGR>
       </guns>
       <models>
         <undamaged>vehicles/russian/R31_Valentine_LL/normal/lod0/Turret_01.model</undamaged>
@@ -947,7 +947,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -1039,7 +1039,7 @@
     <armour>0.847473423</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>medium</damagedStateGroup>
   </effects>
   <emblems>

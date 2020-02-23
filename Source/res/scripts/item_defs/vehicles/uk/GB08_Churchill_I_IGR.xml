@@ -2,10 +2,10 @@
   
   <crew>
     <commander>radioman</commander>
-    <driver></driver>
-    <gunner></gunner>
-    <gunner></gunner>
-    <loader></loader>
+    <driver />
+    <gunner />
+    <gunner />
+    <loader />
   </crew>
   <speedLimits>
     <forward>25.7</forward>
@@ -23,7 +23,7 @@
   <camouflage>
     <priceFactor>1.0</priceFactor>
     <tiling>3 3 0.000000 0.000000</tiling>
-    <exclusionMask></exclusionMask>
+    <exclusionMask />
   </camouflage>
   <hull>
     <armor>
@@ -80,7 +80,7 @@
     <hangarShadowTexture>vehicles/british/GB08_Churchill_I/Churchill_I_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint></paint>
+        <paint />
         <camouflage>HULL</camouflage>
       </customizableVehicleAreas>
     </customization>
@@ -115,7 +115,7 @@
   <chassis>
     <Chassis_GB08_Churchill_I_2_IGR>
       <userString>#igr_vehicles:Chassis_GB08_Churchill_I_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>8500</price>
       <notInShop>true</notInShop>
@@ -395,7 +395,7 @@
                 <ySamples>1.07659 1.06659 1.05659 1.04659 1.03659 1.02659 1.01659</ySamples>
               </part>
             </bottom>
-            <top></top>
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_L1</wheel>
@@ -466,7 +466,7 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
+            <top />
             <bottom>
               <range>
                 <point>-1.01484 0.952517 -2.67935</point>
@@ -571,7 +571,7 @@
                 <ySamples>1.07657 1.06657 1.05657 1.04657 1.03657 1.02657 1.01657</ySamples>
               </part>
             </bottom>
-            <top></top>
+            <top />
           </collisionHull>
           <bottomWheels>
             <wheel>WD_R1</wheel>
@@ -642,7 +642,7 @@
             </sync>
           </teethSyncs>
           <sourceCollisionHullPoints>
-            <top></top>
+            <top />
             <bottom>
               <range>
                 <point>1.01489 0.952587 -2.67935</point>
@@ -709,8 +709,8 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
-          <camouflage></camouflage>
+          <paint />
+          <camouflage />
         </customizableVehicleAreas>
       </customization>
     </Chassis_GB08_Churchill_I_2_IGR>
@@ -718,7 +718,7 @@
   <turrets0>
     <Turret_2_GB08_Churchill_I_IGR>
       <userString>#igr_vehicles:Turret_2_GB08_Churchill_I_IGR</userString>
-      <tags></tags>
+      <tags />
       <level>5</level>
       <price>7500</price>
       <notInShop>true</notInShop>
@@ -787,7 +787,7 @@
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
-              <paint></paint>
+              <paint />
               <camouflage>GUN</camouflage>
             </customizableVehicleAreas>
           </customization>
@@ -808,7 +808,7 @@
             <density>138.181 147.43</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        </_75mm_Gun_Vickers_HV_IGR>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_75mm_Gun_Vickers_HV_IGR>
       </guns>
       <models>
         <undamaged>vehicles/british/GB08_Churchill_I/normal/lod0/Turret_02.model</undamaged>
@@ -825,7 +825,7 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint></paint>
+          <paint />
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
@@ -928,7 +928,7 @@
     <armour>0.762143905</armour>
   </clientAdjustmentFactors>
   <effects>
-    <collision></collision>
+    <collision />
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>
