@@ -17,7 +17,7 @@ loadMaps()
 
 for m in maps:
     f = open(m, "r")
-    mapName = m.replace(conf.mapsPath, "")
+    mapName = m.replace(conf.mapsPath, "").replace("	","")
     text=f.read()
     text = text.replace(mapName,"root")
 

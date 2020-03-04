@@ -1,32 +1,35 @@
 <actions_by_groups.xml>
   <tank>
-    <actions>blockAndTakeDamage doNearDamage</actions>
+    <actions>	blockAndTakeDamage doNearDamage	</actions>
   </tank>
   <firstLineSupport1>
-    <actions>doOwnDamage blockAndTakeDamage</actions>
+    <actions>	doOwnDamage blockAndTakeDamage	</actions>
   </firstLineSupport1>
   <firstLineSupport2>
-    <actions>doOwnDamage blockDamage</actions>
+    <actions>	doOwnDamage blockAndTakeDamage	</actions>
   </firstLineSupport2>
+  <firstLineSupport3>
+    <actions>	doOwnDamage blockDamage	</actions>
+  </firstLineSupport3>
   <fireSupport1>
-    <actions>doOwnDamage searchEnemy</actions>
+    <actions>	doOwnDamage searchEnemy	</actions>
   </fireSupport1>
   <fireSupport2>
-    <actions>doOwnDamage searchEnemy</actions>
+    <actions>	doOwnDamage searchEnemy	</actions>
   </fireSupport2>
   <sniper>
-    <actions>doFarDamage</actions>
+    <actions>	doFarDamage	</actions>
   </sniper>
   <hashSupport1>
-    <actions>doNearDamageSq</actions>
+    <actions>	doNearDamageSq	</actions>
   </hashSupport1>
   <scout1>
-    <actions>searchEnemy doInvisAssist doOwnDamage</actions>
+    <actions>	searchEnemy doInvisAssist doOwnDamage	</actions>
   </scout1>
   <scout2>
-    <actions>searchEnemy fragAssist doOwnDamage</actions>
+    <actions>	searchEnemy fragAssist doOwnDamage	</actions>
   </scout2>
   <SPG>
-    <actions>doStun doSpgDamage doGroupStun</actions>
+    <actions>	doStun doSpgDamage doGroupStun	</actions>
   </SPG>
 </actions_by_groups.xml>

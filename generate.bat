@@ -1,3 +1,5 @@
+title WoT Randomizer
+
 python seed.py
 
 python start.py

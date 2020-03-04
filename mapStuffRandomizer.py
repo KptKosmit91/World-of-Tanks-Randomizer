@@ -136,7 +136,34 @@ def updateMap(m):
         xml.addElement("description", tanks[rand].find("description"), root)
         tanks.pop(rand)
 
+    bootcampMusicSetup = None
+    bootcamp = root.find("gameplayTypes").find("bootcamp")
+    if bootcamp is not None:
+        bootcampMusicSetup = bootcamp.find("wwmusicSetup")
     musicSetup = root.find("wwmusicSetup")
+
+    if bootcampMusicSetup is not None:
+
+        #note: elements of the lists don't get popped for bootcamp
+
+        rand = xml.getRandomListIndex(mapXmls, random)
+        xml.addElement("wwmusicLoading", mapXmls[rand].find("wwmusicSetup").find("wwmusicLoading"), bootcampMusicSetup)
+
+        rand = xml.getRandomListIndex(mapXmlsIntensive, random)
+        xml.addElement("wwmusicIntensive", mapXmlsIntensive[rand].find("wwmusicSetup").find("wwmusicIntensive"), bootcampMusicSetup)
+
+        rand = xml.getRandomListIndex(mapXmlsRelaxed, random)
+        xml.addElement("wwmusicRelaxed", mapXmlsRelaxed[rand].find("wwmusicSetup").find("wwmusicRelaxed"), bootcampMusicSetup)
+
+        rand = xml.getRandomListIndex(mapXmlsWin, random)
+        xml.addElement("wwmusicResultWin", mapXmlsWin[rand].find("wwmusicSetup").find("wwmusicResultWin"), bootcampMusicSetup)
+
+        rand = xml.getRandomListIndex(mapXmlsDraw, random)
+        xml.addElement("wwmusicResultDrawn", mapXmlsDraw[rand].find("wwmusicSetup").find("wwmusicResultDrawn"), bootcampMusicSetup)
+
+        rand = xml.getRandomListIndex(mapXmlsDefeat, random)
+        xml.addElement("wwmusicResultDefeat", mapXmlsDefeat[rand].find("wwmusicSetup").find("wwmusicResultDefeat"), bootcampMusicSetup)
+
 
     rand = xml.getRandomListIndex(mapXmls, random)
     xml.addElement("wwmusicLoading", mapXmls[rand].find("wwmusicSetup").find("wwmusicLoading"), musicSetup)

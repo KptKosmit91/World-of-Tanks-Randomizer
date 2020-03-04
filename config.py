@@ -5,8 +5,8 @@ For the true Config file see Config/RandomizerConfig.xml
 
 '''
 
-randomizerversion = "0.8.2"
-wotversion="1.7.1.2"
+randomizerversion = "0.8.2.2"
+wotversion="1.8"
 
 resOut = "Output/res/"
 

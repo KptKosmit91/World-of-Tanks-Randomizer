@@ -15,13 +15,13 @@ for folderName, subfolders, filenames in os.walk(conf.resOut):
         # Add file to zip
         wotmod.write(filePath, arcname=filePath.replace("Output/", ""), compress_type=None, compresslevel=None)
 
-print("Packing done!\nYou are ready to install your mod!")
-
 from shutil import rmtree
 if os.path.exists("Temp"):
     rmtree("Temp")
 
 if os.path.exists(conf.resOut):
     rmtree(conf.resOut)
+
+print("Packing done!\nYou are ready to install your mod!")
 
 sleep(2)
