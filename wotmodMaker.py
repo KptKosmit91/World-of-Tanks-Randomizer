@@ -15,6 +15,10 @@ for folderName, subfolders, filenames in os.walk(conf.resOut):
         # Add file to zip
         wotmod.write(filePath, arcname=filePath.replace("Output/", ""), compress_type=None, compresslevel=None)
 
+# wotmod.write("Source/res/vehicles", arcname="res/vehicles", compress_type=None, compresslevel=None)
+# wotmod.write("Addons/NewTankModels/Source/res/vehicles", arcname="res/vehicles", compress_type=None, compresslevel=None )
+# wotmod.write("Addons/NewTankModels/Source/res/FiatBojowy", arcname="res/FiatBojowy", compress_type=None, compresslevel=None)
+
 from shutil import rmtree
 if os.path.exists("Temp"):
     rmtree("Temp")

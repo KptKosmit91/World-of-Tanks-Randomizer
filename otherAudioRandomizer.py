@@ -100,7 +100,24 @@ crewVoiceEventsList=[
     "vo_eb_support_artillery",
     "vo_eb_support_smoke_screen",
     "vo_eb_overtime_attackers",
-    "vo_eb_overtime_defenders"]
+    "vo_eb_overtime_defenders"
+    "vo_eb_all_destroyed_attackers",
+    "vo_eb_all_lost_defenders",
+    "vo_eb_allied_general_enters",
+    "vo_eb_allies_destroyed",
+    "vo_eb_ally_reinforcement_arrived",
+    "vo_eb_deployment_ready",
+    "vo_eb_last_objective_attackers",
+    "vo_eb_last_objective_defenders",
+    "vo_eb_last_zone_attackers",
+    "vo_eb_last_zone_attackers_other",
+    "vo_eb_last_zone_defenders",
+    "vo_eb_last_zone_defenders_other",
+    "vo_eb_no_time_attackers",
+    "vo_eb_no_time_defenders",
+    "vo_eb_start_defenders",
+    "vo_eb_start_attackers"
+]
 
 crewVoiceEventsListCopy = []
 
@@ -232,9 +249,28 @@ shellImpactSoundEventsList = [
     "imp_small_not_pierce_HE_",
     "imp_small_pierce_HE_"
 ]
-
-
 shellImpactSoundEventsListCopy = []
+
+
+shellGroundImpactSoundEventsList = [
+    "imp_surface_automatic_",
+    "imp_surface_huge_",
+    "imp_surface_large_",
+    "imp_surface_main_",
+    "imp_surface_medium_",
+    "imp_surface_small_"
+]
+shellGroundImpactSoundEventsListCopy = []
+
+
+shellHESplashImpactSoundEventsList = [
+    "imp_huge_splash_HE_NPC_PC",
+    "imp_large_splash_HE_NPC_PC",
+    "imp_main_splash_HE_NPC_PC",
+    "imp_medium_splash_HE_NPC_PC",
+    "imp_small_splash_HE_NPC_PC",
+]
+shellHESplashImpactSoundEventsListCopy = []
 
 seed = conf.seed
 
@@ -252,62 +288,62 @@ root = tree.getroot()
 events = root.find("events")
 bnks = root.find("loadBanks")
 
-def loadBank(bank, doCopy):
+def addBankToLoad(bank, doCopy):
     xml.insertElementEmptyNew("bank", bnks).text = bank
     if doCopy == True:
         copyfile('Source/res/audioww/' + bank, 'Output/res/audioww/'+bank)
 
-def addEvent(name, mod, add):
+def randomizeSoundEvent(name, mod, add, soundtype, i):
     rand = xml.getRandomListIndex(mod, random)
     baseElement = xml.insertElementEmptyNew("event", events)
     xml.insertElement("name", name[i] + add, baseElement)
+    xml.insertElement("mod", mod[rand] + add, baseElement)
 
-    if int(seed) == 666:
-        xml.insertElement("mod", "imp_huge_pierce_HE_" + add, baseElement)
-    else:
-        xml.insertElement("mod", mod[rand] + add, baseElement)
+    if soundtype == "t_imp":
+        if int(seed) == 666:
+            xml.insertElement("mod", "imp_huge_pierce_HE_" + add, baseElement)
+    elif soundtype == "g_imp":
+        if int(seed) == 666:
+            xml.insertElement("mod", "imp_surface_huge_" + add, baseElement)
 
     mod.pop(rand)
+
+def addSoundRandomization(list1, list1copy, add, soundtype):
+    list1copy = deepcopy(list1)
+
+    for i in range(0, len(list1)):
+        randomizeSoundEvent(list1, list1copy, add, soundtype, i)
 
 if randCustom == "true":
 
     if useAGS:
 
-        loadBank("kk91_altGunSounds.bnk", True)
+        addBankToLoad("kk91_altGunSounds.bnk", True)
 
     if useOGS:
 
-        loadBank("kk91_wpn_old.bnk", True)
+        addBankToLoad("kk91_wpn_old.bnk", True)
 
 
 if randVoice == "true":
 
-    loadBank("epic_battle_voiceover.bnk", False)
+    addBankToLoad("epic_battle_voiceover.bnk", False)
 
-    crewVoiceEventsListCopy = deepcopy(crewVoiceEventsList)
-
-    for i in range(0, len(crewVoiceEventsList)):
-        addEvent(crewVoiceEventsList, crewVoiceEventsListCopy, '')
+    addSoundRandomization(crewVoiceEventsList, crewVoiceEventsListCopy , '', 'crew')
+    print("Crew prompts randomization completed successfully.")
 
 if randImp == "true":
 
-    shellImpactSoundEventsListCopy = deepcopy(shellImpactSoundEventsList)
-
-    for i in range(0, len(crewVoiceEventsList)):
-        addEvent(shellImpactSoundEventsList, shellImpactSoundEventsListCopy, 'NPC_NPC')
-
-    shellImpactSoundEventsListCopy = deepcopy(shellImpactSoundEventsList)
-
-    for i in range(0, len(crewVoiceEventsList)):
-        addEvent(shellImpactSoundEventsList, shellImpactSoundEventsListCopy, 'PC_NPC')
-
-    shellImpactSoundEventsListCopy = deepcopy(shellImpactSoundEventsList)
-
-    for i in range(0, len(crewVoiceEventsList)):
-        addEvent(shellImpactSoundEventsList, shellImpactSoundEventsListCopy, 'NPC_PC')
+    addSoundRandomization(shellImpactSoundEventsList, shellImpactSoundEventsListCopy , 'NPC_NPC', 't_imp')
+    addSoundRandomization(shellImpactSoundEventsList, shellImpactSoundEventsListCopy , 'PC_NPC', 't_imp')
+    addSoundRandomization(shellImpactSoundEventsList, shellImpactSoundEventsListCopy , 'NPC_PC', 't_imp')
+    addSoundRandomization(shellHESplashImpactSoundEventsList, shellHESplashImpactSoundEventsListCopy , '', 't_imp')
+    addSoundRandomization(shellGroundImpactSoundEventsList, shellGroundImpactSoundEventsListCopy , 'NPC', 'g_imp')
+    addSoundRandomization(shellGroundImpactSoundEventsList, shellGroundImpactSoundEventsListCopy , 'PC', 'g_imp')
+    print("Impact sound randomization completed successfully.")
 
 if randCustom == "true":
-    loadBank("randomizer.bnk", True)
+    addBankToLoad("randomizer.bnk", True)
 
 newtree = ET.ElementTree(root)
 newtree.write(xmlpath)

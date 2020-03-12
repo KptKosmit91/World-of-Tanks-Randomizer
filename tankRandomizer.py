@@ -50,13 +50,16 @@ def getTankModels(tank):
     tree = ET.parse(tank)
     root = tree.getroot()
 
+    IsWheeledVehicle = root.find(xml.IsWheeledTag).text.lower()
+
     if randModels == "true":
         hull = root.find("hull")
 
+        if IsWheeledVehicle != "true":
+            tankXmlStorage.append(root)
+            hullModels.append(hull.find("models"))
 
-        tankXmlStorage.append(root)
         tankBaseEmblemStorage.append(root.find("emblems"))
-        hullModels.append(hull.find("models"))
     
     for t in root.find("turrets0").findall("*"):
         turrets.append(t)
@@ -75,6 +78,11 @@ def updateTankModels(tank):
 
     tree = ET.parse(tank)
     root = tree.getroot()
+
+    IsWheeledVehicle = root.find(xml.IsWheeledTag).text.lower()
+
+    xml.removeAllElementsByName(xml.IsWheeledTag, root)
+
     if randModels == "true":
         rand = xml.getRandomListIndex(hullModels, random)
 
@@ -118,33 +126,35 @@ def updateTankModels(tank):
             xml.addElement("hideIfDamaged", newClanSlot.find("hideIfDamaged"), clanSlot)
             xml.addElement("isUVProportional", newClanSlot.find("isUVProportional"), clanSlot)
 
-        selectedChassis = tankXmlStorage[rand].find("chassis").find("*")
-        thisChassis = root.find("chassis").findall("*")
+        if IsWheeledVehicle != "true":
 
-        for c in thisChassis:
-            xml.addElement("models", selectedChassis.find("models"), c)
-            xml.addElement("AODecals", selectedChassis.find("AODecals"), c)
-            xml.addElement("wwsoundPC", selectedChassis.find("wwsoundPC"), c)
-            xml.addElement("wwsoundNPC", selectedChassis.find("wwsoundNPC"), c)
-            xml.addElement("drivingWheels", selectedChassis.find("drivingWheels"), c)
-            xml.addElement("trackNodes", selectedChassis.find("trackNodes"), c)
-            xml.addElement("groundNodes", selectedChassis.find("groundNodes"), c)
-            xml.addElement("splineDesc", selectedChassis.find("splineDesc"), c)
-            xml.addElement("wheels", selectedChassis.find("wheels"), c)
-            xml.addElement("trackThickness", selectedChassis.find("trackThickness"), c)
-            xml.addElement("tracks", selectedChassis.find("tracks"), c)
-            xml.addElement("traces", selectedChassis.find("traces"), c)
-            xml.addElement("effects", selectedChassis.find("effects"), c)
-            xml.addElement("physicalTracks", selectedChassis.find("physicalTracks"), c)
-            
-            if xml.elementExists("leveredSuspension", selectedChassis):
-                xml.addElement("leveredSuspension", selectedChassis.find("leveredSuspension"), c)
-            else:
-                xml.removeAllElementsByName("leveredSuspension", c)
+            selectedChassis = tankXmlStorage[rand].find("chassis").find("*")
+            thisChassis = root.find("chassis").findall("*")
 
+            for c in thisChassis:
+                xml.addElement("models", selectedChassis.find("models"), c)
+                xml.addElement("AODecals", selectedChassis.find("AODecals"), c)
+                xml.addElement("wwsoundPC", selectedChassis.find("wwsoundPC"), c)
+                xml.addElement("wwsoundNPC", selectedChassis.find("wwsoundNPC"), c)
+                xml.addElement("drivingWheels", selectedChassis.find("drivingWheels"), c)
+                xml.addElement("trackNodes", selectedChassis.find("trackNodes"), c)
+                xml.addElement("groundNodes", selectedChassis.find("groundNodes"), c)
+                xml.addElement("splineDesc", selectedChassis.find("splineDesc"), c)
+                xml.addElement("wheels", selectedChassis.find("wheels"), c)
+                xml.addElement("trackThickness", selectedChassis.find("trackThickness"), c)
+                xml.addElement("tracks", selectedChassis.find("tracks"), c)
+                xml.addElement("traces", selectedChassis.find("traces"), c)
+                xml.addElement("effects", selectedChassis.find("effects"), c)
+                xml.addElement("physicalTracks", selectedChassis.find("physicalTracks"), c)
+                
+                if xml.elementExists("leveredSuspension", selectedChassis):
+                    xml.addElement("leveredSuspension", selectedChassis.find("leveredSuspension"), c)
+                else:
+                    xml.removeAllElementsByName("leveredSuspension", c)
 
-        hullModels.pop(rand)
-        tankXmlStorage.pop(rand)
+        if IsWheeledVehicle != "true":
+            hullModels.pop(rand)
+            tankXmlStorage.pop(rand)
 
         rand = xml.getRandomListIndex(tankBaseEmblemStorage, random)
         selectedEmblem = tankBaseEmblemStorage[rand]
@@ -164,7 +174,7 @@ def updateTankModels(tank):
                 xml.addElement("ceilless", randomModel.find("ceilless"), t)
             else:
                 xml.insertElement("ceilless", "false", t)
-
+            
             turrets.pop(rand)
 
         for g in t.find("guns").findall("*"):

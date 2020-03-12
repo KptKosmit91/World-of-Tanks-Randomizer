@@ -1,4 +1,5 @@
 import config as conf
+from time import sleep
 from shutil import rmtree
 from distutils.dir_util import copy_tree as copytree
 import os

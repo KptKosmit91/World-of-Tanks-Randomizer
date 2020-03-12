@@ -5,13 +5,16 @@ For the true Config file see Config/RandomizerConfig.xml
 
 '''
 
-randomizerversion = "0.8.2.2"
+randomizerversion = "0.9"
 wotversion="1.8"
 
 resOut = "Output/res/"
 
 mapsPath = "Source/res/scripts/arena_defs/"
 mapsPathOut = "Output/res/scripts/arena_defs/"
+
+itemDefsPath = "Source/res/scripts/item_defs/"
+itemDefsPathOut = "Output/res/scripts/item_defs/"
 
 tanksPath = "Source/res/scripts/item_defs/vehicles/"
 tanksPathOut = "Output/res/scripts/item_defs/vehicles/"
@@ -58,6 +61,7 @@ RandomizeEngineRPM = tankrandomizer.find("RandomizeEngineRPM").text.lower()
 RandomizeMusicOnMaps = tankrandomizer.find("RandomizeMusicOnMaps").text.lower()
 RandomizeCrewPrompts = tankrandomizer.find("RandomizeCrewPrompts").text.lower()
 RandomizeShellImpactSounds = tankrandomizer.find("RandomizeShellImpactSounds").text.lower()
+RandomizeTankPaints = tankrandomizer.find("RandomizeTankPaints").text.lower()
 
 RandomizeMapNames = tankrandomizer.find("RandomizeMapNames").text.lower()
 RandomizeMapNamesWithTankNames = tankrandomizer.find("RandomizeMapNamesWithTankNames").text.lower()

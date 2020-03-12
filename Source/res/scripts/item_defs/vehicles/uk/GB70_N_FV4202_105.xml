@@ -52,13 +52,6 @@
       <undamaged>vehicles/british/GB70_N_FV4202_105/normal/lod0/Hull.model</undamaged>
       <destroyed>vehicles/british/GB70_N_FV4202_105/crash/lod0/Hull.model</destroyed>
       <exploded>vehicles/british/GB70_N_FV4202_105/crash/lod0/Hull.model</exploded>
-      <sets>
-        <GB70_FV4202_PatDay_3Dst>
-          <undamaged>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/normal/lod0/Hull.model</undamaged>
-          <destroyed>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/crash/lod0/Hull.model</destroyed>
-          <exploded>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/crash/lod0/Hull.model</exploded>
-        </GB70_FV4202_PatDay_3Dst>
-      </sets>
     </models>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -82,8 +75,8 @@
       <slot>
         <slotType>clan</slotType>
         <slotId>10000</slotId>
-        <rayStart>0.0225283 0.0226818 2.6459</rayStart>
-        <rayEnd>0.0225283 -0.165283 2.57756</rayEnd>
+        <rayStart>0.000185121 0.029756 2.62645</rayStart>
+        <rayEnd>0.00018514 -0.158207 2.55811</rayEnd>
         <rayUp>0.000000 0.000000 -1</rayUp>
         <size>0.28</size>
         <hideIfDamaged>true</hideIfDamaged>
@@ -995,13 +988,6 @@
         <undamaged>vehicles/british/GB70_N_FV4202_105/normal/lod0/Chassis.model</undamaged>
         <destroyed>vehicles/british/GB70_N_FV4202_105/crash/lod0/Chassis.model</destroyed>
         <exploded>vehicles/british/GB70_N_FV4202_105/crash/lod0/Chassis.model</exploded>
-        <sets>
-          <GB70_FV4202_PatDay_3Dst>
-            <undamaged>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/normal/lod0/Chassis.model</undamaged>
-            <destroyed>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/crash/lod0/Chassis.model</destroyed>
-            <exploded>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/crash/lod0/Chassis.model</exploded>
-          </GB70_FV4202_PatDay_3Dst>
-        </sets>
       </models>
       <traces>
         <lodDist>FAR</lodDist>
@@ -1843,13 +1829,6 @@
             <undamaged>vehicles/british/GB70_N_FV4202_105/normal/lod0/Gun_01.model</undamaged>
             <destroyed>vehicles/british/GB70_N_FV4202_105/crash/lod0/Gun_01.model</destroyed>
             <exploded>vehicles/british/GB70_N_FV4202_105/crash/lod0/Gun_01.model</exploded>
-            <sets>
-              <GB70_FV4202_PatDay_3Dst>
-                <undamaged>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/normal/lod0/Gun_01.model</undamaged>
-                <destroyed>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/crash/lod0/Gun_01.model</destroyed>
-                <exploded>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/crash/lod0/Gun_01.model</exploded>
-              </GB70_FV4202_PatDay_3Dst>
-            </sets>
           </models>
           <hitTester>
             <collisionModelServer>vehicles/british/GB70_N_FV4202_105/collision/Gun_01.model</collisionModelServer>
@@ -1933,13 +1912,6 @@
         <undamaged>vehicles/british/GB70_N_FV4202_105/normal/lod0/Turret_01.model</undamaged>
         <destroyed>vehicles/british/GB70_N_FV4202_105/crash/lod0/Turret_01.model</destroyed>
         <exploded>vehicles/british/GB70_N_FV4202_105/crash/lod0/Turret_01.model</exploded>
-        <sets>
-          <GB70_FV4202_PatDay_3Dst>
-            <undamaged>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/normal/lod0/Turret_01.model</undamaged>
-            <destroyed>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/crash/lod0/Turret_01.model</destroyed>
-            <exploded>vehicles/british/GB70_N_FV4202_105/_skin/GB70_FV4202_PatDay_3Dst/crash/lod0/Turret_01.model</exploded>
-          </GB70_FV4202_PatDay_3Dst>
-        </sets>
       </models>
       <hitTester>
         <collisionModelServer>vehicles/british/GB70_N_FV4202_105/collision/Turret_01.model</collisionModelServer>
@@ -2312,4 +2284,4 @@
     <lodDist>MEDIUM</lodDist>
     <alpha>0.88</alpha>
   </emblems>
-</GB70_N_FV4202_105.xml>
+<RAND_IsWheeled>false</RAND_IsWheeled></GB70_N_FV4202_105.xml>

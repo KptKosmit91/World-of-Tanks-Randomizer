@@ -1,3 +1,6 @@
+IsWheeledTag = "RAND_IsWheeled"
+IsDoubleGunTag = "RAND_IsDoubleGun"
+
 import xml.etree.ElementTree as ET
 import config as conf
 import os

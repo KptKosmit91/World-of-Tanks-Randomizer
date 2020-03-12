@@ -49,12 +49,22 @@ def work(tank):
     tree = ET.parse(tank)
     root = tree.getroot()
 
+    chassis = root.find("chassis").findall("*")
+
+    xml.insertElement(xml.IsWheeledTag, "false", root)
+
+    for c in chassis:
+        nonTrack = c.find("wheels").find("wheel").find("nonTrack")
+        if nonTrack is not None and nonTrack.text.lower() == "true":
+            xml.insertElement(xml.IsWheeledTag, "true", root)
+            break
+
     for t in root.find("turrets0").findall("*"):
         for g in t.find("guns").findall("*"):
             if xml.elementExists("multiGunEffects", g):
-                xml.insertElement("RAND_IsDoubleGun", "true", g)
+                xml.insertElement(xml.IsDoubleGunTag, "true", g)
             else:
-                xml.insertElement("RAND_IsDoubleGun", "false", g)
+                xml.insertElement(xml.IsDoubleGunTag, "false", g)
 
     newtree = ET.ElementTree(root)
 

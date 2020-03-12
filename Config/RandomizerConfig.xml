@@ -19,6 +19,7 @@
 		<RandomizeMusicOnMaps>true</RandomizeMusicOnMaps> <!--Randomizes music on maps-->
 		<RandomizeCrewPrompts>true</RandomizeCrewPrompts> <!--Randomizes crew voice prompts-->
 		<RandomizeShellImpactSounds>true</RandomizeShellImpactSounds> <!--Randomizes shell ricochet, penetration and critical hit sounds. It might randomize a ricochet sound with a penetration sound.-->
+		<RandomizeTankPaints>true</RandomizeTankPaints> <!--Randomizes paint colors.-->
 
 		<RandomizeMapNames>true</RandomizeMapNames> <!--Randomizes map names.-->
 		<RandomizeMapNamesWithTankNames>false</RandomizeMapNamesWithTankNames> <!--Randomize map names with tank names... because why not. requires RandomizeMapNames to be true-->
@@ -51,33 +52,6 @@
 			<Max>5500</Max>
 		</EngineRPM_Max>
 
-
-		<!--
-		NOT IMPLEMENTED YET
-
-		List of tanks that are treated differently by the randomizer
-		the attributes are: chassis, hull, turret, gun
-		possible attribute values are:
-		
-		ignore - randomizer will totally ignore this model part
-		get - randomizer will ignore this model part when finding possible parts to randomize, but it will still randomize the model for the specified vehicle
-		-->
-		<!--ModelRandomizerSpecialList>
-			<note: wheeled vehicles don't randomize chassis because that would break a lot of things.
-			same with their hulls. if a vehicle with tracks gets a wheeled vehicle hull = game crash (from what I've tested so far)>
-			<Tank chassis="ignore" hull="get">F100_Panhard_EBR_90</Tank>
-			<Tank chassis="ignore" hull="get">F100_Panhard_EBR_90_siege_mode</Tank>
-			<Tank chassis="ignore" hull="get">F106_Panhard_EBR_75_Mle1954</Tank>
-			<Tank chassis="ignore" hull="get">F106_Panhard_EBR_75_Mle1954_siege_mode</Tank>
-			<Tank chassis="ignore" hull="get">F107_Hotchkiss_EBR</Tank>
-			<Tank chassis="ignore" hull="get">F108_Panhard_EBR_105</Tank>
-			<Tank chassis="ignore" hull="get">F108_Panhard_EBR_105_siege_mode</Tank>
-			<Tank chassis="ignore" hull="get">F109_AMD_Panhard_178B</Tank>
-			<Tank chassis="ignore" hull="get">F110_Lynx_6x6</Tank>
-			<Tank chassis="ignore" hull="get">F110_Lynx_6x6_siege_mode</Tank>
-			<Tank chassis="ignore" hull="get">F111_AM39_Gendron_Somua</Tank>
-		</ModelRandomizerSpecialList-->
-
 		<!--tanks that will not be used when randomizing models. Please don't modify the default tanks, or you might experience crashes
 		you can add your own entries if you want to blacklist some tanks.
 
@@ -97,19 +71,6 @@
 			<Tank>A26_T18</Tank>
 			<Tank>R05_KV</Tank>
 			<Tank>R70_T_50_2</Tank> <!--old version, this one is removed from the game -->
-			
-			<!--currently wheeled vehicles are not supported-->
-			<Tank>F100_Panhard_EBR_90</Tank>
-			<Tank>F100_Panhard_EBR_90_siege_mode</Tank>
-			<Tank>F106_Panhard_EBR_75_Mle1954</Tank>
-			<Tank>F106_Panhard_EBR_75_Mle1954_siege_mode</Tank>
-			<Tank>F107_Hotchkiss_EBR</Tank>
-			<Tank>F108_Panhard_EBR_105</Tank>
-			<Tank>F108_Panhard_EBR_105_siege_mode</Tank>
-			<Tank>F109_AMD_Panhard_178B</Tank>
-			<Tank>F110_Lynx_6x6</Tank>
-			<Tank>F110_Lynx_6x6_siege_mode</Tank>
-			<Tank>F111_AM39_Gendron_Somua</Tank>
 		</ModelRandomizerBlacklist>
 		
 		<!--gun effect names to take into account when randomizing gun effects.
