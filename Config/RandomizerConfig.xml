@@ -15,7 +15,7 @@
 		<RandomizeTankModels>true</RandomizeTankModels> <!--Randomizes tank models-->
 		<RandomizeGunEffectsAndSounds>true</RandomizeGunEffectsAndSounds> <!--Randomizes gun sounds-->
 		<RandomizeEngineSounds>true</RandomizeEngineSounds> <!--Randomizes engine sounds-->
-		<RandomizeEngineRPM>true</RandomizeEngineRPM> <!--Randomizes RPM settings for engines. this will only affect pitch of engine sounds-->
+		<RandomizeEngineRPM>true</RandomizeEngineRPM> <!--Randomizes RPM settings for engines. this will only affect engine sounds-->
 		<RandomizeMusicOnMaps>true</RandomizeMusicOnMaps> <!--Randomizes music on maps-->
 		<RandomizeCrewPrompts>true</RandomizeCrewPrompts> <!--Randomizes crew voice prompts-->
 		<RandomizeShellImpactSounds>true</RandomizeShellImpactSounds> <!--Randomizes shell ricochet, penetration and critical hit sounds. It might randomize a ricochet sound with a penetration sound.-->
@@ -41,15 +41,15 @@
 		it multiplies the forces applied to the vehicle (visual only)
 		Setting atleast one of these to -1 will disable this feature-->
 		<SensitivityToImpulseMin>1</SensitivityToImpulseMin>
-		<SensitivityToImpulseMax>10</SensitivityToImpulseMax>
+		<SensitivityToImpulseMax>8</SensitivityToImpulseMax>
 
 		<EngineRPM_Min>
 			<Min>200</Min>
-			<Max>1250</Max>
+			<Max>1120</Max>
 		</EngineRPM_Min>
 		<EngineRPM_Max>
-			<Min>1660</Min>
-			<Max>5500</Max>
+			<Min>1500</Min>
+			<Max>3500</Max>
 		</EngineRPM_Max>
 
 		<!--tanks that will not be used when randomizing models. Please don't modify the default tanks, or you might experience crashes
@@ -57,7 +57,7 @@
 
 		the entries are the file names (without the .xml extension)-->
 		<ModelRandomizerBlacklist>
-			<!-- model files don't exist for this :( -->
+			<!-- model files don't exist for this :( bigsad, since it looks cool -->
 			<Tank>Ch41_WZ_111_QL</Tank>
 			
 			<!-- other-->

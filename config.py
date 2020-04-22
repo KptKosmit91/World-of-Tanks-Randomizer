@@ -6,7 +6,7 @@ For the true Config file see Config/RandomizerConfig.xml
 '''
 
 randomizerversion = "0.9"
-wotversion="1.8"
+wotversion="1.9"
 
 resOut = "Output/res/"
 

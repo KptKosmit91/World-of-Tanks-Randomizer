@@ -152,11 +152,6 @@ shellImpactSoundEventsList = [
     "imp_medium_pierce_AP_",
     "imp_medium_ricochet_AP_",
 
-    "imp_medium_critical_AP_",
-    "imp_medium_not_pierce_AP_",
-    "imp_medium_pierce_AP_",
-    "imp_medium_ricochet_AP_",
-
     "imp_small_critical_AP_",
     "imp_small_not_pierce_AP_",
     "imp_small_pierce_AP_",
@@ -177,11 +172,6 @@ shellImpactSoundEventsList = [
     "imp_main_not_pierce_APCR_",
     "imp_main_pierce_APCR_",
     "imp_main_ricochet_APCR_",
-
-    "imp_medium_critical_APCR_",
-    "imp_medium_not_pierce_APCR_",
-    "imp_medium_pierce_APCR_",
-    "imp_medium_ricochet_APCR_",
 
     "imp_medium_critical_APCR_",
     "imp_medium_not_pierce_APCR_",
@@ -214,11 +204,6 @@ shellImpactSoundEventsList = [
     "imp_medium_pierce_HC_",
     "imp_medium_ricochet_HC_",
 
-    "imp_medium_critical_HC_",
-    "imp_medium_not_pierce_HC_",
-    "imp_medium_pierce_HC_",
-    "imp_medium_ricochet_HC_",
-
     "imp_small_critical_HC_",
     "imp_small_not_pierce_HC_",
     "imp_small_pierce_HC_",
@@ -236,10 +221,6 @@ shellImpactSoundEventsList = [
     "imp_main_critical_HE_",
     "imp_main_not_pierce_HE_",
     "imp_main_pierce_HE_",
-
-    "imp_medium_critical_HE_",
-    "imp_medium_not_pierce_HE_",
-    "imp_medium_pierce_HE_",
 
     "imp_medium_critical_HE_",
     "imp_medium_not_pierce_HE_",

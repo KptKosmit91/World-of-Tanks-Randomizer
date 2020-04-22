@@ -1,4 +1,4 @@
-title WoT Randomizer
+title Randomizing - WoT Randomizer by KptKosmit91
 
 python seed.py
 
@@ -12,5 +12,7 @@ python paintColorRandomizer.py
 python otherAudioRandomizer.py
 
 python wotmodMaker.py
+
+title DONE! - WoT Randomizer by KptKosmit91
 
 pause
