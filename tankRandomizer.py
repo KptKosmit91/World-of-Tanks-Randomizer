@@ -66,7 +66,6 @@ def getTankModels(tank):
         for g in t.find("guns").findall("*"):
             guns.append(g)
 
-
 def updateTankModels(tank):
     name = tank.replace(conf.tanksPath, "")
 
