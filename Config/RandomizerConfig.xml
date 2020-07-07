@@ -71,6 +71,8 @@
 			<Tank>A26_T18</Tank>
 			<Tank>R05_KV</Tank>
 			<Tank>R70_T_50_2</Tank> <!--old version, this one is removed from the game -->
+			
+			<Tank>G62_Roket_Sturmtiger</Tank> <!--crashes the randomizer. this is temporary-->
 		</ModelRandomizerBlacklist>
 		
 		<!--gun effect names to take into account when randomizing gun effects.
@@ -144,7 +146,20 @@
 			<Effect>reload85_107</Effect>
 			<Effect>reload115_152</Effect>
 			<Effect>reload155_170</Effect>
+			
+			<Effect>dualgun_reload85_107</Effect>
+			<Effect>dualgun_reload115_152</Effect>
+			
+			<Effect>autoloader_reload85_107</Effect>
+			
+			<Effect>reload_automat_reloading_12_25</Effect>
+			<Effect>reload_automat_reloading_20_45</Effect>
+			<Effect>reload_automat_reloading_50_75</Effect>
+			<Effect>reload_automat_reloading_85_107</Effect>
+			<Effect>reload_automat_reloading_115_152</Effect>
+			<Effect>reload_automat_reloading_155_170</Effect>
 		</GunReloadSFXList>
+
 		<!--gun recoil effect (visual only) list to randomize from-->
 		<GunRecoilEffectsList>
 			<Effect>auto</Effect>

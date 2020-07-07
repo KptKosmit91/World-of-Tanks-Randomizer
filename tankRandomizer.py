@@ -113,9 +113,8 @@ def updateTankModels(tank):
                 newClanSlot = s
                 break
         
-        if random.randint(0, 100) <= 90:
-            xml.addElement("turretHardPoints", tankXmlStorage[rand].find("hull").find("turretHardPoints"), root.find("hull"))
-            xml.removeAllElementsByName("variants", root.find("hull"))
+        xml.addElement("turretHardPoints", tankXmlStorage[rand].find("hull").find("turretHardPoints"), root.find("hull"))
+        xml.removeAllElementsByName("variants", root.find("hull"))
 
         if newClanSlot is not None and clanSlot is not None:
             xml.addElement("rayStart", newClanSlot.find("rayStart"), clanSlot)
