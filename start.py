@@ -34,7 +34,7 @@ printSetting("Randomize Music On Maps", conf.RandomizeMusicOnMaps)
 printSetting("Randomize Crew Prompts", conf.RandomizeCrewPrompts)
 printSetting("Randomize Shell Impact Sounds", conf.RandomizeShellImpactSounds)
 printSetting("Custom Sounds", conf.CustomSounds)
-printSetting("Use Alernative Gun Sounds", conf.UseAlternativeGunSoundsMod)
+printSetting("Use Alternative Gun Sounds", conf.UseAlternativeGunSoundsMod)
 printSetting("Use Old Gun Sounds", conf.UseOldGunSoundsMod)
 
 print("\nCopying additional tank model files... Don't worry if the window has frozen.\n")

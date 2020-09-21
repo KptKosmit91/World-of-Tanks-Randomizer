@@ -6,6 +6,7 @@
     <driver />
     <loader />
   </crew>
+  <supplySlots>5 1 1 6 6 6 7 8 8 8</supplySlots>
   <speedLimits>
     <forward>43</forward>
     <backward>14</backward>
@@ -14,9 +15,16 @@
     <moving>0.059</moving>
     <still>0.117</still>
     <camouflageBonus>0.02</camouflageBonus>
-    <camouflageNetBonus>0.05</camouflageNetBonus>
     <firePenalty>0.176</firePenalty>
   </invisibility>
+  <optDevsOverrides>
+    <camouflageNet>
+      <invisibilityBonus>0.05 0.075</invisibilityBonus>
+    </camouflageNet>
+    <additionalInvisibilityDevice>
+      <invisibilityBonus>0.03 0.04</invisibilityBonus>
+    </additionalInvisibilityDevice>
+  </optDevsOverrides>
   <repairCost>10.015</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
   <camouflage>
@@ -27,20 +35,20 @@
   <hull>
     <armor>
       <armor_1>200</armor_1>
-      <armor_2>140</armor_2>
+      <armor_2>155</armor_2>
       <armor_3>160</armor_3>
       <armor_4>100</armor_4>
       <armor_5>160</armor_5>
       <armor_6>160</armor_6>
       <armor_7>120</armor_7>
       <armor_8>30</armor_8>
-      <armor_9>50</armor_9>
+      <armor_9>140</armor_9>
       <armor_10>30</armor_10>
       <armor_11>0</armor_11>
-      <armor_12>210</armor_12>
+      <armor_12>240</armor_12>
       <armor_13>140</armor_13>
       <armor_14>50</armor_14>
-      <armor_15>30</armor_15>
+      <armor_15>40</armor_15>
       <armor_16>180</armor_16>
     </armor>
     <primaryArmor>armor_2 armor_3 armor_4</primaryArmor>
@@ -55,6 +63,13 @@
       <undamaged>vehicles/russian/R90_IS_4M/normal/lod0/Hull.model</undamaged>
       <destroyed>vehicles/russian/R90_IS_4M/crash/lod0/Hull.model</destroyed>
       <exploded>vehicles/russian/R90_IS_4M/crash/lod0/Hull.model</exploded>
+      <sets>
+        <R90_IS_4M_3Dst_BP>
+          <undamaged>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/normal/lod0/Hull.model</undamaged>
+          <destroyed>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Hull.model</destroyed>
+          <exploded>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Hull.model</exploded>
+        </R90_IS_4M_3Dst_BP>
+      </sets>
     </models>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -78,10 +93,10 @@
       <slot>
         <slotType>clan</slotType>
         <slotId>10000</slotId>
-        <rayStart>0.507347 0.543946 2.60562</rayStart>
-        <rayEnd>0.507346 0.194518 2.41095</rayEnd>
+        <rayStart>-0.488901 0.393611 2.51554</rayStart>
+        <rayEnd>-0.488901 0.350236 2.49137</rayEnd>
         <rayUp>0.000000 0.000000 -1</rayUp>
-        <size>0.28</size>
+        <size>0.23</size>
         <hideIfDamaged>false</hideIfDamaged>
         <isUVProportional>true</isUVProportional>
       </slot>
@@ -89,13 +104,13 @@
         <slotType>paint</slotType>
         <slotId>11000</slotId>
         <anchorPosition>0.000000 0.495916 -2.54481</anchorPosition>
-        <anchorDirection>0.000000 0.191275 -0.981536</anchorDirection>
+        <anchorDirection>0.000000 0.191275 -0.981537</anchorDirection>
       </slot>
       <slot>
         <slotType>camouflage</slotType>
         <slotId>12000</slotId>
         <anchorPosition>0.000000 0.495916 -2.54481</anchorPosition>
-        <anchorDirection>0.000000 0.191275 -0.981536</anchorDirection>
+        <anchorDirection>0.000000 0.191275 -0.981537</anchorDirection>
       </slot>
       <slot>
         <slotType>projectionDecal</slotType>
@@ -693,6 +708,34 @@
         <anchorDirection>0.24286 0.964138 0.107036</anchorDirection>
         <verticalMirror>true</verticalMirror>
       </slot>
+      <slot>
+        <slotType>projectionDecal</slotType>
+        <slotId>15045</slotId>
+        <tags>formfactor_square</tags>
+        <compatibleModels>R90_IS_4M_3Dst_BP</compatibleModels>
+        <position>0.0204252 1.01828 2.94428</position>
+        <rotation>0.576628 -0.000015 3.14154</rotation>
+        <scale>0.644896 0.1 0.644884</scale>
+        <doubleSided>false</doubleSided>
+        <showOn>16</showOn>
+        <clipAngle>1.2973</clipAngle>
+        <anchorPosition>0.0204283 0.16028 2.98366</anchorPosition>
+        <anchorDirection>0.000042 0.838306 0.545201</anchorDirection>
+      </slot>
+      <slot>
+        <slotType>projectionDecal</slotType>
+        <slotId>15046</slotId>
+        <tags>formfactor_square</tags>
+        <compatibleModels>R90_IS_4M_3Dst_BP</compatibleModels>
+        <position>-1.45324 1.3366 0.733046</position>
+        <rotation>1.04672 -1.56138 3.12359</rotation>
+        <scale>0.379461 0.05 0.379461</scale>
+        <doubleSided>false</doubleSided>
+        <showOn>16</showOn>
+        <clipAngle>1.38017</clipAngle>
+        <anchorPosition>-1.48914 0.438808 0.734131</anchorPosition>
+        <anchorDirection>-0.865437 0.500334 0.026149</anchorDirection>
+      </slot>
     </customizationSlots>
     <customization>
       <customizableVehicleAreas>
@@ -721,10 +764,10 @@
       <terrainResistance>1.2 1.6 2.7</terrainResistance>
       <brakeForce>39500</brakeForce>
       <rotationIsAroundCenter>false</rotationIsAroundCenter>
-      <rotationSpeed>26</rotationSpeed>
+      <rotationSpeed>30</rotationSpeed>
       <shotDispersionFactors>
-        <vehicleMovement>0.25</vehicleMovement>
-        <vehicleRotation>0.25</vehicleRotation>
+        <vehicleMovement>0.18</vehicleMovement>
+        <vehicleRotation>0.18</vehicleRotation>
       </shotDispersionFactors>
       <bulkHealthFactor>3.0</bulkHealthFactor>
       <maxHealth>250</maxHealth>
@@ -734,6 +777,13 @@
         <undamaged>vehicles/russian/R90_IS_4M/normal/lod0/Chassis.model</undamaged>
         <destroyed>vehicles/russian/R90_IS_4M/crash/lod0/Chassis.model</destroyed>
         <exploded>vehicles/russian/R90_IS_4M/crash/lod0/Chassis.model</exploded>
+        <sets>
+          <R90_IS_4M_3Dst_BP>
+            <undamaged>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/normal/lod0/Chassis.model</undamaged>
+            <destroyed>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Chassis.model</destroyed>
+            <exploded>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Chassis.model</exploded>
+          </R90_IS_4M_3Dst_BP>
+        </sets>
       </models>
       <traces>
         <lodDist>FAR</lodDist>
@@ -1395,15 +1445,16 @@
         <armor_9>100</armor_9>
         <armor_10>0</armor_10>
         <armor_11>275</armor_11>
-        <armor_12>30</armor_12>
-        <armor_14>230</armor_14>
+        <armor_12>55</armor_12>
+        <armor_13>52</armor_13>
+        <armor_14>135</armor_14>
         <armor_15>30</armor_15>
         <armor_16>75</armor_16>
       </armor>
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
       <weight>14200</weight>
       <maxHealth>500</maxHealth>
-      <rotationSpeed>22</rotationSpeed>
+      <rotationSpeed>25</rotationSpeed>
       <turretRotatorHealth>
         <maxHealth>170</maxHealth>
         <maxRegenHealth>85</maxRegenHealth>
@@ -1416,11 +1467,11 @@
         <repairCost>1.0</repairCost>
       </surveyingDeviceHealth>
       <guns>
-        <_122-mm_D-25T_with_wedges_shutter>shared  <maxAmmo>30</maxAmmo>
+        <_122-mm_D-25T_with_wedges_shutter_KV4>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <armor_1>300  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_1>
-            <armor_2>170  <vehicleDamageFactor>0.0</vehicleDamageFactor>
+            <armor_2>200  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_2>
             <armor_3>140  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_3>
@@ -1430,7 +1481,7 @@
             </armor_5>
             <gun>50</gun>
           </armor>
-          <shotDispersionRadius>0.46</shotDispersionRadius>
+          <shotDispersionRadius>0.44</shotDispersionRadius>
           <reloadTime>11</reloadTime>
           <shotDispersionFactors>
             <turretRotation>0.08</turretRotation>
@@ -1448,6 +1499,13 @@
             <undamaged>vehicles/russian/R90_IS_4M/normal/lod0/Gun_01.model</undamaged>
             <destroyed>vehicles/russian/R90_IS_4M/crash/lod0/Gun_01.model</destroyed>
             <exploded>vehicles/russian/R90_IS_4M/crash/lod0/Gun_01.model</exploded>
+            <sets>
+              <R90_IS_4M_3Dst_BP>
+                <undamaged>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/normal/lod0/Gun_01.model</undamaged>
+                <destroyed>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Gun_01.model</destroyed>
+                <exploded>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Gun_01.model</exploded>
+              </R90_IS_4M_3Dst_BP>
+            </sets>
           </models>
           <hitTester>
             <collisionModelServer>vehicles/russian/R90_IS_4M/collision/Gun_01.model</collisionModelServer>
@@ -1499,12 +1557,12 @@
             <density>116.654 139.905</density>
             <aoTextureSize>512 512</aoTextureSize>
           </camouflage>
-        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_122-mm_D-25T_with_wedges_shutter_KV4>
         <_122mm_M62-T2>shared  <maxAmmo>30</maxAmmo>
           <armor>
             <armor_1>300  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_1>
-            <armor_2>170  <vehicleDamageFactor>0.0</vehicleDamageFactor>
+            <armor_2>200  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_2>
             <armor_3>140  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_3>
@@ -1514,11 +1572,11 @@
             </armor_5>
             <gun>60</gun>
           </armor>
-          <shotDispersionRadius>0.38</shotDispersionRadius>
-          <reloadTime>12</reloadTime>
-          <aimingTime>2.9</aimingTime>
+          <shotDispersionRadius>0.42</shotDispersionRadius>
+          <reloadTime>11.5</reloadTime>
+          <aimingTime>2.5</aimingTime>
           <shotDispersionFactors>
-            <turretRotation>0.08</turretRotation>
+            <turretRotation>0.06</turretRotation>
             <afterShot>3.5</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
@@ -1532,6 +1590,13 @@
             <undamaged>vehicles/russian/R90_IS_4M/normal/lod0/Gun_02.model</undamaged>
             <destroyed>vehicles/russian/R90_IS_4M/crash/lod0/Gun_02.model</destroyed>
             <exploded>vehicles/russian/R90_IS_4M/crash/lod0/Gun_02.model</exploded>
+            <sets>
+              <R90_IS_4M_3Dst_BP>
+                <undamaged>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/normal/lod0/Gun_02.model</undamaged>
+                <destroyed>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Gun_02.model</destroyed>
+                <exploded>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Gun_02.model</exploded>
+              </R90_IS_4M_3Dst_BP>
+            </sets>
           </models>
           <hitTester>
             <collisionModelServer>vehicles/russian/R90_IS_4M/collision/Gun_02.model</collisionModelServer>
@@ -1563,11 +1628,11 @@
             <slot>
               <slotType>insigniaOnGun</slotType>
               <slotId>49000</slotId>
-              <rayStart>0.00370095 -0.016401 1.35256</rayStart>
-              <rayEnd>-0.0289337 -0.0613355 1.35037</rayEnd>
-              <rayUp>0.115 0.000000 0.000000</rayUp>
+              <rayStart>-0.001754 -0.016401 3.525</rayStart>
+              <rayEnd>0.380024 -0.0610315 3.55999</rayEnd>
+              <rayUp>0.137967 0.000000 0.000000</rayUp>
               <applyToFabric>true</applyToFabric>
-              <size>0.65</size>
+              <size>0.578065</size>
               <hideIfDamaged>false</hideIfDamaged>
               <isUVProportional>true</isUVProportional>
             </slot>
@@ -1589,6 +1654,13 @@
         <undamaged>vehicles/russian/R90_IS_4M/normal/lod0/Turret_01.model</undamaged>
         <destroyed>vehicles/russian/R90_IS_4M/crash/lod0/Turret_01.model</destroyed>
         <exploded>vehicles/russian/R90_IS_4M/crash/lod0/Turret_01.model</exploded>
+        <sets>
+          <R90_IS_4M_3Dst_BP>
+            <undamaged>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/normal/lod0/Turret_01.model</undamaged>
+            <destroyed>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Turret_01.model</destroyed>
+            <exploded>vehicles/russian/R90_IS_4M/_skins/R90_IS_4M_3Dst_BP/crash/lod0/Turret_01.model</exploded>
+          </R90_IS_4M_3Dst_BP>
+        </sets>
       </models>
       <hitTester>
         <collisionModelServer>vehicles/russian/R90_IS_4M/collision/Turret_01.model</collisionModelServer>
@@ -1614,8 +1686,8 @@
         <slot>
           <slotType>player</slotType>
           <slotId>33000</slotId>
-          <rayStart>-0.990446 0.546386 0.798933</rayStart>
-          <rayEnd>-0.671382 0.344851 0.666362</rayEnd>
+          <rayStart>-0.852498 0.548606 0.914354</rayStart>
+          <rayEnd>-0.646176 0.41611 0.820643</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <size>0.28</size>
           <hideIfDamaged>false</hideIfDamaged>
@@ -1624,8 +1696,8 @@
         <slot>
           <slotType>player</slotType>
           <slotId>33001</slotId>
-          <rayStart>1.01939 0.52911 0.763729</rayStart>
-          <rayEnd>0.714464 0.316644 0.615845</rayEnd>
+          <rayStart>0.820096 0.53001 0.893425</rayStart>
+          <rayEnd>0.68031 0.440241 0.829933</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <isMirrored>true</isMirrored>
           <size>0.28</size>
@@ -2219,6 +2291,62 @@
           <anchorPosition>0.000042 0.882222 -0.673448</anchorPosition>
           <anchorDirection>0.000063 0.999093 0.0425888</anchorDirection>
           <verticalMirror>true</verticalMirror>
+        </slot>
+        <slot>
+          <slotType>projectionDecal</slotType>
+          <slotId>35043</slotId>
+          <tags>formfactor_square</tags>
+          <compatibleModels>R90_IS_4M_3Dst_BP</compatibleModels>
+          <position>0.000053 2.37767 1.43369</position>
+          <rotation>0.101002 -0.000001 3.14152</rotation>
+          <scale>0.491463 0.1 0.491466</scale>
+          <doubleSided>false</doubleSided>
+          <showOn>256</showOn>
+          <clipAngle>1.53298</clipAngle>
+          <anchorPosition>-0.000090 0.838155 0.601003</anchorPosition>
+          <anchorDirection>0.000073 0.994904 0.10083</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>projectionDecal</slotType>
+          <slotId>35044</slotId>
+          <tags>formfactor_square</tags>
+          <compatibleModels>R90_IS_4M_3Dst_BP</compatibleModels>
+          <position>0.275243 2.33303 0.123061</position>
+          <rotation>3.14177 -0.0121245 -0.000021</rotation>
+          <scale>0.420126 0.275396 0.42013</scale>
+          <doubleSided>false</doubleSided>
+          <showOn>256</showOn>
+          <clipAngle>0.75136</clipAngle>
+          <anchorPosition>0.275095 0.933084 -0.710912</anchorPosition>
+          <anchorDirection>-0.000023 1 0.000176965</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>projectionDecal</slotType>
+          <slotId>35045</slotId>
+          <tags>formfactor_square</tags>
+          <compatibleModels>R90_IS_4M_3Dst_BP</compatibleModels>
+          <position>-1.0292 1.92901 1.13614</position>
+          <rotation>1.04946 -1.18428 3.1021</rotation>
+          <scale>0.440592 0.1 0.440592</scale>
+          <doubleSided>false</doubleSided>
+          <showOn>256</showOn>
+          <clipAngle>0.973005</clipAngle>
+          <anchorPosition>-1.09743 0.41959 0.333535</anchorPosition>
+          <anchorDirection>-0.787674 0.497651 0.363198</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>projectionDecal</slotType>
+          <slotId>35046</slotId>
+          <tags>formfactor_square</tags>
+          <compatibleModels>R90_IS_4M_3Dst_BP</compatibleModels>
+          <position>1.02923 1.92899 1.13614</position>
+          <rotation>1.04948 1.1842 -3.10216</rotation>
+          <scale>0.440592 0.0999999 0.440592</scale>
+          <doubleSided>false</doubleSided>
+          <showOn>256</showOn>
+          <clipAngle>0.973005</clipAngle>
+          <anchorPosition>1.09717 0.41957 0.333537</anchorPosition>
+          <anchorDirection>0.787674 0.497637 0.363218</anchorDirection>
         </slot>
       </customizationSlots>
       <customization>

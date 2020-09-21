@@ -30,7 +30,7 @@
     <kpi>
       <mul>
         <name>	vehicleFireChance	</name>
-        <value>	1.1	</value>
+        <value>	0.9	</value>
       </mul>
     </kpi>
   </autoExtinguishers>
@@ -165,9 +165,11 @@
     <vehicleFilter>
       <include>
         <nations>	usa germany france uk czech sweden poland italy	</nations>
-        <engine>
-          <tags>	gasoline	</tags>
-        </engine>
+        <componentFilters>
+          <engine>
+            <tags>	gasoline	</tags>
+          </engine>
+        </componentFilters>
       </include>
     </vehicleFilter>
     <script>	Fuel	  <enginePowerFactor>	1.05	</enginePowerFactor>
@@ -200,9 +202,11 @@
     <vehicleFilter>
       <include>
         <nations>	usa germany france uk czech sweden poland italy	</nations>
-        <engine>
-          <tags>	gasoline	</tags>
-        </engine>
+        <componentFilters>
+          <engine>
+            <tags>	gasoline	</tags>
+          </engine>
+        </componentFilters>
       </include>
     </vehicleFilter>
     <script>	Fuel	  <enginePowerFactor>	1.1	</enginePowerFactor>
@@ -339,6 +343,31 @@
       </mul>
     </kpi>
   </hotCoffee>
+  <afterburning>
+    <id>	14	</id>
+    <userString>	#artefacts:afterburning/name	</userString>
+    <description>	#artefacts:afterburning/descr	</description>
+    <icon>	afterburning 0 0	</icon>
+    <price>	15000	</price>
+    <notInShop>	true	</notInShop>
+    <tags>	notForSale trigger	</tags>
+    <soundNotification>	nitro_combat_reserve	</soundNotification>
+    <vehicleFilter>
+      <include>
+        <nations>	ussr germany	</nations>
+        <vehicle>
+          <tags>	afterburning_user	</tags>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>	Afterburning	  <deploySeconds>	10	</deploySeconds>
+      <consumeSeconds>	20	</consumeSeconds>
+      <rechargeSeconds>	20	</rechargeSeconds>
+      <enginePowerFactor>	1.7	</enginePowerFactor>
+      <maxSpeedFactor>	2.0	</maxSpeedFactor>
+      <cooldownSeconds>	3	</cooldownSeconds>
+    </script>
+  </afterburning>
   <ration_china>
     <id>	15	</id>
     <userString>	#artefacts:ration_china/name	</userString>

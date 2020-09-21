@@ -5,6 +5,7 @@ import os
 import random
 import fileMethods as fm
 from shutil import copyfile
+import sys
 
 if conf.RandomizeMusicOnMaps == "false":
     print("Map music randomizing disabled, skipping.")
@@ -108,94 +109,101 @@ def randomizeFoliageColors(m, customName):
         copyfile(tints[rand], path + customName + ".dds")
 
 def updateMap(m):
-    if m.replace(conf.mapsPath, "").startswith("dummy"):
-        return None
+    try:
 
-    print(("Randomizing Things on Map: " + m))
+        if m.replace(conf.mapsPath, "").startswith("dummy"):
+            return None
 
-    tree = ET.parse(m)
-    root = tree.getroot()
+        print(("Randomizing Things on Map: " + m))
 
-    if randNameMode == "norm":
+        tree = ET.parse(m)
+        root = tree.getroot()
 
-        rand = xml.getRandomListIndex(mapXmlsName, random)
-        xml.addElement("name", mapXmlsName[rand].find("name"), root)
-        mapXmlsName.pop(rand)
+        if randNameMode == "norm":
 
-        rand = xml.getRandomListIndex(mapXmlsDesc, random)
-        xml.addElement("description", mapXmlsDesc[rand].find("description"), root)
-        mapXmlsDesc.pop(rand)
+            rand = xml.getRandomListIndex(mapXmlsName, random)
+            xml.addElement("name", mapXmlsName[rand].find("name"), root)
+            mapXmlsName.pop(rand)
 
-    if randNameMode == "tank":
+            rand = xml.getRandomListIndex(mapXmlsDesc, random)
+            xml.addElement("description", mapXmlsDesc[rand].find("description"), root)
+            mapXmlsDesc.pop(rand)
 
-        rand = xml.getRandomListIndex(tanks, random)
-        xml.insertElement("name", tanks[rand].find("userString").text, root)
-        tanks.pop(rand)
+        if randNameMode == "tank":
 
-        rand = xml.getRandomListIndex(tanks, random)
-        xml.addElement("description", tanks[rand].find("description"), root)
-        tanks.pop(rand)
+            rand = xml.getRandomListIndex(tanks, random)
+            xml.insertElement("name", tanks[rand].find("userString").text, root)
+            tanks.pop(rand)
 
-    bootcampMusicSetup = None
-    bootcamp = root.find("gameplayTypes").find("bootcamp")
-    if bootcamp is not None:
-        bootcampMusicSetup = bootcamp.find("wwmusicSetup")
-    musicSetup = root.find("wwmusicSetup")
+            rand = xml.getRandomListIndex(tanks, random)
+            xml.addElement("description", tanks[rand].find("description"), root)
+            tanks.pop(rand)
 
-    if bootcampMusicSetup is not None:
+        bootcampMusicSetup = None
+        bootcamp = root.find("gameplayTypes").find("bootcamp")
+        if bootcamp is not None:
+            bootcampMusicSetup = bootcamp.find("wwmusicSetup")
+        musicSetup = root.find("wwmusicSetup")
 
-        #note: elements of the lists don't get popped for bootcamp
+        if bootcampMusicSetup is not None:
+
+            #note: elements of the lists don't get popped for bootcamp
+
+            rand = xml.getRandomListIndex(mapXmls, random)
+            xml.addElement("wwmusicLoading", mapXmls[rand].find("wwmusicSetup").find("wwmusicLoading"), bootcampMusicSetup)
+
+            rand = xml.getRandomListIndex(mapXmlsIntensive, random)
+            xml.addElement("wwmusicIntensive", mapXmlsIntensive[rand].find("wwmusicSetup").find("wwmusicIntensive"), bootcampMusicSetup)
+
+            rand = xml.getRandomListIndex(mapXmlsRelaxed, random)
+            xml.addElement("wwmusicRelaxed", mapXmlsRelaxed[rand].find("wwmusicSetup").find("wwmusicRelaxed"), bootcampMusicSetup)
+
+            rand = xml.getRandomListIndex(mapXmlsWin, random)
+            xml.addElement("wwmusicResultWin", mapXmlsWin[rand].find("wwmusicSetup").find("wwmusicResultWin"), bootcampMusicSetup)
+
+            rand = xml.getRandomListIndex(mapXmlsDraw, random)
+            xml.addElement("wwmusicResultDrawn", mapXmlsDraw[rand].find("wwmusicSetup").find("wwmusicResultDrawn"), bootcampMusicSetup)
+
+            rand = xml.getRandomListIndex(mapXmlsDefeat, random)
+            xml.addElement("wwmusicResultDefeat", mapXmlsDefeat[rand].find("wwmusicSetup").find("wwmusicResultDefeat"), bootcampMusicSetup)
+
 
         rand = xml.getRandomListIndex(mapXmls, random)
-        xml.addElement("wwmusicLoading", mapXmls[rand].find("wwmusicSetup").find("wwmusicLoading"), bootcampMusicSetup)
+        xml.addElement("wwmusicLoading", mapXmls[rand].find("wwmusicSetup").find("wwmusicLoading"), musicSetup)
+        mapXmls.pop(rand)
 
         rand = xml.getRandomListIndex(mapXmlsIntensive, random)
-        xml.addElement("wwmusicIntensive", mapXmlsIntensive[rand].find("wwmusicSetup").find("wwmusicIntensive"), bootcampMusicSetup)
+        xml.addElement("wwmusicIntensive", mapXmlsIntensive[rand].find("wwmusicSetup").find("wwmusicIntensive"), musicSetup)
+        mapXmlsIntensive.pop(rand)
 
         rand = xml.getRandomListIndex(mapXmlsRelaxed, random)
-        xml.addElement("wwmusicRelaxed", mapXmlsRelaxed[rand].find("wwmusicSetup").find("wwmusicRelaxed"), bootcampMusicSetup)
+        xml.addElement("wwmusicRelaxed", mapXmlsRelaxed[rand].find("wwmusicSetup").find("wwmusicRelaxed"), musicSetup)
+        mapXmlsRelaxed.pop(rand)
 
         rand = xml.getRandomListIndex(mapXmlsWin, random)
-        xml.addElement("wwmusicResultWin", mapXmlsWin[rand].find("wwmusicSetup").find("wwmusicResultWin"), bootcampMusicSetup)
+        xml.addElement("wwmusicResultWin", mapXmlsWin[rand].find("wwmusicSetup").find("wwmusicResultWin"), musicSetup)
+        mapXmlsWin.pop(rand)
 
         rand = xml.getRandomListIndex(mapXmlsDraw, random)
-        xml.addElement("wwmusicResultDrawn", mapXmlsDraw[rand].find("wwmusicSetup").find("wwmusicResultDrawn"), bootcampMusicSetup)
+        xml.addElement("wwmusicResultDrawn", mapXmlsDraw[rand].find("wwmusicSetup").find("wwmusicResultDrawn"), musicSetup)
+        mapXmlsDraw.pop(rand)
 
         rand = xml.getRandomListIndex(mapXmlsDefeat, random)
-        xml.addElement("wwmusicResultDefeat", mapXmlsDefeat[rand].find("wwmusicSetup").find("wwmusicResultDefeat"), bootcampMusicSetup)
+        xml.addElement("wwmusicResultDefeat", mapXmlsDefeat[rand].find("wwmusicSetup").find("wwmusicResultDefeat"), musicSetup)
+        mapXmlsDefeat.pop(rand)
 
+        
+        newtree = ET.ElementTree(root)
 
-    rand = xml.getRandomListIndex(mapXmls, random)
-    xml.addElement("wwmusicLoading", mapXmls[rand].find("wwmusicSetup").find("wwmusicLoading"), musicSetup)
-    mapXmls.pop(rand)
+        newtree.write(m.replace("Source", "Output"))
 
-    rand = xml.getRandomListIndex(mapXmlsIntensive, random)
-    xml.addElement("wwmusicIntensive", mapXmlsIntensive[rand].find("wwmusicSetup").find("wwmusicIntensive"), musicSetup)
-    mapXmlsIntensive.pop(rand)
-
-    rand = xml.getRandomListIndex(mapXmlsRelaxed, random)
-    xml.addElement("wwmusicRelaxed", mapXmlsRelaxed[rand].find("wwmusicSetup").find("wwmusicRelaxed"), musicSetup)
-    mapXmlsRelaxed.pop(rand)
-
-    rand = xml.getRandomListIndex(mapXmlsWin, random)
-    xml.addElement("wwmusicResultWin", mapXmlsWin[rand].find("wwmusicSetup").find("wwmusicResultWin"), musicSetup)
-    mapXmlsWin.pop(rand)
-
-    rand = xml.getRandomListIndex(mapXmlsDraw, random)
-    xml.addElement("wwmusicResultDrawn", mapXmlsDraw[rand].find("wwmusicSetup").find("wwmusicResultDrawn"), musicSetup)
-    mapXmlsDraw.pop(rand)
-
-    rand = xml.getRandomListIndex(mapXmlsDefeat, random)
-    xml.addElement("wwmusicResultDefeat", mapXmlsDefeat[rand].find("wwmusicSetup").find("wwmusicResultDefeat"), musicSetup)
-    mapXmlsDefeat.pop(rand)
-
-    
-    newtree = ET.ElementTree(root)
-
-    newtree.write(m.replace("Source", "Output"))
-
-    randomizeFoliageColors(m, 'trees_tint_map')
-    randomizeFoliageColors(m, 'flora_tint_map')
+        #randomizeFoliageColors(m, 'trees_tint_map')
+        #randomizeFoliageColors(m, 'flora_tint_map')
+    except Exception:
+        print("\nError randomizing map: " + m)
+        import traceback
+        traceback.print_exc()
+        print("\n")
 
     return None
 
@@ -213,3 +221,5 @@ for m in maps:
 
 randomizeFoliageColors("Source/res/scripts/arena_defs/hangar_v3", "trees_tint_map")
 randomizeFoliageColors("Source/res/scripts/arena_defs/hangar_v3", "flora_tint_map")
+randomizeFoliageColors("Source/res/scripts/arena_defs/h31_battle_royale_2020", "trees_tint_map")
+randomizeFoliageColors("Source/res/scripts/arena_defs/h31_battle_royale_2020", "flora_tint_map")

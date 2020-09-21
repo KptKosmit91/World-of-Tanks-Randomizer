@@ -6,6 +6,7 @@
     <driver />
     <loader />
   </crew>
+  <supplySlots>2 1 1 6 6 6 7 8 8 8</supplySlots>
   <speedLimits>
     <forward>65</forward>
     <backward>23</backward>
@@ -14,9 +15,16 @@
     <moving>0.203</moving>
     <still>0.27</still>
     <camouflageBonus>0.03</camouflageBonus>
-    <camouflageNetBonus>0.1</camouflageNetBonus>
     <firePenalty>0.405</firePenalty>
   </invisibility>
+  <optDevsOverrides>
+    <camouflageNet>
+      <invisibilityBonus>0.1 0.125</invisibilityBonus>
+    </camouflageNet>
+    <additionalInvisibilityDevice>
+      <invisibilityBonus>0.06 0.08</invisibilityBonus>
+    </additionalInvisibilityDevice>
+  </optDevsOverrides>
   <repairCost>12.7</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
   <camouflage>
@@ -1914,7 +1922,7 @@
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
       <weight>9000</weight>
       <maxHealth>380</maxHealth>
-      <rotationSpeed>36</rotationSpeed>
+      <rotationSpeed>34</rotationSpeed>
       <turretRotatorHealth>
         <maxHealth>170</maxHealth>
         <maxRegenHealth>85</maxRegenHealth>
@@ -1945,17 +1953,17 @@
             </armor_7>
             <gun>40</gun>
           </armor>
-          <aimingTime>2.1</aimingTime>
+          <aimingTime>2.5</aimingTime>
           <shotDispersionFactors>
             <turretRotation>0.12</turretRotation>
-            <afterShot>3.0</afterShot>
+            <afterShot>4</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
           <pitchLimits>
             <minPitch>0 -20 1 -20</minPitch>
             <maxPitch>0 9 0.375 9 0.402778 6 0.444444 3 0.555556 3 0.597222 6 0.625 9 1 9</maxPitch>
           </pitchLimits>
-          <shotDispersionRadius>0.33</shotDispersionRadius>
+          <shotDispersionRadius>0.35</shotDispersionRadius>
           <reloadTime>15.4</reloadTime>
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
           <clip>
@@ -2594,7 +2602,6 @@
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
-      <gunShotOffset>0.000000 0.000000 0.000000</gunShotOffset>
       <camouflage>
         <tiling>3 1.5 0.000000 0.000000</tiling>
         <density>107.441 107.163</density>

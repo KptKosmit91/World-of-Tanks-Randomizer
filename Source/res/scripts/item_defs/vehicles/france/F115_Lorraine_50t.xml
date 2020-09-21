@@ -6,6 +6,7 @@
     <gunner />
     <loader />
   </crew>
+  <supplySlots>5 1 1 6 6 6 7 8 8 8</supplySlots>
   <speedLimits>
     <forward>50</forward>
     <backward>15</backward>
@@ -14,9 +15,16 @@
     <moving>0.04</moving>
     <still>0.08</still>
     <camouflageBonus>0.02</camouflageBonus>
-    <camouflageNetBonus>0.05</camouflageNetBonus>
     <firePenalty>0.12</firePenalty>
   </invisibility>
+  <optDevsOverrides>
+    <camouflageNet>
+      <invisibilityBonus>0.05 0.075</invisibilityBonus>
+    </camouflageNet>
+    <additionalInvisibilityDevice>
+      <invisibilityBonus>0.03 0.04</invisibilityBonus>
+    </additionalInvisibilityDevice>
+  </optDevsOverrides>
   <repairCost>9</repairCost>
   <premiumVehicleXPFactor>0.05</premiumVehicleXPFactor>
   <crewXpFactor>1.5</crewXpFactor>
@@ -1020,7 +1028,7 @@
     <camouflage>
       <density>118.608 118.366</density>
       <aoTextureSize>1024 1024</aoTextureSize>
-      <tiling>1.4 1.4 0.000000 0.000000</tiling>
+      <tiling>2.5 2.5 -0.01 0.000000</tiling>
     </camouflage>
   </hull>
   <chassis>
@@ -1912,6 +1920,7 @@
           <camouflage>
             <density>98.0549 99.389</density>
             <aoTextureSize>512 512</aoTextureSize>
+            <tiling>1.5 1.5 0.000000 0.000000</tiling>
           </camouflage>
         <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_120mm_D_1203_P>
       </guns>
@@ -1934,7 +1943,6 @@
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
-      <gunShotOffset>0.000000 0.000000 0.000000</gunShotOffset>
       <customizationSlots>
         <slot>
           <slotType>paint</slotType>
@@ -2545,7 +2553,7 @@
       <camouflage>
         <density>98.8768 99.0293</density>
         <aoTextureSize>1024 1024</aoTextureSize>
-        <tiling>2 2 0.000000 0.000000</tiling>
+        <tiling>3 1.5 0.000000 0.000000</tiling>
       </camouflage>
     </Turret_1_F115_Lorraine_50t>
   </turrets0>

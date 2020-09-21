@@ -7,6 +7,7 @@
     <radioman />
     <loader />
   </crew>
+  <supplySlots>8 8 8</supplySlots>
   <speedLimits>
     <forward>28</forward>
     <backward>12</backward>
@@ -15,9 +16,16 @@
     <moving>0.02</moving>
     <still>0.08</still>
     <camouflageBonus>0.03</camouflageBonus>
-    <camouflageNetBonus>0.05</camouflageNetBonus>
     <firePenalty>0.3</firePenalty>
   </invisibility>
+  <optDevsOverrides>
+    <camouflageNet>
+      <invisibilityBonus>0.05 0.075</invisibilityBonus>
+    </camouflageNet>
+    <additionalInvisibilityDevice>
+      <invisibilityBonus>0.03 0.04</invisibilityBonus>
+    </additionalInvisibilityDevice>
+  </optDevsOverrides>
   <repairCost>7.524</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
   <camouflage>
@@ -944,9 +952,9 @@
         <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_88mm_KwK_43_L71_T>
       </guns>
       <models>
-        <undamaged>vehicles/german/G16_PzVIB_Tiger_II/normal/lod0/Turret_01.model</undamaged>
-        <destroyed>vehicles/german/G16_PzVIB_Tiger_II/crash/lod0/Turret_01.model</destroyed>
-        <exploded>vehicles/german/G16_PzVIB_Tiger_II/crash/lod0/Turret_01.model</exploded>
+        <undamaged>vehicles/german/G16_PzVIB_Tiger_II_training/normal/lod0/Turret_01.model</undamaged>
+        <destroyed>vehicles/german/G16_PzVIB_Tiger_II_training/crash/lod0/Turret_01.model</destroyed>
+        <exploded>vehicles/german/G16_PzVIB_Tiger_II_training/crash/lod0/Turret_01.model</exploded>
       </models>
       <hitTester>
         <collisionModelServer>vehicles/german/G16_PzVIB_Tiger_II_training/collision/Turret_01.model</collisionModelServer>

@@ -6,6 +6,7 @@ loader</commander>
     <driver />
     <gunner>loader</gunner>
   </crew>
+  <supplySlots>3 1 1 6 6 6 7 8 8 8</supplySlots>
   <speedLimits>
     <forward>63</forward>
     <backward>23</backward>
@@ -14,9 +15,16 @@ loader</commander>
     <moving>0.342</moving>
     <still>0.342</still>
     <camouflageBonus>0.03</camouflageBonus>
-    <camouflageNetBonus>0.1</camouflageNetBonus>
     <firePenalty>0.513</firePenalty>
   </invisibility>
+  <optDevsOverrides>
+    <camouflageNet>
+      <invisibilityBonus>0.1 0.125</invisibilityBonus>
+    </camouflageNet>
+    <additionalInvisibilityDevice>
+      <invisibilityBonus>0.06 0.08</invisibilityBonus>
+    </additionalInvisibilityDevice>
+  </optDevsOverrides>
   <repairCost>9.0</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
   <camouflage>
@@ -4419,9 +4427,8 @@ loader</commander>
         <slot>
           <slotType>player</slotType>
           <slotId>33000</slotId>
-          <isMirrored>true</isMirrored>
-          <rayStart>1.30978 0.389117 0.365463</rayStart>
-          <rayEnd>-0.12489 0.0683201 -0.047009</rayEnd>
+          <rayStart>-1.05073 0.308676 0.242555</rayStart>
+          <rayEnd>-0.148957 0.121307 0.0439856</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <size>0.25</size>
           <hideIfDamaged>false</hideIfDamaged>
@@ -4430,12 +4437,13 @@ loader</commander>
         <slot>
           <slotType>player</slotType>
           <slotId>33001</slotId>
-          <rayStart>-0.68744 0.243569 0.164142</rayStart>
-          <rayEnd>-0.507649 0.206212 0.124552</rayEnd>
+          <rayStart>1.05073 0.308676 0.242555</rayStart>
+          <rayEnd>0.148957 0.121307 0.0439856</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <size>0.25</size>
           <hideIfDamaged>false</hideIfDamaged>
           <isUVProportional>true</isUVProportional>
+          <isMirrored>true</isMirrored>
         </slot>
         <slot>
           <slotType>inscription</slotType>

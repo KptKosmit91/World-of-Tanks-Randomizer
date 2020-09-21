@@ -7,6 +7,7 @@
     <loader />
     <loader />
   </crew>
+  <supplySlots>4 1 1 6 6 6 7 8 8 8</supplySlots>
   <speedLimits>
     <forward>43</forward>
     <backward>11</backward>
@@ -15,9 +16,16 @@
     <moving>0.173</moving>
     <still>0.289</still>
     <camouflageBonus>0.04</camouflageBonus>
-    <camouflageNetBonus>0.15</camouflageNetBonus>
     <firePenalty>0.434</firePenalty>
   </invisibility>
+  <optDevsOverrides>
+    <camouflageNet>
+      <invisibilityBonus>0.15 0.175</invisibilityBonus>
+    </camouflageNet>
+    <additionalInvisibilityDevice>
+      <invisibilityBonus>0.05 0.06</invisibilityBonus>
+    </additionalInvisibilityDevice>
+  </optDevsOverrides>
   <repairCost>6.20</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
   <camouflage>
@@ -121,6 +129,7 @@
       <slot>
         <slotType>player</slotType>
         <slotId>13001</slotId>
+        <isMirrored>true</isMirrored>
         <rayStart>1.36872 0.6788 -0.0904691</rayStart>
         <rayEnd>1.01607 0.508635 -0.00870198</rayEnd>
         <rayUp>0.000000 1 0.000000</rayUp>

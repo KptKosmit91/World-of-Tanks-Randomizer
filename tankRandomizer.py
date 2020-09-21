@@ -101,17 +101,19 @@ def updateTankModels(tank):
         xml.addElement("models", randomModel, root.find("hull"))
 
         clanSlot = None
-        for s in root.find("hull").find("customizationSlots").findall("slot"):
-            if s.find("slotType").text.replace("	", "") == "clan":
-                clanSlot = s
-                break
+        if root.find("hull").find("customizationSlots"):
+            for s in root.find("hull").find("customizationSlots").findall("slot"):
+                if s.find("slotType").text.replace("	", "") == "clan":
+                    clanSlot = s
+                    break
 
         newClanSlot = None
 
-        for s in tankXmlStorage[rand].find("hull").find("customizationSlots").findall("slot"):
-            if s.find("slotType").text.replace("	", "") == "clan":
-                newClanSlot = s
-                break
+        if tankXmlStorage[rand].find("hull").find("customizationSlots"):
+            for s in tankXmlStorage[rand].find("hull").find("customizationSlots").findall("slot"):
+                if s.find("slotType").text.replace("	", "") == "clan":
+                    newClanSlot = s
+                    break
         
         xml.addElement("turretHardPoints", tankXmlStorage[rand].find("hull").find("turretHardPoints"), root.find("hull"))
         xml.removeAllElementsByName("variants", root.find("hull"))
