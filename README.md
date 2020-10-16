@@ -67,7 +67,9 @@ ________________________________________________________________________________
 
 Film: https://www.youtube.com/watch?v=VlDN37WwlM8
 
-Film u YellowGaming: https://www.youtube.com/watch?v=y4rjgsHhah4
+YellowGamingPL - film: https://www.youtube.com/watch?v=y4rjgsHhah4
+
+YellowGamingPL - poradnik instalacji: https://www.youtube.com/watch?v=9ByQeTG1P8E (PRZECZYTAJCIE PRZYPIĘTY KOMENTARZ!)
 
 **WYMAGANIA:**
 *-Python 3.7+ jest potrzebny by używać tego narzędzia.
