@@ -295,6 +295,9 @@ def addSoundRandomization(list1, list1copy, add, soundtype):
     for i in range(0, len(list1)):
         randomizeSoundEvent(list1, list1copy, add, soundtype, i)
 
+addBankToLoad("ev_halloween_2020_gameplay.bnk", False)
+addBankToLoad("ev_halloween_2020_gameplay.pck", False)
+
 if randCustom == "true":
 
     if useAGS:

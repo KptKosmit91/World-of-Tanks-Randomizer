@@ -3,6 +3,7 @@ title Randomizing - WoT Randomizer by KptKosmit91
 python seed.py
 
 python start.py
+
 python mapStuffRandomizer.py
 python engineSoundRandomizer.py
 python gunParticleEffectsFileCombiner.py

@@ -11,14 +11,42 @@
 	<WotmodFilename>WoTRandomMod_v$randver_$wotver_Seed=$seed</WotmodFilename>
 
 	<TankRandomizer>
-		<!--these three toggles are not implemented yet-->
+	
 		<RandomizeTankModels>true</RandomizeTankModels> <!--Randomizes tank models-->
+		
+		<TankModelRandomizationIsUnique>true</TankModelRandomizationIsUnique> <!-- If true, the same model will not be used twice (There is an exception to this if there are multiple tanks using the same model)-->
+
+		<!--
+		List of keywords (sperated by spaces) that the randomizer will find tanks by, and only use models of the found tanks
+		
+		For example:
+		
+		if we set keywords to:
+		waffentrager_e100
+		only the waffentrager models will be used
+		
+		
+		or if we set it to
+		tiger sherman
+		only models of all tigers (Tiger I, Tiger II, Jagdtiger, etc.) and shermans (Sherman Jumbos, Sherman 4 etc) will be used
+		
+		The search is done by *file names*, look in Source/res/scripts/item_defs/vehicles and the respective country folders for the file names.
+		You can also use the country folder names as keywords! (don't use *common* though, won't do anything)
+		
+		If no tanks found for all specified keywords, randomizer will run like normal.
+		
+		TankModelRandomizationIsUnique is always `false` with keywords enabled
+		Keep blank to disable
+		-->
+		<Keywords></Keywords>
+	
+
 		<RandomizeGunEffectsAndSounds>true</RandomizeGunEffectsAndSounds> <!--Randomizes gun sounds-->
 		<RandomizeEngineSounds>true</RandomizeEngineSounds> <!--Randomizes engine sounds-->
 		<RandomizeEngineRPM>true</RandomizeEngineRPM> <!--Randomizes RPM settings for engines. this will only affect engine sounds-->
 		<RandomizeMusicOnMaps>true</RandomizeMusicOnMaps> <!--Randomizes music on maps-->
 		<RandomizeCrewPrompts>true</RandomizeCrewPrompts> <!--Randomizes crew voice prompts-->
-		<RandomizeShellImpactSounds>true</RandomizeShellImpactSounds> <!--Randomizes shell ricochet, penetration and critical hit sounds. It might randomize a ricochet sound with a penetration sound.-->
+		<RandomizeShellImpactSounds>true</RandomizeShellImpactSounds> <!--Randomizes shell ricochet, penetration and critical hit sounds. It might replace a ricochet sound with a penetration sound.-->
 		<RandomizeTankPaints>true</RandomizeTankPaints> <!--Randomizes paint colors.-->
 
 		<RandomizeMapNames>true</RandomizeMapNames> <!--Randomizes map names.-->
@@ -44,12 +72,12 @@
 		<SensitivityToImpulseMax>8</SensitivityToImpulseMax>
 
 		<EngineRPM_Min>
-			<Min>200</Min>
-			<Max>1120</Max>
+			<Min>50</Min>
+			<Max>950</Max>
 		</EngineRPM_Min>
 		<EngineRPM_Max>
-			<Min>1500</Min>
-			<Max>3500</Max>
+			<Min>1230</Min>
+			<Max>2500</Max>
 		</EngineRPM_Max>
 
 		<!--tanks that will not be used when randomizing models. Please don't modify the default tanks, or you might experience crashes
@@ -71,16 +99,16 @@
 			<Tank>R05_KV</Tank>
 			<Tank>R70_T_50_2</Tank> <!--old version, this one is removed from the game -->
 			
+			<Tank>R77_KV2_turret_2</Tank>
+			
+			<!--Steelhunter vehicles can crash the game, so they're disabled -->
 			<Tank>R46_KV-13_SH</Tank>
 			<Tank>R46_KV-13_SH_siege_mode</Tank>
 			<Tank>F43_AMC_35_SH</Tank>
 			<Tank>F43_AMC_35_SH_siege_mode</Tank>
-			
-			<!--Tank>G62_Roket_Sturmtiger</Tank>
 			<Tank>A72_T25_2_SH</Tank>
 			<Tank>GB107_Cavalier_SH</Tank>
 			<Tank>G24_VK3002DB_SH</Tank>
-			<Tank>G00_Bomber_SH</Tank-->
 		</ModelRandomizerBlacklist>
 		
 		<!--gun effect names to take into account when randomizing gun effects.
@@ -98,27 +126,12 @@
 			<Effect>shot_medium_mb</Effect>
 			<Effect>shot_main</Effect>
 			<Effect>shot_main_mb</Effect>
-			<!--Effect>shot_dualgun1_main_mb_L</Effect>
-			<Effect>shot_dualgun1_main_mb_R</Effect>
-			<Effect>shot_dualgun_main_mb_R</Effect>
-			<Effect>shot_dualgun1_main_L</Effect>
-			<Effect>shot_dualgun1_main_R</Effect-->
 			<Effect>shot_dualgun_main_R_singleFix</Effect>
 			<Effect>shot_mainext</Effect>
 			<Effect>shot_mainext_mb</Effect>
-			<!--Effect>shot_dualgun1_mainext_mb_L</Effect>
-			<Effect>shot_dualgun1_mainext_mb_R</Effect>
-			<Effect>shot_dualgun_mainext_mb_R</Effect>
-			<Effect>shot_dualgun1_mainext_L</Effect>
-			<Effect>shot_dualgun1_mainext_R</Effect-->
 			<Effect>shot_dualgun_mainext_R_singleFix</Effect>
 			<Effect>shot_large</Effect>
 			<Effect>shot_large_mb</Effect>
-			<!--Effect>shot_dualgun1_large_mb_L</Effect>
-			<Effect>shot_dualgun1_large_mb_R</Effect>
-			<Effect>shot_dualgun_large_mb_R</Effect>
-			<Effect>shot_dualgun1_large_L</Effect>
-			<Effect>shot_dualgun1_large_R</Effect-->
 			<Effect>shot_dualgun_large_R_singleFix</Effect>
 			<Effect>shot_largeext</Effect>
 			<Effect>shot_largeext_mb</Effect>
@@ -128,6 +141,21 @@
 			<Effect>shot_huge2</Effect>
 			<Effect>shot_superhuge</Effect>
 			<Effect>shot_superhuge_mb</Effect>
+			
+			<!--Halloween-->
+			<Effect>shot_medium_mb_hw19</Effect>
+			<Effect>shot_main_mb_hw19</Effect>
+			<Effect>shot_large_hw19</Effect>
+			<Effect>shot_large_mb_hw19</Effect>
+			<Effect>shot_large_mb_turret_1_hw19</Effect>
+			<Effect>shot_huge_turret_2_hw19</Effect>
+			<Effect>shot_largeext_hw19</Effect>
+			<Effect>shot_huge_hw19</Effect>
+			<Effect>shot_main_hw19</Effect>
+			<Effect>shot_medium_hw19</Effect>
+			<Effect>shot_auto_hw19</Effect>
+			
+			<Effect>shot_largeext_immortal_gun</Effect>
 		</GunEffectList>
 
 		<!--used in case when a double barrel model has been selected-->
@@ -144,6 +172,9 @@
 			<Effect>shot_dualgun1_large_mb_R</Effect>
 			<Effect>shot_dualgun1_large_L</Effect>
 			<Effect>shot_dualgun1_large_R</Effect>
+			
+			<Effect>shot_largeext_immortal_gun_dual_L</Effect>
+			<Effect>shot_largeext_immortal_gun_dual_R</Effect>
 		</DualGunEffectList>
 
 		<!--reload sound list to randomize from-->
@@ -186,6 +217,9 @@
 			<Effect>gas_small</Effect>
 			<Effect>gas_medium</Effect>
 			<Effect>gas_large</Effect>
+			
+			<Effect>gas_small_hw19</Effect>
+			<Effect>bomber_hw19</Effect>
 		</ExhaustEffectList>
 		
 		
@@ -202,6 +236,8 @@
 				<WWEvent>eng_Hetzer_pc</WWEvent>
 				<WWEvent>eng_Skoda_Prague_pc</WWEvent>
 				<WWEvent>eng_v55_pc</WWEvent>
+				
+				<WWEvent>ev_halloween_2019_gameplay_engine_pc</WWEvent>
 			</PC>
 			<NPC>
 				<WWEvent>eng_cadillac_series_42_npc</WWEvent>

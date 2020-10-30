@@ -5,8 +5,8 @@ For the true Config file see Config/RandomizerConfig.xml
 
 '''
 
-randomizerversion = "0.9"
-wotversion="1.10"
+randomizerversion = "0.9.5"
+wotversion="1.10.1"
 
 resOut = "Output/res/"
 
@@ -54,7 +54,35 @@ tankrandomizer = root.find("TankRandomizer")
 
 #toggles
 chaosModeEnabled = tankrandomizer.find("ChaosModeEnabled").text.lower()
+
 RandomizeTankModels = tankrandomizer.find("RandomizeTankModels").text.lower()
+
+def renewTankModelIsUniqueSetting():
+    TankModelRandomizationIsUnique = tankrandomizer.find("TankModelRandomizationIsUnique").text.lower()
+
+TankModelRandomizationIsUnique = tankrandomizer.find("TankModelRandomizationIsUnique").text.lower()
+
+__KeywordsText = tankrandomizer.find("Keywords").text
+
+KeywordsString = ""
+
+if __KeywordsText is not None:
+    KeywordsString = __KeywordsText.lower().replace(",", " ").replace(".", " ")
+
+KeywordsArray = []
+UseKeywords = "false"
+
+if KeywordsString is not None and KeywordsString is not "":
+    KeywordsArray = KeywordsString.split()
+    UseKeywords = "true"
+    TankModelRandomizationIsUnique = "false"
+
+def hasKeyword(text):
+
+    for keyword in KeywordsArray:
+        if keyword.lower() in text.lower():
+            return "true"
+
 RandomizeEngineSounds = tankrandomizer.find("RandomizeEngineSounds").text.lower()
 RandomizeGunEffectsAndSounds = tankrandomizer.find("RandomizeGunEffectsAndSounds").text.lower()
 RandomizeEngineRPM = tankrandomizer.find("RandomizeEngineRPM").text.lower()
@@ -89,6 +117,10 @@ def isBlacklisted(tank):
     if tank.lower() == "list.xml":
         return True
     if tank.lower().endswith("_igr.xml"):
+        return True
+    if tank.lower().endswith("_bot.xml"):
+        return True
+    if tank.lower().endswith("_test.xml"):
         return True
 
     tanks = tankrandomizer.find("ModelRandomizerBlacklist").findall("Tank")

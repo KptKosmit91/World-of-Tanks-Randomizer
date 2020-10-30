@@ -42,6 +42,12 @@ def getTankFilePaths():
                 if n.lower() != "components" and n.lower() != "customization.xml" and n.lower() != "list.xml":
                     tanks.append(folder+n)
 
+        folder = conf.tanksPath.replace("Source/", "SourceOverrides/")+conf.countryFolders[f]+"/"
+        if os.path.exists(folder):
+            for n in os.listdir(folder):
+                if n.lower() != "components" and n.lower() != "customization.xml" and n.lower() != "list.xml":
+                    tanks.append(folder+n)
+
     return tanks
 
 def work(tank):

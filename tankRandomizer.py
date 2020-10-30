@@ -5,6 +5,7 @@ import os
 from shutil import rmtree
 import random
 import fileMethods as fm
+from copy import deepcopy
 
 randModels=conf.RandomizeTankModels
 randGunFX=conf.RandomizeGunEffectsAndSounds
@@ -21,6 +22,7 @@ seed = int(seed)
 
 random.seed(seed)
 
+sourceTanks = []
 tanks = []
 
 tankXmlStorage = []
@@ -45,6 +47,21 @@ def getFilePaths():
             for n in os.listdir(folder):
                 if not conf.isBlacklisted(n):
                     tanks.append(folder+n)
+
+        if conf.UseKeywords is "true":
+            folder = conf.tanksPath+conf.countryFolders[f]+"/"
+            if os.path.exists(folder):
+                for n in os.listdir(folder):
+                    if not conf.isBlacklisted(n) and conf.hasKeyword(folder+n):
+                        print("Found tank with fitting keyword: " + n)
+                        sourceTanks.append(folder+n)
+        
+            folder = conf.addonNewTankModelsVehiclesPath+conf.countryFolders[f]+"/"
+            if os.path.exists(folder):
+                for n in os.listdir(folder):
+                    if not conf.isBlacklisted(n) and conf.hasKeyword(folder+n):
+                        print("Found tank with fitting keyword: " + n)
+                        sourceTanks.append(folder+n)
 
 def getTankModels(tank):
     tree = ET.parse(tank)
@@ -72,9 +89,6 @@ def updateTankModels(tank):
     if name.lower().startswith("addons"):
         return False
 
-    if randModels == "true":
-        print("Randomizing Tank: " + name.title())
-
     tree = ET.parse(tank)
     root = tree.getroot()
 
@@ -83,6 +97,8 @@ def updateTankModels(tank):
     xml.removeAllElementsByName(xml.IsWheeledTag, root)
 
     if randModels == "true":
+        print("Randomizing Tank: " + name.title())
+
         rand = xml.getRandomListIndex(hullModels, random)
 
         xml.insertElement("nodes", tankXmlStorage[rand].find("hull").find("exhaust").find("nodes").text, root.find("hull").find("exhaust"))
@@ -153,8 +169,9 @@ def updateTankModels(tank):
                     xml.removeAllElementsByName("leveredSuspension", c)
 
         if IsWheeledVehicle != "true":
-            hullModels.pop(rand)
-            tankXmlStorage.pop(rand)
+            if conf.TankModelRandomizationIsUnique == "true":
+                hullModels.pop(rand)
+                tankXmlStorage.pop(rand)
 
         rand = xml.getRandomListIndex(tankBaseEmblemStorage, random)
         selectedEmblem = tankBaseEmblemStorage[rand]
@@ -175,7 +192,8 @@ def updateTankModels(tank):
             else:
                 xml.insertElement("ceilless", "false", t)
             
-            turrets.pop(rand)
+            if conf.TankModelRandomizationIsUnique == "true":
+                turrets.pop(rand)
 
         for g in t.find("guns").findall("*"):
 
@@ -188,7 +206,8 @@ def updateTankModels(tank):
                 xml.addElement("models", randomModel.find("models"), g)
                 xml.addElement("drivenJoints", randomModel.find("drivenJoints"), g)
 
-                guns.pop(rand)
+                if conf.TankModelRandomizationIsUnique == "true":
+                    guns.pop(rand)
 
             if randGunFX == "true":
 
@@ -231,10 +250,20 @@ def updateTankModels(tank):
 
     return False
 
+from time import sleep
+
 print("Starting randomization... please wait, this process might take a while.")
 getFilePaths()
 
-for t in tanks:
+if len(sourceTanks) == 0:
+    if conf.UseKeywords == "true":
+        print("\n\n\n\nERROR: Could not find any tanks with suiting keywords! Randomization will occur normally in 8s, as if keywords were disabled!\n\n\n\n")
+        conf.renewTankModelIsUniqueSetting()
+        sleep(8)
+
+    sourceTanks = deepcopy(tanks)
+
+for t in sourceTanks:
     getTankModels(t)
 
 print("Stage 1... Done")
