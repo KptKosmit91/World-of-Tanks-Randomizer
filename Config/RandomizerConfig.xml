@@ -5,7 +5,7 @@
 	special seeds:
 	666 - sets all gun effects to 150mm effects (if RandomizeGunEffectsAndSounds is true) and to strongest engine sound (if RandomizeEngineSounds is true) and shell impact sounds to 150mm HE shell impact (if RandomizeShellImpactSounds is true)
 	-->
-	<Seed>0</Seed>
+	<Seed>1553548061</Seed>
 
 	<!--Name of the exported .wotmod file-->
 	<WotmodFilename>WoTRandomMod_v$randver_$wotver_Seed=$seed</WotmodFilename>
@@ -38,7 +38,7 @@
 		TankModelRandomizationIsUnique is always `false` with keywords enabled
 		Keep blank to disable
 		-->
-		<Keywords></Keywords>
+		<Keywords>immortal</Keywords>
 	
 
 		<RandomizeGunEffectsAndSounds>true</RandomizeGunEffectsAndSounds> <!--Randomizes gun sounds-->
@@ -154,8 +154,6 @@
 			<Effect>shot_main_hw19</Effect>
 			<Effect>shot_medium_hw19</Effect>
 			<Effect>shot_auto_hw19</Effect>
-			
-			<Effect>shot_largeext_immortal_gun</Effect>
 		</GunEffectList>
 
 		<!--used in case when a double barrel model has been selected-->
@@ -172,9 +170,6 @@
 			<Effect>shot_dualgun1_large_mb_R</Effect>
 			<Effect>shot_dualgun1_large_L</Effect>
 			<Effect>shot_dualgun1_large_R</Effect>
-			
-			<Effect>shot_largeext_immortal_gun_dual_L</Effect>
-			<Effect>shot_largeext_immortal_gun_dual_R</Effect>
 		</DualGunEffectList>
 
 		<!--reload sound list to randomize from-->
@@ -238,6 +233,7 @@
 				<WWEvent>eng_v55_pc</WWEvent>
 				
 				<WWEvent>ev_halloween_2019_gameplay_engine_pc</WWEvent>
+				<WWEvent>ev_halloween_2019_gameplay_boss_engine</WWEvent>
 			</PC>
 			<NPC>
 				<WWEvent>eng_cadillac_series_42_npc</WWEvent>
@@ -250,6 +246,8 @@
 				<WWEvent>eng_Hetzer_npc</WWEvent>
 				<WWEvent>eng_Skoda_Prague_npc</WWEvent>
 				<WWEvent>eng_v55_npc</WWEvent>
+				
+				<WWEvent>ev_halloween_2019_gameplay_boss_engine</WWEvent>
 			</NPC>
 		</EngineSFXList>
 	</TankRandomizer>

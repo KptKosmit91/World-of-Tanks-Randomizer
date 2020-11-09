@@ -303,6 +303,7 @@ if randCustom == "true":
     if useAGS:
 
         addBankToLoad("kk91_altGunSounds.bnk", True)
+        addBankToLoad("randomizer2.bnk", True)
 
     if useOGS:
 
