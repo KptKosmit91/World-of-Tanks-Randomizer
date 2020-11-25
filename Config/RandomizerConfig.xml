@@ -5,7 +5,7 @@
 	special seeds:
 	666 - sets all gun effects to 150mm effects (if RandomizeGunEffectsAndSounds is true) and to strongest engine sound (if RandomizeEngineSounds is true) and shell impact sounds to 150mm HE shell impact (if RandomizeShellImpactSounds is true)
 	-->
-	<Seed>1553548061</Seed>
+	<Seed>0</Seed>
 
 	<!--Name of the exported .wotmod file-->
 	<WotmodFilename>WoTRandomMod_v$randver_$wotver_Seed=$seed</WotmodFilename>
@@ -38,7 +38,7 @@
 		TankModelRandomizationIsUnique is always `false` with keywords enabled
 		Keep blank to disable
 		-->
-		<Keywords>immortal</Keywords>
+		<Keywords></Keywords>
 	
 
 		<RandomizeGunEffectsAndSounds>true</RandomizeGunEffectsAndSounds> <!--Randomizes gun sounds-->
@@ -100,6 +100,10 @@
 			<Tank>R70_T_50_2</Tank> <!--old version, this one is removed from the game -->
 			
 			<Tank>R77_KV2_turret_2</Tank>
+			
+			<Tank>R115_IS-3_auto_test</Tank>
+			<Tank>R165_Object_703_II_2</Tank>
+			<Tank>R165_Object_703_II_2_siege_mode</Tank>
 			
 			<!--Steelhunter vehicles can crash the game, so they're disabled -->
 			<Tank>R46_KV-13_SH</Tank>

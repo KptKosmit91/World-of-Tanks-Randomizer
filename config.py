@@ -57,11 +57,12 @@ chaosModeEnabled = tankrandomizer.find("ChaosModeEnabled").text.lower()
 
 RandomizeTankModels = tankrandomizer.find("RandomizeTankModels").text.lower()
 
+TankModelRandomizationIsUnique = tankrandomizer.find("TankModelRandomizationIsUnique").text.lower()
+
 def renewTankModelIsUniqueSetting():
     TankModelRandomizationIsUnique = tankrandomizer.find("TankModelRandomizationIsUnique").text.lower()
 
-TankModelRandomizationIsUnique = tankrandomizer.find("TankModelRandomizationIsUnique").text.lower()
-
+__KeywordsText = ""
 __KeywordsText = tankrandomizer.find("Keywords").text
 
 KeywordsString = ""

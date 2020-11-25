@@ -215,6 +215,8 @@ def updateTankModels(tank):
                 if isDoubleGun == "false":
                     if seed == 666:
                         xml.insertElement("effects", "shot_superhuge", g)
+                    elif seed == 1660 and conf.UseAlternativeGunSoundsMod:
+                        xml.insertElement("effects", "shot_largeext_immortal_gun", g)
                     else:
                         isDoubleGun_MODEL = randomModel.find("RAND_IsDoubleGun").text.lower()
 
@@ -232,7 +234,9 @@ def updateTankModels(tank):
                 else:
                     
                     if seed == 666:
-                        xml.insertElement("multiGunEffects", "shot_superhuge shot_superhuge", g)
+                        xml.insertElement("multiGunEffects", "shot_dualgun_large_L shot_dualgun_large_R", g)
+                    elif seed == 1660 and conf.UseAlternativeGunSoundsMod:
+                        xml.insertElement("multiGunEffects", "shot_largeext_immortal_gun_dual_L shot_largeext_immortal_gun_dual_R", g)
                     else:
                         efflist = conf.getRandomDualGunEffects()
 
