@@ -1,3 +1,9 @@
+'''
+
+WoT randomizer - gun effect randomizer written by KptKosmit91
+
+'''
+
 import xml.etree.ElementTree as ET
 import xmlMethods as xml
 import config as conf

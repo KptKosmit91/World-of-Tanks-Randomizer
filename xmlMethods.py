@@ -1,3 +1,9 @@
+'''
+
+WoT randomizer xml utilities written by KptKosmit91
+
+'''
+
 IsWheeledTag = "RAND_IsWheeled"
 IsDoubleGunTag = "RAND_IsDoubleGun"
 

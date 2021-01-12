@@ -1,3 +1,10 @@
+'''
+
+WoT randomizer - wotmod packer written by KptKosmit91
+Packs Output/res into a .wotmod file
+
+'''
+
 from zipfile import ZipFile
 import config as conf
 import os

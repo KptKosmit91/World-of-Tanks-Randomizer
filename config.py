@@ -1,12 +1,14 @@
 '''
 
+WoT randomizer config controller written by KptKosmit91
+
 PLEASE DO NOT MODIFY THIS FILE UNLESS YOU KNOW WHAT YOU'RE DOING!
 For the true Config file see Config/RandomizerConfig.xml
 
 '''
 
 randomizerversion = "0.9.5"
-wotversion="1.10.1"
+wotversion="1.11.0"
 
 resOut = "Output/res/"
 

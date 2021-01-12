@@ -41,7 +41,7 @@ printSetting("Custom Sounds", conf.CustomSounds)
 printSetting("Use Alternative Gun Sounds", conf.UseAlternativeGunSoundsMod)
 printSetting("Use Old Gun Sounds", conf.UseOldGunSoundsMod)
 
-print("\nCopying additional tank model files... Don't worry if the window has frozen.\n")
+print("\nCopying additional tank model files... Don't worry if the window is stuck or frozen.\n")
 
 copytree("Source/res/vehicles", "Output/res/vehicles")
 copytree("Addons/NewTankModels/Source/res/vehicles", "Output/res/vehicles")

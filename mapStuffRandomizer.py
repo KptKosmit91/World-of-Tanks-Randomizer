@@ -1,3 +1,9 @@
+'''
+
+WoT randomizer - map stuff (music, names, garage foliage color) randomizer written by KptKosmit91
+
+'''
+
 import xml.etree.ElementTree as ET
 import xmlMethods as xml
 import config as conf
@@ -60,7 +66,7 @@ def getFilePaths():
         for f in conf.countryFolders:
             folder = conf.tanksPath+conf.countryFolders[f]+"/"
             for n in os.listdir(folder):
-                if  n.lower() == "list.xml":
+                if n.lower() == "list.xml":
                     tankLists.append(folder+n)
                     break
 
@@ -114,6 +120,7 @@ def updateMap(m):
         if m.replace(conf.mapsPath, "").startswith("dummy"):
             return None
 
+        #print(("Randomizing Things on Map (" + str(int(percentComplete * 100)) + "%): " + m))
         print(("Randomizing Things on Map: " + m))
 
         tree = ET.parse(m)
@@ -216,8 +223,12 @@ if randNameMode == "tank":
     for t in tankLists:
         getTankList(t)
 
+#completedCount = 0
+#totalCount = len(maps)
+
 for m in maps:
     updateMap(m)
+    #completedCount += 1
 
 randomizeFoliageColors("Source/res/scripts/arena_defs/hangar_v3", "trees_tint_map")
 randomizeFoliageColors("Source/res/scripts/arena_defs/hangar_v3", "flora_tint_map")

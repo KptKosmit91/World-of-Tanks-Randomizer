@@ -1,3 +1,10 @@
+'''
+
+WoT randomizer - gun particle effects file combiner written by KptKosmit91
+Combines gun_effects.xml files from all addons and source into one to be readable by the game
+
+'''
+
 import os
 import config as conf
 import fileMethods as fm

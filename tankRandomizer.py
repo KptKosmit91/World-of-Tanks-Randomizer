@@ -1,3 +1,9 @@
+'''
+
+WoT randomizer - tank model randomizer written by KptKosmit91
+
+'''
+
 import xml.etree.ElementTree as ET
 import xmlMethods as xml
 import config as conf
@@ -83,7 +89,7 @@ def getTankModels(tank):
         for g in t.find("guns").findall("*"):
             guns.append(g)
 
-def updateTankModels(tank):
+def updateTankModels(tank, percentComplete):
     name = tank.replace(conf.tanksPath, "")
 
     if name.lower().startswith("addons"):
@@ -97,7 +103,7 @@ def updateTankModels(tank):
     xml.removeAllElementsByName(xml.IsWheeledTag, root)
 
     if randModels == "true":
-        print("Randomizing Tank: " + name.title())
+        print("Randomizing Tank (" + str(int(percentComplete * 100)) + "%): " + name.title())
 
         rand = xml.getRandomListIndex(hullModels, random)
 
@@ -115,6 +121,10 @@ def updateTankModels(tank):
 
         randomModel = hullModels[rand]
         xml.addElement("models", randomModel, root.find("hull"))
+        xml.addElement("turretPositions", tankXmlStorage[rand].find("hull").find("turretPositions"), root.find("hull"))
+
+        if xml.elementExists("turretPitches", root.find("hull")):
+            xml.addElement("turretPitches", tankXmlStorage[rand].find("hull").find("turretPitches"), root.find("hull"))
 
         clanSlot = None
         if root.find("hull").find("customizationSlots"):
@@ -256,7 +266,7 @@ def updateTankModels(tank):
 
 from time import sleep
 
-print("Starting randomization... please wait, this process might take a while.")
+print("Starting tank model randomization... please wait, this process might take a while.")
 getFilePaths()
 
 if len(sourceTanks) == 0:
@@ -272,8 +282,12 @@ for t in sourceTanks:
 
 print("Stage 1... Done")
 
+completedCount = 0
+totalCount = len(tanks)
+
 for t in tanks:
-    updateTankModels(t)
+    updateTankModels(t, completedCount/totalCount)
+    completedCount += 1
 
 print("Stage 2... Done")
 

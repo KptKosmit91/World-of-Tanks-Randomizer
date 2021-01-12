@@ -22,6 +22,11 @@
     <wwmusicResultDefeat>	music_airfield_result_defeat	</wwmusicResultDefeat>
   </wwmusicSetup>
   <wwambientSound>	ambient_wind_desert_01	</wwambientSound>
+  <soundRemapping>
+    <loadBanks>
+      <bank>	env_Mountain.bnk	</bank>
+    </loadBanks>
+  </soundRemapping>
   <water>
     <texScale>	0	</texScale>
     <freqX>	0	</freqX>
@@ -55,6 +60,14 @@
       </boundingBox>
       <maxPlayersInTeam>	1	</maxPlayersInTeam>
       <runDelay>	5	</runDelay>
+      <visualScript>
+        <server>
+          <plan>	BootCamp/Lesson_1_arena_31_airfield	</plan>
+        </server>
+        <client>
+          <plan>	BootCamp/Lesson_1_hints_31_airfield	</plan>
+        </client>
+      </visualScript>
     </bootcamp>
   </gameplayTypes>
   <mapActivities>
@@ -73,14 +86,6 @@
       <yaw>	90.000000	</yaw>
       <possibility>	1.000000	</possibility>
       <startTime>	300.000000 400.000000	</startTime>
-    </warplane>
-    <warplane>
-      <arenaPeriod>	3	</arenaPeriod>
-      <preset>	Tornado_sea	</preset>
-      <position>	0.000000 0.000000 0.000000	</position>
-      <yaw>	90.000000	</yaw>
-      <possibility>	0.300000	</possibility>
-      <startTime>	0.000000 0.000000	</startTime>
     </warplane>
   </mapActivities>
 </root>

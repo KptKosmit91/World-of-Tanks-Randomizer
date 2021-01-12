@@ -1,4 +1,11 @@
 # -*- coding: utf-8 -*-
+
+'''
+
+WoT randomizer - file utilities written by KptKosmit91
+
+'''
+
 import os
 import pathlib
 

@@ -1,3 +1,11 @@
+'''
+
+WoT randomizer XML fixer written by KptKosmit91
+does changes to Source XML files to work with the randomizer
+update tool only - used for updating the randomizer for new WoT versions
+
+'''
+
 import xml.etree.ElementTree as ET
 import xmlMethods as xml
 import config as conf
