@@ -41,12 +41,14 @@ printSetting("Custom Sounds", conf.CustomSounds)
 printSetting("Use Alternative Gun Sounds", conf.UseAlternativeGunSoundsMod)
 printSetting("Use Old Gun Sounds", conf.UseOldGunSoundsMod)
 
-print("\nCopying additional tank model files... Don't worry if the window is stuck or frozen.\n")
+print("\nCopying additional files... Don't worry if the window is stuck or frozen.\n")
 
+print("Copying new vehicle models...")
 copytree("Source/res/vehicles", "Output/res/vehicles")
 copytree("Addons/NewTankModels/Source/res/vehicles", "Output/res/vehicles")
 copytree("Addons/NewTankModels/Source/res/FiatBojowy", "Output/res/FiatBojowy")
 
+print("Copying overrides...")
 copytree("SourceOverrides/res/scripts/item_defs/vehicles", "Source/res/scripts/item_defs/vehicles")
 
 print("\nCopying completed!\n")

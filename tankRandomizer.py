@@ -54,7 +54,7 @@ def getFilePaths():
                 if not conf.isBlacklisted(n):
                     tanks.append(folder+n)
 
-        if conf.UseKeywords is "true":
+        if conf.UseKeywords == "true":
             folder = conf.tanksPath+conf.countryFolders[f]+"/"
             if os.path.exists(folder):
                 for n in os.listdir(folder):

@@ -275,10 +275,13 @@ root = tree.getroot()
 events = root.find("events")
 bnks = root.find("loadBanks")
 
-def addBankToLoad(bank, doCopy):
-    xml.insertElementEmptyNew("bank", bnks).text = bank
+def addBankToLoad(bankName, doCopy):
+    bank = xml.insertElementEmptyNew("bank", bnks)
+    xml.insertElement("name", bankName, bank)
+    xml.insertElement("priority", "50", bank)
+
     if doCopy == True:
-        copyfile('Source/res/audioww/' + bank, 'Output/res/audioww/'+bank)
+        copyfile('Source/res/audioww/' + bankName, 'Output/res/audioww/' + bankName)
 
 def randomizeSoundEvent(name, mod, add, soundtype, i):
     rand = xml.getRandomListIndex(mod, random)
