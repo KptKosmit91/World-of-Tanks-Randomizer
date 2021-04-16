@@ -69,13 +69,13 @@ __KeywordsText = tankrandomizer.find("Keywords").text
 
 KeywordsString = ""
 
-if __KeywordsText is not None:
+if __KeywordsText != None:
     KeywordsString = __KeywordsText.lower().replace(",", " ").replace(".", " ")
 
 KeywordsArray = []
 UseKeywords = "false"
 
-if KeywordsString is not None and KeywordsString is not "":
+if KeywordsString != None and KeywordsString != "":
     KeywordsArray = KeywordsString.split()
     UseKeywords = "true"
     TankModelRandomizationIsUnique = "false"

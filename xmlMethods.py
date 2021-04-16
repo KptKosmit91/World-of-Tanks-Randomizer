@@ -19,14 +19,14 @@ def insertElementEmptyNew(name, where):
 
 def insertElementEmpty(name, where):
     existingElement = where.find(name)
-    if existingElement is not None:
+    if existingElement != None:
         where.remove(existingElement)
     return ET.SubElement(where, name)
 
 def insertElement(name, value, where):
     if value !="":
         existingElement = where.find(name)
-        if existingElement is not None:
+        if existingElement != None:
             existingElement.text = value
         else:
             ET.SubElement(where, name).text = value
@@ -34,13 +34,13 @@ def insertElement(name, value, where):
 def replaceElement(name, newElement, where):
     if newElement != None:
         existingElement = where.find(name)
-        if existingElement is not None:
+        if existingElement != None:
             removeAllElementsByName(name, where)
             where.append(newElement)
 
 def addElement(name, newElement, where):
     existingElement = where.find(name)
-    if existingElement is not None:
+    if existingElement != None:
         removeAllElementsByName(name, where)
 
     if newElement != None:
@@ -48,13 +48,13 @@ def addElement(name, newElement, where):
 
 def getElementText(name, where):
     existingElement = where.find(name)
-    if existingElement is not None:
+    if existingElement != None:
         return existingElement.text
     return "null"
 
 def elementExists(name, where):
     existingElement = where.find(name)
-    if existingElement is not None:
+    if existingElement != None:
         return True
     return False
 

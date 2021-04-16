@@ -144,7 +144,7 @@ def updateTankModels(tank, percentComplete):
         xml.addElement("turretHardPoints", tankXmlStorage[rand].find("hull").find("turretHardPoints"), root.find("hull"))
         xml.removeAllElementsByName("variants", root.find("hull"))
 
-        if newClanSlot is not None and clanSlot is not None:
+        if newClanSlot != None and clanSlot != None:
             xml.addElement("rayStart", newClanSlot.find("rayStart"), clanSlot)
             xml.addElement("rayEnd", newClanSlot.find("rayEnd"), clanSlot)
             xml.addElement("rayUp", newClanSlot.find("rayUp"), clanSlot)
@@ -221,7 +221,7 @@ def updateTankModels(tank, percentComplete):
 
             if randGunFX == "true":
 
-                #Do stuff if tank currently being randomized is NOT a double barreled vehicle
+                #Do stuff if tank currently being randomized != a double barreled vehicle
                 if isDoubleGun == "false":
                     if seed == 666:
                         xml.insertElement("effects", "shot_superhuge", g)

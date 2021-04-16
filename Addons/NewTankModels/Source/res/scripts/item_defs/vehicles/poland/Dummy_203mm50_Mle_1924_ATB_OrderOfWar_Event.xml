@@ -1,0 +1,351 @@
+<pl205_203mm50_mle_1924_atb.xml>
+  <crew>
+    <commander>gunner
+         radioman
+         loader</commander>
+    <driver />
+  </crew>
+  <supplySlots>8 8 8</supplySlots>
+  <localAimPoint>0.0 3.0 0.0</localAimPoint>
+  <speedLimits>
+    <forward>0.1</forward>
+    <backward>0.1</backward>
+  </speedLimits>
+  <invisibility>
+    <moving>0.01</moving>
+    <still>0.01</still>
+    <camouflageBonus>0.03</camouflageBonus>
+    <camouflageNetBonus>0.1</camouflageNetBonus>
+    <firePenalty>0.5</firePenalty>
+  </invisibility>
+  <repairCost>0</repairCost>
+  <crewXpFactor>1.0</crewXpFactor>
+  <camouflage>
+    <priceFactor>1.6</priceFactor>
+    <tiling>1 1 0 0</tiling>
+    <exclusionMask />
+    <density>1 1</density>
+  </camouflage>
+  <hull>
+    <armor>
+      <armor_1>800</armor_1>
+      <armor_2>800</armor_2>
+      <armor_3>800</armor_3>
+      <armor_4>800</armor_4>
+      <armor_5>800</armor_5>
+      <armor_6>800</armor_6>
+      <armor_7>800</armor_7>
+      <armor_8>800</armor_8>
+    </armor>
+    <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+    <weight>130000</weight>
+    <maxHealth>2600</maxHealth>
+    <ammoBayHealth>
+      <maxHealth>2500</maxHealth>
+      <maxRegenHealth>2500</maxRegenHealth>
+      <repairCost>1.0</repairCost>
+    </ammoBayHealth>
+    <models>
+      <undamaged>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/normal/lod0/Hull.model</undamaged>
+      <destroyed>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/crash/lod0/Hull.model</destroyed>
+      <exploded>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/crash/lod0/Hull.model</exploded>
+    </models>
+    <swinging>
+      <lodDist>FAR</lodDist>
+      <pitchParams>0.34 38.00 0.36 1.00 0.05 0.34</pitchParams>
+      <rollParams>1.00 0.34 38.00 0.36 1.00 0.06 0.40</rollParams>
+      <sensitivityToImpulse>0.000000</sensitivityToImpulse>
+    </swinging>
+    <exhaust>
+      <pixie>gas_small</pixie>
+      <nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
+    </exhaust>
+    <turretPositions>
+      <turret>0.000000 1.86443 0.000000</turret>
+    </turretPositions>
+    <hitTester>
+      <collisionModelServer>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/collision/Hull.model</collisionModelServer>
+      <collisionModelClient>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/collision_client/Hull.model</collisionModelClient>
+    </hitTester>
+    <camouflage>
+      <density>0.000000 0.000000</density>
+      <aoTextureSize>0.000000 0.000000</aoTextureSize>
+    </camouflage>
+  </hull>
+  <chassis>
+    <Chassis_Pl205_203mm50_Mle_1924_ATB>
+      <userString>Chassis_Pl205_203mm50_Mle_1924_ATB</userString>
+      <tags />
+      <level>1</level>
+      <price>240</price>
+      <notInShop>true</notInShop>
+      <armor>
+        <leftTrack>5</leftTrack>
+        <rightTrack>5</rightTrack>
+      </armor>
+      <weight>1</weight>
+      <maxLoad>200000</maxLoad>
+      <terrainResistance>1.0 1.35 1.95</terrainResistance>
+      <brakeForce>35500</brakeForce>
+      <rotationIsAroundCenter>True</rotationIsAroundCenter>
+      <rotationSpeed>34</rotationSpeed>
+      <shotDispersionFactors>
+        <vehicleMovement>0.42</vehicleMovement>
+        <vehicleRotation>0.42</vehicleRotation>
+      </shotDispersionFactors>
+      <bulkHealthFactor>3.0</bulkHealthFactor>
+      <maxHealth>40</maxHealth>
+      <maxRegenHealth>30</maxRegenHealth>
+      <repairCost>1.0</repairCost>
+      <models>
+        <undamaged>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/normal/lod0/Chassis.model</undamaged>
+        <destroyed>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/crash/lod0/Chassis.model</destroyed>
+        <exploded>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/crash/lod0/Chassis.model</exploded>
+      </models>
+      <traces>
+        <lodDist>MEDIUM</lodDist>
+        <bufferPrefs>mediumTank</bufferPrefs>
+        <textureSet>ussr_01</textureSet>
+        <size>0.5 0.3</size>
+      </traces>
+      <tracks>
+        <lodDist>MEDIUM_TRACK</lodDist>
+        <leftMaterial>track_mat_L_skinned</leftMaterial>
+        <rightMaterial>track_mat_R_skinned</rightMaterial>
+        <textureScale>-1.1</textureScale>
+      </tracks>
+      <AODecals>
+        <decal>
+          <transform>
+            <row0>2.430480 0.000000 0.000000</row0>
+            <row1>0.000000 1.342020 0.000000</row1>
+            <row2>0.000000 0.000000 3.652850</row2>
+            <row3>0.000000 0.000000 0.000000</row3>
+          </transform>
+        </decal>
+      </AODecals>
+      <wheels>
+        <lodDist>MEDIUM</lodDist>
+        <wheel>
+          <isLeft>true</isLeft>
+          <isLeading>true</isLeading>
+          <name>WD_L0</name>
+          <radius>0.0513476</radius>
+        </wheel>
+        <wheel>
+          <isLeft>true</isLeft>
+          <isLeading>true</isLeading>
+          <name>WD_L1</name>
+          <radius>0.0513476</radius>
+        </wheel>
+        <wheel>
+          <isLeft>false</isLeft>
+          <isLeading>true</isLeading>
+          <name>WD_R0</name>
+          <radius>0.0513476</radius>
+        </wheel>
+        <wheel>
+          <isLeft>false</isLeft>
+          <isLeading>true</isLeading>
+          <name>WD_R1</name>
+          <radius>0.0513476</radius>
+        </wheel>
+        <wheel>
+          <isLeft>true</isLeft>
+          <isLeading>false</isLeading>
+          <name>W_L0</name>
+          <radius>0.0377594</radius>
+        </wheel>
+        <wheel>
+          <isLeft>true</isLeft>
+          <isLeading>false</isLeading>
+          <name>W_L1</name>
+          <radius>0.0491905</radius>
+        </wheel>
+        <wheel>
+          <isLeft>false</isLeft>
+          <isLeading>false</isLeading>
+          <name>W_R0</name>
+          <radius>0.0393124</radius>
+        </wheel>
+        <wheel>
+          <isLeft>false</isLeft>
+          <isLeading>false</isLeading>
+          <name>W_R1</name>
+          <radius>0.0513476</radius>
+        </wheel>
+      </wheels>
+      <drivingWheels>WD_L0 WD_L1</drivingWheels>
+      <effects>
+        <lodDist>MEDIUM</lodDist>
+        <mud>largeTankMud</mud>
+      </effects>
+      <wwsoundPC>treads_type_pc</wwsoundPC>
+      <hullPosition>0.000000 0.28475 0.000000</hullPosition>
+      <hitTester>
+        <collisionModelServer>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/collision/Chassis.model</collisionModelServer>
+        <collisionModelClient>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/collision_client/Chassis.model</collisionModelClient>
+      </hitTester>
+      <topRightCarryingPoint>1.40224 2.40996</topRightCarryingPoint>
+      <maxClimbAngle>25</maxClimbAngle>
+      <navmeshGirth>6.0</navmeshGirth>
+    </Chassis_Pl205_203mm50_Mle_1924_ATB>
+  </chassis>
+  <turrets0>
+    <Turret_1_Pl205_203mm50_Mle_1924_ATB>
+      <userString>Turret_1_Pl205_203mm50_Mle_1924_ATB</userString>
+      <tags />
+      <level>1</level>
+      <price>120</price>
+      <notInShop>true</notInShop>
+      <armor>
+        <armor_1>100</armor_1>
+        <armor_2>100</armor_2>
+        <armor_3>100</armor_3>
+        <armor_4>100</armor_4>
+        <armor_5>100</armor_5>
+        <armor_6>100</armor_6>
+        <armor_7>100</armor_7>
+        <armor_8>100</armor_8>
+      </armor>
+      <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+      <weight>1</weight>
+      <maxHealth>1700</maxHealth>
+      <rotationSpeed>7.0</rotationSpeed>
+      <turretRotatorHealth>
+        <maxHealth>400</maxHealth>
+        <maxRegenHealth>400</maxRegenHealth>
+        <repairCost>1.0</repairCost>
+      </turretRotatorHealth>
+      <circularVisionRadius>350</circularVisionRadius>
+      <surveyingDeviceHealth>
+        <maxHealth>40</maxHealth>
+        <maxRegenHealth>19</maxRegenHealth>
+        <repairCost>1.0</repairCost>
+      </surveyingDeviceHealth>
+      <guns>
+        <Gun_1_Pl205_203mm50_Mle_1924_ATB>
+          shared
+          <maxAmmo>50</maxAmmo>
+          <unlocks />
+          <armor>
+            <gun>10</gun>
+          </armor>
+          <turretYawLimits>-180 180</turretYawLimits>
+          <reloadTime>13.0</reloadTime>
+          <invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
+          <multiGunEffects>shot_dualgun1_large_mb_L shot_dualgun1_large_mb_R</multiGunEffects>
+          <dualGun>
+            <chargeTime>0.5</chargeTime>
+            <shootImpulse>200</shootImpulse>
+            <reloadLockTime>2</reloadLockTime>
+            <reloadTimes>13.0 13.0</reloadTimes>
+            <rateTime>5</rateTime>
+            <chargeThreshold>0.5</chargeThreshold>
+            <afterShotDelay>1</afterShotDelay>
+            <preChargeIndication>0.25</preChargeIndication>
+            <chargeCancelTime>0.2</chargeCancelTime>
+          </dualGun>
+          <turretYawLimits>-180 180</turretYawLimits>
+          <pitchLimits>
+            <minPitch>0 -30 1 -30</minPitch>
+            <maxPitch>0.0 5.0 1.0 5.0</maxPitch>
+          </pitchLimits>
+          <models>
+            <undamaged>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/normal/lod0/Gun_01.model</undamaged>
+            <destroyed>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/crash/lod0/Gun_01.model</destroyed>
+            <exploded>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/crash/lod0/Gun_01.model</exploded>
+          </models>
+          <hitTester>
+            <collisionModelServer>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/collision/Gun_01.model</collisionModelServer>
+            <collisionModelClient>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/collision_client/Gun_01.model</collisionModelClient>
+          </hitTester>
+          <effects>shot_superhuge</effects>
+          <camouflage>
+            <density>0.000000 0.000000</density>
+            <aoTextureSize>0.000000 0.000000</aoTextureSize>
+          </camouflage>
+        <RAND_IsDoubleGun>true</RAND_IsDoubleGun></Gun_1_Pl205_203mm50_Mle_1924_ATB>
+      </guns>
+      <models>
+        <undamaged>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/normal/lod0/Turret_01.model</undamaged>
+        <destroyed>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/crash/lod0/Turret_01.model</destroyed>
+        <exploded>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/crash/lod0/Turret_01.model</exploded>
+      </models>
+      <hitTester>
+        <collisionModelServer>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/collision/Turret_01.model</collisionModelServer>
+        <collisionModelClient>vehicles/poland/Pl205_203mm50_Mle_1924_ATB/collision_client/Turret_01.model</collisionModelClient>
+      </hitTester>
+      <gunPosition>0.000000 1.21514 1.82658</gunPosition>
+      <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
+      <showEmblemsOnGun>false</showEmblemsOnGun>
+      <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.500 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
+      <multiGun>
+        <gun>
+          <gunNode>G_L</gunNode>
+          <gunFire>HP_gunFire_L</gunFire>
+          <position>-0.96 0.0 -7.365</position>
+        </gun>
+        <gun>
+          <gunNode>G_R</gunNode>
+          <gunFire>HP_gunFire_R</gunFire>
+          <position>0.942 0.0 -7.365</position>
+        </gun>
+      </multiGun>
+      <camouflage>
+        <density>0.000000 0.000000</density>
+        <aoTextureSize>0.000000 0.000000</aoTextureSize>
+      </camouflage>
+    </Turret_1_Pl205_203mm50_Mle_1924_ATB>
+  </turrets0>
+  <engines>
+    <Engine_Supply_ATB>
+      shared
+    </Engine_Supply_ATB>
+  </engines>
+  <fuelTanks>
+    <Small>
+      shared
+    </Small>
+  </fuelTanks>
+  <radios>
+    <radio_Supply_ATB>
+      shared
+    </radio_Supply_ATB>
+  </radios>
+  <physics>
+    <detailed>
+      <engines>
+        <Engine_Supply_ATB>
+          <smplEnginePower>10.0</smplEnginePower>
+          <smplFwMaxSpeed>0.000001</smplFwMaxSpeed>
+        </Engine_Supply_ATB>
+      </engines>
+      <chassis>
+        <Chassis_Pl205_203mm50_Mle_1924_ATB>
+          <grounds>
+            <soft>
+              <rollingFriction>0.2254</rollingFriction>
+            </soft>
+            <medium>
+              <rollingFriction>0.12075</rollingFriction>
+            </medium>
+            <firm>
+              <rollingFriction>0.1127</rollingFriction>
+            </firm>
+          </grounds>
+        </Chassis_Pl205_203mm50_Mle_1924_ATB>
+      </chassis>
+    </detailed>
+  </physics>
+  <clientAdjustmentFactors />
+  <effects>
+    <collision />
+    <damagedStateGroup>large</damagedStateGroup>
+  </effects>
+  <emblems>
+    <default>15501</default>
+    <lodDist>MEDIUM</lodDist>
+    <alpha>1</alpha>
+  </emblems>
+<RAND_IsWheeled>false</RAND_IsWheeled></pl205_203mm50_mle_1924_atb.xml>

@@ -69,7 +69,7 @@ def work(tank):
 
     for c in chassis:
         nonTrack = c.find("wheels").find("wheel").find("nonTrack")
-        if nonTrack is not None and nonTrack.text.lower() == "true":
+        if nonTrack != None and nonTrack.text.lower() == "true":
             xml.insertElement(xml.IsWheeledTag, "true", root)
             break
 

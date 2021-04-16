@@ -148,11 +148,11 @@ def updateMap(m):
 
         bootcampMusicSetup = None
         bootcamp = root.find("gameplayTypes").find("bootcamp")
-        if bootcamp is not None:
+        if bootcamp != None:
             bootcampMusicSetup = bootcamp.find("wwmusicSetup")
         musicSetup = root.find("wwmusicSetup")
 
-        if bootcampMusicSetup is not None:
+        if bootcampMusicSetup != None:
 
             #note: elements of the lists don't get popped for bootcamp
 

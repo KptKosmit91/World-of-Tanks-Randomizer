@@ -148,6 +148,7 @@
     <V-54K_1>	225	</V-54K_1>
     <GTD_700P>	226	</GTD_700P>
     <V_46_5>	227	</V_46_5>
+    <V_64S>	229	</V_64S>
     <V-5_IGR>	60001	</V-5_IGR>
     <V-2IS_IGR>	60002	</V-2IS_IGR>
     <V-54-6_IGR>	60003	</V-54-6_IGR>
@@ -1942,16 +1943,16 @@
       <level>	8	</level>
       <price>	45000	</price>
       <notInShop>	true	</notInShop>
-      <wwsoundPC>	eng_Hetzer_pc	</wwsoundPC>
-      <wwsoundNPC>	eng_Hetzer_npc	</wwsoundNPC>
-      <power>	400	</power>
+      <wwsoundPC>	eng_v55_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_v55_npc	</wwsoundNPC>
+      <power>	450	</power>
       <weight>	1300	</weight>
       <maxHealth>	260	</maxHealth>
       <maxRegenHealth>	130	</maxRegenHealth>
       <repairCost>	8	</repairCost>
       <fireStartingChance>	0.12	</fireStartingChance>
-      <rpm_min>	221	</rpm_min>
-      <rpm_max>	2256	</rpm_max>
+      <rpm_min>	400	</rpm_min>
+      <rpm_max>	2000	</rpm_max>
     </BAMM_V12>
     <_5TD>
       <userString>	#ussr_vehicles:_5TD	</userString>
@@ -2617,9 +2618,26 @@
       <maxRegenHealth>	180	</maxRegenHealth>
       <repairCost>	10	</repairCost>
       <fireStartingChance>	0.12	</fireStartingChance>
-      <rpm_min>	253	</rpm_min>
-      <rpm_max>	2440	</rpm_max>
+      <rpm_min>	272	</rpm_min>
+      <rpm_max>	2384	</rpm_max>
     </V_64R>
+    <V_64S>
+      <userString>	#ussr_vehicles:V_64S	</userString>
+      <tags>	diesel	</tags>
+      <level>	9	</level>
+      <price>	90000	</price>
+      <notInShop>	true	</notInShop>
+      <wwsoundPC>	eng_v55_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_v55_npc	</wwsoundNPC>
+      <power>	800	</power>
+      <weight>	1200	</weight>
+      <maxHealth>	360	</maxHealth>
+      <maxRegenHealth>	180	</maxRegenHealth>
+      <repairCost>	10	</repairCost>
+      <fireStartingChance>	0.12	</fireStartingChance>
+      <rpm_min>	306	</rpm_min>
+      <rpm_max>	2280	</rpm_max>
+    </V_64S>
     <M_850>
       <userString>	#ussr_vehicles:M_850	</userString>
       <tags>	diesel	</tags>
@@ -2886,8 +2904,8 @@
       <wwsoundNPC>	eng_v55_npc	</wwsoundNPC>
       <power>	600	</power>
       <weight>	1000	</weight>
-      <maxHealth>	200	</maxHealth>
-      <maxRegenHealth>	130	</maxRegenHealth>
+      <maxHealth>	103	</maxHealth>
+      <maxRegenHealth>	65	</maxRegenHealth>
       <repairCost>	0	</repairCost>
       <fireStartingChance>	0.0	</fireStartingChance>
       <rpm_min>	360	</rpm_min>
@@ -2903,8 +2921,8 @@
       <wwsoundNPC>	eng_v55_npc	</wwsoundNPC>
       <power>	1615	</power>
       <weight>	1000	</weight>
-      <maxHealth>	200	</maxHealth>
-      <maxRegenHealth>	130	</maxRegenHealth>
+      <maxHealth>	103	</maxHealth>
+      <maxRegenHealth>	65	</maxRegenHealth>
       <repairCost>	0	</repairCost>
       <fireStartingChance>	0.0	</fireStartingChance>
       <rpm_min>	200	</rpm_min>
@@ -2920,8 +2938,8 @@
       <wwsoundNPC>	eng_v55_npc	</wwsoundNPC>
       <power>	1290	</power>
       <weight>	1000	</weight>
-      <maxHealth>	200	</maxHealth>
-      <maxRegenHealth>	130	</maxRegenHealth>
+      <maxHealth>	103	</maxHealth>
+      <maxRegenHealth>	65	</maxRegenHealth>
       <repairCost>	0	</repairCost>
       <fireStartingChance>	0.0	</fireStartingChance>
       <rpm_min>	200	</rpm_min>
