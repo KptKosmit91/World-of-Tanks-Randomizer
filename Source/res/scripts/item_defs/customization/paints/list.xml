@@ -1,5 +1,4 @@
 <list.xml>
-
   <itemGroup>
     <name>	unhistorical paints	</name>
     <userString>	#vehicle_customization:repaint/color_group_05	</userString>
@@ -910,7 +909,6 @@
       <gloss>	0.738	</gloss>
       <metallic>	0.23	</metallic>
       <userString>	#vehicle_customization:repaint/halloween_2019	</userString>
-      <tags>	hiddenInUI	</tags>
     </paint>
     <usages>
       <item>
@@ -1098,6 +1096,30 @@
       <metallic>	0.203	</metallic>
       <userString>	#vehicle_customization:repaint/roaring_waves	</userString>
     </paint>
+    <paint>
+      <id>	111	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_20.png	</texture>
+      <color>	28 33 28 255	</color>
+      <gloss>	0.3	</gloss>
+      <metallic>	0.25	</metallic>
+      <userString>	#vehicle_customization:repaint/traditional_beauty_green	</userString>
+    </paint>
+    <paint>
+      <id>	112	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_29.png	</texture>
+      <color>	179 184 198 255	</color>
+      <gloss>	0.8	</gloss>
+      <metallic>	0.4	</metallic>
+      <userString>	#vehicle_customization:repaint/traditional_beauty_blue	</userString>
+    </paint>
+    <paint>
+      <id>	113	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_03.png	</texture>
+      <color>	19 30 61 255	</color>
+      <gloss>	0.5	</gloss>
+      <metallic>	0.2	</metallic>
+      <userString>	#vehicle_customization:repaint/traditional_beauty_kimono	</userString>
+    </paint>
     <usages>
       <item>
         <componentType>	ALL	</componentType>
@@ -1159,7 +1181,7 @@
     </usages>
   </itemGroup>
   <itemGroup>
-    <name>	75 Years Victory Day	</name>
+    <name>	Victory Day	</name>
     <userString>	#vehicle_customization:repaint/color_group_04	</userString>
     <season>	ALL	</season>
     <historical>	false	</historical>
@@ -1177,6 +1199,14 @@
       <metallic>	0.23	</metallic>
       <userString>	#vehicle_customization:repaint/75_years_victory_day	</userString>
       <tags>	hiddenInUI	</tags>
+    </paint>
+    <paint>
+      <id>	105	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_18.png	</texture>
+      <color>	140 19 19 255	</color>
+      <gloss>	0.6	</gloss>
+      <metallic>	0.4	</metallic>
+      <userString>	#vehicle_customization:repaint/victory_day_2021	</userString>
     </paint>
     <usages>
       <item>
@@ -1885,6 +1915,30 @@
       <metallic>	0.3	</metallic>
       <userString>	#vehicle_customization:repaint/valentines_day	</userString>
     </paint>
+    <paint>
+      <id>	106	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_29.png	</texture>
+      <color>	198 198 198 255	</color>
+      <gloss>	0.509	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/cis_tournament_1	</userString>
+    </paint>
+    <paint>
+      <id>	107	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_29.png	</texture>
+      <color>	198 198 198 255	</color>
+      <gloss>	0.509	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/cis_tournament_2	</userString>
+    </paint>
+    <paint>
+      <id>	108	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_29.png	</texture>
+      <color>	198 198 198 255	</color>
+      <gloss>	0.509	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/cis_tournament_3	</userString>
+    </paint>
     <usages>
       <item>
         <componentType>	ALL	</componentType>
@@ -2034,6 +2088,161 @@
       <gloss>	0.65	</gloss>
       <metallic>	0.5	</metallic>
       <userString>	#vehicle_customization:repaint/bp2021_3	</userString>
+    </paint>
+    <usages>
+      <item>
+        <componentType>	ALL	</componentType>
+        <cost>	1	</cost>
+      </item>
+    </usages>
+  </itemGroup>
+  <itemGroup>
+    <name>	Girls und Panzer	</name>
+    <userString>	#vehicle_customization:repaint/color_group_04	</userString>
+    <season>	ALL	</season>
+    <historical>	false	</historical>
+    <priceGroup>	paints 20g notInShop	</priceGroup>
+    <vehicleFilter>
+      <exclude>
+        <vehicles>	china:Ch01_Type59_Gold germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian usa:A13_T34_hvy_BF ussr:R61_Object252_BF	</vehicles>
+      </exclude>
+    </vehicleFilter>
+    <paint>
+      <id>	95	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_38.png	</texture>
+      <color>	68 58 47 255	</color>
+      <gloss>	0.67	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_anglerfish	</userString>
+    </paint>
+    <paint>
+      <id>	96	</id>
+      <texture>	gui/maps/vehicles/repaints/italy_base_color.png	</texture>
+      <color>	119 101 58 255	</color>
+      <gloss>	0.509	</gloss>
+      <metallic>	0.203	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_turtle	</userString>
+    </paint>
+    <paint>
+      <id>	97	</id>
+      <texture>	gui/maps/vehicles/repaints/czech_color_04.png	</texture>
+      <color>	32 36 38 255	</color>
+      <gloss>	0.509	</gloss>
+      <metallic>	0.203	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_hippo	</userString>
+    </paint>
+    <paint>
+      <id>	98	</id>
+      <texture>	gui/maps/vehicles/repaints/ussr_base_color.png	</texture>
+      <color>	76 76 44 255	</color>
+      <gloss>	0.5	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_rabbit	</userString>
+    </paint>
+    <paint>
+      <id>	99	</id>
+      <texture>	gui/maps/vehicles/repaints/japan_color_03.png	</texture>
+      <color>	39 45 23 255	</color>
+      <gloss>	0.509	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_duck	</userString>
+    </paint>
+    <paint>
+      <id>	100	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_38.png	</texture>
+      <color>	68 58 47 255	</color>
+      <gloss>	0.67	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_anglerfish	</userString>
+      <tags>	styleOnly	</tags>
+    </paint>
+    <paint>
+      <id>	101	</id>
+      <texture>	gui/maps/vehicles/repaints/italy_base_color.png	</texture>
+      <color>	119 101 58 255	</color>
+      <gloss>	0.509	</gloss>
+      <metallic>	0.203	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_turtle	</userString>
+      <tags>	styleOnly	</tags>
+    </paint>
+    <paint>
+      <id>	102	</id>
+      <texture>	gui/maps/vehicles/repaints/czech_color_04.png	</texture>
+      <color>	32 36 38 255	</color>
+      <gloss>	0.509	</gloss>
+      <metallic>	0.203	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_hippo	</userString>
+      <tags>	styleOnly	</tags>
+    </paint>
+    <paint>
+      <id>	103	</id>
+      <texture>	gui/maps/vehicles/repaints/ussr_base_color.png	</texture>
+      <color>	76 76 44 255	</color>
+      <gloss>	0.5	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_rabbit	</userString>
+      <tags>	styleOnly	</tags>
+    </paint>
+    <paint>
+      <id>	104	</id>
+      <texture>	gui/maps/vehicles/repaints/japan_color_03.png	</texture>
+      <color>	39 45 23 255	</color>
+      <gloss>	0.509	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/girls_und_panzer_duck	</userString>
+      <tags>	styleOnly	</tags>
+    </paint>
+    <usages>
+      <item>
+        <componentType>	ALL	</componentType>
+        <cost>	1	</cost>
+      </item>
+    </usages>
+  </itemGroup>
+  <itemGroup>
+    <name>	flavor of asia	</name>
+    <userString>	#vehicle_customization:repaint/color_group_04	</userString>
+    <season>	ALL	</season>
+    <historical>	false	</historical>
+    <priceGroup>	paints 20g notInShop	</priceGroup>
+    <vehicleFilter>
+      <exclude>
+        <vehicles>	china:Ch01_Type59_Gold germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian usa:A13_T34_hvy_BF ussr:R61_Object252_BF	</vehicles>
+      </exclude>
+    </vehicleFilter>
+    <paint>
+      <id>	110	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_20.png	</texture>
+      <color>	17 17 20 255	</color>
+      <gloss>	0.6	</gloss>
+      <metallic>	0.225	</metallic>
+      <userString>	#vehicle_customization:repaint/flavour_asia	</userString>
+    </paint>
+    <usages>
+      <item>
+        <componentType>	ALL	</componentType>
+        <cost>	1	</cost>
+      </item>
+    </usages>
+  </itemGroup>
+  <itemGroup>
+    <name>	Gagarin	</name>
+    <userString>	#vehicle_customization:repaint/color_group_03	</userString>
+    <season>	ALL	</season>
+    <historical>	false	</historical>
+    <priceGroup>	paints 20g notInShop	</priceGroup>
+    <vehicleFilter>
+      <exclude>
+        <vehicles>	china:Ch01_Type59_Gold germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian usa:A13_T34_hvy_BF ussr:R61_Object252_BF	</vehicles>
+      </exclude>
+    </vehicleFilter>
+    <paint>
+      <id>	109	</id>
+      <texture>	gui/maps/vehicles/repaints/custom_color_20.png	</texture>
+      <color>	26 34 53 255	</color>
+      <gloss>	0.01	</gloss>
+      <metallic>	0.23	</metallic>
+      <userString>	#vehicle_customization:repaint/gagarin	</userString>
     </paint>
     <usages>
       <item>
