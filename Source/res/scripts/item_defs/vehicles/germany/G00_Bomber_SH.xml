@@ -24,6 +24,12 @@ driver</commander>
     <additionalInvisibilityDevice>
       <invisibilityBonus>0.06 0.08</invisibilityBonus>
     </additionalInvisibilityDevice>
+    <trophyBasicAdditionalInvisibilityDevice>
+      <invisibilityBonus>0.06</invisibilityBonus>
+    </trophyBasicAdditionalInvisibilityDevice>
+    <trophyUpgradedAdditionalInvisibilityDevice>
+      <invisibilityBonus>0.09</invisibilityBonus>
+    </trophyUpgradedAdditionalInvisibilityDevice>
   </optDevsOverrides>
   <repairCost>2.0</repairCost>
   <crewXpFactor>1.5</crewXpFactor>
@@ -31,7 +37,7 @@ driver</commander>
     <priceFactor>0.2</priceFactor>
     <tiling>1 1 0 0</tiling>
     <exclusionMask />
-    <density>1 1</density>
+    <density>0.62 0.62</density>
   </camouflage>
   <hull>
     <fakeTurrets>
@@ -237,9 +243,9 @@ driver</commander>
             <gun>300</gun>
           </armor>
           <models>
-            <undamaged>vehicles/german/G24_VK3002DB_SH/normal/lod0/Gun_02.model</undamaged>
-            <destroyed>vehicles/german/G24_VK3002DB_SH/crash/lod0/Gun_02.model</destroyed>
-            <exploded>vehicles/german/G24_VK3002DB_SH/crash/lod0/Gun_02.model</exploded>
+            <undamaged>vehicles/german/G00_Bomber_SH/normal/lod0/Gun_01.model</undamaged>
+            <destroyed>vehicles/german/G00_Bomber_SH/crash/lod0/Gun_01.model</destroyed>
+            <exploded>vehicles/german/G00_Bomber_SH/crash/lod0/Gun_01.model</exploded>
           </models>
           <hitTester>
             <collisionModelServer>vehicles/german/G00_Bomber_SH/collision/Gun_01.model</collisionModelServer>

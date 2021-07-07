@@ -369,7 +369,8 @@ loader</commander>
         <repairCost>2.0</repairCost>
       </surveyingDeviceHealth>
       <guns>
-        <_20mm_n_k_m_20_A>shared  <maxAmmo>250</maxAmmo>
+	  <!--was _20mm_n_k_m_20_A buy changed so that ModelSwap=true will give it a better sound-->
+        <_210mm_Morser_21>shared  <maxAmmo>250</maxAmmo>
           <armor>
             <armor_1>10  <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_1>
@@ -454,7 +455,7 @@ loader</commander>
             <density>254.043 244.276</density>
             <aoTextureSize>512 256</aoTextureSize>
           </camouflage>
-        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_n_k_m_20_A>
+        <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_210mm_Morser_21>
       </guns>
       <models><undamaged>vehicles/german/G150_Leviathan/normal/lod0/Turret_01.model</undamaged>
     <destroyed>vehicles/german/G150_Leviathan/crash/lod0/Turret_01.model</destroyed>

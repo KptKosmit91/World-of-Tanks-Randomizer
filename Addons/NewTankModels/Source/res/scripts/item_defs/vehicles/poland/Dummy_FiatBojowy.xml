@@ -66,7 +66,8 @@
             <nodes>HP_Track_Exhaus_1</nodes>
         </exhaust>
         <turretPositions>
-            <turret>0.40644 0.393359 0.628551</turret>
+            <!--turret>0.40644 0.393359 0.628551</turret-->
+            <turret>0.229593 1.147249 -0.203295</turret>
         </turretPositions>
         <hitTester>
             <collisionModelServer>vehicles/poland/Pl01_TKS_20mm/collision/Hull.model</collisionModelServer>
@@ -1053,6 +1054,155 @@ shared
                         <aoTextureSize>512 256</aoTextureSize>
                     </camouflage>
                 <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_20mm_n_k_m_20_A>
+				
+				<!--second gun added for 37mm gun effects-->
+				<_37mm_pvkan_m_38>
+shared
+
+                    <maxAmmo>250</maxAmmo>
+                    <armor>
+                        <armor_1>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_1>
+                        <armor_2>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_2>
+                        <armor_3>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_3>
+                        <armor_4>0
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_4>
+                        <armor_5>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_5>
+                        <armor_6>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_6>
+                        <armor_7>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_7>
+                        <armor_8>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_8>
+                        <armor_9>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_9>
+                        <armor_10>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_10>
+                        <armor_11>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_11>
+                        <armor_12>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_12>
+                        <armor_13>10
+                            <vehicleDamageFactor>0.0</vehicleDamageFactor>
+                        </armor_13>
+                        <gun>10</gun>
+                    </armor>
+                    <turretYawLimits>-13 13</turretYawLimits>
+                    <pitchLimits>
+                        <minPitch>0 -25 1 -25</minPitch>
+                        <maxPitch>0 7 1 7</maxPitch>
+                    </pitchLimits>
+                    <invisibilityFactorAtShot>0.224</invisibilityFactorAtShot>
+                    <clip>
+                        <count>10</count>
+                        <rate>320</rate>
+                    </clip>
+                    <burst>
+                        <count>2</count>
+                        <rate>320</rate>
+                    </burst>
+                    <reloadTime>6.2</reloadTime>
+                    <aimingTime>1.8</aimingTime>
+                    <shotDispersionFactors>
+                        <turretRotation>0.08</turretRotation>
+                        <afterShot>1.3</afterShot>
+                        <whileGunDamaged>2.0</whileGunDamaged>
+                    </shotDispersionFactors>
+                    <models>
+                        <undamaged>vehicles/sweden/S09_L_120_TD/normal/lod0/Gun_02.model</undamaged>
+                        <destroyed>vehicles/sweden/S09_L_120_TD/crash/lod0/Gun_02.model</destroyed>
+                        <exploded>vehicles/sweden/S09_L_120_TD/crash/lod0/Gun_02.model</exploded>
+                    </models>
+                    <hitTester>
+                        <collisionModelServer>vehicles/poland/Pl01_TKS_20mm/collision/Gun_01.model</collisionModelServer>
+                        <collisionModelClient>vehicles/poland/Pl01_TKS_20mm/collision_client/Gun_01.model</collisionModelClient>
+                    </hitTester>
+<drivenJoints>
+            <master>
+              <node>Gun</node>
+              <table>
+                <row>-30.0</row>
+                <row>-25.0</row>
+                <row>-20.0</row>
+                <row>-15.0</row>
+                <row>-10.0</row>
+                <row>-5.0</row>
+                <row>0.0</row>
+                <row>7.0</row>
+              </table>
+              <slaves>
+                <slave>
+                  <node>joint_lower</node>
+                  <table>
+                    <row>38.3</row>
+                    <row>32.644</row>
+                    <row>27.082</row>
+                    <row>20.903</row>
+                    <row>14.718</row>
+                    <row>7.51</row>
+                    <row>-0.148</row>
+                    <row>-11.386</row>
+                  </table>
+                </slave>
+                <slave>
+                  <node>joint_upper</node>
+                  <table>
+                    <row>8.173</row>
+                    <row>8.132</row>
+                    <row>7.543</row>
+                    <row>6.311</row>
+                    <row>4.603</row>
+                    <row>2.718</row>
+                    <row>0.575</row>
+                    <row>-4.1</row>
+                  </table>
+                </slave>
+              </slaves>
+            </master>
+          </drivenJoints>
+                    <customization>
+                        <customizableVehicleAreas>
+                            <paint>GUN_2</paint>
+                            <camouflage>GUN</camouflage>
+                        </customizableVehicleAreas>
+                    </customization>
+                    <customizationSlots>
+                        <slot>
+                            <slotType>camouflage</slotType>
+                            <slotId>42000</slotId>
+                            <anchorPosition>-0.0249262 0.00591975 0.107632</anchorPosition>
+                            <anchorDirection>0.000000 0.000000 1</anchorDirection>
+                            <applyTo>4096</applyTo>
+                        </slot>
+                        <slot>
+                            <slotType>paint</slotType>
+                            <slotId>41000</slotId>
+                            <anchorPosition>0.000000 0.159975 0.159976</anchorPosition>
+                            <anchorDirection>0.000000 0.707107 0.707107</anchorDirection>
+                            <applyTo>16384</applyTo>
+                        </slot>
+                    </customizationSlots>
+                    <camouflage>
+                        <tiling>1 0.5 0.000000 0.000000</tiling>
+                        <density>254.043 244.276</density>
+                        <aoTextureSize>512 256</aoTextureSize>
+                    </camouflage>
+                <RAND_IsDoubleGun>false</RAND_IsDoubleGun></_37mm_pvkan_m_38>
             </guns>
             <models>
                 <undamaged>vehicles/poland/Pl91_Fiat_Bojowy/normal/lod0/Turret_01.model</undamaged>

@@ -1,21 +1,36 @@
-<RandomizerConfig>
-	<!--
-	Seed of the randomizer. Set to 0 for random
+<!--
 
-	special seeds:
-	666 - sets all gun effects to 150mm effects (if RandomizeGunEffectsAndSounds is true) and to strongest engine sound (if RandomizeEngineSounds is true) and shell impact sounds to 150mm HE shell impact (if RandomizeShellImpactSounds is true)
-	-->
-	<Seed>0</Seed>
+incase you're not sure what each value type can be, refer to this information
 
-	<!--Name of the exported .wotmod file-->
-	<WotmodFilename>Randomizer_v$randver_$wotver_Seed=$seed</WotmodFilename>
+boolean valid values:
+	false
+	true
+	0
+	1
+	no
+	yes
+
+int valid values:
+	any non decimal number
+
+string valid values:
+	any text
+
+-->
+
+
+<Randomizer>
+	<Seed>0</Seed> <!-- (int or string) Randomizer seed. use 0 for a random seed -->
+	
+	<Addons>
+		<UseAlternativeGunSounds>true</UseAlternativeGunSounds>
+		<UseMoreSounds>false</UseMoreSounds> <!--currently not finished, so it's disabled-->
+		<UseNewGunEffects>true</UseNewGunEffects>
+		<UseNewTankModels>true</UseNewTankModels>
+		<UseOldGunSounds>true</UseOldGunSounds>
+	</Addons>
 
 	<TankRandomizer>
-	
-		<RandomizeTankModels>true</RandomizeTankModels> <!--Randomizes tank models-->
-		
-		<TankModelRandomizationIsUnique>true</TankModelRandomizationIsUnique> <!-- If true, the same model will not be used twice (There is an exception to this if there are multiple tanks using the same model)-->
-
 		<!--
 		List of keywords (sperated by spaces) that the randomizer will find tanks by, and only use models of the found tanks
 		
@@ -33,206 +48,23 @@
 		The search is done by *file names*, look in Source/res/scripts/item_defs/vehicles and the respective country folders for the file names.
 		You can also use the country folder names as keywords! (don't use *common* though, won't do anything)
 		
-		If no tanks found for all specified keywords, randomizer will run like normal.
-		
-		TankModelRandomizationIsUnique is always `false` with keywords enabled
-		
-
+		UniqueRandomization is always `false` with keywords enabled
 		
 		Keep blank to disable
 		-->
 		<Keywords></Keywords>
 	
-
-		<RandomizeGunEffectsAndSounds>true</RandomizeGunEffectsAndSounds> <!--Randomizes gun sounds-->
-		<RandomizeEngineSounds>true</RandomizeEngineSounds> <!--Randomizes engine sounds-->
-		<RandomizeEngineRPM>true</RandomizeEngineRPM> <!--Randomizes RPM settings for engines. this will only affect engine sounds-->
-		<RandomizeMusicOnMaps>true</RandomizeMusicOnMaps> <!--Randomizes music on maps-->
-		<RandomizeCrewPrompts>true</RandomizeCrewPrompts> <!--Randomizes crew voice prompts-->
-		<RandomizeShellImpactSounds>true</RandomizeShellImpactSounds> <!--Randomizes shell ricochet, penetration and critical hit sounds. It might replace a ricochet sound with a penetration sound.-->
-		<RandomizeTankPaints>true</RandomizeTankPaints> <!--Randomizes paint colors.-->
-
-		<RandomizeMapNames>true</RandomizeMapNames> <!--Randomizes map names.-->
-		<RandomizeMapNamesWithTankNames>false</RandomizeMapNamesWithTankNames> <!--Randomize map names with tank names... because why not. requires RandomizeMapNames to be true-->
-
-		<RandomizeFoliageColor>true</RandomizeFoliageColor> <!--Randomizes foliage colors (in the garage only)-->
-
-		<ChaosModeEnabled>false</ChaosModeEnabled> <!--Tanks will be very chaotic if you enable this... if set to true, requires RandomizeTankModels to be true -->
-
-
-		<CustomSounds>true</CustomSounds> <!--Includes additional soundbanks used for randomization, like music from some older WoT events will be used when randomizing if enabled-->
-		<!--below only work if CustomSounds is true-->
-		<UseAlternativeGunSoundsMod>true</UseAlternativeGunSoundsMod> <!-- adds sounds from my Alternative Gun Sounds ( https://wgmods.net/1660/ ) mod into the list of gun effect randomization-->
-		<UseOldGunSoundsMod>true</UseOldGunSoundsMod> <!-- adds sounds from my Old Gun Sounds ( https://wgmods.net/1887/ ) mod into the list of gun effect randomization-->
-		<!--end CustomSounds dependant settings-->
-
-
-		<!--these two settings control the min and max sensitivityToImpulse of a vehicle
-
-		it multiplies the forces applied to the vehicle (visual only)
-		Setting atleast one of these to -1 will disable this feature-->
-		<SensitivityToImpulseMin>1</SensitivityToImpulseMin>
-		<SensitivityToImpulseMax>8</SensitivityToImpulseMax>
-
-		<EngineRPM_Min>
-			<Min>50</Min>
-			<Max>950</Max>
-		</EngineRPM_Min>
-		<EngineRPM_Max>
-			<Min>1230</Min>
-			<Max>2500</Max>
-		</EngineRPM_Max>
-
-		<!--tanks that will not be used when randomizing models. Please don't modify the default tanks, or you might experience crashes
-		you can add your own entries if you want to blacklist some tanks.
-
-		the entries are the file names (without the .xml extension)-->
-		<ModelRandomizerBlacklist>
-			<Tank>Ch41_WZ_111_QL</Tank> <!-- note: this tank's model is added by the randomizer, but it uses a different xml file from WoT's one -->
-			
-			<!-- other-->
-			<Tank>Env_Artillery</Tank>
-			<Tank>Observer</Tank>
-			
-			<!--Removed tanks which use R00_Placeholder models-->
-			<Tank>G79_Pz_IV_AusfGH</Tank>
-			<Tank>A08_T23</Tank>
-			<Tank>A15_T57</Tank>
-			<Tank>A26_T18</Tank>
-			<Tank>R05_KV</Tank>
-			<Tank>R70_T_50_2</Tank> <!--old version, this one is removed from the game -->
-			
-			<Tank>R77_KV2_turret_2</Tank>
-			
-			<Tank>R115_IS-3_auto_test</Tank>
-			<Tank>R165_Object_703_II_2</Tank>
-			<Tank>R165_Object_703_II_2_siege_mode</Tank>
-			
-			<!--Steelhunter vehicles can crash the game, so they're disabled -->
-			<Tank>R46_KV-13_SH</Tank>
-			<Tank>R46_KV-13_SH_siege_mode</Tank>
-			<Tank>F43_AMC_35_SH</Tank>
-			<Tank>F43_AMC_35_SH_siege_mode</Tank>
-			<Tank>A72_T25_2_SH</Tank>
-			<Tank>GB107_Cavalier_SH</Tank>
-			<Tank>G24_VK3002DB_SH</Tank>
-		</ModelRandomizerBlacklist>
+		<UniqueRandomization>true</UniqueRandomization> <!--(boolean) if true, tank models won't repeat. some models might repeat because they're used by multiple tanks in the game! automatically set to false if keywords are used-->
+	
+		<TankSwap>false</TankSwap> <!-- (boolean) if true, the randomizer will swap tank models between tanks, if false, use the more chaotic and random randomization. NOTE: if true - wheeled vehicles are not supported! -->
+		<RandomizeChassisSeparately>false</RandomizeChassisSeparately> <!-- (boolean) should tank chassis be randomized separately from the hull? if false, use the hull's chassis. If true, use a random chassis -->
 		
-		<!--gun effect names to take into account when randomizing gun effects.
-		note: effects include gun sounds-->
-		<GunEffectList>
-			<Effect>shot_auto</Effect>
-			<Effect>shot_Breda_auto</Effect>
-			<Effect>shot_MTLS_auto</Effect>
-			<Effect>shot_TNSH_auto</Effect>
-			<Effect>shot_Gochkins_auto</Effect>
-			<Effect>shot_small</Effect>
-			<Effect>shot_small_mb</Effect>
-			<Effect>shot_KwK_L46</Effect>
-			<Effect>shot_medium</Effect>
-			<Effect>shot_medium_mb</Effect>
-			<Effect>shot_main</Effect>
-			<Effect>shot_main_mb</Effect>
-			<Effect>shot_dualgun_main_R_singleFix</Effect>
-			<Effect>shot_mainext</Effect>
-			<Effect>shot_mainext_mb</Effect>
-			<Effect>shot_dualgun_mainext_R_singleFix</Effect>
-			<Effect>shot_large</Effect>
-			<Effect>shot_large_mb</Effect>
-			<Effect>shot_dualgun_large_R_singleFix</Effect>
-			<Effect>shot_largeext</Effect>
-			<Effect>shot_largeext_mb</Effect>
-			<Effect>shot_ch41</Effect>
-			<Effect>shot_huge</Effect>
-			<Effect>shot_huge_mb</Effect>
-			<Effect>shot_huge2</Effect>
-			<Effect>shot_superhuge</Effect>
-			<Effect>shot_superhuge_mb</Effect>
-		</GunEffectList>
-
-		<!--used in case when a double barrel model has been selected-->
-		<DualGunEffectList>
-			<Effect>shot_dualgun1_main_mb_L</Effect>
-			<Effect>shot_dualgun1_main_mb_R</Effect>
-			<Effect>shot_dualgun1_main_L</Effect>
-			<Effect>shot_dualgun1_main_R</Effect>
-			<Effect>shot_dualgun1_mainext_mb_L</Effect>
-			<Effect>shot_dualgun1_mainext_mb_R</Effect>
-			<Effect>shot_dualgun1_mainext_L</Effect>
-			<Effect>shot_dualgun1_mainext_R</Effect>
-			<Effect>shot_dualgun1_large_mb_L</Effect>
-			<Effect>shot_dualgun1_large_mb_R</Effect>
-			<Effect>shot_dualgun1_large_L</Effect>
-			<Effect>shot_dualgun1_large_R</Effect>
-		</DualGunEffectList>
-
-		<!--reload sound list to randomize from-->
-		<GunReloadSFXList>
-			<Effect>reload12_25</Effect>
-			<Effect>reload20_45</Effect>
-			<Effect>reload50_75</Effect>
-			<Effect>reload85_107</Effect>
-			<Effect>reload115_152</Effect>
-			<Effect>reload155_170</Effect>
-			
-			<Effect>dualgun_reload85_107</Effect>
-			<Effect>dualgun_reload115_152</Effect>
-			
-			<Effect>autoloader_reload85_107</Effect>
-			
-			<Effect>reload_automat_reloading_12_25</Effect>
-			<Effect>reload_automat_reloading_20_45</Effect>
-			<Effect>reload_automat_reloading_50_75</Effect>
-			<Effect>reload_automat_reloading_85_107</Effect>
-			<Effect>reload_automat_reloading_115_152</Effect>
-			<Effect>reload_automat_reloading_155_170</Effect>
-		</GunReloadSFXList>
-
-		<!--gun recoil effect (visual only) list to randomize from-->
-		<GunRecoilEffectsList>
-			<Effect>auto</Effect>
-			<Effect>small</Effect>
-			<Effect>medium</Effect>
-			<Effect>main</Effect>
-			<Effect>large</Effect>
-			<Effect>huge</Effect>
-		</GunRecoilEffectsList>
-
-		<!--exhausts effects to randomize from-->
-		<ExhaustEffectList>
-			<Effect>diesel_small</Effect>
-			<Effect>diesel_medium</Effect>
-			<Effect>diesel_large</Effect>
-			<Effect>gas_small</Effect>
-			<Effect>gas_medium</Effect>
-			<Effect>gas_large</Effect>
-		</ExhaustEffectList>
+		<RandomizeHulls>true</RandomizeHulls> <!-- (boolean) -->
+		<RandomizeChassis>true</RandomizeChassis> <!-- (boolean) -->
+		<RandomizeTurrets>true</RandomizeTurrets> <!-- (boolean) -->
+		<RandomizeGuns>true</RandomizeGuns> <!-- (boolean) -->
 		
+		<RandomizeGunEffects>true</RandomizeGunEffects> <!-- (boolean) should gun effects be randomized? -->
 		
-		<!-- list of engine sound events to use when randomizing engine sounds -->
-		<EngineSFXList>
-			<PC>
-				<WWEvent>eng_Skoda_Prague_pc</WWEvent>
-				<WWEvent>eng_cadillac_series_42_pc</WWEvent>
-				<WWEvent>eng_Continental_R975_pc</WWEvent>
-				<WWEvent>eng_ContinentalR_pc</WWEvent>
-				<WWEvent>eng_ContinentalR_STRV_pc</WWEvent>
-				<WWEvent>eng_Ford_GAA_pc</WWEvent>
-				<WWEvent>eng_gaz_aa_pc</WWEvent>
-				<WWEvent>eng_Hetzer_pc</WWEvent>
-				<WWEvent>eng_v55_pc</WWEvent>
-			</PC>
-			<NPC>
-				<WWEvent>eng_Skoda_Prague_npc</WWEvent>
-				<WWEvent>eng_cadillac_series_42_npc</WWEvent>
-				<WWEvent>eng_Continental_R975_npc</WWEvent>
-				<WWEvent>eng_ContinentalR_npc</WWEvent>
-				<WWEvent>eng_ContinentalR_STRV_npc</WWEvent>
-				<WWEvent>eng_Ford_GAA_npc</WWEvent>
-				<WWEvent>eng_gaz_aa_npc</WWEvent>
-				<WWEvent>eng_Hetzer_npc</WWEvent>
-				<WWEvent>eng_v55_npc</WWEvent>
-			</NPC>
-		</EngineSFXList>
 	</TankRandomizer>
-</RandomizerConfig>
+</Randomizer>

@@ -1,294 +1,360 @@
-'''
+import time
 
-WoT randomizer - tank model randomizer written by KptKosmit91
+from componentsxml import Guns
+from xml.etree.ElementTree import Element, ElementTree
 
-'''
+from configLoader import Config
+import configLoader
 
+import os
 import xml.etree.ElementTree as ET
 import xmlMethods as xml
-import config as conf
-import os
-from shutil import rmtree
 import random
-import fileMethods as fm
+
+import util
+
 from copy import deepcopy
 
-randModels=conf.RandomizeTankModels
-randGunFX=conf.RandomizeGunEffectsAndSounds
+import threading
 
-if randModels == "false" and randGunFX == "false":
-    print("Tank model and gun sounds randomizing disabled, skipping.")
-    quit()
 
-seed=conf.seed
+class Tank:
 
-print("Seed: " + str(seed))
+    gunList: list[Element] = []
+    turretList: list[Element] = []
+    chassisList: list[Element] = []
+    hull: Element
+    root: Element
+    tree: ElementTree
+    path: str
 
-seed = int(seed)
+    def __init__(self, xmltree: ET.ElementTree, path: str, tank_randomizer, is_wheeled: bool):
+        root = xmltree.getroot()
 
-random.seed(seed)
+        self.tankRandomizer = tank_randomizer
+        self.isWheeledVehicle = is_wheeled
+        self.path = path
 
-sourceTanks = []
-tanks = []
+        self.tree = xmltree
+        self.root = root
 
-tankXmlStorage = []
-tankBaseEmblemStorage = []
+        self.hull = root.find("hull")
+        self.chassisList = root.find("chassis").findall("*")
+        self.turretList = root.find("turrets0").findall("*")
+        self.gunList = []
+        for turret in self.turretList:
+            for gun in turret.find("guns").findall("*"):
+                self.gunList.append(gun)
 
-isChaos = conf.chaosModeEnabled.lower()
+        add_to_randomizer_list = False
 
-hullModels = []
-turrets = []
-guns = []
-
-def getFilePaths():
-    for f in conf.countryFolders:
-        folder = conf.tanksPath+conf.countryFolders[f]+"/"
-        if os.path.exists(folder):
-            for n in os.listdir(folder):
-                if not conf.isBlacklisted(n):
-                    tanks.append(folder+n)
-    
-        folder = conf.addonNewTankModelsVehiclesPath+conf.countryFolders[f]+"/"
-        if os.path.exists(folder):
-            for n in os.listdir(folder):
-                if not conf.isBlacklisted(n):
-                    tanks.append(folder+n)
-
-        if conf.UseKeywords == "true":
-            folder = conf.tanksPath+conf.countryFolders[f]+"/"
-            if os.path.exists(folder):
-                for n in os.listdir(folder):
-                    if not conf.isBlacklisted(n) and conf.hasKeyword(folder+n):
-                        print("Found tank with fitting keyword: " + n)
-                        sourceTanks.append(folder+n)
-        
-            folder = conf.addonNewTankModelsVehiclesPath+conf.countryFolders[f]+"/"
-            if os.path.exists(folder):
-                for n in os.listdir(folder):
-                    if not conf.isBlacklisted(n) and conf.hasKeyword(folder+n):
-                        print("Found tank with fitting keyword: " + n)
-                        sourceTanks.append(folder+n)
-
-def getTankModels(tank):
-    tree = ET.parse(tank)
-    root = tree.getroot()
-
-    IsWheeledVehicle = root.find(xml.IsWheeledTag).text.lower()
-
-    if randModels == "true":
-        hull = root.find("hull")
-
-        if IsWheeledVehicle != "true":
-            tankXmlStorage.append(root)
-            hullModels.append(hull.find("models"))
-
-        tankBaseEmblemStorage.append(root.find("emblems"))
-    
-    for t in root.find("turrets0").findall("*"):
-        turrets.append(t)
-        for g in t.find("guns").findall("*"):
-            guns.append(g)
-
-def updateTankModels(tank, percentComplete):
-    name = tank.replace(conf.tanksPath, "")
-
-    if name.lower().startswith("addons"):
-        return False
-
-    tree = ET.parse(tank)
-    root = tree.getroot()
-
-    IsWheeledVehicle = root.find(xml.IsWheeledTag).text.lower()
-
-    xml.removeAllElementsByName(xml.IsWheeledTag, root)
-
-    if randModels == "true":
-        print("Randomizing Tank (" + str(int(percentComplete * 100)) + "%): " + name.title())
-
-        rand = xml.getRandomListIndex(hullModels, random)
-
-        xml.insertElement("nodes", tankXmlStorage[rand].find("hull").find("exhaust").find("nodes").text, root.find("hull").find("exhaust"))
-
-        if conf.SensitivityToImpulseMin >= 0 and conf.SensitivityToImpulseMax >= 0:
-            swinging = root.find("hull").find("swinging")
-
-            if isChaos == "true":
-                xml.insertElement("pitchParams", "0.34 66.00 0.36 1.00 91.05 0.34", swinging)
-                xml.insertElement("rollParams", "0.91 0.34 45.00 0.36 1.00 91.06 0.40", swinging)
-                xml.insertElement("sensitivityToImpulse", "291.94", swinging)
-            else:
-                xml.insertElement("sensitivityToImpulse", str(random.uniform(conf.SensitivityToImpulseMin, conf.SensitivityToImpulseMax)), swinging)
-
-        randomModel = hullModels[rand]
-        xml.addElement("models", randomModel, root.find("hull"))
-        xml.addElement("turretPositions", tankXmlStorage[rand].find("hull").find("turretPositions"), root.find("hull"))
-
-        if xml.elementExists("turretPitches", root.find("hull")):
-            xml.addElement("turretPitches", tankXmlStorage[rand].find("hull").find("turretPitches"), root.find("hull"))
-
-        clanSlot = None
-        if root.find("hull").find("customizationSlots"):
-            for s in root.find("hull").find("customizationSlots").findall("slot"):
-                if s.find("slotType").text.replace("	", "") == "clan":
-                    clanSlot = s
+        if len(tank_randomizer.conf.keywords) == 0:
+            add_to_randomizer_list = True
+        else:
+            for keyword in tank_randomizer.conf.keywords:
+                if keyword.lower() in str(path).lower():
+                    add_to_randomizer_list = True
                     break
 
-        newClanSlot = None
+        if add_to_randomizer_list and not is_wheeled:
+            TankRandomizer.tankRootXmlList.append(deepcopy(root))
+            TankRandomizer.tankHullList.append(deepcopy(self.hull))
 
-        if tankXmlStorage[rand].find("hull").find("customizationSlots"):
-            for s in tankXmlStorage[rand].find("hull").find("customizationSlots").findall("slot"):
-                if s.find("slotType").text.replace("	", "") == "clan":
-                    newClanSlot = s
-                    break
-        
-        xml.addElement("turretHardPoints", tankXmlStorage[rand].find("hull").find("turretHardPoints"), root.find("hull"))
-        xml.removeAllElementsByName("variants", root.find("hull"))
+            for chassis in self.chassisList:
+                TankRandomizer.tankChassisList.append(deepcopy(chassis))
 
-        if newClanSlot != None and clanSlot != None:
-            xml.addElement("rayStart", newClanSlot.find("rayStart"), clanSlot)
-            xml.addElement("rayEnd", newClanSlot.find("rayEnd"), clanSlot)
-            xml.addElement("rayUp", newClanSlot.find("rayUp"), clanSlot)
-            xml.addElement("size", newClanSlot.find("size"), clanSlot)
-            xml.addElement("hideIfDamaged", newClanSlot.find("hideIfDamaged"), clanSlot)
-            xml.addElement("isUVProportional", newClanSlot.find("isUVProportional"), clanSlot)
+            for turret in self.turretList:
+                TankRandomizer.tankTurretList.append(deepcopy(turret))
 
-        if IsWheeledVehicle != "true":
+            for gun in self.gunList:
+                TankRandomizer.tankGunList.append(deepcopy(gun))
 
-            selectedChassis = tankXmlStorage[rand].find("chassis").find("*")
-            thisChassis = root.find("chassis").findall("*")
+            # print("---- TANK " + root.tag)
+            # print("Hull: " + self.hull.tag)
+            # for obj in self.chassisList:
+            #     print("Chassis: " + obj.tag)
+            # for obj in self.turretList:
+            #     print("Turret: " + obj.tag)
+            # for obj in self.gunList:
+            #     print("Gun: " + obj.tag)
 
-            for c in thisChassis:
-                xml.addElement("models", selectedChassis.find("models"), c)
-                xml.addElement("AODecals", selectedChassis.find("AODecals"), c)
-                xml.addElement("wwsoundPC", selectedChassis.find("wwsoundPC"), c)
-                xml.addElement("wwsoundNPC", selectedChassis.find("wwsoundNPC"), c)
-                xml.addElement("drivingWheels", selectedChassis.find("drivingWheels"), c)
-                xml.addElement("trackNodes", selectedChassis.find("trackNodes"), c)
-                xml.addElement("groundNodes", selectedChassis.find("groundNodes"), c)
-                xml.addElement("splineDesc", selectedChassis.find("splineDesc"), c)
-                xml.addElement("wheels", selectedChassis.find("wheels"), c)
-                xml.addElement("trackThickness", selectedChassis.find("trackThickness"), c)
-                xml.addElement("tracks", selectedChassis.find("tracks"), c)
-                xml.addElement("traces", selectedChassis.find("traces"), c)
-                xml.addElement("effects", selectedChassis.find("effects"), c)
-                xml.addElement("physicalTracks", selectedChassis.find("physicalTracks"), c)
-                
-                if xml.elementExists("leveredSuspension", selectedChassis):
-                    xml.addElement("leveredSuspension", selectedChassis.find("leveredSuspension"), c)
-                else:
-                    xml.removeAllElementsByName("leveredSuspension", c)
 
-        if IsWheeledVehicle != "true":
-            if conf.TankModelRandomizationIsUnique == "true":
-                hullModels.pop(rand)
-                tankXmlStorage.pop(rand)
+def _remove_and_replace(name, new_element, where):
+    xml.removeAllElementsByName(name, where)
+    if new_element is not None:
+        xml.replace_element(new_element.find(name), where)
 
-        rand = xml.getRandomListIndex(tankBaseEmblemStorage, random)
-        selectedEmblem = tankBaseEmblemStorage[rand]
-        xml.addElement("emblems", selectedEmblem, root)
 
-        rand = xml.getRandomListIndex(conf.getRandomExhaustEffects(), random)
-        effect = conf.getRandomExhaustEffects()[rand]
-        xml.insertElement("pixie", effect, root.find("hull").find("exhaust"))
-    
-    for t in root.find("turrets0").findall("*"):
-        if randModels == "true":
-            rand = xml.getRandomListIndex(turrets, random)
-            randomModel = turrets[rand]
-            xml.addElement("models", randomModel.find("models"), t)
+class TankRandomizer:
+    conf: Config
 
-            if xml.elementExists("ceilless", randomModel):
-                xml.addElement("ceilless", randomModel.find("ceilless"), t)
+    tankRootXmlList: list[Element] = []
+    tankHullList: list[Element] = []
+    tankChassisList: list[Element] = []
+    tankTurretList: list[Element] = []
+    tankGunList: list[Element] = []
+
+    tanks: list[Tank] = []
+    tankFilePaths = []
+
+    guns: Guns = None
+
+    def __init__(self, seed: int, config: Config, guns: Guns):
+        random.seed(seed)
+        self.conf = config
+        self.guns = guns
+
+    def gather_information(self):
+        for f in self.conf.countryFolders:
+            folder = self.conf.tanksPath + self.conf.countryFolders[f] + "/"
+            if os.path.exists(folder):
+                for n in os.listdir(folder):
+                    if not self.conf.is_tank_blacklisted(n):
+                        # print("Found tank: " + n)
+                        self.tankFilePaths.append(folder + n)
+
+            for addon in self.conf.activeAddons:
+                folder = self.conf.tanksPath.replace("Source/", addon) + self.conf.countryFolders[f] + "/"
+                if os.path.exists(folder):
+                    for n in os.listdir(folder):
+                        if not self.conf.is_tank_blacklisted(n):
+                            # print("Found addon tank: " + folder + n)
+                            self.tankFilePaths.append(folder + n)
+
+    def threaded_get_tank_models(self, chunk_list):
+        for tank in chunk_list:
+            tree = ET.parse(tank)
+            root = tree.getroot()
+
+            # wheeled = root.find(xml.IsWheeledTag).text.lower()
+            wheeled = configLoader.parse_bool(xml.IsWheeledTag, root, False)
+            supported = True
+            reason = ""
+
+            if self.conf.fullTankRandomizer and wheeled:
+                supported = False
+                reason = "Wheeled vehicles are not supported with TankSwap=true"
+
+            if supported:
+                self.tanks.append(Tank(tree, tank, self, wheeled))
             else:
-                xml.insertElement("ceilless", "false", t)
-            
-            if conf.TankModelRandomizationIsUnique == "true":
-                turrets.pop(rand)
+                print("Skipped vehicle: " + str(tank) + " Reason: " + reason)
 
-        for g in t.find("guns").findall("*"):
+    def get_tank_models(self):
 
-            #gun effect is randomized twice (second time is in gunEffectRandomizer.py, this is required)
-            isDoubleGun = g.find("RAND_IsDoubleGun").text.lower()
+        chunks = util.chunks(self.tankFilePaths, int(len(self.tankFilePaths) / 7))
 
-            if randModels == "true" and isDoubleGun == "false":
-                rand = xml.getRandomListIndex(guns, random)
-                randomModel = guns[rand]
-                xml.addElement("models", randomModel.find("models"), g)
-                xml.addElement("drivenJoints", randomModel.find("drivenJoints"), g)
+        # threads = []
 
-                if conf.TankModelRandomizationIsUnique == "true":
-                    guns.pop(rand)
+        for chunk in chunks:
+            self.threaded_get_tank_models(chunk)
 
-            if randGunFX == "true":
+            # THREADING TEMPORARILY DISABLED
+            # it currently might be breaking tank chassis if RandomizeChassisSeparately is set to false !
 
-                #Do stuff if tank currently being randomized != a double barreled vehicle
-                if isDoubleGun == "false":
-                    if seed == 666:
-                        xml.insertElement("effects", "shot_superhuge", g)
-                    elif seed == 1660 and conf.UseAlternativeGunSoundsMod:
-                        xml.insertElement("effects", "shot_largeext_immortal_gun", g)
-                    else:
-                        isDoubleGun_MODEL = randomModel.find("RAND_IsDoubleGun").text.lower()
+        #     t = threading.Thread(target=self.threaded_get_tank_models, args=[chunk])
+        #     t.start()
+        #     threads.append(t)
+        #
+        # for thread in threads:
+        #     thread.join()
 
-                        if isDoubleGun_MODEL == "false":
-                            efflist = conf.getRandomEffects()
+    def randomize(self):
+
+        count = len(self.tanks)
+        current_tank = 0
+
+        for tank in self.tanks:
+            current_tank += 1
+            percent = round(current_tank / count * 100, 1)
+
+            # skip this tank if it's an addon tank - we want these to be randomized and saved into the mod
+            # they're just there to provide more content and models
+            if self.conf.addonsPath in str(tank.path):
+                # for testing purposes
+                # print("Skipping tank because it's an addon tank: " + str(tank.path))
+                # time.sleep(2)
+
+                continue
+
+            print(f"({percent}%) Randomizing tank: {str(tank.path)}")
+            tank_hull_model = tank.hull.find("models")
+
+            chassis_count = len(tank.chassisList)
+            turret_count = len(tank.turretList)
+            gun_count = len(tank.gunList)
+
+            # print("chassis count: " + str(chassis_count))
+            # print("turret_count: " + str(turret_count))
+            # print("gun_count: " + str(gun_count))
+
+            random_hull_index = random.randrange(0, len(self.tankHullList))
+            random_hull = self.tankHullList[random_hull_index]
+
+            random_chassis_list = []
+            random_turret_list = []
+            random_gun_list = []
+
+            hull_chassis = None
+
+            if not self.conf.randomizeChassisSeparately:
+                hull_chassis = self.tankRootXmlList[random_hull_index].find("chassis").find("*")
+
+            should_pop_elements = self.conf.tankRandomizationIsUnique
+            randomize_chassis = self.conf.randomizeChassis
+            if tank.isWheeledVehicle:
+                should_pop_elements = False
+                randomize_chassis = False
+
+            if not self.conf.fullTankRandomizer:
+                # randomize each tank component (chassis, hull, gun) separately
+                if randomize_chassis:
+                    for i in range(chassis_count):
+                        if self.conf.randomizeChassisSeparately:
+                            index = random.randrange(0, len(self.tankChassisList))
+                            random_chassis_list.append(self.tankChassisList[index])
+                            if should_pop_elements:
+                                self.tankChassisList.pop(index)
                         else:
-                            efflist = conf.getRandomDualGunEffects()
+                            random_chassis_list.append(hull_chassis)
 
-                        rand = xml.getRandomListIndex(efflist, random)
-                        effect = efflist[rand]
+                if self.conf.randomizeTurrets:
+                    for i in range(turret_count):
+                        index = random.randrange(0, len(self.tankTurretList))
+                        random_turret_list.append(self.tankTurretList[index])
+                        if should_pop_elements:
+                            self.tankTurretList.pop(index)
 
-                        xml.insertElement("effects", effect, g)
+                if self.conf.randomizeGuns:
+                    for i in range(gun_count):
+                        index = random.randrange(0, len(self.tankGunList))
+                        random_gun_list.append(self.tankGunList[index])
+                        if should_pop_elements:
+                            self.tankGunList.pop(index)
+            else:
+                # find a random tank and use that tank's components
+                random_tank = self.tankRootXmlList[random_hull_index]
+                available_chassis = random_tank.find("chassis").findall("*")
+                available_turrets = random_tank.find("turrets0").findall("*")
+                available_guns = []
+                for turret in available_turrets:
+                    for gun in turret.find("guns").findall("*"):
+                        available_guns.append(gun)
 
-                #Do stuff if tank currently being randomized is a double barreled vehicle
-                else:
-                    
-                    if seed == 666:
-                        xml.insertElement("multiGunEffects", "shot_dualgun_large_L shot_dualgun_large_R", g)
-                    elif seed == 1660 and conf.UseAlternativeGunSoundsMod:
-                        xml.insertElement("multiGunEffects", "shot_largeext_immortal_gun_dual_L shot_largeext_immortal_gun_dual_R", g)
-                    else:
-                        efflist = conf.getRandomDualGunEffects()
+                for i in range(chassis_count):
+                    index = random.randrange(0, len(available_chassis))
+                    random_chassis_list.append(available_chassis[index])
 
-                        rand = xml.getRandomListIndex(efflist, random)
-                        effect1 = efflist[rand]
-                        rand = xml.getRandomListIndex(efflist, random)
-                        effect2 = efflist[rand]
+                for i in range(turret_count):
+                    index = random.randrange(0, len(available_turrets))
+                    random_turret_list.append(available_turrets[index])
 
-                        xml.insertElement("multiGunEffects", effect1 + " " + effect2, g)
-            xml.removeAllElementsByName("RAND_IsDoubleGun", g)
+                for i in range(gun_count):
+                    index = random.randrange(0, len(available_guns))
+                    random_gun_list.append(available_guns[index])
 
-    newtree = ET.ElementTree(root)
+            if should_pop_elements:
+                self.tankHullList.pop(random_hull_index)
+                self.tankRootXmlList.pop(random_hull_index)
 
-    newtree.write(tank.replace(conf.addonNewTankModelsPath, "").replace("Source", "Output"))
+            if self.conf.randomizeHulls:
+                xml.replace_element(random_hull.find("models"), tank.hull)
+                xml.replace_element(random_hull.find("swinging"), tank.hull)
+                xml.replace_element(random_hull.find("exhaust"), tank.hull)
+                xml.replace_element(random_hull.find("turretPositions"), tank.hull)
+                if xml.elementExists("turretPitches", random_hull):
+                    xml.add_element(random_hull.find("turretPitches"), tank.hull)
 
-    return False
+                tank_hard_points = tank.hull.find("turretHardPoints")
 
-from time import sleep
+                if tank_hard_points is not None:
+                    xml.removeAllElementsByName("turretHardPoints", tank.hull)
 
-print("Starting tank model randomization... please wait, this process might take a while.")
-getFilePaths()
+                xml.replace_element(random_hull.find("turretHardPoints"), tank.hull)
+                xml.removeAllElementsByName("variants", tank.hull)
 
-if len(sourceTanks) == 0:
-    if conf.UseKeywords == "true":
-        print("\n\n\n\nERROR: Could not find any tanks with suiting keywords! Randomization will occur normally in 8s, as if keywords were disabled!\n\n\n\n")
-        conf.renewTankModelIsUniqueSetting()
-        sleep(8)
+            if randomize_chassis:
+                for i in range(chassis_count):
+                    chassis = tank.chassisList[i]
+                    random_chassis = random_chassis_list[i]
+                    # xml.replace_element(random_chassis.find("models"), chassis)
+                    # xml.replace_element(random_chassis.find("AODecals"), chassis)
+                    # xml.replace_element(random_chassis.find("wwsoundPC"), chassis)
+                    # xml.replace_element(random_chassis.find("wwsoundNPC"), chassis)
+                    # xml.replace_element(random_chassis.find("drivingWheels"), chassis)
+                    # xml.replace_element(random_chassis.find("trackNodes"), chassis)
+                    # xml.replace_element(random_chassis.find("groundNodes"), chassis)
+                    # xml.replace_element(random_chassis.find("splineDesc"), chassis)
+                    # xml.replace_element(random_chassis.find("wheels"), chassis)
+                    # xml.replace_element(random_chassis.find("trackThickness"), chassis)
+                    # xml.replace_element(random_chassis.find("tracks"), chassis)
+                    # xml.replace_element(random_chassis.find("traces"), chassis)
+                    # xml.replace_element(random_chassis.find("effects"), chassis)
+                    # xml.replace_element(random_chassis.find("physicalTracks"), chassis)
+                    # xml.removeAllElementsByName("leveredSuspension", chassis)
+                    # xml.replace_element(random_chassis.find("leveredSuspension"), chassis)
 
-    sourceTanks = deepcopy(tanks)
+                    # have to use this method which removes the element in the chassis section first
+                    # otherwise the game would crash
+                    _remove_and_replace("models", random_chassis, chassis)
+                    _remove_and_replace("AODecals", random_chassis, chassis)
+                    _remove_and_replace("wwsoundPC", random_chassis, chassis)
+                    _remove_and_replace("wwsoundNPC", random_chassis, chassis)
+                    _remove_and_replace("drivingWheels", random_chassis, chassis)
+                    _remove_and_replace("trackNodes", random_chassis, chassis)
+                    _remove_and_replace("groundNodes", random_chassis, chassis)
+                    _remove_and_replace("splineDesc", random_chassis, chassis)
+                    _remove_and_replace("wheels", random_chassis, chassis)
+                    _remove_and_replace("trackThickness", random_chassis, chassis)
+                    _remove_and_replace("tracks", random_chassis, chassis)
+                    _remove_and_replace("traces", random_chassis, chassis)
+                    _remove_and_replace("effects", random_chassis, chassis)
+                    _remove_and_replace("physicalTracks", random_chassis, chassis)
+                    _remove_and_replace("leveredSuspension", random_chassis, chassis)
 
-for t in sourceTanks:
-    getTankModels(t)
+            if self.conf.randomizeTurrets:
+                for i in range(turret_count):
+                    turret = tank.turretList[i]
+                    random_turret = random_turret_list[i]
+                    xml.replace_element(random_turret.find("models"), turret)
+                    _remove_and_replace("ceilless", random_turret.find("ceilless"), turret)
 
-print("Stage 1... Done")
+            if self.conf.randomizeGuns:
+                for i in range(gun_count):
+                    gun = tank.gunList[i]
+                    random_gun = random_gun_list[i]
+                    xml.replace_element(random_gun.find("models"), gun)
+                    xml.removeAllElementsByName("drivenJoints", gun)
+                    xml.replace_element(random_gun.find("drivenJoints"), gun)
 
-completedCount = 0
-totalCount = len(tanks)
+                    is_dual_gun = configLoader.parse_bool(xml.IsDoubleGunTag, random_gun, False)
 
-for t in tanks:
-    updateTankModels(t, completedCount/totalCount)
-    completedCount += 1
+                    # gun effects randomization
+                    if self.conf.randomizeGunEffects:
+                        comp = self.guns.getGun(random_gun.tag)
+                        if self.conf.fullTankRandomizer:
+                            # variable 'comp' is the gun from components/guns.xml
+                            # variable 'gun' is one of the guns of the tank being currently randomized
+                            if comp is not None:
+                                xml.replace_element(comp.find("effects"), gun)
+                                xml.replace_element(comp.find("reloadEffect"), gun)
+                                xml.replace_element(comp.find("recoil"), gun)
+                                xml.replace_element(comp.find("impulse"), gun)
+                        else:
+                            if not is_dual_gun:
+                                effect_random_element = ET.Element("effects")
+                                effect_random_element.text = self.conf.gunEffects[random.randrange(0, len(self.conf.gunEffects))]
+                            else:
+                                effect_random_element = ET.Element("multiGunEffects")
+                                effect_l = self.conf.gunEffectsDual[random.randrange(0, len(self.conf.gunEffectsDual))]
+                                effect_r = self.conf.gunEffectsDual[random.randrange(0, len(self.conf.gunEffectsDual))]
+                                effect_random_element.text = effect_l + " " + effect_r
 
-print("Stage 2... Done")
+                            xml.add_element(effect_random_element, gun)
 
-print("\nTank Randomizing Complete")
+                            if comp is not None:
+                                xml.replace_element(comp.find("reloadEffect"), gun)
+                                xml.replace_element(comp.find("recoil"), gun)
+                                xml.replace_element(comp.find("impulse"), gun)
+
+            tank.tree.write(tank.path.replace("Source/", "Output/").replace("Addons/", "Output/"))

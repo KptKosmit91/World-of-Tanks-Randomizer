@@ -1,38 +1,27 @@
-'''
-
-WoT randomizer - wotmod packer written by KptKosmit91
-Packs Output/res into a .wotmod file
-
-'''
-
+from configLoader import Config
 from zipfile import ZipFile
-import config as conf
 import os
-from time import sleep
 
-name = conf.wotmodName.replace("$randver", conf.randomizerversion).replace("$wotver", conf.wotversion).replace("$seed", conf.seed)
-wotmod = ZipFile('Output/' + name + '.wotmod', 'w')
 
-print("Packing mod...")
+class WotmodMaker:
+    conf: Config = None
+    seed = 0
 
-for folderName, subfolders, filenames in os.walk(conf.resOut):
-    for filename in filenames:
-        #create complete filepath of file in directory
-        filePath = os.path.join(folderName, filename)
-        # Add file to zip
-        wotmod.write(filePath, arcname=filePath.replace("Output/", ""), compress_type=None, compresslevel=None)
+    def __init__(self, config: Config, seed):
+        self.conf = config
+        self.seed = seed
 
-# wotmod.write("Source/res/vehicles", arcname="res/vehicles", compress_type=None, compresslevel=None)
-# wotmod.write("Addons/NewTankModels/Source/res/vehicles", arcname="res/vehicles", compress_type=None, compresslevel=None )
-# wotmod.write("Addons/NewTankModels/Source/res/FiatBojowy", arcname="res/FiatBojowy", compress_type=None, compresslevel=None)
+    def create_wotmod(self):
+        name = self.conf.wotmodName.replace("$randver", self.conf.randomizerversion)\
+            .replace("$wotver", self.conf.wotversion).replace("$seed", str(self.seed))
 
-from shutil import rmtree
-if os.path.exists("Temp"):
-    rmtree("Temp")
+        wotmod = ZipFile('Output/' + name + '.wotmod', 'w')
 
-if os.path.exists(conf.resOut):
-    rmtree(conf.resOut)
+        for folderName, subfolders, filenames in os.walk(self.conf.resPathOut):
+            for filename in filenames:
+                # create complete filepath of file in directory
+                filePath = os.path.join(folderName, filename)
+                # Add file to zip
+                wotmod.write(filePath, arcname=filePath.replace("Output/", ""), compress_type=None, compresslevel=None)
 
-print("Packing done!\nYou are ready to install your mod!")
-
-sleep(2)
+        print("Packed wotmod file " + name + ".wotmod")

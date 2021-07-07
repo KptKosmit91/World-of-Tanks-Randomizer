@@ -8,7 +8,7 @@ IsWheeledTag = "RAND_IsWheeled"
 IsDoubleGunTag = "RAND_IsDoubleGun"
 
 import xml.etree.ElementTree as ET
-import config as conf
+from configLoader import Config as conf
 import os
 
 def getRandomListIndex(l, random):
@@ -31,20 +31,25 @@ def insertElement(name, value, where):
         else:
             ET.SubElement(where, name).text = value
 
-def replaceElement(name, newElement, where):
-    if newElement != None:
-        existingElement = where.find(name)
-        if existingElement != None:
+
+def replace_element(new_element, where):
+    if new_element is not None:
+        name = new_element.tag
+        existing_element = where.find(name)
+        if existing_element is not None:
             removeAllElementsByName(name, where)
-            where.append(newElement)
+        where.append(new_element)
 
-def addElement(name, newElement, where):
-    existingElement = where.find(name)
-    if existingElement != None:
-        removeAllElementsByName(name, where)
 
-    if newElement != None:
-        where.append(newElement)
+def add_element(new_element, where):
+    if new_element is not None:
+        name = new_element.tag
+        existing_element = where.find(name)
+        if existing_element is not None:
+            removeAllElementsByName(name, where)
+
+    if new_element != None:
+        where.append(new_element)
 
 def getElementText(name, where):
     existingElement = where.find(name)
