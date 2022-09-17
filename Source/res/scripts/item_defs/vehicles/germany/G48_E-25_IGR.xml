@@ -759,6 +759,7 @@
           <camouflage />
         </customizableVehicleAreas>
       </customization>
+      <repairTime>6.85714293</repairTime>
     </Chassis_E-25_IGR>
   </chassis>
   <turrets0>
@@ -814,7 +815,8 @@
             <maxPitch>0 8 1 8</maxPitch>
           </pitchLimits>
           <turretYawLimits>-12 12</turretYawLimits>
-          <effects>shot_main</effects>
+          <effects>shot_medium</effects>
+          <reloadEffect>reload50_75</reloadEffect>
           <models>
             <undamaged>vehicles/german/G48_E-25/normal/lod0/Gun_01.model</undamaged>
             <destroyed>vehicles/german/G48_E-25/crash/lod0/Gun_01.model</destroyed>

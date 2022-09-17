@@ -11,6 +11,8 @@ import xml.etree.ElementTree as ET
 import xmlMethods as xml
 import random
 
+from time import sleep
+
 import util
 
 from copy import deepcopy
@@ -68,6 +70,10 @@ class Tank:
 
             for gun in self.gunList:
                 TankRandomizer.tankGunList.append(deepcopy(gun))
+
+            # TankRandomizer.tankChassisList = [deepcopy(obj) for obj in self.chassisList]
+            # TankRandomizer.tankTurretList = [deepcopy(obj) for obj in self.turretList]
+            # TankRandomizer.tankGunList = [deepcopy(obj) for obj in self.gunList]
 
             # print("---- TANK " + root.tag)
             # print("Hull: " + self.hull.tag)
@@ -311,13 +317,16 @@ class TankRandomizer:
                     _remove_and_replace("effects", random_chassis, chassis)
                     _remove_and_replace("physicalTracks", random_chassis, chassis)
                     _remove_and_replace("leveredSuspension", random_chassis, chassis)
+                    _remove_and_replace("topRightCarryingPoint", random_chassis, chassis)
 
             if self.conf.randomizeTurrets:
                 for i in range(turret_count):
                     turret = tank.turretList[i]
                     random_turret = random_turret_list[i]
-                    xml.replace_element(random_turret.find("models"), turret)
-                    _remove_and_replace("ceilless", random_turret.find("ceilless"), turret)
+                    # xml.replace_element(random_turret.find("models"), turret)
+                    _remove_and_replace("models", random_turret, turret)
+                    _remove_and_replace("ceilless", random_turret, turret)
+                    _remove_and_replace("wwturretRotatorSoundManual", random_turret, turret)
 
             if self.conf.randomizeGuns:
                 for i in range(gun_count):

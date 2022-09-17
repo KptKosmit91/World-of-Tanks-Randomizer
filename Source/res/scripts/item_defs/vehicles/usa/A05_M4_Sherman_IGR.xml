@@ -1148,6 +1148,7 @@
           <camouflage />
         </customizableVehicleAreas>
       </customization>
+      <repairTime>6.85714293</repairTime>
     </T42_IGR>
   </chassis>
   <turrets0>
@@ -1220,6 +1221,8 @@
             <collisionModelServer>vehicles/american/A05_M4_Sherman/collision/Gun_05.model</collisionModelServer>
             <collisionModelClient>vehicles/american/A05_M4_Sherman/collision_client/Gun_05.model</collisionModelClient>
           </hitTester>
+          <effects>shot_medium</effects>
+          <reloadEffect>reload50_75</reloadEffect>
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>

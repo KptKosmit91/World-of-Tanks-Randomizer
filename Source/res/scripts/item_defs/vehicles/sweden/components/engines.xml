@@ -44,7 +44,13 @@
     <Saab_Scania_DSI_14C>	46	</Saab_Scania_DSI_14C>
     <Saab_Scania_DS14_Alt_3>	47	</Saab_Scania_DS14_Alt_3>
     <AVS_1195A>	48	</AVS_1195A>
+    <_2_st_Scania_Vabis_1664_a>	50	</_2_st_Scania_Vabis_1664_a>
+    <Motoraggregat_3_FL>	501	</Motoraggregat_3_FL>
+    <_2_st_Scania_DS14>	52	</_2_st_Scania_DS14>
     <Development_Engine>	65000	</Development_Engine>
+    <SFA_B42_SH>	1000	</SFA_B42_SH>
+    <AVS_1195_SH>	1001	</AVS_1195_SH>
+    <Meteor_Mark_IV_Mod_271_SH>	1002	</Meteor_Mark_IV_Mod_271_SH>
   </ids>
   <shared>
     <Daimler_Benz_m_1910>
@@ -225,6 +231,23 @@
       <rpm_min>	447	</rpm_min>
       <rpm_max>	2368	</rpm_max>
     </_2_st_Scania_Vabis_1664>
+    <_2_st_Scania_Vabis_1664_a>
+      <userString>	#sweden_vehicles:_2_st_Scania_Vabis_1664_a	</userString>
+      <tags>	gasoline	</tags>
+      <level>	4	</level>
+      <price>	9800	</price>
+      <notInShop>	true	</notInShop>
+      <wwsoundPC>	eng_Continental_R975_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_Continental_R975_npc	</wwsoundNPC>
+      <power>	250	</power>
+      <weight>	750	</weight>
+      <maxHealth>	123	</maxHealth>
+      <maxRegenHealth>	58	</maxRegenHealth>
+      <repairCost>	3	</repairCost>
+      <fireStartingChance>	0.2	</fireStartingChance>
+      <rpm_min>	468	</rpm_min>
+      <rpm_max>	2300	</rpm_max>
+    </_2_st_Scania_Vabis_1664_a>
     <_2_st_Scania_Vabis_L_603_1>
       <userString>	#sweden_vehicles:_2_st_Scania_Vabis_L_603_1	</userString>
       <tags>	gasoline	</tags>
@@ -532,6 +555,23 @@
       <rpm_min>	386	</rpm_min>
       <rpm_max>	2040	</rpm_max>
     </Saab_Scania_DS14>
+    <_2_st_Scania_DS14>
+      <userString>	#sweden_vehicles:_2_st_Scania_DS14	</userString>
+      <tags>	diesel	</tags>
+      <level>	8	</level>
+      <price>	42500	</price>
+      <notInShop>	true	</notInShop>
+      <wwsoundPC>	eng_v55_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_v55_npc	</wwsoundNPC>
+      <power>	500	</power>
+      <weight>	2400	</weight>
+      <maxHealth>	234	</maxHealth>
+      <maxRegenHealth>	123	</maxRegenHealth>
+      <repairCost>	5	</repairCost>
+      <fireStartingChance>	0.12	</fireStartingChance>
+      <rpm_min>	386	</rpm_min>
+      <rpm_max>	2040	</rpm_max>
+    </_2_st_Scania_DS14>
     <Leyland_L60>
       <userString>	#sweden_vehicles:Leyland_L60	</userString>
       <tags>	diesel	</tags>
@@ -597,6 +637,23 @@
       <rpm_min>	360	</rpm_min>
       <rpm_max>	2120	</rpm_max>
     </Motoraggregat_3>
+    <Motoraggregat_3_FL>
+      <userString>	#sweden_vehicles:Motoraggregat_3	</userString>
+      <tags>	diesel	</tags>
+      <level>	9	</level>
+      <price>	81800	</price>
+      <notInShop>	true	</notInShop>
+      <wwsoundPC>	eng_v55_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_v55_npc	</wwsoundNPC>
+      <power>	600	</power>
+      <weight>	700	</weight>
+      <maxHealth>	400	</maxHealth>
+      <maxRegenHealth>	200	</maxRegenHealth>
+      <repairCost>	9	</repairCost>
+      <fireStartingChance>	0.10	</fireStartingChance>
+      <rpm_min>	360	</rpm_min>
+      <rpm_max>	2120	</rpm_max>
+    </Motoraggregat_3_FL>
     <Motoraggregat_9>
       <userString>	#sweden_vehicles:Motoraggregat_9	</userString>
       <tags>	diesel	</tags>
@@ -777,9 +834,59 @@
       <maxRegenHealth>	52	</maxRegenHealth>
       <repairCost>	4	</repairCost>
       <fireStartingChance>	0.15	</fireStartingChance>
-      <notInShop>	true	</notInShop>
       <rpm_min>	376	</rpm_min>
       <rpm_max>	2072	</rpm_max>
     </Development_Engine>
+    <SFA_B42_SH>
+      <userString>	#sweden_vehicles:SFA_B42_SH	</userString>
+      <tags>	gasoline	</tags>
+      <level>	1	</level>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <wwsoundPC>	eng_gaz_aa_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_gaz_aa_npc	</wwsoundNPC>
+      <power>	670	</power>
+      <weight>	1000	</weight>
+      <maxHealth>	103	</maxHealth>
+      <maxRegenHealth>	65	</maxRegenHealth>
+      <repairCost>	0	</repairCost>
+      <fireStartingChance>	0.0	</fireStartingChance>
+      <rpm_min>	311	</rpm_min>
+      <rpm_max>	2603	</rpm_max>
+    </SFA_B42_SH>
+    <AVS_1195_SH>
+      <userString>	#sweden_vehicles:AVS_1195_SH	</userString>
+      <tags>	gasoline	</tags>
+      <level>	2	</level>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <wwsoundPC>	eng_Continental_R975_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_Continental_R975_npc	</wwsoundNPC>
+      <power>	1320	</power>
+      <weight>	1000	</weight>
+      <maxHealth>	103	</maxHealth>
+      <maxRegenHealth>	65	</maxRegenHealth>
+      <repairCost>	0	</repairCost>
+      <fireStartingChance>	0.0	</fireStartingChance>
+      <rpm_min>	280	</rpm_min>
+      <rpm_max>	2901	</rpm_max>
+    </AVS_1195_SH>
+    <Meteor_Mark_IV_Mod_271_SH>
+      <userString>	#sweden_vehicles:Meteor_Mark_IV_Mod_271_SH	</userString>
+      <tags>	gasoline	</tags>
+      <level>	2	</level>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <wwsoundPC>	eng_Continental_R975_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_Continental_R975_npc	</wwsoundNPC>
+      <power>	1080	</power>
+      <weight>	1000	</weight>
+      <maxHealth>	103	</maxHealth>
+      <maxRegenHealth>	65	</maxRegenHealth>
+      <repairCost>	0	</repairCost>
+      <fireStartingChance>	0.0	</fireStartingChance>
+      <rpm_min>	343	</rpm_min>
+      <rpm_max>	2701	</rpm_max>
+    </Meteor_Mark_IV_Mod_271_SH>
   </shared>
 </engines.xml>

@@ -802,6 +802,7 @@
           <camouflage />
         </customizableVehicleAreas>
       </customization>
+      <repairTime>6.85714293</repairTime>
     </IS-3M_IGR>
   </chassis>
   <turrets0>
@@ -876,6 +877,8 @@
             <collisionModelServer>vehicles/russian/R19_IS-3/collision/Gun_08.model</collisionModelServer>
             <collisionModelClient>vehicles/russian/R19_IS-3/collision_client/Gun_08.model</collisionModelClient>
           </hitTester>
+          <effects>shot_large_mb</effects>
+          <reloadEffect>reload115_152</reloadEffect>
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
@@ -895,6 +898,7 @@
               <isUVProportional>true</isUVProportional>
             </slot>
           </customizationSlots>
+          <edgeByVisualModel>false</edgeByVisualModel>
           <camouflage>
             <tiling>0.505 0.505 0.000000 0.000000</tiling>
             <density>101.568 106.737</density>

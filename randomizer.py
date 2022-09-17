@@ -1,4 +1,4 @@
-from tankrandomizer import TankRandomizer
+from tankRandomizer import TankRandomizer
 from audiowwManager import AudiowwManager
 from componentsxml import Guns
 from configLoader import Config as conf
@@ -50,6 +50,14 @@ def threaded_remove(source):
 def threaded_copytree(source, output):
     copytree(source, output)
 
+def symlink(input, output):
+    if not os.path.exists(input):
+        print(f"Failed to create symlink: input path {input} does not exist.")
+        return None
+    #if not os.path.exists(output):
+        #os.makedirs(output, True)
+
+    os.symlink(os.path.abspath(input), os.path.abspath(output))
 
 def main():
     ConfigLoader.load_config()
@@ -98,6 +106,8 @@ def main():
         for addon in conf.activeAddons:
             vehicles_addon_path = f"{addon}res/vehicles/{country}"
             if os.path.exists(vehicles_addon_path):
+                # symlink(vehicles_addon_path, f"Output/res/vehicles/{country}")
+
                 t = threading.Thread(target=threaded_copytree, args=[vehicles_addon_path, f"Output/res/vehicles/{country}"])
                 t.start()
                 thread_list.append(t)
@@ -105,6 +115,8 @@ def main():
                 # copytree(vehicles_addon_path, f"Output/res/vehicles/{country}")
 
             if "/NewTankModels/" in addon and country == "poland":
+                # symlink(f"{addon}res/FiatBojowy", "Output/res/FiatBojowy")
+
                 t = threading.Thread(target=threaded_copytree, args=[f"{addon}res/FiatBojowy", "Output/res/FiatBojowy"])
                 t.start()
                 thread_list.append(t)
@@ -116,7 +128,7 @@ def main():
 
     print("Copying done!")
 
-    print("\nPacking mod, please wait...")
+    print("\nPacking mod, please wait... This process might take a while.")
     try:
         wotmod = WotmodMaker(conf, seed)
         wotmod.create_wotmod()

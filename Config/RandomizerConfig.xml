@@ -26,7 +26,7 @@ string valid values:
 		<UseAlternativeGunSounds>true</UseAlternativeGunSounds>
 		<UseMoreSounds>false</UseMoreSounds> <!--currently not finished, so it's disabled-->
 		<UseNewGunEffects>true</UseNewGunEffects>
-		<UseNewTankModels>true</UseNewTankModels>
+		<UseNewTankModels>true</UseNewTankModels> <!-- NOTE: disabling this might crash the game with some tanks. This will be fixed in the future. for now just best not to disable this -->
 		<UseOldGunSounds>true</UseOldGunSounds>
 	</Addons>
 
@@ -38,7 +38,7 @@ string valid values:
 		
 		if we set keywords to:
 		waffentrager_e100
-		only the waffentrager models will be used
+		only the waffentrager e100 models will be used
 		
 		
 		or if we set it to
@@ -65,6 +65,8 @@ string valid values:
 		<RandomizeGuns>true</RandomizeGuns> <!-- (boolean) -->
 		
 		<RandomizeGunEffects>true</RandomizeGunEffects> <!-- (boolean) should gun effects be randomized? -->
+		
+		<!-- more randomization options (including the return of paint randomization) will be added in the future -->
 		
 	</TankRandomizer>
 </Randomizer>

@@ -42,6 +42,35 @@
       <devices>	18	</devices>
     </damage>
   </_13.2mm_Balle_T.P.>
+  <_25mm_Balle_T.P._mle._1934>
+    <id>	60	</id>
+    <userString>	#france_vehicles:_25mm_Balle_T.P._mle._1934	</userString>
+    <icon>	ap	</icon>
+    <price>	5	</price>
+    <kind>	ARMOR_PIERCING	</kind>
+    <caliber>	25	</caliber>
+    <isTracer>	true	</isTracer>
+    <effects>	autoArmorPiercing	</effects>
+    <damage>
+      <armor>	20	</armor>
+      <devices>	34	</devices>
+    </damage>
+  </_25mm_Balle_T.P._mle._1934>
+  <_25mm_Balle_T.P._mle._1939P>
+    <id>	61	</id>
+    <userString>	#france_vehicles:_25mm_Balle_T.P._mle._1939P	</userString>
+    <icon>	ap_cr_premium	</icon>
+    <price>	800	</price>
+    <improved>	true	</improved>
+    <kind>	ARMOR_PIERCING_CR	</kind>
+    <caliber>	25	</caliber>
+    <isTracer>	true	</isTracer>
+    <effects>	autoAPCR	</effects>
+    <damage>
+      <armor>	20	</armor>
+      <devices>	34	</devices>
+    </damage>
+  </_25mm_Balle_T.P._mle._1939P>
   <_25mm_Balle_T.P._mle._1928>
     <id>	10	</id>
     <userString>	#france_vehicles:_25mm_Balle_T.P._mle._1928	</userString>
@@ -71,35 +100,6 @@
       <devices>	34	</devices>
     </damage>
   </_25mm_Balle_T.P._mle._1934P>
-  <_25mm_Balle_T.P._mle._1934>
-    <id>	60	</id>
-    <userString>	#france_vehicles:_25mm_Balle_T.P._mle._1934	</userString>
-    <icon>	ap	</icon>
-    <price>	5	</price>
-    <kind>	ARMOR_PIERCING	</kind>
-    <caliber>	25	</caliber>
-    <isTracer>	true	</isTracer>
-    <effects>	smallArmorPiercing	</effects>
-    <damage>
-      <armor>	20	</armor>
-      <devices>	34	</devices>
-    </damage>
-  </_25mm_Balle_T.P._mle._1934>
-  <_25mm_Balle_T.P._mle._1939P>
-    <id>	61	</id>
-    <userString>	#france_vehicles:_25mm_Balle_T.P._mle._1939P	</userString>
-    <icon>	ap_cr_premium	</icon>
-    <price>	800	</price>
-    <improved>	true	</improved>
-    <kind>	ARMOR_PIERCING_CR	</kind>
-    <caliber>	25	</caliber>
-    <isTracer>	true	</isTracer>
-    <effects>	smallAPCR	</effects>
-    <damage>
-      <armor>	20	</armor>
-      <devices>	34	</devices>
-    </damage>
-  </_25mm_Balle_T.P._mle._1939P>
   <_37mm_Odr_mle._1932>
     <id>	19	</id>
     <userString>	#france_vehicles:_37mm_Odr_mle._1932	</userString>
@@ -108,7 +108,7 @@
     <kind>	ARMOR_PIERCING	</kind>
     <caliber>	37	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	mediumArmorPiercing	</effects>
+    <effects>	smallArmorPiercing	</effects>
     <damage>
       <armor>	40	</armor>
       <devices>	50	</devices>
@@ -122,7 +122,7 @@
     <kind>	ARMOR_PIERCING	</kind>
     <caliber>	37	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	mediumArmorPiercing	</effects>
+    <effects>	smallArmorPiercing	</effects>
     <damage>
       <armor>	30	</armor>
       <devices>	50	</devices>
@@ -137,7 +137,7 @@
     <kind>	ARMOR_PIERCING	</kind>
     <caliber>	37	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	mediumArmorPiercing	</effects>
+    <effects>	smallArmorPiercing	</effects>
     <damage>
       <armor>	5	</armor>
       <devices>	3	</devices>
@@ -152,7 +152,7 @@
     <kind>	ARMOR_PIERCING_CR	</kind>
     <caliber>	37	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	mediumAPCR	</effects>
+    <effects>	smallAPCR	</effects>
     <damage>
       <armor>	30	</armor>
       <devices>	50	</devices>
@@ -168,25 +168,11 @@
     <caliber>	37	</caliber>
     <explosionRadius>	0.31	</explosionRadius>
     <isTracer>	true	</isTracer>
-    <effects>	mediumHighExplosive	</effects>
+    <effects>	smallHighExplosive	</effects>
     <damage>
       <armor>	36	</armor>
       <devices>	50	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	0.31	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -205,7 +191,7 @@
     <kind>	ARMOR_PIERCING_CR	</kind>
     <caliber>	37	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	mediumAPCR	</effects>
+    <effects>	smallAPCR	</effects>
     <damage>
       <armor>	40	</armor>
       <devices>	50	</devices>
@@ -221,25 +207,11 @@
     <caliber>	37	</caliber>
     <explosionRadius>	0.31	</explosionRadius>
     <isTracer>	true	</isTracer>
-    <effects>	mediumHighExplosive	</effects>
+    <effects>	smallHighExplosive	</effects>
     <damage>
       <armor>	45	</armor>
       <devices>	50	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	0.31	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -308,20 +280,6 @@
       <armor>	70	</armor>
       <devices>	64	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	0.47	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -346,20 +304,6 @@
       <armor>	70	</armor>
       <devices>	64	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	0.47	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -443,20 +387,6 @@
       <armor>	62	</armor>
       <devices>	64	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	0.47	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -482,20 +412,6 @@
       <armor>	62	</armor>
       <devices>	64	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	0.47	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -636,20 +552,6 @@
       <armor>	175	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -674,20 +576,6 @@
       <armor>	175	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -741,20 +629,6 @@
       <armor>	175	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -808,20 +682,6 @@
       <armor>	260	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -846,20 +706,6 @@
       <armor>	260	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -884,20 +730,6 @@
       <armor>	175	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -945,7 +777,7 @@
     <kind>	ARMOR_PIERCING_CR	</kind>
     <caliber>	75	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	mainAPCR	</effects>
+    <effects>	mediumAPCR	</effects>
     <damage>
       <armor>	175	</armor>
       <devices>	100	</devices>
@@ -960,7 +792,7 @@
     <kind>	HOLLOW_CHARGE	</kind>
     <caliber>	75	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	largeHollowCharge	</effects>
+    <effects>	mediumHollowCharge	</effects>
     <damage>
       <armor>	175	</armor>
       <devices>	100	</devices>
@@ -977,25 +809,11 @@
     <caliber>	75	</caliber>
     <explosionRadius>	1.06	</explosionRadius>
     <isTracer>	true	</isTracer>
-    <effects>	mainHighExplosive	</effects>
+    <effects>	mediumHighExplosive	</effects>
     <damage>
       <armor>	260	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1049,20 +867,6 @@
       <armor>	175	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1116,20 +920,6 @@
       <armor>	175	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1215,20 +1005,6 @@
       <armor>	185	</armor>
       <devices>	105	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.09	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1282,20 +1058,6 @@
       <armor>	190	</armor>
       <devices>	105	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.09	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1349,20 +1111,6 @@
       <armor>	175	</armor>
       <devices>	100	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.06	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1430,20 +1178,6 @@
       <armor>	320	</armor>
       <devices>	122	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.46	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1498,20 +1232,6 @@
       <armor>	320	</armor>
       <devices>	122	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.46	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1565,20 +1285,6 @@
       <armor>	270	</armor>
       <devices>	122	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.46	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1633,20 +1339,6 @@
       <armor>	320	</armor>
       <devices>	122	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.46	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1701,20 +1393,6 @@
       <armor>	400	</armor>
       <devices>	135	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.76	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1739,20 +1417,6 @@
       <armor>	400	</armor>
       <devices>	135	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.76	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1849,20 +1513,6 @@
       <armor>	360	</armor>
       <devices>	150	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.91	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -1947,20 +1597,6 @@
       <armor>	410	</armor>
       <devices>	150	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.91	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2009,7 +1645,7 @@
     <kind>	HOLLOW_CHARGE	</kind>
     <caliber>	105	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	largeHollowCharge	</effects>
+    <effects>	mainHollowCharge	</effects>
     <damage>
       <armor>	390	</armor>
       <devices>	150	</devices>
@@ -2031,20 +1667,6 @@
       <armor>	480	</armor>
       <devices>	150	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.91	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2077,7 +1699,7 @@
     <kind>	HOLLOW_CHARGE	</kind>
     <caliber>	105	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	largeHollowCharge	</effects>
+    <effects>	mainHollowCharge	</effects>
     <damage>
       <armor>	390	</armor>
       <devices>	150	</devices>
@@ -2099,20 +1721,6 @@
       <armor>	480	</armor>
       <devices>	150	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.91	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2145,7 +1753,7 @@
     <kind>	HOLLOW_CHARGE	</kind>
     <caliber>	105	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	largeHollowCharge	</effects>
+    <effects>	mainHollowCharge	</effects>
     <damage>
       <armor>	390	</armor>
       <devices>	150	</devices>
@@ -2167,20 +1775,6 @@
       <armor>	480	</armor>
       <devices>	150	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.91	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2213,7 +1807,7 @@
     <kind>	HOLLOW_CHARGE	</kind>
     <caliber>	105	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	largeHollowCharge	</effects>
+    <effects>	mainHollowCharge	</effects>
     <damage>
       <armor>	390	</armor>
       <devices>	150	</devices>
@@ -2235,20 +1829,6 @@
       <armor>	480	</armor>
       <devices>	150	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.91	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2281,7 +1861,7 @@
     <kind>	HOLLOW_CHARGE	</kind>
     <caliber>	105	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	largeHollowCharge	</effects>
+    <effects>	mainHollowCharge	</effects>
     <damage>
       <armor>	390	</armor>
       <devices>	150	</devices>
@@ -2303,20 +1883,6 @@
       <armor>	480	</armor>
       <devices>	150	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.91	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2349,7 +1915,7 @@
     <kind>	HOLLOW_CHARGE	</kind>
     <caliber>	105	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	largeHollowCharge	</effects>
+    <effects>	mainHollowCharge	</effects>
     <damage>
       <armor>	390	</armor>
       <devices>	150	</devices>
@@ -2371,20 +1937,6 @@
       <armor>	500	</armor>
       <devices>	150	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.91	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2438,20 +1990,6 @@
       <armor>	440	</armor>
       <devices>	150	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	1.91	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2534,20 +2072,6 @@
       <armor>	515	</armor>
       <devices>	165	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	2.42	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2572,20 +2096,6 @@
       <armor>	515	</armor>
       <devices>	165	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	2.42	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2639,20 +2149,6 @@
       <armor>	515	</armor>
       <devices>	165	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	2.42	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2706,20 +2202,6 @@
       <armor>	610	</armor>
       <devices>	178	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	2.67	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2773,20 +2255,6 @@
       <armor>	640	</armor>
       <devices>	180	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	2.78	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -2981,20 +2449,6 @@
       <armor>	1100	</armor>
       <devices>	210	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
     <armorSpalls>
       <impactRadius>	3.78	</impactRadius>
       <coneAngle>	90	</coneAngle>
@@ -3061,7 +2515,7 @@
     <kind>	ARMOR_PIERCING_CR	</kind>
     <caliber>	105	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	BRlargeAPCR	</effects>
+    <effects>	BRmainAPCR	</effects>
     <damage>
       <armor>	95	</armor>
       <devices>	13	</devices>
@@ -3079,8 +2533,8 @@
     <isTracer>	true	</isTracer>
     <effects>	BRmainHollowCharge	</effects>
     <damage>
-      <armor>	250	</armor>
-      <devices>	25	</devices>
+      <armor>	320	</armor>
+      <devices>	32	</devices>
     </damage>
     <piercingPowerLossFactorByDistance>	0.05	</piercingPowerLossFactorByDistance>
   </_75mm_OCO_mle._1926_SH>
@@ -3096,8 +2550,8 @@
     <isTracer>	true	</isTracer>
     <effects>	BRlargeAPCR	</effects>
     <damage>
-      <armor>	170	</armor>
-      <devices>	25	</devices>
+      <armor>	240	</armor>
+      <devices>	32	</devices>
     </damage>
   </_75mm_FrtPrf1946_SH>
   <_90mm_OCC_90_SH>
@@ -3127,7 +2581,7 @@
     <kind>	ARMOR_PIERCING_CR	</kind>
     <caliber>	90	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	BRlargeAPCR	</effects>
+    <effects>	BRmainAPCR	</effects>
     <damage>
       <armor>	130	</armor>
       <devices>	19	</devices>
@@ -3160,7 +2614,7 @@
     <kind>	ARMOR_PIERCING_CR	</kind>
     <caliber>	105	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	BRlargeAPCR	</effects>
+    <effects>	BRmainAPCR	</effects>
     <damage>
       <armor>	80	</armor>
       <devices>	11	</devices>
@@ -3178,8 +2632,8 @@
     <isTracer>	true	</isTracer>
     <effects>	BRmainHollowCharge	</effects>
     <damage>
-      <armor>	350	</armor>
-      <devices>	35	</devices>
+      <armor>	490	</armor>
+      <devices>	49	</devices>
     </damage>
     <piercingPowerLossFactorByDistance>	0.05	</piercingPowerLossFactorByDistance>
   </_90mm_HEAT_OCC_F1_SH>
@@ -3193,89 +2647,59 @@
     <kind>	ARMOR_PIERCING_CR	</kind>
     <caliber>	90	</caliber>
     <isTracer>	true	</isTracer>
-    <effects>	BRlargeAPCR	</effects>
+    <effects>	BRmainAPCR	</effects>
     <damage>
-      <armor>	250	</armor>
-      <devices>	35	</devices>
+      <armor>	380	</armor>
+      <devices>	49	</devices>
     </damage>
   </_90mm_OFL_90_DS2_SH>
   <_127mm_OE_127_Mle_55_SH>
     <id>	263	</id>
     <userString>	#france_vehicles:_127mm_OE_127_Mle_55_SH	</userString>
-    <icon>	he_modern	</icon>
+    <icon>	he	</icon>
     <price>	0	</price>
     <notInShop>	true	</notInShop>
     <kind>	HIGH_EXPLOSIVE	</kind>
-    <mechanics>	MODERN	</mechanics>
     <caliber>	127	</caliber>
     <explosionRadius>	4	</explosionRadius>
     <isTracer>	true	</isTracer>
     <effects>	BRlargeHighExplosive	</effects>
     <damage>
-      <armor>	550	</armor>
-      <devices>	55	</devices>
+      <armor>	650	</armor>
+      <devices>	60	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
-    <armorSpalls>
-      <impactRadius>	4	</impactRadius>
-      <coneAngle>	90	</coneAngle>
-      <damage>
-        <armor>	275	</armor>
-        <devices>	30	</devices>
-      </damage>
-    </armorSpalls>
   </_127mm_OE_127_Mle_55_SH>
   <_127mm_OE_127_D_700_SH>
     <id>	264	</id>
     <userString>	#france_vehicles:_127mm_OE_127_D_700_SH	</userString>
-    <icon>	he_modern_premium	</icon>
+    <icon>	he_premium	</icon>
     <price>	0	</price>
     <notInShop>	true	</notInShop>
     <improved>	true	</improved>
     <kind>	HIGH_EXPLOSIVE	</kind>
-    <mechanics>	MODERN	</mechanics>
     <caliber>	127	</caliber>
     <explosionRadius>	2.8	</explosionRadius>
     <isTracer>	true	</isTracer>
     <effects>	BRlargeHighExplosive	</effects>
     <damage>
-      <armor>	450	</armor>
-      <devices>	55	</devices>
+      <armor>	400	</armor>
+      <devices>	60	</devices>
     </damage>
-    <blastWave>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </blastWave>
-    <shellFragments>
-      <impactRadius>	0	</impactRadius>
-      <damage>
-        <armor>	0	</armor>
-        <devices>	0	</devices>
-      </damage>
-    </shellFragments>
-    <armorSpalls>
-      <impactRadius>	2.8	</impactRadius>
-      <coneAngle>	90	</coneAngle>
-      <damage>
-        <armor>	225	</armor>
-        <devices>	30	</devices>
-      </damage>
-    </armorSpalls>
   </_127mm_OE_127_D_700_SH>
+  <_155_OE_mle_1956_MapsTraining_Dummy_SPG_2>
+    <id>	23	</id>
+    <userString>	#france_vehicles:_155_OE_mle_1956	</userString>
+    <icon>	he_spg	</icon>
+    <price>	1000	</price>
+    <kind>	HIGH_EXPLOSIVE	</kind>
+    <caliber>	155	</caliber>
+    <explosionRadius>	8	</explosionRadius>
+    <isTracer>	true	</isTracer>
+    <effects>	hugeHighExplosive	</effects>
+    <damage>
+      <armor>	350	</armor>
+      <devices>	105	</devices>
+    </damage>
+    <notInShop>	True	</notInShop>
+  </_155_OE_mle_1956_MapsTraining_Dummy_SPG_2>
 </shells.xml>

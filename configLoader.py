@@ -133,8 +133,8 @@ class ConfigLoader:
 
 class Config:
     wotmodName = "Randomizer_v$randver_$wotver_Seed=$seed"
-    randomizerversion = "Alpha1.0"
-    wotversion="1.13.0"
+    randomizerversion = "1.0WIP"
+    wotversion="1.18"
 
     resPath = "Source/res/"
     resPathOut = "Output/res/"
@@ -213,6 +213,7 @@ class Config:
         "A26_T18",
         "R05_KV",
         "R70_T_50_2",
+        "G98_Waffentrager_E100_WO",
         
         "R77_KV2_turret_2",
         
@@ -226,7 +227,13 @@ class Config:
         "F43_AMC_35_SH_siege_mode",
         "A72_T25_2_SH",
         "GB107_Cavalier_SH",
-        "G24_VK3002DB_SH"
+        "G24_VK3002DB_SH",
+        "Pl17_DS_PZlnz_SH",
+        "S14_Ikv_103_SH",
+        "S14_Ikv_103_SH_siege_mode",
+        "Ch24_Type64_SH",
+
+        "Ch00_ClingeBot_SH"
     ]
 
     @classmethod

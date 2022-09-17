@@ -73,9 +73,8 @@
         <doubleSided>false</doubleSided>
         <showOn>16</showOn>
         <clipAngle>0.000000</clipAngle>
-        <anchorPosition>-0.000007 0.748996 2.27976</anchorPosition>
-        <anchorDirection>0.000002 0.999999 -0.00119371</anchorDirection>
         <compatibleModels>default</compatibleModels>
+        <anchorShift>-0.000004</anchorShift>
       </slot>
       <slot>
         <slotType>projectionDecal</slotType>
@@ -87,9 +86,8 @@
         <doubleSided>false</doubleSided>
         <showOn>16</showOn>
         <clipAngle>0.574857</clipAngle>
-        <anchorPosition>-1.24963 0.315686 3.458</anchorPosition>
-        <anchorDirection>0.0378304 0.86 0.508889</anchorDirection>
         <compatibleModels>default</compatibleModels>
+        <anchorShift>-0.000004</anchorShift>
       </slot>
       <slot>
         <slotType>projectionDecal</slotType>
@@ -101,9 +99,8 @@
         <doubleSided>false</doubleSided>
         <showOn>16</showOn>
         <clipAngle>0.574857</clipAngle>
-        <anchorPosition>1.24965 0.315667 3.45801</anchorPosition>
-        <anchorDirection>0.0378304 0.86 0.508889</anchorDirection>
         <compatibleModels>default</compatibleModels>
+        <anchorShift>-0.000003</anchorShift>
       </slot>
       <slot>
         <slotType>projectionDecal</slotType>
@@ -115,9 +112,8 @@
         <doubleSided>false</doubleSided>
         <showOn>16</showOn>
         <clipAngle>1.14901</clipAngle>
-        <anchorPosition>-0.630737 0.438268 2.93989</anchorPosition>
-        <anchorDirection>0.000038 0.708381 0.705831</anchorDirection>
         <compatibleModels>default</compatibleModels>
+        <anchorShift>0.059997</anchorShift>
       </slot>
       <slot>
         <slotType>projectionDecal</slotType>
@@ -129,10 +125,9 @@
         <doubleSided>false</doubleSided>
         <showOn>16</showOn>
         <clipAngle>0.417073</clipAngle>
-        <anchorPosition>-0.000011 0.859005 -2.78613</anchorPosition>
-        <anchorDirection>-0.000071 0.996196 -0.0871421</anchorDirection>
         <compatibleModels>default</compatibleModels>
         <verticalMirror>true</verticalMirror>
+        <anchorShift>0.019991</anchorShift>
       </slot>
     </customizationSlots>
     <customization>
@@ -184,9 +179,130 @@
       </traces>
       <tracks>
         <lodDist>MEDIUM_TRACK</lodDist>
-        <leftMaterial>track_mat_L_skinned</leftMaterial>
-        <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-1.65</textureScale>
+        <trackPair>
+          <trackPairIdx>0</trackPairIdx>
+          <leftMaterial>track_mat_L_skinned</leftMaterial>
+          <rightMaterial>track_mat_R_skinned</rightMaterial>
+          <textureScale>-1.65</textureScale>
+          <trackDebris>
+            <isLeft>true</isLeft>
+            <destructionEffect />
+            <physicalParams>
+              <renderModelOffset>-0.026667</renderModelOffset>
+              <lengthwiseSpringLength>0.151234</lengthwiseSpringLength>
+              <widthwiseSpringLength>0.68654</widthwiseSpringLength>
+              <hingeJointStiffness>1866.69873</hingeJointStiffness>
+              <torsionStiffnessStep>7</torsionStiffnessStep>
+              <wheelGroups>
+                <wheelGroup>
+                  <wheelName>WD_L1</wheelName>
+                  <groupRadius>0.394356</groupRadius>
+                  <groupInnerOffset>0.469842</groupInnerOffset>
+                  <groupOuterOffset>-0.369842</groupOuterOffset>
+                </wheelGroup>
+                <wheelGroup>
+                  <wheelName>W_L8</wheelName>
+                  <wheelName>W_L7</wheelName>
+                  <wheelName>W_L6</wheelName>
+                  <wheelName>W_L5</wheelName>
+                  <wheelName>W_L4</wheelName>
+                  <wheelName>W_L3</wheelName>
+                  <wheelName>W_L2</wheelName>
+                  <wheelName>W_L1</wheelName>
+                  <wheelName>W_L0</wheelName>
+                  <groupRadius>0.429903</groupRadius>
+                  <groupInnerOffset>0.469842</groupInnerOffset>
+                  <groupOuterOffset>-0.369842</groupOuterOffset>
+                </wheelGroup>
+                <wheelGroup>
+                  <wheelName>WD_L0</wheelName>
+                  <groupRadius>0.333544</groupRadius>
+                  <groupInnerOffset>0.469842</groupInnerOffset>
+                  <groupOuterOffset>-0.369842</groupOuterOffset>
+                </wheelGroup>
+              </wheelGroups>
+              <hullCollider>
+                <boxCollider>
+                  <row0>1.847157 0.000000 0.000000</row0>
+                  <row1>0.000000 1.358194 0.000000</row1>
+                  <row2>0.000000 0.000000 7.244395</row2>
+                  <row3>0.000000 1.182273 -0.139913</row3>
+                </boxCollider>
+                <boxCollider>
+                  <row0>3.588462 0.000000 0.000000</row0>
+                  <row1>0.000000 0.300000 0.000000</row1>
+                  <row2>0.000000 0.000000 7.256467</row2>
+                  <row3>0.000000 1.383982 -0.251944</row3>
+                </boxCollider>
+                <boxCollider>
+                  <row0>3.605453 0.000000 0.000000</row0>
+                  <row1>0.000000 0.277744 0.117101</row1>
+                  <row2>0.000000 -0.195450 0.463573</row2>
+                  <row3>0.000000 1.299359 3.498035</row3>
+                </boxCollider>
+              </hullCollider>
+            </physicalParams>
+          </trackDebris>
+          <trackDebris>
+            <isLeft>false</isLeft>
+            <destructionEffect />
+            <physicalParams>
+              <renderModelOffset>-0.026668</renderModelOffset>
+              <lengthwiseSpringLength>0.151242</lengthwiseSpringLength>
+              <widthwiseSpringLength>0.68654</widthwiseSpringLength>
+              <hingeJointStiffness>1866.528687</hingeJointStiffness>
+              <torsionStiffnessStep>7</torsionStiffnessStep>
+              <wheelGroups>
+                <wheelGroup>
+                  <wheelName>WD_R1</wheelName>
+                  <groupRadius>0.394475</groupRadius>
+                  <groupInnerOffset>-0.469842</groupInnerOffset>
+                  <groupOuterOffset>0.369842</groupOuterOffset>
+                </wheelGroup>
+                <wheelGroup>
+                  <wheelName>W_R8</wheelName>
+                  <wheelName>W_R7</wheelName>
+                  <wheelName>W_R6</wheelName>
+                  <wheelName>W_R5</wheelName>
+                  <wheelName>W_R4</wheelName>
+                  <wheelName>W_R3</wheelName>
+                  <wheelName>W_R2</wheelName>
+                  <wheelName>W_R1</wheelName>
+                  <wheelName>W_R0</wheelName>
+                  <groupRadius>0.429903</groupRadius>
+                  <groupInnerOffset>-0.469842</groupInnerOffset>
+                  <groupOuterOffset>0.369842</groupOuterOffset>
+                </wheelGroup>
+                <wheelGroup>
+                  <wheelName>WD_R0</wheelName>
+                  <groupRadius>0.333719</groupRadius>
+                  <groupInnerOffset>-0.469842</groupInnerOffset>
+                  <groupOuterOffset>0.369842</groupOuterOffset>
+                </wheelGroup>
+              </wheelGroups>
+              <hullCollider>
+                <boxCollider>
+                  <row0>1.847160 0.000000 0.000000</row0>
+                  <row1>0.000000 1.358190 0.000000</row1>
+                  <row2>0.000000 0.000000 7.244400</row2>
+                  <row3>0.000000 1.182270 -0.139913</row3>
+                </boxCollider>
+                <boxCollider>
+                  <row0>3.588462 0.000000 0.000000</row0>
+                  <row1>0.000000 0.300000 0.000000</row1>
+                  <row2>0.000000 0.000000 7.256467</row2>
+                  <row3>0.000000 1.383982 -0.251944</row3>
+                </boxCollider>
+                <boxCollider>
+                  <row0>3.605453 0.000000 0.000000</row0>
+                  <row1>0.000000 0.277744 0.117101</row1>
+                  <row2>0.000000 -0.195450 0.463573</row2>
+                  <row3>0.000000 1.299359 3.498035</row3>
+                </boxCollider>
+              </hullCollider>
+            </physicalParams>
+          </trackDebris>
+        </trackPair>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -881,6 +997,7 @@
           <camouflage />
         </customizableVehicleAreas>
       </customization>
+      <repairTime>6.85714293</repairTime>
     </Chassis_F74_AMX_M4_1949_Liberte>
   </chassis>
   <turrets0>
@@ -925,6 +1042,8 @@
             <collisionModelServer>vehicles/french/F74_AMX_M4_1949/collision/Gun_01.model</collisionModelServer>
             <collisionModelClient>vehicles/french/F74_AMX_M4_1949/collision_client/Gun_01.model</collisionModelClient>
           </hitTester>
+          <effects>shot_mainext_mb</effects>
+          <reloadEffect>reload85_107</reloadEffect>
           <animateEmblemSlots>true</animateEmblemSlots>
           <customizationSlots>
             <slot>
@@ -1013,10 +1132,9 @@
           <doubleSided>false</doubleSided>
           <showOn>256</showOn>
           <clipAngle>0.899145</clipAngle>
-          <anchorPosition>-0.000033 0.998903 -1.74055</anchorPosition>
-          <anchorDirection>-0.000145324 0.994648 -0.103318</anchorDirection>
           <compatibleModels>default</compatibleModels>
           <verticalMirror>true</verticalMirror>
+          <anchorShift>0.029995</anchorShift>
         </slot>
         <slot>
           <slotType>projectionDecal</slotType>
@@ -1028,9 +1146,8 @@
           <doubleSided>false</doubleSided>
           <showOn>256</showOn>
           <clipAngle>1.51128</clipAngle>
-          <anchorPosition>-0.000021 1.03731 0.695163</anchorPosition>
-          <anchorDirection>-0.000155375 0.971941 0.235225</anchorDirection>
           <compatibleModels>default</compatibleModels>
+          <anchorShift>0.049994</anchorShift>
         </slot>
       </customizationSlots>
       <customization>
@@ -1054,6 +1171,8 @@
     <loader />
   </crew>
   <supplySlots>5 1 1 6 6 6 7 8 8 8</supplySlots>
+  <postProgressionTree>role_HT_break</postProgressionTree>
+  <customRoleSlotOptions>2 4</customRoleSlotOptions>
   <speedLimits>
     <forward>40</forward>
     <backward>15</backward>

@@ -859,6 +859,7 @@
           <camouflage />
         </customizableVehicleAreas>
       </customization>
+      <repairTime>6.85714293</repairTime>
     </Chassis_T49_2_IGR>
   </chassis>
   <turrets0>
@@ -932,6 +933,8 @@
             <collisionModelServer>vehicles/american/A58_T67/collision/Gun_04.model</collisionModelServer>
             <collisionModelClient>vehicles/american/A58_T67/collision_client/Gun_04.model</collisionModelClient>
           </hitTester>
+          <effects>shot_medium</effects>
+          <reloadEffect>reload50_75</reloadEffect>
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>

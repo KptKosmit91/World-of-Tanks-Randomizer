@@ -24,10 +24,15 @@
     <A_220B_1_113>	253	</A_220B_1_113>
     <A-220B_T>	254	</A-220B_T>
     <A_220A>	255	</A_220A>
+    <A-220B_FL>	501	</A-220B_FL>
     <A-220B_IGR>	60001	</A-220B_IGR>
     <A-220B_1_IGR>	60002	</A-220B_1_IGR>
     <_Type94_Hei_bootcamp>	64001	</_Type94_Hei_bootcamp>
     <Development_Radio>	65000	</Development_Radio>
+    <_9R_SH>	64002	</_9R_SH>
+    <_9RM_shop_SH>	64003	</_9RM_shop_SH>
+    <A-220B_1_SH>	64004	</A-220B_1_SH>
+    <Ch00_ClingeBot_SH_Radio>	64005	</Ch00_ClingeBot_SH_Radio>
     <_9RM_shop_bootcamp>	4	</_9RM_shop_bootcamp>
   </ids>
   <shared>
@@ -77,6 +82,18 @@
       <maxRegenHealth>	108	</maxRegenHealth>
       <repairCost>	3.5	</repairCost>
     </A-220B>
+    <A-220B_FL>
+      <userString>	#china_vehicles:A-220B	</userString>
+      <tags></tags>
+      <level>	10	</level>
+      <price>	54000	</price>
+      <notInShop>	true	</notInShop>
+      <weight>	40	</weight>
+      <distance>	750	</distance>
+      <maxHealth>	180	</maxHealth>
+      <maxRegenHealth>	108	</maxRegenHealth>
+      <repairCost>	3.5	</repairCost>
+    </A-220B_FL>
     <A-220B_1>
       <userString>	#china_vehicles:A-220B_1	</userString>
       <tags></tags>
@@ -357,6 +374,60 @@
       <maxRegenHealth>	75	</maxRegenHealth>
       <repairCost>	0	</repairCost>
     </Development_Radio>
+    <_9R_SH>
+      <userString>	#china_vehicles:_9R_SH	</userString>
+      <tags></tags>
+      <level>	1	</level>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <weight>	100	</weight>
+      <distance>	2000	</distance>
+      <maxHealth>	100	</maxHealth>
+      <maxRegenHealth>	60	</maxRegenHealth>
+      <repairCost>	0	</repairCost>
+      <radarRadius>	430	</radarRadius>
+      <radarCooldown>	25	</radarCooldown>
+    </_9R_SH>
+    <_9RM_shop_SH>
+      <userString>	#china_vehicles:_9RM_shop_SH	</userString>
+      <tags></tags>
+      <level>	2	</level>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <weight>	100	</weight>
+      <distance>	2000	</distance>
+      <maxHealth>	200	</maxHealth>
+      <maxRegenHealth>	150	</maxRegenHealth>
+      <repairCost>	0	</repairCost>
+      <radarRadius>	300	</radarRadius>
+      <radarCooldown>	15	</radarCooldown>
+    </_9RM_shop_SH>
+    <A-220B_1_SH>
+      <userString>	#china_vehicles:A-220B_1_SH	</userString>
+      <tags></tags>
+      <level>	2	</level>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <weight>	100	</weight>
+      <distance>	2000	</distance>
+      <maxHealth>	200	</maxHealth>
+      <maxRegenHealth>	150	</maxRegenHealth>
+      <repairCost>	0	</repairCost>
+      <radarRadius>	530	</radarRadius>
+      <radarCooldown>	25	</radarCooldown>
+    </A-220B_1_SH>
+    <Ch00_ClingeBot_SH_Radio>
+      <userString>	#china_vehicles:Ch00_ClingeBot_SH_Radio	</userString>
+      <tags></tags>
+      <level>	1	</level>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <weight>	100	</weight>
+      <distance>	300	</distance>
+      <maxHealth>	100	</maxHealth>
+      <maxRegenHealth>	49	</maxRegenHealth>
+      <repairCost>	0.5	</repairCost>
+    </Ch00_ClingeBot_SH_Radio>
     <_9RM_shop_bootcamp>
       <userString>	#china_vehicles:_9RM_shop	</userString>
       <tags></tags>

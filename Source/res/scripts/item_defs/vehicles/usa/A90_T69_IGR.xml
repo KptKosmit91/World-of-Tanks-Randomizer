@@ -717,6 +717,7 @@
           <camouflage />
         </customizableVehicleAreas>
       </customization>
+      <repairTime>5.71428585</repairTime>
     </Chassis_T69_2_IGR>
   </chassis>
   <turrets0>
@@ -801,6 +802,8 @@
             <collisionModelServer>vehicles/american/A90_T69/collision/Gun_02.model</collisionModelServer>
             <collisionModelClient>vehicles/american/A90_T69/collision_client/Gun_02.model</collisionModelClient>
           </hitTester>
+          <effects>shot_main_mb</effects>
+          <reloadEffect>reload_automat_reloading_85_107</reloadEffect>
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
@@ -820,6 +823,7 @@
               <isUVProportional>true</isUVProportional>
             </slot>
           </customizationSlots>
+          <edgeByVisualModel>false</edgeByVisualModel>
           <camouflage>
             <tiling>0.64 0.64 0.06 0.000000</tiling>
             <density>76.2015 76.5304</density>

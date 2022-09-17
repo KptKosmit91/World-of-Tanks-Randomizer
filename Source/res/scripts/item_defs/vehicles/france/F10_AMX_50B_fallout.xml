@@ -814,6 +814,7 @@
           <camouflage />
         </customizableVehicleAreas>
       </customization>
+      <repairTime>6.85714293</repairTime>
     </Chassis_AMX_50_68t_fallout>
   </chassis>
   <turrets0>
@@ -892,6 +893,8 @@
             <collisionModelServer>vehicles/french/F10_AMX_50B/collision/Gun_01.model</collisionModelServer>
             <collisionModelClient>vehicles/french/F10_AMX_50B/collision_client/Gun_01.model</collisionModelClient>
           </hitTester>
+          <effects>shot_large_mb</effects>
+          <reloadEffect>reload_automat_reloading_115_152</reloadEffect>
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
@@ -911,6 +914,7 @@
               <isUVProportional>true</isUVProportional>
             </slot>
           </customizationSlots>
+          <edgeByVisualModel>false</edgeByVisualModel>
           <camouflage>
             <tiling>3.04 1.06 0.88 0.000000</tiling>
             <density>92.7851 93.3603</density>

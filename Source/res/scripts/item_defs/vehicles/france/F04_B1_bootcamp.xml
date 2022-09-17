@@ -814,6 +814,7 @@ loader</commander>
           <camouflage />
         </customizableVehicleAreas>
       </customization>
+      <repairTime>6.85714293</repairTime>
     </Chassis_B1_bootcamp>
   </chassis>
   <turrets0>
@@ -884,6 +885,8 @@ loader</commander>
             <collisionModelServer>vehicles/french/F04_B1/collision/Gun_01.model</collisionModelServer>
             <collisionModelClient>vehicles/french/F04_B1/collision_client/Gun_01.model</collisionModelClient>
           </hitTester>
+          <effects>shot_small</effects>
+          <reloadEffect>reload20_45</reloadEffect>
           <customization>
             <customizableVehicleAreas>
               <paint />

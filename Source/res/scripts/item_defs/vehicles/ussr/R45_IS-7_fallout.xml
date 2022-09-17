@@ -948,13 +948,13 @@
           </transform>
         </decal>
       </AODecals>
-      <trackThickness>0.000000</trackThickness>
       <customization>
         <customizableVehicleAreas>
           <paint>CHASSIS</paint>
           <camouflage />
         </customizableVehicleAreas>
       </customization>
+      <repairTime>6.85714293</repairTime>
     </Chassis_IS-7_fallout>
   </chassis>
   <turrets0>
@@ -1020,6 +1020,8 @@
             <collisionModelServer>vehicles/russian/R45_IS-7/collision/Gun_01.model</collisionModelServer>
             <collisionModelClient>vehicles/russian/R45_IS-7/collision_client/Gun_01.model</collisionModelClient>
           </hitTester>
+          <effects>shot_largeext_mb</effects>
+          <reloadEffect>reload115_152</reloadEffect>
           <animateEmblemSlots>true</animateEmblemSlots>
           <customization>
             <customizableVehicleAreas>
@@ -1039,6 +1041,7 @@
               <isUVProportional>true</isUVProportional>
             </slot>
           </customizationSlots>
+          <edgeByVisualModel>false</edgeByVisualModel>
           <camouflage>
             <tiling>0.46 0.46 0.000000 0.000000</tiling>
             <density>107.854 102.965</density>

@@ -282,7 +282,7 @@ class AudiowwManager:
     conf: Config = None
 
     bankFilePaths: list[str] = []
-    bankFileNames: list[str] = []
+    bankFileNames: list[str] = ["epic_battle_voiceover.bnk"]
 
     events_section: ET.Element
 
@@ -346,28 +346,27 @@ class AudiowwManager:
         print("\nRandomizing Sounds\n")
 
         print("Randomizing crew voices")
-        self.add_sound_randomization(self.crewVoiceEventsList, '', 'crew')
+        self.randomize_from_list(self.crewVoiceEventsList, '', 'crew')
 
         print("Randomizing shell impact sounds")
-        self.add_sound_randomization(self.shellImpactSoundEventsList, 'NPC_NPC', 't_imp')
-        self.add_sound_randomization(self.shellImpactSoundEventsList, 'PC_NPC', 't_imp')
-        self.add_sound_randomization(self.shellImpactSoundEventsList, 'NPC_PC', 't_imp')
-        self.add_sound_randomization(self.shellHESplashImpactSoundEventsList, '', 't_imp')
-        self.add_sound_randomization(self.shellGroundImpactSoundEventsList, 'NPC', 'g_imp')
-        self.add_sound_randomization(self.shellGroundImpactSoundEventsList, 'PC', 'g_imp')
-        self.add_sound_randomization(self.artySurfaceImpact, '', 'g_imp')
+        self.randomize_from_list(self.shellImpactSoundEventsList, 'NPC_NPC', 't_imp')
+        self.randomize_from_list(self.shellImpactSoundEventsList, 'PC_NPC', 't_imp')
+        self.randomize_from_list(self.shellImpactSoundEventsList, 'NPC_PC', 't_imp')
+        self.randomize_from_list(self.shellHESplashImpactSoundEventsList, '', 't_imp')
+        self.randomize_from_list(self.shellGroundImpactSoundEventsList, 'NPC', 'g_imp')
+        self.randomize_from_list(self.shellGroundImpactSoundEventsList, 'PC', 'g_imp')
+        self.randomize_from_list(self.artySurfaceImpact, '', 'g_imp')
 
         print("\nSound randomization done\n")
 
-    def add_sound_randomization(self, event_list, add, sound_type):
+    def randomize_from_list(self, event_list, add, sound_type):
         copy_list = deepcopy(event_list)
 
         for i in range(0, len(event_list)):
-            self.randomize_sound_event(event_list, copy_list, add, sound_type, i)
+            # self.randomize_sound_event(event_list, copy_list, add, sound_type, i)
 
-    # sound_type variable might get a use later!
-    def randomize_sound_event(self, source_list, mod_list, add, sound_type, i):
-        rand = xml.getRandomListIndex(mod_list, random)
-        base_element = xml.insertElementEmptyNew("event", self.events_section)
-        xml.insertElement("name", source_list[i] + add, base_element)
-        xml.insertElement("mod", mod_list[rand] + add, base_element)
+            rand = xml.getRandomListIndex(copy_list, random)
+            base_element = xml.insertElementEmptyNew("event", self.events_section)
+            xml.insertElement("name", event_list[i] + add, base_element)
+            xml.insertElement("mod", copy_list[rand] + add, base_element)
+            copy_list.pop(rand)

@@ -119,14 +119,8 @@
     <noAmmo>	NoneExtra : NoAmmo	</noAmmo>
     <gunReload>	NoneExtra : GunReload	</gunReload>
     <clipReload>	NoneExtra : ClipReload	</clipReload>
-    <deathZones>	NoneExtra: DeathZones	</deathZones>
     <trackInstantRepairDelay>	NoneExtra : TrackInstantRepairDelay	  <delay>	0.3	</delay>
     </trackInstantRepairDelay>
-    <fire>	Fire : Fire	  <sounds>
-        <fireStarted>	fire_started	</fireStarted>
-        <fireStopped>	fire_stopped	</fireStopped>
-      </sounds>
-    </fire>
     <stun>	NoneExtra : Stun	</stun>
     <commanderSixthSense>	NoneExtra : CommanderSixthSense	</commanderSixthSense>
     <stereoscope>	NoneExtra : StillVehicleOptionalDevice	</stereoscope>
@@ -191,24 +185,26 @@
       </sounds>
       <deviceUserString>	#ingame_gui:devices/radio	</deviceUserString>
     </radioHealth>
-    <leftTrackHealth>	TrackHealth : TrackHealth	  <isLeft>	true	</isLeft>
+    <leftTrack0Health>	TrackHealth : TrackHealth	  <isLeft>	true	</isLeft>
+      <trackPairIdx>	0	</trackPairIdx>
       <sounds>
         <destroyed>	track_destroyed	</destroyed>
         <critical>	track_damaged	</critical>
         <functional>	track_functional	</functional>
         <functionalCanMove>	track_functional_can_move	</functionalCanMove>
       </sounds>
-      <deviceUserString>	#ingame_gui:devices/left_track	</deviceUserString>
-    </leftTrackHealth>
-    <rightTrackHealth>	TrackHealth : TrackHealth	  <isLeft>	false	</isLeft>
+      <deviceUserString>	#ingame_gui:devices/track	</deviceUserString>
+    </leftTrack0Health>
+    <rightTrack0Health>	TrackHealth : TrackHealth	  <isLeft>	false	</isLeft>
+      <trackPairIdx>	0	</trackPairIdx>
       <sounds>
         <destroyed>	track_destroyed	</destroyed>
         <critical>	track_damaged	</critical>
         <functional>	track_functional	</functional>
         <functionalCanMove>	track_functional_can_move	</functionalCanMove>
       </sounds>
-      <deviceUserString>	#ingame_gui:devices/right_track	</deviceUserString>
-    </rightTrackHealth>
+      <deviceUserString>	#ingame_gui:devices/track	</deviceUserString>
+    </rightTrack0Health>
     <gunHealth>	DamageMarker : GunHealth	  <sounds>
         <critical>	gun_damaged	</critical>
         <destroyed>	gun_destroyed	</destroyed>
@@ -299,6 +295,12 @@
     <builtinRepairkit>	NoneExtra : Repairkit	</builtinRepairkit>
     <dualShoot>	ShowShootingMultiGun : DualGunShoot	</dualShoot>
     <charger>	NoneExtra : DualGunCharger	</charger>
+    <laserSight>	BlinkingLaserSight : BlinkingLaserSight	  <isEnabledBlinking>	False	</isEnabledBlinking>
+      <shouldCollideTarget>	False	</shouldCollideTarget>
+      <beamStaticSeq>	particles/eff_sequence/maps_training_laser_e_staticBright_1.seq	</beamStaticSeq>
+      <beamLength>	10.0	</beamLength>
+      <bindNode>	HP_gunFire	</bindNode>
+    </laserSight>
   </extras>
   <deviceExtras>
     <devices>
@@ -306,8 +308,8 @@
       <ammoBayHealth>	ammoBay	</ammoBayHealth>
       <fuelTankHealth>	fuelTank	</fuelTankHealth>
       <radioHealth>	radio	</radioHealth>
-      <leftTrackHealth>	track	</leftTrackHealth>
-      <rightTrackHealth>	track	</rightTrackHealth>
+      <leftTrack0Health>	track	</leftTrack0Health>
+      <rightTrack0Health>	track	</rightTrack0Health>
       <gunHealth>	gun	</gunHealth>
       <turretRotatorHealth>	turretRotator	</turretRotatorHealth>
       <surveyingDeviceHealth>	surveyingDevice	</surveyingDeviceHealth>
@@ -720,7 +722,8 @@
       <continueTraceIfNoHit>	false	</continueTraceIfNoHit>
     </radio>
     <leftTrack>
-      <extra>	leftTrackHealth	</extra>
+      <extra>	leftTrack_Health	</extra>
+      <multiple>	true	</multiple>
       <vehicleDamageFactor>	0.0	</vehicleDamageFactor>
       <useArmorHomogenization>	false	</useArmorHomogenization>
       <useHitAngle>	false	</useHitAngle>
@@ -735,7 +738,8 @@
       <continueTraceIfNoHit>	false	</continueTraceIfNoHit>
     </leftTrack>
     <rightTrack>
-      <extra>	rightTrackHealth	</extra>
+      <extra>	rightTrack_Health	</extra>
+      <multiple>	true	</multiple>
       <vehicleDamageFactor>	0.0	</vehicleDamageFactor>
       <useArmorHomogenization>	false	</useArmorHomogenization>
       <useHitAngle>	false	</useHitAngle>
