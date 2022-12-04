@@ -907,6 +907,59 @@
       </damage>
     </armorSpalls>
   </_75mm_Sprg.18>
+  <_75mm_Pzgr39_KW_Ir>
+    <id>	356	</id>
+    <userString>	#germany_vehicles:_75mm_Pzgr39_KW_Ir	</userString>
+    <icon>	ap	</icon>
+    <price>	70	</price>
+    <kind>	ARMOR_PIERCING	</kind>
+    <caliber>	75	</caliber>
+    <isTracer>	true	</isTracer>
+    <effects>	mediumArmorPiercing	</effects>
+    <damage>
+      <armor>	110	</armor>
+      <devices>	100	</devices>
+    </damage>
+  </_75mm_Pzgr39_KW_Ir>
+  <_75mm_Pzgr.40_KW_Ir>
+    <id>	357	</id>
+    <userString>	#germany_vehicles:_75mm_Pzgr.40_KW_Ir	</userString>
+    <icon>	ap_cr_premium	</icon>
+    <price>	2800	</price>
+    <improved>	true	</improved>
+    <kind>	ARMOR_PIERCING_CR	</kind>
+    <caliber>	75	</caliber>
+    <isTracer>	true	</isTracer>
+    <effects>	mediumAPCR	</effects>
+    <damage>
+      <armor>	110	</armor>
+      <devices>	100	</devices>
+    </damage>
+  </_75mm_Pzgr.40_KW_Ir>
+  <_75mm_Sprg.18_KW_Ir>
+    <id>	358	</id>
+    <userString>	#germany_vehicles:_75mm_Sprg.18_KW_Ir	</userString>
+    <icon>	he_modern	</icon>
+    <price>	38	</price>
+    <kind>	HIGH_EXPLOSIVE	</kind>
+    <mechanics>	MODERN	</mechanics>
+    <caliber>	75	</caliber>
+    <explosionRadius>	1.06	</explosionRadius>
+    <isTracer>	true	</isTracer>
+    <effects>	mediumHighExplosive	</effects>
+    <damage>
+      <armor>	175	</armor>
+      <devices>	100	</devices>
+    </damage>
+    <armorSpalls>
+      <impactRadius>	1.06	</impactRadius>
+      <coneAngle>	90	</coneAngle>
+      <damage>
+        <armor>	90	</armor>
+        <devices>	50	</devices>
+      </damage>
+    </armorSpalls>
+  </_75mm_Sprg.18_KW_Ir>
   <_75mm_43_M_Pancelgranat>
     <id>	148	</id>
     <userString>	#germany_vehicles:_75mm_43_M_Pancelgranat	</userString>
@@ -4423,4 +4476,27 @@
     <explosionEdgeDamageFactor>	1.0	</explosionEdgeDamageFactor>
     <tags>	minefield	</tags>
   </mine_shell_fl_low_damage_8lvl_level3>
+  <comp7_poi_artillery_aoe>
+    <id>	347	</id>
+    <userString>	#comp7:poi_artillery_aoe	</userString>
+    <icon>	he_spg_stun	</icon>
+    <price>	1170	</price>
+    <notInShop>	true	</notInShop>
+    <kind>	HIGH_EXPLOSIVE	</kind>
+    <caliber>	100	</caliber>
+    <explosionRadius>	1.5	</explosionRadius>
+    <hasStun>	true	</hasStun>
+    <stunDuration>	15	</stunDuration>
+    <guaranteedStunDuration>	1.0	</guaranteedStunDuration>
+    <damageDurationCoeff>	0.75	</damageDurationCoeff>
+    <isTracer>	true	</isTracer>
+    <effects>	epicAirbombStrike	</effects>
+    <damage>
+      <armor>	130	</armor>
+      <devices>	150	</devices>
+    </damage>
+    <explosionDamageFactor>	1.0	</explosionDamageFactor>
+    <explosionEdgeDamageFactor>	1.0	</explosionEdgeDamageFactor>
+    <tags>	bomber	</tags>
+  </comp7_poi_artillery_aoe>
 </shells.xml>

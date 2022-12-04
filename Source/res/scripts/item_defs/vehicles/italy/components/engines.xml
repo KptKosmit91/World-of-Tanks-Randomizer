@@ -30,6 +30,7 @@
     <Daimler_Benz_Typ_MB_837_A>	27	</Daimler_Benz_Typ_MB_837_A>
     <Hanomag_D831_A>	28	</Hanomag_D831_A>
     <MB_822_Ka_500>	29	</MB_822_Ka_500>
+    <MTU_MB_838_Ca_M_500>	31	</MTU_MB_838_Ca_M_500>
     <Hispano_Suiza_HS_110>	32	</Hispano_Suiza_HS_110>
     <Continental_AOI_1490_italy>	33	</Continental_AOI_1490_italy>
     <MTU_870>	34	</MTU_870>
@@ -39,6 +40,7 @@
     <Daimler_Benz_Typ_MB_838_P>	38	</Daimler_Benz_Typ_MB_838_P>
     <Maybach_HL_120_S>	39	</Maybach_HL_120_S>
     <MTU_870_P>	40	</MTU_870_P>
+    <SPA_Tipo_343>	42	</SPA_Tipo_343>
     <Development_Engine>	65000	</Development_Engine>
   </ids>
   <shared>
@@ -123,6 +125,23 @@
       <rpm_min>	335	</rpm_min>
       <rpm_max>	2029	</rpm_max>
     </SPA_15T>
+    <SPA_Tipo_343>
+      <userString>	#italy_vehicles:SPA_Tipo_343	</userString>
+      <tags>	diesel	</tags>
+      <level>	4	</level>
+      <price>	11200	</price>
+      <notInShop>	true	</notInShop>
+      <wwsoundPC>	eng_Hetzer_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_Hetzer_npc	</wwsoundNPC>
+      <power>	230	</power>
+      <weight>	1000	</weight>
+      <maxHealth>	104	</maxHealth>
+      <maxRegenHealth>	52	</maxRegenHealth>
+      <repairCost>	2	</repairCost>
+      <fireStartingChance>	0.2	</fireStartingChance>
+      <rpm_min>	297	</rpm_min>
+      <rpm_max>	2104	</rpm_max>
+    </SPA_Tipo_343>
     <SPA_15TB>
       <userString>	#italy_vehicles:SPA_15TB	</userString>
       <tags>	gasoline	</tags>
@@ -409,8 +428,8 @@
       <maxRegenHealth>	160	</maxRegenHealth>
       <repairCost>	9	</repairCost>
       <fireStartingChance>	0.12	</fireStartingChance>
-      <rpm_min>	333	</rpm_min>
-      <rpm_max>	2200	</rpm_max>
+      <rpm_min>	360	</rpm_min>
+      <rpm_max>	2120	</rpm_max>
     </MTU_873>
     <ID36S_6V_CA>
       <userString>	#italy_vehicles:ID36S_6V_CA	</userString>
@@ -657,6 +676,24 @@
       <rpm_min>	333	</rpm_min>
       <rpm_max>	2200	</rpm_max>
     </Daimler_Benz_Typ_MB_838_P>
+    <MTU_MB_838_Ca_M_500>
+      <userString>	#italy_vehicles:MTU_MB_838_Ca_M_500	</userString>
+      <shortUserString>	#italy_vehicles:MTU_MB_838_Ca_M_500_short	</shortUserString>
+      <tags>	diesel	</tags>
+      <level>	10	</level>
+      <price>	95000	</price>
+      <notInShop>	true	</notInShop>
+      <wwsoundPC>	eng_v55_pc	</wwsoundPC>
+      <wwsoundNPC>	eng_v55_npc	</wwsoundNPC>
+      <power>	830	</power>
+      <weight>	1700	</weight>
+      <maxHealth>	360	</maxHealth>
+      <maxRegenHealth>	170	</maxRegenHealth>
+      <repairCost>	9	</repairCost>
+      <fireStartingChance>	0.1	</fireStartingChance>
+      <rpm_min>	298	</rpm_min>
+      <rpm_max>	2304	</rpm_max>
+    </MTU_MB_838_Ca_M_500>
     <MTU_MB_837_Ba_500A>
       <userString>	#italy_vehicles:MTU_MB_837_Ba_500A	</userString>
       <tags>	diesel	</tags>

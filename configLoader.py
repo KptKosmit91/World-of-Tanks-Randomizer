@@ -134,7 +134,7 @@ class ConfigLoader:
 class Config:
     wotmodName = "Randomizer_v$randver_$wotver_Seed=$seed"
     randomizerversion = "1.0WIP"
-    wotversion="1.18"
+    wotversion="1.19.0.1"
 
     resPath = "Source/res/"
     resPathOut = "Output/res/"
@@ -150,6 +150,12 @@ class Config:
 
     tanksPath = "Source/res/scripts/item_defs/vehicles/"
     tanksPathOut = "Output/res/scripts/item_defs/vehicles/"
+
+    shotEffectsPath = "Source/res/scripts/item_defs/vehicles/common/shot_effects.xml"
+    shotEffectsPathOut = "Output/res/scripts/item_defs/vehicles/common/shot_effects.xml"
+
+    vehEffectsPath = "Source/res/scripts/item_defs/vehicles/common/vehicle_effects.xml"
+    vehEffectsPathOut = "Output/res/scripts/item_defs/vehicles/common/vehicle_effects.xml"
 
     addonsPath = "Addons/"
 

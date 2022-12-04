@@ -1,4 +1,6 @@
 from tankRandomizer import TankRandomizer
+from shellEffectsRandomizer import ShotEffectRandomizer
+from vehicleEffectsRandomizer import VehicleEffectRandomizer
 from audiowwManager import AudiowwManager
 from componentsxml import Guns
 from configLoader import Config as conf
@@ -50,14 +52,16 @@ def threaded_remove(source):
 def threaded_copytree(source, output):
     copytree(source, output)
 
-def symlink(input, output):
-    if not os.path.exists(input):
-        print(f"Failed to create symlink: input path {input} does not exist.")
-        return None
-    #if not os.path.exists(output):
-        #os.makedirs(output, True)
 
-    os.symlink(os.path.abspath(input), os.path.abspath(output))
+def symlink(inp, outp):
+    if not os.path.exists(inp):
+        print(f"Failed to create symlink: input path {inp} does not exist.")
+        return None
+    #if not os.path.exists(outp):
+        #os.makedirs(outp, True)
+
+    os.symlink(os.path.abspath(inp), os.path.abspath(outp))
+
 
 def main():
     ConfigLoader.load_config()
@@ -84,17 +88,37 @@ def main():
     guns = Guns(conf)
     guns.gather_information()
 
-    print("Tank Randomizer")
-    tank_randomizer = TankRandomizer(seed, conf, guns)
 
-    print("Gathering tank information...")
-    tank_randomizer.gather_information()
+    # print("Tank Randomizer")
+    # tank_randomizer = TankRandomizer(seed, conf, guns)
+    #
+    # print("Gathering tank information...")
+    # tank_randomizer.gather_information()
+    #
+    # tank_randomizer.get_tank_models()
+    # print("Information gathered")
+    #
+    # print("Randomizing tank models")
+    # tank_randomizer.randomize()
 
-    tank_randomizer.get_tank_models()
-    print("Information gathered")
+    # print("Shell Effect Randomizer")
+    # effect_randomizer = ShotEffectRandomizer(seed, conf)
+    #
+    # print("Randomizing shell effects...")
+    # effect_randomizer.randomize()
+    #
+    # effect_randomizer.save()
+    # print("Randomizing shell effects complete")
 
-    print("Randomizing tank models")
-    tank_randomizer.randomize()
+    print("\nVehicle Effect Randomizer")
+    vehicle_randomizer = VehicleEffectRandomizer(seed, conf)
+
+    print("Randomizing vehicle effects...")
+    vehicle_randomizer.randomize()
+
+    vehicle_randomizer.save()
+    print("Randomizing vehicle effects complete")
+
 
     audioww.create_audiomodsxml()
 

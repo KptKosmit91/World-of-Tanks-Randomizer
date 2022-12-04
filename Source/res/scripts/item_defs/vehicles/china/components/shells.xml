@@ -1164,6 +1164,60 @@
       <devices>	135	</devices>
     </damage>
   </_100mm_UBR-412training>
+  <_105mm_Chuan_bei_81-I>
+    <id>	151	</id>
+    <userString>	#china_vehicles:_105mm_Chuan_bei_81-I	</userString>
+    <icon>	ap_cr	</icon>
+    <price>	1000	</price>
+    <kind>	ARMOR_PIERCING_CR	</kind>
+    <caliber>	105	</caliber>
+    <isTracer>	true	</isTracer>
+    <effects>	mainAPCR	</effects>
+    <damage>
+      <armor>	360	</armor>
+      <devices>	150	</devices>
+    </damage>
+  </_105mm_Chuan_bei_81-I>
+  <_105mm_Po_81-I>
+    <id>	152	</id>
+    <userString>	#china_vehicles:_105mm_Po_81-I	</userString>
+    <icon>	hc_premium	</icon>
+    <price>	4400	</price>
+    <improved>	true	</improved>
+    <kind>	HOLLOW_CHARGE	</kind>
+    <caliber>	105	</caliber>
+    <isTracer>	true	</isTracer>
+    <effects>	mainHollowCharge	</effects>
+    <damage>
+      <armor>	360	</armor>
+      <devices>	150	</devices>
+    </damage>
+    <piercingPowerLossFactorByDistance>	0.05	</piercingPowerLossFactorByDistance>
+  </_105mm_Po_81-I>
+  <_105mm_Sha_bao_81-I>
+    <id>	153	</id>
+    <userString>	#china_vehicles:_105mm_Sha_bao_81-I	</userString>
+    <icon>	he_modern	</icon>
+    <price>	765	</price>
+    <kind>	HIGH_EXPLOSIVE	</kind>
+    <mechanics>	MODERN	</mechanics>
+    <caliber>	105	</caliber>
+    <explosionRadius>	1.91	</explosionRadius>
+    <isTracer>	true	</isTracer>
+    <effects>	mainHighExplosive	</effects>
+    <damage>
+      <armor>	440	</armor>
+      <devices>	150	</devices>
+    </damage>
+    <armorSpalls>
+      <impactRadius>	1.91	</impactRadius>
+      <coneAngle>	90	</coneAngle>
+      <damage>
+        <armor>	220	</armor>
+        <devices>	75	</devices>
+      </damage>
+    </armorSpalls>
+  </_105mm_Sha_bao_81-I>
   <_105mm_APDS_M392A2>
     <id>	78	</id>
     <userString>	#china_vehicles:_105mm_APDS_M392A2	</userString>
@@ -1659,6 +1713,59 @@
     </damage>
     <piercingPowerLossFactorByDistance>	0.05	</piercingPowerLossFactorByDistance>
   </_130mm_Po_130F>
+  <_130mm_Chuan_bei_492>
+    <id>	154	</id>
+    <userString>	#china_vehicles:_130mm_Chuan_bei_492	</userString>
+    <icon>	ap	</icon>
+    <price>	1215	</price>
+    <kind>	ARMOR_PIERCING	</kind>
+    <caliber>	130	</caliber>
+    <isTracer>	true	</isTracer>
+    <effects>	largeArmorPiercing	</effects>
+    <damage>
+      <armor>	530	</armor>
+      <devices>	180	</devices>
+    </damage>
+  </_130mm_Chuan_bei_492>
+  <_130mm_Chuan_bei_492F>
+    <id>	155	</id>
+    <userString>	#china_vehicles:_130mm_Chuan_bei_492F	</userString>
+    <icon>	ap_cr_premium	</icon>
+    <price>	5200	</price>
+    <improved>	true	</improved>
+    <kind>	ARMOR_PIERCING_CR	</kind>
+    <caliber>	130	</caliber>
+    <isTracer>	true	</isTracer>
+    <effects>	largeAPCR	</effects>
+    <damage>
+      <armor>	530	</armor>
+      <devices>	180	</devices>
+    </damage>
+  </_130mm_Chuan_bei_492F>
+  <_130mm_Sha_bao_492G>
+    <id>	156	</id>
+    <userString>	#china_vehicles:_130mm_Sha_bao_492G	</userString>
+    <icon>	he_modern	</icon>
+    <price>	1020	</price>
+    <kind>	HIGH_EXPLOSIVE	</kind>
+    <mechanics>	MODERN	</mechanics>
+    <caliber>	130	</caliber>
+    <explosionRadius>	2.78	</explosionRadius>
+    <isTracer>	true	</isTracer>
+    <effects>	largeHighExplosive	</effects>
+    <damage>
+      <armor>	640	</armor>
+      <devices>	180	</devices>
+    </damage>
+    <armorSpalls>
+      <impactRadius>	2.78	</impactRadius>
+      <coneAngle>	90	</coneAngle>
+      <damage>
+        <armor>	330	</armor>
+        <devices>	90	</devices>
+      </damage>
+    </armorSpalls>
+  </_130mm_Sha_bao_492G>
   <_152mm_Chuan_bei_547>
     <id>	82	</id>
     <userString>	#china_vehicles:_152mm_Chuan_bei_547	</userString>
@@ -1766,6 +1873,45 @@
       </damage>
     </armorSpalls>
   </_152mm_GM_45HE>
+  <_160mm_CB_76>
+    <id>	128	</id>
+    <userString>	#china_vehicles:_160mm_CB_76	</userString>
+    <icon>	ap	</icon>
+    <price>	1370	</price>
+    <kind>	ARMOR_PIERCING	</kind>
+    <caliber>	160	</caliber>
+    <isTracer>	true	</isTracer>
+    <effects>	hugeArmorPiercing	</effects>
+    <damage>
+      <armor>	650	</armor>
+      <devices>	203	</devices>
+    </damage>
+  </_160mm_CB_76>
+  <_160mm_Sha_bao_76B>
+    <id>	129	</id>
+    <userString>	#china_vehicles:_160mm_Sha_bao_76B	</userString>
+    <icon>	he_modern_premium	</icon>
+    <price>	7200	</price>
+    <improved>	true	</improved>
+    <kind>	HIGH_EXPLOSIVE	</kind>
+    <mechanics>	MODERN	</mechanics>
+    <caliber>	160	</caliber>
+    <explosionRadius>	3.66	</explosionRadius>
+    <isTracer>	true	</isTracer>
+    <effects>	hugeHighExplosive	</effects>
+    <damage>
+      <armor>	800	</armor>
+      <devices>	203	</devices>
+    </damage>
+    <armorSpalls>
+      <impactRadius>	3.78	</impactRadius>
+      <coneAngle>	90	</coneAngle>
+      <damage>
+        <armor>	400	</armor>
+        <devices>	100	</devices>
+      </damage>
+    </armorSpalls>
+  </_160mm_Sha_bao_76B>
   <Development_Shell>
     <id>	65000	</id>
     <userString>	Development_Shell	</userString>

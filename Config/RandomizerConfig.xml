@@ -55,8 +55,8 @@ string valid values:
 		<Keywords></Keywords>
 	
 		<UniqueRandomization>true</UniqueRandomization> <!--(boolean) if true, tank models won't repeat. some models might repeat because they're used by multiple tanks in the game! automatically set to false if keywords are used-->
-	
 		<TankSwap>false</TankSwap> <!-- (boolean) if true, the randomizer will swap tank models between tanks, if false, use the more chaotic and random randomization. NOTE: if true - wheeled vehicles are not supported! -->
+		
 		<RandomizeChassisSeparately>false</RandomizeChassisSeparately> <!-- (boolean) should tank chassis be randomized separately from the hull? if false, use the hull's chassis. If true, use a random chassis -->
 		
 		<RandomizeHulls>true</RandomizeHulls> <!-- (boolean) -->
