@@ -89,17 +89,17 @@ def main():
     guns.gather_information()
 
 
-    # print("Tank Randomizer")
-    # tank_randomizer = TankRandomizer(seed, conf, guns)
-    #
-    # print("Gathering tank information...")
-    # tank_randomizer.gather_information()
-    #
-    # tank_randomizer.get_tank_models()
-    # print("Information gathered")
-    #
-    # print("Randomizing tank models")
-    # tank_randomizer.randomize()
+    print("Tank Randomizer")
+    tank_randomizer = TankRandomizer(seed, conf, guns)
+
+    print("Gathering tank information...")
+    tank_randomizer.gather_information()
+
+    tank_randomizer.get_tank_models()
+    print("Information gathered")
+
+    print("Randomizing tank models")
+    tank_randomizer.randomize()
 
     # print("Shell Effect Randomizer")
     # effect_randomizer = ShotEffectRandomizer(seed, conf)
