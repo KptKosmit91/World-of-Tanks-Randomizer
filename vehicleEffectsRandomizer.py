@@ -28,12 +28,12 @@ class VehicleEffectRandomizer:
 
     def randomize(self):
         num = 0
-        numMax = len(self.explEffects)
+        num_max = len(self.explEffects)
 
         for e in self.explEffects:
             num += 1
 
-            percent = round(num / numMax * 100, 1)
+            percent = round(num / num_max * 100, 1)
             print(f"({percent}%) Randomizing vehicle effect: {e.tag}")
 
             idx = xml.getRandomListIndex(self.explNames, random)

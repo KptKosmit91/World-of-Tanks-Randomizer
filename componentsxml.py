@@ -42,7 +42,7 @@ class Guns:
         if name in self.gunDict:
             return self.gunDict[name]
         else:
-            print(f"Could not find gun {name} !")
+            # print(f"Could not find gun {name} !")
             return None
 
 

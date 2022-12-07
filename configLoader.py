@@ -128,13 +128,18 @@ class ConfigLoader:
         Config.randomizeGuns = parse_bool("RandomizeGuns", tank_section, True)
         Config.randomizeGunEffects = parse_bool("RandomizeGunEffects", tank_section, True)
 
+        Config.randomizeVehicleEffects = parse_bool("RandomizeVehicleEffects", tank_section, True)
+
+        Config.randomizePaints = parse_bool("RandomizePaints", tank_section, True)
+        Config.randomizeCamos = parse_bool("RandomizeCamos", tank_section, True)
+
         print("Config loaded!")
 
 
 class Config:
     wotmodName = "Randomizer_v$randver_$wotver_Seed=$seed"
     randomizerversion = "1.0WIP"
-    wotversion="1.19.0.1"
+    wotversion = "1.19.0.1"
 
     resPath = "Source/res/"
     resPathOut = "Output/res/"
@@ -175,6 +180,11 @@ class Config:
     randomizeTurrets = True
     randomizeGuns = True
     randomizeGunEffects = True
+
+    randomizeVehicleEffects = True
+
+    randomizePaints = True
+    randomizeCamos = True
 
     activeAddons = []
 
@@ -222,6 +232,8 @@ class Config:
         "G98_Waffentrager_E100_WO",
         
         "R77_KV2_turret_2",
+        "R95_Object_907A",
+        "Cz17_Vz_55_CN",
         
         "R115_IS-3_auto_test",
         "R165_Object_703_II_2",

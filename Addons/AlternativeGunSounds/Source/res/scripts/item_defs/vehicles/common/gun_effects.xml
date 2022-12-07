@@ -149,7 +149,7 @@
       </shotSound>
     </effects>
   </shot_auto_se_dual_R>
-  <shot_dualgun_large_R_alt>
+  <shot_dualgun_large_R_alt_singleFix>
     <timeline>
       <lighting2>0.7</lighting2>
       <end>0.5</end>
@@ -260,7 +260,7 @@
         </effects>
       </groundWave>
     </relatedEffects>
-  </shot_dualgun_large_R_alt>
+  </shot_dualgun_large_R_alt_singleFix>
   <shot_large_alt>
     <timeline>
       <lighting2>0.09</lighting2>
@@ -766,7 +766,7 @@
       </groundWave>
     </relatedEffects>
   </shot_largeext_alt2>
-  <shot_largeext_alt2_L>
+  <shot_dualgun_largeext_alt2_L>
     <timeline>
       <lighting2>1.1</lighting2>
       <end>0.5</end>
@@ -866,8 +866,8 @@
         </effects>
       </groundWave>
     </relatedEffects>
-  </shot_largeext_alt2_L>
-  <shot_largeext_alt2_R>
+  </shot_dualgun_largeext_alt2_L>
+  <shot_dualgun_largeext_alt2_R>
     <timeline>
       <lighting2>1.0</lighting2>
       <end>0.5</end>
@@ -967,12 +967,127 @@
         </effects>
       </groundWave>
     </relatedEffects>
-  </shot_largeext_alt2_R>
+  </shot_dualgun_largeext_alt2_R>
+  <shot_huge_alt>
+    <timeline>
+      <lighting2>	0.8	</lighting2>
+      <end>	0.4	</end>
+      <endpixie>	3	</endpixie>
+      <soundplaystop>	6	</soundplaystop>
+    </timeline>
+    <effects>
+      <pixie>
+        <startKey>	start	</startKey>
+        <endKey>	endpixie	</endKey>
+        <file>	particles/Tank/shots/shot_huge_01.eff	</file>
+        <force>	1	</force>
+        <position>	HP_gunFire	</position>
+      </pixie>
+      <light>
+        <startKey>	start	</startKey>
+        <endKey>	lighting2	</endKey>
+        <innerRadius>	3	</innerRadius>
+        <outerRadius>	15	</outerRadius>
+        <castShadows>	false	</castShadows>
+        <position>	HP_gunFire	</position>
+        <animation>
+          <time>	0.0	</time>
+          <color>	255 25 0	</color>
+          <multiplier>	175	</multiplier>
+        </animation>
+        <animation>
+          <time>	0.25	</time>
+          <color>	255 34 0	</color>
+          <multiplier>	295	</multiplier>
+        </animation>
+        <animation>
+          <time>	0.75	</time>
+          <color>	170 12 0	</color>
+          <multiplier>	210	</multiplier>
+        </animation>
+        <animation>
+          <time>	1.0	</time>
+          <color>	0 0 0 0	</color>
+          <multiplier>	67	</multiplier>
+        </animation>
+      </light>
+      <shotSound>
+        <startKey>	start	</startKey>
+        <wwsoundPC>wpn_kk91_hugealt_pc</wwsoundPC>
+        <wwsoundNPC>wpn_kk91_hugealt_npc</wwsoundNPC>
+      </shotSound>
+    </effects>
+    <relatedEffects>
+      <groundWave>
+        <timeline>
+          <shooting>	1	</shooting>
+        </timeline>
+        <effects>
+          <pixie>
+            <startKey>	start	</startKey>
+            <surfaceMatKind>	default	</surfaceMatKind>
+            <file>	particles/Tank/shots/groundwave_large_ground.eff	</file>
+            <force>	1	</force>
+            <position>	Scene Root	</position>
+          </pixie>
+          <pixie>
+            <startKey>	start	</startKey>
+            <surfaceMatKind>	ground	</surfaceMatKind>
+            <file>	particles/Tank/shots/groundwave_large_ground.eff	</file>
+            <force>	1	</force>
+            <position>	Scene Root	</position>
+          </pixie>
+          <pixie>
+            <startKey>	start	</startKey>
+            <surfaceMatKind>	stone	</surfaceMatKind>
+            <file>	particles/Tank/shots/groundwave_large_stone.eff	</file>
+            <force>	1	</force>
+            <position>	Scene Root	</position>
+          </pixie>
+          <pixie>
+            <startKey>	start	</startKey>
+            <surfaceMatKind>	sand	</surfaceMatKind>
+            <file>	particles/Tank/shots/groundwave_large_sand.eff	</file>
+            <force>	1	</force>
+            <position>	Scene Root	</position>
+          </pixie>
+          <pixie>
+            <startKey>	start	</startKey>
+            <surfaceMatKind>	snow	</surfaceMatKind>
+            <file>	particles/Tank/shots/groundwave_large_snow.eff	</file>
+            <force>	1	</force>
+            <position>	Scene Root	</position>
+          </pixie>
+          <pixie>
+            <startKey>	start	</startKey>
+            <surfaceMatKind>	water	</surfaceMatKind>
+            <file>	particles/Tank/shots/groundwave_large_water.eff	</file>
+            <force>	1	</force>
+            <position>	Scene Root	</position>
+          </pixie>
+          <pixie>
+            <startKey>	start	</startKey>
+            <surfaceMatKind>	dirt	</surfaceMatKind>
+            <file>	particles/Tank/shots/groundwave_large_dirt.eff	</file>
+            <force>	1	</force>
+            <position>	Scene Root	</position>
+          </pixie>
+          <pixie>
+            <startKey>	start	</startKey>
+            <surfaceMatKind>	oil	</surfaceMatKind>
+            <file>	particles/Tank/shots/groundwave_large_oil.eff	</file>
+            <force>	1	</force>
+            <position>	Scene Root	</position>
+          </pixie>
+        </effects>
+      </groundWave>
+    </relatedEffects>
+  </shot_huge_alt>
   <shot_superhuge_mb_alt>
     <timeline>
-      <lighting2>0.3</lighting2>
+      <lighting2>1.2</lighting2>
       <end>0.4</end>
-      <endpixie>2</endpixie>
+      <endpixie>4</endpixie>
       <soundplaystop>6</soundplaystop>
     </timeline>
     <effects>
@@ -987,35 +1102,35 @@
         <startKey>start</startKey>
         <endKey>endpixie</endKey>
         <file>particles/Tank/shots/shot_dualgun_main_01_L.eff</file>
-        <force>1</force>
+        <force>2</force>
         <position>HP_gunFire</position>
       </pixie>
       <light>
-        <startKey>start</startKey>
-        <endKey>lighting2</endKey>
-        <innerRadius>1.61</innerRadius>
-        <outerRadius>10</outerRadius>
-        <castShadows>false</castShadows>
-        <position>HP_gunFire</position>
+        <startKey>	start	</startKey>
+        <endKey>	lighting2	</endKey>
+        <innerRadius>	3	</innerRadius>
+        <outerRadius>	15	</outerRadius>
+        <castShadows>	false	</castShadows>
+        <position>	HP_gunFire	</position>
         <animation>
-          <time>0.0</time>
-          <color>255 0 0</color>
-          <multiplier>20</multiplier>
+          <time>	0.0	</time>
+          <color>	255 25 0	</color>
+          <multiplier>	255	</multiplier>
         </animation>
         <animation>
-          <time>0.15</time>
-          <color>255 50 0</color>
-          <multiplier>25</multiplier>
+          <time>	0.25	</time>
+          <color>	255 34 0	</color>
+          <multiplier>	420	</multiplier>
         </animation>
         <animation>
-          <time>0.75</time>
-          <color>170 25 0</color>
-          <multiplier>15</multiplier>
+          <time>	0.75	</time>
+          <color>	170 12 0	</color>
+          <multiplier>	320	</multiplier>
         </animation>
         <animation>
-          <time>1.0</time>
-          <color>0 0 0 0</color>
-          <multiplier>5</multiplier>
+          <time>	1.0	</time>
+          <color>	0 0 0 0	</color>
+          <multiplier>	97	</multiplier>
         </animation>
       </light>
       <shotSound>
@@ -1212,7 +1327,7 @@
         <innerRadius>1.61</innerRadius>
         <outerRadius>10</outerRadius>
         <castShadows>false</castShadows>
-        <position>HP_gunFire_L</position>
+        <position>HP_gunFire_R</position>
         <animation>
           <time>0.0</time>
           <color>255 20 0</color>
@@ -1295,7 +1410,7 @@
   
   <shot_largeext_immortal_gun>
     <timeline>
-      <lighting2>0.09</lighting2>
+      <lighting2>0.6</lighting2>
       <end>0.5</end>
       <endpixie>2</endpixie>
       <soundplaystop>9</soundplaystop>
@@ -1309,31 +1424,31 @@
         <position>HP_gunFire</position>
       </pixie>
       <light>
-        <startKey>start</startKey>
-        <endKey>lighting2</endKey>
-        <innerRadius>1.5</innerRadius>
-        <outerRadius>8</outerRadius>
-        <castShadows>false</castShadows>
-        <position>HP_gunFire</position>
+        <startKey>	start	</startKey>
+        <endKey>	lighting2	</endKey>
+        <innerRadius>	5	</innerRadius>
+        <outerRadius>	45	</outerRadius>
+        <castShadows>	false	</castShadows>
+        <position>	HP_gunFire	</position>
         <animation>
-          <time>0.0</time>
-          <color>255 150 0</color>
-          <multiplier>20</multiplier>
+          <time>	0.0	</time>
+          <color>	255 25 0	</color>
+          <multiplier>	255	</multiplier>
         </animation>
         <animation>
-          <time>0.15</time>
-          <color>255 200 100</color>
-          <multiplier>25</multiplier>
+          <time>	0.25	</time>
+          <color>	255 34 0	</color>
+          <multiplier>	420	</multiplier>
         </animation>
         <animation>
-          <time>0.65</time>
-          <color>170 65 25</color>
-          <multiplier>15</multiplier>
+          <time>	0.75	</time>
+          <color>	170 12 0	</color>
+          <multiplier>	320	</multiplier>
         </animation>
         <animation>
-          <time>1.0</time>
-          <color>0 0 0 0</color>
-          <multiplier>5</multiplier>
+          <time>	1.0	</time>
+          <color>	0 0 0 0	</color>
+          <multiplier>	97	</multiplier>
         </animation>
       </light>
       <shotSound>
@@ -1403,7 +1518,7 @@
   </shot_largeext_immortal_gun>
   <shot_largeext_immortal_gun_dual_L>
     <timeline>
-      <lighting2>0.09</lighting2>
+      <lighting2>0.6</lighting2>
       <end>0.5</end>
       <endpixie>2</endpixie>
       <soundplaystop>9</soundplaystop>
@@ -1417,31 +1532,31 @@
         <position>HP_gunFire_L</position>
       </pixie>
       <light>
-        <startKey>start</startKey>
-        <endKey>lighting2</endKey>
-        <innerRadius>1.5</innerRadius>
-        <outerRadius>8</outerRadius>
-        <castShadows>false</castShadows>
-        <position>HP_gunFire_R</position>
+        <startKey>	start	</startKey>
+        <endKey>	lighting2	</endKey>
+        <innerRadius>	5	</innerRadius>
+        <outerRadius>	45	</outerRadius>
+        <castShadows>	false	</castShadows>
+        <position>	HP_gunFire_L	</position>
         <animation>
-          <time>0.0</time>
-          <color>255 150 0</color>
-          <multiplier>20</multiplier>
+          <time>	0.0	</time>
+          <color>	255 25 0	</color>
+          <multiplier>	255	</multiplier>
         </animation>
         <animation>
-          <time>0.15</time>
-          <color>255 200 100</color>
-          <multiplier>25</multiplier>
+          <time>	0.25	</time>
+          <color>	255 34 0	</color>
+          <multiplier>	420	</multiplier>
         </animation>
         <animation>
-          <time>0.65</time>
-          <color>170 65 25</color>
-          <multiplier>15</multiplier>
+          <time>	0.75	</time>
+          <color>	170 12 0	</color>
+          <multiplier>	320	</multiplier>
         </animation>
         <animation>
-          <time>1.0</time>
-          <color>0 0 0 0</color>
-          <multiplier>5</multiplier>
+          <time>	1.0	</time>
+          <color>	0 0 0 0	</color>
+          <multiplier>	97	</multiplier>
         </animation>
       </light>
       <shotSound>
@@ -1511,7 +1626,7 @@
   </shot_largeext_immortal_gun_dual_L>
   <shot_largeext_immortal_gun_dual_R>
     <timeline>
-      <lighting2>0.09</lighting2>
+      <lighting2>0.6</lighting2>
       <end>0.5</end>
       <endpixie>2</endpixie>
       <soundplaystop>9</soundplaystop>
@@ -1525,31 +1640,31 @@
         <position>HP_gunFire_R</position>
       </pixie>
       <light>
-        <startKey>start</startKey>
-        <endKey>lighting2</endKey>
-        <innerRadius>1.5</innerRadius>
-        <outerRadius>8</outerRadius>
-        <castShadows>false</castShadows>
-        <position>HP_gunFire_R</position>
+        <startKey>	start	</startKey>
+        <endKey>	lighting2	</endKey>
+        <innerRadius>	5	</innerRadius>
+        <outerRadius>	45	</outerRadius>
+        <castShadows>	false	</castShadows>
+        <position>	HP_gunFire_R	</position>
         <animation>
-          <time>0.0</time>
-          <color>255 150 0</color>
-          <multiplier>20</multiplier>
+          <time>	0.0	</time>
+          <color>	255 25 0	</color>
+          <multiplier>	255	</multiplier>
         </animation>
         <animation>
-          <time>0.15</time>
-          <color>255 200 100</color>
-          <multiplier>25</multiplier>
+          <time>	0.25	</time>
+          <color>	255 34 0	</color>
+          <multiplier>	420	</multiplier>
         </animation>
         <animation>
-          <time>0.65</time>
-          <color>170 65 25</color>
-          <multiplier>15</multiplier>
+          <time>	0.75	</time>
+          <color>	170 12 0	</color>
+          <multiplier>	320	</multiplier>
         </animation>
         <animation>
-          <time>1.0</time>
-          <color>0 0 0 0</color>
-          <multiplier>5</multiplier>
+          <time>	1.0	</time>
+          <color>	0 0 0 0	</color>
+          <multiplier>	97	</multiplier>
         </animation>
       </light>
       <shotSound>

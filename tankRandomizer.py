@@ -165,26 +165,86 @@ class TankRandomizer:
         # for thread in threads:
         #     thread.join()
 
-    def randomize(self):
+    def copyEmblemData(self, old, new):
+        try:
+            old.find("rayStart").text = new.find("rayStart").text
+            old.find("rayEnd").text = new.find("rayEnd").text
+            old.find("rayUp").text = new.find("rayUp").text
+            old.find("size").text = new.find("size").text
+            old.find("hideIfDamaged").text = new.find("hideIfDamaged").text
+            old.find("isUVProportional").text = new.find("isUVProportional").text
+        except:
+            pass
 
-        count = len(self.tanks)
+    def copyProjectionDecalData(self, old, new):
+        try:
+            old.find("position").text = new.find("position").text
+            old.find("rotation").text = new.find("rotation").text
+            old.find("scale").text = new.find("scale").text
+            old.find("doubleSided").text = new.find("doubleSided").text
+            old.find("clipAngle").text = new.find("clipAngle").text
+            old.find("anchorShift").text = new.find("anchorShift").text
+        except:
+            pass
+
+    # i'm not entirely proud of the code here..
+    def copy_customization(self, fromComp: Element, toComp: Element):
+        slots_container_from = fromComp.find("customizationSlots")
+        slots_container_to = toComp.find("customizationSlots")
+
+        if slots_container_from is None or slots_container_to is None:
+            return None
+
+        clanEmblemNew = None
+        clanEmblemOld = None
+
+        for fromS in slots_container_from.findall("*"):
+            for toS in slots_container_to.findall("*"):
+
+                typeFrom = fromS.find("slotType").text
+                typeTo = toS.find("slotType").text
+                idFrom = fromS.find("slotId").text
+                idTo = toS.find("slotId").text
+
+                # print(f"Slot Type: {typeFrom} vs {typeTo}")
+
+                if idFrom == idTo and typeFrom == typeTo:
+                    if typeFrom == "player" or typeFrom == "inscription":
+                        self.copyEmblemData(typeTo, typeFrom)
+                    elif typeFrom == "projectionDecal":
+                        self.copyProjectionDecalData(typeTo, typeFrom)
+
+
+
+        for slot in slots_container_from.findall("*"):
+            type = slot.find("slotType")
+            if type == "clan":
+                clanEmblemNew = slot
+
+        for slot in slots_container_to.findall("*"):
+            type = slot.find("slotType")
+            if type == "clan":
+                clanEmblemOld = slot
+
+        if clanEmblemNew is not None and clanEmblemOld is not None:
+            self.copyEmblemData(clanEmblemOld, clanEmblemNew)
+
+        elif clanEmblemNew is not None:
+            slots_container_to.append(clanEmblemNew)
+
+        # xml.replace_element(toCustom, toComp)
+
+    def randomize(self):
+        iterate_tanks = [t for t in self.tanks if self.conf.addonsPath not in str(t.path)]
+
+        count = len(iterate_tanks)
         current_tank = 0
 
-        for tank in self.tanks:
+        for tank in iterate_tanks:
             current_tank += 1
             percent = round(current_tank / count * 100, 1)
 
-            # skip this tank if it's an addon tank - we want these to be randomized and saved into the mod
-            # they're just there to provide more content and models
-            if self.conf.addonsPath in str(tank.path):
-                # for testing purposes
-                # print("Skipping tank because it's an addon tank: " + str(tank.path))
-                # time.sleep(2)
-
-                continue
-
             print(f"({percent}%) Randomizing tank: {str(tank.path)}")
-            tank_hull_model = tank.hull.find("models")
 
             chassis_count = len(tank.chassisList)
             turret_count = len(tank.turretList)
@@ -196,6 +256,8 @@ class TankRandomizer:
 
             random_hull_index = random.randrange(0, len(self.tankHullList))
             random_hull = self.tankHullList[random_hull_index]
+
+            # self.copy_customization(random_hull, tank.hull)
 
             random_chassis_list = []
             random_turret_list = []
@@ -264,6 +326,7 @@ class TankRandomizer:
                 self.tankRootXmlList.pop(random_hull_index)
 
             if self.conf.randomizeHulls:
+                _remove_and_replace("AODecals", random_hull, tank.hull)
                 xml.replace_element(random_hull.find("models"), tank.hull)
                 xml.replace_element(random_hull.find("swinging"), tank.hull)
                 xml.replace_element(random_hull.find("exhaust"), tank.hull)
@@ -328,6 +391,8 @@ class TankRandomizer:
                     _remove_and_replace("ceilless", random_turret, turret)
                     _remove_and_replace("wwturretRotatorSoundManual", random_turret, turret)
 
+                    # self.copy_customization(random_turret, turret)
+
             if self.conf.randomizeGuns:
                 for i in range(gun_count):
                     gun = tank.gunList[i]
@@ -336,19 +401,20 @@ class TankRandomizer:
                     xml.removeAllElementsByName("drivenJoints", gun)
                     xml.replace_element(random_gun.find("drivenJoints"), gun)
 
+                    # self.copy_customization(random_gun, gun)
+
                     is_dual_gun = configLoader.parse_bool(xml.IsDoubleGunTag, random_gun, False)
 
                     # gun effects randomization
                     if self.conf.randomizeGunEffects:
                         comp = self.guns.getGun(random_gun.tag)
-                        if self.conf.fullTankRandomizer:
+                        if self.conf.fullTankRandomizer and comp is not None:
                             # variable 'comp' is the gun from components/guns.xml
                             # variable 'gun' is one of the guns of the tank being currently randomized
-                            if comp is not None:
-                                xml.replace_element(comp.find("effects"), gun)
-                                xml.replace_element(comp.find("reloadEffect"), gun)
-                                xml.replace_element(comp.find("recoil"), gun)
-                                xml.replace_element(comp.find("impulse"), gun)
+                            xml.replace_element(comp.find("effects"), gun)
+                            xml.replace_element(comp.find("reloadEffect"), gun)
+                            xml.replace_element(comp.find("recoil"), gun)
+                            xml.replace_element(comp.find("impulse"), gun)
                         else:
                             if not is_dual_gun:
                                 effect_random_element = ET.Element("effects")

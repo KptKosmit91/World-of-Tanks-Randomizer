@@ -1,4 +1,6 @@
 from tankRandomizer import TankRandomizer
+from camouflageColorRandomizer import CamouflageRandomizer
+from paintColorRandomizer import PaintRandomizer
 from shellEffectsRandomizer import ShotEffectRandomizer
 from vehicleEffectsRandomizer import VehicleEffectRandomizer
 from audiowwManager import AudiowwManager
@@ -64,6 +66,12 @@ def symlink(inp, outp):
 
 
 def main():
+    print(f"=== KptKosmit91's World of Tanks Randomizer v{conf.randomizerversion} for WoT {conf.wotversion} ===")
+
+    sleep(2)
+
+    print("\n")
+
     ConfigLoader.load_config()
 
     if conf.seed == 0:
@@ -110,15 +118,30 @@ def main():
     # effect_randomizer.save()
     # print("Randomizing shell effects complete")
 
-    print("\nVehicle Effect Randomizer")
-    vehicle_randomizer = VehicleEffectRandomizer(seed, conf)
+    if conf.randomizePaints:
+        print("\nPaint randomizer")
+        paint_randomizer = PaintRandomizer(seed, conf)
 
-    print("Randomizing vehicle effects...")
-    vehicle_randomizer.randomize()
+        paint_randomizer.randomize()
+        print("Randomizing paints complete")
 
-    vehicle_randomizer.save()
-    print("Randomizing vehicle effects complete")
 
+    # if conf.randomizeCamos:
+    #     print("\nCamouflage randomizer")
+    #     camo_randomizer = CamouflageRandomizer(seed, conf)
+    #
+    #     camo_randomizer.randomize()
+    #     print("Randomizing camos complete")
+
+    if conf.randomizeVehicleEffects:
+        print("\nVehicle Effect Randomizer")
+        vehicle_effect_randomizer = VehicleEffectRandomizer(seed, conf)
+
+        print("Randomizing vehicle effects...")
+        vehicle_effect_randomizer.randomize()
+
+        vehicle_effect_randomizer.save()
+        print("Randomizing vehicle effects complete")
 
     audioww.create_audiomodsxml()
 
