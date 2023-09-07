@@ -70,6 +70,8 @@
         <value>	0.3	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedConfiguration	</archetype>
   </deluxImprovedConfiguration>
   <deluxImprovedVentilation>
     <id>	44	</id>
@@ -106,6 +108,8 @@
         <value>	1.085	</value>
       </mul>
     </kpi>
+    <tooltipSection>	crew_mastery	</tooltipSection>
+    <archetype>	improvedVentilation	</archetype>
   </deluxImprovedVentilation>
   <deluxRammer>
     <id>	45	</id>
@@ -142,6 +146,8 @@
         <value>	0.865	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	tankRammer	</archetype>
   </deluxRammer>
   <deluxCoatedOptics>
     <id>	46	</id>
@@ -170,6 +176,8 @@
         <value>	1.135	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	coatedOptics	</archetype>
   </deluxCoatedOptics>
   <deluxAimingStabilizer>
     <id>	47	</id>
@@ -206,6 +214,8 @@
         <value>	0.725	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	aimingStabilizer	</archetype>
   </deluxAimingStabilizer>
   <deluxEnhancedAimDrives>
     <id>	48	</id>
@@ -235,11 +245,14 @@
         <value>	1.135	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	enhancedAimDrives	</archetype>
   </deluxEnhancedAimDrives>
   <deluxeTurbocharger>
     <id>	111	</id>
     <userString>	#artefacts:deluxeTurbocharger/name	</userString>
     <longDescriptionSpecial>	#artefacts:deluxeTurbocharger/long_special	</longDescriptionSpecial>
+    <shortDescriptionSpecial>	#artefacts:deluxeTurbocharger/short_special	</shortDescriptionSpecial>
     <icon>	turbocharger	</icon>
     <price>	5000	  <crystal></crystal>
     </price>
@@ -253,7 +266,7 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
@@ -293,16 +306,18 @@
         <value>	4	</value>
       </add>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	turbocharger	</archetype>
   </deluxeTurbocharger>
   <deluxeExtraHealthReserve>
     <id>	112	</id>
     <userString>	#artefacts:deluxeExtraHealthReserve/name	</userString>
     <longDescriptionSpecial>	#artefacts:deluxeExtraHealthReserve/long_special	</longDescriptionSpecial>
+    <shortDescriptionSpecial>	#artefacts:deluxeExtraHealthReserve/short_special	</shortDescriptionSpecial>
     <icon>	extraHealthReserve	</icon>
-    <price>	5000	  <crystal></crystal>
+    <price>	6000	  <crystal></crystal>
     </price>
     <tags>	healthReserve deluxe	</tags>
-    <notInShop>	true	</notInShop>
     <incompatibleTags>
       <installed>	healthReserve	</installed>
     </incompatibleTags>
@@ -359,6 +374,8 @@
         <value>	0.25	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	extraHealthReserve	</archetype>
   </deluxeExtraHealthReserve>
   <deluxeImprovedRotationMechanism>
     <id>	117	</id>
@@ -414,6 +431,8 @@
         <value>	0.825	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedRotationMechanism	</archetype>
   </deluxeImprovedRotationMechanism>
   <trophyBasicAimDrives>
     <id>	50	</id>
@@ -434,7 +453,7 @@
         <factor>
           <attribute>	miscAttrs/gunAimingTimeFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.91	</valueByLevel>
+          <valueByLevel>	0.909	</valueByLevel>
         </factor>
       </factors>
       <upgradeInfo>
@@ -448,6 +467,8 @@
         <value>	1.1	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	enhancedAimDrives	</archetype>
   </trophyBasicAimDrives>
   <trophyUpgradedAimDrives>
     <id>	51	</id>
@@ -468,7 +489,7 @@
         <factor>
           <attribute>	miscAttrs/gunAimingTimeFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.89	</valueByLevel>
+          <valueByLevel>	0.889	</valueByLevel>
         </factor>
       </factors>
     </script>
@@ -478,6 +499,8 @@
         <value>	1.125	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	enhancedAimDrives	</archetype>
   </trophyUpgradedAimDrives>
   <trophyBasicTankRammer>
     <id>	52	</id>
@@ -519,6 +542,8 @@
         <value>	0.9	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	tankRammer	</archetype>
   </trophyBasicTankRammer>
   <trophyUpgradedTankRammer>
     <id>	53	</id>
@@ -556,6 +581,8 @@
         <value>	0.875	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	tankRammer	</archetype>
   </trophyUpgradedTankRammer>
   <trophyBasicImprovedVentilation>
     <id>	54	</id>
@@ -597,6 +624,8 @@
         <value>	1.05	</value>
       </mul>
     </kpi>
+    <tooltipSection>	crew_mastery	</tooltipSection>
+    <archetype>	improvedVentilation	</archetype>
   </trophyBasicImprovedVentilation>
   <trophyUpgradedImprovedVentilation>
     <id>	55	</id>
@@ -634,6 +663,8 @@
         <value>	1.075	</value>
       </mul>
     </kpi>
+    <tooltipSection>	crew_mastery	</tooltipSection>
+    <archetype>	improvedVentilation	</archetype>
   </trophyUpgradedImprovedVentilation>
   <trophyBasicAimingStabilizer>
     <id>	56	</id>
@@ -675,6 +706,8 @@
         <value>	0.8	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	aimingStabilizer	</archetype>
   </trophyBasicAimingStabilizer>
   <trophyUpgradedAimingStabilizer>
     <id>	57	</id>
@@ -712,6 +745,8 @@
         <value>	0.75	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	aimingStabilizer	</archetype>
   </trophyUpgradedAimingStabilizer>
   <trophyBasicCoatedOptics>
     <id>	58	</id>
@@ -745,6 +780,8 @@
         <value>	1.1	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	coatedOptics	</archetype>
   </trophyBasicCoatedOptics>
   <trophyUpgradedCoatedOptics>
     <id>	59	</id>
@@ -774,6 +811,8 @@
         <value>	1.125	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	coatedOptics	</archetype>
   </trophyUpgradedCoatedOptics>
   <trophyBasicImprovedConfiguration>
     <id>	105	</id>
@@ -850,6 +889,8 @@
         <value>	0.5	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedConfiguration	</archetype>
   </trophyBasicImprovedConfiguration>
   <trophyUpgradedImprovedConfiguration>
     <id>	106	</id>
@@ -922,6 +963,8 @@
         <value>	0.3	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedConfiguration	</archetype>
   </trophyUpgradedImprovedConfiguration>
   <trophyBasicImprovedRotationMechanism>
     <id>	107	</id>
@@ -981,6 +1024,8 @@
         <value>	0.9	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedRotationMechanism	</archetype>
   </trophyBasicImprovedRotationMechanism>
   <trophyUpgradedImprovedRotationMechanism>
     <id>	108	</id>
@@ -1036,6 +1081,8 @@
         <value>	0.85	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedRotationMechanism	</archetype>
   </trophyUpgradedImprovedRotationMechanism>
   <trophyBasicImprovedSights>
     <id>	109	</id>
@@ -1079,6 +1126,8 @@
         <value>	0.95	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedSights	</archetype>
   </trophyBasicImprovedSights>
   <trophyUpgradedImprovedSights>
     <id>	110	</id>
@@ -1118,6 +1167,8 @@
         <value>	0.92	</value>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedSights	</archetype>
   </trophyUpgradedImprovedSights>
   <trophyBasicAdditionalInvisibilityDevice>
     <id>	113	</id>
@@ -1162,6 +1213,8 @@
         </mul>
       </aggregateMul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	additionalInvisibilityDevice	</archetype>
   </trophyBasicAdditionalInvisibilityDevice>
   <trophyUpgradedAdditionalInvisibilityDevice>
     <id>	114	</id>
@@ -1202,6 +1255,8 @@
         </mul>
       </aggregateMul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	additionalInvisibilityDevice	</archetype>
   </trophyUpgradedAdditionalInvisibilityDevice>
   <trophyBasicTurbocharger>
     <id>	115	</id>
@@ -1220,7 +1275,7 @@
     <vehicleFilter>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
@@ -1261,6 +1316,8 @@
         <value>	2	</value>
       </add>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	turbocharger	</archetype>
   </trophyBasicTurbocharger>
   <trophyUpgradedTurbocharger>
     <id>	116	</id>
@@ -1279,7 +1336,7 @@
     <vehicleFilter>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
@@ -1316,7 +1373,151 @@
         <value>	3	</value>
       </add>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	turbocharger	</archetype>
   </trophyUpgradedTurbocharger>
+  <trophyBasicExtraHealthReserve>
+    <id>	118	</id>
+    <userString>	#artefacts:trophyBasicExtraHealthReserve/name	</userString>
+    <shortDescriptionSpecial>	#artefacts:trophyBasicExtraHealthReserve/short_special	</shortDescriptionSpecial>
+    <longDescriptionSpecial>	#artefacts:trophyBasicExtraHealthReserve/long_special	</longDescriptionSpecial>
+    <icon>	extraHealthReserve	</icon>
+    <price>	100000	</price>
+    <notInShop>	true	</notInShop>
+    <removable>	false	</removable>
+    <tags>	healthReserve trophyBasic	</tags>
+    <incompatibleTags>
+      <installed>	healthReserve	</installed>
+    </incompatibleTags>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <tags>	extraHealthReserve_class1_user extraHealthReserve_class2_user extraHealthReserve_class3_user	</tags>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>	UpgradableExtraHealthReserve	  <chassisMaxLoadFactor>	1.1	</chassisMaxLoadFactor>
+      <factors>
+        <factor>
+          <attribute>	miscAttrs/healthFactor	</attribute>
+          <type>	mul	</type>
+          <valueByLevel>	1.08	</valueByLevel>
+        </factor>
+        <factor>
+          <attribute>	miscAttrs/chassisHealthFactor	</attribute>
+          <type>	mul	</type>
+          <valueByLevel>	1.5	</valueByLevel>
+        </factor>
+        <factor>
+          <attribute>	miscAttrs/vehicleByChassisDamageFactor	</attribute>
+          <type>	mul	</type>
+          <valueByLevel>	0.5	</valueByLevel>
+        </factor>
+        <factor>
+          <attribute>	miscAttrs/chassisRepairSpeedFactor	</attribute>
+          <type>	mul	</type>
+          <valueByLevel>	1.15	</valueByLevel>
+        </factor>
+      </factors>
+      <upgradeInfo>
+        <upgradedCompDescr>	30713	</upgradedCompDescr>
+        <price>	3000000	</price>
+      </upgradeInfo>
+    </script>
+    <kpi>
+      <mul>
+        <name>	vehicleStrength	</name>
+        <value>	1.08	</value>
+      </mul>
+      <mul>
+        <name>	vehicleChassisStrength	</name>
+        <value>	1.5	</value>
+      </mul>
+      <mul>
+        <name>	vehicleChassisRepairSpeed	</name>
+        <value>	1.15	</value>
+      </mul>
+      <mul>
+        <name>	vehicleChassisLoad	</name>
+        <value>	1.1	</value>
+      </mul>
+      <mul>
+        <name>	vehicleChassisFallDamage	</name>
+        <value>	0.5	</value>
+      </mul>
+    </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	extraHealthReserve	</archetype>
+  </trophyBasicExtraHealthReserve>
+  <trophyUpgradedExtraHealthReserve>
+    <id>	119	</id>
+    <userString>	#artefacts:trophyUpgradedExtraHealthReserve/name	</userString>
+    <shortDescriptionSpecial>	#artefacts:trophyBasicExtraHealthReserve/short_special	</shortDescriptionSpecial>
+    <longDescriptionSpecial>	#artefacts:trophyBasicExtraHealthReserve/long_special	</longDescriptionSpecial>
+    <icon>	extraHealthReserve	</icon>
+    <price>	100000	</price>
+    <notInShop>	true	</notInShop>
+    <removable>	false	</removable>
+    <tags>	healthReserve trophyUpgraded	</tags>
+    <incompatibleTags>
+      <installed>	healthReserve	</installed>
+    </incompatibleTags>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <tags>	extraHealthReserve_class1_user extraHealthReserve_class2_user extraHealthReserve_class3_user	</tags>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>	UpgradedExtraHealthReserve	  <chassisMaxLoadFactor>	1.1	</chassisMaxLoadFactor>
+      <factors>
+        <factor>
+          <attribute>	miscAttrs/healthFactor	</attribute>
+          <type>	mul	</type>
+          <valueByLevel>	1.11	</valueByLevel>
+        </factor>
+        <factor>
+          <attribute>	miscAttrs/chassisHealthFactor	</attribute>
+          <type>	mul	</type>
+          <valueByLevel>	1.7	</valueByLevel>
+        </factor>
+        <factor>
+          <attribute>	miscAttrs/vehicleByChassisDamageFactor	</attribute>
+          <type>	mul	</type>
+          <valueByLevel>	0.3	</valueByLevel>
+        </factor>
+        <factor>
+          <attribute>	miscAttrs/chassisRepairSpeedFactor	</attribute>
+          <type>	mul	</type>
+          <valueByLevel>	1.25	</valueByLevel>
+        </factor>
+      </factors>
+    </script>
+    <kpi>
+      <mul>
+        <name>	vehicleStrength	</name>
+        <value>	1.11	</value>
+      </mul>
+      <mul>
+        <name>	vehicleChassisStrength	</name>
+        <value>	1.7	</value>
+      </mul>
+      <mul>
+        <name>	vehicleChassisRepairSpeed	</name>
+        <value>	1.25	</value>
+      </mul>
+      <mul>
+        <name>	vehicleChassisLoad	</name>
+        <value>	1.1	</value>
+      </mul>
+      <mul>
+        <name>	vehicleChassisFallDamage	</name>
+        <value>	0.3	</value>
+      </mul>
+    </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	extraHealthReserve	</archetype>
+  </trophyUpgradedExtraHealthReserve>
   <improvedConfiguration_tier2>
     <id>	61	</id>
     <userString>	#artefacts:improvedConfiguration_tier2/name	</userString>
@@ -1391,6 +1592,8 @@
         <specValue>	0.35	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedConfiguration	</archetype>
   </improvedConfiguration_tier2>
   <improvedConfiguration_tier1>
     <id>	62	</id>
@@ -1466,6 +1669,8 @@
         <specValue>	0.35	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedConfiguration	</archetype>
   </improvedConfiguration_tier1>
   <antifragmentationLining_tier4>
     <id>	63	</id>
@@ -1533,6 +1738,8 @@
         <specValue>	0.75	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	antifragmentationLining	</archetype>
   </antifragmentationLining_tier4>
   <antifragmentationLining_tier3>
     <id>	64	</id>
@@ -1600,6 +1807,8 @@
         <specValue>	0.75	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	antifragmentationLining	</archetype>
   </antifragmentationLining_tier3>
   <antifragmentationLining_tier2>
     <id>	65	</id>
@@ -1667,6 +1876,8 @@
         <specValue>	0.75	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	antifragmentationLining	</archetype>
   </antifragmentationLining_tier2>
   <antifragmentationLining_tier1>
     <id>	66	</id>
@@ -1734,6 +1945,8 @@
         <specValue>	0.75	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	antifragmentationLining	</archetype>
   </antifragmentationLining_tier1>
   <stereoscope_tier3>
     <id>	67	</id>
@@ -1757,7 +1970,7 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
@@ -1772,6 +1985,8 @@
         <specValue>	1.275	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	stereoscope	</archetype>
   </stereoscope_tier3>
   <stereoscope_tier2>
     <id>	68	</id>
@@ -1795,7 +2010,7 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
@@ -1810,6 +2025,8 @@
         <specValue>	1.275	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	stereoscope	</archetype>
   </stereoscope_tier2>
   <stereoscope_tier1>
     <id>	69	</id>
@@ -1833,7 +2050,7 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
@@ -1848,6 +2065,8 @@
         <specValue>	1.275	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	stereoscope	</archetype>
   </stereoscope_tier1>
   <coatedOptics_tier3>
     <id>	70	</id>
@@ -1884,6 +2103,8 @@
         <specValue>	1.115	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	coatedOptics	</archetype>
   </coatedOptics_tier3>
   <coatedOptics_tier2>
     <id>	71	</id>
@@ -1920,6 +2141,8 @@
         <specValue>	1.115	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	coatedOptics	</archetype>
   </coatedOptics_tier2>
   <coatedOptics_tier1>
     <id>	72	</id>
@@ -1956,6 +2179,8 @@
         <specValue>	1.115	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	coatedOptics	</archetype>
   </coatedOptics_tier1>
   <camouflageNet_tier3>
     <id>	73	</id>
@@ -2007,6 +2232,8 @@
         </mul>
       </aggregateMul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	camouflageNet	</archetype>
   </camouflageNet_tier3>
   <camouflageNet_tier2>
     <id>	74	</id>
@@ -2058,6 +2285,8 @@
         </mul>
       </aggregateMul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	camouflageNet	</archetype>
   </camouflageNet_tier2>
   <improvedVentilation_tier3>
     <id>	75	</id>
@@ -2094,6 +2323,8 @@
         <specValue>	1.060	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	crew_mastery	</tooltipSection>
+    <archetype>	improvedVentilation	</archetype>
   </improvedVentilation_tier3>
   <improvedVentilation_tier2>
     <id>	76	</id>
@@ -2130,6 +2361,8 @@
         <specValue>	1.06	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	crew_mastery	</tooltipSection>
+    <archetype>	improvedVentilation	</archetype>
   </improvedVentilation_tier2>
   <improvedVentilation_tier1>
     <id>	77	</id>
@@ -2166,6 +2399,8 @@
         <specValue>	1.06	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	crew_mastery	</tooltipSection>
+    <archetype>	improvedVentilation	</archetype>
   </improvedVentilation_tier1>
   <grousers_tier3>
     <id>	78	</id>
@@ -2210,6 +2445,8 @@
         <specValue>	1.15	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	grousers	</archetype>
   </grousers_tier3>
   <grousers_tier2>
     <id>	79	</id>
@@ -2254,6 +2491,8 @@
         <specValue>	1.15	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	grousers	</archetype>
   </grousers_tier2>
   <grousers_tier1>
     <id>	80	</id>
@@ -2298,6 +2537,8 @@
         <specValue>	1.15	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	grousers	</archetype>
   </grousers_tier1>
   <tankRammer_tier2>
     <id>	81	</id>
@@ -2334,6 +2575,8 @@
         <specValue>	0.885	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	tankRammer	</archetype>
   </tankRammer_tier2>
   <tankRammer_tier1>
     <id>	82	</id>
@@ -2370,6 +2613,8 @@
         <specValue>	0.885	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	tankRammer	</archetype>
   </tankRammer_tier1>
   <enhancedAimDrives_tier3>
     <id>	83	</id>
@@ -2407,6 +2652,8 @@
         <specValue>	1.115	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	enhancedAimDrives	</archetype>
   </enhancedAimDrives_tier3>
   <enhancedAimDrives_tier2>
     <id>	84	</id>
@@ -2444,6 +2691,8 @@
         <specValue>	1.115	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	enhancedAimDrives	</archetype>
   </enhancedAimDrives_tier2>
   <enhancedAimDrives_tier1>
     <id>	85	</id>
@@ -2481,6 +2730,8 @@
         <specValue>	1.115	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	enhancedAimDrives	</archetype>
   </enhancedAimDrives_tier1>
   <aimingStabilizer_tier2>
     <id>	86	</id>
@@ -2517,6 +2768,8 @@
         <specValue>	0.77	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	aimingStabilizer	</archetype>
   </aimingStabilizer_tier2>
   <aimingStabilizer_tier1>
     <id>	87	</id>
@@ -2553,6 +2806,8 @@
         <specValue>	0.77	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	aimingStabilizer	</archetype>
   </aimingStabilizer_tier1>
   <additionalInvisibilityDevice_tier3>
     <id>	88	</id>
@@ -2602,6 +2857,8 @@
         </mul>
       </aggregateMul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	additionalInvisibilityDevice	</archetype>
   </additionalInvisibilityDevice_tier3>
   <additionalInvisibilityDevice_tier2>
     <id>	89	</id>
@@ -2651,6 +2908,8 @@
         </mul>
       </aggregateMul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	additionalInvisibilityDevice	</archetype>
   </additionalInvisibilityDevice_tier2>
   <additionalInvisibilityDevice_tier1>
     <id>	90	</id>
@@ -2700,6 +2959,8 @@
         </mul>
       </aggregateMul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	additionalInvisibilityDevice	</archetype>
   </additionalInvisibilityDevice_tier1>
   <extraHealthReserve_tier3>
     <id>	91	</id>
@@ -2771,6 +3032,8 @@
         <specValue>	0.35	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	extraHealthReserve	</archetype>
   </extraHealthReserve_tier3>
   <extraHealthReserve_tier2>
     <id>	92	</id>
@@ -2842,6 +3105,8 @@
         <specValue>	0.35	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	extraHealthReserve	</archetype>
   </extraHealthReserve_tier2>
   <extraHealthReserve_tier1>
     <id>	93	</id>
@@ -2913,6 +3178,8 @@
         <specValue>	0.35	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	extraHealthReserve	</archetype>
   </extraHealthReserve_tier1>
   <improvedRadioCommunication>
     <id>	94	</id>
@@ -2958,6 +3225,8 @@
         <specValue>	-2.0	</specValue>
       </add>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedRadioCommunication	</archetype>
   </improvedRadioCommunication>
   <improvedRotationMechanism_tier2>
     <id>	95	</id>
@@ -3015,6 +3284,8 @@
         <specValue>	0.875	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedRotationMechanism	</archetype>
   </improvedRotationMechanism_tier2>
   <improvedRotationMechanism_tier1>
     <id>	96	</id>
@@ -3072,6 +3343,8 @@
         <specValue>	0.875	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedRotationMechanism	</archetype>
   </improvedRotationMechanism_tier1>
   <turbocharger_tier3>
     <id>	97	</id>
@@ -3094,7 +3367,7 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
@@ -3134,6 +3407,8 @@
         <specValue>	3	</specValue>
       </add>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	turbocharger	</archetype>
   </turbocharger_tier3>
   <turbocharger_tier2>
     <id>	98	</id>
@@ -3156,7 +3431,7 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
@@ -3196,6 +3471,8 @@
         <specValue>	3	</specValue>
       </add>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	turbocharger	</archetype>
   </turbocharger_tier2>
   <turbocharger_tier1>
     <id>	99	</id>
@@ -3218,7 +3495,7 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
@@ -3258,6 +3535,8 @@
         <specValue>	3	</specValue>
       </add>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	turbocharger	</archetype>
   </turbocharger_tier1>
   <commandersView>
     <id>	100	</id>
@@ -3303,6 +3582,8 @@
         <specValue>	0.875	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	commandersView	</archetype>
   </commandersView>
   <improvedSights_tier2>
     <id>	101	</id>
@@ -3341,6 +3622,8 @@
         <specValue>	0.93	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedSights	</archetype>
   </improvedSights_tier2>
   <improvedSights_tier1>
     <id>	102	</id>
@@ -3379,6 +3662,8 @@
         <specValue>	0.93	</specValue>
       </mul>
     </kpi>
+    <tooltipSection>	equipment	</tooltipSection>
+    <archetype>	improvedSights	</archetype>
   </improvedSights_tier1>
   <modernizedAimDrivesAimingStabilizer1>
     <id>	150	</id>
@@ -3407,7 +3692,7 @@
         <factor>
           <attribute>	miscAttrs/gunAimingTimeFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.935	</valueByLevel>
+          <valueByLevel>	0.943	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
@@ -3424,13 +3709,14 @@
     <kpi>
       <mul>
         <name>	vehicleGunAimSpeed	</name>
-        <value>	1.07	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
         <value>	0.93	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedAimDrivesAimingStabilizer	</archetype>
   </modernizedAimDrivesAimingStabilizer1>
   <modernizedAimDrivesAimingStabilizer2>
     <id>	151	</id>
@@ -3459,7 +3745,7 @@
         <factor>
           <attribute>	miscAttrs/gunAimingTimeFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.926	</valueByLevel>
+          <valueByLevel>	0.935	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
@@ -3476,13 +3762,14 @@
     <kpi>
       <mul>
         <name>	vehicleGunAimSpeed	</name>
-        <value>	1.08	</value>
+        <value>	1.07	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
         <value>	0.91	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedAimDrivesAimingStabilizer	</archetype>
   </modernizedAimDrivesAimingStabilizer2>
   <modernizedAimDrivesAimingStabilizer3>
     <id>	152	</id>
@@ -3516,7 +3803,7 @@
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.885	</valueByLevel>
+          <valueByLevel>	0.89	</valueByLevel>
         </factor>
       </factors>
     </script>
@@ -3527,9 +3814,10 @@
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
-        <value>	0.885	</value>
+        <value>	0.89	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedAimDrivesAimingStabilizer	</archetype>
   </modernizedAimDrivesAimingStabilizer3>
   <modernizedTurbochargerRotationMechanism1>
     <id>	153	</id>
@@ -3554,31 +3842,31 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
     <script>	UpgradableRotationMechanisms	  <weight>	100	</weight>
-      <trackRotateSpeedFactor>	1.05	</trackRotateSpeedFactor>
-      <wheelRotateSpeedFactor>	1.05	</wheelRotateSpeedFactor>
-      <wheelCenterRotationFwdSpeed>	1.05	</wheelCenterRotationFwdSpeed>
-      <trackMoveSpeedFactor>	1.05	</trackMoveSpeedFactor>
-      <wheelMoveSpeedFactor>	1.05	</wheelMoveSpeedFactor>
+      <trackRotateSpeedFactor>	1.04	</trackRotateSpeedFactor>
+      <wheelRotateSpeedFactor>	1.04	</wheelRotateSpeedFactor>
+      <wheelCenterRotationFwdSpeed>	1.04	</wheelCenterRotationFwdSpeed>
+      <trackMoveSpeedFactor>	1.04	</trackMoveSpeedFactor>
+      <wheelMoveSpeedFactor>	1.04	</wheelMoveSpeedFactor>
       <factors>
         <factor>
           <attribute>	miscAttrs/turretRotationSpeed	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.05	</valueByLevel>
+          <valueByLevel>	1.04	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.95	</valueByLevel>
+          <valueByLevel>	0.96	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/enginePowerFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.07	</valueByLevel>
+          <valueByLevel>	1.05	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/forwardMaxSpeedKMHTerm	</attribute>
@@ -3600,19 +3888,19 @@
     <kpi>
       <mul>
         <name>	vehicleEnginePower	</name>
-        <value>	1.07	</value>
+        <value>	1.05	</value>
       </mul>
       <mul>
         <name>	vehicleTurretOrCuttingRotationSpeed	</name>
-        <value>	1.05	</value>
+        <value>	1.04	</value>
       </mul>
       <mul>
         <name>	vehicleAllGroundRotationSpeed	</name>
-        <value>	1.05	</value>
+        <value>	1.04	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
-        <value>	0.95	</value>
+        <value>	0.96	</value>
       </mul>
       <add>
         <name>	vehicleForwardMaxSpeed	</name>
@@ -3623,6 +3911,7 @@
         <value>	2	</value>
       </add>
     </kpi>
+    <archetype>	modernizedTurbochargerRotationMechanism	</archetype>
   </modernizedTurbochargerRotationMechanism1>
   <modernizedTurbochargerRotationMechanism2>
     <id>	154	</id>
@@ -3647,31 +3936,31 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
     <script>	UpgradableRotationMechanisms	  <weight>	100	</weight>
-      <trackRotateSpeedFactor>	1.06	</trackRotateSpeedFactor>
-      <wheelRotateSpeedFactor>	1.06	</wheelRotateSpeedFactor>
-      <wheelCenterRotationFwdSpeed>	1.06	</wheelCenterRotationFwdSpeed>
-      <trackMoveSpeedFactor>	1.06	</trackMoveSpeedFactor>
-      <wheelMoveSpeedFactor>	1.06	</wheelMoveSpeedFactor>
+      <trackRotateSpeedFactor>	1.05	</trackRotateSpeedFactor>
+      <wheelRotateSpeedFactor>	1.05	</wheelRotateSpeedFactor>
+      <wheelCenterRotationFwdSpeed>	1.05	</wheelCenterRotationFwdSpeed>
+      <trackMoveSpeedFactor>	1.05	</trackMoveSpeedFactor>
+      <wheelMoveSpeedFactor>	1.05	</wheelMoveSpeedFactor>
       <factors>
         <factor>
           <attribute>	miscAttrs/turretRotationSpeed	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.06	</valueByLevel>
+          <valueByLevel>	1.05	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.94	</valueByLevel>
+          <valueByLevel>	0.95	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/enginePowerFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.08	</valueByLevel>
+          <valueByLevel>	1.06	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/forwardMaxSpeedKMHTerm	</attribute>
@@ -3693,19 +3982,19 @@
     <kpi>
       <mul>
         <name>	vehicleEnginePower	</name>
-        <value>	1.08	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleTurretOrCuttingRotationSpeed	</name>
-        <value>	1.06	</value>
+        <value>	1.05	</value>
       </mul>
       <mul>
         <name>	vehicleAllGroundRotationSpeed	</name>
-        <value>	1.06	</value>
+        <value>	1.05	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
-        <value>	0.94	</value>
+        <value>	0.95	</value>
       </mul>
       <add>
         <name>	vehicleForwardMaxSpeed	</name>
@@ -3716,6 +4005,7 @@
         <value>	3	</value>
       </add>
     </kpi>
+    <archetype>	modernizedTurbochargerRotationMechanism	</archetype>
   </modernizedTurbochargerRotationMechanism2>
   <modernizedTurbochargerRotationMechanism3>
     <id>	155	</id>
@@ -3740,31 +4030,31 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
     <script>	UpgradedRotationMechanisms	  <weight>	100	</weight>
-      <trackRotateSpeedFactor>	1.08	</trackRotateSpeedFactor>
-      <wheelRotateSpeedFactor>	1.08	</wheelRotateSpeedFactor>
-      <wheelCenterRotationFwdSpeed>	1.08	</wheelCenterRotationFwdSpeed>
-      <trackMoveSpeedFactor>	1.08	</trackMoveSpeedFactor>
-      <wheelMoveSpeedFactor>	1.08	</wheelMoveSpeedFactor>
+      <trackRotateSpeedFactor>	1.06	</trackRotateSpeedFactor>
+      <wheelRotateSpeedFactor>	1.06	</wheelRotateSpeedFactor>
+      <wheelCenterRotationFwdSpeed>	1.06	</wheelCenterRotationFwdSpeed>
+      <trackMoveSpeedFactor>	1.06	</trackMoveSpeedFactor>
+      <wheelMoveSpeedFactor>	1.06	</wheelMoveSpeedFactor>
       <factors>
         <factor>
           <attribute>	miscAttrs/turretRotationSpeed	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.08	</valueByLevel>
+          <valueByLevel>	1.06	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.92	</valueByLevel>
+          <valueByLevel>	0.94	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/enginePowerFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.1	</valueByLevel>
+          <valueByLevel>	1.08	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/forwardMaxSpeedKMHTerm	</attribute>
@@ -3781,19 +4071,19 @@
     <kpi>
       <mul>
         <name>	vehicleEnginePower	</name>
-        <value>	1.1	</value>
+        <value>	1.08	</value>
       </mul>
       <mul>
         <name>	vehicleTurretOrCuttingRotationSpeed	</name>
-        <value>	1.08	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleAllGroundRotationSpeed	</name>
-        <value>	1.08	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
-        <value>	0.92	</value>
+        <value>	0.94	</value>
       </mul>
       <add>
         <name>	vehicleForwardMaxSpeed	</name>
@@ -3804,6 +4094,7 @@
         <value>	3	</value>
       </add>
     </kpi>
+    <archetype>	modernizedTurbochargerRotationMechanism	</archetype>
   </modernizedTurbochargerRotationMechanism3>
   <modernizedExtraHealthReserveAntifragmentationLining1>
     <id>	156	</id>
@@ -3833,12 +4124,12 @@
         <factor>
           <attribute>	miscAttrs/healthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.09	</valueByLevel>
+          <valueByLevel>	1.06	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.4	</valueByLevel>
+          <valueByLevel>	1.3	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisRepairSpeedFactor	</attribute>
@@ -3848,17 +4139,17 @@
         <factor>
           <attribute>	miscAttrs/ammoBayHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.6	</valueByLevel>
+          <valueByLevel>	1.5	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/fuelTankHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.6	</valueByLevel>
+          <valueByLevel>	1.5	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/engineHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.6	</valueByLevel>
+          <valueByLevel>	1.5	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/engineReduceFineFactor	</attribute>
@@ -3880,15 +4171,15 @@
     <kpi>
       <mul>
         <name>	vehicleStrength	</name>
-        <value>	1.09	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleAmmoBayEngineFuelStrength	</name>
-        <value>	1.6	</value>
+        <value>	1.5	</value>
       </mul>
       <mul>
         <name>	vehicleChassisStrength	</name>
-        <value>	1.4	</value>
+        <value>	1.3	</value>
       </mul>
       <mul>
         <name>	vehicleChassisRepairSpeed	</name>
@@ -3899,6 +4190,7 @@
         <value>	0.7	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedExtraHealthReserveAntifragmentationLining	</archetype>
   </modernizedExtraHealthReserveAntifragmentationLining1>
   <modernizedExtraHealthReserveAntifragmentationLining2>
     <id>	157	</id>
@@ -3928,12 +4220,12 @@
         <factor>
           <attribute>	miscAttrs/healthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.1	</valueByLevel>
+          <valueByLevel>	1.07	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.5	</valueByLevel>
+          <valueByLevel>	1.4	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisRepairSpeedFactor	</attribute>
@@ -3943,17 +4235,17 @@
         <factor>
           <attribute>	miscAttrs/ammoBayHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.8	</valueByLevel>
+          <valueByLevel>	1.7	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/fuelTankHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.8	</valueByLevel>
+          <valueByLevel>	1.7	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/engineHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.8	</valueByLevel>
+          <valueByLevel>	1.7	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/engineReduceFineFactor	</attribute>
@@ -3975,15 +4267,15 @@
     <kpi>
       <mul>
         <name>	vehicleStrength	</name>
-        <value>	1.1	</value>
+        <value>	1.07	</value>
       </mul>
       <mul>
         <name>	vehicleAmmoBayEngineFuelStrength	</name>
-        <value>	1.8	</value>
+        <value>	1.7	</value>
       </mul>
       <mul>
         <name>	vehicleChassisStrength	</name>
-        <value>	1.5	</value>
+        <value>	1.4	</value>
       </mul>
       <mul>
         <name>	vehicleChassisRepairSpeed	</name>
@@ -3994,6 +4286,7 @@
         <value>	0.6	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedExtraHealthReserveAntifragmentationLining	</archetype>
   </modernizedExtraHealthReserveAntifragmentationLining2>
   <modernizedExtraHealthReserveAntifragmentationLining3>
     <id>	158	</id>
@@ -4023,17 +4316,17 @@
         <factor>
           <attribute>	miscAttrs/healthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.115	</valueByLevel>
+          <valueByLevel>	1.09	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.7	</valueByLevel>
+          <valueByLevel>	1.5	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisRepairSpeedFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.25	</valueByLevel>
+          <valueByLevel>	1.2	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/ammoBayHealthFactor	</attribute>
@@ -4065,7 +4358,7 @@
     <kpi>
       <mul>
         <name>	vehicleStrength	</name>
-        <value>	1.115	</value>
+        <value>	1.09	</value>
       </mul>
       <mul>
         <name>	vehicleAmmoBayEngineFuelStrength	</name>
@@ -4073,16 +4366,17 @@
       </mul>
       <mul>
         <name>	vehicleChassisStrength	</name>
-        <value>	1.7	</value>
+        <value>	1.5	</value>
       </mul>
       <mul>
         <name>	vehicleChassisRepairSpeed	</name>
-        <value>	1.25	</value>
+        <value>	1.2	</value>
       </mul>
       <mul>
         <name>	vehPenaltyForDamageEngineAndCombat	</name>
         <value>	0.5	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedExtraHealthReserveAntifragmentationLining	</archetype>
   </modernizedExtraHealthReserveAntifragmentationLining3>
 </optional_devices.xml>

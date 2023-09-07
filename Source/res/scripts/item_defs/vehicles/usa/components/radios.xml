@@ -27,8 +27,6 @@
     <AN_PRC_25>	62	</AN_PRC_25>
     <AN_GRC_8>	63	</AN_GRC_8>
     <AN_PRC_8>	65	</AN_PRC_8>
-    <Alarm_flags_bot>	68	</Alarm_flags_bot>
-    <SCR_200_bot>	69	</SCR_200_bot>
     <AN_VRC_12A>	70	</AN_VRC_12A>
     <SCR_610_ID>	71	</SCR_610_ID>
     <FuG_7_Ausf_F>	72	</FuG_7_Ausf_F>
@@ -37,6 +35,8 @@
     <AN_VRC-3_cl>	75	</AN_VRC-3_cl>
     <T23radio>	1000	</T23radio>
     <SCR_528_M>	76	</SCR_528_M>
+    <AN_VRC_12>	77	</AN_VRC_12>
+    <AN_GRC_7A>	80	</AN_GRC_7A>
     <AN-ARC-27_IGR>	60001	</AN-ARC-27_IGR>
     <SCR_619_IGR>	60002	</SCR_619_IGR>
     <SCR_528A1_IGR>	60003	</SCR_528A1_IGR>
@@ -48,26 +48,17 @@
     <AN-VRC-7_SH>	316	</AN-VRC-7_SH>
     <AN-VRC-7_7x7>	501	</AN-VRC-7_7x7>
     <AN-ARC-27_FL>	502	</AN-ARC-27_FL>
-    <SCR_200_bootcamp>	64001	</SCR_200_bootcamp>
+    <AN_VRC-3_7x7>	503	</AN_VRC-3_7x7>
     <SCR_508_bootcamp>	64002	</SCR_508_bootcamp>
     <Development_Radio>	65535	</Development_Radio>
     <SCR_506_MapsTraining_Dummy_MT_1>	6	</SCR_506_MapsTraining_Dummy_MT_1>
     <SCR_508_1_MapsTraining_Player_HT_1>	20	</SCR_508_1_MapsTraining_Player_HT_1>
     <SCR_528_MapsTraining_Dummy_LT_2>	22	</SCR_528_MapsTraining_Dummy_LT_2>
+    <SCR_619_NewOnBoarding>	64005	</SCR_619_NewOnBoarding>
+    <SCR_506_NewOnBoarding>	64006	</SCR_506_NewOnBoarding>
+    <SCR_508_1_NewOnBoarding>	64007	</SCR_508_1_NewOnBoarding>
   </ids>
   <shared>
-    <Alarm_flags_bot>
-      <userString>	#usa_vehicles:Alarm_flags_bot	</userString>
-      <tags></tags>
-      <level>	1	</level>
-      <price>	0	</price>
-      <notInShop>	true	</notInShop>
-      <weight>	1	</weight>
-      <distance>	90	</distance>
-      <maxHealth>	90	</maxHealth>
-      <maxRegenHealth>	75	</maxRegenHealth>
-      <repairCost>	0	</repairCost>
-    </Alarm_flags_bot>
     <SCR_200>
       <userString>	#usa_vehicles:SCR_200	</userString>
       <tags></tags>
@@ -79,30 +70,6 @@
       <maxRegenHealth>	49	</maxRegenHealth>
       <repairCost>	0.5	</repairCost>
     </SCR_200>
-    <SCR_200_bootcamp>
-      <userString>	#usa_vehicles:SCR_200	</userString>
-      <tags></tags>
-      <level>	2	</level>
-      <price>	0	</price>
-      <notInShop>	true	</notInShop>
-      <weight>	40	</weight>
-      <distance>	265	</distance>
-      <maxHealth>	100	</maxHealth>
-      <maxRegenHealth>	49	</maxRegenHealth>
-      <repairCost>	0.5	</repairCost>
-    </SCR_200_bootcamp>
-    <SCR_200_bot>
-      <userString>	#usa_vehicles:SCR_200_bot	</userString>
-      <tags></tags>
-      <level>	2	</level>
-      <price>	180	</price>
-      <notInShop>	true	</notInShop>
-      <weight>	40	</weight>
-      <distance>	265	</distance>
-      <maxHealth>	100	</maxHealth>
-      <maxRegenHealth>	49	</maxRegenHealth>
-      <repairCost>	0.5	</repairCost>
-    </SCR_200_bot>
     <SCR_200A>
       <userString>	#usa_vehicles:SCR_200A	</userString>
       <tags></tags>
@@ -290,6 +257,18 @@
       <maxRegenHealth>	75	</maxRegenHealth>
       <repairCost>	3.5	</repairCost>
     </AN_VRC-3_cl>
+    <AN_VRC-3_7x7>
+      <userString>	#usa_vehicles:AN_VRC-3	</userString>
+      <tags></tags>
+      <level>	10	</level>
+      <notInShop>	true	</notInShop>
+      <price>	51600	</price>
+      <weight>	160	</weight>
+      <distance>	745	</distance>
+      <maxHealth>	250	</maxHealth>
+      <maxRegenHealth>	75	</maxRegenHealth>
+      <repairCost>	3.5	</repairCost>
+    </AN_VRC-3_7x7>
     <AN_VRC-24>
       <userString>	#usa_vehicles:AN_VRC-24	</userString>
       <tags></tags>
@@ -405,6 +384,18 @@
       <maxRegenHealth>	150	</maxRegenHealth>
       <repairCost>	3	</repairCost>
     </AN-ARC-27>
+    <AN_GRC_7A>
+      <userString>	#usa_vehicles:AN_GRC_7A	</userString>
+      <tags></tags>
+      <level>	10	</level>
+      <price>	54000	</price>
+      <notInShop>	true	</notInShop>
+      <weight>	120	</weight>
+      <distance>	745	</distance>
+      <maxHealth>	200	</maxHealth>
+      <maxRegenHealth>	150	</maxRegenHealth>
+      <repairCost>	3	</repairCost>
+    </AN_GRC_7A>
     <AN-ARC-27_FL>
       <userString>	#usa_vehicles:AN-ARC-27	</userString>
       <tags></tags>
@@ -465,6 +456,18 @@
       <maxRegenHealth>	108	</maxRegenHealth>
       <repairCost>	3.5	</repairCost>
     </AN-VRC-12>
+    <AN_VRC_12>
+      <userString>	#usa_vehicles:AN_VRC_12	</userString>
+      <tags></tags>
+      <level>	10	</level>
+      <price>	54000	</price>
+      <notInShop>	true	</notInShop>
+      <weight>	70	</weight>
+      <distance>	750	</distance>
+      <maxHealth>	180	</maxHealth>
+      <maxRegenHealth>	108	</maxRegenHealth>
+      <repairCost>	3.5	</repairCost>
+    </AN_VRC_12>
     <AN_PRC_8>
       <userString>	#usa_vehicles:AN_PRC_8	</userString>
       <tags></tags>
@@ -644,7 +647,7 @@
       <maxHealth>	200	</maxHealth>
       <maxRegenHealth>	150	</maxRegenHealth>
       <repairCost>	0	</repairCost>
-      <radarRadius>	300	</radarRadius>
+      <radarRadius>	290	</radarRadius>
       <radarCooldown>	20	</radarCooldown>
     </SCR_528_SH>
     <AN-VRC-7_SH>
@@ -658,7 +661,7 @@
       <maxHealth>	200	</maxHealth>
       <maxRegenHealth>	150	</maxRegenHealth>
       <repairCost>	0	</repairCost>
-      <radarRadius>	500	</radarRadius>
+      <radarRadius>	510	</radarRadius>
       <radarCooldown>	30	</radarCooldown>
     </AN-VRC-7_SH>
     <SCR_506_MapsTraining_Dummy_MT_1>
@@ -698,5 +701,44 @@
       <repairCost>	3	</repairCost>
       <notInShop>	True	</notInShop>
     </SCR_528_MapsTraining_Dummy_LT_2>
+    <SCR_619_NewOnBoarding>
+      <userString>	#usa_vehicles:SCR_619	</userString>
+      <tags></tags>
+      <level>	10	</level>
+      <price>	54000	</price>
+      <weight>	80	</weight>
+      <distance>	750	</distance>
+      <maxHealth>	200	</maxHealth>
+      <maxRegenHealth>	150	</maxRegenHealth>
+      <repairCost>	3	</repairCost>
+      <invulnerable>	True	</invulnerable>
+      <notInShop>	True	</notInShop>
+    </SCR_619_NewOnBoarding>
+    <SCR_506_NewOnBoarding>
+      <userString>	#usa_vehicles:SCR_506	</userString>
+      <tags></tags>
+      <level>	9	</level>
+      <price>	33600	</price>
+      <weight>	110	</weight>
+      <distance>	615	</distance>
+      <maxHealth>	200	</maxHealth>
+      <maxRegenHealth>	150	</maxRegenHealth>
+      <repairCost>	3	</repairCost>
+      <invulnerable>	True	</invulnerable>
+      <notInShop>	True	</notInShop>
+    </SCR_506_NewOnBoarding>
+    <SCR_508_1_NewOnBoarding>
+      <userString>	#usa_vehicles:SCR_508_1	</userString>
+      <tags></tags>
+      <invulnerable>	True	</invulnerable>
+      <notInShop>	true	</notInShop>
+      <level>	8	</level>
+      <price>	21600	</price>
+      <weight>	100	</weight>
+      <distance>	200	</distance>
+      <maxHealth>	200	</maxHealth>
+      <maxRegenHealth>	150	</maxRegenHealth>
+      <repairCost>	3	</repairCost>
+    </SCR_508_1_NewOnBoarding>
   </shared>
 </radios.xml>

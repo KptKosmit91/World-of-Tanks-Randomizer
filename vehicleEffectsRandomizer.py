@@ -11,7 +11,7 @@ class VehicleEffectRandomizer:
     explNames = []
 
     def isValidExplosion(self, tag):
-        return "trackdestruction" not in tag and "empty" not in tag and ("explosion" in tag or "destruction" in tag or "crewdeath" in tag or "submersiondeath" in tag)
+        return "trackdestruction" not in tag and "empty" not in tag and ("explosion" in tag or "destruction" in tag or "crewdeath" in tag or "submersiondeath" in tag or "instantexplosion" in tag or "burnoff" in tag)
 
     def __init__(self, seed: int, config: Config):
         random.seed(seed)
@@ -34,7 +34,7 @@ class VehicleEffectRandomizer:
             num += 1
 
             percent = round(num / num_max * 100, 1)
-            print(f"({percent}%) Randomizing vehicle effect: {e.tag}")
+            print(f"({percent}%) Randomizing vehicle explosion effect: {e.tag}")
 
             idx = xml.getRandomListIndex(self.explNames, random)
             e.tag = self.explNames[idx]

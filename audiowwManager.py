@@ -73,13 +73,10 @@ class AudiowwManager:
         "vo_dp_platoon_dismissed",
         "vo_dp_platoon_joined",
         "vo_dp_player_joined_platoon",
-        "vo_flt_ready_for_action",
-        "vo_flt_repair",
+
         "vo_eb_promotion_received",
         "vo_eb_retreat_successful",
         "vo_eb_support_inspire",
-
-
         "vo_eb_zone_captured_ally_other_A",
         "vo_eb_zone_captured_ally_other_B",
         "vo_eb_zone_captured_ally_other_C",
@@ -282,7 +279,9 @@ class AudiowwManager:
     conf: Config = None
 
     bankFilePaths: list[str] = []
-    bankFileNames: list[str] = ["epic_battle_voiceover.bnk"]
+    bankFileNames: list[str] = []
+
+    bankFileNamesAdditional: list[str] = ["epic_battle_voiceover.bnk"]
 
     events_section: ET.Element
 
@@ -314,7 +313,9 @@ class AudiowwManager:
 
         load_banks_section = root.find("loadBanks")
 
-        for bank in self.bankFileNames:
+        all_file_names = self.bankFileNamesAdditional + self.bankFileNames
+
+        for bank in all_file_names:
             element = ET.Element("bank")
 
             name = ET.Element("name")

@@ -58,12 +58,15 @@ class Tank:
                     add_to_randomizer_list = True
                     break
 
-        if add_to_randomizer_list and not is_wheeled:
-            TankRandomizer.tankRootXmlList.append(deepcopy(root))
-            TankRandomizer.tankHullList.append(deepcopy(self.hull))
+        # if add_to_randomizer_list and not is_wheeled:
+        if add_to_randomizer_list:
 
-            for chassis in self.chassisList:
-                TankRandomizer.tankChassisList.append(deepcopy(chassis))
+            if not is_wheeled:
+                TankRandomizer.tankRootXmlList.append(deepcopy(root))
+                TankRandomizer.tankHullList.append(deepcopy(self.hull))
+
+                for chassis in self.chassisList:
+                    TankRandomizer.tankChassisList.append(deepcopy(chassis))
 
             for turret in self.turretList:
                 TankRandomizer.tankTurretList.append(deepcopy(turret))
@@ -331,6 +334,7 @@ class TankRandomizer:
                 xml.replace_element(random_hull.find("swinging"), tank.hull)
                 xml.replace_element(random_hull.find("exhaust"), tank.hull)
                 xml.replace_element(random_hull.find("turretPositions"), tank.hull)
+                xml.replace_element(random_hull.find("effects"), tank.hull)
                 if xml.elementExists("turretPitches", random_hull):
                     xml.add_element(random_hull.find("turretPitches"), tank.hull)
 
@@ -381,6 +385,7 @@ class TankRandomizer:
                     _remove_and_replace("physicalTracks", random_chassis, chassis)
                     _remove_and_replace("leveredSuspension", random_chassis, chassis)
                     _remove_and_replace("topRightCarryingPoint", random_chassis, chassis)
+                    _remove_and_replace("hullPosition", random_chassis, chassis)
 
             if self.conf.randomizeTurrets:
                 for i in range(turret_count):

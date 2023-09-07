@@ -52,8 +52,24 @@ def getTankFilePaths():
 
     return tanks
 
+def getCustomizationFilePaths():
+    files = []
+    folder = conf.customizationPath
+
+    # KK91: this code is stupid, i'm not gonna lie
+    if os.path.exists(folder):
+        for n in os.listdir(folder):
+            if n.endswith(".xml"):
+                files.append(folder + n)
+            else:
+                for n2 in os.listdir(folder + n):
+                    if n2.endswith(".xml"):
+                        files.append(folder + n + "/" + n2)
+
+    return files
+
 def work(tank):
-    print(tank)
+    print(f"Post-processing {tank}")
     tree = ET.parse(tank)
     root = tree.getroot()
 
@@ -78,9 +94,17 @@ def work(tank):
 
     newtree.write(tank)
 
+
+print("Running Randomizer XML fixer")
+
+print("\nWill fix tank XMLs. This may take a while")
+
 tanks = getTankFilePaths()
 
+print("Start Pre-processing")
 for t in tanks:
+    print(f"Pre-processing {t}")
+
     f = open(t, "r")
     text=f.read()
     text = text.replace("	","").replace("<xmlns:xmlref>http://bwt/xmlref</xmlns:xmlref>","")
@@ -91,5 +115,28 @@ for t in tanks:
     f.write(text)
     f.close()
 
+
+print("\nStart Post-processing")
+
 for t in tanks:
     work(t)
+
+customization = getCustomizationFilePaths()
+
+
+print("\nStart Fixing Customization files")
+
+for t in customization:
+    print(f"Fixing Customization file {t}")
+
+    f = open(t, "r")
+    text = f.read()
+    text = text.replace("	", "").replace("<xmlns:xmlref>http://bwt/xmlref</xmlns:xmlref>", "")
+
+    f.close()
+
+    f = open(t, "w")
+    f.write(text)
+    f.close()
+
+print("\nFixing files complete")

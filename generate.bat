@@ -1,4 +1,4 @@
 @echo off
-python randomizer.py
+python randomizerMain.py
 
 pause

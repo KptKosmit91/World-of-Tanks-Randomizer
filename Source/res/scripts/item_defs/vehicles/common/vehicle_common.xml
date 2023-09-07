@@ -106,15 +106,14 @@
     <improvedSightsBattleBooster>	NoneExtra : BattleBoosterForOptionalDevice	</improvedSightsBattleBooster>
     <additInvisibilityDeviceBattleBooster>	NoneExtra : BattleBoosterForOptionalDevice	</additInvisibilityDeviceBattleBooster>
     <camouflageBattleBooster>	NoneExtra : BattleBoosterForCrewSkill	</camouflageBattleBooster>
-    <smoothTurretBattleBooster>	NoneExtra : BattleBoosterForCrewSkill	</smoothTurretBattleBooster>
-    <virtuosoBattleBooster>	NoneExtra : BattleBoosterForCrewSkill	</virtuosoBattleBooster>
-    <smoothDrivingBattleBooster>	NoneExtra : BattleBoosterForCrewSkill	</smoothDrivingBattleBooster>
+    <smoothTurretBattleBooster>	NoneExtra : BattleBoosterForPerk	</smoothTurretBattleBooster>
+    <virtuosoBattleBooster>	NoneExtra : BattleBoosterForPerk	</virtuosoBattleBooster>
+    <smoothDrivingBattleBooster>	NoneExtra : BattleBoosterForPerk	</smoothDrivingBattleBooster>
     <fireFightingBattleBooster>	NoneExtra : BattleBoosterForCrewSkill	</fireFightingBattleBooster>
     <sixthSenseBattleBooster>	NoneExtra : BattleBoosterForCrewSkill	</sixthSenseBattleBooster>
     <rancorousBattleBooster>	NoneExtra : BattleBoosterForCrewSkill	</rancorousBattleBooster>
     <pedantBattleBooster>	NoneExtra : BattleBoosterForCrewSkill	</pedantBattleBooster>
     <lastEffortBattleBooster>	NoneExtra : BattleBoosterForCrewSkill	</lastEffortBattleBooster>
-    <quickShellChanger>	NoneExtra : QuickShellChanger	</quickShellChanger>
     <shoot>	ShowShooting : Shoot	</shoot>
     <noAmmo>	NoneExtra : NoAmmo	</noAmmo>
     <gunReload>	NoneExtra : GunReload	</gunReload>
@@ -159,6 +158,16 @@
         <visionRadius>	0.5	</visionRadius>
       </gameplayFactors>
     </overturn>
+    <lift_over>	NoneExtra : LiftOver	  <isOnboardShotAllowed>	true	</isOnboardShotAllowed>
+      <gameplayFactors>
+        <reloadTime>	2.0	</reloadTime>
+        <turretRotationSpeed>	0.5	</turretRotationSpeed>
+        <gunRotationSpeed>	0.5	</gunRotationSpeed>
+        <aimingTime>	2.0	</aimingTime>
+        <shotDispersion>	2.0	</shotDispersion>
+        <visionRadius>	0.5	</visionRadius>
+      </gameplayFactors>
+    </lift_over>
     <drowning>	NoneExtra : Drowning	</drowning>
     <burnout>	NoneExtra : Burnout	</burnout>
     <afterburning>	NoneExtra : Afterburning	</afterburning>

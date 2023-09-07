@@ -20,7 +20,7 @@ string valid values:
 
 
 <Randomizer>
-	<Seed>0</Seed> <!-- (int or string) Randomizer seed. use 0 for a random seed -->
+	<Seed>0</Seed> <!-- (int or string) Randomizer seed. use 0 for a random seed. a string will be converted into a number, same way Minecraft converts a text seed to a numerical seed -->
 	
 	<Addons>
 		<UseAlternativeGunSounds>true</UseAlternativeGunSounds>
@@ -66,7 +66,9 @@ string valid values:
 		
 		<RandomizeGunEffects>true</RandomizeGunEffects> <!-- (boolean) should gun effects be randomized? -->
 		
+		<RandomizeDamageDecals>true</RandomizeDamageDecals> <!-- (boolean) should damage hole sizes from projectiles be randomized? -->
 		<RandomizeVehicleEffects>true</RandomizeVehicleEffects> <!-- (boolean) should some vehicle effects (such as explosions when destroyed, or the smoke of crew death) be randomized? -->
+		<RandomizeShellEffects>true</RandomizeShellEffects> <!-- (boolean) should shell effects such as shell impact effect particles be randomized? -->
 
 		<RandomizePaints>true</RandomizePaints> <!-- (boolean) should vehicle paints be randomized? -->
 

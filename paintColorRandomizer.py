@@ -21,7 +21,7 @@ class PaintRandomizer:
         tree = ET.parse(self.conf.itemDefsPath + "customization/paints/list.xml")
         root = tree.getroot()
 
-        itemGroups = root.findall("itemGroup");
+        itemGroups = root.findall("itemGroup")
 
         num = 0
         num_max = len(itemGroups)
@@ -30,7 +30,7 @@ class PaintRandomizer:
             num += 1
 
             percent = round(num / num_max * 100, 1)
-            print(f"({percent}%) Randomizing paints")
+            print(f"({percent}%) Randomizing paint group: {itemGroup.find('userString').text}")
 
             for paint in itemGroup.findall("paint"):
                 xml.insertElement("color", str(self.get_random_color()) + " " + str(self.get_random_color()) + " " + str(self.get_random_color()) + " " + "255", paint)

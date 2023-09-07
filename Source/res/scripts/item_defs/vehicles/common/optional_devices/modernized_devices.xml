@@ -26,7 +26,7 @@
         <factor>
           <attribute>	miscAttrs/gunAimingTimeFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.935	</valueByLevel>
+          <valueByLevel>	0.943	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
@@ -43,13 +43,14 @@
     <kpi>
       <mul>
         <name>	vehicleGunAimSpeed	</name>
-        <value>	1.07	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
         <value>	0.93	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedAimDrivesAimingStabilizer	</archetype>
   </modernizedAimDrivesAimingStabilizer1>
   <modernizedAimDrivesAimingStabilizer2>
     <id>	151	</id>
@@ -78,7 +79,7 @@
         <factor>
           <attribute>	miscAttrs/gunAimingTimeFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.926	</valueByLevel>
+          <valueByLevel>	0.935	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
@@ -95,13 +96,14 @@
     <kpi>
       <mul>
         <name>	vehicleGunAimSpeed	</name>
-        <value>	1.08	</value>
+        <value>	1.07	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
         <value>	0.91	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedAimDrivesAimingStabilizer	</archetype>
   </modernizedAimDrivesAimingStabilizer2>
   <modernizedAimDrivesAimingStabilizer3>
     <id>	152	</id>
@@ -135,7 +137,7 @@
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.885	</valueByLevel>
+          <valueByLevel>	0.89	</valueByLevel>
         </factor>
       </factors>
     </script>
@@ -146,9 +148,10 @@
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
-        <value>	0.885	</value>
+        <value>	0.89	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedAimDrivesAimingStabilizer	</archetype>
   </modernizedAimDrivesAimingStabilizer3>
   <modernizedTurbochargerRotationMechanism1>
     <id>	153	</id>
@@ -173,31 +176,31 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
     <script>	UpgradableRotationMechanisms	  <weight>	100	</weight>
-      <trackRotateSpeedFactor>	1.05	</trackRotateSpeedFactor>
-      <wheelRotateSpeedFactor>	1.05	</wheelRotateSpeedFactor>
-      <wheelCenterRotationFwdSpeed>	1.05	</wheelCenterRotationFwdSpeed>
-      <trackMoveSpeedFactor>	1.05	</trackMoveSpeedFactor>
-      <wheelMoveSpeedFactor>	1.05	</wheelMoveSpeedFactor>
+      <trackRotateSpeedFactor>	1.04	</trackRotateSpeedFactor>
+      <wheelRotateSpeedFactor>	1.04	</wheelRotateSpeedFactor>
+      <wheelCenterRotationFwdSpeed>	1.04	</wheelCenterRotationFwdSpeed>
+      <trackMoveSpeedFactor>	1.04	</trackMoveSpeedFactor>
+      <wheelMoveSpeedFactor>	1.04	</wheelMoveSpeedFactor>
       <factors>
         <factor>
           <attribute>	miscAttrs/turretRotationSpeed	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.05	</valueByLevel>
+          <valueByLevel>	1.04	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.95	</valueByLevel>
+          <valueByLevel>	0.96	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/enginePowerFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.07	</valueByLevel>
+          <valueByLevel>	1.05	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/forwardMaxSpeedKMHTerm	</attribute>
@@ -219,19 +222,19 @@
     <kpi>
       <mul>
         <name>	vehicleEnginePower	</name>
-        <value>	1.07	</value>
+        <value>	1.05	</value>
       </mul>
       <mul>
         <name>	vehicleTurretOrCuttingRotationSpeed	</name>
-        <value>	1.05	</value>
+        <value>	1.04	</value>
       </mul>
       <mul>
         <name>	vehicleAllGroundRotationSpeed	</name>
-        <value>	1.05	</value>
+        <value>	1.04	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
-        <value>	0.95	</value>
+        <value>	0.96	</value>
       </mul>
       <add>
         <name>	vehicleForwardMaxSpeed	</name>
@@ -242,6 +245,7 @@
         <value>	2	</value>
       </add>
     </kpi>
+    <archetype>	modernizedTurbochargerRotationMechanism	</archetype>
   </modernizedTurbochargerRotationMechanism1>
   <modernizedTurbochargerRotationMechanism2>
     <id>	154	</id>
@@ -266,31 +270,31 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
     <script>	UpgradableRotationMechanisms	  <weight>	100	</weight>
-      <trackRotateSpeedFactor>	1.06	</trackRotateSpeedFactor>
-      <wheelRotateSpeedFactor>	1.06	</wheelRotateSpeedFactor>
-      <wheelCenterRotationFwdSpeed>	1.06	</wheelCenterRotationFwdSpeed>
-      <trackMoveSpeedFactor>	1.06	</trackMoveSpeedFactor>
-      <wheelMoveSpeedFactor>	1.06	</wheelMoveSpeedFactor>
+      <trackRotateSpeedFactor>	1.05	</trackRotateSpeedFactor>
+      <wheelRotateSpeedFactor>	1.05	</wheelRotateSpeedFactor>
+      <wheelCenterRotationFwdSpeed>	1.05	</wheelCenterRotationFwdSpeed>
+      <trackMoveSpeedFactor>	1.05	</trackMoveSpeedFactor>
+      <wheelMoveSpeedFactor>	1.05	</wheelMoveSpeedFactor>
       <factors>
         <factor>
           <attribute>	miscAttrs/turretRotationSpeed	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.06	</valueByLevel>
+          <valueByLevel>	1.05	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.94	</valueByLevel>
+          <valueByLevel>	0.95	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/enginePowerFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.08	</valueByLevel>
+          <valueByLevel>	1.06	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/forwardMaxSpeedKMHTerm	</attribute>
@@ -312,19 +316,19 @@
     <kpi>
       <mul>
         <name>	vehicleEnginePower	</name>
-        <value>	1.08	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleTurretOrCuttingRotationSpeed	</name>
-        <value>	1.06	</value>
+        <value>	1.05	</value>
       </mul>
       <mul>
         <name>	vehicleAllGroundRotationSpeed	</name>
-        <value>	1.06	</value>
+        <value>	1.05	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
-        <value>	0.94	</value>
+        <value>	0.95	</value>
       </mul>
       <add>
         <name>	vehicleForwardMaxSpeed	</name>
@@ -335,6 +339,7 @@
         <value>	3	</value>
       </add>
     </kpi>
+    <archetype>	modernizedTurbochargerRotationMechanism	</archetype>
   </modernizedTurbochargerRotationMechanism2>
   <modernizedTurbochargerRotationMechanism3>
     <id>	155	</id>
@@ -359,31 +364,31 @@
       </include>
       <exclude>
         <vehicle>
-          <tags>	wheeledVehicle	</tags>
+          <mandatoryTags>	wheeledVehicle lightTank	</mandatoryTags>
         </vehicle>
       </exclude>
     </vehicleFilter>
     <script>	UpgradedRotationMechanisms	  <weight>	100	</weight>
-      <trackRotateSpeedFactor>	1.08	</trackRotateSpeedFactor>
-      <wheelRotateSpeedFactor>	1.08	</wheelRotateSpeedFactor>
-      <wheelCenterRotationFwdSpeed>	1.08	</wheelCenterRotationFwdSpeed>
-      <trackMoveSpeedFactor>	1.08	</trackMoveSpeedFactor>
-      <wheelMoveSpeedFactor>	1.08	</wheelMoveSpeedFactor>
+      <trackRotateSpeedFactor>	1.06	</trackRotateSpeedFactor>
+      <wheelRotateSpeedFactor>	1.06	</wheelRotateSpeedFactor>
+      <wheelCenterRotationFwdSpeed>	1.06	</wheelCenterRotationFwdSpeed>
+      <trackMoveSpeedFactor>	1.06	</trackMoveSpeedFactor>
+      <wheelMoveSpeedFactor>	1.06	</wheelMoveSpeedFactor>
       <factors>
         <factor>
           <attribute>	miscAttrs/turretRotationSpeed	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.08	</valueByLevel>
+          <valueByLevel>	1.06	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/additiveShotDispersionFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	0.92	</valueByLevel>
+          <valueByLevel>	0.94	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/enginePowerFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.1	</valueByLevel>
+          <valueByLevel>	1.08	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/forwardMaxSpeedKMHTerm	</attribute>
@@ -400,19 +405,19 @@
     <kpi>
       <mul>
         <name>	vehicleEnginePower	</name>
-        <value>	1.1	</value>
+        <value>	1.08	</value>
       </mul>
       <mul>
         <name>	vehicleTurretOrCuttingRotationSpeed	</name>
-        <value>	1.08	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleAllGroundRotationSpeed	</name>
-        <value>	1.08	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleGunShotDispersion	</name>
-        <value>	0.92	</value>
+        <value>	0.94	</value>
       </mul>
       <add>
         <name>	vehicleForwardMaxSpeed	</name>
@@ -423,6 +428,7 @@
         <value>	3	</value>
       </add>
     </kpi>
+    <archetype>	modernizedTurbochargerRotationMechanism	</archetype>
   </modernizedTurbochargerRotationMechanism3>
   <modernizedExtraHealthReserveAntifragmentationLining1>
     <id>	156	</id>
@@ -452,12 +458,12 @@
         <factor>
           <attribute>	miscAttrs/healthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.09	</valueByLevel>
+          <valueByLevel>	1.06	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.4	</valueByLevel>
+          <valueByLevel>	1.3	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisRepairSpeedFactor	</attribute>
@@ -467,17 +473,17 @@
         <factor>
           <attribute>	miscAttrs/ammoBayHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.6	</valueByLevel>
+          <valueByLevel>	1.5	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/fuelTankHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.6	</valueByLevel>
+          <valueByLevel>	1.5	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/engineHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.6	</valueByLevel>
+          <valueByLevel>	1.5	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/engineReduceFineFactor	</attribute>
@@ -499,15 +505,15 @@
     <kpi>
       <mul>
         <name>	vehicleStrength	</name>
-        <value>	1.09	</value>
+        <value>	1.06	</value>
       </mul>
       <mul>
         <name>	vehicleAmmoBayEngineFuelStrength	</name>
-        <value>	1.6	</value>
+        <value>	1.5	</value>
       </mul>
       <mul>
         <name>	vehicleChassisStrength	</name>
-        <value>	1.4	</value>
+        <value>	1.3	</value>
       </mul>
       <mul>
         <name>	vehicleChassisRepairSpeed	</name>
@@ -518,6 +524,7 @@
         <value>	0.7	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedExtraHealthReserveAntifragmentationLining	</archetype>
   </modernizedExtraHealthReserveAntifragmentationLining1>
   <modernizedExtraHealthReserveAntifragmentationLining2>
     <id>	157	</id>
@@ -547,12 +554,12 @@
         <factor>
           <attribute>	miscAttrs/healthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.1	</valueByLevel>
+          <valueByLevel>	1.07	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.5	</valueByLevel>
+          <valueByLevel>	1.4	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisRepairSpeedFactor	</attribute>
@@ -562,17 +569,17 @@
         <factor>
           <attribute>	miscAttrs/ammoBayHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.8	</valueByLevel>
+          <valueByLevel>	1.7	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/fuelTankHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.8	</valueByLevel>
+          <valueByLevel>	1.7	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/engineHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.8	</valueByLevel>
+          <valueByLevel>	1.7	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/engineReduceFineFactor	</attribute>
@@ -594,15 +601,15 @@
     <kpi>
       <mul>
         <name>	vehicleStrength	</name>
-        <value>	1.1	</value>
+        <value>	1.07	</value>
       </mul>
       <mul>
         <name>	vehicleAmmoBayEngineFuelStrength	</name>
-        <value>	1.8	</value>
+        <value>	1.7	</value>
       </mul>
       <mul>
         <name>	vehicleChassisStrength	</name>
-        <value>	1.5	</value>
+        <value>	1.4	</value>
       </mul>
       <mul>
         <name>	vehicleChassisRepairSpeed	</name>
@@ -613,6 +620,7 @@
         <value>	0.6	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedExtraHealthReserveAntifragmentationLining	</archetype>
   </modernizedExtraHealthReserveAntifragmentationLining2>
   <modernizedExtraHealthReserveAntifragmentationLining3>
     <id>	158	</id>
@@ -642,17 +650,17 @@
         <factor>
           <attribute>	miscAttrs/healthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.115	</valueByLevel>
+          <valueByLevel>	1.09	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisHealthFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.7	</valueByLevel>
+          <valueByLevel>	1.5	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/chassisRepairSpeedFactor	</attribute>
           <type>	mul	</type>
-          <valueByLevel>	1.25	</valueByLevel>
+          <valueByLevel>	1.2	</valueByLevel>
         </factor>
         <factor>
           <attribute>	miscAttrs/ammoBayHealthFactor	</attribute>
@@ -684,7 +692,7 @@
     <kpi>
       <mul>
         <name>	vehicleStrength	</name>
-        <value>	1.115	</value>
+        <value>	1.09	</value>
       </mul>
       <mul>
         <name>	vehicleAmmoBayEngineFuelStrength	</name>
@@ -692,16 +700,17 @@
       </mul>
       <mul>
         <name>	vehicleChassisStrength	</name>
-        <value>	1.7	</value>
+        <value>	1.5	</value>
       </mul>
       <mul>
         <name>	vehicleChassisRepairSpeed	</name>
-        <value>	1.25	</value>
+        <value>	1.2	</value>
       </mul>
       <mul>
         <name>	vehPenaltyForDamageEngineAndCombat	</name>
         <value>	0.5	</value>
       </mul>
     </kpi>
+    <archetype>	modernizedExtraHealthReserveAntifragmentationLining	</archetype>
   </modernizedExtraHealthReserveAntifragmentationLining3>
 </modernized_devices.xml>

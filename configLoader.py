@@ -2,19 +2,22 @@ import os
 import xml.etree.ElementTree as ET
 
 
-def _parse_error(var_type: str, name: str, default):
-    print(f"Failed to load {var_type} {name} from config! Defaulting to '{str(default)}'")
+def _parse_error(var_type: str, name: str, in_section, default):
+    if in_section is None:
+        print(f"Failed to load {var_type} {name} from <null>! Defaulting to '{str(default)}'")
+    else:
+        print(f"Failed to load {var_type} {name} from section {in_section.tag}! Defaulting to '{str(default)}'")
 
 
 def parse_string(name: str, in_section: ET.Element, default: str):
     if in_section is None:
-        _parse_error("string", name, default)
+        _parse_error("string", name, in_section, default)
         return default
 
     element = in_section.find(name)
 
     if element is None:
-        _parse_error("string", name, default)
+        _parse_error("string", name, in_section, default)
         return default
 
     text = element.text
@@ -27,13 +30,13 @@ def parse_string(name: str, in_section: ET.Element, default: str):
 
 def parse_bool(name: str, in_section: ET.Element, default: bool):
     if in_section is None:
-        _parse_error("bool", name, default)
+        _parse_error("bool", name, in_section, default)
         return default
 
     element = in_section.find(name)
 
     if element is None:
-        _parse_error("bool", name, default)
+        _parse_error("bool", name, in_section, default)
         return default
 
     text = element.text.lower()
@@ -49,13 +52,13 @@ def parse_bool(name: str, in_section: ET.Element, default: bool):
 
 def parse_int(name: str, in_section: ET.Element, default: int):
     if in_section is None:
-        _parse_error("integer", name, default)
+        _parse_error("integer", name, in_section, default)
         return default
 
     element = in_section.find(name)
 
     if element is None:
-        _parse_error("integer", name, default)
+        _parse_error("integer", name, in_section, default)
         return default
 
     # text = element.text.lower()
@@ -128,7 +131,10 @@ class ConfigLoader:
         Config.randomizeGuns = parse_bool("RandomizeGuns", tank_section, True)
         Config.randomizeGunEffects = parse_bool("RandomizeGunEffects", tank_section, True)
 
+
+        Config.randomizeDamageStickers = parse_bool("RandomizeDamageDecals", tank_section, True)
         Config.randomizeVehicleEffects = parse_bool("RandomizeVehicleEffects", tank_section, True)
+        Config.randomizeShotEffects = parse_bool("RandomizeShellEffects", tank_section, True)
 
         Config.randomizePaints = parse_bool("RandomizePaints", tank_section, True)
         Config.randomizeCamos = parse_bool("RandomizeCamos", tank_section, True)
@@ -138,8 +144,8 @@ class ConfigLoader:
 
 class Config:
     wotmodName = "Randomizer_v$randver_$wotver_Seed=$seed"
-    randomizerversion = "1.0WIP"
-    wotversion = "1.19.0.1"
+    randomizerversion = "1.0"
+    wotversion = "1.22.0"
 
     resPath = "Source/res/"
     resPathOut = "Output/res/"
@@ -162,6 +168,11 @@ class Config:
     vehEffectsPath = "Source/res/scripts/item_defs/vehicles/common/vehicle_effects.xml"
     vehEffectsPathOut = "Output/res/scripts/item_defs/vehicles/common/vehicle_effects.xml"
 
+    dmgStickersPath = "Source/res/scripts/item_defs/vehicles/common/damage_stickers.xml"
+    dmgStickersPathOut = "Output/res/scripts/item_defs/vehicles/common/damage_stickers.xml"
+
+    customizationPath = "Source/res/scripts/item_defs/customization/"
+
     addonsPath = "Addons/"
 
     # addonNewTankModelsPath = "Addons/NewTankModels/"
@@ -181,7 +192,9 @@ class Config:
     randomizeGuns = True
     randomizeGunEffects = True
 
+    randomizeDamageStickers = True
     randomizeVehicleEffects = True
+    randomizeShotEffects = True
 
     randomizePaints = True
     randomizeCamos = True
@@ -230,6 +243,8 @@ class Config:
         "R05_KV",
         "R70_T_50_2",
         "G98_Waffentrager_E100_WO",
+
+        "J27_O_I_120_BP",
         
         "R77_KV2_turret_2",
         "R95_Object_907A",
@@ -269,7 +284,7 @@ class Config:
         if tank.lower().endswith("_test.xml"):
             return True
 
-        return tank.lower() in cls.temp_BlackListedTanks
+        return tank.lower() in cls.temp_BlackListedTanks # the blacklist is converted to store all tanks in lowercase, so this works
 
 
 for i in range(len(Config.temp_BlackListedTanks)):

@@ -21,7 +21,7 @@ class CamouflageRandomizer:
         tree = ET.parse(self.conf.itemDefsPath + "customization/camouflages/list.xml")
         root = tree.getroot()
 
-        itemGroups = root.findall("itemGroup");
+        itemGroups = root.findall("itemGroup")
 
         num = 0
         num_max = len(itemGroups)
