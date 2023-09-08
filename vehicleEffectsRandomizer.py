@@ -10,7 +10,8 @@ class VehicleEffectRandomizer:
     explEffects = []
     explNames = []
 
-    def isValidExplosion(self, tag):
+    @staticmethod
+    def isValidExplosion(tag):
         return "trackdestruction" not in tag and "empty" not in tag and ("explosion" in tag or "destruction" in tag or "crewdeath" in tag or "submersiondeath" in tag or "instantexplosion" in tag or "burnoff" in tag)
 
     def __init__(self, seed: int, config: Config):

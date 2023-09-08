@@ -30,12 +30,17 @@ class Tank:
     tree: ElementTree
     path: str
 
-    def __init__(self, xmltree: ET.ElementTree, path: str, tank_randomizer, is_wheeled: bool):
+    def __init__(self, xmltree: ET.ElementTree, path: str, tank_randomizer, is_wheeled: bool, pops_elements: bool):
         root = xmltree.getroot()
 
         self.tankRandomizer = tank_randomizer
         self.isWheeledVehicle = is_wheeled
         self.path = path
+
+        self.popsElements = pops_elements
+
+        # if not pops_elements:
+        #     print(f"    !   Tank {path} will not pop elements")
 
         self.tree = xmltree
         self.root = root
@@ -131,8 +136,8 @@ class TankRandomizer:
                             self.tankFilePaths.append(folder + n)
 
     def threaded_get_tank_models(self, chunk_list):
-        for tank in chunk_list:
-            tree = ET.parse(tank)
+        for tank_path in chunk_list:
+            tree = ET.parse(tank_path)
             root = tree.getroot()
 
             # wheeled = root.find(xml.IsWheeledTag).text.lower()
@@ -140,14 +145,20 @@ class TankRandomizer:
             supported = True
             reason = ""
 
+            should_tank_pop_elements = True
+            tank_file_name = os.path.basename(tank_path)
+
+            if not configLoader.Config.should_pop_list_elements(tank_file_name):
+                should_tank_pop_elements = False
+
             if self.conf.fullTankRandomizer and wheeled:
                 supported = False
                 reason = "Wheeled vehicles are not supported with TankSwap=true"
 
             if supported:
-                self.tanks.append(Tank(tree, tank, self, wheeled))
+                self.tanks.append(Tank(tree, tank_path, self, wheeled, should_tank_pop_elements))
             else:
-                print("Skipped vehicle: " + str(tank) + " Reason: " + reason)
+                print("Skipped vehicle: " + str(tank_path) + " Reason: " + reason)
 
     def get_tank_models(self):
 
@@ -273,6 +284,10 @@ class TankRandomizer:
 
             should_pop_elements = self.conf.tankRandomizationIsUnique
             randomize_chassis = self.conf.randomizeChassis
+
+            if not tank.popsElements:
+                should_pop_elements = False
+
             if tank.isWheeledVehicle:
                 should_pop_elements = False
                 randomize_chassis = False
@@ -395,6 +410,7 @@ class TankRandomizer:
                     _remove_and_replace("models", random_turret, turret)
                     _remove_and_replace("ceilless", random_turret, turret)
                     _remove_and_replace("wwturretRotatorSoundManual", random_turret, turret)
+                    _remove_and_replace("gunPosition", random_turret, turret)
 
                     # self.copy_customization(random_turret, turret)
 
@@ -412,15 +428,16 @@ class TankRandomizer:
 
                     # gun effects randomization
                     if self.conf.randomizeGunEffects:
-                        comp = self.guns.getGun(random_gun.tag)
-                        if self.conf.fullTankRandomizer and comp is not None:
-                            # variable 'comp' is the gun from components/guns.xml
+                        xml_gun = self.guns.getGun(random_gun.tag)
+                        if self.conf.fullTankRandomizer and xml_gun is not None: # if full tank randomizer (where all parts are selected from the same tank) is on
+                            # variable 'random_gun' is the new randomly selected gun
+                            # variable 'xml_gun' is random_gun from components/guns.xml
                             # variable 'gun' is one of the guns of the tank being currently randomized
-                            xml.replace_element(comp.find("effects"), gun)
-                            xml.replace_element(comp.find("reloadEffect"), gun)
-                            xml.replace_element(comp.find("recoil"), gun)
-                            xml.replace_element(comp.find("impulse"), gun)
-                        else:
+                            xml.replace_element_with_fallback(random_gun.find("effects"), xml_gun.find("effects"), gun)
+                            xml.replace_element_with_fallback(random_gun.find("reloadEffect"), xml_gun.find("reloadEffect"), gun)
+                            xml.replace_element_with_fallback(random_gun.find("recoil"), xml_gun.find("recoil"), gun)
+                            xml.replace_element_with_fallback(random_gun.find("impulse"), xml_gun.find("impulse"), gun)
+                        else: # if full tank randomizer is off
                             if not is_dual_gun:
                                 effect_random_element = ET.Element("effects")
                                 effect_random_element.text = self.conf.gunEffects[random.randrange(0, len(self.conf.gunEffects))]
@@ -429,12 +446,11 @@ class TankRandomizer:
                                 effect_l = self.conf.gunEffectsDual[random.randrange(0, len(self.conf.gunEffectsDual))]
                                 effect_r = self.conf.gunEffectsDual[random.randrange(0, len(self.conf.gunEffectsDual))]
                                 effect_random_element.text = effect_l + " " + effect_r
-
                             xml.add_element(effect_random_element, gun)
 
-                            if comp is not None:
-                                xml.replace_element(comp.find("reloadEffect"), gun)
-                                xml.replace_element(comp.find("recoil"), gun)
-                                xml.replace_element(comp.find("impulse"), gun)
+                            if xml_gun is not None:
+                                xml.replace_element_with_fallback(random_gun.find("reloadEffect"), xml_gun.find("reloadEffect"), gun)
+                                xml.replace_element_with_fallback(random_gun.find("recoil"), xml_gun.find("recoil"), gun)
+                                xml.replace_element_with_fallback(random_gun.find("impulse"), xml_gun.find("impulse"), gun)
 
             tank.tree.write(tank.path.replace("Source/", "Output/").replace("Addons/", "Output/"))

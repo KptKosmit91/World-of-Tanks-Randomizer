@@ -74,7 +74,6 @@ def string_hashcode(s):
 
 
 class ConfigLoader:
-
     configPath = "Config/RandomizerConfig.xml"
 
     @classmethod
@@ -89,7 +88,7 @@ class ConfigLoader:
         addons = os.listdir(Config.addonsPath)
         for addon in addons:
             if os.path.isdir(Config.addonsPath + addon):
-                is_addon_active = parse_bool("Use"+addon, addon_section, True)
+                is_addon_active = parse_bool("Use" + addon, addon_section, True)
 
                 print(f"Found addon {addon}. Is active: {is_addon_active}")
 
@@ -122,7 +121,7 @@ class ConfigLoader:
             print("Keywords are present. UniqueRandomization won't be used and will be set to false")
             Config.tankRandomizationIsUnique = False
 
-        Config.fullTankRandomizer = parse_bool("TankSwap", tank_section, False)
+        Config.fullTankRandomizer = parse_bool("FullTankSwap", tank_section, False)
         Config.randomizeChassisSeparately = parse_bool("RandomizeChassisSeparately", tank_section, False)
 
         Config.randomizeHulls = parse_bool("RandomizeHulls", tank_section, True)
@@ -131,19 +130,20 @@ class ConfigLoader:
         Config.randomizeGuns = parse_bool("RandomizeGuns", tank_section, True)
         Config.randomizeGunEffects = parse_bool("RandomizeGunEffects", tank_section, True)
 
-
         Config.randomizeDamageStickers = parse_bool("RandomizeDamageDecals", tank_section, True)
         Config.randomizeVehicleEffects = parse_bool("RandomizeVehicleEffects", tank_section, True)
         Config.randomizeShotEffects = parse_bool("RandomizeShellEffects", tank_section, True)
 
         Config.randomizePaints = parse_bool("RandomizePaints", tank_section, True)
-        Config.randomizeCamos = parse_bool("RandomizeCamos", tank_section, True)
+        # Config.randomizeCamos = parse_bool("RandomizeCamos", tank_section, True)
+        Config.randomizeCamos = False
 
         print("Config loaded!")
 
 
 class Config:
-    wotmodName = "Randomizer_v$randver_$wotver_Seed=$seed"
+    # wotmodName = "Randomizer_v$randver_$wotver_Seed=$seed"
+    wotmodName = "Randomizer_WoT_$wotver_Seed=$seed"
     randomizerversion = "1.0"
     wotversion = "1.22.0"
 
@@ -232,10 +232,10 @@ class Config:
     gunEffects = []
     gunEffectsDual = []
 
-    temp_BlackListedTanks = [
+    blackListedTanks = [
         "Env_Artillery",
         "Observer",
-        
+
         "G79_Pz_IV_AusfGH",
         "A08_T23",
         "A15_T57",
@@ -245,15 +245,15 @@ class Config:
         "G98_Waffentrager_E100_WO",
 
         "J27_O_I_120_BP",
-        
+
         "R77_KV2_turret_2",
         "R95_Object_907A",
         "Cz17_Vz_55_CN",
-        
+
         "R115_IS-3_auto_test",
         "R165_Object_703_II_2",
         "R165_Object_703_II_2_siege_mode",
-        
+
         "R46_KV-13_SH",
         "R46_KV-13_SH_siege_mode",
         "F43_AMC_35_SH",
@@ -269,23 +269,51 @@ class Config:
         "Ch00_ClingeBot_SH"
     ]
 
+    # list of tanks which will not pop list elements. this means these tanks wont hog up models
+    specialTanks = [
+        ""
+    ]
+
     @classmethod
     def is_tank_blacklisted(cls, tank: str):
-        if not tank.lower().endswith(".xml"):
+        tank = tank.lower()
+
+        if not tank.endswith(".xml"):
             return True
-        if tank.lower() == "customization.xml":
+        if tank == "customization.xml":
             return True
-        if tank.lower() == "list.xml":
+        if tank == "list.xml":
             return True
-        if tank.lower().endswith("_igr.xml"):
+        if tank.endswith("_igr.xml"):
             return True
-        if tank.lower().endswith("_bot.xml"):
+        if tank.endswith("_bot.xml"):
             return True
-        if tank.lower().endswith("_test.xml"):
+        if tank.endswith("_test.xml"):
             return True
 
-        return tank.lower() in cls.temp_BlackListedTanks # the blacklist is converted to store all tanks in lowercase, so this works
+        return tank in cls.blackListedTanks  # the blacklist is converted to store all tanks in lowercase, so this works
+
+    @classmethod
+    def should_pop_list_elements(cls, tank: str):
+        if cls.is_tank_blacklisted(tank):
+            return False
+
+        tank = tank.lower()
+
+        if "newonboarding" in tank:
+            return False
+        if "mapstraining" in tank:
+            return False
+        if "_alfa" in tank:
+            return False
+        if "siege_mode" in tank:
+            return False
+
+        return tank not in cls.specialTanks
 
 
-for i in range(len(Config.temp_BlackListedTanks)):
-    Config.temp_BlackListedTanks[i] = Config.temp_BlackListedTanks[i].lower() + ".xml"
+for i in range(len(Config.blackListedTanks)):
+    Config.blackListedTanks[i] = Config.blackListedTanks[i].lower() + ".xml"
+
+for i in range(len(Config.specialTanks)):
+    Config.specialTanks[i] = Config.specialTanks[i].lower() + ".xml"

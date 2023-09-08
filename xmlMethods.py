@@ -33,6 +33,27 @@ def insertElement(name, value, where):
 
 
 def replace_element(new_element, where):
+    """
+    :param new_element:
+    :param where: the section where the element will be replaced
+    """
+    if new_element is not None:
+        name = new_element.tag
+        existing_element = where.find(name)
+        if existing_element is not None:
+            removeAllElementsByName(name, where)
+        where.append(new_element)
+
+
+def replace_element_with_fallback(new_element, new_element_fallback, where):
+    """
+    :param new_element:
+    :param new_element_fallback: will fallback to this if new_element is null
+    :param where: the section where the element will be replaced
+    """
+    if new_element is None:
+        new_element = new_element_fallback
+
     if new_element is not None:
         name = new_element.tag
         existing_element = where.find(name)
