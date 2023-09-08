@@ -107,7 +107,7 @@ def main():
     tank_randomizer.get_tank_models()
     print("Information gathered")
 
-    print("Randomizing tank models")
+    print("\nRandomizing tank models")
     tank_randomizer.randomize()
 
     if conf.randomizePaints:
