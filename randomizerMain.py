@@ -193,6 +193,7 @@ def main():
         wotmod.create_wotmod()
 
         print("Mod packing finished!")
+        print("\n\n You are ready to install your mod!")
     except Exception as e:
         print("\nAn error occurred while trying to create the wotmod file!")
         print(str(e))
