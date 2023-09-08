@@ -69,14 +69,14 @@ class ShotEffectRandomizer:
                     elem = item.find("shallowWaterDepth")
                     elem.text = str(random.uniform(0.75, 1.5))
                     elem = item.find("rippleDiameter")
-                    elem.text = str(random.uniform(0.3, 10))
+                    elem.text = str(random.uniform(0.3, 5))
                     continue
 
                 if item.tag == "physicsParams":
                     elem = item.find("splashRadius")
                     elem.text = str(random.uniform(0.1, 75))
                     elem = item.find("splashStrength")
-                    elem.text = str(random.uniform(0.1, 500))
+                    elem.text = str(random.uniform(0.1, 50))
                     continue
 
                 if self.isProhibitedTag(item.tag):
