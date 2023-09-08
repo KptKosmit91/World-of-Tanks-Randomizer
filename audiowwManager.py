@@ -346,17 +346,19 @@ class AudiowwManager:
 
         print("\nRandomizing Sounds\n")
 
-        print("Randomizing crew voices")
-        self.randomize_from_list(self.crewVoiceEventsList, '', 'crew')
+        if self.conf.randomizeCrewVoices:
+            print("Randomizing crew voices")
+            self.randomize_from_list(self.crewVoiceEventsList, '', 'crew')
 
-        print("Randomizing shell impact sounds")
-        self.randomize_from_list(self.shellImpactSoundEventsList, 'NPC_NPC', 't_imp')
-        self.randomize_from_list(self.shellImpactSoundEventsList, 'PC_NPC', 't_imp')
-        self.randomize_from_list(self.shellImpactSoundEventsList, 'NPC_PC', 't_imp')
-        self.randomize_from_list(self.shellHESplashImpactSoundEventsList, '', 't_imp')
-        self.randomize_from_list(self.shellGroundImpactSoundEventsList, 'NPC', 'g_imp')
-        self.randomize_from_list(self.shellGroundImpactSoundEventsList, 'PC', 'g_imp')
-        self.randomize_from_list(self.artySurfaceImpact, '', 'g_imp')
+        if self.conf.randomizeShellImpactSounds:
+            print("Randomizing shell impact sounds")
+            self.randomize_from_list(self.shellImpactSoundEventsList, 'NPC_NPC', 't_imp')
+            self.randomize_from_list(self.shellImpactSoundEventsList, 'PC_NPC', 't_imp')
+            self.randomize_from_list(self.shellImpactSoundEventsList, 'NPC_PC', 't_imp')
+            self.randomize_from_list(self.shellHESplashImpactSoundEventsList, '', 't_imp')
+            self.randomize_from_list(self.shellGroundImpactSoundEventsList, 'NPC', 'g_imp')
+            self.randomize_from_list(self.shellGroundImpactSoundEventsList, 'PC', 'g_imp')
+            self.randomize_from_list(self.artySurfaceImpact, '', 'g_imp')
 
         print("\nSound randomization done\n")
 

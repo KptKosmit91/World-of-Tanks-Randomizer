@@ -71,8 +71,9 @@ string valid values:
 		<RandomizeShellEffects>true</RandomizeShellEffects> <!-- (boolean) should shell effects such as shell impact effect particles be randomized? -->
 
 		<RandomizePaints>true</RandomizePaints> <!-- (boolean) should vehicle paints be randomized? -->
-
-		<!-- more randomization options (including the return of paint randomization) will be added in the future -->
-		
 	</TankRandomizer>
+	<SoundRandomizer>
+		<RandomizeCrewVoices>true</RandomizeCrewVoices> <!-- (boolean) should crew voice lines be randomized? -->
+		<RandomizeShellImpactSounds>true</RandomizeShellImpactSounds> <!-- (boolean) should impact sounds be randomized? -->
+	</SoundRandomizer>
 </Randomizer>

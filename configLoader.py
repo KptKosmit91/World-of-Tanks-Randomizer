@@ -108,6 +108,7 @@ class ConfigLoader:
             Config.seed = string_hashcode(string)
 
         tank_section = root.find("TankRandomizer")
+        sound_section = root.find("SoundRandomizer")
 
         keywords = parse_string("Keywords", tank_section, "").replace(",", " ").split()
 
@@ -137,6 +138,10 @@ class ConfigLoader:
         Config.randomizePaints = parse_bool("RandomizePaints", tank_section, True)
         # Config.randomizeCamos = parse_bool("RandomizeCamos", tank_section, True)
         Config.randomizeCamos = False
+
+
+        Config.randomizeCrewVoices = parse_bool("RandomizeCrewVoices", sound_section, True)
+        Config.randomizeShellImpactSounds = parse_bool("RandomizeShellImpactSounds", sound_section, True)
 
         print("Config loaded!")
 
@@ -198,6 +203,9 @@ class Config:
 
     randomizePaints = True
     randomizeCamos = True
+
+    randomizeCrewVoices = True
+    randomizeShellImpactSounds = True
 
     activeAddons = []
 
