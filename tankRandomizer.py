@@ -93,6 +93,10 @@ class Tank:
             #     print("Gun: " + obj.tag)
 
 
+def _copyEmblemDataInternal(tagName: str, source: ET.Element, new: ET.Element):
+    if source.find(tagName) is not None and new.find(tagName) is not None:
+        source.find(tagName).text = new.find(tagName).text
+
 def _remove_and_replace(name, new_element, where):
     xml.removeAllElementsByName(name, where)
     if new_element is not None:
@@ -179,74 +183,59 @@ class TankRandomizer:
         # for thread in threads:
         #     thread.join()
 
-    def copyEmblemData(self, old, new):
+    def copyEmblemData(self, source, new, slotType: str):
+            _copyEmblemDataInternal("rayStart", source, new)
+            _copyEmblemDataInternal("rayEnd", source, new)
+            _copyEmblemDataInternal("rayUp", source, new)
+            _copyEmblemDataInternal("size", source, new)
+            _copyEmblemDataInternal("hideIfDamaged", source, new)
+            _copyEmblemDataInternal("isUVProportional", source, new)
+            _copyEmblemDataInternal("isMirrored", source, new)
+
+            if slotType == "fixedEmblem":
+                _copyEmblemDataInternal("emblemId", source, new)
+
+            # source.find("rayStart").text = new.find("rayStart").text
+            # source.find("rayEnd").text = new.find("rayEnd").text
+            # source.find("rayUp").text = new.find("rayUp").text
+            # source.find("size").text = new.find("size").text
+            # source.find("hideIfDamaged").text = new.find("hideIfDamaged").text
+            # source.find("isUVProportional").text = new.find("isUVProportional").text
+
+    def copyProjectionDecalData(self, source, new):
         try:
-            old.find("rayStart").text = new.find("rayStart").text
-            old.find("rayEnd").text = new.find("rayEnd").text
-            old.find("rayUp").text = new.find("rayUp").text
-            old.find("size").text = new.find("size").text
-            old.find("hideIfDamaged").text = new.find("hideIfDamaged").text
-            old.find("isUVProportional").text = new.find("isUVProportional").text
+            source.find("position").text = new.find("position").text
+            source.find("rotation").text = new.find("rotation").text
+            source.find("scale").text = new.find("scale").text
+            source.find("doubleSided").text = new.find("doubleSided").text
+            source.find("clipAngle").text = new.find("clipAngle").text
+            source.find("anchorShift").text = new.find("anchorShift").text
         except:
             pass
 
-    def copyProjectionDecalData(self, old, new):
-        try:
-            old.find("position").text = new.find("position").text
-            old.find("rotation").text = new.find("rotation").text
-            old.find("scale").text = new.find("scale").text
-            old.find("doubleSided").text = new.find("doubleSided").text
-            old.find("clipAngle").text = new.find("clipAngle").text
-            old.find("anchorShift").text = new.find("anchorShift").text
-        except:
-            pass
-
-    # i'm not entirely proud of the code here..
-    def copy_customization(self, fromComp: Element, toComp: Element):
+    def copyCustomization(self, fromComp: Element, toComp: Element):
         slots_container_from = fromComp.find("customizationSlots")
         slots_container_to = toComp.find("customizationSlots")
 
         if slots_container_from is None or slots_container_to is None:
             return None
 
-        clanEmblemNew = None
-        clanEmblemOld = None
+        for slot_from in slots_container_from.findall("*"):
+            for slot_to in slots_container_to.findall("*"):
+                slot_from_id = slot_from.find("slotId").text
+                slot_to_id = slot_to.find("slotId").text
 
-        for fromS in slots_container_from.findall("*"):
-            for toS in slots_container_to.findall("*"):
+                if slot_from_id == slot_to_id:
 
-                typeFrom = fromS.find("slotType").text
-                typeTo = toS.find("slotType").text
-                idFrom = fromS.find("slotId").text
-                idTo = toS.find("slotId").text
+                    slot_from_type = slot_from.find("slotType").text
+                    slot_to_type = slot_to.find("slotType").text
 
-                # print(f"Slot Type: {typeFrom} vs {typeTo}")
+                    if slot_to_type == "player" or slot_to_type == "clan" or slot_to_type == "fixedEmblem" or slot_to_type == "inscription":
+                        if slot_from_type == slot_to_type:
 
-                if idFrom == idTo and typeFrom == typeTo:
-                    if typeFrom == "player" or typeFrom == "inscription":
-                        self.copyEmblemData(typeTo, typeFrom)
-                    elif typeFrom == "projectionDecal":
-                        self.copyProjectionDecalData(typeTo, typeFrom)
+                            # print(f"    Found matching slot {slot_to_id} {slot_to_type}. copying")
 
-
-
-        for slot in slots_container_from.findall("*"):
-            type = slot.find("slotType")
-            if type == "clan":
-                clanEmblemNew = slot
-
-        for slot in slots_container_to.findall("*"):
-            type = slot.find("slotType")
-            if type == "clan":
-                clanEmblemOld = slot
-
-        if clanEmblemNew is not None and clanEmblemOld is not None:
-            self.copyEmblemData(clanEmblemOld, clanEmblemNew)
-
-        elif clanEmblemNew is not None:
-            slots_container_to.append(clanEmblemNew)
-
-        # xml.replace_element(toCustom, toComp)
+                            self.copyEmblemData(slot_to, slot_from, slot_to_type)
 
     def randomize(self):
         iterate_tanks = [t for t in self.tanks if self.conf.addonsPath not in str(t.path)]
@@ -270,8 +259,6 @@ class TankRandomizer:
 
             random_hull_index = random.randrange(0, len(self.tankHullList))
             random_hull = self.tankHullList[random_hull_index]
-
-            # self.copy_customization(random_hull, tank.hull)
 
             random_chassis_list = []
             random_turret_list = []
@@ -344,6 +331,8 @@ class TankRandomizer:
                 self.tankRootXmlList.pop(random_hull_index)
 
             if self.conf.randomizeHulls:
+                self.copyCustomization(random_hull, tank.hull)
+
                 _remove_and_replace("AODecals", random_hull, tank.hull)
                 xml.replace_element(random_hull.find("models"), tank.hull)
                 xml.replace_element(random_hull.find("swinging"), tank.hull)
@@ -412,7 +401,7 @@ class TankRandomizer:
                     _remove_and_replace("wwturretRotatorSoundManual", random_turret, turret)
                     _remove_and_replace("gunPosition", random_turret, turret)
 
-                    # self.copy_customization(random_turret, turret)
+                    self.copyCustomization(random_turret, turret)
 
             if self.conf.randomizeGuns:
                 for i in range(gun_count):
@@ -422,7 +411,7 @@ class TankRandomizer:
                     xml.removeAllElementsByName("drivenJoints", gun)
                     xml.replace_element(random_gun.find("drivenJoints"), gun)
 
-                    # self.copy_customization(random_gun, gun)
+                    self.copyCustomization(random_gun, gun)
 
                     is_dual_gun = configLoader.parse_bool(xml.IsDoubleGunTag, random_gun, False)
 
